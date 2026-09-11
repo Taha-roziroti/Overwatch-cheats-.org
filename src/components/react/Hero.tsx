@@ -6,13 +6,6 @@ type Props = {
 	siteName: string;
 	checkoutUrl: string;
 	monthlyPrice: number;
-	heroSrc: string;
-	heroSrcSet: string;
-	heroSizes: string;
-	heroWidth: number;
-	heroHeight: number;
-	heroVideo?: string;
-	heroVideoPoster?: string;
 	/** When true, use brand EN hero keys; otherwise localized hero.* */
 	useBrandHero?: boolean;
 };
@@ -68,108 +61,52 @@ function ChipIcon({ icon }: { icon: string }) {
 	);
 }
 
-function HeroInner({
-	siteName,
-	checkoutUrl,
-	monthlyPrice,
-	heroSrc,
-	heroSrcSet,
-	heroSizes,
-	heroWidth,
-	heroHeight,
-	heroVideo,
-	heroVideoPoster,
-	useBrandHero = true,
-}: Props) {
+function HeroInner({ siteName, checkoutUrl, monthlyPrice, useBrandHero = true }: Props) {
 	const { t } = useTranslation();
 	const title = useBrandHero ? t('hero.title') : t('hero.accent');
 	const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitle');
 	const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
-	const imageAlt = t('hero.imageAlt', { brand: siteName });
-	const poster = heroVideoPoster || heroSrc;
 
 	return (
-		<section className="hero" aria-label={title}>
-			<div className="hero__media">
-				{heroVideo ? (
-					<video
-						className="hero__video"
-						autoPlay
-						muted
-						loop
-						playsInline
-						poster={poster}
-						width={heroWidth}
-						height={heroHeight}
-					>
-						<source src={heroVideo} type="video/mp4" />
-						<img
-							src={heroSrc}
-							srcSet={heroSrcSet}
-							sizes={heroSizes}
-							alt={imageAlt}
-							width={heroWidth}
-							height={heroHeight}
-							fetchPriority="high"
-							loading="eager"
-							decoding="async"
-						/>
-					</video>
-				) : (
-					<img
-						src={heroSrc}
-						srcSet={heroSrcSet}
-						sizes={heroSizes}
-						alt={imageAlt}
-						width={heroWidth}
-						height={heroHeight}
-						fetchPriority="high"
-						loading="eager"
-						decoding="async"
-					/>
-				)}
-			</div>
-			<div className="hero__veil" aria-hidden="true" />
-			<div className="shell hero__content">
-				<div className="hero__copy">
-					<h1 className="hero__brand">
-						{useBrandHero ? <span data-edit="name">{title}</span> : title}
-					</h1>
-					<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
-						{subtitle}
-					</p>
-					<div className="hero__actions">
-						<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
-							<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-								<path
-									d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
-									stroke="currentColor"
-									strokeWidth="1.7"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								/>
-							</svg>
-							<span className="hero__buy-label" data-edit={useBrandHero ? 'ctaBuy' : undefined}>
-								{ctaBuy}
-							</span>
-							<span className="hero__buy-price">{priceLabel}</span>
-						</a>
-					</div>
-					<ul className="hero__features">
-						{chipKeys.map((chip) => (
-							<li key={chip.key}>
-								<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-									<ChipIcon icon={chip.icon} />
-								</svg>
-								<span data-edit={useBrandHero ? chip.key : undefined}>{t(`hero.${chip.key}`)}</span>
-							</li>
-						))}
-					</ul>
+		<div className="shell hero__content">
+			<div className="hero__copy">
+				<h1 className="hero__brand">
+					{useBrandHero ? <span data-edit="name">{title}</span> : title}
+				</h1>
+				<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
+					{subtitle}
+				</p>
+				<div className="hero__actions">
+					<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
+						<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+							<path
+								d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
+								stroke="currentColor"
+								strokeWidth="1.7"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+							/>
+						</svg>
+						<span className="hero__buy-label" data-edit={useBrandHero ? 'ctaBuy' : undefined}>
+							{ctaBuy}
+						</span>
+						<span className="hero__buy-price">{priceLabel}</span>
+					</a>
 				</div>
+				<ul className="hero__features">
+					{chipKeys.map((chip) => (
+						<li key={chip.key}>
+							<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+								<ChipIcon icon={chip.icon} />
+							</svg>
+							<span data-edit={useBrandHero ? chip.key : undefined}>{t(`hero.${chip.key}`)}</span>
+						</li>
+					))}
+				</ul>
 			</div>
-		</section>
+		</div>
 	);
 }
 

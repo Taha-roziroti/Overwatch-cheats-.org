@@ -30,6 +30,7 @@ interface Props {
 	lcpImage?: string;
 	lcpImageSrcSet?: string;
 	lcpImageSizes?: string;
+	lcpVideo?: string;
 }
 
 const {
@@ -48,6 +49,7 @@ const {
 	lcpImage,
 	lcpImageSrcSet,
 	lcpImageSizes = '100vw',
+	lcpVideo,
 } = Astro.props;
 
 const canonicalURL = buildCanonicalUrl(canonicalPath);
@@ -190,7 +192,9 @@ if (aboutNode) {
 		<meta name="author" content={siteConfig.name} />
 		<link rel="canonical" href={canonicalURL} />
 		{
-			lcpImageSrcSet ? (
+			lcpVideo ? (
+				<link rel="preload" as="video" href={lcpVideo} type="video/mp4" fetchpriority="high" />
+			) : lcpImageSrcSet ? (
 				<link
 					rel="preload"
 					as="image"
