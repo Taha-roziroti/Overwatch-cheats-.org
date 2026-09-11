@@ -281,8 +281,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'rankedGrind42',
 		rating: 4,
-		text: 'I have used Destiny 2 Cheats since last wipe. Soft aim per weapon helps in dorms. Status updates after BattlEye patches could be clearer, but it came back the next day.',
-		short: 'Soft aim per weapon in Destiny 2 Cheats helps in dorms.',
+		text: 'I have used Destiny 2 Cheats since Lightfall. Soft aim per weapon helps in Crucible and Trials. Status updates after BattlEye patches could be clearer, but it came back the next day.',
+		short: 'Soft aim per weapon in Destiny 2 Cheats helps in Crucible.',
 		slug: 'destiny-2-aim-assist-raid-review-rankedgrind42',
 		seoTitle: 'Raid Soft Aim by @rankedGrind42 — 4/5 | {brand}',
 		seoDescription: '@rankedGrind42 rates {brand} soft aim 4/5 for raids on Windows PC.',

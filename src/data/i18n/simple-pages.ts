@@ -135,7 +135,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'If Status is green, you can queue Crucible, Trials, or PvE. If we are rebuilding, wait for the next note.',
 				],
 				list: [
-					'Check this page before every raid after a patch',
+					'Check this page before every match after a patch',
 					'Monthly and lifetime licenses get rebuilds while active',
 					'No cheat stays undetected forever — status first, then play',
 				],
@@ -179,7 +179,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Built for Destiny 2 raids',
 				paragraphs: [
-					'Read Guardians and enemies before you push, mark loot worth the risk, and stay aware near extracts. Tune soft aim per weapon class for dorms, Factory, and long-range maps.',
+					'Read Guardians and enemies before you push, mark loot worth the risk, and stay aware of flanks. Tune soft aim per weapon class for Crucible, Trials, and raid encounters.',
 				],
 				list: [
 					'<a href="/destiny-2-esp/">ESP guide</a>',
@@ -217,7 +217,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 			{
 				h2: 'When to use it',
-				paragraphs: ['Clear dorms, Factory, and PvE activitys without flooding the screen.'],
+				paragraphs: ['Clear Crucible, Trials, and PvE activities without flooding the screen.'],
 				list: ['Tune opacity', 'Filter noise', 'Pair with radar'],
 			},
 			{
@@ -266,7 +266,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	radar: page({
 		title: 'Destiny 2 Radar | {brand}',
 		description:
-			'Destiny 2 2D radar for Destiny 2 on Windows PC — flank cues near extracts without filling the whole screen.',
+			'Destiny 2 2D radar for Destiny 2 on Windows PC — flank cues on the map without filling the whole screen.',
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
@@ -276,7 +276,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		sections: [
 			{
 				h2: 'What it shows',
-				paragraphs: ['Nearby enemy cues with adjustable range for Guardian and PvE activitys.'],
+				paragraphs: ['Nearby enemy cues with adjustable range for Guardian and PvE activities.'],
 				list: ['Flank awareness', 'Extract approaches', 'Adjustable range'],
 			},
 			{

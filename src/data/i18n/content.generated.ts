@@ -99,7 +99,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -117,7 +117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Why players choose Destiny 2 cheats in 2026",
 							paragraphs: [
-								"Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, scav-run, and competitive lobbies.",
+								"Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy Guardians and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, PvE activity, and competitive lobbies.",
 								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> and <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include BattlEye maintenance rebuilds when anti-cheat or game patches require updates.",
 								"Start with the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP guide</a>, <a href=\"/destiny-2-aimbot/\">Aimbot controls</a>, and <a href=\"/destiny-2-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
@@ -126,7 +126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP wallhack, radar hack, and Aimbot in one license",
 							paragraphs: [
-								"Instead of stacking separate tools, Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for Guardian raids and scav-runs — covering both “Destiny 2 cheats” and “Destiny 2 cheats” search intent.",
+								"Instead of stacking separate tools, Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for Guardian fireteams and PvE activities — covering both “Destiny 2 cheats” and “Destiny 2 cheats” search intent.",
 								"Browse the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, and <a href=\"/destiny-2-radar-hack/\">radar</a> pages for control details — or jump to <a href=\"/pricing/\">Pricing</a> for monthly and lifetime options.",
 								"Before patch days, check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> for Bungie service health, then confirm our maintenance notes so you are not queueing on an outdated build.",
 								"Ready to buy? Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
@@ -139,7 +139,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Destiny 2 ESP 2026 | Player Boxes & Wallhack",
 					description: "Destiny 2 ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected Destiny 2 cheats for Destiny 2.",
 					h1: "Destiny 2 ESP — Player Boxes & Wallhack",
-					intro: "Destiny 2 esp visibility tools for raid and scav-run. Read enemy squads, Guardians, enemies, loot, and distance before you commit — toggleable Destiny 2 ESP wallhack overlays bundled in our Destiny 2 cheats package.",
+					intro: "Destiny 2 esp visibility tools for raid and PvE activity. Read enemy squads, Guardians, enemies, loot, and distance before you commit — toggleable Destiny 2 ESP wallhack overlays bundled in our Destiny 2 cheats package.",
 					imageAlt: "Destiny 2 ESP player boxes and distance readouts in a raid",
 					galleryTitle: "Destiny 2 ESP overlay visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
@@ -150,21 +150,21 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What Destiny 2 ESP solves in raids",
 							paragraphs: [
 								"Destiny 2 maps punish incomplete information. Destiny 2 Cheats ESP wallhack helps you spot enemy squads early, spot Guardians and enemies before they push your angle, and mark powerful loot worth the detour.",
-								"On raid, scav-run, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.",
+								"On raid, PvE activity, and competitive lobbies, that visibility gap is often the difference between a clean crossfire and a wiped fireteam. ESP ships bundled with radar overlays and Aimbot in one license.",
 								"Destiny 2’s live seasons and map updates are published by Bungie (<a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>). When POIs or loot rules shift, ESP categories stay useful because they track players and containers — not a single static landmark.",
 							],
 						},
 						{
 							h2: "Player, boss, and loot ESP wallhack categories",
 							paragraphs: [
-								"Toggle enemy player outlines, boss markers, extract cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.",
-								"Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports Guardian raids and scav-runs lobbies alike.",
+								"Toggle enemy Guardian outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.",
+								"Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports Guardian fireteams and PvE activities lobbies alike.",
 								"Compare category detail on the <a href=\"/destiny-2-esp/\">wallhack page</a> and pair visibility with the <a href=\"/destiny-2-radar-hack/\">radar hack</a> for flanks outside your FOV.",
 							],
 							list: [
 								"Enemy player ESP outlines with distance",
 								"Loot and container markers for faster rotations",
-								"Boss and extract awareness cues",
+								"Boss and objective awareness cues",
 								"Toggleable categories to reduce overlay noise",
 							],
 						},
@@ -173,7 +173,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Destiny 2 Cheats ESP wallhack is maintained for Destiny 2 with rebuilds after BattlEye anti-cheat patches. Check the <a href=\"/updates/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
 								"Read <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/updates/\">BattlEye bypass maintenance guide</a> after major patches.",
-								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first raid.",
+								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first match.",
 							],
 						},
 						{
@@ -202,14 +202,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot tuned for Destiny 2 combat pace",
 							paragraphs: [
 								"Destiny 2 mixes long-range AR fights with close-quarters SMG pushes. Destiny 2 Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.",
-								"Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range scav fights.",
+								"Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range firefights.",
 								"Weapon balance and season rules change via <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.",
 							],
 						},
 						{
 							h2: "Per-weapon Aimbot profiles",
 							paragraphs: [
-								"Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and dorms clears without reopening menus every raid.",
+								"Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and close-quarters pushes without reopening menus every match.",
 								"Prefer softer tracking? Read the <a href=\"/destiny-2-aimbot/\">soft aim guide</a>.",
 								"Aimbot ships alongside <a href=\"/destiny-2-esp/\">ESP wallhack</a> and <a href=\"/destiny-2-radar-hack/\">2D radar</a> in the same Destiny 2 Cheats license.",
 							],
@@ -253,15 +253,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP wallhack and visibility features",
 							paragraphs: [
-								"Enemy player ESP wallhack, boss and extract awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.",
-								"Team and enemy colour coding supports Guardian raids and scav-runs. Deep-dive the <a href=\"/destiny-2-esp/\">ESP page</a> and <a href=\"/destiny-2-esp/\">wallhack guide</a> for category-level detail.",
+								"Enemy player ESP wallhack, boss and objective awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.",
+								"Team and enemy colour coding supports Guardian fireteams and PvE activities. Deep-dive the <a href=\"/destiny-2-esp/\">ESP page</a> and <a href=\"/destiny-2-esp/\">wallhack guide</a> for category-level detail.",
 								"Map and loot systems evolve with <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.",
 							],
 						},
 						{
 							h2: "Radar hack and Aimbot controls",
 							paragraphs: [
-								"2D radar overlay with directional threat cues, configurable range for rotations and late-raid extracts, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.",
+								"2D radar overlay with directional threat cues, configurable range for rotations and late-raid objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.",
 								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Destiny 2 sessions. See <a href=\"/destiny-2-radar-hack/\">radar</a> and <a href=\"/destiny-2-aimbot/\">Aimbot</a> for settings walkthroughs.",
 								"Prefer a menu-first workflow? The <a href=\"/destiny-2-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
 							],
@@ -270,7 +270,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Licensing, delivery, and BattlEye maintenance",
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. BattlEye maintenance rebuilds publish on the <a href=\"/updates/\">Updates page</a> after anti-cheat or game patches.",
-								"Monitor <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@warthundercheat.net.",
+								"Monitor <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@destiny2cheats.org.",
 								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/destiny-2-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
@@ -369,7 +369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Destiny 2 and BattlEye anti-cheat receive frequent patches. Destiny 2 Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.",
 								"Use <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> for Bungie platform health and this page for Destiny 2 Cheats build status — both matter on big update days.",
-								"Checking this log before you queue reduces surprises after game days or seasonal launches on raid and scav-run.",
+								"Checking this log before you queue reduces surprises after game days or seasonal launches on raid and PvE activity.",
 							],
 						},
 						{
@@ -406,8 +406,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What is Destiny 2 Cheats?",
 							paragraphs: [
 								"Destiny 2 Cheats is an undetected cheat package for Destiny 2 on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with BattlEye maintenance updates.",
-								"Packages cover raid and scav-run. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/destiny-2-esp/\">ESP</a> / <a href=\"/destiny-2-aimbot/\">Aimbot</a> for module detail.",
-								"Destiny 2 itself is published by Bungie (<a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>). Cheats are third-party tools and may violate Bungie' rules — use is at your own risk.",
+								"Packages cover raid and PvE activity. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/destiny-2-esp/\">ESP</a> / <a href=\"/destiny-2-aimbot/\">Aimbot</a> for module detail.",
+								"Destiny 2 itself is published by Bungie (<a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>). Cheats are crossfire tools and may violate Bungie' rules — use is at your own risk.",
 							],
 						},
 						{
@@ -422,7 +422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Delivery, pricing, and support",
 							paragraphs: [
 								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/pricing/\">Pricing</a>.",
-								"Contact support@warthundercheat.net or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
+								"Contact support@destiny2cheats.org or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
 								"Refund eligibility is covered in the <a href=\"/refund-policy/\">Refund Policy</a>.",
 							],
 						},
@@ -460,7 +460,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Self-service resources",
 							paragraphs: [
 								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. BattlEye bypass notes live on the dedicated <a href=\"/updates/\">BattlEye anti-cheat page</a>.",
-								"Email: support@warthundercheat.net",
+								"Email: support@destiny2cheats.org",
 								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
 						},
@@ -509,7 +509,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Destiny 2 Wallhack 2026 | ESP Boxes & Visibility",
 					description: "Destiny 2 wallhack ESP with player boxes and loot markers for Windows PC. Undetected Destiny 2 cheats — learn overlays and buy.",
 					h1: "Destiny 2 Wallhack — ESP Boxes & Visibility",
-					intro: "Destiny 2 wallhack ESP for Destiny 2 — see players, loot, bosses, and containers through toggleable wallhack overlays built for Guardian raids and scav-runs.",
+					intro: "Destiny 2 wallhack ESP for Destiny 2 — see players, loot, bosses, and containers through toggleable wallhack overlays built for Guardian fireteams and PvE activities.",
 					imageAlt: "Destiny 2 wallhack visibility through walls in a raid",
 					galleryTitle: "Destiny 2 wallhack ESP gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
@@ -520,14 +520,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Wallhack ESP vs raw aim tools",
 							paragraphs: [
 								"A Destiny 2 wallhack focuses on information — player outlines, loot pins, boss threat cues — rather than automatic aiming. Destiny 2 Cheats bundles wallhack ESP with radar and optional Aimbot in one license.",
-								"Toggle categories so only the wallhack overlays you need stay active during rotations and extract holds.",
+								"Toggle categories so only the wallhack overlays you need stay active during rotations and zone holds.",
 								"For the broader ESP keyword page see <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a>; for combat assist see <a href=\"/destiny-2-aimbot/\">Aimbot</a>.",
 							],
 						},
 						{
 							h2: "Map coverage for wallhack ESP",
 							paragraphs: [
-								"Wallhack overlays support raid, scav-run, and competitive lobbies with distance readouts and snaplines for engagement control.",
+								"Wallhack overlays support raid, PvE activity, and competitive lobbies with distance readouts and snaplines for engagement control.",
 								"Season maps and POI changes are announced via <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
 								"Pair wallhack awareness with <a href=\"/destiny-2-radar-hack/\">radar hack</a> cues for flanks during building and rooftop fights.",
 							],
@@ -558,14 +558,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Why radar hack matters in Destiny 2",
 							paragraphs: [
 								"raids fights happen in three dimensions — rooftops, windows, and flanks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third party.",
-								"Destiny 2 Cheats radar complements <a href=\"/destiny-2-esp/\">ESP wallhack</a> markers during squad pushes and extract camp fights.",
+								"Destiny 2 Cheats radar complements <a href=\"/destiny-2-esp/\">ESP wallhack</a> markers during squad pushes and objective camp fights.",
 								"Mode rules and seasonal changes come from <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Radar range remains configurable when map scale or mobility meta shifts.",
 							],
 						},
 						{
 							h2: "Configurable radar range",
 							paragraphs: [
-								"Adjust radar range for early rotations versus tight extract holds. Directional cues highlight flanks during building clears and flank pushes across raid and scav-run.",
+								"Adjust radar range for early rotations versus tight zone holds. Directional cues highlight flanks during building clears and flank pushes across raid and PvE activity.",
 								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/destiny-2-cheats/\">mod menu</a> page.",
 								"Combat follow-up lives on <a href=\"/destiny-2-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
@@ -635,7 +635,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2026 seasons bring new maps, weapons, and BattlEye anti-cheat updates. Destiny 2 Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.",
 								"Track official season messaging on <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>, then use our <a href=\"/updates/\">Updates log</a> for product rebuild timing.",
-								"Monthly ($35) and lifetime ($150) plans cover raid and scav-run loops — see <a href=\"/pricing/\">Pricing</a>.",
+								"Monthly ($35) and lifetime ($150) plans cover raid and PvE activity loops — see <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 						{
@@ -651,7 +651,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Read the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
 								"Also compare the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> checklist, <a href=\"/blog/destiny-2-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
-								"Support is available at support@warthundercheat.net via the <a href=\"/support/\">Support page</a>.",
+								"Support is available at support@destiny2cheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
 					],
@@ -661,7 +661,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Destiny 2 Cheats 2026 | Undetected ESP Aimbot Guide",
 					description: "Destiny 2 cheats for Windows PC: undetected ESP wallhack, radar hack, and Aimbot with BattlEye maintenance. Compare Destiny 2 cheats options and buy the full package.",
 					h1: "Destiny 2 Cheats — Undetected ESP, Aimbot & Wallhack",
-					intro: "Destiny 2 cheats for raid and scav-run combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after BattlEye anti-cheat patches. This is the pillar guide for Destiny 2 cheats in 2026.",
+					intro: "Destiny 2 cheats for raid and PvE activity combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after BattlEye anti-cheat patches. This is the pillar guide for Destiny 2 cheats in 2026.",
 					imageAlt: "Destiny 2 Cheats product page — ESP, aimbot, and radar",
 					galleryTitle: "Destiny 2 cheats gallery — ESP, Aimbot, wallhack",
 					ctaPrimary: "Buy Destiny 2 Cheats",
@@ -672,7 +672,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What Destiny 2 cheats include in 2026",
 							paragraphs: [
 								"Players searching for Destiny 2 cheats usually want visibility and combat tools without stacking separate downloads. Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called Destiny 2 cheats.",
-								"Coverage spans raid and scav-run with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
+								"Coverage spans raid and PvE activity with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
 								"Official game updates come from <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>; our hacks package tracks those releases via the <a href=\"/updates/\">Updates page</a>. Cross-check platform health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> before patch-day queues.",
 							],
 						},
@@ -725,7 +725,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What your download unlocks",
 							paragraphs: [
-								"Every Destiny 2 cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for Guardian raids and scav-runs.",
+								"Every Destiny 2 cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for Guardian fireteams and PvE activities.",
 								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"/pricing/\">Pricing page</a>.",
 								"Feature detail: <a href=\"/features/\">Features</a>. Module pages: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>.",
 							],
@@ -761,9 +761,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Mod menu categories for Guardian raids and scav-runs",
+							h2: "Mod menu categories for Guardian fireteams and PvE activities",
 							paragraphs: [
-								"Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and extract holds.",
+								"Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and zone holds.",
 								"Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.destiny-2} seasons change fight distances and mobility.",
 								"Soft tracking players should start with <a href=\"/destiny-2-aimbot/\">soft aim</a> profiles before aggressive FOV.",
 							],
@@ -832,7 +832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What makes the Destiny 2 cheats in 2026",
 							paragraphs: [
 								"The Destiny 2 cheats combine active BattlEye maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
-								"Destiny 2 Cheats covers raid and scav-run with in-client toggles and post-patch rebuilds.",
+								"Destiny 2 Cheats covers raid and PvE activity with in-client toggles and post-patch rebuilds.",
 								"Verify the live game is healthy via <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a>, then confirm our <a href=\"/updates/\">Updates</a> note before you judge any package “best.”",
 							],
 						},
@@ -870,14 +870,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Destiny 2 aimbot hack vs visibility tools",
 							paragraphs: [
 								"A Destiny 2 aimbot hack focuses on assisted targeting during firefights — while ESP wallhack and radar handle map awareness. Destiny 2 Cheats bundles aimbot hack modules with visibility overlays in one license.",
-								"Smoothness, FOV, and sensitivity controls tune assist for Destiny 2 combat pace across Guardian raids and scav-runs.",
+								"Smoothness, FOV, and sensitivity controls tune assist for Destiny 2 combat pace across Guardian fireteams and PvE activities.",
 								"Prefer softer tracking language? See <a href=\"/destiny-2-aimbot/\">soft aim</a>. Full settings: <a href=\"/destiny-2-aimbot/\">Aimbot page</a>.",
 							],
 						},
 						{
 							h2: "Aimbot hack controls and hotkeys",
 							paragraphs: [
-								"Bone priority options cover head, chest, or dynamic targets. Hotkeys enable or disable aimbot hack mid-match without opening menus during rotations or late-raid extracts.",
+								"Bone priority options cover head, chest, or dynamic targets. Hotkeys enable or disable aimbot hack mid-match without opening menus during rotations or late-raid objectives.",
 								"Per-weapon profile slots separate long-range AR tuning from close-quarters SMG settings.",
 								"Balance patches from <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> can change ideal FOV — retune after major weapon updates.",
 							],
@@ -897,7 +897,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Destiny 2 ESP Hack 2026 | Player Boxes & Loot",
 					description: "Destiny 2 ESP hack with player boxes and loot markers for Windows PC. Undetected Destiny 2 cheats with — see overlays and buy.",
 					h1: "Destiny 2 ESP Hack — Player Boxes Guide",
-					intro: "Destiny 2 ESP hack overlays for Destiny 2 — player outlines, boss threat cues, loot and container markers with distance readouts across raid and scav-run.",
+					intro: "Destiny 2 ESP hack overlays for Destiny 2 — player outlines, boss threat cues, loot and container markers with distance readouts across raid and PvE activity.",
 					imageAlt: "Destiny 2 ESP hack boxes and loot markers",
 					galleryTitle: "Destiny 2 ESP hack gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
@@ -907,8 +907,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What a Destiny 2 ESP hack shows",
 							paragraphs: [
-								"A Destiny 2 ESP hack renders enemy player outlines, vehicle positions, and loot pins through walls and terrain — closing the information gap before you commit to a fight.",
-								"Distance readouts and snapline options help control engagement range during squad pushes and third-party scenarios.",
+								"A Destiny 2 ESP hack renders enemy Guardian outlines, vehicle positions, and loot pins through walls and terrain — closing the information gap before you commit to a fight.",
+								"Distance readouts and snapline options help control engagement range during squad pushes and crossfire scenarios.",
 								"Canonical visibility guide: <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a>. Wallhack wording: <a href=\"/destiny-2-esp/\">wallhack</a>.",
 							],
 						},
@@ -916,7 +916,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP hack categories for raids",
 							paragraphs: [
 								"Toggle player ESP hack, loot markers, chest pins, and vehicle cues independently so only raid-critical overlays stay active during rotations.",
-								"Team and enemy colour coding supports Guardian raids and scav-runs.",
+								"Team and enemy colour coding supports Guardian fireteams and PvE activities.",
 								"POI and loot changes publish through <a href=\"https://www.bungie.net/7/en/Destiny2\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> — keep categories toggled to what the current map rewards.",
 							],
 						},
@@ -971,9 +971,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				privacy: {
 					title: "Privacy Policy | Destiny 2 Cheats",
-					description: "Privacy policy for Destiny 2 Cheats. How we handle support emails, order data, and checkout for Destiny 2 cheats licenses on warthundercheat.net.",
+					description: "Privacy policy for Destiny 2 Cheats. How we handle support emails, order data, and checkout for Destiny 2 cheats licenses on destiny2cheats.org.",
 					h1: "Privacy Policy",
-					intro: "How Destiny 2 Cheats handles information when you browse warthundercheat.net or contact support about a Destiny 2 license.",
+					intro: "How Destiny 2 Cheats handles information when you browse destiny2cheats.org or contact support about a Destiny 2 license.",
 					imageAlt: "Destiny 2 Cheats privacy policy page",
 					galleryTitle: "Destiny 2 Cheats legal resources",
 					ctaPrimary: "Email support",
@@ -1002,8 +1002,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your choices and contact",
 							paragraphs: [
-								"You may request correction or deletion of support email data by contacting support@warthundercheat.net with your request details.",
-								"Policy updates publish on this page. Continued use of warthundercheat.net after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund-policy/\">Refund Policy</a>.",
+								"You may request correction or deletion of support email data by contacting support@destiny2cheats.org with your request details.",
+								"Policy updates publish on this page. Continued use of destiny2cheats.org after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund-policy/\">Refund Policy</a>.",
 							],
 						},
 					],
@@ -1037,7 +1037,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request a refund",
 							paragraphs: [
-								"Email support@warthundercheat.net with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
+								"Email support@destiny2cheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
 								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
@@ -1046,9 +1046,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				terms: {
 					title: "Terms of Use 2026 | Destiny 2 Cheats Rules",
-					description: "Terms of use for warthundercheat.net and Destiny 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
+					description: "Terms of use for destiny2cheats.org and Destiny 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
 					h1: "Terms of Use",
-					intro: "Terms governing use of warthundercheat.net and Destiny 2 Cheats licenses for Destiny 2 on Windows PC.",
+					intro: "Terms governing use of destiny2cheats.org and Destiny 2 Cheats licenses for Destiny 2 on Windows PC.",
 					imageAlt: "Destiny 2 Cheats terms of use page",
 					galleryTitle: "Destiny 2 Cheats legal pages",
 					ctaPrimary: "Email support",
@@ -1073,7 +1073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Changes and governing law",
 							paragraphs: [
 								"We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.",
-								"Contact support@warthundercheat.net for questions. Related policies: <a href=\"/privacy-policy/\">Privacy</a> and <a href=\"/refund-policy/\">Refunds</a>.",
+								"Contact support@destiny2cheats.org for questions. Related policies: <a href=\"/privacy-policy/\">Privacy</a> and <a href=\"/refund-policy/\">Refunds</a>.",
 							],
 						},
 					],
@@ -1150,7 +1150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -1169,7 +1169,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por qué eligen Destiny 2 Cheats en 2026",
 							paragraphs: [
-								"Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Ideal para leer escuadrones enemigos en BR y scav-run.",
+								"Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Ideal para leer escuadrones enemigos en BR y PvE activity.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
 							],
 						},
@@ -1212,7 +1212,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1247,7 +1247,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1282,7 +1282,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1317,7 +1317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1352,7 +1352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1387,7 +1387,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1422,7 +1422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1457,7 +1457,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1492,7 +1492,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1527,7 +1527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1562,7 +1562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1597,7 +1597,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1632,7 +1632,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1667,7 +1667,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1702,7 +1702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1737,7 +1737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1772,7 +1772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1807,7 +1807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1842,7 +1842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1877,7 +1877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1912,7 +1912,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen BattlEye anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1921,7 +1921,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidad | Destiny 2 Cheats",
 					description: "Política de privacidad for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de privacidad",
-					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Política de privacidad for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Política de privacidad for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -1933,7 +1933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Información que recopilamos",
 							paragraphs: [
 								"Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -1946,8 +1946,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Tus derechos",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -1956,7 +1956,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | Destiny 2 Cheats",
 					description: "Política de reembolso for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de reembolso",
-					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Política de reembolso for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Política de reembolso for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -1981,8 +1981,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cómo solicitar",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -1991,7 +1991,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Términos de uso | Destiny 2 Cheats",
 					description: "Términos de uso for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Términos de uso",
-					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Términos de uso for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats ofrece ESP wallhack, radar hack y Destiny 2 aimbot indetectables para Destiny 2 en Windows PC. Términos de uso for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -2016,8 +2016,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cambios",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@destiny2cheats.org para solicitudes legales o de soporte.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -2093,7 +2093,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -2112,7 +2112,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Pourquoi choisir Destiny 2 Cheats en 2026",
 							paragraphs: [
-								"Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Parfait pour lire les escouades ennemies en BR et scav-run.",
+								"Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Parfait pour lire les escouades ennemies en BR et PvE activity.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
 							],
 						},
@@ -2155,7 +2155,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2190,7 +2190,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2225,7 +2225,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2260,7 +2260,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2295,7 +2295,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2330,7 +2330,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2365,7 +2365,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2400,7 +2400,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2435,7 +2435,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2470,7 +2470,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2505,7 +2505,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2540,7 +2540,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2575,7 +2575,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2610,7 +2610,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2645,7 +2645,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2680,7 +2680,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2715,7 +2715,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2750,7 +2750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2785,7 +2785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2820,7 +2820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2855,7 +2855,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance BattlEye anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2864,7 +2864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de confidentialité | Destiny 2 Cheats",
 					description: "Politique de confidentialité for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de confidentialité",
-					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Politique de confidentialité for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Politique de confidentialité for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -2876,7 +2876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Informations collectées",
 							paragraphs: [
 								"Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -2889,8 +2889,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vos droits",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -2899,7 +2899,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de remboursement | Destiny 2 Cheats",
 					description: "Politique de remboursement for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de remboursement",
-					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Politique de remboursement for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Politique de remboursement for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -2924,8 +2924,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Comment demander",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -2934,7 +2934,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Conditions d'utilisation | Destiny 2 Cheats",
 					description: "Conditions d'utilisation for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Conditions d'utilisation",
-					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Conditions d'utilisation for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combine ESP wallhack, radar hack et Destiny 2 aimbot indétectables pour Destiny 2 sur PC Windows. Conditions d'utilisation for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -2959,8 +2959,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Modifications",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@destiny2cheats.org pour le support ou les demandes légales.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -3036,7 +3036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -3055,7 +3055,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Warum Destiny 2 Cheats 2026 führt",
 							paragraphs: [
-								"Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Ideal um feindliche Squads in BR und scav-run zu lesen.",
+								"Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Ideal um feindliche Squads in BR und PvE activity zu lesen.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
 							],
 						},
@@ -3098,7 +3098,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3133,7 +3133,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3168,7 +3168,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3203,7 +3203,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3238,7 +3238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3273,7 +3273,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3308,7 +3308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3343,7 +3343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3378,7 +3378,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3413,7 +3413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3448,7 +3448,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3483,7 +3483,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3518,7 +3518,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3553,7 +3553,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3588,7 +3588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3623,7 +3623,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3658,7 +3658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3693,7 +3693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3728,7 +3728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3763,7 +3763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3798,7 +3798,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. BattlEye anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3807,7 +3807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Datenschutz | Destiny 2 Cheats",
 					description: "Datenschutz for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Datenschutz",
-					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Datenschutz for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Datenschutz for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -3819,7 +3819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Erhobene Daten",
 							paragraphs: [
 								"Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -3832,8 +3832,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Ihre Rechte",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -3842,7 +3842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Rückerstattung | Destiny 2 Cheats",
 					description: "Rückerstattung for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Rückerstattung",
-					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Rückerstattung for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Rückerstattung for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -3867,8 +3867,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Anfrage stellen",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -3877,7 +3877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Nutzungsbedingungen | Destiny 2 Cheats",
 					description: "Nutzungsbedingungen for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Nutzungsbedingungen",
-					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Nutzungsbedingungen for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bündelt ESP wallhack, radar hack und Destiny 2 aimbot als undetected Paket für Destiny 2 auf Windows PC. Nutzungsbedingungen for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -3902,8 +3902,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Änderungen",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org für Support und rechtliche Anfragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -3979,7 +3979,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -3998,7 +3998,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por que escolher Destiny 2 Cheats em 2026",
 							paragraphs: [
-								"Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Ideal para ler esquadrões inimigos em BR e scav-run.",
+								"Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Ideal para ler esquadrões inimigos em BR e PvE activity.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
 							],
 						},
@@ -4041,7 +4041,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4076,7 +4076,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4111,7 +4111,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4146,7 +4146,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4181,7 +4181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4216,7 +4216,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4251,7 +4251,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4286,7 +4286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4321,7 +4321,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4356,7 +4356,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4391,7 +4391,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4426,7 +4426,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4461,7 +4461,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4496,7 +4496,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4531,7 +4531,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4566,7 +4566,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4601,7 +4601,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4636,7 +4636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4671,7 +4671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4706,7 +4706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4741,7 +4741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção BattlEye anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4750,7 +4750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidade | Destiny 2 Cheats",
 					description: "Política de privacidade for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de privacidade",
-					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Política de privacidade for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Política de privacidade for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -4762,7 +4762,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -4775,8 +4775,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -4785,7 +4785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | Destiny 2 Cheats",
 					description: "Política de reembolso for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de reembolso",
-					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Política de reembolso for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Política de reembolso for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -4810,8 +4810,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -4820,7 +4820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termos de uso | Destiny 2 Cheats",
 					description: "Termos de uso for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termos de uso",
-					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Termos de uso for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats reúne ESP wallhack, radar hack e Destiny 2 aimbot indetectáveis para Destiny 2 no PC Windows. Termos de uso for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -4845,8 +4845,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@destiny2cheats.org para suporte ou questões legais.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -4922,7 +4922,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -4941,7 +4941,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Perché scegliere Destiny 2 Cheats nel 2026",
 							paragraphs: [
-								"Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Ideale per leggere squadre nemiche in BR e scav-run.",
+								"Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Ideale per leggere squadre nemiche in BR e PvE activity.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
 							],
 						},
@@ -4984,7 +4984,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5019,7 +5019,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5054,7 +5054,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5089,7 +5089,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5124,7 +5124,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5159,7 +5159,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5194,7 +5194,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5229,7 +5229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5264,7 +5264,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5299,7 +5299,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5334,7 +5334,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5369,7 +5369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5404,7 +5404,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5439,7 +5439,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5474,7 +5474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5509,7 +5509,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5544,7 +5544,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5579,7 +5579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5614,7 +5614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5649,7 +5649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5684,7 +5684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione BattlEye anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5693,7 +5693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Informativa privacy | Destiny 2 Cheats",
 					description: "Informativa privacy for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Informativa privacy",
-					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Informativa privacy for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Informativa privacy for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -5705,7 +5705,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -5718,8 +5718,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -5728,7 +5728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica di rimborso | Destiny 2 Cheats",
 					description: "Politica di rimborso for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica di rimborso",
-					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Politica di rimborso for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Politica di rimborso for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -5753,8 +5753,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -5763,7 +5763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termini di utilizzo | Destiny 2 Cheats",
 					description: "Termini di utilizzo for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termini di utilizzo",
-					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Termini di utilizzo for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats unisce ESP wallhack, radar hack e Destiny 2 aimbot indetectable per Destiny 2 su PC Windows. Termini di utilizzo for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -5788,8 +5788,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@destiny2cheats.org per supporto o richieste legali.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -5865,7 +5865,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -5884,7 +5884,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Waarom Destiny 2 Cheats in 2026",
 							paragraphs: [
-								"Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Ideaal om vijandelijke squads te lezen in BR en scav-run.",
+								"Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Ideaal om vijandelijke squads te lezen in BR en PvE activity.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
 							],
 						},
@@ -5927,7 +5927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5962,7 +5962,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5997,7 +5997,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6032,7 +6032,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6067,7 +6067,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6102,7 +6102,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6137,7 +6137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6172,7 +6172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6207,7 +6207,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6242,7 +6242,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6277,7 +6277,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6312,7 +6312,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6347,7 +6347,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6382,7 +6382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6417,7 +6417,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6452,7 +6452,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6487,7 +6487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6522,7 +6522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6557,7 +6557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6592,7 +6592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6627,7 +6627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. BattlEye anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@destiny2cheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6636,7 +6636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Privacybeleid | Destiny 2 Cheats",
 					description: "Privacybeleid for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Privacybeleid",
-					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Privacybeleid for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Privacybeleid for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -6648,7 +6648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -6661,8 +6661,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org voor support en juridische vragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -6671,7 +6671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Restitutiebeleid | Destiny 2 Cheats",
 					description: "Restitutiebeleid for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Restitutiebeleid",
-					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Restitutiebeleid for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Restitutiebeleid for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -6696,8 +6696,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org voor support en juridische vragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -6706,7 +6706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gebruiksvoorwaarden | Destiny 2 Cheats",
 					description: "Gebruiksvoorwaarden for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gebruiksvoorwaarden",
-					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Gebruiksvoorwaarden for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats bundelt ESP wallhack, radar hack en Destiny 2 aimbot als undetected pakket voor Destiny 2 op Windows PC. Gebruiksvoorwaarden for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -6731,8 +6731,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org voor support en juridische vragen.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -6808,7 +6808,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -6827,7 +6827,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Dlaczego Destiny 2 Cheats w 2026",
 							paragraphs: [
-								"Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Idealny do czytania wrogich squadów w BR i scav-run.",
+								"Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Idealny do czytania wrogich squadów w BR i PvE activity.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
 							],
 						},
@@ -6870,7 +6870,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6905,7 +6905,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6940,7 +6940,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6975,7 +6975,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7010,7 +7010,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7045,7 +7045,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7080,7 +7080,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7115,7 +7115,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7150,7 +7150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7185,7 +7185,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7220,7 +7220,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7255,7 +7255,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7290,7 +7290,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7325,7 +7325,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7360,7 +7360,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7395,7 +7395,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7430,7 +7430,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7465,7 +7465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7500,7 +7500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7535,7 +7535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7570,7 +7570,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją BattlEye anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7579,7 +7579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka prywatności | Destiny 2 Cheats",
 					description: "Polityka prywatności for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka prywatności",
-					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Polityka prywatności for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Polityka prywatności for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -7591,7 +7591,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -7604,8 +7604,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -7614,7 +7614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka zwrotów | Destiny 2 Cheats",
 					description: "Polityka zwrotów for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka zwrotów",
-					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Polityka zwrotów for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Polityka zwrotów for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -7639,8 +7639,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -7649,7 +7649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Warunki użytkowania | Destiny 2 Cheats",
 					description: "Warunki użytkowania for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Warunki użytkowania",
-					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Warunki użytkowania for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats łączy ESP wallhack, radar hack i Destiny 2 aimbot jako pakiet undetected dla Destiny 2 na PC Windows. Warunki użytkowania for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -7674,8 +7674,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -7751,7 +7751,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -7770,7 +7770,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Почему выбирают Destiny 2 Cheats в 2026",
 							paragraphs: [
-								"Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Идеально для чтения вражеских отрядов в BR и scav-run.",
+								"Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Идеально для чтения вражеских отрядов в BR и PvE activity.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
 							],
 						},
@@ -7813,7 +7813,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7848,7 +7848,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7883,7 +7883,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7918,7 +7918,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7953,7 +7953,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7988,7 +7988,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8023,7 +8023,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8058,7 +8058,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8093,7 +8093,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8128,7 +8128,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8163,7 +8163,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8198,7 +8198,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8233,7 +8233,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8268,7 +8268,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8303,7 +8303,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8338,7 +8338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8373,7 +8373,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8408,7 +8408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8443,7 +8443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8478,7 +8478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8513,7 +8513,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание BattlEye anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8522,7 +8522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика конфиденциальности | Destiny 2 Cheats",
 					description: "Политика конфиденциальности for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика конфиденциальности",
-					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Политика конфиденциальности for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Политика конфиденциальности for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -8534,7 +8534,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -8547,8 +8547,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -8557,7 +8557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика возврата | Destiny 2 Cheats",
 					description: "Политика возврата for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика возврата",
-					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Политика возврата for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Политика возврата for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -8582,8 +8582,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -8592,7 +8592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Условия использования | Destiny 2 Cheats",
 					description: "Условия использования for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Условия использования",
-					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Условия использования for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats объединяет ESP wallhack, radar hack и Destiny 2 aimbot в undetected пакете для Destiny 2 на Windows PC. Условия использования for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -8617,8 +8617,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для поддержки и юридических вопросов.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -8694,7 +8694,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -8713,7 +8713,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026'da neden Destiny 2 Cheats",
 							paragraphs: [
-								"Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. BR ve scav-run'da düşman squad okumak için ideal.",
+								"Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. BR ve PvE activity'da düşman squad okumak için ideal.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
 							],
 						},
@@ -8756,7 +8756,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8791,7 +8791,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8826,7 +8826,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8861,7 +8861,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8896,7 +8896,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8931,7 +8931,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -8966,7 +8966,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9001,7 +9001,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9036,7 +9036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9071,7 +9071,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9106,7 +9106,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9141,7 +9141,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9176,7 +9176,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9211,7 +9211,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9246,7 +9246,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9281,7 +9281,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9316,7 +9316,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9351,7 +9351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9386,7 +9386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9421,7 +9421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9456,7 +9456,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları BattlEye anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
 							],
 						},
 					],
@@ -9465,7 +9465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gizlilik politikası | Destiny 2 Cheats",
 					description: "Gizlilik politikası for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gizlilik politikası",
-					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. Gizlilik politikası for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. Gizlilik politikası for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -9477,7 +9477,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -9490,8 +9490,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -9500,7 +9500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "İade politikası | Destiny 2 Cheats",
 					description: "İade politikası for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "İade politikası",
-					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. İade politikası for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. İade politikası for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -9525,8 +9525,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -9535,7 +9535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kullanım şartları | Destiny 2 Cheats",
 					description: "Kullanım şartları for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Kullanım şartları",
-					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. Kullanım şartları for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats, Destiny 2 için Windows PC üzerinde ESP wallhack, radar hack ve Destiny 2 aimbot undetected paket sunar. Kullanım şartları for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -9560,8 +9560,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@destiny2cheats.org.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -9637,7 +9637,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -9656,7 +9656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "لماذا Destiny 2 Cheats في 2026",
 							paragraphs: [
-								"Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. مثالي لقراءة فرق العدو في BR وscav-run.",
+								"Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. مثالي لقراءة فرق العدو في BR وPvE activity.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
 							],
 						},
@@ -9699,7 +9699,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9734,7 +9734,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9769,7 +9769,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9804,7 +9804,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9839,7 +9839,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9874,7 +9874,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9909,7 +9909,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9944,7 +9944,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9979,7 +9979,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10014,7 +10014,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10049,7 +10049,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10084,7 +10084,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10119,7 +10119,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10154,7 +10154,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10189,7 +10189,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10224,7 +10224,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10259,7 +10259,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10294,7 +10294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10329,7 +10329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10364,7 +10364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10399,7 +10399,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة BattlEye anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10408,7 +10408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الخصوصية | Destiny 2 Cheats",
 					description: "سياسة الخصوصية for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الخصوصية",
-					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. سياسة الخصوصية for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. سياسة الخصوصية for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -10420,7 +10420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "المعلومات التي نجمعها",
 							paragraphs: [
 								"Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -10433,8 +10433,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "حقوقك",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10443,7 +10443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الاسترداد | Destiny 2 Cheats",
 					description: "سياسة الاسترداد for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الاسترداد",
-					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. سياسة الاسترداد for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. سياسة الاسترداد for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -10468,8 +10468,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "كيفية الطلب",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10478,7 +10478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "شروط الاستخدام | Destiny 2 Cheats",
 					description: "شروط الاستخدام for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "شروط الاستخدام",
-					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. شروط الاستخدام for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats يجمع ESP wallhack وradar hack وDestiny 2 aimbot غير مكتشف لـ Destiny 2 على Windows PC. شروط الاستخدام for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -10503,8 +10503,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "التغييرات",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org للدعم والطلبات القانونية.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10580,7 +10580,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -10599,7 +10599,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年にDestiny 2 Cheatsを選ぶ理由",
 							paragraphs: [
-								"Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。BRとscav-runで敵スクワッドを読むのに最適。",
+								"Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。BRとPvE activityで敵スクワッドを読むのに最適。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
 							],
 						},
@@ -10642,7 +10642,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10677,7 +10677,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10712,7 +10712,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10747,7 +10747,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10782,7 +10782,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10817,7 +10817,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10852,7 +10852,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10887,7 +10887,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10922,7 +10922,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10957,7 +10957,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -10992,7 +10992,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11027,7 +11027,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11062,7 +11062,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11097,7 +11097,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11132,7 +11132,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11167,7 +11167,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11202,7 +11202,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11237,7 +11237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11272,7 +11272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11307,7 +11307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11342,7 +11342,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBattlEye anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11351,7 +11351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "プライバシーポリシー | Destiny 2 Cheats",
 					description: "プライバシーポリシー for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "プライバシーポリシー",
-					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。プライバシーポリシー for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。プライバシーポリシー for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -11363,7 +11363,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "収集する情報",
 							paragraphs: [
 								"Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -11376,8 +11376,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "あなたの権利",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11386,7 +11386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "返金ポリシー | Destiny 2 Cheats",
 					description: "返金ポリシー for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "返金ポリシー",
-					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。返金ポリシー for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。返金ポリシー for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -11411,8 +11411,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "申請方法",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11421,7 +11421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "利用規約 | Destiny 2 Cheats",
 					description: "利用規約 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "利用規約",
-					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。利用規約 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 CheatsはDestiny 2向けWindows PC用ESP wallhack、radar hack、Destiny 2 aimbotのundetectedパッケージです。利用規約 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -11446,8 +11446,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "変更",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11523,7 +11523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -11542,7 +11542,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026년 Destiny 2 Cheats를 선택하는 이유",
 							paragraphs: [
-								"Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. BR 및 scav-run에서 적 분대 읽기에 이상적.",
+								"Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. BR 및 PvE activity에서 적 분대 읽기에 이상적.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
 							],
 						},
@@ -11585,7 +11585,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11620,7 +11620,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11655,7 +11655,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11690,7 +11690,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11725,7 +11725,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11760,7 +11760,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11795,7 +11795,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11830,7 +11830,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11865,7 +11865,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11900,7 +11900,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11935,7 +11935,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -11970,7 +11970,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12005,7 +12005,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12040,7 +12040,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12075,7 +12075,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12110,7 +12110,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12145,7 +12145,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12180,7 +12180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12215,7 +12215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12250,7 +12250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12285,7 +12285,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 BattlEye anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12294,7 +12294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "개인정보 처리방침 | Destiny 2 Cheats",
 					description: "개인정보 처리방침 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "개인정보 처리방침",
-					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 개인정보 처리방침 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 개인정보 처리방침 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -12306,7 +12306,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -12319,8 +12319,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12329,7 +12329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "환불 정책 | Destiny 2 Cheats",
 					description: "환불 정책 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "환불 정책",
-					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 환불 정책 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 환불 정책 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -12354,8 +12354,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12364,7 +12364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "이용 약관 | Destiny 2 Cheats",
 					description: "이용 약관 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "이용 약관",
-					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 이용 약관 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats는 Destiny 2 Windows PC용 ESP wallhack, radar hack, Destiny 2 aimbot undetected 패키지입니다. 이용 약관 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -12389,8 +12389,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12466,7 +12466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -12485,7 +12485,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年选择Destiny 2 Cheats的原因",
 							paragraphs: [
-								"Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。适合在BR和scav-run中读取敌方小队。",
+								"Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。适合在BR和PvE activity中读取敌方小队。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
 							],
 						},
@@ -12528,7 +12528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12563,7 +12563,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12598,7 +12598,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12633,7 +12633,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12668,7 +12668,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12703,7 +12703,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12738,7 +12738,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12773,7 +12773,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12808,7 +12808,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12843,7 +12843,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12878,7 +12878,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12913,7 +12913,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12948,7 +12948,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -12983,7 +12983,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13018,7 +13018,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13053,7 +13053,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13088,7 +13088,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13123,7 +13123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13158,7 +13158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13193,7 +13193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13228,7 +13228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含BattlEye anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13237,7 +13237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "隐私政策 | Destiny 2 Cheats",
 					description: "隐私政策 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "隐私政策",
-					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。隐私政策 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。隐私政策 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -13249,7 +13249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -13262,8 +13262,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13272,7 +13272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "退款政策 | Destiny 2 Cheats",
 					description: "退款政策 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "退款政策",
-					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。退款政策 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。退款政策 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -13297,8 +13297,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13307,7 +13307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "使用条款 | Destiny 2 Cheats",
 					description: "使用条款 for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "使用条款",
-					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。使用条款 for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats为Destiny 2Windows PC提供ESP wallhack、radar hack和Destiny 2 aimbotundetected套餐。使用条款 for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -13332,8 +13332,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13409,7 +13409,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -13428,7 +13428,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026 में Destiny 2 Cheats क्यों",
 							paragraphs: [
-								"Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। BR और scav-run में दुश्मन squad पढ़ने के लिए आदर्श.",
+								"Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। BR और PvE activity में दुश्मन squad पढ़ने के लिए आदर्श.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
 							],
 						},
@@ -13471,7 +13471,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13506,7 +13506,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13541,7 +13541,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13576,7 +13576,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13611,7 +13611,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13646,7 +13646,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13681,7 +13681,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13716,7 +13716,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13751,7 +13751,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13786,7 +13786,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13821,7 +13821,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13856,7 +13856,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13891,7 +13891,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13926,7 +13926,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13961,7 +13961,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -13996,7 +13996,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14031,7 +14031,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14066,7 +14066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14101,7 +14101,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14136,7 +14136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14171,7 +14171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में BattlEye anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14180,7 +14180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "गोपनीयता नीति | Destiny 2 Cheats",
 					description: "गोपनीयता नीति for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "गोपनीयता नीति",
-					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। गोपनीयता नीति for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। गोपनीयता नीति for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -14192,7 +14192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -14205,8 +14205,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14215,7 +14215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "रिफंड नीति | Destiny 2 Cheats",
 					description: "रिफंड नीति for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "रिफंड नीति",
-					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। रिफंड नीति for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। रिफंड नीति for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -14240,8 +14240,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14250,7 +14250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "उपयोग की शर्तें | Destiny 2 Cheats",
 					description: "उपयोग की शर्तें for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "उपयोग की शर्तें",
-					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। उपयोग की शर्तें for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats Destiny 2 के लिए Windows PC पर ESP wallhack, radar hack और Destiny 2 aimbot undetected पैकेज देता है। उपयोग की शर्तें for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -14275,8 +14275,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@destiny2cheats.org",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -14352,7 +14352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -14371,7 +14371,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Mengapa Destiny 2 Cheats di 2026",
 							paragraphs: [
-								"Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Ideal membaca squad musuh di BR dan scav-run.",
+								"Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Ideal membaca squad musuh di BR dan PvE activity.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
 							],
 						},
@@ -14414,7 +14414,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14449,7 +14449,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14484,7 +14484,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14519,7 +14519,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14554,7 +14554,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14589,7 +14589,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14624,7 +14624,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14659,7 +14659,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14694,7 +14694,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14729,7 +14729,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14764,7 +14764,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14799,7 +14799,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14834,7 +14834,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14869,7 +14869,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14904,7 +14904,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14939,7 +14939,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14974,7 +14974,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15009,7 +15009,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15044,7 +15044,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15079,7 +15079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15114,7 +15114,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan BattlEye anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15123,7 +15123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan privasi | Destiny 2 Cheats",
 					description: "Kebijakan privasi for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan privasi",
-					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Kebijakan privasi for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Kebijakan privasi for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -15135,7 +15135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -15148,8 +15148,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -15158,7 +15158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan refund | Destiny 2 Cheats",
 					description: "Kebijakan refund for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan refund",
-					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Kebijakan refund for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Kebijakan refund for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -15183,8 +15183,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -15193,7 +15193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Syarat penggunaan | Destiny 2 Cheats",
 					description: "Syarat penggunaan for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Syarat penggunaan",
-					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Syarat penggunaan for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats menyediakan ESP wallhack, radar hack, dan Destiny 2 aimbot undetected untuk Destiny 2 di PC Windows. Syarat penggunaan for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -15218,8 +15218,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org untuk dukungan dan legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -15295,7 +15295,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -15314,7 +15314,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ทำไมเลือก Destiny 2 Cheats ปี 2026",
 							paragraphs: [
-								"Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC เหมาะสำหรับอ่าน squad ศัตรูใน BR และ scav-run",
+								"Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC เหมาะสำหรับอ่าน squad ศัตรูใน BR และ PvE activity",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
 							],
 						},
@@ -15357,7 +15357,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15392,7 +15392,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15427,7 +15427,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15462,7 +15462,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15497,7 +15497,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15532,7 +15532,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15567,7 +15567,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15602,7 +15602,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15637,7 +15637,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15672,7 +15672,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15707,7 +15707,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15742,7 +15742,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15777,7 +15777,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15812,7 +15812,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15847,7 +15847,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15882,7 +15882,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15917,7 +15917,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15952,7 +15952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15987,7 +15987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16022,7 +16022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16057,7 +16057,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล BattlEye anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16066,7 +16066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายความเป็นส่วนตัว | Destiny 2 Cheats",
 					description: "นโยบายความเป็นส่วนตัว for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายความเป็นส่วนตัว",
-					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC นโยบายความเป็นส่วนตัว for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC นโยบายความเป็นส่วนตัว for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -16078,7 +16078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -16091,8 +16091,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -16101,7 +16101,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายการคืนเงิน | Destiny 2 Cheats",
 					description: "นโยบายการคืนเงิน for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายการคืนเงิน",
-					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC นโยบายการคืนเงิน for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC นโยบายการคืนเงิน for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -16126,8 +16126,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -16136,7 +16136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "ข้อกำหนดการใช้งาน | Destiny 2 Cheats",
 					description: "ข้อกำหนดการใช้งาน for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "ข้อกำหนดการใช้งาน",
-					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC ข้อกำหนดการใช้งาน for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats รวม ESP wallhack, radar hack และ Destiny 2 aimbot แบบ undetected สำหรับ Destiny 2 บน Windows PC ข้อกำหนดการใช้งาน for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -16161,8 +16161,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org สำหรับการสนับสนุน",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -16238,7 +16238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -16257,7 +16257,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vì sao chọn Destiny 2 Cheats 2026",
 							paragraphs: [
-								"Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Lý tưởng đọc squad địch trong BR và scav-run.",
+								"Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Lý tưởng đọc squad địch trong BR và PvE activity.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
 							],
 						},
@@ -16300,7 +16300,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16335,7 +16335,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16370,7 +16370,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16405,7 +16405,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16440,7 +16440,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16475,7 +16475,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16510,7 +16510,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16545,7 +16545,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16580,7 +16580,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16615,7 +16615,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16650,7 +16650,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16685,7 +16685,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16720,7 +16720,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16755,7 +16755,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16790,7 +16790,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16825,7 +16825,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16860,7 +16860,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16895,7 +16895,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16930,7 +16930,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16965,7 +16965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -17000,7 +17000,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì BattlEye anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -17009,7 +17009,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách bảo mật | Destiny 2 Cheats",
 					description: "Chính sách bảo mật for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách bảo mật",
-					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Chính sách bảo mật for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Chính sách bảo mật for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -17021,7 +17021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -17034,8 +17034,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -17044,7 +17044,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách hoàn tiền | Destiny 2 Cheats",
 					description: "Chính sách hoàn tiền for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách hoàn tiền",
-					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Chính sách hoàn tiền for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Chính sách hoàn tiền for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -17069,8 +17069,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -17079,7 +17079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Điều khoản sử dụng | Destiny 2 Cheats",
 					description: "Điều khoản sử dụng for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Điều khoản sử dụng",
-					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Điều khoản sử dụng for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats cung cấp ESP wallhack, radar hack và Destiny 2 aimbot undetected cho Destiny 2 trên PC Windows. Điều khoản sử dụng for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -17104,8 +17104,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -17181,7 +17181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -17200,7 +17200,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Чому Destiny 2 Cheats у 2026",
 							paragraphs: [
-								"Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Ідеально для читання ворожих загонів у BR і scav-run.",
+								"Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Ідеально для читання ворожих загонів у BR і PvE activity.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
 							],
 						},
@@ -17243,7 +17243,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17278,7 +17278,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17313,7 +17313,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17348,7 +17348,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17383,7 +17383,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17418,7 +17418,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17453,7 +17453,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17488,7 +17488,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17523,7 +17523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17558,7 +17558,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17593,7 +17593,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17628,7 +17628,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17663,7 +17663,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17698,7 +17698,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17733,7 +17733,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17768,7 +17768,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17803,7 +17803,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17838,7 +17838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17873,7 +17873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17908,7 +17908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17943,7 +17943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування BattlEye anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@destiny2cheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17952,7 +17952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика конфіденційності | Destiny 2 Cheats",
 					description: "Політика конфіденційності for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика конфіденційності",
-					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Політика конфіденційності for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Політика конфіденційності for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -17964,7 +17964,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -17977,8 +17977,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для підтримки та правових питань.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -17987,7 +17987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика повернення | Destiny 2 Cheats",
 					description: "Політика повернення for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика повернення",
-					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Політика повернення for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Політика повернення for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -18012,8 +18012,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для підтримки та правових питань.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -18022,7 +18022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Умови використання | Destiny 2 Cheats",
 					description: "Умови використання for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Умови використання",
-					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Умови використання for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats об'єднує ESP wallhack, radar hack і Destiny 2 aimbot у undetected пакеті для Destiny 2 на Windows PC. Умови використання for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -18047,8 +18047,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org для підтримки та правових питань.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -18124,7 +18124,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -18143,7 +18143,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Proč Destiny 2 Cheats v roce 2026",
 							paragraphs: [
-								"Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Ideální pro čtení nepřátelských squadů v BR a scav-run.",
+								"Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Ideální pro čtení nepřátelských squadů v BR a PvE activity.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
 							],
 						},
@@ -18186,7 +18186,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18221,7 +18221,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18256,7 +18256,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18291,7 +18291,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18326,7 +18326,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18361,7 +18361,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18396,7 +18396,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18431,7 +18431,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18466,7 +18466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18501,7 +18501,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18536,7 +18536,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18571,7 +18571,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18606,7 +18606,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18641,7 +18641,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18676,7 +18676,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18711,7 +18711,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18746,7 +18746,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18781,7 +18781,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18816,7 +18816,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18851,7 +18851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18886,7 +18886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby BattlEye anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18895,7 +18895,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady ochrany soukromí | Destiny 2 Cheats",
 					description: "Zásady ochrany soukromí for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady ochrany soukromí",
-					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Zásady ochrany soukromí for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Zásady ochrany soukromí for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -18907,7 +18907,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -18920,8 +18920,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -18930,7 +18930,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady vrácení peněz | Destiny 2 Cheats",
 					description: "Zásady vrácení peněz for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady vrácení peněz",
-					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Zásady vrácení peněz for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Zásady vrácení peněz for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -18955,8 +18955,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -18965,7 +18965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Podmínky použití | Destiny 2 Cheats",
 					description: "Podmínky použití for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Podmínky použití",
-					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Podmínky použití for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats spojuje ESP wallhack, radar hack a Destiny 2 aimbot jako undetected balíček pro Destiny 2 na Windows PC. Podmínky použití for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -18990,8 +18990,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pro podporu a právní dotazy.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -19067,7 +19067,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -19086,7 +19086,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "De ce Destiny 2 Cheats în 2026",
 							paragraphs: [
-								"Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Ideal pentru citirea squad-urilor inamice în BR și scav-run.",
+								"Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Ideal pentru citirea squad-urilor inamice în BR și PvE activity.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
 							],
 						},
@@ -19129,7 +19129,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19164,7 +19164,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19199,7 +19199,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19234,7 +19234,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19269,7 +19269,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19304,7 +19304,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19339,7 +19339,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19374,7 +19374,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19409,7 +19409,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19444,7 +19444,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19479,7 +19479,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19514,7 +19514,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19549,7 +19549,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19584,7 +19584,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19619,7 +19619,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19654,7 +19654,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19689,7 +19689,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19724,7 +19724,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19759,7 +19759,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19794,7 +19794,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19829,7 +19829,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță BattlEye anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@destiny2cheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19838,7 +19838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de confidențialitate | Destiny 2 Cheats",
 					description: "Politica de confidențialitate for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de confidențialitate",
-					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Politica de confidențialitate for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Politica de confidențialitate for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -19850,7 +19850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -19863,8 +19863,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pentru suport și legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -19873,7 +19873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de rambursare | Destiny 2 Cheats",
 					description: "Politica de rambursare for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de rambursare",
-					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Politica de rambursare for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Politica de rambursare for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -19898,8 +19898,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pentru suport și legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -19908,7 +19908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termeni de utilizare | Destiny 2 Cheats",
 					description: "Termeni de utilizare for Destiny 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termeni de utilizare",
-					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Termeni de utilizare for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats combină ESP wallhack, radar hack și Destiny 2 aimbot undetected pentru Destiny 2 pe PC Windows. Termeni de utilizare for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -19933,8 +19933,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org pentru suport și legal.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -20010,7 +20010,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					cheatsPackage: "2D radar threat overlay for Destiny 2",
 					rebootFight: "Aimbot assist during a Destiny 2 firefight",
 					battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-					battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+					battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 				},
 			},
 			pages: {
@@ -20029,7 +20029,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Varför Destiny 2 Cheats 2026",
 							paragraphs: [
-								"Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Ideal för att läsa fiendesquads i BR och scav-run.",
+								"Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Ideal för att läsa fiendesquads i BR och PvE activity.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
 							],
 						},
@@ -20072,7 +20072,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20107,7 +20107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20142,7 +20142,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20177,7 +20177,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20212,7 +20212,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20247,7 +20247,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20282,7 +20282,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20317,7 +20317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20352,7 +20352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20387,7 +20387,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20422,7 +20422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20457,7 +20457,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20492,7 +20492,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20527,7 +20527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20562,7 +20562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20597,7 +20597,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20632,7 +20632,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20667,7 +20667,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20702,7 +20702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20737,7 +20737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20772,7 +20772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. BattlEye anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@destiny2cheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20781,7 +20781,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Integritetspolicy | Destiny 2 Cheats",
 					description: "Integritetspolicy for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Integritetspolicy",
-					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Integritetspolicy for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Integritetspolicy for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
@@ -20793,7 +20793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed by Zadeyo checkout — not stored on warthundercheat.net.",
+								"Payment details are processed by Zadeyo checkout — not stored on destiny2cheats.org.",
 							],
 						},
 						{
@@ -20806,8 +20806,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org för support och juridik.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -20816,7 +20816,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Återbetalningspolicy | Destiny 2 Cheats",
 					description: "Återbetalningspolicy for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Återbetalningspolicy",
-					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Återbetalningspolicy for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Återbetalningspolicy for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-raid.webp",
@@ -20841,8 +20841,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org för support och juridik.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],
@@ -20851,7 +20851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Användarvillkor | Destiny 2 Cheats",
 					description: "Användarvillkor for Destiny 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Användarvillkor",
-					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Användarvillkor for warthundercheat.net and Destiny 2 licenses.",
+					intro: "Destiny 2 Cheats kombinerar ESP wallhack, radar hack och Destiny 2 aimbot som undetected paket för Destiny 2 på Windows PC. Användarvillkor for destiny2cheats.org and Destiny 2 licenses.",
 					imageAlt: "Destiny 2 cheats",
 					galleryTitle: "Destiny 2 cheats",
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
@@ -20876,8 +20876,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@destiny2cheats.org för support och juridik.",
+								"Email: support@destiny2cheats.org",
 							],
 						},
 					],

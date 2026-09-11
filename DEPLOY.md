@@ -1,11 +1,11 @@
-# Deploy warthundercheat.net
+# Deploy destiny2cheats.org
 
-Step-by-step guide to deploy the Destiny 2 Cheats static site to **warthundercheat.net** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the Destiny 2 Cheats static site to **destiny2cheats.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **warthundercheat.net** DNS
+- Cloudflare account with access to **destiny2cheats.org** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -48,9 +48,9 @@ This runs `wrangler pages deploy dist --project-name=warthundercheat` (see `wran
 
 ## 3. Custom domain and DNS
 
-Add **warthundercheat.net** as the primary custom domain on the Pages project.
+Add **destiny2cheats.org** as the primary custom domain on the Pages project.
 
-### Apex (warthundercheat.net)
+### Apex (destiny2cheats.org)
 
 In **Cloudflare DNS** for the zone:
 
@@ -64,11 +64,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.warthundercheat.net/*`
-   - **Target:** `https://warthundercheat.net/${1}`
+   - **Source:** `www.destiny2cheats.org/*`
+   - **Target:** `https://destiny2cheats.org/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`warthundercheat.net`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`destiny2cheats.org`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -80,31 +80,31 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://warthundercheat.net/`
-- `https://warthundercheat.net/es/`
-- `https://warthundercheat.net/destiny-2-cheats/`
-- `https://warthundercheat.net/destiny-2-aimbot/`
-- `https://warthundercheat.net/sitemap.xml`
-- `https://warthundercheat.net/robots.txt`
+- `https://destiny2cheats.org/`
+- `https://destiny2cheats.org/es/`
+- `https://destiny2cheats.org/destiny-2-cheats/`
+- `https://destiny2cheats.org/destiny-2-aimbot/`
+- `https://destiny2cheats.org/sitemap.xml`
+- `https://destiny2cheats.org/robots.txt`
 
 Verify redirects:
 
-- `http://warthundercheat.net` → `https://warthundercheat.net` (301)
-- `https://www.warthundercheat.net` → `https://warthundercheat.net` (301)
-- Legacy domains (e.g. `warthundercheat.net`) → `https://warthundercheat.net` (301)
+- `http://destiny2cheats.org` → `https://destiny2cheats.org` (301)
+- `https://www.destiny2cheats.org` → `https://destiny2cheats.org` (301)
+- Legacy domains (e.g. `destiny2cheats.org`) → `https://destiny2cheats.org` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
 - Legacy paths (e.g. `/fortnite-hacks/`) → Destiny 2 equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `warthundercheat.net`.
+2. **Add property** → choose **Domain** → enter `destiny2cheats.org`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://warthundercheat.net/sitemap.xml
+   https://destiny2cheats.org/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `warthundercheat.net` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `destiny2cheats.org` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
    - Pillar page (`/destiny-2-cheats/`)
@@ -126,11 +126,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `warthundercheat.net` attached and active
+- [ ] Custom domain `destiny2cheats.org` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `warthundercheat.net`
+- [ ] Legacy domains 301 to `destiny2cheats.org`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://warthundercheat.net`
+- [ ] `robots.txt` and sitemaps serve from `https://destiny2cheats.org`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
 - [ ] Homepage and `/destiny-2-cheats/` requested for indexing

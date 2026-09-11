@@ -1,6 +1,6 @@
-# Destiny 2 Cheats — warthundercheat.net
+# Destiny 2 Cheats — destiny2cheats.org
 
-Static Astro 7 marketing site for [warthundercheat.net](https://warthundercheat.net). Primary SEO keyword: **Destiny 2 cheats**.
+Static Astro 7 marketing site for [destiny2cheats.org](https://destiny2cheats.org). Primary SEO keyword: **Destiny 2 cheats**.
 
 ## Stack
 
@@ -48,8 +48,8 @@ Configured in `src/data/brand.ts` → `checkoutUrl`.
 2. Connect this repo or upload `dist/` after `npm run build`
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Add custom domain **warthundercheat.net**
+5. Add custom domain **destiny2cheats.org**
 
 ## License
 
-Private — for warthundercheat.net deployment only.
+Private — for destiny2cheats.org deployment only.

@@ -95,7 +95,7 @@ export const blogUi: Record<
 	en: {
 		blogTitle: 'Destiny 2 Cheats Blog | Raid Guides',
 		blogDescription:
-			'Destiny 2 guides — raid tips, ESP, aimbot notes, loot routes, and BattlEye update coverage. English blog at warthundercheat.net/blog/.',
+			'Destiny 2 guides — raid tips, ESP, aimbot notes, loot routes, and BattlEye update coverage. English blog at destiny2cheats.org/blog/.',
 		blogH1: 'Destiny 2 Cheats Intel',
 		blogIntro:
 			'Short Destiny 2 guides for Crucible, Trials, and PvE activities. Pair these tips with the Destiny 2 Cheats product pages when you need ESP, soft aim, or radar.',

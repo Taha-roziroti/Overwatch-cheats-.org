@@ -9,10 +9,10 @@ export const brand = {
 	/** Short product label if needed */
 	shortName: 'Destiny 2',
 	/** Canonical origin — no trailing slash */
-	url: 'https://warthundercheat.net',
+	url: 'https://destiny2cheats.org',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@warthundercheat.net',
+	supportEmail: 'support@destiny2cheats.org',
 	checkoutUrl: 'https://zadeyo.com/go/TAHA?to=%2Fproducts%2Fdestiny-2',
 
 	/** Game this template instance targets */
@@ -27,7 +27,7 @@ export const brand = {
 	logoAlt: 'Destiny 2 Cheats logo',
 	defaultOgImage: '/images/destiny-2-hero-poster.webp',
 	heroImage: '/images/destiny-2-hero-poster.webp',
-	/** Set after uploading to public/videos/destiny-2-hero.mp4 — until then poster shows */
+	/** Set to /videos/destiny-2-hero.mp4 after uploading the hero clip — until then poster shows */
 	heroVideo: '',
 	heroVideoPoster: '/images/destiny-2-hero-poster.webp',
 
