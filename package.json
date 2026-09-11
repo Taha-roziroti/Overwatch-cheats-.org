@@ -7,6 +7,8 @@
 	},
 	"scripts": {
 		"dev": "astro dev",
+		"dev:clean": "astro dev stop 2>/dev/null || true; rm -rf node_modules/.vite .astro; astro dev",
+		"dev:restart": "astro dev stop 2>/dev/null || true; astro dev",
 		"sync:brand": "node scripts/sync-brand.mjs && node scripts/sync-cannibal-redirects.mjs",
 		"prebuild": "node scripts/sync-brand.mjs && node scripts/sync-cannibal-redirects.mjs",
 		"build": "astro build",
