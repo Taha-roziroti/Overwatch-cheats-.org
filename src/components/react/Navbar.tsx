@@ -22,18 +22,6 @@ type Props = {
 	links: NavLink[];
 };
 
-const icons: Record<string, string> = {
-	hacks:
-		'M12 3.5l7.5 4.2v8.6L12 20.5l-7.5-4.2V7.7L12 3.5zm0 2.2L6.8 8.5v6.9L12 18.3l5.2-2.9V8.5L12 5.7z',
-	esp: 'M12 5a7 7 0 100 14 7 7 0 000-14zm0 2.2a4.8 4.8 0 110 9.6 4.8 4.8 0 010-9.6zM12 10.2v2.4l1.8 1.1',
-	pricing:
-		'M7.5 7.2h9M7.5 12h9M7.5 16.8H14M5 4.8h14a1.2 1.2 0 011.2 1.2v12a1.2 1.2 0 01-1.2 1.2H5A1.2 1.2 0 013.8 18V6A1.2 1.2 0 015 4.8z',
-	updates:
-		'M12 4.2v3.2M12 16.6v3.2M4.2 12h3.2M16.6 12h3.2M7.1 7.1l2.3 2.3M14.6 14.6l2.3 2.3M16.9 7.1l-2.3 2.3M9.4 14.6l-2.3 2.3',
-	reviews:
-		'M12 4.5l1.8 4.9H19l-4.1 3.2 1.6 5L12 14.9 7.5 17.6l1.6-5L5 9.4h5.2L12 4.5z',
-};
-
 function NavbarInner({
 	locale,
 	checkoutUrl,
@@ -75,15 +63,6 @@ function NavbarInner({
 				<nav className="site-nav" aria-label={t('nav.primaryAria')}>
 					{navLinks.map((item) => (
 						<a key={item.id} href={item.href} className={item.active ? 'is-active' : undefined}>
-							<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-								<path
-									d={icons[item.id]}
-									stroke="currentColor"
-									strokeWidth="1.6"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-								/>
-							</svg>
 							<span data-edit={item.edit}>{item.label}</span>
 						</a>
 					))}
