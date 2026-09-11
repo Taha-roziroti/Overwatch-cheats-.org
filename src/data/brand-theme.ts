@@ -37,8 +37,8 @@ export type BrandThemeResolved = {
 };
 
 export const themeDefaults: BrandThemeInput = {
-	accent: '#c026d3',
-	bg: '#08090a',
+	accent: '#AA0003',
+	bg: '#FAFBFD',
 };
 
 export const themePresets: { id: string; label: string; accent: string; bg: string }[] = [
@@ -137,7 +137,20 @@ function mixHex(a: string, b: string, t: number): string {
 	return rgbToHex(A.r + (B.r - A.r) * u, A.g + (B.g - A.g) * u, A.b + (B.b - A.b) * u);
 }
 
-/** Build a full dark UI palette from accent + canvas (+ optional tone overrides). */
+function relativeLuminance(hex: string): number {
+	const { r, g, b } = hexToRgb(hex);
+	const channel = (c: number) => {
+		const s = c / 255;
+		return s <= 0.03928 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4;
+	};
+	return 0.2126 * channel(r) + 0.7152 * channel(g) + 0.0722 * channel(b);
+}
+
+function isLightCanvas(hex: string): boolean {
+	return relativeLuminance(hex) > 0.6;
+}
+
+/** Build a full UI palette from accent + canvas (+ optional tone overrides). */
 export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThemeResolved {
 	const accent = normalizeHex(input.accent) ?? themeDefaults.accent;
 	const bg = normalizeHex(input.bg) ?? themeDefaults.bg;
@@ -145,18 +158,47 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 	const softAuto = hslToHex(a.h, clamp(a.s * 0.85, 0.35, 1), clamp(a.l + 0.22, 0.55, 0.82));
 	const deepAuto = hslToHex(a.h, clamp(a.s * 1.05, 0.4, 1), clamp(a.l - 0.18, 0.22, 0.45));
 	const hoverAuto = hslToHex(a.h, clamp(a.s * 0.95, 0.35, 1), clamp(a.l + 0.1, 0.45, 0.72));
-	const panelAuto = mixHex(bg, '#ffffff', 0.035);
-
-	const soft = normalizeHex(input.soft) ?? softAuto;
+	const light = isLightCanvas(bg);
+	const softInput = normalizeHex(input.soft);
+	const soft = softInput ?? softAuto;
 	const deep = normalizeHex(input.deep) ?? deepAuto;
 	const hover = normalizeHex(input.hover) ?? hoverAuto;
-	const bgPanel = normalizeHex(input.panel) ?? panelAuto;
-	const bgElevated = mixHex(bg, '#ffffff', 0.07);
-	const bgHover = mixHex(bg, '#ffffff', 0.1);
-	const lineSoft = mixHex(bg, '#ffffff', 0.08);
-	const line = mixHex(bg, '#ffffff', 0.12);
-	const lineStrong = mixHex(bg, '#ffffff', 0.18);
-	const toneVoid = mixHex(bg, '#000000', 0.35);
+	const inkBase = light ? '#1a1218' : '#FAFBFD';
+
+	let bgPanel: string;
+	let bgElevated: string;
+	let bgHover: string;
+	let lineSoft: string;
+	let line: string;
+	let lineStrong: string;
+	let toneVoid: string;
+	let ink: string;
+	let inkMuted: string;
+	let inkFaint: string;
+
+	if (light) {
+		bgPanel = normalizeHex(input.panel) ?? mixHex(bg, soft, 0.1);
+		bgElevated = mixHex(bg, soft, 0.2);
+		bgHover = mixHex(bg, soft, 0.32);
+		lineSoft = mixHex(soft, inkBase, 0.28);
+		line = mixHex(soft, inkBase, 0.42);
+		lineStrong = mixHex(soft, inkBase, 0.55);
+		toneVoid = mixHex(bg, soft, 0.16);
+		ink = inkBase;
+		inkMuted = mixHex(inkBase, soft, 0.58);
+		inkFaint = mixHex(inkBase, soft, 0.42);
+	} else {
+		bgPanel = normalizeHex(input.panel) ?? mixHex(bg, '#ffffff', 0.035);
+		bgElevated = mixHex(bg, '#ffffff', 0.07);
+		bgHover = mixHex(bg, '#ffffff', 0.1);
+		lineSoft = mixHex(bg, '#ffffff', 0.08);
+		line = mixHex(bg, '#ffffff', 0.12);
+		lineStrong = mixHex(bg, '#ffffff', 0.18);
+		toneVoid = mixHex(bg, '#000000', 0.35);
+		ink = '#FAFBFD';
+		inkMuted = '#a1a1aa';
+		inkFaint = '#8b8b93';
+	}
 
 	return {
 		accent,
@@ -170,11 +212,11 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 		line,
 		lineSoft,
 		lineStrong,
-		ink: '#f5f5f7',
-		inkMuted: '#a1a1aa',
-		inkFaint: '#8b8b93',
-		ok: '#34d399',
-		warn: '#f43f5e',
+		ink,
+		inkMuted,
+		inkFaint,
+		ok: light ? '#2d7a52' : '#34d399',
+		warn: light ? accent : '#f43f5e',
 		toneVoid,
 	};
 }

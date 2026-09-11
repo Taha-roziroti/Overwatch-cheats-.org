@@ -210,7 +210,7 @@ const links = [
 		border: 1px solid var(--line-soft);
 		border-radius: 999px;
 		background: color-mix(in srgb, var(--bg-elevated) 65%, transparent);
-		box-shadow: inset 0 1px 0 color-mix(in srgb, #fff 5%, transparent);
+		box-shadow: inset 0 1px 0 color-mix(in srgb, var(--bg) 80%, transparent);
 	}
 
 	.site-nav a {
@@ -237,8 +237,8 @@ const links = [
 	}
 
 	.site-nav a:hover {
-		color: var(--ink);
-		background: color-mix(in srgb, #fff 5%, transparent);
+		color: var(--accent);
+		background: color-mix(in srgb, var(--accent) 8%, transparent);
 	}
 
 	.site-nav a:hover svg,
@@ -248,9 +248,9 @@ const links = [
 	}
 
 	.site-nav a.is-active {
-		color: var(--ink);
-		background: color-mix(in srgb, #fff 10%, transparent);
-		box-shadow: inset 0 0 0 1px color-mix(in srgb, #fff 6%, transparent);
+		color: var(--accent);
+		background: color-mix(in srgb, var(--accent) 10%, transparent);
+		box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent);
 	}
 
 	.site-tools {
@@ -272,8 +272,8 @@ const links = [
 		height: auto;
 		padding: 0 1rem;
 		border-radius: 999px;
-		background: #fff;
-		color: #09090b;
+		background: var(--accent);
+		color: #FAFBFD;
 		font-size: 0.8125rem;
 		font-weight: 600;
 		letter-spacing: -0.01em;
@@ -288,8 +288,8 @@ const links = [
 	}
 
 	.site-tools__buy:hover {
-		background: #ececef;
-		color: #09090b;
+		background: var(--accent-hover);
+		color: #FAFBFD;
 		transform: translateY(-1px);
 	}
 
@@ -403,14 +403,14 @@ const links = [
 		justify-content: center;
 		min-height: 2.85rem;
 		border-radius: 999px;
-		background: #fff;
-		color: #09090b;
+		background: var(--accent);
+		color: #FAFBFD;
 		font-weight: 600;
 	}
 
 	.site-panel__buy:hover {
-		background: #e4e4e7;
-		color: #09090b;
+		background: var(--accent-hover);
+		color: #FAFBFD;
 	}
 
 	@media (max-width: 1024px) {
