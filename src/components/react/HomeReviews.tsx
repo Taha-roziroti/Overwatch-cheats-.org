@@ -45,8 +45,10 @@ function HomeReviewsInner({
 			<div className="shell">
 				<header className="reviews__head">
 					<div className="reviews__head-copy">
-						<p className="reviews__eyebrow">{t('reviews.eyebrow')}</p>
-						<h2 id="reviews-title">{t('reviews.homeTitle')}</h2>
+						<h2 id="reviews-title" className="reviews__section-title">
+							{t('reviews.eyebrow')}
+						</h2>
+						<p className="reviews__section-sub">{t('reviews.homeTitle')}</p>
 					</div>
 					<div
 						className="reviews__score"

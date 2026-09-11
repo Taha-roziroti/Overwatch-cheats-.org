@@ -66,11 +66,11 @@
   },
   "reviews": {
     "title": "What players say",
-    "subtitle": "Recent feedback from Destiny 2 Cheats buyers",
+    "subtitle": "What buyers said after checkout",
     "outOf": "out of 5",
     "countLabel": "reviews",
     "eyebrow": "Reviews",
-    "homeTitle": "Destiny 2 Cheats reviews",
+    "homeTitle": "What players say",
     "buyerReviews": "{{count}} buyer reviews",
     "averageAria": "{{rating}} average from {{count}} reviews",
     "outOfFiveAria": "{{rating}} out of 5",

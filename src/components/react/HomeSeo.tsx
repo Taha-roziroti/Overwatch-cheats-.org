@@ -58,8 +58,10 @@ function HomeSeoInner({ faqs }: Props) {
 		<section className="home-seo shell" aria-labelledby="home-seo-title">
 			<header className="home-seo__head">
 				<div>
-					<p className="home-seo__eyebrow">{t('homeSeo.eyebrow')}</p>
-					<h2 id="home-seo-title">{t('homeSeo.title')}</h2>
+					<h2 id="home-seo-title" className="home-seo__section-title">
+						{t('homeSeo.eyebrow')}
+					</h2>
+					<p className="home-seo__section-sub">{t('homeSeo.title')}</p>
 					<p className="home-seo__lede">{t('homeSeo.lede')}</p>
 				</div>
 			</header>
@@ -88,8 +90,10 @@ function HomeSeoInner({ faqs }: Props) {
 			<section className="home-seo__faq" aria-labelledby="home-faq-title">
 				<header className="home-seo__faq-head">
 					<div>
-						<p className="home-seo__eyebrow">{t('homeSeo.faqEyebrow')}</p>
-						<h3 id="home-faq-title">{t('homeSeo.faqTitle')}</h3>
+						<h3 id="home-faq-title" className="home-seo__section-title">
+							{t('homeSeo.faqEyebrow')}
+						</h3>
+						<p className="home-seo__section-sub">{t('homeSeo.faqTitle')}</p>
 						<p className="home-seo__faq-lede">{t('homeSeo.faqLede')}</p>
 					</div>
 					<a className="home-seo__faq-link" href="/faq/">
