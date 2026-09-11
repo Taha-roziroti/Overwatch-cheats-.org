@@ -193,7 +193,7 @@ if (aboutNode) {
 		<link rel="canonical" href={canonicalURL} />
 		{
 			lcpVideo ? (
-				<link rel="preload" as="video" href={lcpVideo} type="video/mp4" fetchpriority="high" />
+				<link rel="preload" href={lcpVideo} as="fetch" type="video/mp4" crossorigin="anonymous" fetchpriority="high" />
 			) : lcpImageSrcSet ? (
 				<link
 					rel="preload"
