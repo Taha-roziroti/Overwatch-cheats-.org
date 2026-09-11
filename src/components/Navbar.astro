@@ -207,22 +207,20 @@ const links = [
 	}
 
 	.site-header__bar {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+		position: relative;
+		display: flex;
 		align-items: center;
+		justify-content: center;
 		min-height: var(--header-h);
-		gap: 0.75rem;
 	}
 
 	.site-nav {
-		grid-column: 2;
-		grid-row: 1;
-		justify-self: center;
 		display: flex;
-		align-items: stretch;
-		justify-content: space-between;
-		gap: 0.15rem;
-		width: min(42rem, calc(100vw - var(--page-gutter) * 2 - 12rem));
+		align-items: center;
+		justify-content: space-evenly;
+		gap: 0;
+		width: min(calc(100% - 11.5rem), 38rem);
+		max-width: 100%;
 		min-width: 0;
 		padding: 0.28rem;
 		border: 1px solid var(--line-soft);
@@ -244,8 +242,8 @@ const links = [
 		align-items: center;
 		justify-content: center;
 		flex: 1 1 0;
-		min-width: 4.5rem;
-		padding: 0.45rem 0.75rem;
+		min-width: 0;
+		padding: 0.48rem 0.65rem;
 		border-radius: 999px;
 		font-size: 0.8125rem;
 		font-weight: 500;
@@ -270,14 +268,16 @@ const links = [
 	}
 
 	.site-tools {
-		grid-column: 3;
-		grid-row: 1;
-		justify-self: end;
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
 		gap: 0.45rem;
 		flex-shrink: 0;
+		z-index: 2;
 	}
 
 	.site-tools__lang {
@@ -324,27 +324,31 @@ const links = [
 
 	@media (max-width: 1024px) {
 		.site-header__bar {
+			display: grid;
 			grid-template-columns: minmax(0, 1fr) auto;
+			align-items: center;
 			gap: 0.5rem;
 		}
 
 		.site-nav {
-			grid-column: 1;
-			justify-self: stretch;
+			position: static;
 			width: auto;
 			max-width: none;
-			padding: 0.2rem;
+			justify-content: space-between;
+			padding: 0.22rem 0.28rem;
 			border-radius: var(--radius-md);
 		}
 
 		.site-tools {
-			grid-column: 2;
+			position: static;
+			transform: none;
 		}
 
 		.site-nav a {
-			min-width: 3.75rem;
-			padding: 0.4rem 0.5rem;
-			font-size: 0.78rem;
+			flex: 1 1 0;
+			min-width: 0;
+			padding: 0.42rem 0.35rem;
+			font-size: 0.76rem;
 		}
 
 		.site-tools__lang .lang-switcher__toggle,
@@ -364,8 +368,7 @@ const links = [
 		}
 
 		.site-nav a {
-			min-width: 3.25rem;
-			padding: 0.35rem 0.4rem;
+			padding: 0.38rem 0.25rem;
 			font-size: 0.72rem;
 		}
 
