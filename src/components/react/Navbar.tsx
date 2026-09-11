@@ -12,7 +12,7 @@ type NavLink = {
 
 type Props = {
 	locale: string;
-	siteName: string;
+	siteName?: string;
 	checkoutUrl: string;
 	currentPath: string;
 	homeHref: string;
@@ -36,7 +36,6 @@ const icons: Record<string, string> = {
 
 function NavbarInner({
 	locale,
-	siteName,
 	checkoutUrl,
 	currentPath,
 	homeHref,
@@ -95,9 +94,13 @@ function NavbarInner({
 	return (
 		<header className={`site-header${scrolled || open ? ' is-scrolled' : ''}${open ? ' is-open' : ''}`} data-nav>
 			<div className="shell site-header__bar">
-				<a className="site-brand" href={homeHref} data-edit="name">
-					{siteName}
-				</a>
+				<div className="site-header__lang">
+					<LanguageSwitcher
+						currentLocale={locale}
+						locales={locales}
+						hrefForLocale={hrefForLocale}
+					/>
+				</div>
 				<nav className="site-nav" aria-label={t('nav.primaryAria')}>
 					{navLinks.map((item) => (
 						<a key={item.id} href={item.href} className={item.active ? 'is-active' : undefined}>
@@ -116,13 +119,6 @@ function NavbarInner({
 				</nav>
 
 				<div className="site-tools">
-					<div className="site-tools__lang">
-						<LanguageSwitcher
-							currentLocale={locale}
-							locales={locales}
-							hrefForLocale={hrefForLocale}
-						/>
-					</div>
 					<a
 						href={checkoutUrl}
 						className="site-tools__buy"
@@ -182,13 +178,6 @@ function NavbarInner({
 							))}
 						</nav>
 						<div className="site-panel__foot">
-							<div className="site-panel__lang">
-								<LanguageSwitcher
-									currentLocale={locale}
-									locales={locales}
-									hrefForLocale={hrefForLocale}
-								/>
-							</div>
 							<a href={checkoutUrl} className="site-panel__buy" rel="noopener noreferrer">
 								<span data-edit="ctaBuy">{t('cta.buy')}</span>
 							</a>
