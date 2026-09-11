@@ -47,6 +47,7 @@ const localeMetas = locales.map((l) => ({
 }));
 
 const links = [
+	{ id: 'home', labelKey: 'nav.home', href: getLocalizedPath('home', locale) },
 	{ id: 'hacks', labelKey: 'nav.preview', edit: 'navPreview', href: getLocalizedPath('hacks', locale) },
 	{ id: 'esp', labelKey: 'nav.features', edit: 'navFeatures', href: getLocalizedPath('features', locale) },
 	{ id: 'pricing', labelKey: 'nav.store', edit: 'navStore', href: getLocalizedPath('pricing', locale) },

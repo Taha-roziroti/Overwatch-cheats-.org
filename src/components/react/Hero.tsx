@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 
@@ -88,35 +89,56 @@ function HeroInner({
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
 	const imageAlt = t('hero.imageAlt', { brand: siteName });
-	const poster = heroVideoPoster || heroSrc;
+	const videoRef = useRef<HTMLVideoElement>(null);
+
+	useEffect(() => {
+		const video = videoRef.current;
+		if (!video) return;
+		video.muted = true;
+		video.defaultMuted = true;
+		video.playsInline = true;
+		const play = () => {
+			const attempt = video.play();
+			if (attempt && typeof attempt.catch === 'function') attempt.catch(() => {});
+		};
+		video.addEventListener('loadeddata', play);
+		video.addEventListener('canplay', play);
+		video.addEventListener('canplaythrough', play);
+		play();
+		let tries = 0;
+		const retry = window.setInterval(() => {
+			if (video.paused && tries < 12) {
+				play();
+				tries += 1;
+				return;
+			}
+			window.clearInterval(retry);
+		}, 400);
+		return () => {
+			window.clearInterval(retry);
+			video.removeEventListener('loadeddata', play);
+			video.removeEventListener('canplay', play);
+			video.removeEventListener('canplaythrough', play);
+		};
+	}, [heroVideo]);
 
 	return (
 		<section className="hero" aria-label={title}>
 			<div className="hero__media">
 				{heroVideo ? (
 					<video
+						ref={videoRef}
 						className="hero__video"
+						src={heroVideo}
 						autoPlay
 						muted
 						loop
 						playsInline
-						poster={poster}
+						preload="auto"
 						width={heroWidth}
 						height={heroHeight}
-					>
-						<source src={heroVideo} type="video/mp4" />
-						<img
-							src={heroSrc}
-							srcSet={heroSrcSet}
-							sizes={heroSizes}
-							alt={imageAlt}
-							width={heroWidth}
-							height={heroHeight}
-							fetchPriority="high"
-							loading="eager"
-							decoding="async"
-						/>
-					</video>
+						aria-hidden="true"
+					/>
 				) : (
 					<img
 						src={heroSrc}
