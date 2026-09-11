@@ -5,10 +5,11 @@ import SiteFooter from './SiteFooter.astro';
 import { blogUi, defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import {
 	absoluteBlogUrl,
-	getAllPostsForLocale,
 	getBlogBasePath,
 	getBlogPostHreflangAlternates,
+	getRelatedPosts,
 } from '../data/blog/helpers';
+import OfficialResources from './OfficialResources.astro';
 import type { ResolvedBlogPost } from '../data/blog/types';
 import { blogLabel, siteConfig } from '../data/site';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
@@ -23,9 +24,7 @@ const ui = blogUi[locale];
 const t = post.translation;
 const homeHref = getLocalizedPath('home', locale);
 const blogHref = getBlogBasePath(defaultLocale);
-const related = getAllPostsForLocale(defaultLocale)
-	.filter((p) => p.id !== post.id)
-	.slice(0, 3);
+const related = getRelatedPosts(post, 3);
 
 const articleUrl = absoluteBlogUrl(defaultLocale, post.translations[defaultLocale]?.slug ?? t.slug);
 const hreflangAlternates = getBlogPostHreflangAlternates(post, locale);
@@ -143,9 +142,18 @@ function pageTitle(headline: string): string {
 							</li>
 						))}
 					</ul>
+					<p class="post__related-more">
+						<a href="/destiny-2-cheats/">Cheats overview</a>
+						{' · '}
+						<a href="/guides/">Guides hub</a>
+						{' · '}
+						<a href="/features/">Features</a>
+					</p>
 				</section>
 			)
 		}
+
+		{locale === 'en' && <OfficialResources locale={locale} />}
 			</div>
 		</div>
 	</main>
@@ -240,5 +248,16 @@ function pageTitle(headline: string): string {
 	}
 	.post__related a:hover {
 		text-decoration: underline;
+	}
+
+	.post__related-more {
+		margin: 1rem 0 0;
+		font-size: 0.85rem;
+		color: var(--ink-faint);
+	}
+
+	.post__related-more a {
+		color: var(--ink-muted);
+		font-weight: 600;
 	}
 </style>

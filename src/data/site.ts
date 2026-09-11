@@ -12,6 +12,9 @@ export {
 } from './site-core';
 
 import { fillBrandTokens } from './brand';
+import { englishPaths } from './i18n/routing';
+import { sitePaths as p } from './site-paths';
+import { reviewsBasePath } from './reviews';
 
 function faq<T extends { question: string; answer: string; seoTitle: string; seoDescription: string }>(item: T): T {
 	return {
@@ -44,7 +47,7 @@ export const seoLandingPages = [
 	{ label: fillBrandTokens('{primaryKeyword}'), href: '/destiny-2-cheats/' },
 	{ label: fillBrandTokens('{game} esp'), href: '/destiny-2-esp/' },
 	{ label: fillBrandTokens('{game} aimbot'), href: '/destiny-2-aimbot/' },
-	{ label: fillBrandTokens('{game} setup'), href: '/setup/' },
+	{ label: fillBrandTokens('{game} setup'), href: p.setup },
 	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/destiny-2-cheats/' },
 	{ label: fillBrandTokens('{game} wallhack'), href: '/destiny-2-esp/' },
 	{ label: fillBrandTokens('{game} radar hack'), href: '/destiny-2-radar-hack/' },
@@ -55,35 +58,35 @@ export const mainNav = [
 	{ label: 'Cheats', href: '/destiny-2-cheats/' },
 	{ label: 'Aimbot', href: '/destiny-2-aimbot/' },
 	{ label: 'ESP', href: '/destiny-2-esp/' },
-	{ label: 'Features', href: '/features/' },
-	{ label: 'Pricing', href: '/pricing/' },
-	{ label: 'Setup', href: '/setup/' },
-	{ label: 'Updates', href: '/updates/' },
-	{ label: 'FAQ', href: '/faq/' },
+	{ label: 'Features', href: p.features },
+	{ label: 'Pricing', href: p.pricing },
+	{ label: 'Setup', href: p.setup },
+	{ label: 'Updates', href: p.updates },
+	{ label: 'FAQ', href: p.faq },
 ] as const;
 
 export const footerNav = [
-	{ label: fillBrandTokens('{game} hack update log'), href: '/updates/' },
-	{ label: fillBrandTokens('Contact {brand} support'), href: '/support/' },
-	{ label: 'Refund policy details', href: '/refund-policy/' },
-	{ label: 'Privacy policy details', href: '/privacy-policy/' },
-	{ label: 'Terms of use', href: '/terms/' },
+	{ label: fillBrandTokens('{game} hack update log'), href: p.updates },
+	{ label: fillBrandTokens('Contact {brand} support'), href: p.support },
+	{ label: 'Refund policy details', href: englishPaths.refund },
+	{ label: 'Privacy policy details', href: englishPaths.privacy },
+	{ label: 'Terms of use', href: englishPaths.terms },
 ] as const;
 
 export const footerExplore = [
 	{ label: fillBrandTokens('{brand} home'), href: '/' },
 	{ label: fillBrandTokens('{game} hacks pillar'), href: '/destiny-2-cheats/' },
-	{ label: fillBrandTokens('Live {game} status'), href: '/updates/' },
+	{ label: fillBrandTokens('Live {game} status'), href: p.updates },
 	{ label: fillBrandTokens('{game} ESP overlays'), href: '/destiny-2-esp/' },
 	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/destiny-2-aimbot/' },
 	{ label: fillBrandTokens('{game} radar hack'), href: '/destiny-2-radar-hack/' },
-	{ label: fillBrandTokens('Full {game} hack feature list'), href: '/features/' },
-	{ label: 'Monthly & lifetime pricing', href: '/pricing/' },
-	{ label: fillBrandTokens('{game} hack setup guide'), href: '/setup/' },
-	{ label: fillBrandTokens('{game} hacks FAQ'), href: '/faq/' },
-	{ label: fillBrandTokens('{brand} reviews'), href: '/reviews/' },
-	{ label: fillBrandTokens('{game} Intel blog'), href: '/blog/' },
-	{ label: fillBrandTokens('Contact {brand} support'), href: '/support/' },
+	{ label: fillBrandTokens('Full {game} hack feature list'), href: p.features },
+	{ label: 'Monthly & lifetime pricing', href: p.pricing },
+	{ label: fillBrandTokens('{game} hack setup guide'), href: p.setup },
+	{ label: fillBrandTokens('{game} hacks FAQ'), href: p.faq },
+	{ label: fillBrandTokens('{brand} reviews'), href: reviewsBasePath },
+	{ label: fillBrandTokens('{game} Intel blog'), href: p.blog },
+	{ label: fillBrandTokens('Contact {brand} support'), href: p.support },
 ] as const;
 
 export type FaqItem = {

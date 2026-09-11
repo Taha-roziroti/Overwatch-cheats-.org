@@ -28,7 +28,7 @@ export const brand = {
 	defaultOgImage: '/images/destiny-2-hero-poster.webp',
 	heroImage: '/images/destiny-2-hero-poster.webp',
 	/** Set to /videos/destiny-2-hero.mp4 after uploading the hero clip — until then poster shows */
-	heroVideo: '',
+	heroVideo: '/videos/destiny-2-hero.mp4',
 	heroVideoPoster: '/images/destiny-2-hero-poster.webp',
 
 	plans: [

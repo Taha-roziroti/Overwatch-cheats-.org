@@ -9,6 +9,35 @@
 # Legacy sitemap URL → primary index (GSC / old crawlers)
 /sitemap-index.xml /sitemap.xml 301
 
+# Legacy short slugs → SEO keyword paths (EN)
+/features /destiny-2-cheats-features/ 301
+/features/ /destiny-2-cheats-features/ 301
+/pricing /destiny-2-cheats-pricing/ 301
+/pricing/ /destiny-2-cheats-pricing/ 301
+/setup /destiny-2-cheats-setup/ 301
+/setup/ /destiny-2-cheats-setup/ 301
+/updates /destiny-2-cheats-status/ 301
+/updates/ /destiny-2-cheats-status/ 301
+/faq /destiny-2-cheats-faq/ 301
+/faq/ /destiny-2-cheats-faq/ 301
+/support /destiny-2-cheats-support/ 301
+/support/ /destiny-2-cheats-support/ 301
+/reviews /destiny-2-cheats-reviews/ 301
+/reviews/ /destiny-2-cheats-reviews/ 301
+/blog /destiny-2-cheats-blog/ 301
+/blog/ /destiny-2-cheats-blog/ 301
+/privacy-policy /destiny-2-cheats-privacy/ 301
+/privacy-policy/ /destiny-2-cheats-privacy/ 301
+/refund-policy /destiny-2-cheats-refund/ 301
+/refund-policy/ /destiny-2-cheats-refund/ 301
+/terms /destiny-2-cheats-terms/ 301
+/terms/ /destiny-2-cheats-terms/ 301
+/hacks /destiny-2-cheats/ 301
+/hacks/ /destiny-2-cheats/ 301
+/blog/* /destiny-2-cheats-blog/:splat 301
+/faq/* /destiny-2-cheats-faq/:splat 301
+/reviews/* /destiny-2-cheats-reviews/:splat 301
+
 # Exact-match keyword + cannibalization → canonical EN landings
 /escape-from-tarkov-cheats /tarkov-cheats/ 301
 /escape-from-tarkov-cheats/ /tarkov-cheats/ 301
@@ -30,18 +59,18 @@
 /tarkov-soft-aim/ /tarkov-aimbot/ 301
 /tarkov-wallhack /tarkov-esp/ 301
 /tarkov-wallhack/ /tarkov-esp/ 301
-/tarkov-cheat-download /setup/ 301
-/tarkov-cheat-download/ /setup/ 301
-/battleye-bypass /updates/ 301
-/battleye-bypass/ /updates/ 301
+/tarkov-cheat-download /destiny-2-cheats-setup/ 301
+/tarkov-cheat-download/ /destiny-2-cheats-setup/ 301
+/battleye-bypass /destiny-2-cheats-status/ 301
+/battleye-bypass/ /destiny-2-cheats-status/ 301
 
 # Broken review slug fixes
-/reviews/tarkov-radar-hack-review-vanlifefn /reviews/tarkov-radar-hack-review-vanlifeeft/ 301
-/reviews/tarkov-radar-hack-review-vanlifefn/ /reviews/tarkov-radar-hack-review-vanlifeeft/ 301
-/reviews/tarkov-radar-hack-review-vanlifewz /reviews/tarkov-radar-hack-review-vanlifeeft/ 301
-/reviews/tarkov-radar-hack-review-vanlifewz/ /reviews/tarkov-radar-hack-review-vanlifeeft/ 301
-/reviews/tarkov-controller-soft-aim-review-ctrl-player99 /reviews/tarkov-soft-aim-review-ctrl-player99/ 301
-/reviews/tarkov-controller-soft-aim-review-ctrl-player99/ /reviews/tarkov-soft-aim-review-ctrl-player99/ 301
+/reviews/tarkov-radar-hack-review-vanlifefn /destiny-2-cheats-reviews/tarkov-radar-hack-review-vanlifeeft/ 301
+/reviews/tarkov-radar-hack-review-vanlifefn/ /destiny-2-cheats-reviews/tarkov-radar-hack-review-vanlifeeft/ 301
+/reviews/tarkov-radar-hack-review-vanlifewz /destiny-2-cheats-reviews/tarkov-radar-hack-review-vanlifeeft/ 301
+/reviews/tarkov-radar-hack-review-vanlifewz/ /destiny-2-cheats-reviews/tarkov-radar-hack-review-vanlifeeft/ 301
+/reviews/tarkov-controller-soft-aim-review-ctrl-player99 /destiny-2-cheats-reviews/tarkov-soft-aim-review-ctrl-player99/ 301
+/reviews/tarkov-controller-soft-aim-review-ctrl-player99/ /destiny-2-cheats-reviews/tarkov-soft-aim-review-ctrl-player99/ 301
 
 # Auto-generated cannibal locale redirects (scripts/sync-cannibal-redirects.mjs)
 # Do not edit by hand — regenerated on sync:brand / prebuild

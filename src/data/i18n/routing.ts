@@ -1,4 +1,5 @@
 import { siteConfig } from '../site';
+import { getBlogBasePath } from '../blog/helpers';
 import {
 	defaultLocale,
 	isLocaleCode,
@@ -42,12 +43,12 @@ export const englishPaths: Record<PageId, string> = {
 	home: '/',
 	'destiny-2-esp': '/destiny-2-esp/',
 	'destiny-2-aimbot': '/destiny-2-aimbot/',
-	features: '/features/',
-	pricing: '/pricing/',
-	setup: '/setup/',
-	updates: '/updates/',
-	faq: '/faq/',
-	support: '/support/',
+	features: '/destiny-2-cheats-features/',
+	pricing: '/destiny-2-cheats-pricing/',
+	setup: '/destiny-2-cheats-setup/',
+	updates: '/destiny-2-cheats-status/',
+	faq: '/destiny-2-cheats-faq/',
+	support: '/destiny-2-cheats-support/',
 	undetected: '/undetected-destiny-2-cheats/',
 	wallhack: '/destiny-2-wallhack/',
 	radar: '/destiny-2-radar-hack/',
@@ -61,9 +62,9 @@ export const englishPaths: Record<PageId, string> = {
 	'aimbot-hack': '/destiny-2-aimbot-hack/',
 	'esp-hack': '/destiny-2-esp-hack/',
 	'pve-cheats': '/destiny-2-pve-cheats/',
-	privacy: '/privacy-policy/',
-	refund: '/refund-policy/',
-	terms: '/terms/',
+	privacy: '/destiny-2-cheats-privacy/',
+	refund: '/destiny-2-cheats-refund/',
+	terms: '/destiny-2-cheats-terms/',
 };
 
 /**
@@ -795,7 +796,7 @@ export function resolvePageContextFromPath(pathname: string): PageContext {
 		return { locale, pageId: 'home' };
 	}
 
-	if (rest[0] === 'blog') {
+	if (rest[0] === 'blog' || rest[0] === 'destiny-2-cheats-blog') {
 		if (rest.length === 1) {
 			return { locale, isBlogIndex: true };
 		}
@@ -862,7 +863,7 @@ export function getNavForLocale(locale: LocaleCode, labels: Record<string, strin
 	{ label: labels.hacks ?? 'Hacks', href: getLocalizedPath('hacks', locale), pageId: 'hacks' },
 		{ label: labels.aimbot, href: getLocalizedPath('destiny-2-aimbot', locale), pageId: 'destiny-2-aimbot' },
 		{ label: labels.esp, href: getLocalizedPath('destiny-2-esp', locale), pageId: 'destiny-2-esp' },
-		{ label: 'Blog', href: locale === defaultLocale ? '/blog/' : `/${locale}/blog/` },
+		{ label: 'Blog', href: getBlogBasePath(locale) },
 		{ label: labels.features, href: getLocalizedPath('features', locale), pageId: 'features' },
 		{ label: labels.pricing, href: getLocalizedPath('pricing', locale), pageId: 'pricing' },
 		{ label: labels.setup, href: getLocalizedPath('setup', locale), pageId: 'setup' },

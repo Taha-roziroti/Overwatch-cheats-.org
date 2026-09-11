@@ -1,0 +1,318 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import { siteConfig } from '../../data/site';
+import { getSelfHreflangAlternates } from '../../data/i18n/routing';
+import { guidesBasePath, getGuidesGroupedByGame, nativeGuides, GAME_GUIDES } from '../../data/guides/helpers';
+import { defaultCrawlImageSrc } from '../../data/page-images';
+import OfficialResources from '../../components/OfficialResources.astro';
+
+const title = 'Game Guides Hub | Destiny 2 & Multi-Game Strategy Guides';
+const description =
+	'Destiny 2 setup and feature guides plus curated strategy guides for popular PC games — gameplay tips, settings, and progression paths.';
+const canonicalPath = guidesBasePath;
+const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
+const gameGroups = getGuidesGroupedByGame();
+
+const extraGraph: Record<string, unknown>[] = [
+	{
+		'@type': 'CollectionPage',
+		'@id': `${new URL(canonicalPath, siteConfig.url).href}#collection`,
+		name: title,
+		description,
+		numberOfItems: nativeGuides.length + GAME_GUIDES.length,
+	},
+];
+---
+
+<Layout
+	title={title}
+	description={description}
+	canonicalPath={canonicalPath}
+	hreflangAlternates={hreflangAlternates}
+	ogImage={defaultCrawlImageSrc}
+	ogImageAlt="Game guides hub"
+	locale="en"
+	breadcrumbs={[
+		{ label: 'Home', href: '/' },
+		{ label: 'Guides' },
+	]}
+	extraGraph={extraGraph}
+>
+	<Navbar />
+	<main class="guides-index">
+		<div class="shell guides-index__wrap">
+			<nav class="guides-index__crumbs" aria-label="Breadcrumb">
+				<a href="/">Home</a>
+				<span aria-hidden="true">/</span>
+				<span aria-current="page">Guides</span>
+			</nav>
+
+			<header class="guides-index__head">
+				<h1>Guides</h1>
+				<p class="guides-index__intro">
+					Start with our Destiny 2 product guides, then browse game-specific strategy articles for other
+					popular PC titles below. For vanilla game knowledge, pair our setup pages with official references
+					like <a href="/blog/">blog tips</a>, <a href="/destiny-2-cheats/">cheats overview</a>, and the
+					community wikis listed below.
+				</p>
+				<OfficialResources locale="en" />
+			</header>
+
+			<section class="guides-index__native" aria-labelledby="native-guides-title">
+				<h2 id="native-guides-title">{siteConfig.name} guides</h2>
+				<p class="guides-index__section-lead">Official setup, features, and mode-specific guides for Destiny 2.</p>
+				<div class="guides-index__grid">
+					{
+						nativeGuides.map((guide) => (
+							<a class="guides-index__card guides-index__card--native" href={guide.href}>
+								<figure class="guides-index__card-media">
+									<img
+										src={guide.image}
+										alt={guide.title}
+										width="640"
+										height="360"
+										loading="eager"
+										decoding="async"
+									/>
+								</figure>
+								<div class="guides-index__card-body">
+									<h3>{guide.title}</h3>
+									<p>{guide.description}</p>
+									<span class="guides-index__more">Read guide</span>
+								</div>
+							</a>
+						))
+					}
+				</div>
+			</section>
+
+			<section class="guides-index__external" aria-labelledby="game-guides-title">
+				<h2 id="game-guides-title">Game guides by title</h2>
+				<p class="guides-index__section-lead">
+					{GAME_GUIDES.length} strategy guides organized by game — scroll to browse all titles.
+				</p>
+				{
+					gameGroups.map((group) => (
+						<div class="guides-index__game-group">
+							<h3>{group.gameName}</h3>
+							<ul class="guides-index__game-list">
+								{group.guides.map((guide) => (
+									<li>
+										<a href={`/guides/${guide.slug}/`}>{guide.title}</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					))
+				}
+			</section>
+		</div>
+	</main>
+	<SiteFooter />
+</Layout>
+
+<style>
+	.guides-index {
+		overflow-x: clip;
+		padding-block: 2rem 3rem;
+	}
+
+	.guides-index__wrap {
+		display: grid;
+		gap: 2rem;
+	}
+
+	.guides-index__crumbs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.45rem;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+
+	.guides-index__crumbs a {
+		color: var(--ink-muted);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.guides-index__crumbs a:hover {
+		color: var(--magenta-soft);
+	}
+
+	.guides-index__head h1 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.65rem, 3.5vw, 2.35rem);
+		font-weight: 800;
+		letter-spacing: -0.03em;
+		color: var(--ink);
+	}
+
+	.guides-index__intro {
+		margin: 0.55rem 0 0;
+		color: var(--ink-muted);
+		font-size: 0.96rem;
+		line-height: 1.6;
+		max-width: 42rem;
+	}
+
+	.guides-index__intro a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.guides-index__intro a:hover {
+		color: var(--ink);
+	}
+
+	.guides-index__head :global(.official-resources) {
+		margin-top: 1rem;
+		max-width: 42rem;
+	}
+
+	.guides-index__native,
+	.guides-index__external {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.guides-index__external {
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.guides-index__native h2,
+	.guides-index__external h2 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.25rem, 2.5vw, 1.55rem);
+		font-weight: 800;
+		color: var(--ink);
+	}
+
+	.guides-index__section-lead {
+		margin: 0;
+		color: var(--ink-faint);
+		font-size: 0.9rem;
+		line-height: 1.55;
+	}
+
+	.guides-index__grid {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 0.85rem;
+	}
+
+	.guides-index__card {
+		display: flex;
+		flex-direction: column;
+		border-radius: var(--radius-md, 0.75rem);
+		border: 1px solid var(--line);
+		background: var(--bg-panel);
+		color: inherit;
+		text-decoration: none;
+		overflow: hidden;
+		transition:
+			border-color 0.2s ease,
+			transform 0.2s ease;
+	}
+
+	.guides-index__card:hover {
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+		transform: translateY(-2px);
+	}
+
+	.guides-index__card-media {
+		margin: 0;
+		aspect-ratio: 16 / 9;
+		overflow: hidden;
+		background: var(--bg-elevated);
+	}
+
+	.guides-index__card-media img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.guides-index__card-body {
+		display: grid;
+		gap: 0.45rem;
+		padding: 0.95rem 1rem 1.05rem;
+	}
+
+	.guides-index__card-body h3 {
+		margin: 0;
+		font-size: 0.95rem;
+		font-weight: 700;
+		color: var(--ink);
+		line-height: 1.35;
+	}
+
+	.guides-index__card-body p {
+		margin: 0;
+		font-size: 0.82rem;
+		line-height: 1.55;
+		color: var(--ink-muted);
+		flex-grow: 1;
+	}
+
+	.guides-index__more {
+		font-size: 0.78rem;
+		font-weight: 700;
+		color: var(--magenta-soft);
+	}
+
+	.guides-index__game-group {
+		padding: 1rem 1.1rem;
+		border-radius: var(--radius-md, 0.75rem);
+		border: 1px solid var(--line);
+		background: var(--bg-panel);
+	}
+
+	.guides-index__game-group h3 {
+		margin: 0 0 0.65rem;
+		font-family: var(--font-display);
+		font-size: 1.05rem;
+		font-weight: 800;
+		color: var(--magenta-soft);
+	}
+
+	.guides-index__game-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.4rem;
+	}
+
+	.guides-index__game-list a {
+		font-size: 0.88rem;
+		color: var(--ink-muted);
+		text-decoration: none;
+		line-height: 1.45;
+	}
+
+	.guides-index__game-list a:hover {
+		color: var(--ink);
+	}
+
+	@media (max-width: 900px) {
+		.guides-index__grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+
+	@media (max-width: 560px) {
+		.guides-index__grid {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

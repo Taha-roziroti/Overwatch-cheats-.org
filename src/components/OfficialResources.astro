@@ -1,0 +1,103 @@
+---
+import { destiny2OfficialResources } from '../data/official-resources';
+import { getT } from '../i18n/server';
+import type { LocaleCode } from '../data/i18n/locales';
+
+interface Props {
+	locale?: LocaleCode;
+	compact?: boolean;
+}
+
+const { locale = 'en', compact = false } = Astro.props;
+const t = getT(locale);
+---
+
+<aside class:list={['official-resources', { 'official-resources--compact': compact }]} aria-label={t('common.officialResources')}>
+	{
+		compact ? (
+			<p class="official-resources__line">
+				<span class="official-resources__label">{t('common.officialResources')}:</span>
+				{destiny2OfficialResources.map((resource, index) => (
+					<>
+						{index > 0 ? ' · ' : ' '}
+						<a href={resource.href} target="_blank" rel="noopener noreferrer">
+							{resource.label}
+						</a>
+					</>
+				))}
+			</p>
+		) : (
+			<>
+				<p class="official-resources__lead">{t('common.officialResourcesLead')}</p>
+				<ul>
+					{destiny2OfficialResources.map((resource) => (
+						<li>
+							<a href={resource.href} target="_blank" rel="noopener noreferrer">
+								{resource.label}
+							</a>
+						</li>
+					))}
+				</ul>
+			</>
+		)
+	}
+</aside>
+
+<style>
+	.official-resources {
+		padding: 1rem 1.15rem;
+		border-radius: var(--radius-md, 0.75rem);
+		border: 1px solid var(--line-soft);
+		background: color-mix(in srgb, var(--bg-elevated) 80%, transparent);
+	}
+
+	.official-resources__lead {
+		margin: 0 0 0.65rem;
+		font-size: 0.88rem;
+		line-height: 1.55;
+		color: var(--ink-faint);
+	}
+
+	.official-resources ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem 0.85rem;
+	}
+
+	.official-resources a {
+		font-size: 0.85rem;
+		font-weight: 600;
+		color: var(--ink-muted);
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.official-resources a:hover {
+		color: var(--magenta-soft);
+	}
+
+	.official-resources--compact {
+		padding: 0;
+		border: 0;
+		background: transparent;
+	}
+
+	.official-resources__line {
+		margin: 0;
+		font-size: 0.75rem;
+		line-height: 1.6;
+		color: var(--ink-faint);
+	}
+
+	.official-resources__label {
+		font-weight: 600;
+		color: var(--ink-muted);
+	}
+
+	.official-resources--compact a {
+		font-size: 0.75rem;
+	}
+</style>

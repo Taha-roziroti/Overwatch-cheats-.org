@@ -2,7 +2,7 @@ import { customerReviews, siteConfig } from './site';
 import { reviewsSitemapImageMeta } from './brand-sitemap';
 import { absoluteImageUrl, crawlPhotoMeta, defaultCrawlImageSrc } from './page-images';
 
-export const reviewsBasePath = '/reviews/';
+export const reviewsBasePath = '/destiny-2-cheats-reviews/';
 
 export function getReviewPath(slug: string): string {
 	return `${reviewsBasePath}${slug}/`;

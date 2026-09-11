@@ -35,6 +35,7 @@ interface Props {
 	ctaSecondary?: { href: string; label: string };
 	introEdit?: string;
 	showGallery?: boolean;
+	showBanner?: boolean;
 	locale?: import('../data/i18n/locales').LocaleCode;
 	pageId?: import('../data/i18n/content.generated').PageId;
 	extraGraph?: Record<string, unknown>[];
@@ -55,10 +56,13 @@ const {
 	ctaSecondary,
 	introEdit,
 	showGallery = true,
+	showBanner = true,
 	locale = defaultLocale,
 	pageId: pageIdProp,
 	extraGraph = [],
 } = Astro.props;
+
+const heroVideo = siteConfig.heroVideo?.trim() || '';
 
 const t = getT(locale);
 const resolvedHeroAlt =
@@ -75,6 +79,8 @@ const pageId = pageIdProp ?? resolvePageId(canonicalPath);
 const ui = getUi(locale);
 const homeHref = getLocalizedPath('home', locale);
 const resolvedEyebrow = eyebrow ?? ui.product.title;
+const showEyebrow =
+	Boolean(resolvedEyebrow) && resolvedEyebrow.trim().toLowerCase() !== heading.trim().toLowerCase();
 
 const normalizedGallery = gallery
 	.map((item) => {
@@ -91,10 +97,6 @@ const breadcrumbs = [
 	{ label: heading },
 ];
 
-const useHomeHero =
-	heroImage === destinyImages.hero ||
-	heroImage === siteConfig.defaultOgImage ||
-	heroImage.includes('destiny-2-cheats-hero');
 ---
 
 <Layout
@@ -107,84 +109,120 @@ const useHomeHero =
 	locale={locale}
 	pageId={pageId}
 	extraGraph={extraGraph}
-	lcpImage={useHomeHero ? heroPreloadSrc : heroImage.endsWith('.webp') ? heroImage : undefined}
-	lcpImageSrcSet={useHomeHero ? heroSrcSet : contentSrcSet(heroImage)}
-	lcpImageSizes={useHomeHero ? heroSizes : '100vw'}
+	lcpImage={showBanner && !heroVideo ? heroPreloadSrc : undefined}
+	lcpImageSrcSet={showBanner && !heroVideo ? heroSrcSet : undefined}
+	lcpImageSizes={showBanner && !heroVideo ? heroSizes : undefined}
+	lcpVideo={showBanner && heroVideo ? heroVideo : undefined}
 >
 	<Navbar locale={locale} pageId={pageId} />
 	<main class="page">
-		<section class="banner">
-			<div class="banner__media">
-				{
-					useHomeHero ? (
-						<img
-							src={heroPreloadSrc}
-							srcset={heroSrcSet}
-							sizes={heroSizes}
-							alt={resolvedHeroAlt}
-							width={heroWidth}
-							height={heroHeight}
-							class="banner__img"
-							fetchpriority="high"
-							loading="eager"
-							decoding="async"
-						/>
-					) : (
-						<img
-							src={heroImage}
-							{...(contentSrcSet(heroImage)
-								? { srcset: contentSrcSet(heroImage), sizes: '100vw' }
-								: {})}
-							alt={resolvedHeroAlt}
-							width="1280"
-							height="720"
-							class="banner__img"
-							fetchpriority="high"
-							loading="eager"
-							decoding="async"
-						/>
-					)
-				}
-				<div class="banner__scrim" aria-hidden="true"></div>
-			</div>
+		{
+			showBanner ? (
+				<section class="banner">
+					<div class="banner__media">
+						{heroVideo ? (
+							<video
+								class="banner__img banner__video"
+								src={heroVideo}
+								autoplay
+								muted
+								loop
+								playsinline
+								preload="auto"
+								width={heroWidth}
+								height={heroHeight}
+								aria-hidden="true"
+							/>
+						) : (
+							<img
+								src={heroPreloadSrc}
+								srcset={heroSrcSet}
+								sizes={heroSizes}
+								alt={resolvedHeroAlt}
+								width={heroWidth}
+								height={heroHeight}
+								class="banner__img"
+								fetchpriority="high"
+								loading="eager"
+								decoding="async"
+							/>
+						)}
+						<div class="banner__scrim" aria-hidden="true" />
+					</div>
 
-			<div class="shell banner__shell">
-				<div class="banner__content">
-					<nav class="banner__crumbs" aria-label={t('common.breadcrumb')}>
+					<div class="shell banner__shell">
+						<div class="banner__content">
+							<nav class="banner__crumbs" aria-label={t('common.breadcrumb')}>
+								<a href={homeHref}>{ui.nav.home}</a>
+								<span aria-hidden="true">/</span>
+								<span aria-current="page">{heading}</span>
+							</nav>
+							{showEyebrow && <p class="banner__eyebrow">{resolvedEyebrow}</p>}
+							<h1 class="banner__title">{heading}</h1>
+							<p class="banner__intro" data-edit={introEdit || undefined}>
+								{intro}
+							</p>
+							{(ctaPrimary || ctaSecondary) && (
+								<div class="banner__actions">
+									{ctaPrimary && (
+										<a
+											class="btn-buy"
+											href={ctaPrimary.href}
+											rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+										>
+											<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
+										</a>
+									)}
+									{ctaSecondary && (
+										<a
+											class="btn btn--ghost banner__btn-ghost"
+											href={ctaSecondary.href}
+											rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+										>
+											{ctaSecondary.label}
+										</a>
+									)}
+								</div>
+							)}
+						</div>
+					</div>
+				</section>
+			) : (
+				<div class="shell page__head">
+					<nav class="page__crumbs" aria-label={t('common.breadcrumb')}>
 						<a href={homeHref}>{ui.nav.home}</a>
 						<span aria-hidden="true">/</span>
 						<span aria-current="page">{heading}</span>
 					</nav>
-					<p class="banner__eyebrow">{resolvedEyebrow}</p>
-					<h1 class="banner__title">{heading}</h1>
-					<p class="banner__intro" data-edit={introEdit || undefined}>{intro}</p>
-					{
-						(ctaPrimary || ctaSecondary) && (
-							<div class="banner__actions">
-								{ctaPrimary && (
-									<a
-										class="btn-buy"
-										href={ctaPrimary.href}
-										rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-									>
-										<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
-									</a>
-								)}
-								{ctaSecondary && (
-									<a
-										class="btn btn--ghost"
-										href={ctaSecondary.href}
-										rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-									>
-										{ctaSecondary.label}
-									</a>
-								)}
-							</div>
-						)
-					}
+					<h1 class="page__title">{heading}</h1>
+					<p class="page__intro" data-edit={introEdit || undefined}>
+						{intro}
+					</p>
+					{(ctaPrimary || ctaSecondary) && (
+						<div class="page__actions">
+							{ctaPrimary && (
+								<a
+									class="btn-buy"
+									href={ctaPrimary.href}
+									rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+								>
+									<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
+								</a>
+							)}
+							{ctaSecondary && (
+								<a
+									class="btn btn--ghost"
+									href={ctaSecondary.href}
+									rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+								>
+									{ctaSecondary.label}
+								</a>
+							)}
+						</div>
+					)}
 				</div>
-			</div>
-		</section>
+			)
+		}
 
 		<div class="shell page__wrap">
 			<article class="article">
@@ -222,6 +260,37 @@ const useHomeHero =
 	<SiteFooter locale={locale} />
 </Layout>
 
+{
+	heroVideo && showBanner ? (
+		<script is:inline>
+			(() => {
+				const video = document.querySelector('.banner__video');
+				if (!(video instanceof HTMLVideoElement)) return;
+				video.muted = true;
+				video.defaultMuted = true;
+				video.playsInline = true;
+				const play = () => {
+					const attempt = video.play();
+					if (attempt && typeof attempt.catch === 'function') attempt.catch(() => {});
+				};
+				video.addEventListener('loadeddata', play);
+				video.addEventListener('canplay', play);
+				video.addEventListener('canplaythrough', play);
+				play();
+				let tries = 0;
+				const retry = window.setInterval(() => {
+					if (video.paused && tries < 12) {
+						play();
+						tries += 1;
+						return;
+					}
+					window.clearInterval(retry);
+				}, 400);
+			})();
+		</script>
+	) : null
+}
+
 <style>
 	.page {
 		overflow-x: clip;
@@ -231,11 +300,14 @@ const useHomeHero =
 	.banner {
 		position: relative;
 		isolation: isolate;
-		min-height: clamp(16rem, 32vw, 22rem);
 		display: grid;
 		align-items: end;
+		overflow: hidden;
 		border-bottom: 1px solid var(--line-soft);
-		background: var(--bg);
+		background: #050506;
+		aspect-ratio: 3.15 / 1;
+		min-height: clamp(14rem, 28vw, 20rem);
+		width: 100%;
 	}
 
 	.banner__media {
@@ -246,11 +318,13 @@ const useHomeHero =
 	}
 
 	.banner__media picture,
-	.banner__img {
+	.banner__img,
+	.banner__video {
+		display: block;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		object-position: center center;
+		object-position: right 28%;
 	}
 
 	.banner__scrim {
@@ -281,16 +355,16 @@ const useHomeHero =
 		gap: 0.4rem;
 		margin: 0 0 0.75rem;
 		font-size: 0.8rem;
-		color: var(--ink-faint);
+		color: color-mix(in srgb, #fff 58%, transparent);
 	}
 
 	.banner__crumbs a {
-		color: var(--ink-muted);
+		color: color-mix(in srgb, #fff 82%, transparent);
 		font-weight: 600;
 	}
 
 	.banner__crumbs a:hover {
-		color: var(--magenta-soft);
+		color: #fff;
 	}
 
 	.banner__eyebrow {
@@ -299,7 +373,7 @@ const useHomeHero =
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: var(--magenta-soft);
+		color: color-mix(in srgb, var(--magenta-soft) 88%, #fff);
 	}
 
 	.banner__title {
@@ -309,14 +383,76 @@ const useHomeHero =
 		font-weight: 800;
 		letter-spacing: -0.035em;
 		line-height: 1.1;
-		color: var(--ink);
+		color: #fff;
 	}
 
 	.banner__intro {
 		margin: 0.7rem 0 0;
+		color: color-mix(in srgb, #fff 78%, transparent);
+		font-size: 0.975rem;
+		line-height: 1.55;
+	}
+
+	.banner__btn-ghost {
+		border-color: color-mix(in srgb, #fff 35%, transparent);
+		color: #fff;
+		background: color-mix(in srgb, #fff 8%, transparent);
+	}
+
+	.banner__btn-ghost:hover {
+		border-color: color-mix(in srgb, #fff 65%, transparent);
+		color: #fff;
+		background: color-mix(in srgb, #fff 14%, transparent);
+	}
+
+	.page__head {
+		padding-block: clamp(1.75rem, 3vw, 2.5rem) 0.5rem;
+		border-bottom: 1px solid var(--line-soft);
+		max-width: var(--content-max);
+	}
+
+	.page__crumbs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.4rem;
+		margin: 0 0 0.75rem;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+
+	.page__crumbs a {
+		color: var(--ink-muted);
+		font-weight: 600;
+	}
+
+	.page__crumbs a:hover {
+		color: var(--magenta-soft);
+	}
+
+	.page__title {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.65rem, 3.2vw, 2.15rem);
+		font-weight: 800;
+		letter-spacing: -0.035em;
+		line-height: 1.12;
+		color: var(--ink);
+	}
+
+	.page__intro {
+		margin: 0.65rem 0 0;
 		color: var(--ink-muted);
 		font-size: 0.975rem;
 		line-height: 1.55;
+		max-width: 40rem;
+	}
+
+	.page__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.65rem;
+		margin-top: 1.1rem;
 	}
 
 	.banner__actions {

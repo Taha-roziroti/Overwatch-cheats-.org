@@ -52,7 +52,7 @@ export function getBlogImageSrc(key: BlogImageKey): string {
 }
 
 export function getBlogBasePath(locale: LocaleCode): string {
-	return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`;
+	return locale === defaultLocale ? '/destiny-2-cheats-blog/' : `/${locale}/blog/`;
 }
 
 export function isBlogPath(pathname: string): boolean {
@@ -114,6 +114,14 @@ export function getFeaturedPosts(locale: LocaleCode, limit = 3): ResolvedBlogPos
 	const all = getAllPostsForLocale(locale);
 	const featured = all.filter((p) => p.featured);
 	return (featured.length >= limit ? featured : all).slice(0, limit);
+}
+
+/** Related posts — same category first, then recent posts. */
+export function getRelatedPosts(current: ResolvedBlogPost, limit = 3): ResolvedBlogPost[] {
+	const all = getAllPostsForLocale(defaultLocale).filter((p) => p.id !== current.id);
+	const sameCategory = all.filter((p) => p.category === current.category);
+	const rest = all.filter((p) => p.category !== current.category);
+	return [...sameCategory, ...rest].slice(0, limit);
 }
 
 export function getPostBySlug(locale: LocaleCode, slug: string): ResolvedBlogPost | undefined {

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { sitePaths as p } from '../../data/site-paths';
 
 type Props = {
 	locale: string;
@@ -13,10 +14,10 @@ const features = [
 ] as const;
 
 const guides = [
-	{ href: '/destiny-2-cheats/', key: 'home.linkCheats' },
-	{ href: '/destiny-2-esp/', key: 'home.linkEsp' },
-	{ href: '/destiny-2-aimbot/', key: 'home.linkAimbot' },
-	{ href: '/features/', key: 'home.linkFeatures' },
+	{ href: p.cheats, key: 'home.linkCheats' },
+	{ href: p.esp, key: 'home.linkEsp' },
+	{ href: p.aimbot, key: 'home.linkAimbot' },
+	{ href: p.features, key: 'home.linkFeatures' },
 ] as const;
 
 function HomeAboutInner() {
@@ -44,10 +45,10 @@ function HomeAboutInner() {
 			</ul>
 
 			<div className="home-about__actions">
-				<a className="home-about__cta" href="/pricing/">
+				<a className="home-about__cta" href={p.pricing}>
 					{t('home.ctaPlans')}
 				</a>
-				<a className="home-about__cta home-about__cta--ghost" href="/updates/">
+				<a className="home-about__cta home-about__cta--ghost" href={p.updates}>
 					{t('home.ctaStatus')}
 				</a>
 			</div>

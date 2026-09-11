@@ -9,6 +9,9 @@ import { destinyImages } from '../data/destiny';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
+import PageRelatedLinks from './PageRelatedLinks.astro';
+import OfficialResources from './OfficialResources.astro';
+import { getRelatedPageLinks } from '../data/page-related-links';
 
 interface Props {
 	locale: LocaleCode;
@@ -133,6 +136,11 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	setup: ui.nav.setup,
 	faq: ui.nav.faq,
 };
+
+const showRelatedLinks = locale === 'en' && getRelatedPageLinks(pageId).length > 0;
+const showOfficialResources =
+	locale === 'en' &&
+	(pageId === 'hacks' || pageId === 'setup' || pageId === 'updates' || pageId === 'faq');
 ---
 
 <PageLayout
@@ -215,6 +223,10 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 			</section>
 		)
 	}
+
+	{showRelatedLinks && <PageRelatedLinks pageId={pageId} locale={locale} />}
+
+	{showOfficialResources && <OfficialResources locale={locale} />}
 </PageLayout>
 
 <style>

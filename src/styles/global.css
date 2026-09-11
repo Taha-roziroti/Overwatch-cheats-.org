@@ -83,7 +83,7 @@
 	--color-violet: var(--magenta);
 	--color-orchid: var(--magenta-soft);
 
-	--page-max: 1120px;
+	--page-max: 1240px;
 	--page-gutter: clamp(1rem, 4.2vw, 1.75rem);
 	--content-max: 720px;
 	--section-space: 4rem;
