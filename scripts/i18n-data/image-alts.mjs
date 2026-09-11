@@ -1,0 +1,42 @@
+/** Descriptive image alts — Google rejects empty or keyword-only alts. */
+export const DESCRIPTIVE_IMAGE_ALTS = {
+	hero: 'Destiny 2 Cheats hero — ESP and aimbot overlay in Destiny 2',
+	espWallhack: 'Wallhack outlines showing Guardians and enemies through walls',
+	aimbotCombat: 'Soft aim assist overlay during an Destiny 2 raid',
+	squadFight: 'Destiny 2 Cheats combat overlay during a squad fight',
+	playerEsp: 'Player ESP boxes and distance readouts in a Destiny 2 raid',
+	headerArt: 'Aimbot view and bone priority controls for Destiny 2',
+	cheatsPackage: '2D radar threat overlay for Destiny 2',
+	rebootFight: 'Aimbot assist during a Destiny 2 firefight',
+	battleRoyale: 'Destiny 2 Cheats in-raid overview for Windows PC',
+	battleRoyaleIsland: 'ESP markers for loot and extracts in Destiny 2',
+};
+
+/** Page-level image alt by pageId (EN source of truth). */
+export const PAGE_IMAGE_ALTS = {
+	home: 'Destiny 2 Cheats homepage hero — ESP and aimbot for Destiny 2',
+	'destiny-2-esp': 'Destiny 2 ESP player boxes and distance readouts in a raid',
+	'destiny-2-aimbot': 'Destiny 2 aimbot and soft aim controls on Windows PC',
+	features: 'Destiny 2 Cheats features — ESP, soft aim, and radar screenshots',
+	pricing: 'Destiny 2 Cheats store plans for monthly and lifetime licenses',
+	setup: 'Destiny 2 Cheats setup guide screenshot for Windows PC',
+	updates: 'Destiny 2 Cheats live status after BattlEye and game patches',
+	faq: 'Destiny 2 Cheats FAQ — delivery, setup, and update answers',
+	support: 'Destiny 2 Cheats support page for license and setup help',
+	undetected: 'Destiny 2 Cheats undetected status overview for Windows PC',
+	wallhack: 'Destiny 2 wallhack visibility through walls in a raid',
+	radar: 'Destiny 2 2D radar overlay showing nearby threats',
+	battleye: 'Destiny 2 Cheats maintenance after a BattlEye patch',
+	'cheats-2026': 'Destiny 2 Cheats product overview for Destiny 2',
+	hacks: 'Destiny 2 Cheats product page — ESP, aimbot, and radar',
+	'cheat-download': 'Destiny 2 Cheats download and install delivery flow',
+	'crucible-cheats': 'Destiny 2 Cheats in-game menu controls',
+	'aim-assist': 'Destiny 2 soft aim FOV and smoothness settings',
+	'best-cheats': 'Destiny 2 Cheats overview for Destiny 2 on PC',
+	'aimbot-hack': 'Destiny 2 aimbot hack controls and bone priority',
+	'esp-hack': 'Destiny 2 ESP hack boxes and loot markers',
+	'pve-cheats': 'Destiny 2 Cheats license features overview',
+	privacy: 'Destiny 2 Cheats privacy policy page',
+	refund: 'Destiny 2 Cheats refund policy page',
+	terms: 'Destiny 2 Cheats terms of use page',
+};
