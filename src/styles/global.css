@@ -232,7 +232,7 @@
 	.section-head a {
 		font-size: 0.875rem;
 		font-weight: 500;
-		color: var(--magenta-soft);
+		color: var(--accent);
 		white-space: nowrap;
 	}
 

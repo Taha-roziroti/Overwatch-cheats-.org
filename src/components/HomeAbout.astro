@@ -1,0 +1,182 @@
+---
+import HomeAboutApp from './react/HomeAbout';
+import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
+
+interface Props {
+	locale?: LocaleCode;
+}
+
+const locale = Astro.props.locale ?? defaultLocale;
+---
+
+<HomeAboutApp client:visible locale={locale} />
+
+<style is:global>
+	.home-about {
+		padding-block: clamp(2.5rem, 5vw, 3.25rem) clamp(1.5rem, 3vw, 2rem);
+		border-bottom: 1px solid var(--line-soft);
+	}
+
+	.home-about__head {
+		max-width: 36rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.home-about__eyebrow {
+		margin: 0 0 0.45rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--accent);
+	}
+
+	.home-about__head h2 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.35rem, 2.4vw, 1.65rem);
+		font-weight: 700;
+		letter-spacing: -0.03em;
+		line-height: 1.15;
+		color: var(--ink);
+	}
+
+	.home-about__lede {
+		margin: 0.65rem 0 0;
+		font-size: 0.9375rem;
+		line-height: 1.6;
+		color: var(--ink-muted);
+	}
+
+	.home-about__features {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin: 0 0 1.35rem;
+		padding: 0;
+		list-style: none;
+	}
+
+	.home-about__features li {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.45rem;
+		padding: 0.45rem 0.85rem;
+		border: 1px solid var(--line);
+		border-radius: 999px;
+		background: var(--bg-panel);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--ink-muted);
+	}
+
+	.home-about__feat-icon {
+		font-size: 0.65rem;
+		line-height: 1;
+		color: var(--accent);
+		opacity: 0.85;
+	}
+
+	.home-about__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.home-about__cta {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 2.5rem;
+		padding: 0 1.15rem;
+		border-radius: 999px;
+		font-size: 0.875rem;
+		font-weight: 600;
+		background: var(--accent);
+		color: #fafbfd;
+		transition:
+			background 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.home-about__cta:hover {
+		background: var(--accent-hover);
+		color: #fafbfd;
+		transform: translateY(-1px);
+	}
+
+	.home-about__cta--ghost {
+		background: transparent;
+		color: var(--ink);
+		border: 1px solid var(--line);
+	}
+
+	.home-about__cta--ghost:hover {
+		background: var(--bg-elevated);
+		border-color: var(--line-strong);
+		color: var(--ink);
+		transform: none;
+	}
+
+	.home-about__guides {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.65rem 1rem;
+		padding-top: 1.25rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.home-about__guides-label {
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-faint);
+	}
+
+	.home-about__guides ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem 0.5rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.home-about__guides a {
+		display: inline-flex;
+		align-items: center;
+		min-height: 2rem;
+		padding: 0.25rem 0.65rem;
+		border-radius: var(--radius-sm);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		color: var(--ink-muted);
+		transition:
+			color 0.15s ease,
+			background 0.15s ease;
+	}
+
+	.home-about__guides a:hover {
+		color: var(--accent);
+		background: color-mix(in srgb, var(--accent) 6%, transparent);
+	}
+
+	@media (max-width: 480px) {
+		.home-about__actions {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.home-about__cta {
+			width: 100%;
+		}
+
+		.home-about__guides {
+			flex-direction: column;
+			align-items: flex-start;
+		}
+	}
+</style>

@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import HomeReviews from '../components/HomeReviews.astro';
 import HomeSeo from '../components/HomeSeo.astro';
-import HomeAboutApp from '../components/react/HomeAbout';
+import HomeAbout from '../components/HomeAbout.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
@@ -110,21 +110,33 @@ const extraGraph: Record<string, unknown>[] = [
 			{
 				locale === 'en' ? (
 					<>
-						<HomeAboutApp client:visible locale={locale} />
+						<HomeAbout locale={locale} />
 						<HomeSeo locale={locale} />
 					</>
 				) : (
 					<div class="shell home__prose">
-						<h2>{home.h1}</h2>
-						<p>{home.intro}</p>
+						<header class="home__prose-head">
+							<p class="home__prose-eyebrow">{ui.nav.hacks}</p>
+							<h2>{home.h1}</h2>
+							<p class="home__prose-lede">{home.intro}</p>
+						</header>
 						{
 							home.sections.map((section) => (
-								<div>
+								<article class="home__prose-block">
 									<h3>{section.h2}</h3>
 									{section.paragraphs.map((p) => (
 										<p set:html={p} />
 									))}
-								</div>
+									{
+										section.list?.length ? (
+											<ul>
+												{section.list.map((item) => (
+													<li set:html={item} />
+												))}
+											</ul>
+										) : null
+									}
+								</article>
 							))
 						}
 					</div>
@@ -149,38 +161,99 @@ const extraGraph: Record<string, unknown>[] = [
 	}
 
 	.home__prose {
-		padding-block: var(--section-space);
+		padding-block: clamp(2.5rem, 5vw, 3.5rem);
 		color: var(--ink-muted);
 		line-height: 1.65;
 		font-size: 0.9375rem;
+		max-width: var(--content-max);
 	}
 
-	.home__prose--en {
-		padding-block: clamp(2rem, 4vw, 2.75rem) 0.5rem;
+	.home__prose-head {
+		margin-bottom: 1.75rem;
+		padding-bottom: 1.5rem;
 		border-bottom: 1px solid var(--line-soft);
 	}
 
-	.home__prose--en a {
-		color: var(--magenta-soft);
+	.home__prose-eyebrow {
+		margin: 0 0 0.4rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--accent);
+	}
+
+	.home__prose-lede {
+		margin: 0.5rem 0 0;
+		max-width: 38rem;
+		font-size: 0.9375rem;
+		line-height: 1.6;
+		color: var(--ink-muted);
+	}
+
+	.home__prose-block {
+		margin-top: 1.5rem;
+	}
+
+	.home__prose-block + .home__prose-block {
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.home__prose a {
+		color: var(--accent);
 		font-weight: 600;
 		text-decoration: none;
 	}
 
-	.home__prose--en a:hover {
+	.home__prose a:hover {
 		color: var(--ink);
 	}
 
 	.home__prose h2 {
-		margin: 0 0 0.75rem;
+		margin: 0;
 		font-family: var(--font-display);
-		font-size: 1.5rem;
+		font-size: clamp(1.25rem, 2.2vw, 1.5rem);
 		letter-spacing: -0.03em;
+		line-height: 1.2;
 		color: var(--ink);
 	}
 
 	.home__prose h3 {
-		margin: 1.25rem 0 0.5rem;
+		margin: 0 0 0.65rem;
+		font-family: var(--font-display);
 		font-size: 1rem;
+		font-weight: 700;
 		color: var(--ink);
+	}
+
+	.home__prose p {
+		margin: 0 0 0.75rem;
+	}
+
+	.home__prose ul {
+		margin: 0.5rem 0 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.35rem;
+	}
+
+	.home__prose li {
+		position: relative;
+		padding-left: 1rem;
+		font-size: 0.875rem;
+		color: var(--ink-muted);
+	}
+
+	.home__prose li::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0.55em;
+		width: 0.35rem;
+		height: 0.35rem;
+		border-radius: 999px;
+		background: var(--magenta-soft);
 	}
 </style>

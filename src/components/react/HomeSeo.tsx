@@ -38,7 +38,7 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/destiny-2-cheats/', labelKey: 'homeSeo.linkDestiny 2Cheats' },
+				{ href: '/destiny-2-cheats/', labelKey: 'homeSeo.linkDestiny2Cheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},
