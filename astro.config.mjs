@@ -12,6 +12,11 @@ export default defineConfig({
 	trailingSlash: 'always',
 	compressHTML: true,
 	devToolbar: { enabled: false },
+	server: {
+		// Bind IPv4 + IPv6 so localhost/port-forwarding works (not ::1-only).
+		host: true,
+		port: 4321,
+	},
 	integrations: [react()],
 	build: {
 		// 'auto' keeps small styles inline but emits the large Tailwind bundle as a
