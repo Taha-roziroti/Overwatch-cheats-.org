@@ -38,14 +38,12 @@ function NavbarInner({
 	locale,
 	checkoutUrl,
 	currentPath,
-	homeHref,
 	reviewsBasePath,
 	locales,
 	hrefForLocale,
 	links,
 }: Props) {
 	const { t } = useTranslation();
-	const [open, setOpen] = useState(false);
 	const [scrolled, setScrolled] = useState(false);
 
 	const isActive = (href: string) => {
@@ -61,26 +59,6 @@ function NavbarInner({
 		return () => window.removeEventListener('scroll', onScroll);
 	}, []);
 
-	useEffect(() => {
-		document.body.classList.toggle('nav-lock', open);
-		return () => document.body.classList.remove('nav-lock');
-	}, [open]);
-
-	useEffect(() => {
-		const onKey = (e: KeyboardEvent) => {
-			if (e.key === 'Escape') setOpen(false);
-		};
-		const onResize = () => {
-			if (window.matchMedia('(min-width: 1025px)').matches) setOpen(false);
-		};
-		document.addEventListener('keydown', onKey);
-		window.addEventListener('resize', onResize);
-		return () => {
-			document.removeEventListener('keydown', onKey);
-			window.removeEventListener('resize', onResize);
-		};
-	}, []);
-
 	const navLinks = useMemo(
 		() =>
 			links.map((item) => ({
@@ -92,15 +70,8 @@ function NavbarInner({
 	);
 
 	return (
-		<header className={`site-header${scrolled || open ? ' is-scrolled' : ''}${open ? ' is-open' : ''}`} data-nav>
+		<header className={`site-header${scrolled ? ' is-scrolled' : ''}`} data-nav>
 			<div className="shell site-header__bar">
-				<div className="site-header__lang">
-					<LanguageSwitcher
-						currentLocale={locale}
-						locales={locales}
-						hrefForLocale={hrefForLocale}
-					/>
-				</div>
 				<nav className="site-nav" aria-label={t('nav.primaryAria')}>
 					{navLinks.map((item) => (
 						<a key={item.id} href={item.href} className={item.active ? 'is-active' : undefined}>
@@ -119,6 +90,13 @@ function NavbarInner({
 				</nav>
 
 				<div className="site-tools">
+					<div className="site-tools__lang">
+						<LanguageSwitcher
+							currentLocale={locale}
+							locales={locales}
+							hrefForLocale={hrefForLocale}
+						/>
+					</div>
 					<a
 						href={checkoutUrl}
 						className="site-tools__buy"
@@ -136,55 +114,8 @@ function NavbarInner({
 						</svg>
 						<span data-edit="ctaBuyShort">{t('cta.buyShort')}</span>
 					</a>
-					<button
-						type="button"
-						className="site-menu"
-						aria-expanded={open}
-						aria-controls="site-nav-panel"
-						aria-label={open ? t('nav.closeMenu') : t('nav.openMenu')}
-						onClick={() => setOpen((v) => !v)}
-					>
-						<span className="site-menu__bars" aria-hidden="true">
-							<span />
-							<span />
-							<span />
-						</span>
-					</button>
 				</div>
 			</div>
-
-			{open ? (
-				<div className="site-panel" id="site-nav-panel">
-					<div className="shell site-panel__inner">
-						<nav className="site-panel__nav" aria-label={t('nav.mobileAria')}>
-							{navLinks.map((item) => (
-								<a
-									key={item.id}
-									href={item.href}
-									className={item.active ? 'is-active' : undefined}
-									onClick={() => setOpen(false)}
-								>
-									<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-										<path
-											d={icons[item.id]}
-											stroke="currentColor"
-											strokeWidth="1.6"
-											strokeLinecap="round"
-											strokeLinejoin="round"
-										/>
-									</svg>
-									<span>{item.label}</span>
-								</a>
-							))}
-						</nav>
-						<div className="site-panel__foot">
-							<a href={checkoutUrl} className="site-panel__buy" rel="noopener noreferrer">
-								<span data-edit="ctaBuy">{t('cta.buy')}</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			) : null}
 		</header>
 	);
 }
