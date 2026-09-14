@@ -75,7 +75,7 @@ const LEGACY_BLOG = {
 	'/blog/hammer-ar-s-tier-data-analysis/': '/blog/weapon-tier-list/',
 	'/blog/zero-build-meta-broken-aggressive-strategies/': '/blog/pve-strategies/',
 	'/blog/fncs-meta-watch-tournament-drops/': '/blog/tournament-meta/',
-	'/blog/secret-loot-routes-full-gold/': '/blog/loot-routes/',
+	'/blog/secret-loot-routes-full-gold/': '/blog/map-control/',
 	'/blog/bugha-settings-pro-setup/': '/blog/pro-settings/',
 	'/blog/creative-warmup-maps-pros-use/': '/blog/warmup-routine/',
 };

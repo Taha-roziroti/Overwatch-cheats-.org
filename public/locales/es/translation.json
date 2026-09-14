@@ -22,16 +22,16 @@
   "hero": {
     "accent": "Trucos Overwatch 2 indetectables",
     "accentShort": "Overwatch 2 Cheats",
-    "subtitle": "ESP wallhack, radar hack y Aimbot para Overwatch 2 en PC Windows — mantenimiento Easy Anti-Cheat anti-cheat incluido.",
-    "subtitleShort": "ESP, radar y Aimbot para Overwatch 2 PC",
+    "subtitle": "Aimbot de seguimiento, flickbot, ESP, wallhack y scripts de héroes para Overwatch 2 en PC Windows.",
+    "subtitleShort": "Aimbot, ESP y scripts de héroes para Overwatch 2 PC",
     "buyNow": "Comprar ahora",
     "seeFeatures": "Ver funciones",
     "title": "Trucos Overwatch 2 indetectables",
     "priceFrom": "desde",
     "imageAlt": "{{brand}} — Overwatch 2 ESP and aimbot overlay",
     "chipEsp": "ESP / wallhack",
-    "chipAim": "Soft aim",
-    "chipRadar": "Radar 2D",
+    "chipAim": "Tracking aimbot",
+    "chipRadar": "Scripts de héroes",
     "chipUpdates": "Actualizaciones"
   },
   "cta": {
@@ -44,8 +44,8 @@
     "statusShort": "Activo",
     "delivery": "Entrega digital instantánea",
     "platform": "Windows 10 y 11",
-    "antiCheat": "Mantenimiento Easy Anti-Cheat anti-cheat incluido",
-    "antiCheatShort": "Easy Anti-Cheat anti-cheat incluido"
+    "antiCheat": "Mantenimiento Blizzard Anti-Cheat incluido",
+    "antiCheatShort": "Blizzard Anti-Cheat incluido"
   },
   "product": {
     "title": "Overwatch 2 Cheats",
@@ -114,11 +114,11 @@
   "footer": {
     "explore": "Explorar",
     "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables para Overwatch 2 — checkout en Zadeyo."
+    "tagline": "ESP, wallhack y Aimbot indetectables para Overwatch 2 — checkout en Zadeyo."
   },
   "home": {
     "aboutTitle": "Trucos indetectables de Overwatch 2 para Overwatch 2",
-    "aboutP1": "Overwatch 2 Cheats es un paquete de trucos indetectables para Overwatch 2 en PC Windows. Una licencia incluye ESP wallhack, soft aim y radar 2D, con reconstrucciones Easy Anti-Cheat tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en raid.",
+    "aboutP1": "Overwatch 2 Cheats es un paquete de trucos indetectables para Overwatch 2 en PC Windows. Una licencia incluye ESP wallhack, tracking aimbot y wallhack 2D, con reconstrucciones Blizzard Anti-Cheat tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en raid.",
     "aboutP2Before": "Empieza por el",
     "aboutPillar": "pilar de trucos de Overwatch 2",
     "aboutEsp": "guía de ESP",
@@ -146,7 +146,7 @@
     "linkRadar": "Radar",
     "linkLiveStatus": "Estado en vivo",
     "linkUndetected": "Indetectable",
-    "linkEasy Anti-Cheat": "Easy Anti-Cheat",
+    "linkBlizzard Anti-Cheat": "Blizzard Anti-Cheat",
     "linkSetup": "Instalación",
     "linkPlans": "Planes",
     "linkReviews": "Reseñas",
@@ -167,8 +167,8 @@
     "chooseLicense": "Elige tu licencia",
     "features": "Funciones",
     "featEsp": "ESP / wallhack",
-    "featAim": "Soft aim y teclas rápidas",
-    "featRadar": "Radar 2D",
+    "featAim": "Tracking aimbot y teclas rápidas",
+    "featRadar": "Wallhack",
     "featUpdates": "Actualizaciones de parche"
   },
   "trustStrip": {
@@ -190,20 +190,20 @@
   "images": {
     "hero": "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
     "espWallhack": "Wallhack outlines showing heroes and enemies through walls",
-    "aimbotCombat": "Soft aim assist overlay during an Overwatch 2 raid",
+    "aimbotCombat": "Overlay de aimbot de seguimiento durante un combate en Overwatch 2",
     "squadFight": "Overwatch 2 Cheats combat overlay during a squad fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Overwatch 2 raid",
+    "playerEsp": "Player ESP boxes and distance readouts in an Overwatch 2 match",
     "headerArt": "Aimbot view and bone priority controls for Overwatch 2",
-    "cheatsPackage": "2D radar threat overlay for Overwatch 2",
+    "cheatsPackage": "Overlay de wallhack para Overwatch 2",
     "rebootFight": "Aimbot assist during a Overwatch 2 firefight",
-    "battleRoyale": "Overwatch 2 Cheats in-raid overview for Windows PC",
-    "battleRoyaleIsland": "ESP markers for loot and extracts in Overwatch 2"
+    "battleRoyale": "Overwatch 2 Cheats in-match overview for Windows PC",
+    "battleRoyaleIsland": "Marcadores ESP de héroes y objetivos en Overwatch 2"
   },
   "blog": {
     "blogTitle": "Blog Overwatch 2 Cheats 2026 | Guías en 22 idiomas",
-    "blogDescription": "Blog de Overwatch 2 Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot para Overwatch 2 en PC Windows.",
-    "blogH1": "Blog Overwatch 2 Cheats — Guías globales",
-    "blogIntro": "Guías SEO de trucos Overwatch 2 indetectables, ESP wallhack, radar hack, Aimbot y mantenimiento Easy Anti-Cheat anti-cheat en 22 idiomas.",
+    "blogDescription": "Guías de trucos Overwatch 2 — ESP, aimbot, meta de Competitive, héroes y actualizaciones de Blizzard Anti-Cheat.",
+    "blogH1": "Intel de Overwatch 2 Cheats",
+    "blogIntro": "Guías para Quick Play y Competitive — meta, emparejamientos de héroes, ajustes de aimbot y rutinas de calentamiento. Combínalas con nuestras páginas de ESP, aimbot y scripts de héroes.",
     "readMore": "Leer guía",
     "published": "Publicado",
     "updated": "Actualizado",
@@ -216,14 +216,14 @@
   "gallery": {
     "eyebrow": "Overwatch 2 Cheats",
     "title": "Galería Overwatch 2",
-    "subtitle": "Visuales de Overwatch 2 con loadouts, peleas de escuadrón y combate raid — junto a herramientas ESP, radar y Aimbot.",
-    "lead": "Overwatch 2 Cheats está pensado para el loop de Overwatch 2: leer el mapa, rastrear escuadrones enemigos, lootear y sobrevivir al extract.",
-    "highlightEspTitle": "ESP de jugadores y escuadrones",
-    "highlightEspCopy": "Detecta jugadores enemigos y contornos de escuadrón en Customs y scav-run para elegir peleas con mejor información.",
-    "highlightRadarTitle": "Marcadores de loot y cofres",
-    "highlightRadarCopy": "Resalta loadouts, cofres y loot de alto nivel sin saturar la pantalla en plena partida.",
-    "highlightAimbotTitle": "Controles Aimbot Overwatch 2",
-    "highlightAimbotCopy": "Ajusta suavidad, prioridad de objetivo y teclas para AR, SMG y francotirador antes de comprar.",
+    "subtitle": "Visuales de Overwatch 2 — ESP, wallhack, aimbot y scripts de héroes para PC.",
+    "lead": "Overwatch 2 Cheats te ayuda a detectar héroes, enemigos y objetivos con ESP, aimbot y wallhack en una sola licencia.",
+    "highlightEspTitle": "ESP y wallhack Overwatch 2",
+    "highlightEspCopy": "Ve jugadores a través de paredes con ESP y overlays de wallhack en Quick Play y Competitive.",
+    "highlightRadarTitle": "Wallhack Overwatch 2",
+    "highlightRadarCopy": "Rastrea amenazas cercanas con wallhack antes de empujar un carril.",
+    "highlightAimbotTitle": "Aimbot Overwatch 2",
+    "highlightAimbotCopy": "Usa aimbot de seguimiento y flickbot ajustados para partidas de Overwatch 2 en Windows PC.",
     "updatesLabel": "Actualizaciones Overwatch 2 Cheats",
     "updatesShort": "Actualizaciones"
   }

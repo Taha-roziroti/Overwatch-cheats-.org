@@ -8,7 +8,7 @@ export const uiStrings = {
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Undetected Overwatch 2 cheats' },
 		reviews: { title: 'What players say', subtitle: 'Recent feedback from Overwatch 2 Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },
 		common: { buyNow: 'Buy Overwatch 2 Cheats', readGuide: 'Read guide', language: 'Language', officialLanguageNote: 'English is official; other locales are translated.', relatedPages: 'Related pages' },
-		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Undetected Overwatch 2 cheats for PC.\nESP, wallhack, wallhack & aimbot.' },
+		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Undetected Overwatch 2 cheats for PC.\nESP, wallhack & aimbot.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -24,12 +24,12 @@ export const uiStrings = {
 	},
 	es: {
 		nav: { home: 'Inicio', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Funciones', pricing: 'Precios', setup: 'Instalación', updates: 'Actualizaciones', faq: 'FAQ', buyNow: 'Comprar' },
-		hero: { accent: 'Trucos Overwatch 2 indetectables', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack y Aimbot para Overwatch 2 en PC Windows — mantenimiento Blizzard Anti-Cheat incluido.', subtitleShort: 'ESP, radar y Aimbot para Overwatch 2 PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
+		hero: { accent: 'Trucos Overwatch 2 indetectables', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack y Aimbot para Overwatch 2 en PC Windows — mantenimiento Blizzard Anti-Cheat incluido.', subtitleShort: 'ESP, wallhack y Aimbot para Overwatch 2 PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
 		trust: { status: 'En línea', statusNote: 'El paquete Overwatch 2 Cheats está activo para Overwatch 2 en PC Windows.', statusShort: 'Activo', delivery: 'Entrega digital instantánea', platform: 'Windows 10 y 11', antiCheat: 'Mantenimiento Blizzard Anti-Cheat incluido', antiCheatShort: 'Blizzard Anti-Cheat incluido' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Añadir al carrito', monthly: 'Mensual', lifetime: 'De por vida', available: 'Disponible ahora', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Paquete indetectable' },
 		reviews: { title: 'Lo que dicen los jugadores', subtitle: 'Comentarios recientes de compradores de Overwatch 2 Cheats', outOf: 'de 5', countLabel: 'reseñas' },
 		common: { buyNow: 'Comprar ahora', readGuide: 'Leer guía', language: 'Idioma', officialLanguageNote: 'El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.', relatedPages: 'Páginas relacionadas' },
-		footer: { explore: 'Explorar', help: 'Ayuda y legal', tagline: 'ESP, wallhack, radar y Aimbot indetectables para Overwatch 2 — checkout en Zadeyo.' },
+		footer: { explore: 'Explorar', help: 'Ayuda y legal', tagline: 'ESP, wallhack y Aimbot indetectables para Overwatch 2 — checkout en Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -45,12 +45,12 @@ export const uiStrings = {
 	},
 	fr: {
 		nav: { home: 'Accueil', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Fonctions', pricing: 'Tarifs', setup: 'Installation', updates: 'Mises à jour', faq: 'FAQ', buyNow: 'Acheter' },
-		hero: { accent: 'Triches Overwatch 2 indétectables', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack et Aimbot pour Overwatch 2 sur PC Windows — maintenance Blizzard Anti-Cheat incluse.', subtitleShort: 'ESP, radar et Aimbot pour Overwatch 2 PC', buyNow: 'Acheter', seeFeatures: 'Voir les fonctions' },
+		hero: { accent: 'Triches Overwatch 2 indétectables', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack et Aimbot pour Overwatch 2 sur PC Windows — maintenance Blizzard Anti-Cheat incluse.', subtitleShort: 'ESP, wallhack et Aimbot pour Overwatch 2 PC', buyNow: 'Acheter', seeFeatures: 'Voir les fonctions' },
 		trust: { status: 'En ligne', statusNote: 'Le pack Overwatch 2 Cheats est actif pour Overwatch 2 sur PC Windows.', statusShort: 'Actif', delivery: 'Livraison numérique instantanée', platform: 'Windows 10 et 11', antiCheat: 'Maintenance Blizzard Anti-Cheat incluse', antiCheatShort: 'Blizzard Anti-Cheat inclus' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Ajouter au panier', monthly: 'Mensuel', lifetime: 'À vie', available: 'Disponible', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Pack indétectable' },
 		reviews: { title: 'Ce que disent les joueurs', subtitle: 'Avis récents des acheteurs Overwatch 2 Cheats', outOf: 'sur 5', countLabel: 'avis' },
 		common: { buyNow: 'Acheter', readGuide: 'Lire le guide', language: 'Langue', officialLanguageNote: "L'anglais est la langue officielle. Les autres versions sont traduites pour le SEO mondial.", relatedPages: 'Pages associées' },
-		footer: { explore: 'Explorer', help: 'Aide et légal', tagline: 'ESP, wallhack, radar et Aimbot indétectables pour Overwatch 2 — checkout via Zadeyo.' },
+		footer: { explore: 'Explorer', help: 'Aide et légal', tagline: 'ESP, wallhack et Aimbot indétectables pour Overwatch 2 — checkout via Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -87,12 +87,12 @@ export const uiStrings = {
 	},
 	pt: {
 		nav: { home: 'Início', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Recursos', pricing: 'Preços', setup: 'Instalação', updates: 'Atualizações', faq: 'FAQ', buyNow: 'Comprar' },
-		hero: { accent: 'Cheats Overwatch 2 indetectáveis', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack e Aimbot para Overwatch 2 no PC Windows — manutenção Blizzard Anti-Cheat incluída.', subtitleShort: 'ESP, radar e Aimbot para Overwatch 2 PC', buyNow: 'Comprar agora', seeFeatures: 'Ver recursos' },
+		hero: { accent: 'Cheats Overwatch 2 indetectáveis', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack e Aimbot para Overwatch 2 no PC Windows — manutenção Blizzard Anti-Cheat incluída.', subtitleShort: 'ESP, wallhack e Aimbot para Overwatch 2 PC', buyNow: 'Comprar agora', seeFeatures: 'Ver recursos' },
 		trust: { status: 'Online', statusNote: 'O pacote Overwatch 2 Cheats está ativo para Overwatch 2 no PC Windows.', statusShort: 'Ativo', delivery: 'Entrega digital instantânea', platform: 'Windows 10 e 11', antiCheat: 'Manutenção Blizzard Anti-Cheat incluída', antiCheatShort: 'Blizzard Anti-Cheat incluído' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Adicionar ao carrinho', monthly: 'Mensal', lifetime: 'Vitalício', available: 'Disponível agora', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Pacote indetectável' },
 		reviews: { title: 'O que os jogadores dizem', subtitle: 'Feedback recente de compradores Overwatch 2 Cheats', outOf: 'de 5', countLabel: 'avaliações' },
 		common: { buyNow: 'Comprar agora', readGuide: 'Ler guia', language: 'Idioma', officialLanguageNote: 'Inglês é o idioma oficial. Outros idiomas são traduzidos para SEO global.', relatedPages: 'Páginas relacionadas' },
-		footer: { explore: 'Explorar', help: 'Ajuda e legal', tagline: 'ESP, wallhack, radar e Aimbot indetectáveis para Overwatch 2 — checkout via Zadeyo.' },
+		footer: { explore: 'Explorar', help: 'Ajuda e legal', tagline: 'ESP, wallhack e Aimbot indetectáveis para Overwatch 2 — checkout via Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -108,12 +108,12 @@ export const uiStrings = {
 	},
 	it: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Funzioni', pricing: 'Prezzi', setup: 'Setup', updates: 'Aggiornamenti', faq: 'FAQ', buyNow: 'Acquista' },
-		hero: { accent: 'Cheat Overwatch 2 indetectable', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack e Aimbot per Overwatch 2 su PC Windows — manutenzione Blizzard Anti-Cheat inclusa.', subtitleShort: 'ESP, radar e Aimbot per Overwatch 2 PC', buyNow: 'Acquista ora', seeFeatures: 'Vedi funzioni' },
+		hero: { accent: 'Cheat Overwatch 2 indetectable', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack e Aimbot per Overwatch 2 su PC Windows — manutenzione Blizzard Anti-Cheat inclusa.', subtitleShort: 'ESP, wallhack e Aimbot per Overwatch 2 PC', buyNow: 'Acquista ora', seeFeatures: 'Vedi funzioni' },
 		trust: { status: 'Online', statusNote: 'Il pacchetto Overwatch 2 Cheats è attivo per Overwatch 2 su PC Windows.', statusShort: 'Attivo', delivery: 'Consegna digitale istantanea', platform: 'Windows 10 e 11', antiCheat: 'Manutenzione Blizzard Anti-Cheat supportata', antiCheatShort: 'Blizzard Anti-Cheat supportato' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Aggiungi al carrello', monthly: 'Mensile', lifetime: 'A vita', available: 'Disponibile ora', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Pacchetto indetectable' },
 		reviews: { title: 'Cosa dicono i giocatori', subtitle: 'Feedback recente dagli acquirenti Overwatch 2 Cheats', outOf: 'su 5', countLabel: 'recensioni' },
 		common: { buyNow: 'Acquista ora', readGuide: 'Leggi guida', language: 'Lingua', officialLanguageNote: "L'inglese è la lingua ufficiale. Altre versioni sono tradotte per SEO globale.", relatedPages: 'Pagine correlate' },
-		footer: { explore: 'Esplora', help: 'Aiuto e legale', tagline: 'ESP, wallhack, radar e Aimbot indetectable per Overwatch 2 — checkout via Zadeyo.' },
+		footer: { explore: 'Esplora', help: 'Aiuto e legale', tagline: 'ESP, wallhack e Aimbot indetectable per Overwatch 2 — checkout via Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -129,12 +129,12 @@ export const uiStrings = {
 	},
 	nl: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Functies', pricing: 'Prijzen', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Kopen' },
-		hero: { accent: 'Undetected Overwatch 2 Cheats', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack en Aimbot voor Overwatch 2 op Windows PC — Blizzard Anti-Cheat-onderhoud inbegrepen.', subtitleShort: 'ESP, wallhack & Aimbot voor Overwatch 2 PC', buyNow: 'Nu kopen', seeFeatures: 'Bekijk functies' },
+		hero: { accent: 'Undetected Overwatch 2 Cheats', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack en Aimbot voor Overwatch 2 op Windows PC — Blizzard Anti-Cheat-onderhoud inbegrepen.', subtitleShort: 'ESP, wallhack & Aimbot voor Overwatch 2 PC', buyNow: 'Nu kopen', seeFeatures: 'Bekijk functies' },
 		trust: { status: 'Online', statusNote: 'Overwatch 2 Cheats pakket is live voor Overwatch 2 op Windows PC.', statusShort: 'Live', delivery: 'Directe digitale levering', platform: 'Windows 10 & 11', antiCheat: 'Blizzard Anti-Cheat-onderhoud ondersteund', antiCheatShort: 'Blizzard Anti-Cheat support' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'In winkelwagen', monthly: 'Maandelijks', lifetime: 'Lifetime', available: 'Nu beschikbaar', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Undetected pakket' },
 		reviews: { title: 'Wat spelers zeggen', subtitle: 'Recente feedback van Overwatch 2 Cheats kopers', outOf: 'van 5', countLabel: 'reviews' },
 		common: { buyNow: 'Nu kopen', readGuide: 'Lees gids', language: 'Taal', officialLanguageNote: 'Engels is de officiële taal. Andere talen zijn vertaald voor wereldwijde SEO.', relatedPages: 'Gerelateerde pagina\'s' },
-		footer: { explore: 'Verkennen', help: 'Help & juridisch', tagline: 'Undetected ESP, wallhack, radar en Aimbot voor Overwatch 2 — checkout via Zadeyo.' },
+		footer: { explore: 'Verkennen', help: 'Help & juridisch', tagline: 'Undetected ESP, wallhack en Aimbot voor Overwatch 2 — checkout via Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -150,12 +150,12 @@ export const uiStrings = {
 	},
 	pl: {
 		nav: { home: 'Strona główna', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Funkcje', pricing: 'Cennik', setup: 'Instalacja', updates: 'Aktualizacje', faq: 'FAQ', buyNow: 'Kup teraz' },
-		hero: { accent: 'Undetected cheaty Overwatch 2', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack i Aimbot do Overwatch 2 na PC Windows — konserwacja Blizzard Anti-Cheat w cenie.', subtitleShort: 'ESP, radar i Aimbot dla Overwatch 2 PC', buyNow: 'Kup teraz', seeFeatures: 'Zobacz funkcje' },
+		hero: { accent: 'Undetected cheaty Overwatch 2', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack i Aimbot do Overwatch 2 na PC Windows — konserwacja Blizzard Anti-Cheat w cenie.', subtitleShort: 'ESP, wallhack i Aimbot dla Overwatch 2 PC', buyNow: 'Kup teraz', seeFeatures: 'Zobacz funkcje' },
 		trust: { status: 'Online', statusNote: 'Pakiet Overwatch 2 Cheats jest aktywny dla Overwatch 2 na PC Windows.', statusShort: 'Aktywny', delivery: 'Natychmiastowa dostawa cyfrowa', platform: 'Windows 10 i 11', antiCheat: 'Wsparcie konserwacji Blizzard Anti-Cheat', antiCheatShort: 'Blizzard Anti-Cheat wsparcie' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Dodaj do koszyka', monthly: 'Miesięcznie', lifetime: 'Dożywotnio', available: 'Dostępne teraz', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Pakiet undetected' },
 		reviews: { title: 'Co mówią gracze', subtitle: 'Ostatnie opinie kupujących Overwatch 2 Cheats', outOf: 'na 5', countLabel: 'opinii' },
 		common: { buyNow: 'Kup teraz', readGuide: 'Czytaj poradnik', language: 'Język', officialLanguageNote: 'Angielski jest językiem oficjalnym. Inne wersje są tłumaczone dla globalnego SEO.', relatedPages: 'Powiązane strony' },
-		footer: { explore: 'Odkrywaj', help: 'Pomoc i prawo', tagline: 'Undetected ESP, wallhack, radar i Aimbot dla Overwatch 2 — checkout przez Zadeyo.' },
+		footer: { explore: 'Odkrywaj', help: 'Pomoc i prawo', tagline: 'Undetected ESP, wallhack i Aimbot dla Overwatch 2 — checkout przez Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -171,12 +171,12 @@ export const uiStrings = {
 	},
 	ru: {
 		nav: { home: 'Главная', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Функции', pricing: 'Цены', setup: 'Установка', updates: 'Обновления', faq: 'FAQ', buyNow: 'Купить' },
-		hero: { accent: 'Undetected читы Overwatch 2', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP wallhack, wallhack и Aimbot для Overwatch 2 на Windows PC — обслуживание Blizzard Anti-Cheat включено.', subtitleShort: 'ESP, radar и Aimbot для Overwatch 2 PC', buyNow: 'Купить', seeFeatures: 'Смотреть функции' },
+		hero: { accent: 'Undetected читы Overwatch 2', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack и Aimbot для Overwatch 2 на Windows PC — обслуживание Blizzard Anti-Cheat включено.', subtitleShort: 'ESP, wallhack и Aimbot для Overwatch 2 PC', buyNow: 'Купить', seeFeatures: 'Смотреть функции' },
 		trust: { status: 'Онлайн', statusNote: 'Пакет Overwatch 2 Cheats активен для Overwatch 2 на Windows PC.', statusShort: 'Активен', delivery: 'Мгновенная цифровая доставка', platform: 'Windows 10 и 11', antiCheat: 'Поддержка обслуживания Blizzard Anti-Cheat', antiCheatShort: 'Blizzard Anti-Cheat поддержка' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'В корзину', monthly: 'Месяц', lifetime: 'Навсегда', available: 'Доступно сейчас', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Undetected пакет' },
 		reviews: { title: 'Что говорят игроки', subtitle: 'Недавние отзывы покупателей Overwatch 2 Cheats', outOf: 'из 5', countLabel: 'отзывов' },
 		common: { buyNow: 'Купить', readGuide: 'Читать гайд', language: 'Язык', officialLanguageNote: 'Английский — официальный язык. Другие версии переведены для глобального SEO.', relatedPages: 'Похожие страницы' },
-		footer: { explore: 'Обзор', help: 'Помощь и право', tagline: 'Undetected ESP, wallhack, radar и Aimbot для Overwatch 2 — оплата через Zadeyo.' },
+		footer: { explore: 'Обзор', help: 'Помощь и право', tagline: 'Undetected ESP, wallhack и Aimbot для Overwatch 2 — оплата через Zadeyo.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -192,12 +192,12 @@ export const uiStrings = {
 	},
 	tr: {
 		nav: { home: 'Ana sayfa', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Özellikler', pricing: 'Fiyatlar', setup: 'Kurulum', updates: 'Güncellemeler', faq: 'SSS', buyNow: 'Satın al' },
-		hero: { accent: 'Undetected Overwatch 2 hileleri', accentShort: 'Overwatch 2 Cheats', subtitle: 'Overwatch 2 Windows PC için ESP wallhack, wallhack ve Aimbot — Blizzard Anti-Cheat bakımı dahil.', subtitleShort: 'Overwatch 2 PC için ESP, radar ve Aimbot', buyNow: 'Satın al', seeFeatures: 'Özellikleri gör' },
+		hero: { accent: 'Undetected Overwatch 2 hileleri', accentShort: 'Overwatch 2 Cheats', subtitle: 'Overwatch 2 Windows PC için ESP and wallhack ve Aimbot — Blizzard Anti-Cheat bakımı dahil.', subtitleShort: 'Overwatch 2 PC için ESP, wallhack ve Aimbot', buyNow: 'Satın al', seeFeatures: 'Özellikleri gör' },
 		trust: { status: 'Çevrimiçi', statusNote: 'Overwatch 2 Cheats paketi Overwatch 2 Windows PC için aktif.', statusShort: 'Aktif', delivery: 'Anında dijital teslimat', platform: 'Windows 10 ve 11', antiCheat: 'Blizzard Anti-Cheat bakım desteği', antiCheatShort: 'Blizzard Anti-Cheat destek' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Sepete ekle', monthly: 'Aylık', lifetime: 'Ömür boyu', available: 'Şimdi mevcut', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Undetected paket' },
 		reviews: { title: 'Oyuncular ne diyor', subtitle: 'Overwatch 2 Cheats alıcılarından son geri bildirimler', outOf: '/5', countLabel: 'yorum' },
 		common: { buyNow: 'Satın al', readGuide: 'Rehberi oku', language: 'Dil', officialLanguageNote: 'Resmi dil İngilizcedir. Diğer diller küresel SEO için çevrilmiştir.', relatedPages: 'İlgili sayfalar' },
-		footer: { explore: 'Keşfet', help: 'Yardım ve yasal', tagline: 'Overwatch 2 için undetected ESP, wallhack, radar ve Aimbot — Zadeyo checkout.' },
+		footer: { explore: 'Keşfet', help: 'Yardım ve yasal', tagline: 'Overwatch 2 için undetected ESP, wallhack ve Aimbot — Zadeyo checkout.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",

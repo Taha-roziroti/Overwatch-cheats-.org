@@ -73,8 +73,8 @@
 /blog/hammer-ar-s-tier-data-analysis/ /blog/weapon-tier-list/ 301
 /blog/creative-warmup-maps-pros-use /blog/warmup-routine/ 301
 /blog/creative-warmup-maps-pros-use/ /blog/warmup-routine/ 301
-/blog/secret-loot-routes-full-gold /blog/loot-routes/ 301
-/blog/secret-loot-routes-full-gold/ /blog/loot-routes/ 301
+/blog/secret-loot-routes-full-gold /blog/map-control/ 301
+/blog/secret-loot-routes-full-gold/ /blog/map-control/ 301
 /blog/bugha-settings-pro-setup /blog/pro-settings/ 301
 /blog/bugha-settings-pro-setup/ /blog/pro-settings/ 301
 # EN cannibal stub pages → pillar pages
@@ -283,8 +283,10 @@
 /overwatch-2-cheats-blog/overwatch-2-pve-aggressive-strategies/ /blog/pve-strategies/ 301
 /overwatch-2-cheats-blog/overwatch-2-tournament-meta-guide /blog/tournament-meta/ 301
 /overwatch-2-cheats-blog/overwatch-2-tournament-meta-guide/ /blog/tournament-meta/ 301
-/overwatch-2-cheats-blog/overwatch-2-loot-routes-guide /blog/loot-routes/ 301
-/overwatch-2-cheats-blog/overwatch-2-loot-routes-guide/ /blog/loot-routes/ 301
+/overwatch-2-cheats-blog/overwatch-2-loot-routes-guide /blog/map-control/ 301
+/overwatch-2-cheats-blog/overwatch-2-loot-routes-guide/ /blog/map-control/ 301
+/overwatch-2-cheats-blog/loot-routes /blog/map-control/ 301
+/overwatch-2-cheats-blog/loot-routes/ /blog/map-control/ 301
 /overwatch-2-cheats-blog/overwatch-2-pro-settings-guide /blog/pro-settings/ 301
 /overwatch-2-cheats-blog/overwatch-2-pro-settings-guide/ /blog/pro-settings/ 301
 /overwatch-2-cheats-blog/overwatch-2-warmup-maps-ranked /blog/warmup-routine/ 301

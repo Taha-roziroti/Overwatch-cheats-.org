@@ -108,7 +108,7 @@ const ENGLISH_PATHS = [
 	'/guides/',
 	'/blog/',
 	'/blog/pve-strategies/',
-	'/blog/loot-routes/',
+	'/blog/map-control/',
 	'/blog/weapon-tier-list/',
 	'/blog/skin-leaks/',
 	'/blog/tournament-meta/',
