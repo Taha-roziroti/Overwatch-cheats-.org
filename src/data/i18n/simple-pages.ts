@@ -1,6 +1,7 @@
 import type { PageId } from './content.generated';
 import { fillBrandTokens, seoDescription } from '../brand';
 import { brandCopy, brandSeo, seoPageTitle } from '../site-core';
+import { sitePaths as p } from '../site-paths';
 
 export type SimpleSection = {
 	h2: string;
@@ -44,7 +45,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.featuresIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View store',
-		ctaSecondaryHref: '/pricing/',
+		ctaSecondaryHref: p.pricing,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -88,7 +89,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.storeIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Setup guide',
-		ctaSecondaryHref: '/setup/',
+		ctaSecondaryHref: p.setup,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -111,7 +112,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Before you buy',
 				paragraphs: ['Read the refund policy if you need it. Contact support with your order ID for help.'],
 				list: [
-					'<a href="/refund-policy/">Refund policy</a>',
+					'<a href="/refund/">Refund policy</a>',
 					'<a href="/faq/">FAQ</a>',
 					'<a href="/support/">Support</a>',
 				],
@@ -125,7 +126,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Destiny 2 Cheats overview',
-		ctaSecondaryHref: '/destiny-2-cheats/',
+		ctaSecondaryHref: '/d2-cheats/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -157,11 +158,11 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Destiny 2 Cheats',
+		h1: 'Buy Destiny 2 Cheats',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
-		ctaSecondaryHref: '/features/',
+		ctaSecondaryHref: p.features,
 		galleryTitle: 'In-raid look',
 		sections: [
 			{
@@ -184,8 +185,10 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/destiny-2-esp/">ESP guide</a>',
 					'<a href="/destiny-2-aimbot/">Aimbot controls</a>',
-					'<a href="/destiny-2-radar-hack/">Radar overlay</a>',
-					'<a href="/updates/">Live status</a>',
+					'<a href="/d2-radar/">Radar overlay</a>',
+					'<a href="/blog/pve-strategies/">PvE strategies</a>',
+					'<a href="/guides/">Guides hub</a>',
+					'<a href="/status/">Live status</a>',
 				],
 			},
 			{
@@ -194,7 +197,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/pricing/">Open store</a>',
 					'<a href="/setup/">Setup guide</a>',
-					'<a href="/updates/">Check status</a>',
+					'<a href="/status/">Check status</a>',
 				],
 			},
 		],
@@ -207,7 +210,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: 'See players and loot through walls during Destiny 2 raids. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Destiny 2 Cheats overview',
-		ctaSecondaryHref: '/destiny-2-cheats/',
+		ctaSecondaryHref: '/d2-cheats/',
 		galleryTitle: 'ESP in raid',
 		sections: [
 			{
@@ -224,8 +227,11 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['ESP is included with aimbot and radar in one plan.'],
 				list: [
-					'<a href="/destiny-2-cheats/">Full product</a>',
+					'<a href="/d2-cheats/">Full product</a>',
+					'<a href="/destiny-2-aimbot/">Aimbot guide</a>',
+					'<a href="/d2-radar/">Radar overlay</a>',
 					'<a href="/features/">All features</a>',
+					'<a href="/guides/">Guides hub</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},
@@ -239,7 +245,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: 'Soft aim and aim assist you can tune for Destiny 2. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Destiny 2 Cheats overview',
-		ctaSecondaryHref: '/destiny-2-cheats/',
+		ctaSecondaryHref: '/d2-cheats/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
@@ -256,8 +262,11 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['Aimbot ships with ESP and radar in one license.'],
 				list: [
-					'<a href="/destiny-2-cheats/">Full product</a>',
+					'<a href="/d2-cheats/">Full product</a>',
+					'<a href="/destiny-2-esp/">ESP guide</a>',
+					'<a href="/d2-radar/">Radar overlay</a>',
 					'<a href="/features/">All features</a>',
+					'<a href="/guides/">Guides hub</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},
@@ -271,7 +280,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Destiny 2 Cheats overview',
-		ctaSecondaryHref: '/destiny-2-cheats/',
+		ctaSecondaryHref: '/d2-cheats/',
 		galleryTitle: 'Radar overlay',
 		sections: [
 			{
@@ -284,7 +293,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: ['Use radar for threats you cannot see yet. Use ESP when you push.'],
 				list: [
 					'<a href="/destiny-2-esp/">ESP guide</a>',
-					'<a href="/destiny-2-cheats/">Full product</a>',
+					'<a href="/d2-cheats/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},
@@ -297,7 +306,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.setupIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Check status',
-		ctaSecondaryHref: '/updates/',
+		ctaSecondaryHref: p.updates,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -307,13 +316,20 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 			{
 				h2: 'Install steps',
-				paragraphs: ['Run the loader as admin, paste your license, then launch {game}.'],
-				list: ['Download the loader from your delivery email', 'Paste license key', 'Launch the game'],
+				paragraphs: [
+					'Run the loader as admin, paste your license, then launch {game}. If you play through Steam, install or verify the game from the official store page first.',
+				],
+				list: [
+					'Download the loader from your delivery email',
+					'Paste license key',
+					'Launch the game',
+					'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2 on Steam</a>',
+				],
 			},
 			{
 				h2: 'If something fails',
 				paragraphs: ['Check Status after a patch. Email {email} with your order ID.'],
-				list: ['<a href="/updates/">Status page</a>', '<a href="/support/">Support</a>', '<a href="/faq/">FAQ</a>'],
+				list: ['<a href="/status/">Status page</a>', '<a href="/support/">Support</a>', '<a href="/faq/">FAQ</a>'],
 			},
 		],
 	}),
@@ -324,7 +340,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.supportIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'FAQ',
-		ctaSecondaryHref: '/faq/',
+		ctaSecondaryHref: p.faq,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -335,7 +351,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Faster answers',
 				paragraphs: ['Check FAQ and Status before you write. Many setup questions are already covered.'],
-				list: ['<a href="/faq/">FAQ</a>', '<a href="/updates/">Status</a>', '<a href="/setup/">Setup</a>'],
+				list: ['<a href="/faq/">FAQ</a>', '<a href="/status/">Status</a>', '<a href="/setup/">Setup</a>'],
 			},
 		],
 	}),
@@ -346,7 +362,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.faqIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Support',
-		ctaSecondaryHref: '/support/',
+		ctaSecondaryHref: p.support,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -357,12 +373,12 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Setup & updates',
 				paragraphs: ['Follow Setup after you buy. Check Status after big {game} or {antiCheat} patches.'],
-				list: ['<a href="/setup/">Setup guide</a>', '<a href="/updates/">Status</a>'],
+				list: ['<a href="/setup/">Setup guide</a>', '<a href="/status/">Status</a>'],
 			},
 			{
 				h2: 'Refunds',
 				paragraphs: ['Read the refund policy before you buy if you need details.'],
-				list: ['<a href="/refund-policy/">Refund policy</a>', '<a href="/support/">Support</a>'],
+				list: ['<a href="/refund/">Refund policy</a>', '<a href="/support/">Support</a>'],
 			},
 		],
 	}),

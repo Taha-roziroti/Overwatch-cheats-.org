@@ -14,6 +14,14 @@ export function buildSrcSet(widths: ResponsiveWidth[]): string {
 
 /** Build srcset for content images that have -480w / -960w variants. */
 export function contentSrcSet(baseSrc: string): string | undefined {
+	if (baseSrc.endsWith('/destiny-2-hero-poster.webp')) {
+		return buildSrcSet([
+			{ src: '/images/destiny-2-hero-poster-640w.webp', width: 640 },
+			{ src: '/images/destiny-2-hero-poster.webp', width: 1024 },
+			{ src: '/images/destiny-2-hero-poster-1536w.webp', width: 1536 },
+		]);
+	}
+
 	const match = baseSrc.match(/^(.+\/)(.+)\.webp$/i);
 	if (!match) return undefined;
 

@@ -3,7 +3,9 @@ import SiteFooterApp from './react/SiteFooter';
 import { getLocalizedPath } from '../data/i18n/routing';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { getBlogBasePath } from '../data/blog/helpers';
+import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
+import { destiny2OfficialResources } from '../data/official-resources';
 
 interface Props {
 	locale?: LocaleCode;
@@ -12,19 +14,20 @@ interface Props {
 const locale = Astro.props.locale ?? defaultLocale;
 
 const explore = [
-	{ labelKey: 'nav.hacks', href: getLocalizedPath('hacks', locale) },
+	{ labelKey: 'nav.preview', href: getLocalizedPath('hacks', locale) },
 	{ labelKey: 'nav.esp', href: getLocalizedPath('destiny-2-esp', locale) },
 	{ labelKey: 'nav.aimbot', href: getLocalizedPath('destiny-2-aimbot', locale) },
 	{ labelKey: 'common.featureList', href: getLocalizedPath('features', locale) },
 	{ labelKey: 'common.pricingPlans', href: getLocalizedPath('pricing', locale) },
-	{ labelKey: 'nav.faq', href: getLocalizedPath('faq', locale) },
+	{ labelKey: 'common.guides', href: '/guides/' },
 	{ labelKey: 'common.blog', href: getBlogBasePath(locale) },
+	{ labelKey: 'nav.faq', href: getLocalizedPath('faq', locale) },
 ];
 
 const help = [
 	{ labelKey: 'nav.setup', href: getLocalizedPath('setup', locale) },
 	{ labelKey: 'nav.updates', href: getLocalizedPath('updates', locale) },
-	{ labelKey: 'common.buyerReviewsNav', href: '/reviews/' },
+	{ labelKey: 'common.buyerReviewsNav', href: reviewsBasePath },
 	{ labelKey: 'common.support', href: getLocalizedPath('support', locale) },
 	{ labelKey: 'common.privacy', href: getLocalizedPath('privacy', locale) },
 	{ labelKey: 'common.terms', href: getLocalizedPath('terms', locale) },
@@ -37,24 +40,65 @@ const help = [
 	siteName={siteConfig.name}
 	supportEmail={siteConfig.supportEmail}
 	shareUrl={`${siteConfig.url}/`}
+	checkoutUrl={siteConfig.checkoutUrl}
 	explore={explore}
 	help={help}
+	officialResources={destiny2OfficialResources}
 />
 
 <style is:global>
 	.site-footer {
-		background: var(--bg-panel);
+		background:
+			radial-gradient(ellipse 80% 60% at 50% 0%, color-mix(in srgb, var(--magenta-soft) 14%, transparent), transparent 55%),
+			var(--bg-panel);
 		border-top: 1px solid var(--line-soft);
-		padding-top: 3rem;
+		padding-top: clamp(2.5rem, 5vw, 3.5rem);
 		content-visibility: auto;
-		contain-intrinsic-size: 1px 360px;
+		contain-intrinsic-size: 1px 420px;
 	}
 
 	.site-footer__grid {
 		display: grid;
-		grid-template-columns: 1.5fr 1fr 1fr;
-		gap: 2rem;
-		padding-bottom: 2.25rem;
+		grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
+		gap: clamp(1.5rem, 3vw, 2.5rem);
+		padding-bottom: 2.5rem;
+	}
+
+	.site-footer__brand-col p.site-footer__tagline {
+		max-width: 22rem;
+	}
+
+	.site-footer__tagline + .site-footer__tagline {
+		margin-top: 0.25rem;
+	}
+
+	.site-footer__cta {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 1rem;
+		min-height: 2.5rem;
+		padding: 0 1.15rem;
+		border-radius: 999px;
+		background: var(--accent);
+		color: #fafbfd !important;
+		font-size: 0.875rem;
+		font-weight: 700;
+		text-decoration: none;
+		transition:
+			background 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.site-footer__cta:hover {
+		background: var(--accent-hover);
+		color: #fafbfd !important;
+		transform: translateY(-1px);
+	}
+
+	.site-footer__resources-list a {
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
 	}
 
 	.site-footer__brand {
@@ -138,6 +182,16 @@ const help = [
 	.site-footer__bottom p {
 		max-width: none;
 		font-size: 0.75rem;
+	}
+
+	@media (max-width: 960px) {
+		.site-footer__grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		.site-footer__brand-col {
+			grid-column: 1 / -1;
+		}
 	}
 
 	@media (max-width: 760px) {

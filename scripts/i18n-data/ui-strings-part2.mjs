@@ -19,7 +19,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	ja: {
@@ -40,7 +40,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	ko: {
@@ -61,7 +61,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	zh: {
@@ -82,7 +82,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	hi: {
@@ -103,7 +103,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	id: {
@@ -124,7 +124,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	th: {
@@ -145,7 +145,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	vi: {
@@ -166,7 +166,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	uk: {
@@ -187,7 +187,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	cs: {
@@ -208,7 +208,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	ro: {
@@ -229,7 +229,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 	sv: {
@@ -250,7 +250,7 @@ export const uiStringsPart2 = {
 		cheatsPackage: "2D radar threat overlay for Destiny 2",
 		rebootFight: "Aimbot assist during a Destiny 2 firefight",
 		battleRoyale: "Destiny 2 Cheats in-raid overview for Windows PC",
-		battleRoyaleIsland: "ESP markers for loot and extracts in Destiny 2",
+		battleRoyaleIsland: "ESP markers for loot and objectives in Destiny 2",
 	},
 	},
 };

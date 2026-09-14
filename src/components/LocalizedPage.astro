@@ -9,6 +9,10 @@ import { destinyImages } from '../data/destiny';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
+import PageRelatedLinks from './PageRelatedLinks.astro';
+import OfficialResources from './OfficialResources.astro';
+import { getRelatedPageLinks } from '../data/page-related-links';
+import { productPageUrl, productSchemaId } from '../data/product-schema';
 
 interface Props {
 	locale: LocaleCode;
@@ -75,12 +79,12 @@ const storeSchema =
 	pageId === 'pricing' || pageId === 'hacks'
 		? {
 				'@type': 'Product',
-				'@id': `${pageUrl}#product`,
+				'@id': productSchemaId,
 				name: productInfo.name,
 				description: productInfo.summary,
 				image: crawl.url,
 				brand: { '@type': 'Brand', name: productInfo.brand },
-				url: new URL('/destiny-2-cheats/', siteConfig.url).href,
+				url: productPageUrl,
 				aggregateRating: {
 					'@type': 'AggregateRating',
 					ratingValue: customerReviewStats.averageRating.toFixed(1),
@@ -133,6 +137,11 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	setup: ui.nav.setup,
 	faq: ui.nav.faq,
 };
+
+const showRelatedLinks = locale === 'en' && getRelatedPageLinks(pageId).length > 0;
+const showOfficialResources =
+	locale === 'en' &&
+	(pageId === 'hacks' || pageId === 'setup' || pageId === 'updates' || pageId === 'faq');
 ---
 
 <PageLayout
@@ -215,6 +224,10 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 			</section>
 		)
 	}
+
+	{showRelatedLinks && <PageRelatedLinks pageId={pageId} locale={locale} />}
+
+	{showOfficialResources && <OfficialResources locale={locale} />}
 </PageLayout>
 
 <style>

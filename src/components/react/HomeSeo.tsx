@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { sitePaths as p } from '../../data/site-paths';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
 
@@ -16,40 +17,40 @@ function HomeSeoInner({ faqs }: Props) {
 			titleKey: 'homeSeo.catFeatures',
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
-				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/destiny-2-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/destiny-2-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/destiny-2-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
+				{ href: p.esp, labelKey: 'homeSeo.linkEsp' },
+				{ href: p.aimbot, labelKey: 'homeSeo.linkAimbot' },
+				{ href: p.radar, labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catStatus',
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
-				{ href: '/updates/', labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: '/destiny-2-cheats/', labelKey: 'homeSeo.linkUndetected' },
-				{ href: '/setup/', labelKey: 'homeSeo.linkSetup' },
-				{ href: '/faq/', labelKey: 'homeSeo.linkFaq' },
+				{ href: p.updates, labelKey: 'homeSeo.linkLiveStatus' },
+				{ href: p.cheats, labelKey: 'homeSeo.linkUndetected' },
+				{ href: p.setup, labelKey: 'homeSeo.linkSetup' },
+				{ href: p.faq, labelKey: 'homeSeo.linkFaq' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catStore',
 			hintKey: 'homeSeo.catStoreHint',
 			links: [
-				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
-				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/destiny-2-cheats/', labelKey: 'homeSeo.linkDestiny2Cheats' },
-				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
+				{ href: p.pricing, labelKey: 'homeSeo.linkPlans' },
+				{ href: p.reviews, labelKey: 'homeSeo.linkReviews' },
+				{ href: p.cheats, labelKey: 'homeSeo.linkDestiny2Cheats' },
+				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catHelp',
 			hintKey: 'homeSeo.catHelpHint',
 			links: [
-				{ href: '/support/', labelKey: 'homeSeo.linkSupport' },
-				{ href: '/setup/', labelKey: 'homeSeo.linkSetupGuide' },
-				{ href: '/blog/', labelKey: 'homeSeo.linkBlog' },
-				{ href: '/refund-policy/', labelKey: 'homeSeo.linkRefunds' },
+				{ href: p.support, labelKey: 'homeSeo.linkSupport' },
+				{ href: p.setup, labelKey: 'homeSeo.linkSetupGuide' },
+				{ href: p.guides, labelKey: 'common.guides' },
+				{ href: p.blog, labelKey: 'homeSeo.linkBlog' },
 			],
 		},
 	];
@@ -96,7 +97,7 @@ function HomeSeoInner({ faqs }: Props) {
 						<p className="home-seo__section-sub">{t('homeSeo.faqTitle')}</p>
 						<p className="home-seo__faq-lede">{t('homeSeo.faqLede')}</p>
 					</div>
-					<a className="home-seo__faq-link" href="/faq/">
+					<a className="home-seo__faq-link" href={p.faq}>
 						{t('homeSeo.allAnswers')}
 					</a>
 				</header>

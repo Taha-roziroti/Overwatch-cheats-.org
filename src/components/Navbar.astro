@@ -47,8 +47,10 @@ const localeMetas = locales.map((l) => ({
 }));
 
 const links = [
+	{ id: 'home', labelKey: 'nav.home', href: getLocalizedPath('home', locale) },
 	{ id: 'hacks', labelKey: 'nav.preview', edit: 'navPreview', href: getLocalizedPath('hacks', locale) },
-	{ id: 'esp', labelKey: 'nav.features', edit: 'navFeatures', href: getLocalizedPath('features', locale) },
+	{ id: 'esp', labelKey: 'nav.esp', href: getLocalizedPath('destiny-2-esp', locale) },
+	{ id: 'aimbot', labelKey: 'nav.aimbot', href: getLocalizedPath('destiny-2-aimbot', locale) },
 	{ id: 'pricing', labelKey: 'nav.store', edit: 'navStore', href: getLocalizedPath('pricing', locale) },
 	{ id: 'updates', labelKey: 'nav.status', edit: 'navStatus', href: getLocalizedPath('updates', locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },

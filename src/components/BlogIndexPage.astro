@@ -11,6 +11,7 @@ import {
 	getBlogIndexHreflangAlternates,
 } from '../data/blog/helpers';
 import { blogLabel, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
 import { brandSeo, seoPageTitle } from '../data/site-core';
 import { seoDescription } from '../data/brand';
 import { getLocalizedPath } from '../data/i18n/routing';
@@ -72,6 +73,13 @@ const articleListSchema = {
 			<p class="blog__eyebrow" data-edit="blogLabel">{blogLabel}</p>
 			<h1>{ui.blogH1}</h1>
 			<p class="blog__intro">{ui.blogIntro}</p>
+			<p class="blog__hub-links">
+				<a href={sitePaths.cheats}>Cheats overview</a>
+				{' · '}
+				<a href={sitePaths.guides}>Guides hub</a>
+				{' · '}
+				<a href={sitePaths.features}>Features</a>
+			</p>
 		</header>
 
 		{
@@ -160,6 +168,22 @@ const articleListSchema = {
 		max-width: 42rem;
 		color: rgba(255, 255, 255, 0.72);
 		font-size: 1.05rem;
+	}
+
+	.blog__hub-links {
+		margin: 0.75rem 0 0;
+		font-size: 0.88rem;
+		color: rgba(255, 255, 255, 0.55);
+	}
+
+	.blog__hub-links a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.blog__hub-links a:hover {
+		text-decoration: underline;
 	}
 	.blog__featured {
 		display: grid;

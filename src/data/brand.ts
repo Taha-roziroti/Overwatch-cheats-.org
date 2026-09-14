@@ -39,14 +39,14 @@ export const brand = {
 	platforms: ['Windows PC'] as const,
 
 	/**
-	 * Site color tones — #FAFBFD canvas, #AA0003 accent, #BFB4DC soft.
+	 * Site color tones — #FAFBFD canvas, #B10FF6 brand accent, derived soft/deep/hover.
 	 */
 	theme: {
-		accent: '#AA0003',
+		accent: '#B10FF6',
 		bg: '#FAFBFD',
-		soft: '#BFB4DC',
-		deep: '#7a0002',
-		hover: '#c41418',
+		soft: '#d085f1',
+		deep: '#7602a7',
+		hover: '#bf45f3',
 		panel: '#FFFFFF',
 	},
 
@@ -77,9 +77,9 @@ export const brand = {
 		statusTitle: '{game} Cheat Status | {brand}',
 		statusDescription:
 			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before Crucible, Trials, or raids on Windows PC.',
-		previewTitle: 'Destiny 2 Cheats | Aimbot, ESP & Wallhack',
+		previewTitle: 'Buy Destiny 2 Cheats | Windows PC License',
 		previewDescription:
-			'Buy undetected Destiny 2 cheats for Windows PC. Aimbot, ESP, wallhack, radar, no recoil, triggerbot, and BattlEye updates in one license.',
+			'Purchase undetected Destiny 2 cheats for Windows PC — ESP, aimbot, radar, and BattlEye rebuilds. Monthly and lifetime plans with instant delivery.',
 		setupTitle: '{game} Cheat Setup | {brand}',
 		setupDescription:
 			'Install and launch {brand} on Windows PC after checkout. Short setup steps for Crucible, Trials, and PvE — follow each step before your first match.',

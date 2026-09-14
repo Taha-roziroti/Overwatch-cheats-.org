@@ -13,13 +13,15 @@ const PAGES_EN = path.join(ROOT, 'scripts', 'i18n-data', 'pages-en.mjs');
 
 /** @type {Array<[RegExp|string, string]>} */
 const replacements = [
-	// Wrong publishers in prose (EXT.activision already links to escapefromdestiny-2.com)
-	['published by ${EXT.activision}', 'published by Battlestate Games (${EXT.destiny-2})'],
-	['from ${EXT.activision}', 'from ${EXT.destiny-2}'],
-	['via ${EXT.activision}', 'via ${EXT.destiny-2}'],
-	['belong with ${EXT.activision}', 'belong with Battlestate Games'],
-	['${EXT.activision} terms', 'Battlestate Games terms'],
-	['${EXT.activision} season updates', '${EXT.destiny-2} wipe and map updates'],
+	// Wrong publishers in prose
+	['published by ${EXT.activision}', 'published by Bungie (${EXT[\'destiny-2\']})'],
+	['from ${EXT.activision}', 'from ${EXT[\'destiny-2\']}'],
+	['via ${EXT.activision}', 'via ${EXT[\'destiny-2\']}'],
+	['belong with ${EXT.activision}', 'belong with Bungie'],
+	['${EXT.activision} terms', 'Bungie terms of service'],
+	['${EXT.activision} season updates', '${EXT[\'destiny-2\']} season and content updates'],
+	['${EXT.destiny-2}', '${EXT[\'destiny-2\']}'],
+	['Battlestate Games', 'Bungie'],
 
 	['PC & Controllers', 'Windows PC'],
 	['PC & Controller Guide', 'Windows PC Guide'],
@@ -31,10 +33,10 @@ const replacements = [
 	['Player, vehicle, and loot', 'Player, boss, and loot'],
 	[
 		'vehicle threat cues, supply-drop awareness markers, and loot or chest pins so only BR-critical',
-		'boss markers, extract cues, and loot pins so only raid-critical',
+		'boss markers, objective cues, and loot pins so only raid-critical',
 	],
-	['Vehicle and supply-drop threat cues', 'Boss and extract awareness cues'],
-	['vehicle and supply-drop threat cues', 'boss and extract awareness cues'],
+	['Vehicle and supply-drop threat cues', 'Boss and objective awareness cues'],
+	['vehicle and supply-drop threat cues', 'boss and objective awareness cues'],
 	['loot or chest pins', 'loot and container pins'],
 	['Loot and chest markers', 'Loot and container markers'],
 	['loot and chest markers', 'loot and container markers'],
@@ -49,13 +51,13 @@ const replacements = [
 	['full BR loop', 'full raid loop'],
 	['BR rotations', 'map rotations'],
 	['BR-critical', 'raid-critical'],
-	['endgame circles', 'extract holds'],
-	['final circles', 'late-raid extracts'],
-	['final-circle scrims', 'extract camp fights'],
+	['endgame circles', 'boss phases'],
+	['final circles', 'late-encounter objectives'],
+	['final-circle scrims', 'objective control fights'],
 	['before your first ranked block', 'before your first raid'],
 	['before ranked', 'before you queue'],
-	['reboot rounds', 'close-range scav fights'],
-	['Battle Pass', 'wipe progression'],
+	['reboot rounds', 'close-range PvP fights'],
+	['Battle Pass', 'seasonal progression'],
 	[
 		'long-range AR beams and close-quarters room clears without reopening menus every spawn',
 		'long-range DMR fights and dorms clears without reopening menus every raid',
@@ -63,7 +65,7 @@ const replacements = [
 	['assault rifles, SMGs, and snipers', 'ARs, SMGs, and bolt-actions'],
 	['AR / SMG / sniper', 'AR / SMG / bolt-action'],
 	['players, loot, and vehicles', 'Guardians, enemies, and loot'],
-	['for players, loot, and vehicles', 'for players, loot, and extracts'],
+	['for players, loot, and vehicles', 'for Guardians, enemies, and loot'],
 
 	// Broken / truncated meta fragments
 	['soft aim, and .', 'soft aim, and radar.'],

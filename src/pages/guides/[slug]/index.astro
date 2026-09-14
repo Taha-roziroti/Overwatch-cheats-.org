@@ -1,0 +1,308 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import SiteFooter from '../../../components/SiteFooter.astro';
+import { siteConfig } from '../../../data/site';
+import { getSelfHreflangAlternates } from '../../../data/i18n/routing';
+import {
+	getAllGuideStaticPaths,
+	getGuidePath,
+	getRelatedNativeGuides,
+	guidesBasePath,
+} from '../../../data/guides/helpers';
+import type { GameGuide } from '../../../data/guides/types';
+import OfficialResources from '../../../components/OfficialResources.astro';
+
+export function getStaticPaths() {
+	return getAllGuideStaticPaths();
+}
+
+const { guide } = Astro.props as { guide: GameGuide };
+
+const canonicalPath = getGuidePath(guide.slug);
+const canonicalURL = new URL(canonicalPath, siteConfig.url).href;
+const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
+
+const relatedNative = getRelatedNativeGuides(guide.gameId, 4);
+
+const dateLabel = new Intl.DateTimeFormat('en', {
+	day: 'numeric',
+	month: 'long',
+	year: 'numeric',
+	timeZone: 'UTC',
+}).format(new Date(`${guide.publishedAt}T00:00:00Z`));
+
+const extraGraph: Record<string, unknown>[] = [
+	{
+		'@type': 'Article',
+		'@id': `${canonicalURL}#article`,
+		url: canonicalURL,
+		headline: guide.title,
+		description: guide.description,
+		datePublished: guide.publishedAt,
+		image: guide.image,
+		articleSection: guide.gameName,
+		inLanguage: 'en',
+		author: { '@type': 'Organization', name: siteConfig.name, url: siteConfig.url },
+		publisher: { '@id': `${siteConfig.url}/#organization` },
+	},
+];
+---
+
+<Layout
+	title={`${guide.title} | Guides`}
+	description={guide.description}
+	canonicalPath={canonicalPath}
+	hreflangAlternates={hreflangAlternates}
+	ogImage={guide.image}
+	ogImageAlt={`${guide.gameName} guide`}
+	type="article"
+	locale="en"
+	breadcrumbs={[
+		{ label: 'Home', href: '/' },
+		{ label: 'Guides', href: guidesBasePath },
+		{ label: guide.gameName },
+	]}
+	extraGraph={extraGraph}
+>
+	<Navbar />
+	<main class="guide-page">
+		<div class="shell">
+			<div class="shell-content guide-page__wrap">
+				<nav class="guide-page__crumbs" aria-label="Breadcrumb">
+					<a href="/">Home</a>
+					<span aria-hidden="true">/</span>
+					<a href={guidesBasePath}>Guides</a>
+					<span aria-hidden="true">/</span>
+					<span aria-current="page">{guide.gameName}</span>
+				</nav>
+
+				<article class="guide-detail">
+					<figure class="guide-detail__media">
+						<img
+							src={guide.image}
+							alt={`${guide.gameName} — official game artwork`}
+							width="1280"
+							height="720"
+							loading="eager"
+							decoding="async"
+							fetchpriority="high"
+						/>
+					</figure>
+
+					<header class="guide-detail__head">
+						<p class="guide-detail__game">{guide.gameName}</p>
+						<h1 class="guide-detail__title">{guide.title}</h1>
+						<p class="guide-detail__date">
+							<time datetime={guide.publishedAt}>{dateLabel}</time>
+						</p>
+					</header>
+
+					<div class="guide-detail__intro">
+						<p>{guide.intro}</p>
+					</div>
+
+					{
+						guide.sections.map((section) => (
+							<section class="guide-detail__section">
+								<h2>{section.title}</h2>
+								<p>{section.body}</p>
+							</section>
+						))
+					}
+
+					<p class="guide-detail__closing" set:html={guide.closingSentence} />
+
+					{
+						relatedNative.length > 0 && (
+							<section class="guide-detail__related" aria-label="Related Destiny 2 guides">
+								<h2>Related {siteConfig.name} guides</h2>
+								<ul>
+									{relatedNative.map((native) => (
+										<li>
+											<a href={native.href}>{native.title}</a>
+										</li>
+									))}
+								</ul>
+							</section>
+						)
+					}
+
+					{guide.gameId === 'destiny-2' && <OfficialResources locale="en" />}
+
+					<div class="guide-detail__back">
+						<a href={guidesBasePath}>← All guides</a>
+					</div>
+				</article>
+			</div>
+		</div>
+	</main>
+	<SiteFooter />
+</Layout>
+
+<style>
+	.guide-page {
+		overflow-x: clip;
+		padding-block: 2rem 3rem;
+	}
+
+	.guide-page__wrap {
+		display: grid;
+		gap: 1.75rem;
+		max-width: 46rem;
+	}
+
+	.guide-page__crumbs {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.45rem;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+
+	.guide-page__crumbs a {
+		color: var(--ink-muted);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.guide-page__crumbs a:hover {
+		color: var(--magenta-soft);
+	}
+
+	.guide-detail {
+		display: grid;
+		gap: 1.25rem;
+		padding: clamp(1.25rem, 3vw, 1.85rem);
+		border-radius: var(--radius-lg, 1rem);
+		border: 1px solid var(--line);
+		background:
+			radial-gradient(ellipse 80% 60% at 0% 0%, color-mix(in srgb, var(--magenta) 12%, transparent), transparent 55%),
+			var(--bg-panel);
+	}
+
+	.guide-detail__media {
+		margin: 0;
+		border-radius: var(--radius-md, 0.75rem);
+		overflow: hidden;
+		border: 1px solid var(--line-soft);
+		background: var(--bg-elevated);
+	}
+
+	.guide-detail__media img {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 9;
+		object-fit: cover;
+	}
+
+	.guide-detail__game {
+		margin: 0;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--magenta-soft);
+	}
+
+	.guide-detail__title {
+		margin: 0.35rem 0 0;
+		font-family: var(--font-display);
+		font-size: clamp(1.35rem, 3vw, 1.85rem);
+		font-weight: 800;
+		letter-spacing: -0.02em;
+		line-height: 1.2;
+		color: var(--ink);
+	}
+
+	.guide-detail__date {
+		margin: 0.5rem 0 0;
+		font-size: 0.82rem;
+		color: var(--ink-faint);
+	}
+
+	.guide-detail__intro p,
+	.guide-detail__section p {
+		margin: 0;
+		color: var(--ink-muted);
+		font-size: 1rem;
+		line-height: 1.75;
+	}
+
+	.guide-detail__section h2 {
+		margin: 0 0 0.55rem;
+		font-family: var(--font-display);
+		font-size: 1.15rem;
+		font-weight: 800;
+		color: var(--ink);
+	}
+
+	.guide-detail__closing {
+		margin: 0.5rem 0 0;
+		padding-top: 1rem;
+		border-top: 1px solid var(--line-soft);
+		color: var(--ink-faint);
+		font-size: 0.92rem;
+		line-height: 1.65;
+	}
+
+	.guide-detail__closing :global(a) {
+		color: var(--magenta-soft);
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.guide-detail__closing :global(a:hover) {
+		color: var(--ink);
+	}
+
+	.guide-detail__related {
+		padding-top: 0.75rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.guide-detail__related h2 {
+		margin: 0 0 0.65rem;
+		font-family: var(--font-display);
+		font-size: 1rem;
+		font-weight: 800;
+		color: var(--ink);
+	}
+
+	.guide-detail__related ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.4rem;
+	}
+
+	.guide-detail__related a {
+		font-size: 0.88rem;
+		font-weight: 600;
+		color: var(--magenta-soft);
+		text-decoration: none;
+	}
+
+	.guide-detail__related a:hover {
+		color: var(--ink);
+		text-decoration: underline;
+	}
+
+	.guide-detail__back {
+		margin-top: 0.25rem;
+	}
+
+	.guide-detail__back a {
+		font-size: 0.88rem;
+		font-weight: 700;
+		color: var(--magenta-soft);
+		text-decoration: none;
+	}
+
+	.guide-detail__back a:hover {
+		color: var(--ink);
+	}
+</style>

@@ -7,6 +7,7 @@ import { brandCopy, brandSeo, seoPageTitle } from '../../data/site-core';
 import { seoDescription } from '../../data/brand';
 import { getSelfHreflangAlternates } from '../../data/i18n/routing';
 import { getReviewPath, reviewsBasePath } from '../../data/reviews';
+import { sitePaths } from '../../data/site-paths';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import { contentSrcSet, productMainSizes } from '../../lib/responsive-images';
 
@@ -73,20 +74,6 @@ const extraGraph: Record<string, unknown>[] = [
 				<span aria-current="page">Reviews</span>
 			</nav>
 
-			<figure class="reviews-index__media">
-				<img
-					src={defaultCrawlImageSrc}
-					srcset={contentSrcSet(defaultCrawlImageSrc)}
-					sizes={productMainSizes}
-					alt={fillBrandTokens('{brand} customer reviews')}
-					width="1280"
-					height="720"
-					loading="eager"
-					decoding="async"
-					fetchpriority="high"
-				/>
-			</figure>
-
 			<header class="reviews-index__head">
 				<div>
 					<h1 data-edit="navReviews">{siteConfig.name} reviews</h1>
@@ -138,7 +125,7 @@ const extraGraph: Record<string, unknown>[] = [
 					<a href={siteConfig.checkoutUrl} class="reviews-index__buy" rel="noopener noreferrer">
 						Buy Now — ${productInfo.plans[0].price}
 					</a>
-					<a href="/pricing/" class="reviews-index__link-btn">Compare pricing</a>
+					<a href={sitePaths.pricing} class="reviews-index__link-btn">Compare pricing</a>
 				</div>
 			</section>
 		</div>
@@ -155,22 +142,6 @@ const extraGraph: Record<string, unknown>[] = [
 	.reviews-index__wrap {
 		display: grid;
 		gap: 1.5rem;
-	}
-
-	.reviews-index__media {
-		margin: 0;
-		border-radius: var(--radius-md, 0.75rem);
-		overflow: hidden;
-		border: 1px solid var(--line-soft);
-		background: var(--bg-elevated);
-	}
-
-	.reviews-index__media img {
-		display: block;
-		width: 100%;
-		height: auto;
-		aspect-ratio: 16 / 9;
-		object-fit: cover;
 	}
 
 	.reviews-index__crumbs {

@@ -116,6 +116,14 @@ export function getFeaturedPosts(locale: LocaleCode, limit = 3): ResolvedBlogPos
 	return (featured.length >= limit ? featured : all).slice(0, limit);
 }
 
+/** Related posts — same category first, then recent posts. */
+export function getRelatedPosts(current: ResolvedBlogPost, limit = 3): ResolvedBlogPost[] {
+	const all = getAllPostsForLocale(defaultLocale).filter((p) => p.id !== current.id);
+	const sameCategory = all.filter((p) => p.category === current.category);
+	const rest = all.filter((p) => p.category !== current.category);
+	return [...sameCategory, ...rest].slice(0, limit);
+}
+
 export function getPostBySlug(locale: LocaleCode, slug: string): ResolvedBlogPost | undefined {
 	const post = blogPosts.find((p) => p.translations[locale]?.slug === slug);
 	return post ? resolvePost(post, locale) : undefined;
