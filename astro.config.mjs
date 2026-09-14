@@ -12,6 +12,10 @@ export default defineConfig({
 	trailingSlash: 'always',
 	compressHTML: true,
 	devToolbar: { enabled: false },
+	server: {
+		host: true,
+		port: 4321,
+	},
 	integrations: [react()],
 	build: {
 		// 'auto' keeps small styles inline but emits the large Tailwind bundle as a
