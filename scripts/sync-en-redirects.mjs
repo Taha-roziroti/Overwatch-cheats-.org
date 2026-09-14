@@ -1,0 +1,183 @@
+#!/usr/bin/env node
+/**
+ * Sync EN infrastructure redirects into public/_redirects:
+ * - Legacy Tarkov/Fortnite/Warzone paths → current short canonical URLs
+ * - EN cannibal stub pages → pillar pages
+ * - Long SEO paths → short canonical URLs (slug migration)
+ * - FAQ / review / blog slug migrations
+ *
+ * Run: node scripts/sync-en-redirects.mjs
+ * Wired into prebuild alongside sync-cannibal-redirects.mjs
+ */
+import { readFileSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import {
+	BLOG_SLUG_MAP,
+	CORE_PATH_MAP,
+	FAQ_SLUG_MAP,
+	REVIEW_SLUG_MAP,
+} from './migrate-short-slugs.mjs';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const REDIRECTS = path.join(ROOT, 'public/_redirects');
+
+/** EN cannibal stubs → pillar (matches functions/_middleware.js + seo-cannibal-map.ts). */
+const EN_CANNIBAL = {
+	'/d2-cheats-2026/': '/d2-cheats/',
+	'/d2-undetected/': '/d2-cheats/',
+	'/d2-crucible/': '/d2-cheats/',
+	'/d2-pve/': '/d2-cheats/',
+	'/d2-best-cheats/': '/d2-cheats/',
+	'/d2-aim-assist/': '/destiny-2-aimbot/',
+	'/d2-wallhack/': '/destiny-2-esp/',
+	'/d2-download/': '/setup/',
+	'/d2-battleye/': '/status/',
+	'/destiny-2-aimbot-hack/': '/destiny-2-aimbot/',
+	'/destiny-2-esp-hack/': '/destiny-2-esp/',
+};
+
+/** Legacy cross-game keyword paths → D2 pillars. */
+const LEGACY_GAME = {
+	'/escape-from-tarkov-cheats/': '/d2-cheats/',
+	'/tarkov-esp-hack/': '/destiny-2-esp/',
+	'/tarkov-aimbot-hack/': '/destiny-2-aimbot/',
+	'/best-tarkov-cheats/': '/d2-cheats/',
+	'/tarkov-cheats-2026/': '/d2-cheats/',
+	'/undetected-tarkov-cheats/': '/d2-cheats/',
+	'/tarkov-mod-menu/': '/d2-cheats/',
+	'/tarkov-unlock-all/': '/d2-cheats/',
+	'/tarkov-soft-aim/': '/destiny-2-aimbot/',
+	'/tarkov-wallhack/': '/destiny-2-esp/',
+	'/tarkov-cheat-download/': '/setup/',
+	'/battleye-bypass/': '/status/',
+	'/warzone-esp/': '/destiny-2-esp/',
+	'/warzone-aimbot/': '/destiny-2-aimbot/',
+	'/fortnite-aimbot/': '/destiny-2-aimbot/',
+	'/fortnite-esp/': '/destiny-2-esp/',
+	'/eac-bypass-fortnite/': '/status/',
+};
+
+/** Broken review slugs from prior game templates. */
+const LEGACY_REVIEWS = {
+	'/reviews/tarkov-radar-hack-review-vanlifefn/': '/reviews/radar-vanlifeeft/',
+	'/reviews/tarkov-radar-hack-review-vanlifewz/': '/reviews/radar-vanlifeeft/',
+	'/reviews/tarkov-controller-soft-aim-review-ctrl-player99/': '/reviews/aim-assist-ctrl-player99/',
+	'/reviews/destiny-2-esp-zero-build-review-buildsr4k/': '/reviews/esp-dungeon-buildsr4k/',
+	'/reviews/d2-radar-review-vanlifefn/': '/reviews/radar-vanlifeeft/',
+	'/reviews/d2-radar-review-vanlifewz/': '/reviews/radar-vanlifeeft/',
+	'/reviews/destiny-2-controller-aim-assist-review-ctrl-player99/': '/reviews/aim-assist-ctrl-player99/',
+};
+
+/** Fortnite blog slugs → current short D2 blog posts. */
+const LEGACY_BLOG = {
+	'/blog/patch-notes-buffs-nerfs-vaults/': '/blog/patch-notes/',
+	'/blog/chapter-7-season-3-skin-leaks-vbucks/': '/blog/skin-leaks/',
+	'/blog/hammer-ar-s-tier-data-analysis/': '/blog/weapon-tier-list/',
+	'/blog/zero-build-meta-broken-aggressive-strategies/': '/blog/pve-strategies/',
+	'/blog/fncs-meta-watch-tournament-drops/': '/blog/tournament-meta/',
+	'/blog/secret-loot-routes-full-gold/': '/blog/loot-routes/',
+	'/blog/bugha-settings-pro-setup/': '/blog/pro-settings/',
+	'/blog/creative-warmup-maps-pros-use/': '/blog/warmup-routine/',
+};
+
+function pairLines(from, to) {
+	const bare = from.replace(/\/$/, '');
+	return [`${bare} ${to} 301`, `${from} ${to} 301`];
+}
+
+function mapToLines(map, comment) {
+	const lines = [comment];
+	const entries = Object.entries(map).sort((a, b) => b[0].length - a[0].length);
+	for (const [from, to] of entries) {
+		lines.push(...pairLines(from, to));
+	}
+	return lines;
+}
+
+function longPathLines() {
+	const lines = ['# Long SEO paths → short canonical URLs (scripts/sync-en-redirects.mjs)'];
+	const entries = Object.entries(CORE_PATH_MAP).sort((a, b) => b[0].length - a[0].length);
+	for (const [from, to] of entries) {
+		lines.push(...pairLines(from, to));
+	}
+	for (const [from, to] of Object.entries(FAQ_SLUG_MAP)) {
+		lines.push(...pairLines(`/destiny-2-cheats-faq/${from}/`, `/faq/${to}/`));
+		lines.push(...pairLines(`/faq/${from}/`, `/faq/${to}/`));
+	}
+	for (const [from, to] of Object.entries(REVIEW_SLUG_MAP)) {
+		lines.push(...pairLines(`/destiny-2-cheats-reviews/${from}/`, `/reviews/${to}/`));
+		lines.push(...pairLines(`/reviews/${from}/`, `/reviews/${to}/`));
+	}
+	for (const [from, to] of Object.entries(BLOG_SLUG_MAP)) {
+		lines.push(...pairLines(`/destiny-2-cheats-blog/${from}/`, `/blog/${to}/`));
+	}
+	const legacyBlog = [
+		['escape-from-destiny-2-cheats-buyers-guide', 'buyers-guide'],
+		['destiny-2-scav-run-aggressive-strategies', 'pve-strategies'],
+		['destiny-2-PvE-aggressive-strategies', 'pve-strategies'],
+	];
+	for (const [from, to] of legacyBlog) {
+		lines.push(...pairLines(`/destiny-2-cheats-blog/${from}/`, `/blog/${to}/`));
+		lines.push(...pairLines(`/blog/${from}/`, `/blog/${to}/`));
+	}
+	return lines;
+}
+
+function buildEnBlock() {
+	return [
+		'',
+		'# EN infrastructure redirects (scripts/sync-en-redirects.mjs)',
+		'# Do not edit by hand — regenerated on sync:brand / prebuild',
+		...mapToLines(LEGACY_GAME, '# Legacy Tarkov / Fortnite / Warzone keyword paths'),
+		...mapToLines(LEGACY_REVIEWS, '# Legacy review slug fixes'),
+		...mapToLines(LEGACY_BLOG, '# Legacy Fortnite blog slugs → D2 posts'),
+		...mapToLines(EN_CANNIBAL, '# EN cannibal stub pages → pillar pages'),
+		...longPathLines(),
+		'',
+	].join('\n');
+}
+
+const MARKER_START = '# EN infrastructure redirects';
+const MARKER_LOCALE = '# Auto-generated cannibal locale redirects';
+
+let content = readFileSync(REDIRECTS, 'utf8');
+
+// Remove old hand-maintained blocks superseded by this script
+content = content.replace(
+	/# Exact-match keyword \+ cannibalization → canonical EN landings[\s\S]*?(?=# Broken review|# Auto-generated cannibal|# EN infrastructure)/,
+	'',
+);
+content = content.replace(
+	/# Broken review slug fixes[\s\S]*?(?=# Auto-generated cannibal|# EN infrastructure)/,
+	'',
+);
+content = content.replace(
+	/# Long SEO paths → short canonical URLs[\s\S]*?(?=# Auto-generated cannibal|# EN infrastructure)/,
+	'',
+);
+
+const enStart = content.indexOf(MARKER_START);
+if (enStart >= 0) {
+	const localeStart = content.indexOf(MARKER_LOCALE, enStart);
+	const end = localeStart >= 0 ? content.lastIndexOf('\n', localeStart) : content.length;
+	content = content.slice(0, enStart).trimEnd() + content.slice(end);
+}
+
+const localeStart = content.indexOf(MARKER_LOCALE);
+if (localeStart >= 0) {
+	const lineStart = content.lastIndexOf('\n', localeStart);
+	content = content.slice(0, lineStart >= 0 ? lineStart : localeStart).trimEnd() + buildEnBlock() + content.slice(lineStart >= 0 ? lineStart : localeStart);
+} else {
+	content = content.trimEnd() + buildEnBlock();
+}
+
+writeFileSync(REDIRECTS, content.endsWith('\n') ? content : `${content}\n`);
+
+const enCount =
+	Object.keys(LEGACY_GAME).length +
+	Object.keys(LEGACY_REVIEWS).length +
+	Object.keys(LEGACY_BLOG).length +
+	Object.keys(EN_CANNIBAL).length +
+	Object.keys(CORE_PATH_MAP).length;
+console.log(`Synced EN infrastructure redirects (~${enCount * 2} rules before slug pairs)`);
