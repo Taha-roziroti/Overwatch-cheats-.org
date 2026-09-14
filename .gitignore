@@ -4,3 +4,4 @@ dist/
 .env
 .env.*
 *.log
+PUBLIC_DEV_URL.txt
