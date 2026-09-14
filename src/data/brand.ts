@@ -27,8 +27,8 @@ export const brand = {
 	logoAlt: 'Overwatch 2 Cheats logo',
 	defaultOgImage: '/images/overwatch-2-hero-poster.webp',
 	heroImage: '/images/overwatch-2-hero-poster.webp',
-	/** Hero background clip — swap at public/videos/overwatch-2-hero.mp4 when ready */
-	heroVideo: '/videos/overwatch-2-hero.mp4',
+	/** Hero background clip — public/videos/Overwatch-Hero.mp4 */
+	heroVideo: '/videos/Overwatch-Hero.mp4',
 	heroVideoPoster: '/images/overwatch-2-hero-poster.webp',
 
 	plans: [

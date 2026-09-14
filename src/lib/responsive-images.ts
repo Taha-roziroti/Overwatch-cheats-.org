@@ -45,7 +45,7 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 	);
 }
 
-/** Homepage hero poster — swap video at /videos/overwatch-2-hero.mp4 when ready. */
+/** Homepage hero poster fallback when heroVideo is empty. */
 export const heroResponsive: ResponsiveWidth[] = [
 	{ src: '/images/overwatch-2-hero-poster-640w.webp', width: 640 },
 	{ src: '/images/overwatch-2-hero-poster.webp', width: 1024 },

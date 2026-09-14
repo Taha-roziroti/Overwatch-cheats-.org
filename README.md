@@ -27,10 +27,10 @@ npm run build:validate
 Upload your hero MP4 to:
 
 ```
-public/videos/overwatch-2-hero.mp4
+public/videos/Overwatch-Hero.mp4
 ```
 
-Then set `heroVideo: '/videos/overwatch-2-hero.mp4'` in `src/data/brand.ts` and run `npm run sync:brand`.
+Then set `heroVideo: '/videos/Overwatch-Hero.mp4'` in `src/data/brand.ts` and run `npm run sync:brand`.
 
 Until then, the hero uses the poster image at `public/images/overwatch-2-hero-poster.webp`.
 
