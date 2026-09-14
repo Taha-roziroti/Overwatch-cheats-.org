@@ -20,21 +20,21 @@ const PATH_REPLACEMENTS = [
 	['/privacy-policy/', '/privacy/'],
 	['/refund-policy/', '/refund/'],
 	['/terms/', '/terms/'],
-	['/hacks/', '/d2-cheats/'],
+	['/hacks/', '/ow2-cheats/'],
 ];
 
 const COPY_REPLACEMENTS = [
-	[/warthundercheat\.net/gi, 'destiny2cheats.org'],
-	[/support@warthundercheat\.net/gi, 'support@destiny2cheats.org'],
+	[/warthundercheat\.net/gi, 'warthundercheat.net'],
+	[/support@warthundercheat\.net/gi, 'support@warthundercheat.net'],
 	[/raid and scav-runs/gi, 'raids and PvE'],
 	[/raid and scav-run/gi, 'raids and PvE'],
 	[/scav-runs/gi, 'PvE activities'],
 	[/scav-run/gi, 'PvE'],
-	[/Guardian raids and PvE activities/gi, 'raids and PvE'],
-	[/Guardian raids and PvEs/gi, 'raids and PvE'],
-	[/“Destiny 2 cheats” and “Destiny 2 cheats” search intent/gi, 'Destiny 2 cheat buyers'],
-	[/Destiny 2 cheats and Destiny 2 cheats search intent/gi, 'Destiny 2 cheat buyers'],
-	[/USEC head/gi, 'Guardian silhouette'],
+	[/hero raids and PvE activities/gi, 'raids and PvE'],
+	[/hero raids and PvEs/gi, 'raids and PvE'],
+	[/“Overwatch 2 cheats” and “Overwatch 2 cheats” search intent/gi, 'Overwatch 2 cheat buyers'],
+	[/Overwatch 2 cheats and Overwatch 2 cheats search intent/gi, 'Overwatch 2 cheat buyers'],
+	[/USEC head/gi, 'hero silhouette'],
 ];
 
 function applyReplacements(text) {

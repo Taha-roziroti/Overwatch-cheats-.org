@@ -39,7 +39,7 @@ const aggregateRating = {
 	worstRating: '1',
 };
 
-/** Homepage references the canonical product on /d2-cheats/ — FAQ schema lives on /faq/ only. */
+/** Homepage references the canonical product on /ow2-cheats/ — FAQ schema lives on /faq/ only. */
 const extraGraph: Record<string, unknown>[] = [
 	{
 		'@type': 'Product',
@@ -81,7 +81,7 @@ const extraGraph: Record<string, unknown>[] = [
 	ogImageAlt={
 		home.imageAlt?.trim() && home.imageAlt.trim().length > 12
 			? home.imageAlt
-			: `${siteConfig.name} — Destiny 2 ESP and aimbot`
+			: `${siteConfig.name} — Overwatch 2 ESP and aimbot`
 	}
 	locale={locale}
 	pageId="home"

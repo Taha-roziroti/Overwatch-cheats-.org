@@ -9,9 +9,9 @@ import { sitePaths } from '../../data/site-paths';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import OfficialResources from '../../components/OfficialResources.astro';
 
-const title = 'Destiny 2 Guides | Setup, Features & Modes';
+const title = 'Overwatch 2 Guides | Setup, Features & Modes';
 const description =
-	'Destiny 2 cheat guides for setup, features, ESP, aimbot, Crucible, and PvE — informational pages for Windows PC license holders.';
+	'Overwatch 2 cheat guides for setup, features, ESP, aimbot, Quick Play, and PvE — informational pages for Windows PC license holders.';
 const canonicalPath = guidesBasePath;
 const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
 
@@ -61,7 +61,7 @@ const extraGraph: Record<string, unknown>[] = [
 
 			<section class="guides-index__native" aria-labelledby="native-guides-title">
 				<h2 id="native-guides-title">{siteConfig.name} guides</h2>
-				<p class="guides-index__section-lead">Official setup, features, and mode-specific guides for Destiny 2.</p>
+				<p class="guides-index__section-lead">Official setup, features, and mode-specific guides for Overwatch 2.</p>
 				<div class="guides-index__grid">
 					{
 						nativeGuides.map((guide) => (

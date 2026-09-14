@@ -16,7 +16,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 		{ href: p.pricing, label: 'Store & plans' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
-	'destiny-2-esp': [
+	'overwatch-2-esp': [
 		{ href: p.cheats, label: 'Product overview' },
 		{ href: p.aimbot, label: 'Aimbot guide' },
 		{ href: p.radar, label: 'Radar overlay' },
@@ -24,7 +24,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 		{ href: p.pricing, label: 'Store' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
-	'destiny-2-aimbot': [
+	'overwatch-2-aimbot': [
 		{ href: p.cheats, label: 'Product overview' },
 		{ href: p.esp, label: 'ESP guide' },
 		{ href: p.radar, label: 'Radar overlay' },

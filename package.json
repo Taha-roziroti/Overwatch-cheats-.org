@@ -1,5 +1,5 @@
 {
-	"name": "destiny-2-cheats",
+	"name": "overwatch-2-cheats",
 	"type": "module",
 	"version": "1.0.0",
 	"engines": {
@@ -21,7 +21,7 @@
 		"dev:status": "astro dev status",
 		"dev:logs": "astro dev logs",
 		"optimize:images": "node scripts/optimize-responsive-images.mjs",
-		"fetch:images": "node scripts/fetch-destiny-images.mjs",
+		"fetch:images": "node scripts/fetch-overwatch-images.mjs",
 		"generate:brand": "node scripts/generate-brand-assets.mjs",
 		"preview": "astro preview",
 		"validate:sitemaps": "node scripts/validate-sitemaps.mjs && node scripts/audit-sitemap-deep.mjs",

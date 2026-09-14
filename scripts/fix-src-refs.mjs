@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Final pass: fix remaining Destiny 2 references in src/. */
+/** Final pass: fix remaining Overwatch 2 references in src/. */
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,26 +8,26 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 's
 const REMOVE_PAGE_IDS = ['hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats', 'aimbot-hack', 'esp-hack', 'pve-cheats'];
 
 const REPLACEMENTS = [
-	['destinyImages', 'destinyImages'],
-	["from '../data/destiny'", "from '../data/destiny'"],
-	["from './destiny'", "from './destiny'"],
-	['/undetected-destiny-2-cheats/', '/undetected-destiny-2-cheats/'],
-	['/destiny-2-wallhack/', '/destiny-2-wallhack/'],
-	['/destiny-2-radar-hack/', '/destiny-2-radar-hack/'],
-	['/destiny-2-battleye-bypass/', '/destiny-2-battleye-bypass/'],
-	['/destiny-2-cheats-2026/', '/destiny-2-cheats-2026/'],
-	['/destiny-2-aimbot/', '/destiny-2-aimbot/'],
-	['/destiny-2-esp/', '/destiny-2-esp/'],
-	['/destiny-2-cheats/', '/destiny-2-esp/'],
-	['Destiny 2 Cheats', 'Destiny 2 Cheats'],
-	['Destiny 2 cheats', 'Destiny 2 cheats'],
-	['Destiny 2 wallhack', 'Destiny 2 wallhack'],
-	['Destiny 2 radar', 'Destiny 2 radar'],
-	['Destiny 2 Aimbot', 'Destiny 2 Aimbot'],
-	['Destiny 2 ESP', 'Destiny 2 ESP'],
-	['Destiny 2', 'Destiny 2'],
-	['BattlEye', 'BattlEye anti-cheat'],
-	['battleye', 'battleye'],
+	['overwatchImages', 'overwatchImages'],
+	["from '../data/overwatch2'", "from '../data/overwatch2'"],
+	["from './overwatch2'", "from './overwatch2'"],
+	['/undetected-overwatch-2-cheats/', '/undetected-overwatch-2-cheats/'],
+	['/overwatch-2-wallhack/', '/overwatch-2-wallhack/'],
+	['/overwatch-2-visuals/', '/overwatch-2-visuals/'],
+	['/overwatch-2-anticheat-bypass/', '/overwatch-2-anticheat-bypass/'],
+	['/overwatch-2-cheats-2026/', '/overwatch-2-cheats-2026/'],
+	['/overwatch-2-aimbot/', '/overwatch-2-aimbot/'],
+	['/overwatch-2-esp/', '/overwatch-2-esp/'],
+	['/overwatch-2-cheats/', '/overwatch-2-esp/'],
+	['Overwatch 2 Cheats', 'Overwatch 2 Cheats'],
+	['Overwatch 2 cheats', 'Overwatch 2 cheats'],
+	['Overwatch 2 wallhack', 'Overwatch 2 wallhack'],
+	['Overwatch 2 radar', 'Overwatch 2 radar'],
+	['Overwatch 2 Aimbot', 'Overwatch 2 Aimbot'],
+	['Overwatch 2 ESP', 'Overwatch 2 ESP'],
+	['Overwatch 2', 'Overwatch 2'],
+	['Easy Anti-Cheat', 'Easy Anti-Cheat anti-cheat'],
+	['easy-anticheat', 'easy-anticheat'],
 	['warthundercheat.net', 'warthundercheat.net'],
 	['operatorEsp', 'playerEsp'],
 	['extractFight', 'rebootFight'],

@@ -12,26 +12,26 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "patch-notes",
-		title: "How to Read Destiny 2 Patch Notes",
-		metaDescription: "Learn how Destiny 2 patch notes change Guardian loadouts, ammo economy, and maps. What to do after BattlEye and season updates in 2026.",
-		h1: "How to Read Destiny 2 Patch Notes Without Guessing",
-		intro: "When Bungie drops a patch, most players skim the headline and queue anyway. That is how you walk into Crucible with the wrong ammo and a gun that just lost its shield break. Here is a calmer way to read Destiny 2 patch notes so your next raid still makes sense.",
-		keywords: ["Destiny 2 patch notes","destiny-2 season update","battleye patch","Guardian loadout","destiny-2 intel"],
-		imageAlt: "Player reviewing Destiny 2 patch notes before a Guardian raid",
+		title: "How to Read Overwatch 2 Patch Notes",
+		metaDescription: "Learn how Overwatch 2 patch notes change hero loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and season updates in 2026.",
+		h1: "How to Read Overwatch 2 Patch Notes Without Guessing",
+		intro: "When Blizzard drops a patch, most players skim the headline and queue anyway. That is how you walk into Quick Play with the wrong ammo and a gun that just lost its shield break. Here is a calmer way to read Overwatch 2 patch notes so your next raid still makes sense.",
+		keywords: ["Overwatch 2 patch notes","overwatch-2 season update","easy-anticheat patch","hero loadout","overwatch-2 intel"],
+		imageAlt: "Player reviewing Overwatch 2 patch notes before a hero raid",
 		sections: [
 			{
-				h2: "What actually matters in a Destiny 2 patch?",
+				h2: "What actually matters in a Overwatch 2 patch?",
 				paragraphs: [
-					"Official notes live on <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Guardians? Does this change what loot is worth looting? Does this change which activity or map I should run tonight?",
+					"Official notes live on <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored heroes? Does this change what loot is worth looting? Does this change which activity or map I should run tonight?",
 					"Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Nessus and Europa. Cosmetic lines and UI polish almost never decide whether you survive zones.",
-					"If you also run cleanup tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> or client update, check our <a href=\"/status/\">Destiny 2 Cheats status page</a> before you blame your own aim.",
+					"If you also run cleanup tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> or client update, check our <a href=\"/status/\">Overwatch 2 Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
 					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most fireteams. Buffs deserve a short test block — ten focused raids — before you rebuild your entire loadout around them.",
-					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against high-resilience targets, your Crucible push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/weapon-tier-list/\">Destiny 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
+					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against high-resilience targets, your Quick Play push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/weapon-tier-list/\">Overwatch 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
 				],
 			},
 			{
@@ -39,7 +39,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				paragraphs: [
 					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near objectives and avoid ego flanks. When a zone layout shifts — new locked doors, moved spawns, boss path changes — rewrite your first three minutes on that activity before you farm it for quests.",
 					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href=\"/blog/pve-strategies/\">PvE activity strategies</a>.",
-					"On big mornings, confirm <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your inventory wish list, play five intentional raids, and only then lock a new main kit.",
+					"On big mornings, confirm <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your inventory wish list, play five intentional raids, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -47,7 +47,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-skin-leaks",
+		id: "overwatch-2-skin-leaks",
 		imageKey: "headerArt",
 		published: "2026-07-27",
 		updated: "2026-08-13",
@@ -56,32 +56,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "skin-leaks",
-		title: "Destiny 2 Cosmetics & Skin Leaks: What Is Worth Buying",
-		metaDescription: "Sensible advice on Destiny 2 cosmetics and skin leaks — what to buy on the Eververse, what to skip, and how looks affect raid readability.",
-		h1: "Destiny 2 Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
-		intro: "Leaks make every season feel like a fashion drop. Before you dump glimmer into another loud outfit, decide whether the skin helps you play Destiny 2 — or just looks cool in a screenshot.",
-		keywords: ["destiny-2 skins","destiny-2 cosmetics","Eververse skins","Destiny 2 apparel","destiny-2 intel"],
-		imageAlt: "Destiny 2 character cosmetics and gear appearance options",
+		title: "Overwatch 2 Cosmetics & Skin Leaks: What Is Worth Buying",
+		metaDescription: "Sensible advice on Overwatch 2 cosmetics and skin leaks — what to buy on the Overwatch Shop, what to skip, and how looks affect raid readability.",
+		h1: "Overwatch 2 Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
+		intro: "Leaks make every season feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play Overwatch 2 — or just looks cool in a screenshot.",
+		keywords: ["overwatch-2 skins","overwatch-2 cosmetics","Overwatch Shop skins","Overwatch 2 apparel","overwatch-2 intel"],
+		imageAlt: "Overwatch 2 character cosmetics and gear appearance options",
 		sections: [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned glimmer the night before a season reset, then realize they still need consumables, ammo, and a backup kit.",
+					"Shop rotations and official apparel come from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a season reset, then realize they still need consumables, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Nessus or in dark Europa hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
-				h2: "A simple worth-it checklist for Destiny 2 cosmetics",
+				h2: "A simple worth-it checklist for Overwatch 2 cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a glimmer reserve for ammo and healing before fashion.",
-					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Eververse. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
+					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a credits reserve for ammo and healing before fashion.",
+					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Overwatch Shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
 			{
 				h2: "How to use leaks without getting played",
 				paragraphs: [
 					"Treat late-season leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.",
-					"For competitive readability tips that actually affect fights, pair this with our <a href=\"/blog/pro-settings/\">pro settings guide</a>. Looking clean matters less than seeing the other Guardian first.",
+					"For competitive readability tips that actually affect fights, pair this with our <a href=\"/blog/pro-settings/\">pro settings guide</a>. Looking clean matters less than seeing the other hero first.",
 				],
 			}
 		],
@@ -98,33 +98,33 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "weapon-tier-list",
-		title: "Destiny 2 Weapon Tier List: Best Guns for Raids",
-		metaDescription: "A practical Destiny 2 weapon tier list for Guardian raids and Crucible — hand cannons, pulses, snipers, mods, and when each gun actually wins fights.",
-		h1: "Destiny 2 Weapon Tier List: What Wins Raids in 2026",
-		intro: "Creator tier lists love flashy guns. Destiny 2 rewards expected value: shield breakage, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
-		keywords: ["destiny-2 weapon tier list","best destiny-2 guns","destiny-2 meta weapons","m4a1 destiny-2","destiny-2 intel"],
-		imageAlt: "Destiny 2 weapons laid out for a Guardian loadout comparison",
+		title: "Overwatch 2 Weapon Tier List: Best Guns for Raids",
+		metaDescription: "A practical Overwatch 2 weapon tier list for hero raids and Quick Play — hand cannons, pulses, snipers, mods, and when each gun actually wins fights.",
+		h1: "Overwatch 2 Weapon Tier List: What Wins Raids in 2026",
+		intro: "Creator tier lists love flashy guns. Overwatch 2 rewards expected value: shield breakage, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
+		keywords: ["overwatch-2 weapon tier list","best overwatch-2 guns","overwatch-2 meta weapons","m4a1 overwatch-2","overwatch-2 intel"],
+		imageAlt: "Overwatch 2 weapons laid out for a hero loadout comparison",
 		sections: [
 			{
-				h2: "How should you define S-tier in Destiny 2?",
+				h2: "How should you define S-tier in Overwatch 2?",
 				paragraphs: [
-					"S-tier means the best expected value across a hundred Guardian fights on maps like Crucible, Nessus, and Europa — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
+					"S-tier means the best expected value across a hundred hero fights on maps like Quick Play, Nessus, and Europa — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
 					"Shotguns still own tight interiors. Snipers still punish long lanes on Nessus and Europa. Everything between those extremes is usually pulse rifle and hand cannon country, which is why a well-built mid-range primary stays relevant season after season when mods and ammo types are available.",
-					"Always re-check live values after patches on <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. The hierarchy logic stays useful even when numbers nudge.",
+					"Always re-check live values after patches on <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
 			{
 				h2: "Ammo, TTK, and peek discipline matter more than brand names",
 				paragraphs: [
-					"Time-to-kill in Destiny 2 is really about burst damage and resilience breakpoints. A tuned hand cannon with the right mods beats a loud meta rifle that cannot break high-resilience targets. Learn which ammo and mods you can afford this season, then pick a primary that controls recoil at your skill level.",
+					"Time-to-kill in Overwatch 2 is really about burst damage and resilience breakpoints. A tuned hand cannon with the right mods beats a loud meta rifle that cannot break high-resilience targets. Learn which ammo and mods you can afford this season, then pick a primary that controls recoil at your skill level.",
 					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/blog/loot-routes/\">loot routes guide</a> so you actually spawn with the ammo you planned to use.",
 				],
 			},
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid-range primary, a close-range option for Crucible or patrol zones, enough healing, and resilience tiers you can replace after deaths. In PvE activities, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">PvE strategies article</a>.",
-					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/destiny-2-aimbot/\">Destiny 2 aimbot settings</a>.",
+					"A durable kit is usually a reliable mid-range primary, a close-range option for Quick Play or patrol zones, enough healing, and resilience tiers you can replace after deaths. In PvE activities, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">PvE strategies article</a>.",
+					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/overwatch-2-aimbot/\">Overwatch 2 aimbot settings</a>.",
 				],
 			}
 		],
@@ -132,7 +132,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-PvE-meta",
+		id: "overwatch-2-PvE-meta",
 		imageKey: "battleRoyaleCombat",
 		published: "2026-07-22",
 		updated: "2026-08-13",
@@ -141,25 +141,25 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "pve-strategies",
-		title: "Destiny 2 PvE Strategies That Actually Print Loot",
-		metaDescription: "Five aggressive but smart Destiny 2 PvE strategies — timings, objectives, cleanup kills, and how to leave raids with gear instead of empty pockets.",
-		h1: "Destiny 2 PvE Strategies: How to Leave With Gear",
+		title: "Overwatch 2 PvE Strategies That Actually Print Loot",
+		metaDescription: "Five aggressive but smart Overwatch 2 PvE strategies — timings, objectives, cleanup kills, and how to leave raids with gear instead of empty pockets.",
+		h1: "Overwatch 2 PvE Strategies: How to Leave With Gear",
 		intro: "Passive players wait behind cover while two fireteams clear an encounter, then push late and die. Strong PvE runs manufacture a short advantage, grab what matters, and complete the objective before adds overwhelm you.",
-		keywords: ["destiny-2 PvE activity","PvE strategies","Destiny 2 PvE","destiny-2 objectives","Destiny 2 ESP"],
-		imageAlt: "Guardian moving toward an objective with loot in Destiny 2",
+		keywords: ["overwatch-2 PvE activity","PvE strategies","Overwatch 2 PvE","overwatch-2 objectives","Overwatch 2 ESP"],
+		imageAlt: "hero moving toward an objective with loot in Overwatch 2",
 		sections: [
 			{
 				h2: "Why so many PvE activities feel soft",
 				paragraphs: [
-					"Enemy loadouts vary, timers are limited, and other Guardians can contest the same objective. Waiting forever for a “perfect” cleanup often means you arrive late to an empty encounter with nothing left. Information tools like <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> can help you see fights early — but you still need an exit plan.",
+					"Enemy loadouts vary, timers are limited, and other heroes can contest the same objective. Waiting forever for a “perfect” cleanup often means you arrive late to an empty encounter with nothing left. Information tools like <a href=\"/overwatch-2-esp/\">Overwatch 2 ESP</a> can help you see fights early — but you still need an exit plan.",
 					"Decide your objective before you push. Take a clear damage window, grab powerful loot, then rotate. The usual contest window in hot zones is only a few seconds long once gunfire starts.",
 				],
 			},
 			{
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
-					"Pre-aim common corners on Crucible zones and Europa tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or barrier. Pressure late rotates near objectives when players are silhouetted and greedy. Season rules evolve with <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> updates; the geometry of first-shot advantage does not.",
+					"Pre-aim common corners on Quick Play zones and Europa tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
+					"Stay close to hard cover while you move — never more than a short sprint from a wall or barrier. Pressure late rotates near objectives when players are silhouetted and greedy. Season rules evolve with <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> updates; the geometry of first-shot advantage does not.",
 				],
 			},
 			{
@@ -174,7 +174,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-tournament-meta",
+		id: "overwatch-2-tournament-meta",
 		imageKey: "rebootFight",
 		published: "2026-07-20",
 		updated: "2026-08-13",
@@ -183,17 +183,17 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "tournament-meta",
-		title: "What Competitive Destiny 2 Players Optimize For",
-		metaDescription: "What strong Destiny 2 competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal Guardian queues.",
-		h1: "What Competitive Destiny 2 Players Optimize For",
-		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal Destiny 2 queues.",
-		keywords: ["destiny-2 competitive","destiny-2 tournament","destiny-2 meta","Guardian habits","destiny-2 intel"],
-		imageAlt: "Competitive Destiny 2 players reviewing raid strategy",
+		title: "What Competitive Overwatch 2 Players Optimize For",
+		metaDescription: "What strong Overwatch 2 competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal hero queues.",
+		h1: "What Competitive Overwatch 2 Players Optimize For",
+		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal Overwatch 2 queues.",
+		keywords: ["overwatch-2 competitive","overwatch-2 tournament","overwatch-2 meta","hero habits","overwatch-2 intel"],
+		imageAlt: "Competitive Overwatch 2 players reviewing raid strategy",
 		sections: [
 			{
 				h2: "Watch competitive VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> community events or trusted creators, then tag habits instead of memorizing a single zone name. Note the spawn plan, first heal, first rotate, first voluntary fight, and the key late-encounter decision.",
+					"Start with schedules and film from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> community events or trusted creators, then tag habits instead of memorizing a single zone name. Note the spawn plan, first heal, first rotate, first voluntary fight, and the key late-encounter decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
@@ -208,7 +208,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What actually translates to normal raids",
 				paragraphs: [
 					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a fireteam strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href=\"/blog/pve-strategies/\">PvE aggression guide</a>.",
-					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid Guardian block before adding another.",
+					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid hero block before adding another.",
 				],
 			}
 		],
@@ -216,7 +216,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-loot-routes",
+		id: "overwatch-2-loot-routes",
 		imageKey: "battleRoyaleIslandMap",
 		published: "2026-07-18",
 		updated: "2026-08-13",
@@ -225,12 +225,12 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "loot-routes",
-		title: "Destiny 2 Loot Routes That Leave Spawn Ready to Fight",
-		metaDescription: "High-percentage Destiny 2 loot routes for Crucible, Nessus, and Europa — how to leave spawn with guns, armor, and heals that win mid-encounter fights.",
-		h1: "Destiny 2 Loot Routes: Leave Spawn Ready to Fight",
-		intro: "Winning in Destiny 2 starts before the first gunfight. Random looting gets you killed with a sidearm and no healing. These route habits consistently convert a spawn into a kit you can actually fight with.",
-		keywords: ["destiny-2 loot routes","Crucible loot path","Europa loot","destiny-2 spawn guide","Destiny 2 ESP"],
-		imageAlt: "Loot route planning across an Destiny 2 map",
+		title: "Overwatch 2 Loot Routes That Leave Spawn Ready to Fight",
+		metaDescription: "High-percentage Overwatch 2 loot routes for Quick Play, Nessus, and Europa — how to leave spawn with guns, armor, and heals that win mid-encounter fights.",
+		h1: "Overwatch 2 Loot Routes: Leave Spawn Ready to Fight",
+		intro: "Winning in Overwatch 2 starts before the first gunfight. Random looting gets you killed with a sidearm and no healing. These route habits consistently convert a spawn into a kit you can actually fight with.",
+		keywords: ["overwatch-2 loot routes","Quick Play loot path","Europa loot","overwatch-2 spawn guide","Overwatch 2 ESP"],
+		imageAlt: "Loot route planning across an Overwatch 2 map",
 		sections: [
 			{
 				h2: "Why early inventory is the real bottleneck",
@@ -243,14 +243,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
 					"Contested edge route: grab outer loot, move inward, leave before late collapses. Uncontested chain: skip early fights for a fuller kit by minute three. Mid-map surge: collect drops ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first primary quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually primary, ammo, resilience mods, healing, then bonus loot. Zone names shift with <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> season updates — keep the geometry, not just the landmark label.",
+					"Timing targets help: first primary quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually primary, ammo, resilience mods, healing, then bonus loot. Zone names shift with <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> season updates — keep the geometry, not just the landmark label.",
 				],
 			},
 			{
 				h2: "Convert a strong spawn into a win",
 				paragraphs: [
 					"Pair these routes with <a href=\"/blog/pve-strategies/\">PvE aggression</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a loot panic.",
-					"If you practice with loot markers, read <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
+					"If you practice with loot markers, read <a href=\"/overwatch-2-esp/\">Overwatch 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			}
 		],
@@ -258,7 +258,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-pro-settings",
+		id: "overwatch-2-pro-settings",
 		imageKey: "cheatsPackage",
 		published: "2026-07-12",
 		updated: "2026-08-13",
@@ -267,31 +267,31 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "pro-settings",
-		title: "Destiny 2 Pro Settings That Actually Help You See Enemies",
-		metaDescription: "Practical Destiny 2 settings used by strong players — visibility, audio cues, sensitivity, and what to copy vs ignore from pro configs.",
-		h1: "Destiny 2 Settings Guide: See More, Panic Less",
-		intro: "Copying a champion’s entire config will not make you one. But a few Destiny 2 settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
-		keywords: ["destiny-2 settings","destiny-2 sensitivity","destiny-2 visibility","destiny-2 audio settings","destiny-2 intel"],
-		imageAlt: "Destiny 2 graphics and control settings menu",
+		title: "Overwatch 2 Pro Settings That Actually Help You See Enemies",
+		metaDescription: "Practical Overwatch 2 settings used by strong players — visibility, audio cues, sensitivity, and what to copy vs ignore from pro configs.",
+		h1: "Overwatch 2 Settings Guide: See More, Panic Less",
+		intro: "Copying a champion’s entire config will not make you one. But a few Overwatch 2 settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
+		keywords: ["overwatch-2 settings","overwatch-2 sensitivity","overwatch-2 visibility","overwatch-2 audio settings","overwatch-2 intel"],
+		imageAlt: "Overwatch 2 graphics and control settings menu",
 		sections: [
 			{
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
-					"If your frame rate collapses in Streets of Destiny 2 or Europa interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so Guardian silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in a private match or low-pressure activity before locking them for serious Guardian raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
+					"If your frame rate collapses in Streets of Overwatch 2 or Europa interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so hero silhouettes pop sooner in tree lines and warehouse lighting.",
+					"Test changes in a private match or low-pressure activity before locking them for serious hero raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
 				],
 			},
 			{
 				h2: "Sensitivity, ADS, and muscle memory",
 				paragraphs: [
 					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/blog/warmup-routine/\">warmup guide</a> so your hands match the new numbers.",
-					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/destiny-2-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
+					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
 				],
 			},
 			{
 				h2: "Audio cues that win objectives",
 				paragraphs: [
-					"Footsteps, magazine reloads, and ability cues often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between add movement and a Guardian push.",
+					"Footsteps, magazine reloads, and ability cues often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between add movement and a hero push.",
 					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/loot-routes/\">loot routes</a> article so you know where those sounds are coming from.",
 				],
 			}
@@ -300,7 +300,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-warmup-maps",
+		id: "overwatch-2-warmup-maps",
 		imageKey: "playerEsp",
 		published: "2026-07-10",
 		updated: "2026-08-13",
@@ -309,32 +309,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "warmup-routine",
-		title: "Destiny 2 Warmup Routine Before Serious Guardian Raids",
-		metaDescription: "A short Destiny 2 warmup routine before Guardian raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
-		h1: "Destiny 2 Warmup Routine Before You Queue Guardian",
-		intro: "Queuing cold into Patrol zones is how you donate a kit. A short Destiny 2 warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
-		keywords: ["destiny-2 warmup","destiny-2 aim practice","Guardian warmup routine","destiny-2 offline practice","destiny-2 intel"],
-		imageAlt: "Player warming up aim before an Destiny 2 Guardian raid",
+		title: "Overwatch 2 Warmup Routine Before Serious hero Raids",
+		metaDescription: "A short Overwatch 2 warmup routine before hero raids — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
+		h1: "Overwatch 2 Warmup Routine Before You Queue hero",
+		intro: "Queuing cold into Patrol zones is how you donate a kit. A short Overwatch 2 warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
+		keywords: ["overwatch-2 warmup","overwatch-2 aim practice","hero warmup routine","overwatch-2 offline practice","overwatch-2 intel"],
+		imageAlt: "Player warming up aim before an Overwatch 2 hero raid",
 		sections: [
 			{
 				h2: "Why your first raid should not be the warmup",
 				paragraphs: [
 					"Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the session, not optional fluff.",
-					"Offline practice, shooting range habits, and a couple of low-stakes PvE activities exist so your expensive Guardian kit is not the experiment.",
+					"Offline practice, shooting range habits, and a couple of low-stakes PvE activities exist so your expensive hero kit is not the experiment.",
 				],
 			},
 			{
 				h2: "A simple 15-minute routine that scales",
 				paragraphs: [
-					"Minutes 1–5: tracking and short bursts on a range or training sector. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Crucible or strike block where you only work one habit, like holding an objective or clearing a room.",
-					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Crucible one day, Nessus the next — after the habit sticks.",
+					"Minutes 1–5: tracking and short bursts on a range or training sector. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Quick Play or strike block where you only work one habit, like holding an objective or clearing a room.",
+					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Quick Play one day, Nessus the next — after the habit sticks.",
 				],
 			},
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
 					"Check inventory heals and ammo, confirm your activity objectives, and skim <a href=\"/status/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/pro-settings/\">settings</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
-					"If the first two Guardian deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
+					"If the first two hero deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
 				],
 			}
 		],
@@ -342,7 +342,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-cheats-complete-guide",
+		id: "overwatch-2-cheats-complete-guide",
 		imageKey: "espWallhack",
 		published: "2026-07-30",
 		updated: "2026-08-13",
@@ -351,31 +351,31 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "cheats-guide-2026",
-		title: "Destiny 2 Cheats 2026: Complete Undetected Guide",
-		metaDescription: "A clear 2026 guide to Destiny 2 cheats — what ESP, soft aim, and radar actually do in Destiny 2, how BattlEye maintenance works, and how to buy safely.",
-		h1: "Destiny 2 Cheats in 2026: What They Are and How to Use Them Carefully",
-		intro: "People search “Destiny 2 cheats” for a simple reason: Destiny 2 is information-heavy, punishing, and full of objective campers. This guide explains what modern undetected packages actually include, how BattlEye maintenance works, and how to decide whether a tool fits your play style.",
-		keywords: ["Destiny 2 cheats","undetected Destiny 2 cheats","Destiny 2 ESP","Destiny 2 aimbot","battleye"],
-		imageAlt: "Overview of Destiny 2 Cheats ESP soft aim and radar tools for 2026",
+		title: "Overwatch 2 Cheats 2026: Complete Undetected Guide",
+		metaDescription: "A clear 2026 guide to Overwatch 2 cheats — what ESP, soft aim, and radar actually do in Overwatch 2, how Easy Anti-Cheat maintenance works, and how to buy safely.",
+		h1: "Overwatch 2 Cheats in 2026: What They Are and How to Use Them Carefully",
+		intro: "People search “Overwatch 2 cheats” for a simple reason: Overwatch 2 is information-heavy, punishing, and full of objective campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.",
+		keywords: ["Overwatch 2 cheats","undetected Overwatch 2 cheats","Overwatch 2 ESP","Overwatch 2 aimbot","easy-anticheat"],
+		imageAlt: "Overview of Overwatch 2 Cheats ESP soft aim and radar tools for 2026",
 		sections: [
 			{
-				h2: "What do people mean when they say Destiny 2 cheats?",
+				h2: "What do people mean when they say Overwatch 2 cheats?",
 				paragraphs: [
-					"In plain language, Destiny 2 cheats are cleanup tools that add information or aim assistance on top of the Destiny 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
-					"Searchers also say “Destiny 2 cheats,” \"Destiny 2 wallhack,\" or “Destiny 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a> if you want the product overview without the long essay.",
+					"In plain language, Overwatch 2 cheats are cleanup tools that add information or aim assistance on top of the Overwatch 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
+					"Searchers also say “Overwatch 2 cheats,” \"Overwatch 2 wallhack,\" or “Overwatch 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/ow2-cheats/\">Overwatch 2 cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
 				h2: "ESP, soft aim, and radar — what each tool is for",
 				paragraphs: [
 					"ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
-					"Deep dives live on <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">aimbot</a>, <a href=\"/d2-wallhack/\">wallhack</a>, and <a href=\"/d2-radar/\">radar</a>. Read those before you buy if you only need one job done well.",
+					"Deep dives live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">aimbot</a>, <a href=\"/ow2-wallhack/\">wallhack</a>, and <a href=\"/ow2-visuals/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
-				h2: "BattlEye, “undetected,” and honest expectations",
+				h2: "Easy Anti-Cheat, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> protects Destiny 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/d2-undetected/\">undetected Destiny 2 cheats</a> and <a href=\"/d2-battleye/\">BattlEye maintenance</a>.",
+					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> protects Overwatch 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/ow2-undetected/\">undetected Overwatch 2 cheats</a> and <a href=\"/ow2-anticheat/\">Easy Anti-Cheat maintenance</a>.",
 					"Before every patch-day queue, read <a href=\"/status/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
@@ -383,7 +383,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
 					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
-					"Destiny 2 Cheats is built for Windows PC Crucible and PvE play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
+					"Overwatch 2 Cheats is built for Windows PC Quick Play and Arcade play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
 				],
 			}
 		],
@@ -400,25 +400,25 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "buyers-guide",
-		title: "Destiny 2 Cheats Buyers Guide",
-		metaDescription: "What to check before you buy Destiny 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
-		h1: "Destiny 2 Cheats: What to Check Before You Buy",
-		intro: "Buying Destiny 2 cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
-		keywords: ["Destiny 2 cheats","Destiny 2 cheats buyers guide","buy Destiny 2 cheats","undetected Destiny 2 cheats","destiny-2 pricing"],
-		imageAlt: "Checklist for buying Destiny 2 cheats safely",
+		title: "Overwatch 2 Cheats Buyers Guide",
+		metaDescription: "What to check before you buy Overwatch 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		h1: "Overwatch 2 Cheats: What to Check Before You Buy",
+		intro: "Buying Overwatch 2 cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
+		keywords: ["Overwatch 2 cheats","Overwatch 2 cheats buyers guide","buy Overwatch 2 cheats","undetected Overwatch 2 cheats","overwatch-2 pricing"],
+		imageAlt: "Checklist for buying Overwatch 2 cheats safely",
 		sections: [
 			{
 				h2: "Start with status, not screenshots",
 				paragraphs: [
-					"Ask whether the seller publishes a dated status page after BattlEye or client patches. Fancy galleries do not help if the tool is offline for three days. Destiny 2 Cheats posts rebuild notes on <a href=\"/status/\">Updates</a> for that reason.",
+					"Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Overwatch 2 Cheats posts rebuild notes on <a href=\"/status/\">Updates</a> for that reason.",
 					"If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.",
 				],
 			},
 			{
-				h2: "Feature checklist that matches real Destiny 2 raids",
+				h2: "Feature checklist that matches real Overwatch 2 raids",
 				paragraphs: [
-					"For Destiny 2, useful features usually mean player ESP with distance, loot filters, objective awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
-					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/destiny-2-esp/\">ESP</a>, and <a href=\"/destiny-2-aimbot/\">Aimbot</a>. If radar matters to how you hold objectives, confirm it exists before checkout.",
+					"For Overwatch 2, useful features usually mean player ESP with distance, loot filters, objective awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
+					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, and <a href=\"/overwatch-2-aimbot/\">Aimbot</a>. If radar matters to how you hold objectives, confirm it exists before checkout.",
 				],
 			},
 			{
@@ -442,25 +442,25 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "cheats-2026-updates",
-		title: "Destiny 2 Cheats 2026: What Changed This Year",
-		metaDescription: "What changed for Destiny 2 cheats in 2026 — season cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.",
-		h1: "What Changed for Destiny 2 Cheats in 2026",
-		intro: "2026 did not invent cheating in Destiny 2 — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious Destiny 2 cheats packages need to operate.",
-		keywords: ["Destiny 2 cheats 2026","Destiny 2 cheats 2026","battleye 2026","destiny-2 season","Destiny 2 cheats updates"],
-		imageAlt: "2026 updates for Destiny 2 Cheats on Destiny 2",
+		title: "Overwatch 2 Cheats 2026: What Changed This Year",
+		metaDescription: "What changed for Overwatch 2 cheats in 2026 — season cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Overwatch 2 Cheats adapted for Overwatch 2.",
+		h1: "What Changed for Overwatch 2 Cheats in 2026",
+		intro: "2026 did not invent cheating in Overwatch 2 — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious Overwatch 2 cheats packages need to operate.",
+		keywords: ["Overwatch 2 cheats 2026","Overwatch 2 cheats 2026","easy-anticheat 2026","overwatch-2 season","Overwatch 2 cheats updates"],
+		imageAlt: "2026 updates for Overwatch 2 Cheats on Overwatch 2",
 		sections: [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/d2-undetected/\">undetected explainer</a> instead of empty guarantees.",
-					"<a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> and Bungie client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/ow2-undetected/\">undetected explainer</a> instead of empty guarantees.",
+					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Blizzard client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
 			{
 				h2: "Feature focus shifted toward raid information",
 				paragraphs: [
-					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Destiny 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near objectives.",
-					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/d2-cheats/\">Destiny 2 cheats</a>.",
+					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Overwatch 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near objectives.",
+					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a>.",
 				],
 			},
 			{
@@ -484,18 +484,18 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "aimbot-settings",
-		title: "Destiny 2 Aimbot Settings: Smooth FOV Without Looking Robotic",
-		metaDescription: "How to tune Destiny 2 aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Destiny 2 raids.",
-		h1: "Destiny 2 Aimbot Settings That Feel Natural",
-		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Destiny 2 players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
-		keywords: ["Destiny 2 aimbot settings","destiny-2 soft aim","aimbot fov","destiny-2 aim assist","Destiny 2 cheats"],
-		imageAlt: "Soft aim and FOV settings for Destiny 2 aimbot on Windows PC",
+		title: "Overwatch 2 Aimbot Settings: Smooth FOV Without Looking Robotic",
+		metaDescription: "How to tune Overwatch 2 aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Overwatch 2 raids.",
+		h1: "Overwatch 2 Aimbot Settings That Feel Natural",
+		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Overwatch 2 players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
+		keywords: ["Overwatch 2 aimbot settings","overwatch-2 soft aim","aimbot fov","overwatch-2 aim assist","Overwatch 2 cheats"],
+		imageAlt: "Soft aim and FOV settings for Overwatch 2 aimbot on Windows PC",
 		sections: [
 			{
 				h2: "Start softer than you think you need",
 				paragraphs: [
-					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Crucible or Patrol and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot</a> and <a href=\"/d2-aim-assist/\">soft aim</a>.",
+					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Quick Play or Patrol and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
+					"Full control docs live on <a href=\"/overwatch-2-aimbot/\">Overwatch 2 Aimbot</a> and <a href=\"/ow2-aim-assist/\">soft aim</a>.",
 				],
 			},
 			{
@@ -508,7 +508,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Pair aim settings with information tools",
 				paragraphs: [
-					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/destiny-2-esp/\">ESP categories</a> before blaming aim. After BattlEye patches, confirm <a href=\"/status/\">Updates</a> before you tune anything on an old build.",
+					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/overwatch-2-esp/\">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href=\"/status/\">Updates</a> before you tune anything on an old build.",
 				],
 			}
 		],
@@ -525,31 +525,31 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "esp-wallhack",
-		title: "Destiny 2 ESP and Wallhack Explained in Plain English",
-		metaDescription: "What destiny-2 ESP and wallhack actually show in Destiny 2 — players, loot, distance, objectives — and how to keep overlays readable in raids.",
-		h1: "Destiny 2 ESP and Wallhack Explained Clearly",
-		intro: "“ESP” and “wallhack” get used loosely. In Destiny 2 they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
-		keywords: ["Destiny 2 ESP","Destiny 2 wallhack","Destiny 2 ESP","loot esp destiny-2","Destiny 2 cheats"],
-		imageAlt: "ESP wallhack overlay showing players and loot in Destiny 2",
+		title: "Overwatch 2 ESP and Wallhack Explained in Plain English",
+		metaDescription: "What overwatch-2 ESP and wallhack actually show in Overwatch 2 — players, loot, distance, objectives — and how to keep overlays readable in raids.",
+		h1: "Overwatch 2 ESP and Wallhack Explained Clearly",
+		intro: "“ESP” and “wallhack” get used loosely. In Overwatch 2 they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
+		keywords: ["Overwatch 2 ESP","Overwatch 2 wallhack","Overwatch 2 ESP","loot esp overwatch-2","Overwatch 2 cheats"],
+		imageAlt: "ESP wallhack overlay showing players and loot in Overwatch 2",
 		sections: [
 			{
 				h2: "What ESP shows during a real raid",
 				paragraphs: [
-					"Player ESP outlines Guardians and enemies through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for Destiny 2 ESP in the first place.",
-					"Read the dedicated pages for <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/d2-wallhack/\">wallhack</a> if you want category-level detail.",
+					"Player ESP outlines heroes and enemies through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for Overwatch 2 ESP in the first place.",
+					"Read the dedicated pages for <a href=\"/overwatch-2-esp/\">ESP</a> and <a href=\"/ow2-wallhack/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
 				h2: "How to keep overlays from becoming noise",
 				paragraphs: [
 					"Toggle categories. During a hot push you may want players only. During a loot route you may want containers. Near objective you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.",
-					"Pair ESP with <a href=\"/d2-radar/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
+					"Pair ESP with <a href=\"/ow2-visuals/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
 				],
 			},
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after BattlEye patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/d2-undetected/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/ow2-undetected/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			}
 		],
@@ -557,7 +557,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "undetected-battleye",
+		id: "undetected-easy-anticheat",
 		imageKey: "playerEsp",
 		published: "2026-07-19",
 		updated: "2026-08-13",
@@ -565,32 +565,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "undetected-battleye",
-		title: "Undetected Destiny 2 Cheats and BattlEye Reality",
-		metaDescription: "What “undetected Destiny 2 cheats” really means under BattlEye — maintenance, patch days, risk, and how to read status before you queue Destiny 2.",
-		h1: "Undetected Destiny 2 Cheats: What BattlEye Reality Looks Like",
-		intro: "“Undetected” is the most abused word in cheat marketing. Under BattlEye, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Destiny 2 players.",
-		keywords: ["undetected Destiny 2 cheats","battleye destiny-2","destiny-2 ban risk","undetected Destiny 2 cheats","destiny-2 status"],
-		imageAlt: "BattlEye maintenance status for undetected Destiny 2 cheats",
+		slug: "undetected-easy-anticheat",
+		title: "Undetected Overwatch 2 Cheats and Easy Anti-Cheat Reality",
+		metaDescription: "What “undetected Overwatch 2 cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue Overwatch 2.",
+		h1: "Undetected Overwatch 2 Cheats: What Easy Anti-Cheat Reality Looks Like",
+		intro: "“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Overwatch 2 players.",
+		keywords: ["undetected Overwatch 2 cheats","easy-anticheat overwatch-2","overwatch-2 ban risk","undetected Overwatch 2 cheats","overwatch-2 status"],
+		imageAlt: "Easy Anti-Cheat maintenance status for undetected Overwatch 2 cheats",
 		sections: [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"BattlEye is documented at <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Destiny 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/d2-battleye/\">BattlEye maintenance</a>.",
+					"Easy Anti-Cheat is documented at <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Overwatch 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/ow2-anticheat/\">Easy Anti-Cheat maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
 			{
 				h2: "Patch-day habits that reduce pain",
 				paragraphs: [
-					"After a Destiny 2 or BattlEye update, wait for a status note before queueing. Confirm Bungie services on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
+					"After a Overwatch 2 or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Blizzard services on <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
 					"Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
 				],
 			},
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/d2-undetected/\">undetected Destiny 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/ow2-undetected/\">undetected Overwatch 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			}
 		],
@@ -598,7 +598,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-cheats-vs-cheatvault",
+		id: "overwatch-2-cheats-vs-cheatvault",
 		imageKey: "cheatsPackage",
 		published: "2026-07-15",
 		updated: "2026-08-13",
@@ -607,18 +607,18 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "vs-budget-shops",
-		title: "Destiny 2 Cheats vs Typical Budget Cheat Shops",
-		metaDescription: "How Destiny 2 Cheats compares to typical budget Destiny 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
-		h1: "Destiny 2 Cheats vs Typical Budget Cheat Shops",
-		intro: "Budget Destiny 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Destiny 2 Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
-		keywords: ["Destiny 2 cheats comparison","budget cheat shops","Destiny 2 cheats vs other shops","esp radar pricing","Destiny 2 cheats"],
-		imageAlt: "Comparing Destiny 2 Cheats features against budget cheat shops",
+		title: "Overwatch 2 Cheats vs Typical Budget Cheat Shops",
+		metaDescription: "How Overwatch 2 Cheats compares to typical budget Overwatch 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
+		h1: "Overwatch 2 Cheats vs Typical Budget Cheat Shops",
+		intro: "Budget Overwatch 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Overwatch 2 Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
+		keywords: ["Overwatch 2 cheats comparison","budget cheat shops","Overwatch 2 cheats vs other shops","esp radar pricing","Overwatch 2 cheats"],
+		imageAlt: "Comparing Overwatch 2 Cheats features against budget cheat shops",
 		sections: [
 			{
 				h2: "What budget shops usually optimize for",
 				paragraphs: [
-					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after BattlEye pushes.",
-					"Destiny 2 Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/status/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
+					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.",
+					"Overwatch 2 Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/status/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
 				],
 			},
 			{
@@ -632,7 +632,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
 					"Write down must-haves: dated status, loot ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/d2-cheats/\">Destiny 2 cheats</a> and <a href=\"/d2-undetected/\">undetected notes</a> if that checklist matches what we ship.",
+					"Then return to <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a> and <a href=\"/ow2-undetected/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			}
 		],
@@ -649,32 +649,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "two-week-cheat-test",
-		title: "I Tested Another Destiny 2 Cheat for 2 Weeks First",
-		metaDescription: "A two-week test of another Destiny 2 cheat before switching to Destiny 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.",
-		h1: "I Tested Another Destiny 2 Cheat for Two Weeks Before Switching",
-		intro: "My Discord kept recommending a popular Destiny 2 cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Destiny 2 Cheats. This is what actually differed — without the usual affiliate script.",
-		keywords: ["Destiny 2 cheats review","Destiny 2 cheat comparison","Destiny 2 cheat downtime","soft aim test","Destiny 2 cheats"],
-		imageAlt: "Two week hands-on comparison between Destiny 2 cheat providers",
+		title: "I Tested Another Overwatch 2 Cheat for 2 Weeks First",
+		metaDescription: "A two-week test of another Overwatch 2 cheat before switching to Overwatch 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.",
+		h1: "I Tested Another Overwatch 2 Cheat for Two Weeks Before Switching",
+		intro: "My Discord kept recommending a popular Overwatch 2 cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Overwatch 2 Cheats. This is what actually differed — without the usual affiliate script.",
+		keywords: ["Overwatch 2 cheats review","Overwatch 2 cheat comparison","Overwatch 2 cheat downtime","soft aim test","Overwatch 2 cheats"],
+		imageAlt: "Two week hands-on comparison between Overwatch 2 cheat providers",
 		sections: [
 			{
 				h2: "Week one — setup and first impressions",
 				paragraphs: [
 					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
-					"Destiny 2 Cheats later felt similar on install time, but filters for loot and objectives were easier to toggle independently during loot routes.",
+					"Overwatch 2 Cheats later felt similar on install time, but filters for loot and objectives were easier to toggle independently during loot routes.",
 				],
 			},
 			{
 				h2: "Soft aim and the mid-raid feel",
 				paragraphs: [
 					"Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
-					"On Destiny 2 Cheats I relied more on per-weapon profiles so zones and long peeks did not share one magnet. Details are in the <a href=\"/destiny-2-aimbot/\">aimbot guide</a>.",
+					"On Overwatch 2 Cheats I relied more on per-weapon profiles so zones and long peeks did not share one magnet. Details are in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>.",
 				],
 			},
 			{
 				h2: "The patch window that ended the trial",
 				paragraphs: [
-					"A Destiny 2 plus BattlEye update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
-					"Destiny 2 Cheats won me over with written notes on <a href=\"/status/\">Updates</a>. I still do not queue blind after patches on any tool.",
+					"A Overwatch 2 plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
+					"Overwatch 2 Cheats won me over with written notes on <a href=\"/status/\">Updates</a>. I still do not queue blind after patches on any tool.",
 				],
 			},
 			{
@@ -689,7 +689,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "destiny-2-cheats-vs-ghostware",
+		id: "overwatch-2-cheats-vs-ghostware",
 		imageKey: "espWallhack",
 		published: "2026-07-05",
 		updated: "2026-08-13",
@@ -698,39 +698,39 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "full-stack-vs-esp-only",
-		title: "Full-Stack Destiny 2 Cheats vs Minimal ESP Tools",
-		metaDescription: "Full-stack Destiny 2 Cheats versus minimal ESP-only Destiny 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
-		h1: "Full-Stack Destiny 2 Cheats vs Minimal ESP-Only Tools",
-		intro: "Some Destiny 2 tools sell a slim ESP module and call it a day. Destiny 2 Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
-		keywords: ["Destiny 2 ESP only cheat","Destiny 2 cheats features","radar vs esp","Destiny 2 cheat pricing","Destiny 2 cheats"],
-		imageAlt: "Full stack Destiny 2 Cheats compared with minimal ESP-only tools",
+		title: "Full-Stack Overwatch 2 Cheats vs Minimal ESP Tools",
+		metaDescription: "Full-stack Overwatch 2 Cheats versus minimal ESP-only Overwatch 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
+		h1: "Full-Stack Overwatch 2 Cheats vs Minimal ESP-Only Tools",
+		intro: "Some Overwatch 2 tools sell a slim ESP module and call it a day. Overwatch 2 Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
+		keywords: ["Overwatch 2 ESP only cheat","Overwatch 2 cheats features","radar vs esp","Overwatch 2 cheat pricing","Overwatch 2 cheats"],
+		imageAlt: "Full stack Overwatch 2 Cheats compared with minimal ESP-only tools",
 		sections: [
 			{
 				h2: "Two philosophies: minimal surface vs full raid loop",
 				paragraphs: [
 					"Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.",
-					"Destiny 2 Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold objectives, missing radar becomes obvious.",
+					"Overwatch 2 Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold objectives, missing radar becomes obvious.",
 				],
 			},
 			{
 				h2: "Feature and pricing reality check",
 				paragraphs: [
-					"Destiny 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
-					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/d2-radar/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
+					"Overwatch 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
+					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/ow2-visuals/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
 				],
 			},
 			{
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"Destiny 2 Cheats documents maintenance on <a href=\"/d2-battleye/\">BattlEye workflow</a> and <a href=\"/d2-undetected/\">undetected notes</a>.",
+					"Overwatch 2 Cheats documents maintenance on <a href=\"/ow2-anticheat/\">Easy Anti-Cheat workflow</a> and <a href=\"/ow2-undetected/\">undetected notes</a>.",
 				],
 			},
 			{
 				h2: "Which style should you buy?",
 				paragraphs: [
-					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Destiny 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
-					"Decide your must-haves on paper first. Then open <a href=\"/d2-cheats/\">Destiny 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
+					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Overwatch 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
+					"Decide your must-haves on paper first. Then open <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
 				],
 			}
 		],

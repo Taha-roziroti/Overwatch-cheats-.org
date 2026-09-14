@@ -1,16 +1,16 @@
 import { siteConfig } from './site';
-import { destinyImages } from './destiny';
+import { overwatchImages } from './overwatch2';
 import { pageIds, type PageId } from './i18n/routing';
 import { pageSitemapImageLabels } from './brand-sitemap';
 
 /** Rotating product screenshots for FAQ / review detail URLs. */
 export const crawlPhotoPool = [
-	destinyImages.espWallhack,
-	destinyImages.aimbotCombat,
-	destinyImages.aimbotSkeleton,
-	destinyImages.playerEsp,
-	destinyImages.cheatsCombat,
-	'/images/destiny-2-cheats-esp.webp',
+	overwatchImages.espWallhack,
+	overwatchImages.aimbotCombat,
+	overwatchImages.aimbotSkeleton,
+	overwatchImages.playerEsp,
+	overwatchImages.cheatsCombat,
+	'/images/overwatch-2-cheats-esp.webp',
 ] as const;
 
 /**
@@ -18,31 +18,31 @@ export const crawlPhotoPool = [
  * Prefer compressed WebP screenshots so Google can fetch them quickly.
  */
 export const pageImageSrcById: Record<PageId, string> = {
-	home: '/images/destiny-2-hero-poster.webp',
-	'destiny-2-esp': '/images/destiny-2-cheats-esp-crucible.webp',
-	'destiny-2-aimbot': '/images/destiny-2-cheats-crucible.webp',
-	features: '/images/destiny-2-cheats-aimbot-esp.webp',
-	pricing: '/images/destiny-2-cheats-pve.webp',
-	setup: '/images/destiny-2-cheats-wallhack-skeleton.webp',
-	updates: '/images/destiny-2-cheats-crucible.webp',
-	faq: '/images/destiny-2-cheats-esp-crucible.webp',
-	support: '/images/destiny-2-cheats-pve.webp',
-	undetected: '/images/destiny-2-cheats-wallhack-skeleton.webp',
-	wallhack: '/images/destiny-2-cheats-wallhack-skeleton.webp',
-	radar: '/images/destiny-2-cheats-radar.webp',
-	anticheat: '/images/destiny-2-cheats-crucible.webp',
-	'cheats-2026': '/images/destiny-2-hero-poster.webp',
-	hacks: '/images/destiny-2-cheats-pve.webp',
-	'cheat-download': '/images/destiny-2-cheats-aimbot-esp.webp',
-	'crucible-cheats': '/images/destiny-2-cheats-crucible.webp',
-	'aim-assist': '/images/destiny-2-cheats-aimbot-esp.webp',
-	'best-cheats': '/images/destiny-2-hero-poster.webp',
-	'aimbot-hack': '/images/destiny-2-cheats-crucible.webp',
-	'esp-hack': '/images/destiny-2-cheats-esp-crucible.webp',
-	'pve-cheats': '/images/destiny-2-cheats-pve.webp',
-	privacy: '/images/destiny-2-cheats-crucible.webp',
-	refund: '/images/destiny-2-cheats-pve.webp',
-	terms: '/images/destiny-2-cheats-aimbot-esp.webp',
+	home: '/images/overwatch-2-hero-poster.webp',
+	'overwatch-2-esp': '/images/overwatch-2-cheats-esp-crucible.webp',
+	'overwatch-2-aimbot': '/images/overwatch-2-cheats-crucible.webp',
+	features: '/images/overwatch-2-cheats-aimbot-esp.webp',
+	pricing: '/images/overwatch-2-cheats-pve.webp',
+	setup: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+	updates: '/images/overwatch-2-cheats-crucible.webp',
+	faq: '/images/overwatch-2-cheats-esp-crucible.webp',
+	support: '/images/overwatch-2-cheats-pve.webp',
+	undetected: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+	wallhack: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+	radar: '/images/overwatch-2-cheats-radar.webp',
+	anticheat: '/images/overwatch-2-cheats-crucible.webp',
+	'cheats-2026': '/images/overwatch-2-hero-poster.webp',
+	hacks: '/images/overwatch-2-cheats-pve.webp',
+	'cheat-download': '/images/overwatch-2-cheats-aimbot-esp.webp',
+	'crucible-cheats': '/images/overwatch-2-cheats-crucible.webp',
+	'aim-assist': '/images/overwatch-2-cheats-aimbot-esp.webp',
+	'best-cheats': '/images/overwatch-2-hero-poster.webp',
+	'aimbot-hack': '/images/overwatch-2-cheats-crucible.webp',
+	'esp-hack': '/images/overwatch-2-cheats-esp-crucible.webp',
+	'pve-cheats': '/images/overwatch-2-cheats-pve.webp',
+	privacy: '/images/overwatch-2-cheats-crucible.webp',
+	refund: '/images/overwatch-2-cheats-pve.webp',
+	terms: '/images/overwatch-2-cheats-aimbot-esp.webp',
 };
 
 for (const pageId of pageIds) {

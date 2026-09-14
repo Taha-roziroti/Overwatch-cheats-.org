@@ -24,37 +24,37 @@ const REDIRECTS = path.join(ROOT, 'public/_redirects');
 
 /** EN cannibal stubs → pillar (matches functions/_middleware.js + seo-cannibal-map.ts). */
 const EN_CANNIBAL = {
-	'/d2-cheats-2026/': '/d2-cheats/',
-	'/d2-undetected/': '/d2-cheats/',
-	'/d2-crucible/': '/d2-cheats/',
-	'/d2-pve/': '/d2-cheats/',
-	'/d2-best-cheats/': '/d2-cheats/',
-	'/d2-aim-assist/': '/destiny-2-aimbot/',
-	'/d2-wallhack/': '/destiny-2-esp/',
-	'/d2-download/': '/setup/',
-	'/d2-battleye/': '/status/',
-	'/destiny-2-aimbot-hack/': '/destiny-2-aimbot/',
-	'/destiny-2-esp-hack/': '/destiny-2-esp/',
+	'/ow2-cheats-2026/': '/ow2-cheats/',
+	'/ow2-undetected/': '/ow2-cheats/',
+	'/ow2-hero-scripts/': '/ow2-cheats/',
+	'/ow2-hero-scripts/': '/ow2-cheats/',
+	'/d2-best-cheats/': '/ow2-cheats/',
+	'/ow2-aim-assist/': '/overwatch-2-aimbot/',
+	'/ow2-wallhack/': '/overwatch-2-esp/',
+	'/ow2-download/': '/setup/',
+	'/ow2-anticheat/': '/status/',
+	'/overwatch-2-aimbot-hack/': '/overwatch-2-aimbot/',
+	'/overwatch-2-esp-hack/': '/overwatch-2-esp/',
 };
 
 /** Legacy cross-game keyword paths → D2 pillars. */
 const LEGACY_GAME = {
-	'/escape-from-tarkov-cheats/': '/d2-cheats/',
-	'/tarkov-esp-hack/': '/destiny-2-esp/',
-	'/tarkov-aimbot-hack/': '/destiny-2-aimbot/',
-	'/best-tarkov-cheats/': '/d2-cheats/',
-	'/tarkov-cheats-2026/': '/d2-cheats/',
-	'/undetected-tarkov-cheats/': '/d2-cheats/',
-	'/tarkov-mod-menu/': '/d2-cheats/',
-	'/tarkov-unlock-all/': '/d2-cheats/',
-	'/tarkov-soft-aim/': '/destiny-2-aimbot/',
-	'/tarkov-wallhack/': '/destiny-2-esp/',
+	'/escape-from-tarkov-cheats/': '/ow2-cheats/',
+	'/tarkov-esp-hack/': '/overwatch-2-esp/',
+	'/tarkov-aimbot-hack/': '/overwatch-2-aimbot/',
+	'/best-tarkov-cheats/': '/ow2-cheats/',
+	'/tarkov-cheats-2026/': '/ow2-cheats/',
+	'/undetected-tarkov-cheats/': '/ow2-cheats/',
+	'/tarkov-mod-menu/': '/ow2-cheats/',
+	'/tarkov-unlock-all/': '/ow2-cheats/',
+	'/tarkov-soft-aim/': '/overwatch-2-aimbot/',
+	'/tarkov-wallhack/': '/overwatch-2-esp/',
 	'/tarkov-cheat-download/': '/setup/',
-	'/battleye-bypass/': '/status/',
-	'/warzone-esp/': '/destiny-2-esp/',
-	'/warzone-aimbot/': '/destiny-2-aimbot/',
-	'/fortnite-aimbot/': '/destiny-2-aimbot/',
-	'/fortnite-esp/': '/destiny-2-esp/',
+	'/easy-anticheat-bypass/': '/status/',
+	'/warzone-esp/': '/overwatch-2-esp/',
+	'/warzone-aimbot/': '/overwatch-2-aimbot/',
+	'/fortnite-aimbot/': '/overwatch-2-aimbot/',
+	'/fortnite-esp/': '/overwatch-2-esp/',
 	'/eac-bypass-fortnite/': '/status/',
 };
 
@@ -63,7 +63,7 @@ const LEGACY_REVIEWS = {
 	'/reviews/tarkov-radar-hack-review-vanlifefn/': '/reviews/radar-vanlifeeft/',
 	'/reviews/tarkov-radar-hack-review-vanlifewz/': '/reviews/radar-vanlifeeft/',
 	'/reviews/tarkov-controller-soft-aim-review-ctrl-player99/': '/reviews/aim-assist-ctrl-player99/',
-	'/reviews/destiny-2-esp-zero-build-review-buildsr4k/': '/reviews/esp-dungeon-buildsr4k/',
+	'/reviews/overwatch-2-esp-zero-build-review-buildsr4k/': '/reviews/esp-dungeon-buildsr4k/',
 	'/reviews/d2-radar-review-vanlifefn/': '/reviews/radar-vanlifeeft/',
 	'/reviews/d2-radar-review-vanlifewz/': '/reviews/radar-vanlifeeft/',
 	'/reviews/destiny-2-controller-aim-assist-review-ctrl-player99/': '/reviews/aim-assist-ctrl-player99/',
@@ -102,23 +102,23 @@ function longPathLines() {
 		lines.push(...pairLines(from, to));
 	}
 	for (const [from, to] of Object.entries(FAQ_SLUG_MAP)) {
-		lines.push(...pairLines(`/destiny-2-cheats-faq/${from}/`, `/faq/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-faq/${from}/`, `/faq/${to}/`));
 		lines.push(...pairLines(`/faq/${from}/`, `/faq/${to}/`));
 	}
 	for (const [from, to] of Object.entries(REVIEW_SLUG_MAP)) {
-		lines.push(...pairLines(`/destiny-2-cheats-reviews/${from}/`, `/reviews/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-reviews/${from}/`, `/reviews/${to}/`));
 		lines.push(...pairLines(`/reviews/${from}/`, `/reviews/${to}/`));
 	}
 	for (const [from, to] of Object.entries(BLOG_SLUG_MAP)) {
-		lines.push(...pairLines(`/destiny-2-cheats-blog/${from}/`, `/blog/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/blog/${to}/`));
 	}
 	const legacyBlog = [
-		['escape-from-destiny-2-cheats-buyers-guide', 'buyers-guide'],
+		['escape-from-overwatch-2-cheats-buyers-guide', 'buyers-guide'],
 		['destiny-2-scav-run-aggressive-strategies', 'pve-strategies'],
 		['destiny-2-PvE-aggressive-strategies', 'pve-strategies'],
 	];
 	for (const [from, to] of legacyBlog) {
-		lines.push(...pairLines(`/destiny-2-cheats-blog/${from}/`, `/blog/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/blog/${to}/`));
 		lines.push(...pairLines(`/blog/${from}/`, `/blog/${to}/`));
 	}
 	return lines;

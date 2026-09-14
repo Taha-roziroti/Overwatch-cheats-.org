@@ -17,8 +17,8 @@ for (const id of REMOVE) {
 	const re = new RegExp(`\\t'?${id.replace(/-/g, '\\-')}'?: \\{[\\s\\S]*?\\},\\n`, 'g');
 	content = content.replace(re, '');
 }
-// Fix destiny-2-battleye-bypass slugs that got double-replaced
-content = content.replace(/destiny-2-battleye-bypass-bypass/g, 'destiny-2-battleye-bypass');
-content = content.replace(/destiny-2-battleye-bypass-trucos-destiny-2/g, 'destiny-2-battleye-bypass-trucos-destiny-2');
+// Fix overwatch-2-anticheat-bypass slugs that got double-replaced
+content = content.replace(/overwatch-2-anticheat-bypass-bypass/g, 'overwatch-2-anticheat-bypass');
+content = content.replace(/overwatch-2-anticheat-bypass-trucos-overwatch-2/g, 'overwatch-2-anticheat-bypass-trucos-overwatch-2');
 await writeFile(file, content);
 console.log('Cleaned routing.ts localizedSlugs');

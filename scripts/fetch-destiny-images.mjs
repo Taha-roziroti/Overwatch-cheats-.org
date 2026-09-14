@@ -1,12 +1,12 @@
 import { mkdir, readdir, unlink, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
-import { buildOverlaySvg } from './destiny-hack-overlays.mjs';
+import { buildOverlaySvg } from './overwatch-hack-overlays.mjs';
 
 const imagesDir = path.resolve('public/images');
 const publicDir = path.resolve('public');
 
-/** Verified IGN Destiny 2 screenshot CDN paths. */
+/** Verified IGN Overwatch 2 screenshot CDN paths. */
 const ME_G = 'https://sm.ign.com/t/ign_me/gallery/c/call-of-du';
 const ME = 'https://sm.ign.com/t/ign_me/screenshot/c/call-of-du';
 const NL = 'https://sm.ign.com/t/ign_nl/screenshot/c/call-of-du';
@@ -14,23 +14,23 @@ const BR = 'https://sm.ign.com/t/ign_br/screenshot/default';
 const PK = 'https://sm.ign.com/t/ign_pk/screenshot/default';
 
 /**
- * Destiny 2 cheats image pipeline:
- * 1. Download real Destiny 2 gameplay from IGN
- * 2. Composite ESP / aimbot / radar / crucible-cheats overlays for Destiny 2 cheats marketing
+ * Overwatch 2 cheats image pipeline:
+ * 1. Download real Overwatch 2 gameplay from IGN
+ * 2. Composite ESP / aimbot / radar / crucible-cheats overlays for Overwatch 2 cheats marketing
  */
 const KEYWORD_ASSETS = [
 	{
-		file: 'destiny-2-cheats-hero.webp',
+		file: 'overwatch-2-cheats-hero.webp',
 		url: `${ME_G}/escape-from-destiny-2-screenshots_wjkx.1400.jpg`,
 		overlay: 'hero',
 	},
 	{
-		file: 'destiny-2-cheats-aimbot.webp',
+		file: 'overwatch-2-cheats-aimbot.webp',
 		url: `${ME}/escape-from-destiny-2-screenshots_wjb1.1400.jpg`,
 		overlay: 'aimbot',
 	},
 	{
-		file: 'destiny-2-cheats-esp-wallhack.webp',
+		file: 'overwatch-2-cheats-esp-wallhack.webp',
 		url: `${ME}/escape-from-destiny-2-screenshots_55fp.1400.jpg`,
 		overlay: 'wallhack',
 	},
@@ -40,12 +40,12 @@ const KEYWORD_ASSETS = [
 		overlay: 'esp',
 	},
 	{
-		file: 'destiny-2-cheats-package.webp',
+		file: 'overwatch-2-cheats-package.webp',
 		url: `${ME}/escape-from-destiny-2-screenshots_anf4.1400.jpg`,
 		overlay: 'menu',
 	},
 	{
-		file: 'destiny-2-cheats-cover.webp',
+		file: 'overwatch-2-cheats-cover.webp',
 		url: `${ME}/escape-from-destiny-2-screenshots_7pr8.1400.jpg`,
 		overlay: 'esp',
 	},
@@ -94,12 +94,12 @@ const KEYWORD_ASSETS = [
 const REMOVE_PATTERNS = [
 	/^fortnite-/,
 	/-\d+w\.webp$/i,
-	/^destiny-2-cheats-logo/,
+	/^overwatch-2-cheats-logo/,
 ];
 
 async function fetchBase(url) {
 	const res = await fetch(url, {
-		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Destiny 2HacksSite/1.0)' },
+		headers: { 'User-Agent': 'Mozilla/5.0 (compatible; Overwatch 2HacksSite/1.0)' },
 	});
 	if (!res.ok) throw new Error(`HTTP ${res.status}`);
 	return Buffer.from(await res.arrayBuffer());
@@ -123,7 +123,7 @@ async function composeHackImage(baseBuffer, overlayPreset) {
 async function cleanImagesDir() {
 	const files = await readdir(imagesDir).catch(() => []);
 	for (const file of files) {
-		if (file.includes('destiny-2-cheats-logo')) continue;
+		if (file.includes('overwatch-2-cheats-logo')) continue;
 		if (REMOVE_PATTERNS.some((pattern) => pattern.test(file))) {
 			await unlink(path.join(imagesDir, file));
 			console.log(`Removed ${file}`);
@@ -138,7 +138,7 @@ async function generateBrandAssets(heroBuffer) {
 		.webp({ quality: 88 })
 		.toBuffer();
 
-	await writeFile(path.join(imagesDir, 'destiny-2-cheats-logo.webp'), logoBuffer);
+	await writeFile(path.join(imagesDir, 'overwatch-2-cheats-logo.webp'), logoBuffer);
 
 	for (const { name, size } of [
 		{ name: 'favicon-16x16.png', size: 16 },
@@ -165,7 +165,7 @@ for (const asset of KEYWORD_ASSETS) {
 		await writeFile(path.join(imagesDir, asset.file), webp);
 		console.log(`  ✓ ${asset.file} (${webp.length} bytes)`);
 		saved++;
-		if (asset.file === 'destiny-2-cheats-hero.webp') heroBuffer = webp;
+		if (asset.file === 'overwatch-2-cheats-hero.webp') heroBuffer = webp;
 	} catch (err) {
 		console.warn(`  ✗ Skip ${asset.file}: ${err.message}`);
 	}
@@ -176,4 +176,4 @@ if (heroBuffer) {
 	console.log('Generated logo + favicons from hero.');
 }
 
-console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} Destiny 2 cheats images (IGN base + ESP/aimbot overlays).`);
+console.log(`\nDone — ${saved}/${KEYWORD_ASSETS.length} Overwatch 2 cheats images (IGN base + ESP/aimbot overlays).`);

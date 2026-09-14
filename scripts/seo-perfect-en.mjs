@@ -27,9 +27,9 @@ const replacements = [
 	['PC & Controller Guide', 'Windows PC Guide'],
 	['PC and controller cheats', 'Windows PC cheats'],
 
-	// BR / Fortnite lexicon → Destiny 2
-	['vehicles, loot', 'Guardians, enemies, loot'],
-	['notice vehicles before they push your position', 'spot Guardians and enemies before they push your angle'],
+	// BR / Fortnite lexicon → Overwatch 2
+	['vehicles, loot', 'heroes, enemies, loot'],
+	['notice vehicles before they push your position', 'spot heroes and enemies before they push your angle'],
 	['Player, vehicle, and loot', 'Player, boss, and loot'],
 	[
 		'vehicle threat cues, supply-drop awareness markers, and loot or chest pins so only BR-critical',
@@ -43,8 +43,8 @@ const replacements = [
 	['chests worth the detour', 'powerful loot worth the detour'],
 	['vehicles, and chests', 'bosses, and containers'],
 	['loot, vehicles, and chests', 'loot, bosses, and containers'],
-	['players, loot, and vehicles', 'Guardians, enemies, and loot'],
-	['players, loot, vehicles', 'Guardians, enemies, loot'],
+	['players, loot, and vehicles', 'heroes, enemies, and loot'],
+	['players, loot, vehicles', 'heroes, enemies, loot'],
 	['vehicle threat cues', 'boss threat cues'],
 	['vehicle pushes', 'flank pushes'],
 	['track vehicles and chests', 'track bosses and containers'],
@@ -64,8 +64,8 @@ const replacements = [
 	],
 	['assault rifles, SMGs, and snipers', 'ARs, SMGs, and bolt-actions'],
 	['AR / SMG / sniper', 'AR / SMG / bolt-action'],
-	['players, loot, and vehicles', 'Guardians, enemies, and loot'],
-	['for players, loot, and vehicles', 'for Guardians, enemies, and loot'],
+	['players, loot, and vehicles', 'heroes, enemies, and loot'],
+	['for players, loot, and vehicles', 'for heroes, enemies, and loot'],
 
 	// Broken / truncated meta fragments
 	['soft aim, and .', 'soft aim, and radar.'],
@@ -78,43 +78,43 @@ const replacements = [
 	['Best Hacks with ESP & ', 'ESP Soft Aim & Radar'],
 	['ESP, Soft Aim & ', 'ESP, Soft Aim & Radar'],
 	['with — learn', '— learn'],
-	['RBattlEye out for', 'Reach out for'],
-	['an BattlEye', 'a BattlEye'],
+	['REasy Anti-Cheat out for', 'Reach out for'],
+	['an Easy Anti-Cheat', 'a Easy Anti-Cheat'],
 	['After a Escape', 'After an Escape'],
 	['after a Escape', 'after an Escape'],
 
 	// Keyword stuffing / nonsense duplicates
-	['Destiny 2 cheats & Destiny 2 cheats', 'Destiny 2 cheats'],
+	['Overwatch 2 cheats & Overwatch 2 cheats', 'Overwatch 2 cheats'],
 	[
-		'covering both Destiny 2 cheats and Destiny 2 cheats search intent',
-		'covering both “Destiny 2 cheats” and “Destiny 2 cheats” search intent',
+		'covering both Overwatch 2 cheats and Overwatch 2 cheats search intent',
+		'covering both “Overwatch 2 cheats” and “Overwatch 2 cheats” search intent',
 	],
 	[
-		'also searched as Destiny 2 cheats and Destiny 2 cheat.',
-		'built for Destiny 2 on Windows PC.',
+		'also searched as Overwatch 2 cheats and Overwatch 2 cheat.',
+		'built for Overwatch 2 on Windows PC.',
 	],
 	[
-		'Destiny 2 cheats vs Destiny 2 cheats — same stack, clear pages',
-		'How this Destiny 2 cheats pillar fits nearby pages',
+		'Overwatch 2 cheats vs Overwatch 2 cheats — same stack, clear pages',
+		'How this Overwatch 2 cheats pillar fits nearby pages',
 	],
 	[
-		'Searchers use Destiny 2 cheats and Destiny 2 cheats interchangeably. This pillar focuses on hacks language; the',
+		'Searchers use Overwatch 2 cheats and Overwatch 2 cheats interchangeably. This pillar focuses on hacks language; the',
 		'Use this pillar for the core product overview. For year-specific buying notes, see the',
 	],
 
 	// Point cannibal URLs at canonicals
-	['/destiny-2-esp-hack/', '/destiny-2-esp/'],
-	['/destiny-2-aimbot-hack/', '/destiny-2-aimbot/'],
-	['/best-destiny-2-cheats/', '/destiny-2-cheats/'],
-	['best Destiny 2 cheats guide', 'Destiny 2 cheats pillar'],
-	['best Destiny 2 cheats checklist', 'Destiny 2 cheats checklist'],
-	['best Destiny 2 cheats', 'Destiny 2 cheats'],
+	['/overwatch-2-esp-hack/', '/overwatch-2-esp/'],
+	['/overwatch-2-aimbot-hack/', '/overwatch-2-aimbot/'],
+	['/best-overwatch-2-cheats/', '/overwatch-2-cheats/'],
+	['best Overwatch 2 cheats guide', 'Overwatch 2 cheats pillar'],
+	['best Overwatch 2 cheats checklist', 'Overwatch 2 cheats checklist'],
+	['best Overwatch 2 cheats', 'Overwatch 2 cheats'],
 	[
-		'Prefer softer tracking? Read the <a href="/destiny-2-aim-assist/">soft aim guide</a>. Want the search term most players use? See <a href="/destiny-2-aimbot/">aimbot hack</a>.',
-		'Prefer softer tracking? Read the <a href="/destiny-2-aim-assist/">soft aim guide</a>.',
+		'Prefer softer tracking? Read the <a href="/overwatch-2-aim-assist/">soft aim guide</a>. Want the search term most players use? See <a href="/overwatch-2-aimbot/">aimbot hack</a>.',
+		'Prefer softer tracking? Read the <a href="/overwatch-2-aim-assist/">soft aim guide</a>.',
 	],
-	['Related landings: <a href="/destiny-2-cheat-download/">cheat download</a>, <a href="/destiny-2-crucible-cheats/">mod menu</a>, <a href="/destiny-2-aimbot/">aimbot hack</a>, <a href="/destiny-2-esp/">ESP hack</a>.',
-		'Related landings: <a href="/destiny-2-cheat-download/">cheat download</a>, <a href="/destiny-2-crucible-cheats/">mod menu</a>, <a href="/destiny-2-aimbot/">aimbot</a>, <a href="/destiny-2-esp/">ESP</a>.'],
+	['Related landings: <a href="/overwatch-2-cheat-download/">cheat download</a>, <a href="/overwatch-2-hero-scripts/">mod menu</a>, <a href="/overwatch-2-aimbot/">aimbot hack</a>, <a href="/overwatch-2-esp/">ESP hack</a>.',
+		'Related landings: <a href="/overwatch-2-cheat-download/">cheat download</a>, <a href="/overwatch-2-hero-scripts/">mod menu</a>, <a href="/overwatch-2-aimbot/">aimbot</a>, <a href="/overwatch-2-esp/">ESP</a>.'],
 ];
 
 let src = readFileSync(PAGES_EN, 'utf8');

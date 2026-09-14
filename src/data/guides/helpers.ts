@@ -62,7 +62,7 @@ export function getGuideSitemapEntries() {
 			changefreq: 'weekly',
 			images: nativeGuides.slice(0, 1).map((g) => ({
 				url: new URL(g.image, siteConfig.url).href,
-				title: 'Destiny 2 Guides',
+				title: 'Overwatch 2 Guides',
 				caption: g.description,
 			})),
 		},
@@ -90,7 +90,7 @@ export function getGuideSitemapEntries() {
 /** Native product guides relevant to a game — used for contextual internal links on guide articles. */
 export function getRelatedNativeGuides(gameId: string, limit = 3) {
 	const slugsByGame: Record<string, string[]> = {
-		'destiny-2': ['destiny-2-cheats', 'destiny-2-esp', 'destiny-2-aimbot', 'destiny-2-crucible-cheats'],
+		'destiny-2': ['overwatch-2-cheats', 'overwatch-2-esp', 'overwatch-2-aimbot', 'overwatch-2-hero-scripts'],
 	};
 
 	const slugs = slugsByGame[gameId];

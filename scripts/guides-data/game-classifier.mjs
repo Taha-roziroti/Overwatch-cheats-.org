@@ -1,6 +1,6 @@
 /** Classify a hostname into a game id + display name. Order matters — first match wins. */
 const rules = [
-	{ id: 'destiny-2', game: 'Destiny 2', re: /destiny2|destiny-2/i },
+	{ id: 'destiny-2', game: 'Overwatch 2', re: /destiny2|destiny-2/i },
 	{ id: 'tarkov', game: 'Escape from Tarkov', re: /tarkov|eft|cheatsfortarkov/i },
 	{ id: 'valorant', game: 'Valorant', re: /valorant|valo/i },
 	{ id: 'warzone', game: 'Call of Duty: Warzone', re: /warzone|codcheat|codhack|codhacks/i },

@@ -1,5 +1,5 @@
 import { siteConfig } from '../site';
-import { destinyImages } from '../destiny';
+import { overwatchImages } from '../overwatch2';
 import { blogSitemapImageMeta } from '../brand-sitemap';
 import {
 	defaultLocale,
@@ -12,20 +12,20 @@ import type { BlogImageKey, BlogPostDefinition, BlogTranslation, ResolvedBlogPos
 import { blogPosts as rawBlogPosts } from './posts.generated';
 
 const imageMap: Record<BlogImageKey, string> = {
-	hero: destinyImages.espWallhack,
-	espWallhack: destinyImages.espWallhack,
-	aimbotCombat: destinyImages.aimbotCombat,
-	aimbotSkeleton: destinyImages.aimbotSkeleton,
-	squadFight: destinyImages.aimbotCombat,
-	headerArt: destinyImages.playerEsp,
-	cheatsPackage: destinyImages.espWallhack,
-	playerEsp: destinyImages.playerEsp,
-	rebootFight: destinyImages.aimbotCombat,
-	battleRoyaleCombat: destinyImages.cheatsCombat,
-	battleRoyaleIslandMap: destinyImages.espWallhack,
+	hero: overwatchImages.espWallhack,
+	espWallhack: overwatchImages.espWallhack,
+	aimbotCombat: overwatchImages.aimbotCombat,
+	aimbotSkeleton: overwatchImages.aimbotSkeleton,
+	squadFight: overwatchImages.aimbotCombat,
+	headerArt: overwatchImages.playerEsp,
+	cheatsPackage: overwatchImages.espWallhack,
+	playerEsp: overwatchImages.playerEsp,
+	rebootFight: overwatchImages.aimbotCombat,
+	battleRoyaleCombat: overwatchImages.cheatsCombat,
+	battleRoyaleIslandMap: overwatchImages.espWallhack,
 };
 
-const FALLBACK_BLOG_IMAGE = destinyImages.espWallhack;
+const FALLBACK_BLOG_IMAGE = overwatchImages.espWallhack;
 
 function expandTranslations(
 	translations: Partial<Record<LocaleCode, BlogTranslation>> & { en: BlogTranslation },
@@ -194,7 +194,7 @@ export function getBlogSitemapEntriesForLocale(locale: LocaleCode) {
 	for (const post of blogPosts) {
 		const t = post.translations[locale];
 		const imageSrc = getBlogImageSrc(post.imageKey);
-		const isProductPost = /Destiny 2 Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
+		const isProductPost = /Overwatch 2 Cheats|Aimbot|ESP|Undetected|Comparisons/i.test(post.category);
 		entries.push({
 			path: getBlogPostPath(locale, t.slug),
 			lastmod: post.updated,

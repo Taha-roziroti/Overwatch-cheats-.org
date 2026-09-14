@@ -1,5 +1,5 @@
 {
-  "name": "Destiny 2 Cheats",
+  "name": "Overwatch 2 Cheats",
   "install": "npm ci && npm run build",
   "start": "npm run serve:public",
   "ports": [

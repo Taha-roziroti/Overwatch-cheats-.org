@@ -11,85 +11,85 @@ const PAGES = path.join(ROOT, 'src/pages');
 
 /** Core englishPaths OLD → NEW */
 export const CORE_PATH_MAP = {
-	'/destiny-2-cheats-features/': '/features/',
-	'/destiny-2-cheats-pricing/': '/pricing/',
-	'/destiny-2-cheats-setup/': '/setup/',
-	'/destiny-2-cheats-status/': '/status/',
-	'/destiny-2-cheats-faq/': '/faq/',
-	'/destiny-2-cheats-support/': '/support/',
-	'/destiny-2-cheats-privacy/': '/privacy/',
-	'/destiny-2-cheats-refund/': '/refund/',
-	'/destiny-2-cheats-terms/': '/terms/',
-	'/destiny-2-cheats-blog/': '/blog/',
-	'/destiny-2-cheats-reviews/': '/reviews/',
-	'/destiny-2-cheats/': '/d2-cheats/',
+	'/overwatch-2-cheats-features/': '/features/',
+	'/overwatch-2-cheats-pricing/': '/pricing/',
+	'/overwatch-2-cheats-setup/': '/setup/',
+	'/overwatch-2-cheats-status/': '/status/',
+	'/overwatch-2-cheats-faq/': '/faq/',
+	'/overwatch-2-cheats-support/': '/support/',
+	'/overwatch-2-cheats-privacy/': '/privacy/',
+	'/overwatch-2-cheats-refund/': '/refund/',
+	'/overwatch-2-cheats-terms/': '/terms/',
+	'/overwatch-2-cheats-blog/': '/blog/',
+	'/overwatch-2-cheats-reviews/': '/reviews/',
+	'/overwatch-2-cheats/': '/ow2-cheats/',
 	// Cannibal long paths → pillar directly (Phase 4 — no stub hop)
-	'/undetected-destiny-2-cheats/': '/d2-cheats/',
-	'/destiny-2-wallhack/': '/destiny-2-esp/',
-	'/destiny-2-radar-hack/': '/d2-radar/',
-	'/destiny-2-battleye-bypass/': '/status/',
-	'/destiny-2-cheats-2026/': '/d2-cheats/',
-	'/destiny-2-cheat-download/': '/setup/',
-	'/destiny-2-crucible-cheats/': '/d2-cheats/',
-	'/destiny-2-aim-assist/': '/destiny-2-aimbot/',
-	'/best-destiny-2-cheats/': '/d2-cheats/',
-	'/destiny-2-pve-cheats/': '/d2-cheats/',
-	'/destiny-2-aimbot-hack/': '/destiny-2-aimbot/',
-	'/destiny-2-esp-hack/': '/destiny-2-esp/',
+	'/undetected-overwatch-2-cheats/': '/ow2-cheats/',
+	'/overwatch-2-wallhack/': '/overwatch-2-esp/',
+	'/overwatch-2-visuals/': '/ow2-visuals/',
+	'/overwatch-2-anticheat-bypass/': '/status/',
+	'/overwatch-2-cheats-2026/': '/ow2-cheats/',
+	'/overwatch-2-cheat-download/': '/setup/',
+	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
+	'/overwatch-2-aim-assist/': '/overwatch-2-aimbot/',
+	'/best-overwatch-2-cheats/': '/ow2-cheats/',
+	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
+	'/overwatch-2-aimbot-hack/': '/overwatch-2-aimbot/',
+	'/overwatch-2-esp-hack/': '/overwatch-2-esp/',
 };
 
 /** Page directory renames under src/pages/ */
 const DIR_MOVES = [
-	['destiny-2-cheats-features', 'features'],
-	['destiny-2-cheats-pricing', 'pricing'],
-	['destiny-2-cheats-setup', 'setup'],
-	['destiny-2-cheats-status', 'status'],
-	['destiny-2-cheats-support', 'support'],
-	['destiny-2-cheats-privacy', 'privacy'],
-	['destiny-2-cheats-refund', 'refund'],
-	['destiny-2-cheats-terms', 'terms'],
-	['destiny-2-cheats-faq', 'faq'],
-	['destiny-2-cheats-blog', 'blog'],
-	['destiny-2-cheats-reviews', 'reviews'],
-	['destiny-2-cheats', 'd2-cheats'],
-	['undetected-destiny-2-cheats', 'd2-undetected'],
-	['destiny-2-wallhack', 'd2-wallhack'],
-	['destiny-2-radar-hack', 'd2-radar'],
-	['destiny-2-battleye-bypass', 'd2-battleye'],
-	['destiny-2-cheats-2026', 'd2-cheats-2026'],
-	['destiny-2-cheat-download', 'd2-download'],
-	['destiny-2-crucible-cheats', 'd2-crucible'],
-	['destiny-2-aim-assist', 'd2-aim-assist'],
-	['destiny-2-pve-cheats', 'd2-pve'],
-	['best-destiny-2-cheats', 'd2-best-cheats'],
+	['overwatch-2-cheats-features', 'features'],
+	['overwatch-2-cheats-pricing', 'pricing'],
+	['overwatch-2-cheats-setup', 'setup'],
+	['overwatch-2-cheats-status', 'status'],
+	['overwatch-2-cheats-support', 'support'],
+	['overwatch-2-cheats-privacy', 'privacy'],
+	['overwatch-2-cheats-refund', 'refund'],
+	['overwatch-2-cheats-terms', 'terms'],
+	['overwatch-2-cheats-faq', 'faq'],
+	['overwatch-2-cheats-blog', 'blog'],
+	['overwatch-2-cheats-reviews', 'reviews'],
+	['overwatch-2-cheats', 'd2-cheats'],
+	['undetected-overwatch-2-cheats', 'd2-undetected'],
+	['overwatch-2-wallhack', 'd2-wallhack'],
+	['overwatch-2-visuals', 'd2-radar'],
+	['overwatch-2-anticheat-bypass', 'd2-easy-anticheat'],
+	['overwatch-2-cheats-2026', 'd2-cheats-2026'],
+	['overwatch-2-cheat-download', 'd2-download'],
+	['overwatch-2-hero-scripts', 'd2-crucible'],
+	['overwatch-2-aim-assist', 'd2-aim-assist'],
+	['overwatch-2-hero-scripts', 'd2-pve'],
+	['best-overwatch-2-cheats', 'd2-best-cheats'],
 ];
 
 /** FAQ slug OLD → NEW */
 export const FAQ_SLUG_MAP = {
-	'what-are-destiny-2-cheats': 'what-are-d2-cheats',
-	'are-destiny-2-cheats-undetected-in-2026': 'undetected-in-2026',
+	'what-are-overwatch-2-cheats': 'what-are-d2-cheats',
+	'are-overwatch-2-cheats-undetected-in-2026': 'undetected-in-2026',
 	'crucible-trials-and-pve': 'crucible-trials-pve',
 	'esp-wallhack-radar-or-aimbot': 'esp-radar-aimbot',
 	'how-are-licenses-delivered': 'license-delivery',
 	'where-to-check-updates': 'check-updates',
 	'how-to-contact-support': 'contact-support',
-	'what-is-a-destiny-2-wallhack': 'what-is-wallhack',
-	'does-destiny-2-cheats-include-radar-hack': 'radar-included',
-	'battleye-anti-cheat-and-destiny-2-cheats': 'battleye-and-cheats',
-	'buy-undetected-destiny-2-cheats-windows-pc': 'buy-undetected-pc',
+	'what-is-a-overwatch-2-wallhack': 'what-is-wallhack',
+	'does-overwatch-2-cheats-include-radar-hack': 'radar-included',
+	'easy-anticheat-anti-cheat-and-overwatch-2-cheats': 'easy-anticheat-and-cheats',
+	'buy-undetected-overwatch-2-cheats-windows-pc': 'buy-undetected-pc',
 };
 
 /** Review slug OLD → NEW */
 export const REVIEW_SLUG_MAP = {
-	'destiny-2-aim-assist-review-xkrypt0': 'aim-assist-xkrypt0',
-	'destiny-2-esp-scav-run-review-buildsr4k': 'esp-dungeon-buildsr4k',
+	'overwatch-2-aim-assist-review-xkrypt0': 'aim-assist-xkrypt0',
+	'overwatch-2-esp-scav-run-review-buildsr4k': 'esp-dungeon-buildsr4k',
 	'destiny-2-update-review-dma-wizard': 'update-dma-wizard',
-	'destiny-2-aim-assist-review-ctrl-player99': 'aim-assist-ctrl-player99',
+	'overwatch-2-aim-assist-review-ctrl-player99': 'aim-assist-ctrl-player99',
 	'destiny-2-cheat-setup-review-stormchaser07': 'setup-stormchaser07',
 	'destiny-2-loot-esp-review-lootgoblinx': 'loot-esp-lootgoblinx',
-	'destiny-2-aim-assist-raid-review-rankedgrind42': 'aim-assist-trials-rankedgrind42',
-	'destiny-2-radar-hack-review-vanlifeeft': 'radar-vanlifeeft',
-	'destiny-2-battleye-update-review-patchdaymike': 'battleye-patchdaymike',
+	'overwatch-2-aim-assist-raid-review-rankedgrind42': 'aim-assist-trials-rankedgrind42',
+	'overwatch-2-visuals-review-vanlifeeft': 'radar-vanlifeeft',
+	'overwatch-2-anticheat-update-review-patchdaymike': 'easy-anticheat-patchdaymike',
 	'destiny-2-sniper-aimbot-review-snipezonly': 'sniper-aim-snipezonly',
 };
 
@@ -103,15 +103,15 @@ export const BLOG_SLUG_MAP = {
 	'destiny-2-loot-routes-guide': 'loot-routes',
 	'destiny-2-pro-settings-guide': 'pro-settings',
 	'destiny-2-warmup-maps-ranked': 'warmup-routine',
-	'destiny-2-cheats-complete-guide-2026': 'cheats-guide-2026',
-	'destiny-2-cheats-buyers-guide': 'buyers-guide',
-	'destiny-2-cheats-2026-whats-new': 'cheats-2026-updates',
-	'destiny-2-aimbot-settings-guide': 'aimbot-settings',
-	'destiny-2-esp-wallhack-explained': 'esp-wallhack',
-	'undetected-destiny-2-cheats-battleye': 'undetected-battleye',
-	'destiny-2-cheats-vs-cheatvault-comparison': 'vs-budget-shops',
-	'elitefn-vs-destiny-2-cheats-two-week-test': 'two-week-cheat-test',
-	'destiny-2-cheats-vs-ghostware-features-pricing': 'full-stack-vs-esp-only',
+	'overwatch-2-cheats-complete-guide-2026': 'cheats-guide-2026',
+	'overwatch-2-cheats-buyers-guide': 'buyers-guide',
+	'overwatch-2-cheats-2026-whats-new': 'cheats-2026-updates',
+	'overwatch-2-aimbot-settings-guide': 'aimbot-settings',
+	'overwatch-2-esp-wallhack-explained': 'esp-wallhack',
+	'undetected-overwatch-2-cheats-easy-anticheat': 'undetected-easy-anticheat',
+	'overwatch-2-cheats-vs-cheatvault-comparison': 'vs-budget-shops',
+	'elitefn-vs-overwatch-2-cheats-two-week-test': 'two-week-cheat-test',
+	'overwatch-2-cheats-vs-ghostware-features-pricing': 'full-stack-vs-esp-only',
 };
 
 function applyPathMap(text) {
@@ -152,26 +152,26 @@ function updateRouting() {
 	const abs = path.join(ROOT, 'src/data/i18n/routing.ts');
 	let src = readFileSync(abs, 'utf8');
 	const replacements = {
-		"features: '/destiny-2-cheats-features/'": "features: '/features/'",
-		"pricing: '/destiny-2-cheats-pricing/'": "pricing: '/pricing/'",
-		"setup: '/destiny-2-cheats-setup/'": "setup: '/setup/'",
-		"updates: '/destiny-2-cheats-status/'": "updates: '/status/'",
-		"faq: '/destiny-2-cheats-faq/'": "faq: '/faq/'",
-		"support: '/destiny-2-cheats-support/'": "support: '/support/'",
-		"undetected: '/undetected-destiny-2-cheats/'": "undetected: '/d2-undetected/'",
-		"wallhack: '/destiny-2-wallhack/'": "wallhack: '/d2-wallhack/'",
-		"radar: '/destiny-2-radar-hack/'": "radar: '/d2-radar/'",
-		"'anticheat': '/destiny-2-battleye-bypass/'": "'anticheat': '/d2-battleye/'",
-		"'cheats-2026': '/destiny-2-cheats-2026/'": "'cheats-2026': '/d2-cheats-2026/'",
-		"hacks: '/destiny-2-cheats/'": "hacks: '/d2-cheats/'",
-		"'cheat-download': '/destiny-2-cheat-download/'": "'cheat-download': '/d2-download/'",
-		"'crucible-cheats': '/destiny-2-crucible-cheats/'": "'crucible-cheats': '/d2-crucible/'",
-		"'aim-assist': '/destiny-2-aim-assist/'": "'aim-assist': '/d2-aim-assist/'",
-		"'best-cheats': '/best-destiny-2-cheats/'": "'best-cheats': '/d2-cheats/'",
-		"'pve-cheats': '/destiny-2-pve-cheats/'": "'pve-cheats': '/d2-pve/'",
-		"privacy: '/destiny-2-cheats-privacy/'": "privacy: '/privacy/'",
-		"refund: '/destiny-2-cheats-refund/'": "refund: '/refund/'",
-		"terms: '/destiny-2-cheats-terms/'": "terms: '/terms/'",
+		"features: '/overwatch-2-cheats-features/'": "features: '/features/'",
+		"pricing: '/overwatch-2-cheats-pricing/'": "pricing: '/pricing/'",
+		"setup: '/overwatch-2-cheats-setup/'": "setup: '/setup/'",
+		"updates: '/overwatch-2-cheats-status/'": "updates: '/status/'",
+		"faq: '/overwatch-2-cheats-faq/'": "faq: '/faq/'",
+		"support: '/overwatch-2-cheats-support/'": "support: '/support/'",
+		"undetected: '/undetected-overwatch-2-cheats/'": "undetected: '/ow2-undetected/'",
+		"wallhack: '/overwatch-2-wallhack/'": "wallhack: '/ow2-wallhack/'",
+		"radar: '/overwatch-2-visuals/'": "radar: '/ow2-visuals/'",
+		"'anticheat': '/overwatch-2-anticheat-bypass/'": "'anticheat': '/ow2-anticheat/'",
+		"'cheats-2026': '/overwatch-2-cheats-2026/'": "'cheats-2026': '/ow2-cheats-2026/'",
+		"hacks: '/overwatch-2-cheats/'": "hacks: '/ow2-cheats/'",
+		"'cheat-download': '/overwatch-2-cheat-download/'": "'cheat-download': '/ow2-download/'",
+		"'crucible-cheats': '/overwatch-2-hero-scripts/'": "'crucible-cheats': '/ow2-hero-scripts/'",
+		"'aim-assist': '/overwatch-2-aim-assist/'": "'aim-assist': '/ow2-aim-assist/'",
+		"'best-cheats': '/best-overwatch-2-cheats/'": "'best-cheats': '/ow2-cheats/'",
+		"'pve-cheats': '/overwatch-2-hero-scripts/'": "'pve-cheats': '/ow2-hero-scripts/'",
+		"privacy: '/overwatch-2-cheats-privacy/'": "privacy: '/privacy/'",
+		"refund: '/overwatch-2-cheats-refund/'": "refund: '/refund/'",
+		"terms: '/overwatch-2-cheats-terms/'": "terms: '/terms/'",
 	};
 	for (const [from, to] of Object.entries(replacements)) {
 		src = src.split(from).join(to);
@@ -205,30 +205,30 @@ function generateRedirectsBlock() {
 		lines.push(`${from} ${to} 301`);
 	}
 	for (const [from, to] of Object.entries(FAQ_SLUG_MAP)) {
-		lines.push(`/destiny-2-cheats-faq/${from} /faq/${to}/ 301`);
-		lines.push(`/destiny-2-cheats-faq/${from}/ /faq/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-faq/${from} /faq/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-faq/${from}/ /faq/${to}/ 301`);
 		lines.push(`/faq/${from} /faq/${to}/ 301`);
 		lines.push(`/faq/${from}/ /faq/${to}/ 301`);
 	}
 	for (const [from, to] of Object.entries(REVIEW_SLUG_MAP)) {
-		lines.push(`/destiny-2-cheats-reviews/${from} /reviews/${to}/ 301`);
-		lines.push(`/destiny-2-cheats-reviews/${from}/ /reviews/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-reviews/${from} /reviews/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-reviews/${from}/ /reviews/${to}/ 301`);
 		lines.push(`/reviews/${from} /reviews/${to}/ 301`);
 		lines.push(`/reviews/${from}/ /reviews/${to}/ 301`);
 	}
 	for (const [from, to] of Object.entries(BLOG_SLUG_MAP)) {
-		lines.push(`/destiny-2-cheats-blog/${from} /blog/${to}/ 301`);
-		lines.push(`/destiny-2-cheats-blog/${from}/ /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from} /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from}/ /blog/${to}/ 301`);
 	}
 	// Legacy blog slugs
 	const legacyBlog = [
-		['escape-from-destiny-2-cheats-buyers-guide', 'buyers-guide'],
+		['escape-from-overwatch-2-cheats-buyers-guide', 'buyers-guide'],
 		['destiny-2-scav-run-aggressive-strategies', 'pve-strategies'],
 		['destiny-2-PvE-aggressive-strategies', 'pve-strategies'],
 	];
 	for (const [from, to] of legacyBlog) {
-		lines.push(`/destiny-2-cheats-blog/${from} /blog/${to}/ 301`);
-		lines.push(`/destiny-2-cheats-blog/${from}/ /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from} /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from}/ /blog/${to}/ 301`);
 		lines.push(`/blog/${from} /blog/${to}/ 301`);
 		lines.push(`/blog/${from}/ /blog/${to}/ 301`);
 	}
@@ -264,34 +264,34 @@ function updateMiddleware() {
 	src = applyPathMap(src);
 	// Cannibal targets use new short paths
 	const cannibal = {
-		"'/escape-from-destiny-2-cheats'": "'/d2-cheats'",
-		"'/escape-from-destiny-2-cheats/'": "'/d2-cheats/'",
-		"'/destiny-2-cheats-2026'": "'/d2-cheats/'",
-		"'/destiny-2-cheats-2026/'": "'/d2-cheats/'",
-		"'/undetected-destiny-2-cheats'": "'/d2-cheats/'",
-		"'/undetected-destiny-2-cheats/'": "'/d2-cheats/'",
-		"'/destiny-2-crucible-cheats'": "'/d2-cheats/'",
-		"'/destiny-2-crucible-cheats/'": "'/d2-cheats/'",
-		"'/destiny-2-pve-cheats'": "'/d2-cheats/'",
-		"'/destiny-2-pve-cheats/'": "'/d2-cheats/'",
-		"'/destiny-2-aim-assist'": "'/destiny-2-aimbot/'",
-		"'/destiny-2-aim-assist/'": "'/destiny-2-aimbot/'",
-		"'/destiny-2-wallhack'": "'/destiny-2-esp/'",
-		"'/destiny-2-wallhack/'": "'/destiny-2-esp/'",
-		"'/destiny-2-cheat-download'": "'/setup/'",
-		"'/destiny-2-cheat-download/'": "'/setup/'",
-		"'/destiny-2-battleye-bypass'": "'/status/'",
-		"'/destiny-2-battleye-bypass/'": "'/status/'",
-		"'/best-destiny-2-cheats'": "'/d2-cheats/'",
-		"'/best-destiny-2-cheats/'": "'/d2-cheats/'",
-		"'/destiny-2-cheats'": "'/d2-cheats/'",
-		"'/destiny-2-cheats/'": "'/d2-cheats/'",
-		"'/warzone-cheats'": "'/d2-cheats/'",
-		"'/warzone-cheats/'": "'/d2-cheats/'",
-		"'/warzone-hacks'": "'/d2-cheats/'",
-		"'/warzone-hacks/'": "'/d2-cheats/'",
-		"'/fortnite-hacks'": "'/d2-cheats/'",
-		"'/fortnite-hacks/'": "'/d2-cheats/'",
+		"'/escape-from-overwatch-2-cheats'": "'/d2-cheats'",
+		"'/escape-from-overwatch-2-cheats/'": "'/ow2-cheats/'",
+		"'/overwatch-2-cheats-2026'": "'/ow2-cheats/'",
+		"'/overwatch-2-cheats-2026/'": "'/ow2-cheats/'",
+		"'/undetected-overwatch-2-cheats'": "'/ow2-cheats/'",
+		"'/undetected-overwatch-2-cheats/'": "'/ow2-cheats/'",
+		"'/overwatch-2-hero-scripts'": "'/ow2-cheats/'",
+		"'/overwatch-2-hero-scripts/'": "'/ow2-cheats/'",
+		"'/overwatch-2-hero-scripts'": "'/ow2-cheats/'",
+		"'/overwatch-2-hero-scripts/'": "'/ow2-cheats/'",
+		"'/overwatch-2-aim-assist'": "'/overwatch-2-aimbot/'",
+		"'/overwatch-2-aim-assist/'": "'/overwatch-2-aimbot/'",
+		"'/overwatch-2-wallhack'": "'/overwatch-2-esp/'",
+		"'/overwatch-2-wallhack/'": "'/overwatch-2-esp/'",
+		"'/overwatch-2-cheat-download'": "'/setup/'",
+		"'/overwatch-2-cheat-download/'": "'/setup/'",
+		"'/overwatch-2-anticheat-bypass'": "'/status/'",
+		"'/overwatch-2-anticheat-bypass/'": "'/status/'",
+		"'/best-overwatch-2-cheats'": "'/ow2-cheats/'",
+		"'/best-overwatch-2-cheats/'": "'/ow2-cheats/'",
+		"'/overwatch-2-cheats'": "'/ow2-cheats/'",
+		"'/overwatch-2-cheats/'": "'/ow2-cheats/'",
+		"'/warzone-cheats'": "'/ow2-cheats/'",
+		"'/warzone-cheats/'": "'/ow2-cheats/'",
+		"'/warzone-hacks'": "'/ow2-cheats/'",
+		"'/warzone-hacks/'": "'/ow2-cheats/'",
+		"'/fortnite-hacks'": "'/ow2-cheats/'",
+		"'/fortnite-hacks/'": "'/ow2-cheats/'",
 		"'/ricochet-bypass'": "'/status/'",
 		"'/ricochet-bypass/'": "'/status/'",
 		"'/eac-bypass'": "'/status/'",
@@ -312,16 +312,16 @@ function updateValidateSitemaps() {
 	src = applySlugMaps(src, REVIEW_SLUG_MAP);
 	src = applySlugMaps(src, BLOG_SLUG_MAP);
 	// REDIRECT_ONLY_PATHS
-	src = src.replace('/undetected-destiny-2-cheats/', '/d2-undetected/');
-	src = src.replace('/destiny-2-wallhack/', '/d2-wallhack/');
-	src = src.replace('/destiny-2-radar-hack/', '/d2-radar/');
-	src = src.replace('/destiny-2-battleye-bypass/', '/d2-battleye/');
-	src = src.replace('/destiny-2-cheats-2026/', '/d2-cheats-2026/');
-	src = src.replace('/destiny-2-cheats/', '/d2-cheats/');
-	src = src.replace('/destiny-2-cheat-download/', '/d2-download/');
-	src = src.replace('/destiny-2-crucible-cheats/', '/d2-crucible/');
-	src = src.replace('/destiny-2-aim-assist/', '/d2-aim-assist/');
-	src = src.replace('/destiny-2-pve-cheats/', '/d2-pve/');
+	src = src.replace('/undetected-overwatch-2-cheats/', '/ow2-undetected/');
+	src = src.replace('/overwatch-2-wallhack/', '/ow2-wallhack/');
+	src = src.replace('/overwatch-2-visuals/', '/ow2-visuals/');
+	src = src.replace('/overwatch-2-anticheat-bypass/', '/ow2-anticheat/');
+	src = src.replace('/overwatch-2-cheats-2026/', '/ow2-cheats-2026/');
+	src = src.replace('/overwatch-2-cheats/', '/ow2-cheats/');
+	src = src.replace('/overwatch-2-cheat-download/', '/ow2-download/');
+	src = src.replace('/overwatch-2-hero-scripts/', '/ow2-hero-scripts/');
+	src = src.replace('/overwatch-2-aim-assist/', '/ow2-aim-assist/');
+	src = src.replace('/overwatch-2-hero-scripts/', '/ow2-hero-scripts/');
 	writeFileSync(abs, src, 'utf8');
 	console.log('patched validate-sitemaps.mjs');
 }
@@ -333,10 +333,10 @@ if (!isMain) {
 // --- Run migration ---
 updateRouting();
 
-patchFile('src/data/faq.ts', (s) => s.replace("faqBasePath = '/destiny-2-cheats-faq/'", "faqBasePath = '/faq/'"));
-patchFile('src/data/reviews.ts', (s) => s.replace("reviewsBasePath = '/destiny-2-cheats-reviews/'", "reviewsBasePath = '/reviews/'"));
+patchFile('src/data/faq.ts', (s) => s.replace("faqBasePath = '/overwatch-2-cheats-faq/'", "faqBasePath = '/faq/'"));
+patchFile('src/data/reviews.ts', (s) => s.replace("reviewsBasePath = '/overwatch-2-cheats-reviews/'", "reviewsBasePath = '/reviews/'"));
 patchFile('src/data/blog/helpers.ts', (s) =>
-	s.replace("return locale === defaultLocale ? '/destiny-2-cheats-blog/' : `/${locale}/blog/`", "return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`"),
+	s.replace("return locale === defaultLocale ? '/overwatch-2-cheats-blog/' : `/${locale}/blog/`", "return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`"),
 );
 
 patchFile('src/data/site.ts', (s) => applySlugMaps(applyPathMap(s), { ...FAQ_SLUG_MAP, ...REVIEW_SLUG_MAP }));
@@ -352,8 +352,8 @@ for (const rel of [
 	'src/components/LocalizedHome.astro',
 	'src/pages/[lang]/blog/index.astro',
 	'src/pages/[lang]/blog/[slug]/index.astro',
-	'src/pages/destiny-2-cheats-faq/[slug]/index.astro',
-	'src/pages/destiny-2-cheats-reviews/[slug]/index.astro',
+	'src/pages/overwatch-2-cheats-faq/[slug]/index.astro',
+	'src/pages/overwatch-2-cheats-reviews/[slug]/index.astro',
 ]) {
 	patchFile(rel, (s) => applySlugMaps(applyPathMap(s), { ...FAQ_SLUG_MAP, ...REVIEW_SLUG_MAP, ...BLOG_SLUG_MAP }));
 }

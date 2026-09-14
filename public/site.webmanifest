@@ -1,11 +1,11 @@
 {
-  "name": "Destiny 2 Cheats",
-  "short_name": "Destiny 2",
-  "description": "Undetected Destiny 2 cheats — ESP, aimbot, and radar for PC",
+  "name": "Overwatch 2 Cheats",
+  "short_name": "Overwatch 2",
+  "description": "Undetected Overwatch 2 cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FAFBFD",
-  "theme_color": "#FAFBFD",
+  "background_color": "#1B1A1B",
+  "theme_color": "#1B1A1B",
   "icons": [
     {
       "src": "/favicon.png",

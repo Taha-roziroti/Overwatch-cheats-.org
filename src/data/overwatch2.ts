@@ -1,0 +1,47 @@
+import { siteConfig } from './site';
+
+/** Screenshots used across product pages — Overwatch 2 cheat keyword alts. */
+export const overwatchImages = {
+	hero: '/images/overwatch-2-hero-poster.webp',
+	espWallhack: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+	aimbotCombat: '/images/overwatch-2-cheats-flickbot.webp',
+	aimbotSkeleton: '/images/overwatch-2-cheats-aimbot-esp.webp',
+	playerEsp: '/images/overwatch-2-cheats-esp-box.webp',
+	cheatsCombat: '/images/overwatch-2-cheats-hero-scripts.webp',
+	logo: siteConfig.logo,
+	cover: '/images/overwatch-2-cheats-hero-scripts.webp',
+	loadoutBuilder: '/images/overwatch-2-cheats-fov.webp',
+	squadFight: '/images/overwatch-2-cheats-aimbot-esp.webp',
+	cheatsPackage: '/images/overwatch-2-cheats-fov.webp',
+	headerArt: '/images/overwatch-2-cheats-aimbot-esp.webp',
+	battleRoyaleCombat: '/images/overwatch-2-cheats-hero-scripts.webp',
+	extractFight: '/images/overwatch-2-cheats-flickbot.webp',
+	rebootFight: '/images/overwatch-2-cheats-flickbot.webp',
+	scavRunCombat: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+	scavRunMode: '/images/overwatch-2-cheats-esp-box.webp',
+	battleRoyaleIsland: '/images/overwatch-2-cheats-esp-box.webp',
+	raidMap: '/images/overwatch-2-cheats-hero-scripts.webp',
+	product: [
+		{ src: '/images/overwatch-2-cheats-esp-box.webp', alt: 'Overwatch 2 ESP player boxes in Quick Play PvP' },
+		{ src: '/images/overwatch-2-cheats-wallhack-skeleton.webp', alt: 'Overwatch 2 wallhack skeleton ESP through walls' },
+		{ src: '/images/overwatch-2-cheats-flickbot.webp', alt: 'Overwatch 2 flickbot overlay in Competitive match' },
+		{ src: '/images/overwatch-2-cheats-aimbot-esp.webp', alt: 'Overwatch 2 aimbot ESP with bone targeting' },
+		{ src: '/images/overwatch-2-cheats-hero-scripts.webp', alt: 'Overwatch 2 hero scripts with ult charge overlay' },
+		{ src: '/images/overwatch-2-cheats-fov.webp', alt: 'Overwatch 2 draw FOV and visual ESP options' },
+	],
+	gallery: [
+		{ src: '/images/overwatch-2-cheats-esp-box.webp', alt: 'Overwatch 2 ESP overlay showing enemy distance', featured: true },
+		{ src: '/images/overwatch-2-cheats-wallhack-skeleton.webp', alt: 'Overwatch 2 wallhack skeleton through cover' },
+		{ src: '/images/overwatch-2-cheats-flickbot.webp', alt: 'Overwatch 2 flickbot in combat' },
+		{ src: '/images/overwatch-2-cheats-hero-scripts.webp', alt: 'Overwatch 2 hero scripts overlay' },
+		{ src: '/images/overwatch-2-cheats-aimbot-esp.webp', alt: 'Overwatch 2 box ESP and aimbot reticle' },
+	],
+	sitemap: [
+		{ src: '/images/overwatch-2-cheats-esp-box.webp', title: '', caption: '' },
+		{ src: '/images/overwatch-2-cheats-wallhack-skeleton.webp', title: '', caption: '' },
+		{ src: '/images/overwatch-2-cheats-flickbot.webp', title: '', caption: '' },
+		{ src: '/images/overwatch-2-cheats-aimbot-esp.webp', title: '', caption: '' },
+		{ src: '/images/overwatch-2-cheats-hero-scripts.webp', title: '', caption: '' },
+		{ src: '/images/overwatch-2-cheats-fov.webp', title: '', caption: '' },
+	],
+} as const;

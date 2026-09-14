@@ -1,29 +1,32 @@
-/** Official Destiny 2 references — use sparingly for E-E-A-T, not on every paragraph. */
+/** Official Overwatch 2 references — use sparingly for E-E-A-T, not on every paragraph. */
 export type OfficialResource = {
 	id: string;
 	label: string;
 	href: string;
 };
 
-export const destiny2OfficialResources: OfficialResource[] = [
+export const overwatch2OfficialResources: OfficialResource[] = [
 	{
-		id: 'bungie',
-		label: 'Bungie.net',
-		href: 'https://www.bungie.net/7/en/destiny',
+		id: 'blizzard',
+		label: 'Overwatch 2 (Blizzard)',
+		href: 'https://overwatch.blizzard.com/',
 	},
 	{
 		id: 'steam',
-		label: 'Destiny 2 on Steam',
-		href: 'https://store.steampowered.com/app/1085660/Destiny_2/',
+		label: 'Overwatch 2 on Steam',
+		href: 'https://store.steampowered.com/app/2357570/Overwatch_2/',
 	},
 	{
 		id: 'fandom',
-		label: 'Destiny Wiki (Fandom)',
-		href: 'https://destiny.fandom.com/wiki/Destiny_2',
+		label: 'Overwatch Wiki (Fandom)',
+		href: 'https://overwatch.fandom.com/wiki/Overwatch_2',
 	},
 	{
-		id: 'destinypedia',
-		label: 'Destinypedia',
-		href: 'https://www.destinypedia.com/',
+		id: 'patchnotes',
+		label: 'Overwatch 2 Patch Notes',
+		href: 'https://overwatch.blizzard.com/en-us/news/patch-notes',
 	},
 ];
+
+/** @deprecated alias for template compatibility */
+export const destiny2OfficialResources = overwatch2OfficialResources;

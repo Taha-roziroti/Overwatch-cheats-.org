@@ -5,26 +5,26 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Light canvas — #FAFBFD / #B10FF6 brand accent */
-	--bg: #FAFBFD;
-	--bg-panel: #ffffff;
-	--bg-elevated: #f5effc;
-	--bg-hover: #efe4fa;
-	--line: #d8c4ec;
-	--line-soft: #e8d8f4;
-	--line-strong: #d085f1;
-	--ink: #1a1218;
-	--ink-muted: #5c5470;
+	/* Dark canvas — #1B1A1B / #8F2699 brand accent / #61DCB5 secondary */
+	--bg: #1B1A1B;
+	--bg-panel: #252425;
+	--bg-elevated: #2e2d2e;
+	--bg-hover: #3a393a;
+	--line: #4a3f4d;
+	--line-soft: #3a353c;
+	--line-strong: #8F2699;
+	--ink: #f0eef0;
+	--ink-muted: #b8b0bc;
 	--ink-faint: #8a8299;
 
-	/* Brand accent — violet purple */
-	--magenta: #B10FF6;
-	--magenta-soft: #d085f1;
-	--magenta-deep: #7602a7;
+	/* Brand accent — purple + teal */
+	--magenta: #8F2699;
+	--magenta-soft: #61DCB5;
+	--magenta-deep: #6a1d75;
 	--accent: var(--magenta);
-	--accent-hover: #bf45f3;
-	--ok: #2d7a52;
-	--warn: #B10FF6;
+	--accent-hover: #a832b8;
+	--ok: #61DCB5;
+	--warn: #8F2699;
 
 	/* Legacy aliases */
 	--tone-void: #f0ebf6;
@@ -338,15 +338,32 @@
 		border: none;
 		border-radius: var(--radius-sm);
 		background: var(--accent);
-		color: #FAFBFD;
+		color: #f0eef0;
 		font-size: 0.9375rem;
 		font-weight: 600;
-		transition: background 0.15s ease, transform 0.15s ease;
+		transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+		animation: btn-pulse 2.5s ease-in-out infinite;
 	}
 
 	.btn-buy:hover {
 		background: var(--accent-hover);
-		color: #FAFBFD;
+		color: #f0eef0;
+		transform: translateY(-2px);
+		box-shadow: 0 4px 20px color-mix(in srgb, var(--accent) 45%, transparent);
+		animation: none;
+	}
+
+	.btn-buy:active {
+		transform: translateY(0);
+	}
+
+	@keyframes btn-pulse {
+		0%, 100% {
+			box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 40%, transparent);
+		}
+		50% {
+			box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 0%, transparent);
+		}
 	}
 
 	.g2a-logo__w {

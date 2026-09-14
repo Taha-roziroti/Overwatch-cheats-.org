@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 301s for renamed i18n slugs (escape-from-destiny-2-cheats-* → destiny-2-cheats-*).
+ * 301s for renamed i18n slugs (escape-from-overwatch-2-cheats-* → overwatch-2-cheats-*).
  * Run after routing.ts slug cleanup; wired into prebuild.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -13,22 +13,22 @@ const REDIRECTS = path.join(ROOT, 'public/_redirects');
 
 /** Reverse Phase 2 slug rename for redirect source paths. */
 function legacySlug(slug) {
-	if (!slug || slug.includes('escape-from-destiny-2-cheats')) return null;
-	if (slug === 'destiny-2-cheats' || slug === 'destiny-2-cheats-2026') return null;
+	if (!slug || slug.includes('escape-from-overwatch-2-cheats')) return null;
+	if (slug === 'overwatch-2-cheats' || slug === 'overwatch-2-cheats-2026') return null;
 
 	const prefixes = [
-		['unentdeckte-destiny-2-cheats', 'unentdeckte-escape-from-destiny-2-cheats'],
-		['beste-destiny-2-cheats', 'beste-escape-from-destiny-2-cheats'],
-		['nejlepsi-destiny-2-cheats', 'nejlepsi-escape-from-destiny-2-cheats'],
-		['basta-destiny-2-cheats', 'basta-escape-from-destiny-2-cheats'],
+		['unentdeckte-overwatch-2-cheats', 'unentdeckte-escape-from-overwatch-2-cheats'],
+		['beste-overwatch-2-cheats', 'beste-escape-from-overwatch-2-cheats'],
+		['nejlepsi-overwatch-2-cheats', 'nejlepsi-escape-from-overwatch-2-cheats'],
+		['basta-overwatch-2-cheats', 'basta-escape-from-overwatch-2-cheats'],
 	];
 	for (const [next, prev] of prefixes) {
 		if (slug === next || slug.startsWith(`${next}-`)) {
 			return slug.replace(next, prev);
 		}
 	}
-	if (slug.includes('destiny-2-cheats')) {
-		return slug.replace('destiny-2-cheats', 'escape-from-destiny-2-cheats');
+	if (slug.includes('overwatch-2-cheats')) {
+		return slug.replace('overwatch-2-cheats', 'escape-from-overwatch-2-cheats');
 	}
 	return null;
 }
@@ -49,7 +49,7 @@ function extractLocalizedSlugs(src) {
 const routing = readFileSync(ROUTING, 'utf8');
 const lines = [
 	'',
-	'# i18n slug migrations — escape-from-destiny-2-cheats → destiny-2-cheats (scripts/sync-i18n-slug-redirects.mjs)',
+	'# i18n slug migrations — escape-from-overwatch-2-cheats → overwatch-2-cheats (scripts/sync-i18n-slug-redirects.mjs)',
 	'# Do not edit by hand — regenerated on sync:brand / prebuild',
 ];
 
@@ -63,7 +63,7 @@ for (const { locale, slug } of extractLocalizedSlugs(routing)) {
 	lines.push(`${fromBase}/ ${toPath} 301`);
 }
 
-const MARKER = '# i18n slug migrations — escape-from-destiny-2-cheats';
+const MARKER = '# i18n slug migrations — escape-from-overwatch-2-cheats';
 let redirects = readFileSync(REDIRECTS, 'utf8');
 const start = redirects.indexOf(MARKER);
 if (start >= 0) {

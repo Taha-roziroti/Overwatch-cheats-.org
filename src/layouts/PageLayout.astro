@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { getUi } from '../data/i18n';
 import { getLocalizedPath, resolvePageContextFromPath, type PageId } from '../data/i18n/routing';
-import { destinyImages } from '../data/destiny';
+import { overwatchImages } from '../data/overwatch2';
 import {
 	heroPreloadSrc,
 	heroSizes,
@@ -48,9 +48,9 @@ const {
 	heading,
 	intro,
 	eyebrow,
-	heroImage = destinyImages.hero,
+	heroImage = overwatchImages.hero,
 	heroAlt,
-	gallery = destinyImages.product.slice(0, 3),
+	gallery = overwatchImages.product.slice(0, 3),
 	galleryTitle,
 	ctaPrimary,
 	ctaSecondary,
@@ -68,7 +68,7 @@ const t = getT(locale);
 const resolvedHeroAlt =
 	(heroAlt && heroAlt.trim()) ||
 	t('images.hero') ||
-	`${siteConfig.name} — Destiny 2 ESP and aimbot`;
+	`${siteConfig.name} — Overwatch 2 ESP and aimbot`;
 const resolvedGalleryTitle = galleryTitle ?? t('common.inGameLook');
 
 function resolvePageId(path: string): PageId | undefined {

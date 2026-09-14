@@ -65,12 +65,12 @@ Do **not** invent a new SEO architecture, title pattern, or dense paragraph styl
 ## Bad vs good
 
 ```text
-❌ BAD H1: Ultimate Undetected Destiny 2 Hacks Feature Control List 2026
+❌ BAD H1: Ultimate Undetected Overwatch 2 Hacks Feature Control List 2026
 ✅ GOOD H1: Features
 
-❌ BAD intro: Destiny 2 Cheats is the undetected Destiny 2 cheats package also searched as Destiny 2 cheats…
-✅ GOOD intro: Everything included in one license for Destiny 2 on Windows PC.
+❌ BAD intro: Overwatch 2 Cheats is the undetected Overwatch 2 cheats package also searched as Overwatch 2 cheats…
+✅ GOOD intro: Everything included in one license for Overwatch 2 on Windows PC.
 
-❌ BAD: Hardcode "Destiny 2 Cheats" in Hero.astro
+❌ BAD: Hardcode "Overwatch 2 Cheats" in Hero.astro
 ✅ GOOD: {siteConfig.name}
 ```

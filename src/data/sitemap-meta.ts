@@ -15,12 +15,12 @@ export type PageSitemapMeta = {
 /**
  * SEO priority and crawl hints per page — keyed by PageId (single source of truth).
  * English URLs use `priority`; localized URLs use `i18nPriority`.
- * `lastmod` reflects when BattlEye page's content actually changed — do NOT reset all
+ * `lastmod` reflects when Easy Anti-Cheat page's content actually changed — do NOT reset all
  * pages to the same date on deploy, only bump pages whose content was edited.
  */
 export const pageSitemapMeta: Record<PageId, PageSitemapMeta> = {
 	home: { priority: 0.95, changefreq: 'daily', i18nPriority: 0.88, lastmod: '2026-08-13' },
-	/** Money URL for "Destiny 2 cheats" */
+	/** Money URL for "Overwatch 2 cheats" */
 	hacks: { priority: 1.0, changefreq: 'weekly', i18nPriority: 0.9, lastmod: '2026-08-13' },
 	undetected: { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'cheats-2026': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
@@ -34,8 +34,8 @@ export const pageSitemapMeta: Record<PageId, PageSitemapMeta> = {
 	wallhack: { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	radar: { priority: 0.9, changefreq: 'weekly', i18nPriority: 0.85, lastmod: '2026-08-13' },
 	'anticheat': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
-	'destiny-2-esp': { priority: 0.92, changefreq: 'weekly', i18nPriority: 0.86, lastmod: '2026-08-13' },
-	'destiny-2-aimbot': { priority: 0.92, changefreq: 'weekly', i18nPriority: 0.86, lastmod: '2026-08-13' },
+	'overwatch-2-esp': { priority: 0.92, changefreq: 'weekly', i18nPriority: 0.86, lastmod: '2026-08-13' },
+	'overwatch-2-aimbot': { priority: 0.92, changefreq: 'weekly', i18nPriority: 0.86, lastmod: '2026-08-13' },
 	pricing: { priority: 0.94, changefreq: 'weekly', i18nPriority: 0.85, lastmod: '2026-08-13' },
 	features: { priority: 0.9, changefreq: 'weekly', i18nPriority: 0.84, lastmod: '2026-08-13' },
 	setup: { priority: 0.88, changefreq: 'weekly', i18nPriority: 0.84, lastmod: '2026-08-13' },

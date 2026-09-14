@@ -14,8 +14,8 @@ const PREFERRED_HOSTS = [
 	englishPaths.features,
 	englishPaths.pricing,
 	englishPaths.updates,
-	englishPaths['destiny-2-esp'],
-	englishPaths['destiny-2-aimbot'],
+	englishPaths['overwatch-2-esp'],
+	englishPaths['overwatch-2-aimbot'],
 	englishPaths.hacks,
 	englishPaths.undetected,
 ] as const;

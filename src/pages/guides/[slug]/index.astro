@@ -115,7 +115,7 @@ const extraGraph: Record<string, unknown>[] = [
 
 					{
 						relatedNative.length > 0 && (
-							<section class="guide-detail__related" aria-label="Related Destiny 2 guides">
+							<section class="guide-detail__related" aria-label="Related Overwatch 2 guides">
 								<h2>Related {siteConfig.name} guides</h2>
 								<ul>
 									{relatedNative.map((native) => (
@@ -128,7 +128,7 @@ const extraGraph: Record<string, unknown>[] = [
 						)
 					}
 
-					{guide.gameId === 'destiny-2' && <OfficialResources locale="en" />}
+					{guide.gameId === 'overwatch-2' && <OfficialResources locale="en" />}
 
 					<div class="guide-detail__back">
 						<a href={guidesBasePath}>← All guides</a>

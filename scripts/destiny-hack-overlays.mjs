@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for Destiny 2 cheats marketing images.
- * Composited on top of IGN Destiny 2 gameplay screenshots.
+ * SVG overlay generators for Overwatch 2 cheats marketing images.
+ * Composited on top of IGN Overwatch 2 gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';

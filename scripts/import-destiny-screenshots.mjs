@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Import user-provided Destiny 2 screenshots into public/images */
+/** Import user-provided Overwatch 2 screenshots into public/images */
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import sharp from 'sharp';
@@ -12,30 +12,30 @@ const assetsDir = '/home/ubuntu/.cursor/projects/workspace/assets';
 const SCREENSHOTS = [
 	{
 		source: 'cb1d5776-5fff-467c-a96a-7204637b72d3.jpg',
-		file: 'destiny-2-cheats-pve.webp',
+		file: 'overwatch-2-cheats-pve.webp',
 	},
 	{
 		source: '2f856e5d-335b-42ba-a52f-04dae9a8c6a3.jpg',
-		file: 'destiny-2-cheats-wallhack-skeleton.webp',
+		file: 'overwatch-2-cheats-wallhack-skeleton.webp',
 	},
 	{
 		source: '1bb70899-1276-4ee5-b51d-7571cfa05817.jpg',
-		file: 'destiny-2-cheats-crucible.webp',
+		file: 'overwatch-2-cheats-crucible.webp',
 	},
 	{
 		source: '4248f417-1bbe-4505-bd4d-38af9b69744f.jpg',
-		file: 'destiny-2-cheats-esp-crucible.webp',
+		file: 'overwatch-2-cheats-esp-crucible.webp',
 	},
 	{
 		source: 'b4bf5484-aa0f-4df7-b164-f18c8b5c6f05.jpg',
-		file: 'destiny-2-cheats-aimbot-esp.webp',
+		file: 'overwatch-2-cheats-aimbot-esp.webp',
 	},
 ];
 
 const DERIVED = [
-	{ from: 'destiny-2-cheats-esp-crucible.webp', file: 'destiny-2-cheats-esp.webp' },
-	{ from: 'destiny-2-cheats-crucible.webp', file: 'destiny-2-cheats-aimbot.webp' },
-	{ from: 'destiny-2-cheats-wallhack-skeleton.webp', file: 'destiny-2-cheats-radar.webp' },
+	{ from: 'overwatch-2-cheats-esp-crucible.webp', file: 'overwatch-2-cheats-esp.webp' },
+	{ from: 'overwatch-2-cheats-crucible.webp', file: 'overwatch-2-cheats-aimbot.webp' },
+	{ from: 'overwatch-2-cheats-wallhack-skeleton.webp', file: 'overwatch-2-cheats-radar.webp' },
 ];
 
 const HERO_WIDTHS = [640, 1024, 1536];
@@ -81,15 +81,15 @@ async function createDerived() {
 }
 
 async function createHeroPoster() {
-	const input = path.join(imagesDir, 'destiny-2-cheats-crucible.webp');
-	const posterPath = path.join(imagesDir, 'destiny-2-hero-poster.webp');
+	const input = path.join(imagesDir, 'overwatch-2-cheats-crucible.webp');
+	const posterPath = path.join(imagesDir, 'overwatch-2-hero-poster.webp');
 	await sharp(input)
 		.resize(1920, 608, { fit: 'cover', position: 'centre' })
 		.webp({ quality: 85, effort: 6 })
 		.toFile(posterPath);
 	console.log(`Wrote hero poster ${posterPath}`);
 	for (const w of HERO_WIDTHS) {
-		const variant = path.join(imagesDir, `destiny-2-hero-poster-${w}w.webp`);
+		const variant = path.join(imagesDir, `overwatch-2-hero-poster-${w}w.webp`);
 		await sharp(input)
 			.resize(w, Math.round(w / 3.15), { fit: 'cover', position: 'centre' })
 			.webp({ quality: 82, effort: 6 })
@@ -98,9 +98,9 @@ async function createHeroPoster() {
 }
 
 async function createLogo() {
-	const input = path.join(imagesDir, 'destiny-2-cheats-crucible.webp');
-	const logoPng = path.join(imagesDir, 'destiny-2-cheats-logo.png');
-	const logoWebp = path.join(imagesDir, 'destiny-2-cheats-logo.webp');
+	const input = path.join(imagesDir, 'overwatch-2-cheats-crucible.webp');
+	const logoPng = path.join(imagesDir, 'overwatch-2-cheats-logo.png');
+	const logoWebp = path.join(imagesDir, 'overwatch-2-cheats-logo.webp');
 	await sharp(input)
 		.resize(512, 512, { fit: 'cover', position: 'centre', background: THEME_BG })
 		.png()
@@ -136,4 +136,4 @@ await convertScreenshots();
 await createDerived();
 await createHeroPoster();
 await createLogo();
-console.log('Done — Destiny 2 screenshots imported.');
+console.log('Done — Overwatch 2 screenshots imported.');

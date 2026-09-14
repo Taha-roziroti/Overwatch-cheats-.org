@@ -51,7 +51,7 @@ function buildI18nContent() {
 
 		// Validate required page keys
 		const requiredPages = [
-			'home', 'destiny-2-esp', 'destiny-2-aimbot', 'features', 'pricing', 'setup',
+			'home', 'overwatch-2-esp', 'overwatch-2-aimbot', 'features', 'pricing', 'setup',
 			'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'anticheat',
 			'cheats-2026', 'hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats',
 			'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms',

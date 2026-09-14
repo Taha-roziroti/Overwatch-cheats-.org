@@ -43,21 +43,21 @@ export const trustSignals = {
 } as const;
 
 export const seoLandingPages = [
-	{ label: fillBrandTokens('{game} hacks'), href: '/d2-cheats/' },
-	{ label: fillBrandTokens('{primaryKeyword}'), href: '/d2-cheats/' },
-	{ label: fillBrandTokens('{game} esp'), href: '/destiny-2-esp/' },
-	{ label: fillBrandTokens('{game} aimbot'), href: '/destiny-2-aimbot/' },
+	{ label: fillBrandTokens('{game} hacks'), href: '/ow2-cheats/' },
+	{ label: fillBrandTokens('{primaryKeyword}'), href: '/ow2-cheats/' },
+	{ label: fillBrandTokens('{game} esp'), href: '/overwatch-2-esp/' },
+	{ label: fillBrandTokens('{game} aimbot'), href: '/overwatch-2-aimbot/' },
 	{ label: fillBrandTokens('{game} setup'), href: p.setup },
-	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/d2-cheats/' },
-	{ label: fillBrandTokens('{game} wallhack'), href: '/destiny-2-esp/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/d2-radar/' },
+	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/ow2-cheats/' },
+	{ label: fillBrandTokens('{game} wallhack'), href: '/overwatch-2-esp/' },
+	{ label: fillBrandTokens('{game} radar hack'), href: '/ow2-visuals/' },
 ] as const;
 
 export const mainNav = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Cheats', href: '/d2-cheats/' },
-	{ label: 'Aimbot', href: '/destiny-2-aimbot/' },
-	{ label: 'ESP', href: '/destiny-2-esp/' },
+	{ label: 'Cheats', href: '/ow2-cheats/' },
+	{ label: 'Aimbot', href: '/overwatch-2-aimbot/' },
+	{ label: 'ESP', href: '/overwatch-2-esp/' },
 	{ label: 'Features', href: p.features },
 	{ label: 'Pricing', href: p.pricing },
 	{ label: 'Setup', href: p.setup },
@@ -75,11 +75,11 @@ export const footerNav = [
 
 export const footerExplore = [
 	{ label: fillBrandTokens('{brand} home'), href: '/' },
-	{ label: fillBrandTokens('{game} hacks pillar'), href: '/d2-cheats/' },
+	{ label: fillBrandTokens('{game} hacks pillar'), href: '/ow2-cheats/' },
 	{ label: fillBrandTokens('Live {game} status'), href: p.updates },
-	{ label: fillBrandTokens('{game} ESP overlays'), href: '/destiny-2-esp/' },
-	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/destiny-2-aimbot/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/d2-radar/' },
+	{ label: fillBrandTokens('{game} ESP overlays'), href: '/overwatch-2-esp/' },
+	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/overwatch-2-aimbot/' },
+	{ label: fillBrandTokens('{game} radar hack'), href: '/ow2-visuals/' },
 	{ label: fillBrandTokens('Full {game} hack feature list'), href: p.features },
 	{ label: 'Monthly & lifetime pricing', href: p.pricing },
 	{ label: fillBrandTokens('{game} hack setup guide'), href: p.setup },
@@ -101,7 +101,7 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is {brand}?',
 		answer:
-			'{brand} is an undetected {primaryKeyword} package for Destiny 2 on Windows PC. It includes aimbot, ESP wallhack, radar, no recoil, triggerbot, and stream-proof overlays with {antiCheat} maintenance.',
+			'{brand} is an undetected {primaryKeyword} package for Overwatch 2 on Windows PC. It includes aimbot, ESP wallhack, radar, no recoil, triggerbot, and stream-proof overlays with {antiCheat} maintenance.',
 		slug: 'what-are-d2-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
@@ -117,13 +117,13 @@ export const homeFaqs: readonly FaqItem[] = [
 			'How {brand} stays maintained after {antiCheat} patches in 2026 — and why no cheat can promise permanent undetected status.',
 	}),
 	faq({
-		question: 'Does this work in Crucible, Trials, and PvE activities?',
+		question: 'Does this work in Quick Play, Competitive, and Arcade modes?',
 		answer:
-			'Yes. Aimbot, ESP, radar, and wallhack work in Crucible PvP, Trials of Osiris, raids, dungeons, and PvE farming on Windows PC.',
+			'Yes. Aimbot, ESP, radar, and wallhack work in Quick Play PvP, Competitive of Osiris, raids, dungeons, and PvE farming on Windows PC.',
 		slug: 'crucible-trials-pve',
-		seoTitle: 'Crucible, Trials & PvE Support | FAQ',
+		seoTitle: 'Quick Play, Competitive & PvE Support | FAQ',
 		seoDescription:
-			'{brand} works in Crucible, Trials, and PvE activities — ESP, radar, and aimbot for Windows PC.',
+			'{brand} works in Quick Play, Competitive, and Arcade modes — ESP, radar, and aimbot for Windows PC.',
 	}),
 	faq({
 		question: 'What is included — ESP, wallhack, radar, or Aimbot?',
@@ -144,9 +144,9 @@ export const homeFaqs: readonly FaqItem[] = [
 			'{brand} licenses are delivered digitally after payment confirmation. Timing varies by payment method and order review.',
 	}),
 	faq({
-		question: 'Where do I check updates after an Destiny 2 or {antiCheat} patch?',
+		question: 'Where do I check updates after an Overwatch 2 or {antiCheat} patch?',
 		answer:
-			'Maintenance notes are posted on the Status page when an Destiny 2 or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
+			'Maintenance notes are posted on the Status page when an Overwatch 2 or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
 		slug: 'check-updates',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
 		seoDescription:
@@ -168,11 +168,11 @@ export const seoFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is a {game} wallhack?',
 		answer:
-			'A {game} wallhack is an ESP overlay that shows Guardians, enemies, and loot through walls. {brand} includes skeleton ESP, box ESP, health bars, distance readouts, and toggleable categories.',
+			'A {game} wallhack is an ESP overlay that shows heroes, enemies, and loot through walls. {brand} includes skeleton ESP, box ESP, health bars, distance readouts, and toggleable categories.',
 		slug: 'what-is-wallhack',
 		seoTitle: 'What Is a {game} Wallhack? | FAQ',
 		seoDescription:
-			'A {game} wallhack is ESP that reveals Guardians, enemies, and loot through walls — with distance readouts and category toggles.',
+			'A {game} wallhack is ESP that reveals heroes, enemies, and loot through walls — with distance readouts and category toggles.',
 	}),
 	faq({
 		question: 'Does {brand} include a radar hack?',
@@ -187,7 +187,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'How does {antiCheat} affect {primaryKeyword}?',
 		answer:
 			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check Status before you raid.',
-		slug: 'battleye-and-cheats',
+		slug: 'easy-anticheat-and-cheats',
 		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
 		seoDescription:
 			'{antiCheat} may require {brand} rebuilds after patches. Status notes explain the update workflow.',
@@ -219,11 +219,11 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'xKrypt0_D2',
 		rating: 5,
-		text: 'Soft aim feels smooth in Crucible. Menu took a few minutes to figure out, but once I had profiles set per weapon, PvP felt a lot easier.',
-		short: 'Soft aim feels smooth in Crucible once profiles are set.',
+		text: 'Soft aim feels smooth in Quick Play. Menu took a few minutes to figure out, but once I had profiles set per weapon, PvP felt a lot easier.',
+		short: 'Soft aim feels smooth in Quick Play once profiles are set.',
 		slug: 'aim-assist-xkrypt0',
 		seoTitle: 'Soft Aim Review by @xKrypt0_D2 — 5/5 | {brand}',
-		seoDescription: '@xKrypt0_D2 rates {brand} soft aim 5/5 for Crucible on Windows PC.',
+		seoDescription: '@xKrypt0_D2 rates {brand} soft aim 5/5 for Quick Play on Windows PC.',
 		date: '2026-07-24',
 		tag: 'Soft aim',
 	}),
@@ -241,8 +241,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'dma_wizard',
 		rating: 5,
-		text: 'Switched here after Lightfall. Setup was straightforward and it stayed up after the last BattlEye update when my old loader died. Lifetime was worth it.',
-		short: 'Stayed up after the last BattlEye update. Lifetime was worth it.',
+		text: 'Switched here after Lightfall. Setup was straightforward and it stayed up after the last Easy Anti-Cheat update when my old loader died. Lifetime was worth it.',
+		short: 'Stayed up after the last Easy Anti-Cheat update. Lifetime was worth it.',
 		slug: 'update-dma-wizard',
 		seoTitle: 'Update Review by @dma_wizard — 5/5 | {brand}',
 		seoDescription: '@dma_wizard rates {brand} 5/5 after a {antiCheat} update on Windows PC.',
@@ -284,22 +284,22 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'rankedGrind42',
 		rating: 4,
-		text: 'Been on it since Lightfall. Per-weapon profiles actually help in Trials. Status page after patches could be clearer, but they had a rebuild up the next day.',
-		short: 'Per-weapon profiles help in Trials. Rebuild was up the next day.',
+		text: 'Been on it since Lightfall. Per-weapon profiles actually help in Competitive. Status page after patches could be clearer, but they had a rebuild up the next day.',
+		short: 'Per-weapon profiles help in Competitive. Rebuild was up the next day.',
 		slug: 'aim-assist-trials-rankedgrind42',
-		seoTitle: 'Trials Soft Aim by @rankedGrind42 — 4/5 | {brand}',
-		seoDescription: '@rankedGrind42 rates {brand} soft aim 4/5 for Trials on Windows PC.',
+		seoTitle: 'Competitive Soft Aim by @rankedGrind42 — 4/5 | {brand}',
+		seoDescription: '@rankedGrind42 rates {brand} soft aim 4/5 for Competitive on Windows PC.',
 		date: '2026-07-07',
-		tag: 'Trials',
+		tag: 'Competitive',
 	}),
 	reviewMeta({
 		handle: 'vanLifeD2',
 		rating: 5,
-		text: 'Radar saved me twice in Trials when a flank came from nowhere. Boxes plus radar stay clean on stream.',
-		short: 'Radar caught two flanks in Trials. Clean on stream too.',
+		text: 'Radar saved me twice in Competitive when a flank came from nowhere. Boxes plus radar stay clean on stream.',
+		short: 'Radar caught two flanks in Competitive. Clean on stream too.',
 		slug: 'radar-vanlifeeft',
 		seoTitle: 'Radar Review by @vanLifeD2 — 5/5 | {brand}',
-		seoDescription: '@vanLifeD2 rates {brand} radar 5/5 for Trials on Windows PC.',
+		seoDescription: '@vanLifeD2 rates {brand} radar 5/5 for Competitive on Windows PC.',
 		date: '2026-07-28',
 		tag: 'Radar',
 	}),
@@ -308,11 +308,11 @@ export const customerReviews = [
 		rating: 4,
 		text: 'Most tools go down on patch day. Status page updated within a few hours and I was back the next morning. My old cheat left me waiting days.',
 		short: 'Back the next morning after a patch. Old tool left me waiting days.',
-		slug: 'battleye-patchdaymike',
+		slug: 'easy-anticheat-patchdaymike',
 		seoTitle: 'Status Review by @patchDayMike — 4/5 | {brand}',
 		seoDescription: '@patchDayMike rates {brand} status updates 4/5 after {antiCheat} patches.',
 		date: '2026-06-09',
-		tag: 'BattlEye updates',
+		tag: 'Easy Anti-Cheat updates',
 	}),
 	reviewMeta({
 		handle: 'snipezOnly_',

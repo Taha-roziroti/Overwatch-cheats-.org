@@ -45,7 +45,7 @@ const lines = [
 	'## Confirmations',
 	'',
 	'- **Footer**: "Guides" link added in SiteFooter.astro pointing to /guides/',
-	'- **Hub layout**: Native Destiny 2 guides render first on /guides/; external game guides grouped by game below',
+	'- **Hub layout**: Native Overwatch 2 guides render first on /guides/; external game guides grouped by game below',
 	'- **IGN images**: Each guide uses a game-specific IGN CDN image from scripts/guides-data/ign-images.mjs',
 	'- **Blog isolation**: Guides are not in posts.generated.ts, blog helpers, or related-post widgets',
 	'- **Backlink placement**: Single closing sentence with generic anchor text per article',

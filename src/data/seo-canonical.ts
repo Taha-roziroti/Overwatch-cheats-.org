@@ -16,9 +16,9 @@ export {
 
 export const sitemapExcludedPageIds = new Set<PageId>(cannibalPageIds as PageId[]);
 
-/** Primary commercial landing for the head term "Destiny 2 cheats". */
+/** Primary commercial landing for the head term "Overwatch 2 cheats". */
 export const MONEY_PAGE_ID = 'hacks' as const satisfies PageId;
-export const MONEY_PATH = '/d2-cheats/' as const;
+export const MONEY_PATH = '/ow2-cheats/' as const;
 
 export function getCannibalTarget(pageId: PageId): PageId {
 	return getCannibalTargetId(pageId) as PageId;

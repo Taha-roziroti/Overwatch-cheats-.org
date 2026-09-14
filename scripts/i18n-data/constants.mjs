@@ -6,39 +6,39 @@ export const LOCALES = [
 ];
 
 export const PAGE_IDS = [
-	'home', 'destiny-2-esp', 'destiny-2-aimbot', 'features', 'pricing', 'setup',
+	'home', 'overwatch-2-esp', 'overwatch-2-aimbot', 'features', 'pricing', 'setup',
 	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'anticheat',
 	'cheats-2026', 'hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple Destiny 2 cheats keyword filenames. */
+/** Hero image per page — simple Overwatch 2 cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/destiny-2-cheats-esp.webp',
-	'destiny-2-esp': '/images/destiny-2-cheats-radar.webp',
-	'destiny-2-aimbot': '/images/destiny-2-cheats-aimbot.webp',
-	features: '/images/destiny-2-cheats-aimbot-view.webp',
-	pricing: '/images/destiny-2-cheats-raid.webp',
-	setup: '/images/destiny-2-cheats-radar.webp',
-	updates: '/images/destiny-2-cheats-esp.webp',
-	faq: '/images/destiny-2-cheats-aimbot-view.webp',
-	support: '/images/destiny-2-cheats-raid.webp',
-	undetected: '/images/destiny-2-cheats-wallhack.webp',
-	wallhack: '/images/destiny-2-cheats-wallhack.webp',
-	radar: '/images/destiny-2-cheats-radar.webp',
-	anticheat: '/images/destiny-2-cheats-aimbot.webp',
-	'cheats-2026': '/images/destiny-2-cheats-esp.webp',
-	hacks: '/images/destiny-2-cheats-raid.webp',
-	'cheat-download': '/images/destiny-2-cheats-raid.webp',
-	'crucible-cheats': '/images/destiny-2-cheats-radar.webp',
-	'aim-assist': '/images/destiny-2-cheats-aimbot-view.webp',
-	'best-cheats': '/images/destiny-2-cheats-esp.webp',
-	'aimbot-hack': '/images/destiny-2-cheats-aimbot-view.webp',
-	'esp-hack': '/images/destiny-2-cheats-wallhack.webp',
-	'pve-cheats': '/images/destiny-2-cheats-radar.webp',
-	privacy: '/images/destiny-2-cheats-aimbot.webp',
-	refund: '/images/destiny-2-cheats-raid.webp',
-	terms: '/images/destiny-2-cheats-aimbot-view.webp',
+	home: '/images/overwatch-2-cheats-esp.webp',
+	'overwatch-2-esp': '/images/overwatch-2-cheats-radar.webp',
+	'overwatch-2-aimbot': '/images/overwatch-2-cheats-aimbot.webp',
+	features: '/images/overwatch-2-cheats-aimbot-view.webp',
+	pricing: '/images/overwatch-2-cheats-raid.webp',
+	setup: '/images/overwatch-2-cheats-radar.webp',
+	updates: '/images/overwatch-2-cheats-esp.webp',
+	faq: '/images/overwatch-2-cheats-aimbot-view.webp',
+	support: '/images/overwatch-2-cheats-raid.webp',
+	undetected: '/images/overwatch-2-cheats-wallhack.webp',
+	wallhack: '/images/overwatch-2-cheats-wallhack.webp',
+	radar: '/images/overwatch-2-cheats-radar.webp',
+	anticheat: '/images/overwatch-2-cheats-aimbot.webp',
+	'cheats-2026': '/images/overwatch-2-cheats-esp.webp',
+	hacks: '/images/overwatch-2-cheats-raid.webp',
+	'cheat-download': '/images/overwatch-2-cheats-raid.webp',
+	'crucible-cheats': '/images/overwatch-2-cheats-radar.webp',
+	'aim-assist': '/images/overwatch-2-cheats-aimbot-view.webp',
+	'best-cheats': '/images/overwatch-2-cheats-esp.webp',
+	'aimbot-hack': '/images/overwatch-2-cheats-aimbot-view.webp',
+	'esp-hack': '/images/overwatch-2-cheats-wallhack.webp',
+	'pve-cheats': '/images/overwatch-2-cheats-radar.webp',
+	privacy: '/images/overwatch-2-cheats-aimbot.webp',
+	refund: '/images/overwatch-2-cheats-raid.webp',
+	terms: '/images/overwatch-2-cheats-aimbot-view.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -70,7 +70,7 @@ export type LocaleUi = {
 \t\theaderArt: string; cheatsPackage: string; rebootFight: string; battleRoyale: string; battleRoyaleIsland: string;
 \t};
 };
-export type PageId = 'home' | 'destiny-2-esp' | 'destiny-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'overwatch-2-esp' | 'overwatch-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -101,7 +101,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy Destiny 2 Cheats')
+		.replace(/Buy on Zadeyo/g, 'Buy Overwatch 2 Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -124,11 +124,11 @@ export function section(h2, ...args) {
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
 	'destiny-2':
-		'<a href="https://www.bungie.net/7/en/Destiny/New" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
+		'<a href="https://www.overwatch.blizzard.com/7/en/Destiny/New" target="_blank" rel="noopener noreferrer">Overwatch 2</a>',
 	status:
-		'<a href="https://help.bungie.net/" target="_blank" rel="noopener noreferrer">Bungie Help</a>',
-	battleye:
-		'<a href="https://www.battleye.com/" target="_blank" rel="noopener noreferrer">BattlEye Anti-Cheat</a>',
+		'<a href="https://help.overwatch.blizzard.com/" target="_blank" rel="noopener noreferrer">Bungie Help</a>',
+	easy-anticheat:
+		'<a href="https://www.easy-anticheat.com/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat Anti-Cheat</a>',
 	steam:
-		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2 on Steam</a>',
+		'<a href="https://store.steampowered.com/app/2357570/Overwatch_2/" target="_blank" rel="noopener noreferrer">Overwatch 2 on Steam</a>',
 };

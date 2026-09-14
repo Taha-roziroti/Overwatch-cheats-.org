@@ -8,34 +8,34 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
-	['Destiny 2 Cheats', 'Destiny 2 Cheats'],
-	['Destiny 2 cheats', 'Destiny 2 cheats'],
-	['Destiny 2 Cheats', 'Destiny 2 Cheats'],
-	['Destiny 2', 'Destiny 2'],
-	['Destiny 2', 'Destiny 2'],
-	['Call of Duty', 'Destiny 2'],
-	['Destiny 2 PC', 'Destiny 2 PC'],
-	['for Destiny 2', 'for Destiny 2'],
-	['Destiny 2 ', 'Destiny 2 '],
+	['Overwatch 2 Cheats', 'Overwatch 2 Cheats'],
+	['Overwatch 2 cheats', 'Overwatch 2 cheats'],
+	['Overwatch 2 Cheats', 'Overwatch 2 Cheats'],
+	['Overwatch 2', 'Overwatch 2'],
+	['Overwatch 2', 'Overwatch 2'],
+	['Call of Duty', 'Overwatch 2'],
+	['Overwatch 2 PC', 'Overwatch 2 PC'],
+	['for Overwatch 2', 'for Overwatch 2'],
+	['Overwatch 2 ', 'Overwatch 2 '],
 	['destiny-2 ', 'destiny-2 '],
-	['BattlEye maintenance', 'BattlEye maintenance'],
-	['BattlEye anti-cheat', 'BattlEye anti-cheat'],
-	['BattlEye', 'BattlEye anti-cheat'],
+	['Easy Anti-Cheat maintenance', 'Easy Anti-Cheat maintenance'],
+	['Easy Anti-Cheat anti-cheat', 'Easy Anti-Cheat anti-cheat'],
+	['Easy Anti-Cheat', 'Easy Anti-Cheat anti-cheat'],
 	['operatorEsp', 'playerEsp'],
 	['extractFight', 'rebootFight'],
 	['alMazrah', 'battleRoyaleIsland'],
-	['Guardians', 'players'],
+	['heroes', 'players'],
 	['operator', 'player'],
-	['Guardians', 'Players'],
+	['heroes', 'Players'],
 	['Operator', 'Player'],
 	['Al Mazrah', 'Verdansk'],
 	['Verdansk', 'Verdansk'],
 	['scav-run', 'scav-run'],
 	['extract', 'extract'],
 	['warthundercheat.net', 'warthundercheat.net'],
-	['Trucos Destiny 2', 'Trucos Destiny 2'],
-	['Triches Destiny 2', 'Triches Destiny 2'],
-	['Cheats Destiny 2', 'Cheats Destiny 2'],
+	['Trucos Overwatch 2', 'Trucos Overwatch 2'],
+	['Triches Overwatch 2', 'Triches Overwatch 2'],
+	['Cheats Overwatch 2', 'Cheats Overwatch 2'],
 ];
 
 function apply(content) {
@@ -52,18 +52,18 @@ for (const file of ['ui-strings-part1.mjs', 'ui-strings-part2.mjs']) {
 	console.log('Fixed', file);
 }
 
-// Fix pages-en battleye key
+// Fix pages-en easy-anticheat key
 let pagesEn = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), 'utf8');
-pagesEn = pagesEn.replace(/\tbattleye: \{/, "\t'anticheat': {");
-pagesEn = pagesEn.replace(/Destiny 2 Destiny 2/g, 'Destiny 2');
-pagesEn = pagesEn.replace(/for Destiny 2 Destiny 2/g, 'for Destiny 2');
+pagesEn = pagesEn.replace(/\teasy-anticheat: \{/, "\t'anticheat': {");
+pagesEn = pagesEn.replace(/Overwatch 2 Overwatch 2/g, 'Overwatch 2');
+pagesEn = pagesEn.replace(/for Overwatch 2 Overwatch 2/g, 'for Overwatch 2');
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), pagesEn);
 
 // Fix pages-i18n
 let pagesI18n = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-i18n.mjs'), 'utf8');
 pagesI18n = apply(pagesI18n);
-pagesI18n = pagesI18n.replace(/'battleye'/g, "'battleye'");
-pagesI18n = pagesI18n.replace(/battleye:/g, "'anticheat':");
+pagesI18n = pagesI18n.replace(/'easy-anticheat'/g, "'easy-anticheat'");
+pagesI18n = pagesI18n.replace(/easy-anticheat:/g, "'anticheat':");
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-i18n.mjs'), pagesI18n);
 
 // Fix generate-i18n pages count

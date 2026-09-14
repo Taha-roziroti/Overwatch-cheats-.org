@@ -14,11 +14,11 @@ export function buildSrcSet(widths: ResponsiveWidth[]): string {
 
 /** Build srcset for content images that have -480w / -960w variants. */
 export function contentSrcSet(baseSrc: string): string | undefined {
-	if (baseSrc.endsWith('/destiny-2-hero-poster.webp')) {
+	if (baseSrc.endsWith('/overwatch-2-hero-poster.webp')) {
 		return buildSrcSet([
-			{ src: '/images/destiny-2-hero-poster-640w.webp', width: 640 },
-			{ src: '/images/destiny-2-hero-poster.webp', width: 1024 },
-			{ src: '/images/destiny-2-hero-poster-1536w.webp', width: 1536 },
+			{ src: '/images/overwatch-2-hero-poster-640w.webp', width: 640 },
+			{ src: '/images/overwatch-2-hero-poster.webp', width: 1024 },
+			{ src: '/images/overwatch-2-hero-poster-1536w.webp', width: 1536 },
 		]);
 	}
 
@@ -45,16 +45,16 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 	);
 }
 
-/** Homepage hero poster — swap video at /videos/destiny-2-hero.mp4 when ready. */
+/** Homepage hero poster — swap video at /videos/overwatch-2-hero.mp4 when ready. */
 export const heroResponsive: ResponsiveWidth[] = [
-	{ src: '/images/destiny-2-hero-poster-640w.webp', width: 640 },
-	{ src: '/images/destiny-2-hero-poster.webp', width: 1024 },
-	{ src: '/images/destiny-2-hero-poster-1536w.webp', width: 1536 },
+	{ src: '/images/overwatch-2-hero-poster-640w.webp', width: 640 },
+	{ src: '/images/overwatch-2-hero-poster.webp', width: 1024 },
+	{ src: '/images/overwatch-2-hero-poster-1536w.webp', width: 1536 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
-export const heroSrc = '/images/destiny-2-hero-poster.webp';
+export const heroSrc = '/images/overwatch-2-hero-poster.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 

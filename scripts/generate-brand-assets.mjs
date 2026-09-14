@@ -19,12 +19,12 @@ async function squareLogoBuffer(size) {
 
 async function generateSiteLogo() {
 	const logoPng = await squareLogoBuffer(512);
-	await writeFile(path.join(imagesDir, 'destiny-2-cheats-logo.png'), logoPng);
-	console.log('Wrote public/images/destiny-2-cheats-logo.png (512×512)');
+	await writeFile(path.join(imagesDir, 'overwatch-2-cheats-logo.png'), logoPng);
+	console.log('Wrote public/images/overwatch-2-cheats-logo.png (512×512)');
 
 	const logoWebp = await sharp(logoPng).webp({ quality: 90, effort: 6 }).toBuffer();
-	await writeFile(path.join(imagesDir, 'destiny-2-cheats-logo.webp'), logoWebp);
-	console.log('Wrote public/images/destiny-2-cheats-logo.webp');
+	await writeFile(path.join(imagesDir, 'overwatch-2-cheats-logo.webp'), logoWebp);
+	console.log('Wrote public/images/overwatch-2-cheats-logo.webp');
 }
 
 async function generateFavicons(logoBuffer) {
@@ -57,9 +57,9 @@ async function generateFavicons(logoBuffer) {
 
 async function generateWebManifest() {
 	const manifest = {
-		name: 'Destiny 2 Cheats',
-		short_name: 'Destiny 2 Cheats',
-		description: 'Undetected Destiny 2 cheats — ESP, aimbot, radar and for PC',
+		name: 'Overwatch 2 Cheats',
+		short_name: 'Overwatch 2 Cheats',
+		description: 'Undetected Overwatch 2 cheats — ESP, aimbot, radar and for PC',
 		start_url: '/',
 		display: 'standalone',
 		background_color: '#0a0612',
