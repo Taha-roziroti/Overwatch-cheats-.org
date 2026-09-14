@@ -1,0 +1,371 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from './Navbar.astro';
+import SiteFooter from './SiteFooter.astro';
+import { blogUi, defaultLocale, type LocaleCode } from '../data/i18n/locales';
+import {
+	absoluteBlogUrl,
+	getBlogBasePath,
+	getBlogPostHreflangAlternates,
+	getRelatedPosts,
+	getThreadReplyCount,
+	getThreadViews,
+} from '../data/blog/helpers';
+import OfficialResources from './OfficialResources.astro';
+import type { ResolvedBlogPost } from '../data/blog/types';
+import { blogLabel, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
+import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
+
+interface Props {
+	locale: LocaleCode;
+	post: ResolvedBlogPost;
+}
+
+const { locale, post } = Astro.props;
+const ui = blogUi[locale];
+const t = post.translation;
+const homeHref = getLocalizedPath('home', locale);
+const forumHref = getBlogBasePath(defaultLocale);
+const related = getRelatedPosts(post, 4);
+const replyCount = getThreadReplyCount(post);
+const views = getThreadViews(t.slug);
+
+const answerAuthors = [
+	{ name: 'Overwatch2Cheats Staff', role: 'Official', badge: 'staff' },
+	{ name: 'Verified Buyer', role: 'Community', badge: 'buyer' },
+	{ name: 'Competitive Player', role: 'Community', badge: 'buyer' },
+	{ name: 'Support Team', role: 'Official', badge: 'staff' },
+];
+
+const threadUrl = absoluteBlogUrl(defaultLocale, post.translations[defaultLocale]?.slug ?? t.slug);
+const hreflangAlternates = getBlogPostHreflangAlternates(post, locale);
+
+const qaSchema = {
+	'@type': 'QAPage',
+	'@id': `${threadUrl}#qa`,
+	url: threadUrl,
+	inLanguage: locale,
+	mainEntity: {
+		'@type': 'Question',
+		name: t.h1,
+		text: t.intro,
+		answerCount: replyCount,
+		dateCreated: post.published,
+		author: { '@type': 'Organization', name: siteConfig.name },
+		acceptedAnswer: t.sections[0]
+			? {
+					'@type': 'Answer',
+					text: t.sections[0].paragraphs.join(' '),
+					dateCreated: post.updated,
+					author: { '@type': 'Organization', name: siteConfig.name },
+				}
+			: undefined,
+	},
+};
+
+function localizeParagraphHtml(html: string): string {
+	return html.replace(/href="(\/[^"]+)"/g, (_, path: string) => {
+		return `href="${localizeInternalHref(path, locale)}"`;
+	});
+}
+
+function pageTitle(headline: string): string {
+	const suffix = ` | ${blogLabel}`;
+	if (headline.length + suffix.length <= 60) return `${headline}${suffix}`;
+	if (headline.length <= 60) return headline;
+	const trimmed = headline.slice(0, 57);
+	const cut = trimmed.lastIndexOf(' ');
+	return `${(cut > 40 ? trimmed.slice(0, cut) : trimmed).replace(/[|:–—-]+$/, '').trim()}…`;
+}
+---
+
+<Layout
+	title={pageTitle(t.title)}
+	description={t.metaDescription}
+	canonicalPath={post.canonicalPath}
+	hreflangAlternates={hreflangAlternates}
+	ogImage={post.imageSrc}
+	ogImageAlt={t.imageAlt}
+	type="article"
+	locale={locale}
+	breadcrumbs={[
+		{ label: ui.home, href: homeHref },
+		{ label: ui.blogH1, href: forumHref },
+		{ label: t.h1 },
+	]}
+	extraGraph={[qaSchema]}
+>
+	<Navbar locale={locale} />
+	<main class="thread">
+		<div class="shell">
+			<div class="shell-content thread__inner">
+				<article class="thread__question">
+					<header class="thread__header">
+						<span class="thread__cat">{post.category}</span>
+						<h1>{t.h1}</h1>
+						<p class="thread__intro">{t.intro}</p>
+						<div class="thread__meta">
+							<span>Asked {post.published}</span>
+							<span>Updated {post.updated}</span>
+							<span>{replyCount} answers</span>
+							<span>{views.toLocaleString()} views</span>
+						</div>
+					</header>
+					<img
+						class="thread__hero"
+						src={post.imageSrc}
+						alt={t.imageAlt}
+						width="1200"
+						height="675"
+						loading="eager"
+						decoding="async"
+					/>
+				</article>
+
+				<section class="thread__answers" aria-label="Answers">
+					<h2 class="thread__answers-title">{replyCount} answers</h2>
+					{
+						t.sections.map((section, index) => {
+							const author = answerAuthors[index % answerAuthors.length];
+							const isAccepted = index === 0;
+							return (
+								<article class:list={['thread__answer', { 'thread__answer--accepted': isAccepted }]}>
+									<header class="thread__answer-head">
+										<span class="thread__avatar" aria-hidden="true">
+											{author.name.charAt(0)}
+										</span>
+										<div>
+											<strong class="thread__author">{author.name}</strong>
+											<span class="thread__role">{author.role}</span>
+										</div>
+										{isAccepted && <span class="thread__accepted">Accepted answer</span>}
+									</header>
+									<div class="thread__answer-body">
+										<h3>{section.h2}</h3>
+										{section.paragraphs.map((paragraph) => {
+											const html = localizeParagraphHtml(paragraph);
+											return <p set:html={html} />;
+										})}
+									</div>
+								</article>
+							);
+						})
+					}
+				</section>
+
+				{
+					related.length > 0 && (
+						<section class="thread__related" aria-label="Related discussions">
+							<h2>Related questions</h2>
+							<ul>
+								{related.map((item) => (
+									<li>
+										<a href={item.canonicalPath}>{item.translation.title}</a>
+										<span>{getThreadReplyCount(item)} replies</span>
+									</li>
+								))}
+							</ul>
+							<p class="thread__related-more">
+								<a href={forumHref}>All forum threads</a>
+								{' · '}
+								<a href={sitePaths.cheats}>Cheats overview</a>
+								{' · '}
+								<a href={sitePaths.pricing}>Pricing</a>
+							</p>
+						</section>
+					)
+				}
+
+				{locale === 'en' && <OfficialResources locale={locale} />}
+			</div>
+		</div>
+	</main>
+	<SiteFooter locale={locale} />
+</Layout>
+
+<style>
+	.thread {
+		padding: 2.5rem 0 4rem;
+	}
+
+	.thread__cat {
+		display: inline-block;
+		margin: 0 0 0.5rem;
+		color: var(--soft);
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.thread__header h1 {
+		margin: 0 0 0.75rem;
+		font-size: clamp(1.75rem, 3.8vw, 2.5rem);
+		line-height: 1.12;
+	}
+
+	.thread__intro {
+		margin: 0;
+		color: var(--ink-muted);
+		font-size: 1.05rem;
+		line-height: 1.6;
+	}
+
+	.thread__meta {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1.25rem;
+		margin-top: 1rem;
+		font-size: 0.8rem;
+		color: var(--ink-faint);
+	}
+
+	.thread__hero {
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		object-fit: cover;
+		margin: 1.5rem 0 2rem;
+		border: 1px solid var(--line);
+	}
+
+	.thread__answers-title {
+		margin: 0 0 1rem;
+		padding-bottom: 0.65rem;
+		border-bottom: 1px solid var(--line-soft);
+		font-size: 1.15rem;
+	}
+
+	.thread__answer {
+		margin-bottom: 1rem;
+		padding: 1.15rem 1.2rem;
+		border: 1px solid var(--line);
+		background: var(--bg-panel);
+	}
+
+	.thread__answer--accepted {
+		border-color: color-mix(in srgb, var(--soft) 35%, var(--line));
+		background: color-mix(in srgb, var(--soft) 5%, var(--bg-panel));
+		box-shadow: inset 3px 0 0 var(--soft);
+	}
+
+	.thread__answer-head {
+		display: grid;
+		grid-template-columns: auto 1fr auto;
+		align-items: center;
+		gap: 0.75rem;
+		margin-bottom: 0.85rem;
+	}
+
+	.thread__avatar {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		background: color-mix(in srgb, var(--magenta) 15%, var(--bg-elevated));
+		border: 1px solid color-mix(in srgb, var(--magenta) 28%, var(--line));
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: var(--magenta-soft);
+	}
+
+	.thread__author {
+		display: block;
+		font-size: 0.9rem;
+		color: var(--ink);
+	}
+
+	.thread__role {
+		display: block;
+		font-size: 0.72rem;
+		color: var(--ink-faint);
+	}
+
+	.thread__accepted {
+		padding: 0.2rem 0.5rem;
+		font-size: 0.65rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		color: var(--soft);
+		border: 1px solid color-mix(in srgb, var(--soft) 35%, var(--line));
+		background: color-mix(in srgb, var(--soft) 8%, transparent);
+	}
+
+	.thread__answer-body h3 {
+		margin: 0 0 0.65rem;
+		font-size: 1.05rem;
+		color: var(--ink);
+	}
+
+	.thread__answer-body p {
+		margin: 0 0 0.75rem;
+		color: var(--ink-muted);
+		line-height: 1.65;
+	}
+
+	.thread__answer-body p:last-child {
+		margin-bottom: 0;
+	}
+
+	.thread__related {
+		margin-top: 2.5rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.thread__related h2 {
+		margin: 0 0 0.85rem;
+		font-size: 1.1rem;
+	}
+
+	.thread__related ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.thread__related li {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		justify-content: space-between;
+		gap: 0.5rem;
+		margin-bottom: 0.6rem;
+		padding: 0.65rem 0.75rem;
+		border: 1px solid var(--line);
+		background: var(--bg-panel);
+	}
+
+	.thread__related a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.thread__related a:hover {
+		text-decoration: underline;
+	}
+
+	.thread__related li span {
+		font-size: 0.75rem;
+		color: var(--ink-faint);
+	}
+
+	.thread__related-more {
+		margin: 1rem 0 0;
+		font-size: 0.85rem;
+		color: var(--ink-faint);
+	}
+
+	.thread__related-more a {
+		color: var(--ink-muted);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.thread__related-more a:hover {
+		color: var(--magenta-soft);
+	}
+</style>

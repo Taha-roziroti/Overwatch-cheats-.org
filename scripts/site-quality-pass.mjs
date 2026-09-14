@@ -16,7 +16,7 @@ const PATH_REPLACEMENTS = [
 	['/faq/', '/faq/'],
 	['/support/', '/support/'],
 	['/reviews/', '/reviews/'],
-	['/blog/', '/blog/'],
+	['/blog/', '/forum/'],
 	['/privacy-policy/', '/privacy/'],
 	['/refund-policy/', '/refund/'],
 	['/terms/', '/terms/'],

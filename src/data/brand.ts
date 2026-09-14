@@ -92,9 +92,9 @@ export const brand = {
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
 		reviewsDescription:
 			'Buyer reviews for {brand} — aimbot, ESP, wallhack, hero scripts, and patch updates for Overwatch 2 on Windows PC.',
-		blogTitle: '{game} Intel | {brand}',
+		blogTitle: '{game} Cheats Forum | {brand}',
 		blogDescription:
-			'Guides and notes for {game} — hero tips, Competitive, ESP, aimbot, and {antiCheat} update coverage for Windows PC players.',
+			'Community Q&A on undetected {game} cheats — aimbot settings, {antiCheat} maintenance, and provider comparisons for Windows PC.',
 	},
 
 	copy: {
@@ -103,7 +103,7 @@ export const brand = {
 			'{brand} is an undetected {game} cheat package for Windows PC. Includes tracking aimbot, flickbot, ESP, wallhack, hero scripts, and stream-proof overlays with {antiCheat} maintenance.',
 		heroLede:
 			'Tracking aimbot, flickbot, ESP, wallhack, hero scripts, and stream-proof overlays for Overwatch 2 on Windows PC.',
-		blogLabel: 'Overwatch 2 Intel',
+		blogLabel: 'Overwatch 2 Forum',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',
 		featuresIntro: 'Everything included in one license for {game} on Windows PC.',

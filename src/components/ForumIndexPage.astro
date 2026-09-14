@@ -1,0 +1,367 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from './Navbar.astro';
+import SiteFooter from './SiteFooter.astro';
+import { blogUi, type LocaleCode, defaultLocale } from '../data/i18n/locales';
+import {
+	absoluteBlogUrl,
+	getAllPostsForLocale,
+	getBlogBasePath,
+	getBlogIndexHreflangAlternates,
+	getFeaturedPosts,
+	getThreadReplyCount,
+	getThreadViews,
+} from '../data/blog/helpers';
+import { blogLabel, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
+import { brandSeo, seoPageTitle } from '../data/site-core';
+import { seoDescription } from '../data/brand';
+import { getLocalizedPath } from '../data/i18n/routing';
+
+interface Props {
+	locale: LocaleCode;
+}
+
+const { locale } = Astro.props;
+const ui = blogUi[locale];
+const posts = getAllPostsForLocale(locale);
+const featured = getFeaturedPosts(locale, 4);
+const canonicalPath = getBlogBasePath(locale);
+const canonicalURL = absoluteBlogUrl(locale);
+const hreflangAlternates = getBlogIndexHreflangAlternates(locale);
+const homeHref = getLocalizedPath('home', locale);
+
+const pageTitle =
+	locale === defaultLocale ? seoPageTitle('Overwatch 2 Cheats Forum | Q&A & Comparisons') : ui.blogTitle;
+const pageDescription =
+	locale === defaultLocale
+		? seoDescription(
+				'Community Q&A on undetected Overwatch 2 cheats — aimbot settings, Blizzard Anti-Cheat maintenance, and how we compare to other providers.',
+			)
+		: ui.blogDescription;
+
+const categories = [...new Set(posts.map((p) => p.category))];
+
+const forumSchema = {
+	'@type': 'DiscussionForumPosting',
+	'@id': `${canonicalURL}#forum`,
+	name: ui.blogH1,
+	description: pageDescription,
+	url: canonicalURL,
+	inLanguage: locale,
+	isPartOf: { '@id': `${siteConfig.url}/#website` },
+};
+---
+
+<Layout
+	title={pageTitle}
+	description={pageDescription}
+	canonicalPath={canonicalPath}
+	hreflangAlternates={hreflangAlternates}
+	locale={locale}
+	ogImage={siteConfig.defaultOgImage}
+	ogImageAlt={ui.blogH1}
+	breadcrumbs={[{ label: ui.home, href: homeHref }, { label: ui.blogH1 }]}
+	extraGraph={[forumSchema]}
+>
+	<Navbar locale={locale} />
+	<main class="forum">
+		<div class="shell forum__inner">
+			<header class="forum__hero">
+				<p class="forum__eyebrow">{blogLabel}</p>
+				<h1>{ui.blogH1}</h1>
+				<p class="forum__intro">{ui.blogIntro}</p>
+				<div class="forum__stats">
+					<span><strong>{posts.length}</strong> threads</span>
+					<span><strong>{posts.reduce((n, p) => n + getThreadReplyCount(p), 0)}</strong> answers</span>
+					<span><strong>{categories.length}</strong> topics</span>
+				</div>
+				<p class="forum__hub-links">
+					<a href={sitePaths.cheats}>Cheats overview</a>
+					{' · '}
+					<a href={sitePaths.features}>Features</a>
+					{' · '}
+					<a href={sitePaths.pricing}>Pricing</a>
+					{' · '}
+					<a href={sitePaths.updates}>Status</a>
+				</p>
+			</header>
+
+			{
+				featured.length > 0 && (
+					<section class="forum__pinned" aria-label="Pinned discussions">
+						<h2 class="forum__section-title">Popular questions</h2>
+						<div class="forum__pinned-grid">
+							{featured.map((post) => (
+								<a class="forum__pinned-card" href={post.canonicalPath}>
+									<span class="forum__cat">{post.category}</span>
+									<h3>{post.translation.h1}</h3>
+									<p>{post.translation.intro}</p>
+									<div class="forum__meta-row">
+										<span>{getThreadReplyCount(post)} replies</span>
+										<span>{getThreadViews(post.translation.slug).toLocaleString()} views</span>
+									</div>
+								</a>
+							))}
+						</div>
+					</section>
+				)
+			}
+
+			<section class="forum__threads" aria-label="All forum threads">
+				<h2 class="forum__section-title">All discussions</h2>
+				<ul class="forum__thread-list">
+					{
+						posts.map((post) => (
+							<li>
+								<article class="forum__thread">
+									<div class="forum__thread-votes" aria-hidden="true">
+										<span class="forum__vote-count">{getThreadReplyCount(post)}</span>
+										<span class="forum__vote-label">replies</span>
+									</div>
+									<div class="forum__thread-body">
+										<a href={post.canonicalPath}>
+											<span class="forum__cat">{post.category}</span>
+											<h3>{post.translation.title}</h3>
+											<p>{post.translation.intro}</p>
+										</a>
+										<div class="forum__meta-row">
+											<span>Updated {post.updated}</span>
+											<span>{getThreadViews(post.translation.slug).toLocaleString()} views</span>
+											<span>{getThreadReplyCount(post)} answers</span>
+										</div>
+									</div>
+								</article>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</div>
+	</main>
+	<SiteFooter locale={locale} />
+</Layout>
+
+<style>
+	.forum {
+		padding: 2.5rem 0 4rem;
+	}
+
+	.forum__hero {
+		margin-bottom: 2.5rem;
+		padding-bottom: 1.75rem;
+		border-bottom: 1px solid var(--line-soft);
+	}
+
+	.forum__eyebrow {
+		margin: 0 0 0.5rem;
+		color: var(--magenta-soft);
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		font-size: 0.75rem;
+	}
+
+	.forum__hero h1 {
+		margin: 0 0 0.75rem;
+		font-size: clamp(2rem, 4.5vw, 3rem);
+		line-height: 1.08;
+	}
+
+	.forum__intro {
+		max-width: 44rem;
+		margin: 0;
+		color: var(--ink-muted);
+		font-size: 1.05rem;
+		line-height: 1.55;
+	}
+
+	.forum__stats {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem 1.5rem;
+		margin-top: 1.25rem;
+		font-size: 0.875rem;
+		color: var(--ink-faint);
+	}
+
+	.forum__stats strong {
+		color: var(--magenta-soft);
+		font-family: var(--font-display);
+		font-size: 1.1rem;
+		margin-right: 0.25rem;
+	}
+
+	.forum__hub-links {
+		margin: 1rem 0 0;
+		font-size: 0.88rem;
+		color: var(--ink-faint);
+	}
+
+	.forum__hub-links a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.forum__hub-links a:hover {
+		text-decoration: underline;
+	}
+
+	.forum__section-title {
+		margin: 0 0 1rem;
+		font-size: 1.1rem;
+		font-weight: 700;
+		color: var(--ink);
+	}
+
+	.forum__pinned {
+		margin-bottom: 2.5rem;
+	}
+
+	.forum__pinned-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+		gap: 1rem;
+	}
+
+	.forum__pinned-card {
+		display: block;
+		padding: 1.1rem 1.15rem;
+		border: 1px solid color-mix(in srgb, var(--magenta) 22%, var(--line));
+		background: color-mix(in srgb, var(--magenta) 4%, var(--bg-panel));
+		text-decoration: none;
+		color: inherit;
+		transition:
+			border-color 0.2s ease,
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+
+	.forum__pinned-card:hover {
+		border-color: var(--magenta-soft);
+		transform: translateY(-2px);
+		box-shadow: 0 12px 32px color-mix(in srgb, var(--magenta) 12%, transparent);
+	}
+
+	.forum__pinned-card h3 {
+		margin: 0.45rem 0 0.55rem;
+		font-size: 1.05rem;
+		line-height: 1.3;
+	}
+
+	.forum__pinned-card p {
+		margin: 0;
+		font-size: 0.88rem;
+		color: var(--ink-muted);
+		line-height: 1.45;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.forum__thread-list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.65rem;
+	}
+
+	.forum__thread {
+		display: grid;
+		grid-template-columns: 4.5rem 1fr;
+		gap: 1rem;
+		padding: 1rem 1.1rem;
+		border: 1px solid var(--line);
+		background: var(--bg-panel);
+		transition:
+			border-color 0.2s ease,
+			background 0.2s ease;
+	}
+
+	.forum__thread:hover {
+		border-color: color-mix(in srgb, var(--magenta) 30%, var(--line));
+		background: var(--bg-elevated);
+	}
+
+	.forum__thread-votes {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0.5rem;
+		border: 1px solid var(--line-soft);
+		background: var(--bg);
+		text-align: center;
+	}
+
+	.forum__vote-count {
+		font-family: var(--font-display);
+		font-size: 1.35rem;
+		font-weight: 800;
+		color: var(--magenta-soft);
+		line-height: 1;
+	}
+
+	.forum__vote-label {
+		margin-top: 0.2rem;
+		font-size: 0.65rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--ink-faint);
+	}
+
+	.forum__thread-body a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.forum__thread-body h3 {
+		margin: 0.35rem 0 0.45rem;
+		font-size: 1.02rem;
+		line-height: 1.3;
+	}
+
+	.forum__thread-body p {
+		margin: 0;
+		font-size: 0.88rem;
+		color: var(--ink-muted);
+		line-height: 1.45;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.forum__cat {
+		display: inline-block;
+		color: var(--soft);
+		font-size: 0.68rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+	}
+
+	.forum__meta-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.65rem 1rem;
+		margin-top: 0.65rem;
+		font-size: 0.75rem;
+		color: var(--ink-faint);
+	}
+
+	@media (max-width: 640px) {
+		.forum__thread {
+			grid-template-columns: 1fr;
+		}
+
+		.forum__thread-votes {
+			flex-direction: row;
+			gap: 0.35rem;
+			justify-content: flex-start;
+		}
+	}
+</style>

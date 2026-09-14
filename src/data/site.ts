@@ -80,7 +80,7 @@ export const footerExplore = [
 	{ label: 'Status', href: p.updates },
 	{ label: 'FAQ', href: p.faq },
 	{ label: 'Reviews', href: reviewsBasePath },
-	{ label: 'Blog', href: p.blog },
+	{ label: 'Forum', href: p.blog },
 ] as const;
 
 export type FaqItem = {

@@ -20,7 +20,7 @@ export const CORE_PATH_MAP = {
 	'/overwatch-2-cheats-privacy/': '/privacy/',
 	'/overwatch-2-cheats-refund/': '/refund/',
 	'/overwatch-2-cheats-terms/': '/terms/',
-	'/overwatch-2-cheats-blog/': '/blog/',
+	'/overwatch-2-cheats-blog/': '/forum/',
 	'/overwatch-2-cheats-reviews/': '/reviews/',
 	// Cannibal long paths → pillar directly (Phase 4 — no stub hop)
 	'/undetected-overwatch-2-cheats/': '/overwatch-2-cheats/',
@@ -230,8 +230,8 @@ function generateRedirectsBlock() {
 		lines.push(`/reviews/${from}/ /reviews/${to}/ 301`);
 	}
 	for (const [from, to] of Object.entries(BLOG_SLUG_MAP)) {
-		lines.push(`/overwatch-2-cheats-blog/${from} /blog/${to}/ 301`);
-		lines.push(`/overwatch-2-cheats-blog/${from}/ /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from} /forum/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from}/ /forum/${to}/ 301`);
 	}
 	// Legacy blog slugs
 	const legacyBlog = [
@@ -240,10 +240,10 @@ function generateRedirectsBlock() {
 		['overwatch-2-Arcade-aggressive-strategies', 'pve-strategies'],
 	];
 	for (const [from, to] of legacyBlog) {
-		lines.push(`/overwatch-2-cheats-blog/${from} /blog/${to}/ 301`);
-		lines.push(`/overwatch-2-cheats-blog/${from}/ /blog/${to}/ 301`);
-		lines.push(`/blog/${from} /blog/${to}/ 301`);
-		lines.push(`/blog/${from}/ /blog/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from} /forum/${to}/ 301`);
+		lines.push(`/overwatch-2-cheats-blog/${from}/ /forum/${to}/ 301`);
+		lines.push(`/blog/${from} /forum/${to}/ 301`);
+		lines.push(`/blog/${from}/ /forum/${to}/ 301`);
 	}
 	return lines.join('\n');
 }
@@ -347,7 +347,7 @@ updateRouting();
 patchFile('src/data/faq.ts', (s) => s.replace("faqBasePath = '/overwatch-2-cheats-faq/'", "faqBasePath = '/faq/'"));
 patchFile('src/data/reviews.ts', (s) => s.replace("reviewsBasePath = '/overwatch-2-cheats-reviews/'", "reviewsBasePath = '/reviews/'"));
 patchFile('src/data/blog/helpers.ts', (s) =>
-	s.replace("return locale === defaultLocale ? '/overwatch-2-cheats-blog/' : `/${locale}/blog/`", "return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`"),
+	s.replace("return locale === defaultLocale ? '/overwatch-2-cheats-blog/' : `/${locale}/blog/`", "return locale === defaultLocale ? '/forum/' : `/${locale}/forum/`"),
 );
 
 patchFile('src/data/site.ts', (s) => applySlugMaps(applyPathMap(s), { ...FAQ_SLUG_MAP, ...REVIEW_SLUG_MAP }));

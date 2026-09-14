@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generates src/data/blog/posts.generated.ts — NLP-first Overwatch 2 Intel posts.
+ * Generates src/data/forum/posts.generated.ts — NLP-first Overwatch 2 Intel posts.
  * Natural language, entity-rich copy for Google semantic matching.
  * Run: node scripts/generate-blog-posts.mjs
  */
@@ -27,6 +27,98 @@ const EXT = {
 
 /** @type {SourcePost[]} */
 const sources = [
+	{
+		id: 'undetected-aimbot-settings-level',
+		imageKey: 'aimbotCombat',
+		published: '2026-08-01',
+		updated: '2026-08-14',
+		category: 'Undetected',
+		featured: true,
+		slug: 'undetected-aimbot-settings-level',
+		title: 'What Aimbot Smoothness Level Stays Undetected in Competitive?',
+		metaDescription:
+			'Forum answer on aimbot FOV, smoothness, and flickbot settings that stay undetected in Overwatch 2 Competitive — plus when to disable assist entirely.',
+		h1: 'What aimbot smoothness level stays undetected in Competitive?',
+		intro:
+			'I keep seeing people run obvious snap aim in Competitive and wonder why accounts flag. What FOV and smoothness should you actually use if you want to stay undetected on Overwatch 2 Cheats?',
+		keywords: [
+			'undetected aimbot settings',
+			'overwatch-2 aimbot smoothness',
+			'competitive undetected cheats',
+			'aimbot FOV overwatch-2',
+			'blizzard anticheat aimbot',
+		],
+		imageAlt: 'Aimbot smoothness and FOV settings for undetected Overwatch 2 Competitive play',
+		sections: [
+			{
+				h2: 'Start conservative — lower FOV, higher smoothness',
+				paragraphs: [
+					'There is no magic number that guarantees safety, but conservative settings survive longer. Most staff recommendations start around a narrow FOV band and smoothness high enough that crosshair movement looks like tracking, not snapping. If spectators can see your crosshair teleport, you are already past what Blizzard Anti-Cheat and human review tolerate.',
+					'Use separate profiles for hitscan and projectile heroes. A Widow flick profile should not be the same as a Tracer tracking profile. Overwatch 2 Cheats supports per-hero slots — use them instead of one global rage config.',
+				],
+			},
+			{
+				h2: 'Match settings to the mode you queue',
+				paragraphs: [
+					'Quick Play forgives sloppier settings. Competitive and high-SR lobbies do not. Disable assist when you are healing, holding kill cam angles, or doing obvious pre-aim through walls. Hotkeys exist so you are not locked into assist during every engagement.',
+					'Check <a href="/status/">Updates</a> after every Blizzard Anti-Cheat patch before you reuse last season’s config. Maintenance rebuilds can change how assist feels even when your sliders look identical.',
+				],
+			},
+			{
+				h2: 'Signs you pushed too far',
+				paragraphs: [
+					'If friends say your crosshair “snaps back” after flicks, smoothness is too low. If you win every duel but never miss, suspicion rises fast. Undetected play is about believable output — not 100% headshot reels.',
+					'Full tuning walkthrough: <a href="/overwatch-2-aimbot/">Aimbot page</a>, <a href="/forum/aimbot-settings/">aimbot settings thread</a>, and <a href="/forum/undetected-blizzard-anticheat/">Blizzard Anti-Cheat maintenance Q&A</a>.',
+				],
+			},
+		],
+	},
+	{
+		id: 'why-overwatch2cheats-vs-market',
+		imageKey: 'cheatsPackage',
+		published: '2026-08-02',
+		updated: '2026-08-14',
+		category: 'Comparisons',
+		featured: true,
+		slug: 'why-overwatch2cheats-vs-market',
+		title: 'Why Overwatch 2 Cheats Beats Budget Cheat Shops',
+		metaDescription:
+			'Honest comparison — maintenance, ESP quality, wallhack, hero scripts, public status page, and pricing vs budget Overwatch 2 cheat providers.',
+		h1: 'Why should I pick Overwatch 2 Cheats over cheaper shops?',
+		intro:
+			'Budget sites advertise half our price but the menus look cloned from other games and status updates never show up on patch day. What actually makes Overwatch 2 Cheats worth it?',
+		keywords: [
+			'overwatch-2 cheats comparison',
+			'best overwatch-2 cheats',
+			'overwatch2cheats vs competitors',
+			'undetected overwatch-2 cheats',
+			'cheat provider comparison',
+		],
+		imageAlt: 'Comparing Overwatch 2 Cheats full stack with budget ESP-only providers',
+		sections: [
+			{
+				h2: 'Public status beats Discord-only whispers',
+				paragraphs: [
+					'Serious vendors publish dated rebuild notes when Blizzard Anti-Cheat or client patches land. Overwatch 2 Cheats documents that on <a href="/status/">Updates</a> — not buried in a private channel. Budget shops often go silent for days while buyers guess whether the tool is offline.',
+					'If you cannot find a status URL before checkout, treat that as a red flag regardless of price.',
+				],
+			},
+			{
+				h2: 'Full stack vs ESP-only clones',
+				paragraphs: [
+					'Many cheap providers sell player boxes copied from battle-royale templates. Overwatch 2 needs hero filters, ult tracking, wallhack for flanks, and configurable tracking aimbot in one menu. See <a href="/features/">Features</a> and compare against <a href="/forum/full-stack-vs-esp-only/">ESP-only alternatives</a>.',
+					'Paying twice for modules you assumed were included costs more than one $35 monthly license.',
+				],
+			},
+			{
+				h2: 'Support, delivery, and OW2-native copy',
+				paragraphs: [
+					'Support replies with order IDs, Windows version, and clear setup steps on <a href="/setup/">Setup</a>. Pages and forum answers use Overwatch 2 modes — Quick Play, Competitive, Arcade — not leftover raid or loot language from other games.',
+					'Side-by-side notes: <a href="/forum/vs-budget-shops/">vs budget shops</a>, <a href="/forum/two-week-cheat-test/">two-week test</a>, and <a href="/pricing/">Pricing</a>.',
+				],
+			},
+		],
+	},
 	{
 		id: 'patch-notes-breakdown',
 		imageKey: 'squadFight',
@@ -62,14 +154,14 @@ const sources = [
 				h2: 'Buffs, nerfs, and removed items — a simple framework',
 				paragraphs: [
 					'When an item is removed from season reward pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most teams. Buffs deserve a short test block — ten focused matches — before you rebuild your entire loadout around them.',
-					'Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against shielded targets, your Quick Play push into triple stacks suddenly needs a different mag. Pair this reading habit with our <a href="/blog/weapon-tier-list/">Overwatch 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.',
+					'Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against shielded targets, your Quick Play push into triple stacks suddenly needs a different mag. Pair this reading habit with our <a href="/forum/weapon-tier-list/">Overwatch 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.',
 				],
 			},
 			{
 				h2: 'How patches reshuffle loadouts and map plans',
 				paragraphs: [
 					'When mid-range rifles feel strong, prioritize optics and abilities that win 40–70 meter peeks. When healing items get tighter, play more conservatively near objectives and avoid ego flanks. When a zone layout shifts — new locked doors, moved spawns, spawn path changes — rewrite your first three minutes on that activity before you farm it for quests.',
-					'Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href="/blog/pve-strategies/">Arcade activity strategies</a>.',
+					'Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href="/forum/pve-strategies/">Arcade activity strategies</a>.',
 					`On big mornings, confirm ${EXT.status} looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your hero pool priority list, play five intentional matches, and only then lock a new main kit.`,
 				],
 			},
@@ -116,7 +208,7 @@ const sources = [
 				h2: 'How to use leaks without getting played',
 				paragraphs: [
 					'Treat late-season leak waves as theme previews, not release dates. Decide a budget before something hits the store, not during the five-minute panic. A quiet daily habit works: open the shop for one minute, check your wishlist, then leave.',
-					'For competitive readability tips that actually affect fights, pair this with our <a href="/blog/pro-settings/">pro settings guide</a>. Looking clean matters less than seeing the other hero first.',
+					'For competitive readability tips that actually affect fights, pair this with our <a href="/forum/pro-settings/">pro settings guide</a>. Looking clean matters less than seeing the other hero first.',
 				],
 			},
 		],
@@ -156,13 +248,13 @@ const sources = [
 				h2: 'Ammo, TTK, and peek discipline matter more than brand names',
 				paragraphs: [
 					'Time-to-kill in Overwatch 2 is really about burst damage and resilience breakpoints. A tuned hand cannon with the right mods beats a loud meta rifle that cannot break shielded targets. Learn which abilities and ult timings you can afford this season, then pick a primary that controls recoil at your skill level.',
-					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with positioning discipline from our <a href="/blog/map-control/">map control routes guide</a> so you actually spawn with the cooldowns you planned to use.',
+					'First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with positioning discipline from our <a href="/forum/map-control/">map control routes guide</a> so you actually spawn with the cooldowns you planned to use.',
 				],
 			},
 			{
 				h2: 'Loadout pairings and common mistakes',
 				paragraphs: [
-					'A durable kit is usually a reliable mid-range primary, a close-range option for Quick Play or Arcade modes, enough healing, and support coverage you can replace after deaths. In Arcade modes, that same spine supports the aggression patterns in our <a href="/blog/pve-strategies/">Arcade strategies article</a>.',
+					'A durable kit is usually a reliable mid-range primary, a close-range option for Quick Play or Arcade modes, enough healing, and support coverage you can replace after deaths. In Arcade modes, that same spine supports the aggression patterns in our <a href="/forum/pve-strategies/">Arcade strategies article</a>.',
 					'Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an flanker at close range out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href="/overwatch-2-aimbot/">Overwatch 2 aimbot settings</a>.',
 				],
 			},
@@ -208,7 +300,7 @@ const sources = [
 			{
 				h2: 'Warmup checklist before you queue a Arcade mode',
 				paragraphs: [
-					'Know your activity’s main objectives, bring a simple healing plan, and pick two zones with cover instead of open lanes. Pair this article with <a href="/blog/map-control/">map control routes</a>, <a href="/blog/weapon-tier-list/">weapon tiers</a>, and <a href="/blog/warmup-routine/">warmup routines</a>.',
+					'Know your activity’s main objectives, bring a simple healing plan, and pick two zones with cover instead of open lanes. Pair this article with <a href="/forum/map-control/">map control routes</a>, <a href="/forum/weapon-tier-list/">weapon tiers</a>, and <a href="/forum/warmup-routine/">warmup routines</a>.',
 					'Try one session where you force early contact only when you have resilience and a usable primary — then track whether you completed the objective before the contest window closed.',
 				],
 			},
@@ -248,13 +340,13 @@ const sources = [
 				h2: 'Spawn EV and loadout patterns that keep showing up',
 				paragraphs: [
 					'Score every spawn on contest rate, early fight value in the first few minutes, objective pressure, exit paths, and split potential with teammates. Edge spawns with clean exits often beat flashy mid-map landmarks that look good on stream and then get collapsed.',
-					'Expect a reliable mid-range primary, a close-range option, mobility mods, and enough healing. High-value picks are taken when free, not forced — matching the mindset in our <a href="/blog/weapon-tier-list/">weapon tier list</a>.',
+					'Expect a reliable mid-range primary, a close-range option, mobility mods, and enough healing. High-value picks are taken when free, not forced — matching the mindset in our <a href="/forum/weapon-tier-list/">weapon tier list</a>.',
 				],
 			},
 			{
 				h2: 'What actually translates to normal matches',
 				paragraphs: [
-					'Steal respawn-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a team strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href="/blog/pve-strategies/">Arcade aggression guide</a>.',
+					'Steal respawn-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a team strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href="/forum/pve-strategies/">Arcade aggression guide</a>.',
 					'Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-match habit only. Run it for a six-match hero block before adding another.',
 				],
 			},
@@ -300,7 +392,7 @@ const sources = [
 			{
 				h2: 'Convert a strong spawn into a win',
 				paragraphs: [
-					'Pair these routes with <a href="/blog/pve-strategies/">Arcade aggression</a> and <a href="/blog/weapon-tier-list/">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a positioning panic.',
+					'Pair these routes with <a href="/forum/pve-strategies/">Arcade aggression</a> and <a href="/forum/weapon-tier-list/">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a positioning panic.',
 					'If you practice with hero markers, read <a href="/overwatch-2-esp/">Overwatch 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.',
 				],
 			},
@@ -339,7 +431,7 @@ const sources = [
 			{
 				h2: 'Sensitivity, ADS, and muscle memory',
 				paragraphs: [
-					'Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href="/blog/warmup-routine/">warmup guide</a> so your hands match the new numbers.',
+					'Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href="/forum/warmup-routine/">warmup guide</a> so your hands match the new numbers.',
 					'If you later add tracking aimbot tooling, match the in-game sens first, then tune FOV in the <a href="/overwatch-2-aimbot/">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.',
 				],
 			},
@@ -347,7 +439,7 @@ const sources = [
 				h2: 'Audio cues that win objectives',
 				paragraphs: [
 					'Footsteps, magazine reloads, and ability cues often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between add movement and a hero push.',
-					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/blog/map-control/">map control routes</a> article so you know where those sounds are coming from.',
+					'Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href="/forum/map-control/">map control routes</a> article so you know where those sounds are coming from.',
 				],
 			},
 		],
@@ -392,7 +484,7 @@ const sources = [
 			{
 				h2: 'What to do right before you ready up',
 				paragraphs: [
-					'Check inventory heals and ammo, confirm your activity objectives, and skim <a href="/status/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/blog/pro-settings/">settings</a> and <a href="/blog/weapon-tier-list/">weapon tiers</a> so you are not reinventing the kit every night.',
+					'Check inventory heals and ammo, confirm your activity objectives, and skim <a href="/status/">cheat status</a> if you use overlays after a patch. Pair warmup with <a href="/forum/pro-settings/">settings</a> and <a href="/forum/weapon-tier-list/">weapon tiers</a> so you are not reinventing the kit every night.',
 					'If the first two hero deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.',
 				],
 			},
@@ -445,7 +537,7 @@ const sources = [
 			{
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
-					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
+					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/forum/buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
 					'Overwatch 2 Cheats is built for Windows PC Quick Play and Arcade play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
 				],
 			},
@@ -537,7 +629,7 @@ const sources = [
 			{
 				h2: 'What we recommend you do differently this year',
 				paragraphs: [
-					'Check status before patch-day queues. Keep tracking aimbot conservative. Use hero ESP filters so your screen stays clean. Read the <a href="/blog/cheats-guide-2026/">complete 2026 guide</a> if you are new to the category.',
+					'Check status before patch-day queues. Keep tracking aimbot conservative. Use hero ESP filters so your screen stays clean. Read the <a href="/forum/cheats-guide-2026/">complete 2026 guide</a> if you are new to the category.',
 					'Pricing remains monthly and lifetime on <a href="/pricing/">Pricing</a> with digital delivery after payment.',
 				],
 			},
@@ -673,7 +765,7 @@ const sources = [
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a>, the <a href="/blog/cheats-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					'Read <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a>, the <a href="/forum/cheats-guide-2026/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
 				],
 			},
 		],
@@ -712,7 +804,7 @@ const sources = [
 				h2: 'Price versus what you touch every match',
 				paragraphs: [
 					'If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold objectives, run map control routes, and hate dying to unseen flanks, wallhack and clean filters pay for themselves quickly.',
-					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/blog/buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
+					'Our monthly and lifetime options are on <a href="/pricing/">Pricing</a>. Read the <a href="/forum/buyers-guide/">buyers guide</a> before you compare three storefronts at once.',
 				],
 			},
 			{

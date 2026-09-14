@@ -92,7 +92,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 	],
 	'cheats-2026': [
 		{ href: p.cheats, label: 'Overwatch 2 cheats' },
-		{ href: p.blog, label: 'Blog updates' },
+		{ href: p.blog, label: 'Forum Q&A' },
 	],
 	'crucible-cheats': [
 		{ href: p.cheats, label: 'Overwatch 2 cheats' },

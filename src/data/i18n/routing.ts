@@ -796,7 +796,7 @@ export function resolvePageContextFromPath(pathname: string): PageContext {
 		return { locale, pageId: 'home' };
 	}
 
-	if (rest[0] === 'blog' || rest[0] === 'overwatch-2-cheats-blog') {
+	if (rest[0] === 'forum' || rest[0] === 'blog' || rest[0] === 'overwatch-2-cheats-blog') {
 		if (rest.length === 1) {
 			return { locale, isBlogIndex: true };
 		}
@@ -863,7 +863,7 @@ export function getNavForLocale(locale: LocaleCode, labels: Record<string, strin
 	{ label: labels.preview ?? labels.hacks ?? 'Cheats', href: getLocalizedPath('hacks', locale), pageId: 'hacks' },
 		{ label: labels.aimbot, href: getLocalizedPath('overwatch-2-aimbot', locale), pageId: 'overwatch-2-aimbot' },
 		{ label: labels.esp, href: getLocalizedPath('overwatch-2-esp', locale), pageId: 'overwatch-2-esp' },
-		{ label: 'Blog', href: getBlogBasePath(locale) },
+		{ label: labels.blog ?? 'Forum', href: getBlogBasePath(locale) },
 		{ label: labels.features, href: getLocalizedPath('features', locale), pageId: 'features' },
 		{ label: labels.pricing, href: getLocalizedPath('pricing', locale), pageId: 'pricing' },
 		{ label: labels.setup, href: getLocalizedPath('setup', locale), pageId: 'setup' },

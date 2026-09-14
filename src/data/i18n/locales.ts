@@ -93,17 +93,17 @@ export const blogUi: Record<
 	}
 > = {
 	en: {
-		blogTitle: 'Overwatch 2 Cheats Blog | Raid Guides',
+		blogTitle: 'Overwatch 2 Cheats Forum | Q&A & Comparisons',
 		blogDescription:
-			'Overwatch 2 guides — raid tips, ESP, aimbot notes, map control routes, and Blizzard Anti-Cheat update coverage. English blog at overwatchcheats.org/blog/.',
-		blogH1: 'Overwatch 2 Cheats Intel',
+			'Community Q&A on undetected Overwatch 2 cheats — aimbot settings, Blizzard Anti-Cheat maintenance, and how we compare to other providers.',
+		blogH1: 'Overwatch 2 Cheats Forum',
 		blogIntro:
-			'Short Overwatch 2 guides for Quick Play, Competitive, and Arcade modes. Pair these tips with the Overwatch 2 Cheats product pages when you need ESP, tracking aimbot, or wallhack.',
-		readMore: 'Read guide',
-		published: 'Published',
+			'Ask-level answers on staying undetected, tuning aimbot smoothness, comparing providers, and getting the most from ESP and wallhack. Staff and buyer replies in one place.',
+		readMore: 'View thread',
+		published: 'Asked',
 		updated: 'Updated',
-		relatedPosts: 'Related guides',
-		allPosts: 'All blog posts',
+		relatedPosts: 'Related questions',
+		allPosts: 'All discussions',
 		home: 'Overwatch 2 Cheats home',
 		language: 'Language',
 	},

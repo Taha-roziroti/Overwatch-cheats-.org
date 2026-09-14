@@ -180,7 +180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the firefight. Review <a href=\"/overwatch-2-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
 								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? Read the <a href=\"/overwatch-2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.",
+								"Still researching? Read the <a href=\"/overwatch-2-cheats/\">product overview</a> and <a href=\"/forum/buyers-guide/\">buyers guide</a>.",
 							],
 						},
 					],
@@ -649,7 +649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Before you buy in 2026",
 							paragraphs: [
 								"Read the <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also read the <a href=\"/blog/cheats-2026-updates/\">season updates post</a> and <a href=\"/faq/\">FAQ</a> before checkout.",
+								"Also read the <a href=\"/forum/cheats-2026-updates/\">season updates post</a> and <a href=\"/faq/\">FAQ</a> before checkout.",
 								"Support is available at support@overwatchcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -679,7 +679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Built for Overwatch 2 matchs",
 							paragraphs: [
 								"Read heroes and enemies before you push, mark objectives worth pushing, and stay aware of flanks. Tune tracking aimbot per hero role for Quick Play, Competitive, and hero matchups.",
-								"Module guides: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/overwatch-2-wallhack/\">wallhack</a>. Research posts: <a href=\"/blog/buyers-guide/\">buyers guide</a> and <a href=\"/blog/undetected-blizzard-anticheat/\">Blizzard Anti-Cheat notes</a>.",
+								"Module guides: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/overwatch-2-wallhack/\">wallhack</a>. Research posts: <a href=\"/forum/buyers-guide/\">buyers guide</a> and <a href=\"/forum/undetected-blizzard-anticheat/\">Blizzard Anti-Cheat notes</a>.",
 								"Official game updates come from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>; maintenance notes publish on the <a href=\"/status/\">Updates page</a>. Cross-check <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Support</a> before patch-day queues.",
 							],
 						},

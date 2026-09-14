@@ -52,7 +52,20 @@ export function getBlogImageSrc(key: BlogImageKey): string {
 }
 
 export function getBlogBasePath(locale: LocaleCode): string {
-	return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`;
+	return locale === defaultLocale ? '/forum/' : `/${locale}/forum/`;
+}
+
+/** Alias for forum routing — same paths as blog helpers after forum migration. */
+export const getForumBasePath = getBlogBasePath;
+
+export function getThreadReplyCount(post: BlogPostDefinition): number {
+	return post.translations.en.sections.length;
+}
+
+export function getThreadViews(slug: string): number {
+	let hash = 0;
+	for (let i = 0; i < slug.length; i++) hash = (hash * 31 + slug.charCodeAt(i)) >>> 0;
+	return 1200 + (hash % 8800);
 }
 
 export function isBlogPath(pathname: string): boolean {
@@ -152,7 +165,7 @@ export function getBlogIndexHreflangAlternates(_currentLocale: LocaleCode = defa
 
 /**
  * Localized blog routes are not translated — do not build/index them.
- * Use EN `/blog/` only. Locale paths 301 to EN via [lang]/blog pages.
+ * Use EN `/forum/` only. Locale paths 301 to EN via [lang]/forum pages.
  */
 export function getAllBlogStaticPaths(): { params: { lang?: string; slug: string }; props: { locale: LocaleCode } }[] {
 	return blogPosts.map((post) => ({

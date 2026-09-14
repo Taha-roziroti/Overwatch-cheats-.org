@@ -24,6 +24,7 @@ const REDIRECTS = path.join(ROOT, 'public/_redirects');
 
 /** EN cannibal stubs → pillar (matches functions/_middleware.js + seo-cannibal-map.ts). */
 const EN_CANNIBAL = {
+	'/blog/': '/forum/',
 	'/overwatch-2-undetected/': '/overwatch-2-cheats/',
 	'/overwatch-2-cheats-2026/': '/overwatch-2-cheats/',
 	'/d2-best-cheats/': '/overwatch-2-cheats/',
@@ -68,16 +69,16 @@ const LEGACY_REVIEWS = {
 	'/reviews/destiny-2-controller-aim-assist-review-ctrl-player99/': '/reviews/aim-assist-ctrl-player99/',
 };
 
-/** Fortnite blog slugs → current short D2 blog posts. */
+/** Legacy Fortnite blog slugs → current short forum threads. */
 const LEGACY_BLOG = {
-	'/blog/patch-notes-buffs-nerfs-vaults/': '/blog/patch-notes/',
-	'/blog/chapter-7-season-3-skin-leaks-vbucks/': '/blog/skin-leaks/',
-	'/blog/hammer-ar-s-tier-data-analysis/': '/blog/weapon-tier-list/',
-	'/blog/zero-build-meta-broken-aggressive-strategies/': '/blog/pve-strategies/',
-	'/blog/fncs-meta-watch-tournament-drops/': '/blog/tournament-meta/',
-	'/blog/secret-loot-routes-full-gold/': '/blog/map-control/',
-	'/blog/bugha-settings-pro-setup/': '/blog/pro-settings/',
-	'/blog/creative-warmup-maps-pros-use/': '/blog/warmup-routine/',
+	'/blog/patch-notes-buffs-nerfs-vaults/': '/forum/patch-notes/',
+	'/blog/chapter-7-season-3-skin-leaks-vbucks/': '/forum/skin-leaks/',
+	'/blog/hammer-ar-s-tier-data-analysis/': '/forum/weapon-tier-list/',
+	'/blog/zero-build-meta-broken-aggressive-strategies/': '/forum/pve-strategies/',
+	'/blog/fncs-meta-watch-tournament-drops/': '/forum/tournament-meta/',
+	'/blog/secret-loot-routes-full-gold/': '/forum/map-control/',
+	'/blog/bugha-settings-pro-setup/': '/forum/pro-settings/',
+	'/blog/creative-warmup-maps-pros-use/': '/forum/warmup-routine/',
 };
 
 function pairLines(from, to) {
@@ -109,7 +110,7 @@ function longPathLines() {
 		lines.push(...pairLines(`/reviews/${from}/`, `/reviews/${to}/`));
 	}
 	for (const [from, to] of Object.entries(BLOG_SLUG_MAP)) {
-		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/blog/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/forum/${to}/`));
 	}
 	const legacyBlog = [
 		['escape-from-overwatch-2-cheats-buyers-guide', 'buyers-guide'],
@@ -117,8 +118,8 @@ function longPathLines() {
 		['destiny-2-PvE-aggressive-strategies', 'pve-strategies'],
 	];
 	for (const [from, to] of legacyBlog) {
-		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/blog/${to}/`));
-		lines.push(...pairLines(`/blog/${from}/`, `/blog/${to}/`));
+		lines.push(...pairLines(`/overwatch-2-cheats-blog/${from}/`, `/forum/${to}/`));
+		lines.push(...pairLines(`/blog/${from}/`, `/forum/${to}/`));
 	}
 	return lines;
 }

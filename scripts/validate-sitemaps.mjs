@@ -52,7 +52,8 @@ async function resolveDistRoot() {
 const SITE = readBrandUrl();
 const IMAGE_SITEMAP_ENTRIES = countBrandSitemapImages();
 
-const BLOG_PAGES = 18; // /blog/ index + 17 posts
+const BLOG_PAGES = 20; // /forum/ index + 19 threads
+const BLOG_LEGACY_REDIRECT_PAGES = 20; // /blog/* → /forum/* EN redirect stubs
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
@@ -67,9 +68,10 @@ const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** EN product HTML — 14 indexable pages (11 cannibal stubs are redirect-only, no HTML) */
-const ENGLISH_HTML_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
-/** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
-const LOCALE_BLOG_REDIRECT_PAGES = 18;
+const ENGLISH_HTML_PAGES =
+	ENGLISH_PRODUCT_PAGES + BLOG_PAGES + BLOG_LEGACY_REDIRECT_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
+/** Locale HTML = product pages + forum redirect stubs (index + 19 threads) omitted from sitemaps */
+const LOCALE_BLOG_REDIRECT_PAGES = 20;
 const TOTAL_HTML_PAGES =
 	ENGLISH_HTML_PAGES + I18N_LOCALES * (PRODUCT_PAGES_PER_LOCALE + LOCALE_BLOG_REDIRECT_PAGES);
 const HREFLANG_PER_URL = 23;
@@ -106,24 +108,26 @@ const ENGLISH_PATHS = [
 	'/refund/',
 	'/terms/',
 	'/guides/',
-	'/blog/',
-	'/blog/pve-strategies/',
-	'/blog/map-control/',
-	'/blog/weapon-tier-list/',
-	'/blog/skin-leaks/',
-	'/blog/tournament-meta/',
-	'/blog/pro-settings/',
-	'/blog/warmup-routine/',
-	'/blog/patch-notes/',
-	'/blog/cheats-guide-2026/',
-	'/blog/buyers-guide/',
-	'/blog/cheats-2026-updates/',
-	'/blog/aimbot-settings/',
-	'/blog/esp-wallhack/',
-	'/blog/undetected-blizzard-anticheat/',
-	'/blog/vs-budget-shops/',
-	'/blog/two-week-cheat-test/',
-	'/blog/full-stack-vs-esp-only/',
+	'/forum/',
+	'/forum/pve-strategies/',
+	'/forum/map-control/',
+	'/forum/undetected-aimbot-settings-level/',
+	'/forum/why-overwatch2cheats-vs-market/',
+	'/forum/weapon-tier-list/',
+	'/forum/skin-leaks/',
+	'/forum/tournament-meta/',
+	'/forum/pro-settings/',
+	'/forum/warmup-routine/',
+	'/forum/patch-notes/',
+	'/forum/cheats-guide-2026/',
+	'/forum/buyers-guide/',
+	'/forum/cheats-2026-updates/',
+	'/forum/aimbot-settings/',
+	'/forum/esp-wallhack/',
+	'/forum/undetected-blizzard-anticheat/',
+	'/forum/vs-budget-shops/',
+	'/forum/two-week-cheat-test/',
+	'/forum/full-stack-vs-esp-only/',
 	'/reviews/',
 	'/reviews/aimbot-xkrypt0/',
 	'/reviews/esp-control-buildsr4k/',
@@ -440,8 +444,10 @@ async function main() {
 	const htmlSet = new Set(htmlPaths);
 	const missingFromSitemap = [...htmlSet].filter((p) => {
 		if (sitemapPaths.has(p) || REDIRECT_ONLY_PATHS.has(p)) return false;
-		// Locale blog stubs 301 to EN — intentionally omitted from sitemaps
-		if (/^\/[a-z]{2}\/blog(\/|$)/.test(p)) return false;
+		// Locale forum/blog stubs 301 to EN — intentionally omitted from sitemaps
+		if (/^\/[a-z]{2}\/(forum|blog)(\/|$)/.test(p)) return false;
+		// EN /blog/* legacy paths 301 to /forum/*
+		if (/^\/blog(\/|$)/.test(p)) return false;
 		return true;
 	});
 	const extraInSitemap = [...sitemapPaths].filter((p) => !htmlSet.has(p));
