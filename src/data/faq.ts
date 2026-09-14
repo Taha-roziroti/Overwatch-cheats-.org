@@ -1,7 +1,7 @@
 import { seoFaqs, siteConfig, type FaqItem } from './site';
 import { crawlPhotoMeta } from './page-images';
 
-export const faqBasePath = '/destiny-2-cheats-faq/';
+export const faqBasePath = '/faq/';
 
 export function getFaqPath(slug: string): string {
 	return `${faqBasePath}${slug}/`;

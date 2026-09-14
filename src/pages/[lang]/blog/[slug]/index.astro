@@ -30,13 +30,13 @@ const { locale } = Astro.props;
 const slug = Astro.params.slug ?? '';
 
 if (!isLocaleCode(Astro.params.lang ?? '')) {
-	return Astro.redirect('/destiny-2-cheats-blog/', 301);
+	return Astro.redirect('/blog/', 301);
 }
 
 const post = findPostBySlug(slug, locale) ?? findPostBySlug(slug);
 const enSlug = post?.translations[defaultLocale].slug;
 if (!enSlug) {
-	return Astro.redirect('/destiny-2-cheats-blog/', 301);
+	return Astro.redirect('/blog/', 301);
 }
 
 return Astro.redirect(getBlogPostPath(defaultLocale, enSlug), 301);

@@ -9,18 +9,18 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const PATH_REPLACEMENTS = [
-	['/features/', '/destiny-2-cheats-features/'],
-	['/pricing/', '/destiny-2-cheats-pricing/'],
-	['/setup/', '/destiny-2-cheats-setup/'],
-	['/updates/', '/destiny-2-cheats-status/'],
-	['/faq/', '/destiny-2-cheats-faq/'],
-	['/support/', '/destiny-2-cheats-support/'],
-	['/reviews/', '/destiny-2-cheats-reviews/'],
-	['/blog/', '/destiny-2-cheats-blog/'],
-	['/privacy-policy/', '/destiny-2-cheats-privacy/'],
-	['/refund-policy/', '/destiny-2-cheats-refund/'],
-	['/terms/', '/destiny-2-cheats-terms/'],
-	['/hacks/', '/destiny-2-cheats/'],
+	['/features/', '/features/'],
+	['/pricing/', '/pricing/'],
+	['/setup/', '/setup/'],
+	['/updates/', '/status/'],
+	['/faq/', '/faq/'],
+	['/support/', '/support/'],
+	['/reviews/', '/reviews/'],
+	['/blog/', '/blog/'],
+	['/privacy-policy/', '/privacy/'],
+	['/refund-policy/', '/refund/'],
+	['/terms/', '/terms/'],
+	['/hacks/', '/d2-cheats/'],
 ];
 
 const COPY_REPLACEMENTS = [

@@ -12,15 +12,15 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 		{ href: p.esp, label: 'ESP & wallhack' },
 		{ href: p.aimbot, label: 'Aimbot & soft aim' },
 		{ href: p.radar, label: 'Radar hack' },
-		{ href: '/destiny-2-crucible-cheats/', label: 'Crucible cheats' },
-		{ href: '/destiny-2-pve-cheats/', label: 'PvE cheats' },
+		{ href: '/d2-crucible/', label: 'Crucible cheats' },
+		{ href: '/d2-pve/', label: 'PvE cheats' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
 	'destiny-2-esp': [
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.aimbot, label: 'Aimbot guide' },
 		{ href: p.radar, label: 'Radar overlay' },
-		{ href: '/destiny-2-wallhack/', label: 'Wallhack guide' },
+		{ href: '/d2-wallhack/', label: 'Wallhack guide' },
 		{ href: p.features, label: 'All features' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
@@ -28,7 +28,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.esp, label: 'ESP guide' },
 		{ href: p.radar, label: 'Radar overlay' },
-		{ href: '/destiny-2-aim-assist/', label: 'Aim assist' },
+		{ href: '/d2-aim-assist/', label: 'Aim assist' },
 		{ href: p.features, label: 'All features' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
@@ -63,7 +63,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 	updates: [
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.setup, label: 'Setup guide' },
-		{ href: '/destiny-2-battleye-bypass/', label: 'BattlEye notes' },
+		{ href: '/d2-battleye/', label: 'BattlEye notes' },
 		{ href: p.blog, label: 'Blog' },
 		{ href: p.support, label: 'Support' },
 	],
@@ -89,12 +89,12 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 	'esp-hack': [
 		{ href: p.esp, label: 'ESP guide' },
 		{ href: p.cheats, label: 'Cheats overview' },
-		{ href: '/destiny-2-wallhack/', label: 'Wallhack guide' },
+		{ href: '/d2-wallhack/', label: 'Wallhack guide' },
 	],
 	'aimbot-hack': [
 		{ href: p.aimbot, label: 'Aimbot guide' },
 		{ href: p.cheats, label: 'Cheats overview' },
-		{ href: '/destiny-2-aim-assist/', label: 'Aim assist' },
+		{ href: '/d2-aim-assist/', label: 'Aim assist' },
 	],
 	'aim-assist': [
 		{ href: p.aimbot, label: 'Aimbot guide' },
@@ -104,7 +104,7 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 	undetected: [
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.updates, label: 'Live status' },
-		{ href: '/best-destiny-2-cheats/', label: 'Best cheats' },
+		{ href: '/d2-cheats/', label: 'Best cheats' },
 	],
 	'best-cheats': [
 		{ href: p.cheats, label: 'Cheats overview' },
@@ -120,12 +120,12 @@ export const pageRelatedLinks: Partial<Record<PageId, RelatedPageLink[]>> = {
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.esp, label: 'ESP guide' },
 		{ href: p.aimbot, label: 'Aimbot guide' },
-		{ href: '/destiny-2-pve-cheats/', label: 'PvE cheats' },
+		{ href: '/d2-pve/', label: 'PvE cheats' },
 	],
 	'pve-cheats': [
 		{ href: p.cheats, label: 'Cheats overview' },
 		{ href: p.esp, label: 'ESP guide' },
-		{ href: '/destiny-2-crucible-cheats/', label: 'Crucible cheats' },
+		{ href: '/d2-crucible/', label: 'Crucible cheats' },
 		{ href: p.guides, label: 'Guides hub' },
 	],
 	'cheat-download': [

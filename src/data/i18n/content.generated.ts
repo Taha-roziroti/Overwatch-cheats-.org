@@ -112,24 +112,24 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats gallery — ESP, Aimbot and wallhack visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "See all features",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Why players choose Destiny 2 cheats in 2026",
 							paragraphs: [
 								"Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, PvE, and competitive lobbies.",
-								"Official seasons, patches, and anti-cheat updates come from NaN and <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/destiny-2-cheats-status/\">Updates page</a>.",
+								"Official seasons, patches, and anti-cheat updates come from NaN and <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/status/\">Updates page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include BattlEye maintenance rebuilds when anti-cheat or game patches require updates.",
-								"Start with the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP guide</a>, <a href=\"/destiny-2-aimbot/\">Aimbot controls</a>, and <a href=\"/destiny-2-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
+								"Start with the <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP guide</a>, <a href=\"/destiny-2-aimbot/\">Aimbot controls</a>, and <a href=\"/d2-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
 							],
 						},
 						{
 							h2: "ESP wallhack, radar hack, and Aimbot in one license",
 							paragraphs: [
 								"Instead of stacking separate tools, Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for raids and PvE — covering both Destiny 2 cheat buyers.",
-								"Browse the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, and <a href=\"/destiny-2-radar-hack/\">radar</a> pages for control details — or jump to <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> for monthly and lifetime options.",
+								"Browse the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, and <a href=\"/d2-radar/\">radar</a> pages for control details — or jump to <a href=\"/pricing/\">Pricing</a> for monthly and lifetime options.",
 								"Before patch days, check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> for service health, then confirm our maintenance notes so you are not queueing on an outdated build.",
-								"Ready to buy? Open <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>, follow <a href=\"/destiny-2-cheats-setup/\">Setup</a> after delivery, and keep <a href=\"/destiny-2-cheats-faq/\">FAQ</a> / <a href=\"/destiny-2-cheats-support/\">Support</a> bookmarked for license questions.",
+								"Ready to buy? Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
 							],
 						},
 					],
@@ -159,7 +159,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Toggle enemy player outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.",
 								"Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE lobbies alike.",
-								"Compare category detail on the <a href=\"/destiny-2-esp/\">wallhack page</a> and pair visibility with the <a href=\"/destiny-2-radar-hack/\">radar hack</a> for flanks outside your FOV.",
+								"Compare category detail on the <a href=\"/destiny-2-esp/\">wallhack page</a> and pair visibility with the <a href=\"/d2-radar/\">radar hack</a> for flanks outside your FOV.",
 							],
 							list: [
 								"Enemy player ESP outlines with distance",
@@ -171,17 +171,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Undetected ESP with BattlEye maintenance",
 							paragraphs: [
-								"Destiny 2 Cheats ESP wallhack is maintained for Destiny 2 with rebuilds after BattlEye anti-cheat patches. Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
-								"Read <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/destiny-2-cheats-status/\">BattlEye bypass maintenance guide</a> after major patches.",
-								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/destiny-2-cheats-setup/\">Setup guide</a> and tune overlays before your first raid.",
+								"Destiny 2 Cheats ESP wallhack is maintained for Destiny 2 with rebuilds after BattlEye anti-cheat patches. Check the <a href=\"/status/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
+								"Read <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/status/\">BattlEye bypass maintenance guide</a> after major patches.",
+								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first raid.",
 							],
 						},
 						{
 							h2: "ESP next steps — Aimbot, pricing, and support",
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the firefight. Review <a href=\"/destiny-2-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
-								"Compare monthly ($35) and lifetime ($150) on <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>, then keep <a href=\"/destiny-2-cheats-support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? The <a href=\"/destiny-2-cheats/\">Destiny 2 cheats pillar</a> and <a href=\"/destiny-2-cheats/\">2026 buyer guide</a> summarize the full stack.",
+								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
+								"Still researching? The <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a> and <a href=\"/d2-cheats/\">2026 buyer guide</a> summarize the full stack.",
 							],
 						},
 					],
@@ -211,7 +211,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and zone clears without reopening menus every raid.",
 								"Prefer softer tracking? Read the <a href=\"/destiny-2-aimbot/\">soft aim guide</a>.",
-								"Aimbot ships alongside <a href=\"/destiny-2-esp/\">ESP wallhack</a> and <a href=\"/destiny-2-radar-hack/\">2D radar</a> in the same Destiny 2 Cheats license.",
+								"Aimbot ships alongside <a href=\"/destiny-2-esp/\">ESP wallhack</a> and <a href=\"/d2-radar/\">2D radar</a> in the same Destiny 2 Cheats license.",
 							],
 							list: [
 								"Smoothness, FOV, and sensitivity sliders",
@@ -223,17 +223,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "BattlEye maintenance for undetected Aimbot",
 							paragraphs: [
-								"Destiny 2 Cheats rebuilds Aimbot behavior when BattlEye anti-cheat or major Destiny 2 patches land. Maintenance notes appear on the <a href=\"/destiny-2-cheats-status/\">Updates page</a> so you know when a new build is live.",
-								"Cross-check service health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> and anti-cheat context on <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>, then follow our <a href=\"/destiny-2-cheats-status/\">BattlEye maintenance guide</a> before queueing on patch day.",
+								"Destiny 2 Cheats rebuilds Aimbot behavior when BattlEye anti-cheat or major Destiny 2 patches land. Maintenance notes appear on the <a href=\"/status/\">Updates page</a> so you know when a new build is live.",
+								"Cross-check service health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> and anti-cheat context on <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>, then follow our <a href=\"/status/\">BattlEye maintenance guide</a> before queueing on patch day.",
 								"Responsible settings matter — undetected status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.",
 							],
 						},
 						{
 							h2: "Buy Aimbot with ESP — pricing and setup",
 							paragraphs: [
-								"Every plan includes Aimbot plus ESP and radar. Compare options on <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>, then activate with the <a href=\"/destiny-2-cheats-setup/\">Setup guide</a>.",
-								"Questions about delivery or profiles? Use <a href=\"/destiny-2-cheats-faq/\">FAQ</a> or email <a href=\"/destiny-2-cheats-support/\">Support</a> with your order ID.",
-								"Want the full control list first? Open <a href=\"/destiny-2-cheats-features/\">Features</a> before checkout.",
+								"Every plan includes Aimbot plus ESP and radar. Compare options on <a href=\"/pricing/\">Pricing</a>, then activate with the <a href=\"/setup/\">Setup guide</a>.",
+								"Questions about delivery or profiles? Use <a href=\"/faq/\">FAQ</a> or email <a href=\"/support/\">Support</a> with your order ID.",
+								"Want the full control list first? Open <a href=\"/features/\">Features</a> before checkout.",
 							],
 						},
 					],
@@ -248,7 +248,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats feature gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "View pricing",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "ESP wallhack and visibility features",
@@ -262,16 +262,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar hack and Aimbot controls",
 							paragraphs: [
 								"2D radar overlay with directional threat cues, configurable range for rotations and late-raid objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.",
-								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Destiny 2 sessions. See <a href=\"/destiny-2-radar-hack/\">radar</a> and <a href=\"/destiny-2-aimbot/\">Aimbot</a> for settings walkthroughs.",
-								"Prefer a menu-first workflow? The <a href=\"/destiny-2-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
+								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Destiny 2 sessions. See <a href=\"/d2-radar/\">radar</a> and <a href=\"/destiny-2-aimbot/\">Aimbot</a> for settings walkthroughs.",
+								"Prefer a menu-first workflow? The <a href=\"/d2-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
 							],
 						},
 						{
 							h2: "Licensing, delivery, and BattlEye maintenance",
 							paragraphs: [
-								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. BattlEye maintenance rebuilds publish on the <a href=\"/destiny-2-cheats-status/\">Updates page</a> after anti-cheat or game patches.",
-								"Monitor <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/destiny-2-cheats-support/\">Support</a> and support@destiny2cheats.org.",
-								"Next step: compare plans on <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> or read <a href=\"/destiny-2-cheats/\">how undetected maintenance works</a>.",
+								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. BattlEye maintenance rebuilds publish on the <a href=\"/status/\">Updates page</a> after anti-cheat or game patches.",
+								"Monitor <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@destiny2cheats.org.",
+								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/d2-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
 					],
@@ -286,30 +286,30 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats package visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Read setup guide",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Monthly and lifetime Destiny 2 Cheats plans",
 							paragraphs: [
 								"Monthly license: $35 USD for 30 days of full ESP wallhack, radar hack, and Aimbot access with BattlEye maintenance included during your term.",
 								"Lifetime license: $150 USD for long-term access to the same undetected Destiny 2 Cheats package — ideal if you play Destiny 2 regularly across seasons.",
-								"Both plans unlock the same feature stack described on <a href=\"/destiny-2-cheats-features/\">Features</a>. Choose monthly to test, or lifetime if you already know you want the full toolkit.",
+								"Both plans unlock the same feature stack described on <a href=\"/features/\">Features</a>. Choose monthly to test, or lifetime if you already know you want the full toolkit.",
 							],
 						},
 						{
 							h2: "What every plan includes",
 							paragraphs: [
 								"Player ESP wallhack, loot markers, 2D radar overlays, Aimbot controls, in-client toggles, and maintenance rebuilds after BattlEye anti-cheat or major Destiny 2 patches.",
-								"Season calendars and client updates come from NaN. Active licenses receive rebuild access when we publish maintenance on <a href=\"/destiny-2-cheats-status/\">Updates</a>.",
-								"Digital delivery starts after payment confirmation. Keep your order reference for <a href=\"/destiny-2-cheats-support/\">Support</a> requests and follow <a href=\"/destiny-2-cheats-setup/\">Setup</a> for first launch.",
+								"Season calendars and client updates come from NaN. Active licenses receive rebuild access when we publish maintenance on <a href=\"/status/\">Updates</a>.",
+								"Digital delivery starts after payment confirmation. Keep your order reference for <a href=\"/support/\">Support</a> requests and follow <a href=\"/setup/\">Setup</a> for first launch.",
 							],
 						},
 						{
 							h2: "Refund, billing, and buying checklist",
 							paragraphs: [
-								"Review the <a href=\"/destiny-2-cheats-refund/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
+								"Review the <a href=\"/refund/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
 								"Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.",
-								"Still comparing tools? Read <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a>, <a href=\"/destiny-2-cheats/\">undetected status</a>, and <a href=\"/destiny-2-cheats-faq/\">FAQ</a> before you checkout.",
+								"Still comparing tools? Read <a href=\"/d2-cheats/\">Destiny 2 cheats</a>, <a href=\"/d2-cheats/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
 							],
 						},
 					],
@@ -324,12 +324,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats setup visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Contact support",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Before you install Destiny 2 Cheats",
 							paragraphs: [
-								"Confirm your order email and license details. Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> for the latest BattlEye maintenance build before launching Destiny 2.",
+								"Confirm your order email and license details. Check the <a href=\"/status/\">Updates page</a> for the latest BattlEye maintenance build before launching Destiny 2.",
 								"Also glance at <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> if Bungie services look unstable on patch day — a platform outage is not a license fault.",
 								"Destiny 2 Cheats requires Windows 10 or 11. Close conflicting overlay software that may interfere with ESP wallhack or Aimbot toggles.",
 							],
@@ -338,7 +338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Activate ESP wallhack and Aimbot profiles",
 							paragraphs: [
 								"Follow the delivery instructions in your license email. Load default ESP wallhack categories for Guardians, enemies, and loot — then tune radar range and Aimbot smoothness to your playstyle.",
-								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for BattlEye module live on <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/destiny-2-cheats/\">mod menu</a>.",
+								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for BattlEye module live on <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/d2-cheats/\">mod menu</a>.",
 								"Prefer a soft tracking feel? Start with the <a href=\"/destiny-2-aimbot/\">soft aim</a> recommendations before raising aggressiveness.",
 							],
 						},
@@ -346,8 +346,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After Destiny 2 or BattlEye anti-cheat patches",
 							paragraphs: [
 								"When Bungie ships a major Destiny 2 update or BattlEye anti-cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/destiny-2-cheats-status/\">BattlEye bypass page</a> and <a href=\"/destiny-2-cheats/\">undetected guide</a>.",
-								"Contact <a href=\"/destiny-2-cheats-support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
+								"Official anti-cheat background: <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/status/\">BattlEye bypass page</a> and <a href=\"/d2-cheats/\">undetected guide</a>.",
+								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
 					],
@@ -362,7 +362,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 patch and maintenance visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Undetected status guide",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Why the Updates page matters",
@@ -376,8 +376,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What maintenance entries cover",
 							paragraphs: [
 								"Entries note BattlEye anti-cheat compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.",
-								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> if you need to renew.",
-								"For context on why rebuilds happen, read the <a href=\"/destiny-2-cheats-status/\">BattlEye bypass guide</a> and <a href=\"/destiny-2-cheats/\">undetected Destiny 2 cheats</a> explainer.",
+								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
+								"For context on why rebuilds happen, read the <a href=\"/status/\">BattlEye bypass guide</a> and <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> explainer.",
 							],
 						},
 						{
@@ -385,7 +385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"No cheat guarantees permanent undetected status. Combine maintenance updates with responsible in-game settings and patch awareness.",
 								"Follow season notes from NaN, then confirm our rebuild is live before you queue.",
-								"For urgent status questions after a BattlEye update, contact <a href=\"/destiny-2-cheats-support/\">Support</a> with your license tier and last played build version.",
+								"For urgent status questions after a BattlEye update, contact <a href=\"/support/\">Support</a> with your license tier and last played build version.",
 							],
 						},
 					],
@@ -400,30 +400,30 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats FAQ visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Contact support",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "What is Destiny 2 Cheats?",
 							paragraphs: [
 								"Destiny 2 Cheats is an undetected cheat package for Destiny 2 on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with BattlEye maintenance updates.",
-								"Packages cover raids and PvE. Explore <a href=\"/destiny-2-cheats-features/\">Features</a> for the full control list and <a href=\"/destiny-2-esp/\">ESP</a> / <a href=\"/destiny-2-aimbot/\">Aimbot</a> for module detail.",
+								"Packages cover raids and PvE. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/destiny-2-esp/\">ESP</a> / <a href=\"/destiny-2-aimbot/\">Aimbot</a> for module detail.",
 								"Destiny 2 itself is published by Bungie (NaN). Cheats are third-party tools and may violate Bungie's rules — use is at your own risk.",
 							],
 						},
 						{
 							h2: "Are Destiny 2 Cheats undetected in 2026?",
 							paragraphs: [
-								"Destiny 2 Cheats is maintained with rebuilds after BattlEye anti-cheat and game patches. Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
-								"Read <a href=\"/destiny-2-cheats/\">undetected Destiny 2 cheats</a> and the <a href=\"/destiny-2-cheats-status/\">BattlEye guide</a> for the maintenance workflow.",
+								"Destiny 2 Cheats is maintained with rebuilds after BattlEye anti-cheat and game patches. Check the <a href=\"/status/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
+								"Read <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> and the <a href=\"/status/\">BattlEye guide</a> for the maintenance workflow.",
 								"Responsible settings and reading maintenance notes before queueing are essential.",
 							],
 						},
 						{
 							h2: "Delivery, pricing, and support",
 							paragraphs: [
-								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"Contact support@destiny2cheats.org or the <a href=\"/destiny-2-cheats-support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/destiny-2-cheats-setup/\">Setup</a>.",
-								"Refund eligibility is covered in the <a href=\"/destiny-2-cheats-refund/\">Refund Policy</a>.",
+								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/pricing/\">Pricing</a>.",
+								"Contact support@destiny2cheats.org or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
+								"Refund eligibility is covered in the <a href=\"/refund/\">Refund Policy</a>.",
 							],
 						},
 					],
@@ -438,14 +438,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats support resources",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read setup guide",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "When to contact support",
 							paragraphs: [
 								"Reach out for order issues, license activation failures, ESP wallhack or Aimbot setup questions, and post-patch problems after BattlEye maintenance rebuilds.",
 								"Include your order ID, license tier (monthly or lifetime), Windows version, and a clear description of the issue.",
-								"Many answers already live in <a href=\"/destiny-2-cheats-faq/\">FAQ</a>, <a href=\"/destiny-2-cheats-setup/\">Setup</a>, and <a href=\"/destiny-2-cheats-status/\">Updates</a> — check those first for faster resolution.",
+								"Many answers already live in <a href=\"/faq/\">FAQ</a>, <a href=\"/setup/\">Setup</a>, and <a href=\"/status/\">Updates</a> — check those first for faster resolution.",
 							],
 						},
 						{
@@ -459,9 +459,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Self-service resources",
 							paragraphs: [
-								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. BattlEye bypass notes live on the dedicated <a href=\"/destiny-2-cheats-status/\">BattlEye anti-cheat page</a>.",
+								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. BattlEye bypass notes live on the dedicated <a href=\"/status/\">BattlEye anti-cheat page</a>.",
 								"Email: support@destiny2cheats.org",
-								"Ready to purchase or renew? Open <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/destiny-2-cheats-features/\">Features</a>.",
+								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
 						},
 					],
@@ -476,7 +476,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Undetected Destiny 2 Cheats visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "BattlEye bypass guide",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "What undetected means for Destiny 2 Cheats",
@@ -489,17 +489,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "BattlEye maintenance workflow",
 							paragraphs: [
-								"When BattlEye anti-cheat or Destiny 2 updates ship, the team assesses ESP, radar, and Aimbot modules, publishes status on the <a href=\"/destiny-2-cheats-status/\">Updates page</a>, and delivers rebuilt builds to active licenses.",
+								"When BattlEye anti-cheat or Destiny 2 updates ship, the team assesses ESP, radar, and Aimbot modules, publishes status on the <a href=\"/status/\">Updates page</a>, and delivers rebuilt builds to active licenses.",
 								"On patch mornings, also check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> for launcher outages that can look like product failures.",
-								"Deep technical workflow: <a href=\"/destiny-2-cheats-status/\">BattlEye bypass Destiny 2 guide</a>. Feature stack: <a href=\"/destiny-2-cheats-features/\">Features</a>.",
+								"Deep technical workflow: <a href=\"/status/\">BattlEye bypass Destiny 2 guide</a>. Feature stack: <a href=\"/features/\">Features</a>.",
 							],
 						},
 						{
 							h2: "Responsible use and next steps",
 							paragraphs: [
-								"Combine maintenance with conservative in-game settings. Read the <a href=\"/destiny-2-cheats-faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
-								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"New buyers should also read <a href=\"/destiny-2-cheats/\">Destiny 2 cheats 2026</a> and complete <a href=\"/destiny-2-cheats-setup/\">Setup</a> after delivery.",
+								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
+								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
+								"New buyers should also read <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
@@ -529,15 +529,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Wallhack overlays support raid, PvE, and competitive lobbies with distance readouts and snaplines for engagement control.",
 								"Season maps and POI changes are announced via NaN. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
-								"Pair wallhack awareness with <a href=\"/destiny-2-radar-hack/\">radar hack</a> cues for flanks during building and rooftop fights.",
+								"Pair wallhack awareness with <a href=\"/d2-radar/\">radar hack</a> cues for flanks during building and rooftop fights.",
 							],
 						},
 						{
 							h2: "Undetected wallhack maintenance",
 							paragraphs: [
-								"ESP wallhack modules rebuild after BattlEye anti-cheat patches. Follow the <a href=\"/destiny-2-cheats-status/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
-								"Learn the full maintenance story on <a href=\"/destiny-2-cheats/\">undetected Destiny 2 cheats</a> and <a href=\"/destiny-2-cheats-status/\">BattlEye bypass</a>.",
-								"Ready to buy? Compare <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> or continue to the <a href=\"/destiny-2-esp/\">ESP hack</a> landing for alternate search wording.",
+								"ESP wallhack modules rebuild after BattlEye anti-cheat patches. Follow the <a href=\"/status/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
+								"Learn the full maintenance story on <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> and <a href=\"/status/\">BattlEye bypass</a>.",
+								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/destiny-2-esp/\">ESP hack</a> landing for alternate search wording.",
 							],
 						},
 					],
@@ -566,16 +566,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Configurable radar range",
 							paragraphs: [
 								"Adjust radar range for early rotations versus tight boss phases. Directional cues highlight flanks during building clears and flank pushes across raids and PvE.",
-								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/destiny-2-cheats/\">mod menu</a> page.",
+								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/d2-cheats/\">mod menu</a> page.",
 								"Combat follow-up lives on <a href=\"/destiny-2-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
 						},
 						{
 							h2: "Maintenance and licensing",
 							paragraphs: [
-								"Radar hack modules receive BattlEye maintenance rebuilds with the full Destiny 2 Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"Check <a href=\"/destiny-2-cheats-status/\">Updates</a> after major Destiny 2 patches before relying on previous radar configs.",
-								"New to the stack? Start at <a href=\"/destiny-2-cheats-features/\">Features</a> or <a href=\"/destiny-2-cheats/\">undetected status</a>.",
+								"Radar hack modules receive BattlEye maintenance rebuilds with the full Destiny 2 Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/pricing/\">Pricing</a>.",
+								"Check <a href=\"/status/\">Updates</a> after major Destiny 2 patches before relying on previous radar configs.",
+								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/d2-cheats/\">undetected status</a>.",
 							],
 						},
 					],
@@ -590,7 +590,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "BattlEye maintenance visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Check updates",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye anti-cheat overview",
@@ -603,17 +603,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What happens after a BattlEye patch",
 							paragraphs: [
-								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/destiny-2-cheats-status/\">Updates</a>, and ships rebuilt packages to active licenses.",
+								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/status/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm Bungie service health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/destiny-2-cheats/\">undetected Destiny 2 cheats</a>.",
+								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a>.",
 							],
 						},
 						{
 							h2: "No permanent bypass guarantee",
 							paragraphs: [
-								"BattlEye bypass in practice means timely maintenance. Read the undetected guide, <a href=\"/destiny-2-cheats-faq/\">FAQ</a>, and Updates log before every session.",
-								"Contact <a href=\"/destiny-2-cheats-support/\">Support</a> if activation fails immediately after a posted rebuild.",
-								"Buying for the first time? Compare <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> and finish <a href=\"/destiny-2-cheats-setup/\">Setup</a> only after Updates shows a live build.",
+								"BattlEye bypass in practice means timely maintenance. Read the undetected guide, <a href=\"/faq/\">FAQ</a>, and Updates log before every session.",
+								"Contact <a href=\"/support/\">Support</a> if activation fails immediately after a posted rebuild.",
+								"Buying for the first time? Compare <a href=\"/pricing/\">Pricing</a> and finish <a href=\"/setup/\">Setup</a> only after Updates shows a live build.",
 							],
 						},
 					],
@@ -628,30 +628,30 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats 2026 gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Compare features",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Why Destiny 2 cheats buyers choose Destiny 2 Cheats in 2026",
 							paragraphs: [
 								"2026 seasons bring new maps, weapons, and BattlEye anti-cheat updates. Destiny 2 Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.",
-								"Track official season messaging on NaN, then use our <a href=\"/destiny-2-cheats-status/\">Updates log</a> for product rebuild timing.",
-								"Monthly ($35) and lifetime ($150) plans cover raids and PvE loops — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
+								"Track official season messaging on NaN, then use our <a href=\"/status/\">Updates log</a> for product rebuild timing.",
+								"Monthly ($35) and lifetime ($150) plans cover raids and PvE loops — see <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
 								"Player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
-								"Deep links: <a href=\"/destiny-2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/destiny-2-radar-hack/\">radar</a>, <a href=\"/destiny-2-cheats/\">undetected</a>.",
+								"Deep links: <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/d2-radar/\">radar</a>, <a href=\"/d2-cheats/\">undetected</a>.",
 								"Instant digital delivery after checkout confirmation worldwide.",
 							],
 						},
 						{
 							h2: "Before you buy in 2026",
 							paragraphs: [
-								"Read the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> checklist, <a href=\"/destiny-2-cheats-blog/destiny-2-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/destiny-2-cheats-faq/\">FAQ</a>.",
-								"Support is available at support@destiny2cheats.org via the <a href=\"/destiny-2-cheats-support/\">Support page</a>.",
+								"Read the <a href=\"/d2-cheats/\">Destiny 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Also compare the <a href=\"/d2-cheats/\">Destiny 2 cheats</a> checklist, <a href=\"/blog/cheats-2026-updates/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Support is available at support@destiny2cheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
 					],
@@ -666,38 +666,38 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 cheats gallery — ESP, Aimbot, wallhack",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "See undetected guide",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "What Destiny 2 cheats include in 2026",
 							paragraphs: [
 								"Players searching for Destiny 2 cheats usually want visibility and combat tools without stacking separate downloads. Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called Destiny 2 cheats.",
 								"Coverage spans raids and PvE with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
-								"Official game updates come from NaN; our hacks package tracks those releases via the <a href=\"/destiny-2-cheats-status/\">Updates page</a>. Cross-check platform health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> before patch-day queues.",
+								"Official game updates come from NaN; our hacks package tracks those releases via the <a href=\"/status/\">Updates page</a>. Cross-check platform health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> before patch-day queues.",
 							],
 						},
 						{
 							h2: "How this Destiny 2 cheats pillar fits nearby pages",
 							paragraphs: [
-								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/destiny-2-cheats/\">Destiny 2 cheats 2026</a> and <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> pages cover buyer comparisons in cheats wording.",
-								"Deep-dive modules: <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a>, <a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/destiny-2-radar-hack/\">radar hack</a>, and <a href=\"/destiny-2-aimbot/\">soft aim</a>.",
-								"Related guides: <a href=\"/destiny-2-cheats-blog/destiny-2-cheats-complete-guide-2026/\">hacks complete guide</a>, <a href=\"/destiny-2-cheats-blog/destiny-2-cheats-buyers-guide/\">cheats buyers guide</a>, and <a href=\"/destiny-2-cheats-blog/undetected-destiny-2-cheats-battleye/\">undetected BattlEye notes</a>.",
+								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> and <a href=\"/d2-cheats/\">Destiny 2 cheats</a> pages cover buyer comparisons in cheats wording.",
+								"Deep-dive modules: <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a>, <a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/d2-radar/\">radar hack</a>, and <a href=\"/destiny-2-aimbot/\">soft aim</a>.",
+								"Related guides: <a href=\"/blog/cheats-guide-2026/\">hacks complete guide</a>, <a href=\"/blog/buyers-guide/\">cheats buyers guide</a>, and <a href=\"/blog/undetected-battleye/\">undetected BattlEye notes</a>.",
 							],
 						},
 						{
 							h2: "Destiny 2 cheats vs single-feature tools",
 							paragraphs: [
 								"Standalone hacks often cover only wallhack or only aim assist. Destiny 2 Cheats maps the full raid loop: read enemy squads, track bosses and containers, spot flanks on radar, and tune Aimbot per weapon class.",
-								"Compare the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/destiny-2-cheats-features/\">Features</a> pages — or review <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> for monthly and lifetime licenses.",
-								"Related landings: <a href=\"/destiny-2-cheats-setup/\">cheat download</a>, <a href=\"/destiny-2-cheats/\">mod menu</a>, <a href=\"/destiny-2-aimbot/\">aimbot</a>, <a href=\"/destiny-2-esp/\">ESP</a>.",
+								"Compare the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
+								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/d2-cheats/\">mod menu</a>, <a href=\"/destiny-2-aimbot/\">aimbot</a>, <a href=\"/destiny-2-esp/\">ESP</a>.",
 							],
 						},
 						{
 							h2: "Undetected Destiny 2 cheats with BattlEye maintenance",
 							paragraphs: [
 								"Undetected Destiny 2 cheats require rebuilds after BattlEye anti-cheat and major Destiny 2 patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for anti-cheat background and our <a href=\"/destiny-2-cheats-status/\">BattlEye bypass guide</a> for the practical workflow. Pair with <a href=\"/destiny-2-cheats/\">undetected Destiny 2 cheats</a> for status language buyers expect.",
-								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/destiny-2-cheats-setup/\">Setup</a> and keep <a href=\"/destiny-2-cheats-support/\">Support</a> ready with your order ID.",
+								"See <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for anti-cheat background and our <a href=\"/status/\">BattlEye bypass guide</a> for the practical workflow. Pair with <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> for status language buyers expect.",
+								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
 							],
 						},
 					],
@@ -712,13 +712,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 cheat download visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Setup guide",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "How Destiny 2 cheat download delivery works",
 							paragraphs: [
 								"After checkout confirms payment, Destiny 2 Cheats license details arrive digitally by email. No physical shipment — access begins once activation instructions are delivered.",
-								"Keep your order confirmation and license email ready for the <a href=\"/destiny-2-cheats-setup/\">Setup guide</a> and Support requests.",
+								"Keep your order confirmation and license email ready for the <a href=\"/setup/\">Setup guide</a> and Support requests.",
 								"If Bungie services are down, check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> before assuming a download failure.",
 							],
 						},
@@ -726,16 +726,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What your download unlocks",
 							paragraphs: [
 								"Every Destiny 2 cheat download includes player ESP wallhack, loot and container markers, 2D radar overlays, Aimbot profiles, and in-client toggles for raids and PvE.",
-								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"/destiny-2-cheats-pricing/\">Pricing page</a>.",
-								"Feature detail: <a href=\"/destiny-2-cheats-features/\">Features</a>. Module pages: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>.",
+								"Monthly ($35) and lifetime ($150) plans share the same feature stack — compare options on the <a href=\"/pricing/\">Pricing page</a>.",
+								"Feature detail: <a href=\"/features/\">Features</a>. Module pages: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>.",
 							],
 						},
 						{
 							h2: "After purchase — setup and updates",
 							paragraphs: [
-								"Follow Setup to activate ESP wallhack and Aimbot on Windows 10 or 11. When Destiny 2 or BattlEye anti-cheat patches ship, check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> for maintenance rebuilds.",
-								"Contact <a href=\"/destiny-2-cheats-support/\">Support</a> with your order ID if delivery or activation fails within 24 hours of purchase.",
-								"Also read <a href=\"/destiny-2-cheats/\">undetected status</a> so you know what “download ready” means after a patch.",
+								"Follow Setup to activate ESP wallhack and Aimbot on Windows 10 or 11. When Destiny 2 or BattlEye anti-cheat patches ship, check the <a href=\"/status/\">Updates page</a> for maintenance rebuilds.",
+								"Contact <a href=\"/support/\">Support</a> with your order ID if delivery or activation fails within 24 hours of purchase.",
+								"Also read <a href=\"/d2-cheats/\">undetected status</a> so you know what “download ready” means after a patch.",
 							],
 						},
 					],
@@ -750,14 +750,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 mod menu gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Full feature list",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "What a Destiny 2 mod menu controls",
 							paragraphs: [
 								"A Destiny 2 mod menu is the in-client panel where you enable ESP wallhack overlays, adjust radar range, and switch Aimbot profiles during live matches. Destiny 2 Cheats keeps those toggles accessible with hotkeys.",
 								"Toggle player outlines, loot markers, vehicle cues, and per-weapon Aimbot settings without alt-tabbing out of Destiny 2.",
-								"Control deep-dives: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-radar-hack/\">radar</a>.",
+								"Control deep-dives: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/d2-radar/\">radar</a>.",
 							],
 						},
 						{
@@ -771,9 +771,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Maintained mod menu after BattlEye patches",
 							paragraphs: [
-								"Destiny 2 mod menu behavior is rebuilt when BattlEye anti-cheat or major Destiny 2 updates land. Follow the <a href=\"/destiny-2-cheats-status/\">Updates page</a> and <a href=\"/destiny-2-cheats-status/\">BattlEye bypass guide</a> before queueing on patch days.",
-								"Checkout with instant digital delivery for monthly and lifetime licenses — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"Need install steps? Open <a href=\"/destiny-2-cheats-setup/\">Setup</a> after your license email arrives.",
+								"Destiny 2 mod menu behavior is rebuilt when BattlEye anti-cheat or major Destiny 2 updates land. Follow the <a href=\"/status/\">Updates page</a> and <a href=\"/status/\">BattlEye bypass guide</a> before queueing on patch days.",
+								"Checkout with instant digital delivery for monthly and lifetime licenses — see <a href=\"/pricing/\">Pricing</a>.",
+								"Need install steps? Open <a href=\"/setup/\">Setup</a> after your license email arrives.",
 							],
 						},
 					],
@@ -803,15 +803,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Save separate soft aim profiles for ARs, SMGs, and bolt-actions. Switch between long-range AR beams and close-quarters room clears with hotkeys mid-match.",
 								"Weapon TTKs shift with NaN balance patches — retune smoothness after major combat updates.",
-								"Soft aim ships alongside <a href=\"/destiny-2-esp/\">ESP wallhack</a> and <a href=\"/destiny-2-radar-hack/\">2D radar</a> overlays.",
+								"Soft aim ships alongside <a href=\"/destiny-2-esp/\">ESP wallhack</a> and <a href=\"/d2-radar/\">2D radar</a> overlays.",
 							],
 						},
 						{
 							h2: "Undetected soft aim with BattlEye maintenance",
 							paragraphs: [
-								"Aimbot modules rebuild after BattlEye anti-cheat patches. Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> before queueing — responsible settings and maintenance awareness matter for undetected play.",
-								"Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"Activation help: <a href=\"/destiny-2-cheats-setup/\">Setup</a> · status questions: <a href=\"/destiny-2-cheats-support/\">Support</a>.",
+								"Aimbot modules rebuild after BattlEye anti-cheat patches. Check the <a href=\"/status/\">Updates page</a> before queueing — responsible settings and maintenance awareness matter for undetected play.",
+								"Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href=\"/pricing/\">Pricing</a>.",
+								"Activation help: <a href=\"/setup/\">Setup</a> · status questions: <a href=\"/support/\">Support</a>.",
 							],
 						},
 					],
@@ -826,22 +826,22 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Best Destiny 2 cheats gallery",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "Compare pricing",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "What makes the Destiny 2 cheats in 2026",
 							paragraphs: [
 								"The Destiny 2 cheats combine active BattlEye maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
 								"Destiny 2 Cheats covers raids and PvE with in-client toggles and post-patch rebuilds.",
-								"Verify the live game is healthy via <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a>, then confirm our <a href=\"/destiny-2-cheats-status/\">Updates</a> note before you judge any package “best.”",
+								"Verify the live game is healthy via <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a>, then confirm our <a href=\"/status/\">Updates</a> note before you judge any package “best.”",
 							],
 						},
 						{
 							h2: "Best Destiny 2 cheats feature checklist",
 							paragraphs: [
 								"Look for player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, hotkey toggles, and documented maintenance after Destiny 2 patches.",
-								"Review <a href=\"/destiny-2-cheats-features/\">Features</a>, <a href=\"/destiny-2-cheats/\">undetected status</a>, and <a href=\"/destiny-2-cheats/\">Destiny 2 cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
-								"Module pages worth opening: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-cheats/\">hacks</a>.",
+								"Review <a href=\"/features/\">Features</a>, <a href=\"/d2-cheats/\">undetected status</a>, and <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
+								"Module pages worth opening: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/d2-cheats/\">hacks</a>.",
 							],
 						},
 						{
@@ -885,8 +885,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Undetected aimbot hack maintenance",
 							paragraphs: [
-								"Aimbot hack signatures rebuild after BattlEye anti-cheat updates. Follow the <a href=\"/destiny-2-cheats-status/\">Updates page</a> and <a href=\"/destiny-2-cheats-status/\">BattlEye bypass guide</a> before queueing after patch days.",
-								"Checkout with instant digital delivery for Windows 10 and 11 — <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
+								"Aimbot hack signatures rebuild after BattlEye anti-cheat updates. Follow the <a href=\"/status/\">Updates page</a> and <a href=\"/status/\">BattlEye bypass guide</a> before queueing after patch days.",
+								"Checkout with instant digital delivery for Windows 10 and 11 — <a href=\"/pricing/\">Pricing</a>.",
 								"Pair with <a href=\"/destiny-2-esp/\">ESP</a> for the full information + assist loop.",
 							],
 						},
@@ -923,9 +923,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Undetected ESP hack with BattlEye maintenance",
 							paragraphs: [
-								"ESP hack modules rebuild after BattlEye anti-cheat and Destiny 2 patches. Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/destiny-2-radar-hack/\">radar hack</a> for flank reads.",
-								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
-								"Install steps: <a href=\"/destiny-2-cheats-setup/\">Setup</a>. Status questions: <a href=\"/destiny-2-cheats/\">undetected guide</a>.",
+								"ESP hack modules rebuild after BattlEye anti-cheat and Destiny 2 patches. Check the <a href=\"/status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/d2-radar/\">radar hack</a> for flank reads.",
+								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
+								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/d2-cheats/\">undetected guide</a>.",
 							],
 						},
 					],
@@ -940,7 +940,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 unlock all guide visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
 					ctaSecondary: "See features",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "What Destiny 2 unlock all usually means",
@@ -954,16 +954,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Visibility tools vs pve-cheats claims",
 							paragraphs: [
 								"ESP wallhack helps you spot enemy squads, bosses, and powerful loot during live matches. Radar hack adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
-								"For loadout planning during a match, loot and container markers speed map rotations — see the <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/destiny-2-cheats-features/\">Features</a> pages for the full tool list.",
-								"Related: <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a> and <a href=\"/destiny-2-cheats/\">Destiny 2 cheats</a>.",
+								"For loadout planning during a match, loot and container markers speed map rotations — see the <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
+								"Related: <a href=\"/d2-cheats/\">Destiny 2 cheats</a> and <a href=\"/d2-cheats/\">Destiny 2 cheats</a>.",
 							],
 						},
 						{
 							h2: "Buying Destiny 2 Cheats for the right reasons",
 							paragraphs: [
-								"If you need undetected ESP wallhack, radar hack, and Aimbot for Destiny 2 on Windows PC, compare <a href=\"/destiny-2-cheats-pricing/\">Pricing</a> and read the <a href=\"/destiny-2-cheats-setup/\">Setup guide</a> before checkout.",
-								"Check the <a href=\"/destiny-2-cheats-status/\">Updates page</a> after BattlEye anti-cheat patches — maintenance rebuilds publish for active licenses.",
-								"Questions? <a href=\"/destiny-2-cheats-faq/\">FAQ</a> and <a href=\"/destiny-2-cheats-support/\">Support</a> cover delivery and configuration — not cosmetic unlocks.",
+								"If you need undetected ESP wallhack, radar hack, and Aimbot for Destiny 2 on Windows PC, compare <a href=\"/pricing/\">Pricing</a> and read the <a href=\"/setup/\">Setup guide</a> before checkout.",
+								"Check the <a href=\"/status/\">Updates page</a> after BattlEye anti-cheat patches — maintenance rebuilds publish for active licenses.",
+								"Questions? <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a> cover delivery and configuration — not cosmetic unlocks.",
 							],
 						},
 					],
@@ -978,7 +978,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats legal resources",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms of use",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we may collect",
@@ -1003,7 +1003,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Your choices and contact",
 							paragraphs: [
 								"You may request correction or deletion of support email data by contacting support@destiny2cheats.org with your request details.",
-								"Policy updates publish on this page. Continued use of destiny2cheats.org after updates means you accept the revised policy. Also see <a href=\"/destiny-2-cheats-terms/\">Terms of Use</a> and <a href=\"/destiny-2-cheats-refund/\">Refund Policy</a>.",
+								"Policy updates publish on this page. Continued use of destiny2cheats.org after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund/\">Refund Policy</a>.",
 							],
 						},
 					],
@@ -1018,7 +1018,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats billing resources",
 					ctaPrimary: "Contact support",
 					ctaSecondary: "Read privacy policy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery and eligibility",
@@ -1031,14 +1031,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "When refunds may be approved",
 							paragraphs: [
 								"Duplicate charges, failed delivery despite confirmed payment, or technical activation failures verified by support may qualify for review.",
-								"Refund decisions are final. Chargebacks without contacting support first may result in license revocation. See also <a href=\"/destiny-2-cheats-terms/\">Terms of Use</a>.",
+								"Refund decisions are final. Chargebacks without contacting support first may result in license revocation. See also <a href=\"/terms/\">Terms of Use</a>.",
 							],
 						},
 						{
 							h2: "How to request a refund",
 							paragraphs: [
-								"Email support@destiny2cheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/destiny-2-cheats-support/\">Support page</a>.",
-								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/destiny-2-cheats-pricing/\">Pricing</a>.",
+								"Email support@destiny2cheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
+								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 					],
@@ -1053,7 +1053,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Destiny 2 Cheats legal pages",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy policy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance and license scope",
@@ -1066,14 +1066,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
 								"Using cheats in Destiny 2 may violate Bungie terms and result in account penalties. Destiny 2 Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/destiny-2-cheats/\">undetected status</a>.",
+								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/d2-cheats/\">undetected status</a>.",
 							],
 						},
 						{
 							h2: "Changes and governing law",
 							paragraphs: [
 								"We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.",
-								"Contact support@destiny2cheats.org for questions. Related policies: <a href=\"/destiny-2-cheats-privacy/\">Privacy</a> and <a href=\"/destiny-2-cheats-refund/\">Refunds</a>.",
+								"Contact support@destiny2cheats.org for questions. Related policies: <a href=\"/privacy/\">Privacy</a> and <a href=\"/refund/\">Refunds</a>.",
 							],
 						},
 					],
@@ -1164,7 +1164,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Por qué eligen Destiny 2 Cheats en 2026",
@@ -1192,7 +1192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -1262,7 +1262,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funciones",
@@ -1297,7 +1297,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Precios",
@@ -1332,7 +1332,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Instalación",
@@ -1367,7 +1367,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Actualizaciones",
@@ -1402,7 +1402,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -1437,7 +1437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Soporte",
@@ -1472,7 +1472,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Trucos indetectables",
@@ -1577,7 +1577,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -1612,7 +1612,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Trucos Destiny 2 2026",
@@ -1647,7 +1647,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Trucos Destiny 2",
@@ -1682,7 +1682,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Descarga Destiny 2 Cheats",
@@ -1717,7 +1717,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Menú mod Destiny 2",
@@ -1787,7 +1787,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Mejores trucos Destiny 2",
@@ -1892,7 +1892,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -1927,7 +1927,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Leer términos",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Información que recopilamos",
@@ -1962,7 +1962,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Leer privacidad",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Entrega digital",
@@ -1997,7 +1997,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Leer privacidad",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Aceptación de términos",
@@ -2107,7 +2107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Pourquoi choisir Destiny 2 Cheats en 2026",
@@ -2135,7 +2135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -2205,7 +2205,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Fonctions",
@@ -2240,7 +2240,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Tarifs",
@@ -2275,7 +2275,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Installation",
@@ -2310,7 +2310,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Mises à jour",
@@ -2345,7 +2345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -2380,7 +2380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Support",
@@ -2415,7 +2415,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Triches indétectables",
@@ -2520,7 +2520,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -2555,7 +2555,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Triches Destiny 2 2026",
@@ -2590,7 +2590,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Triches Destiny 2",
@@ -2625,7 +2625,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Téléchargement Destiny 2 Cheats",
@@ -2660,7 +2660,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Menu mod Destiny 2",
@@ -2730,7 +2730,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Meilleures triches Destiny 2",
@@ -2835,7 +2835,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acheter Destiny 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -2870,7 +2870,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Lire conditions",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Informations collectées",
@@ -2905,7 +2905,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Livraison numérique",
@@ -2940,7 +2940,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptation",
@@ -3050,7 +3050,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Warum Destiny 2 Cheats 2026 führt",
@@ -3078,7 +3078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -3148,7 +3148,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Features",
@@ -3183,7 +3183,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Preise",
@@ -3218,7 +3218,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Setup",
@@ -3253,7 +3253,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Updates",
@@ -3288,7 +3288,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -3323,7 +3323,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Support",
@@ -3358,7 +3358,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected Cheats",
@@ -3463,7 +3463,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -3498,7 +3498,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -3533,7 +3533,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -3568,7 +3568,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -3603,7 +3603,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod-Menü",
@@ -3673,7 +3673,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Beste Destiny 2 Cheats",
@@ -3778,7 +3778,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -3813,7 +3813,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Nutzungsbedingungen",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Erhobene Daten",
@@ -3848,7 +3848,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digitale Lieferung",
@@ -3883,7 +3883,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Annahme",
@@ -3993,7 +3993,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Por que escolher Destiny 2 Cheats em 2026",
@@ -4021,7 +4021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -4091,7 +4091,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Recursos",
@@ -4126,7 +4126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Preços",
@@ -4161,7 +4161,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Instalação",
@@ -4196,7 +4196,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Atualizações",
@@ -4231,7 +4231,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -4266,7 +4266,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Suporte",
@@ -4301,7 +4301,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheats indetectáveis",
@@ -4406,7 +4406,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -4441,7 +4441,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheats Destiny 2 2026",
@@ -4476,7 +4476,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheats Destiny 2",
@@ -4511,7 +4511,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Download Destiny 2 Cheats",
@@ -4546,7 +4546,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Menu mod Destiny 2",
@@ -4616,7 +4616,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Melhores cheats Destiny 2",
@@ -4721,7 +4721,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Destiny 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -4756,7 +4756,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -4791,7 +4791,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -4826,7 +4826,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -4936,7 +4936,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Perché scegliere Destiny 2 Cheats nel 2026",
@@ -4964,7 +4964,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -5034,7 +5034,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funzioni",
@@ -5069,7 +5069,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Prezzi",
@@ -5104,7 +5104,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Setup",
@@ -5139,7 +5139,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Aggiornamenti",
@@ -5174,7 +5174,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -5209,7 +5209,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Supporto",
@@ -5244,7 +5244,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat indetectable",
@@ -5349,7 +5349,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -5384,7 +5384,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 2026",
@@ -5419,7 +5419,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2",
@@ -5454,7 +5454,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Download Destiny 2 Cheats",
@@ -5489,7 +5489,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Mod menu Destiny 2",
@@ -5559,7 +5559,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Migliori cheat Destiny 2",
@@ -5664,7 +5664,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Acquista Destiny 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -5699,7 +5699,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -5734,7 +5734,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -5769,7 +5769,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -5879,7 +5879,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Waarom Destiny 2 Cheats in 2026",
@@ -5907,7 +5907,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -5977,7 +5977,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Functies",
@@ -6012,7 +6012,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Prijzen",
@@ -6047,7 +6047,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Setup",
@@ -6082,7 +6082,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Updates",
@@ -6117,7 +6117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -6152,7 +6152,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Support",
@@ -6187,7 +6187,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected Cheats",
@@ -6292,7 +6292,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -6327,7 +6327,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -6362,7 +6362,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -6397,7 +6397,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -6432,7 +6432,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod Menu",
@@ -6502,7 +6502,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Beste Destiny 2 Cheats",
@@ -6607,7 +6607,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -6642,7 +6642,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -6677,7 +6677,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -6712,7 +6712,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -6822,7 +6822,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Dlaczego Destiny 2 Cheats w 2026",
@@ -6850,7 +6850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -6920,7 +6920,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funkcje",
@@ -6955,7 +6955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Cennik",
@@ -6990,7 +6990,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Instalacja",
@@ -7025,7 +7025,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Aktualizacje",
@@ -7060,7 +7060,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -7095,7 +7095,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Wsparcie",
@@ -7130,7 +7130,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheaty undetected",
@@ -7235,7 +7235,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -7270,7 +7270,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheaty Destiny 2 2026",
@@ -7305,7 +7305,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheaty Destiny 2",
@@ -7340,7 +7340,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Pobieranie Destiny 2 Cheats",
@@ -7375,7 +7375,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Mod menu Destiny 2",
@@ -7445,7 +7445,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Najlepsze cheaty Destiny 2",
@@ -7550,7 +7550,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Kup Destiny 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -7585,7 +7585,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -7620,7 +7620,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -7655,7 +7655,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -7765,7 +7765,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Почему выбирают Destiny 2 Cheats в 2026",
@@ -7793,7 +7793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -7863,7 +7863,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Функции",
@@ -7898,7 +7898,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Цены",
@@ -7933,7 +7933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Установка",
@@ -7968,7 +7968,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Обновления",
@@ -8003,7 +8003,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -8038,7 +8038,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Поддержка",
@@ -8073,7 +8073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected читы",
@@ -8178,7 +8178,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -8213,7 +8213,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Читы Destiny 2 2026",
@@ -8248,7 +8248,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Читы Destiny 2",
@@ -8283,7 +8283,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Скачать Destiny 2 Cheats",
@@ -8318,7 +8318,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Мод-меню Destiny 2",
@@ -8388,7 +8388,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Лучшие читы Destiny 2",
@@ -8493,7 +8493,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купить Destiny 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -8528,7 +8528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -8563,7 +8563,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -8598,7 +8598,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -8708,7 +8708,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "2026'da neden Destiny 2 Cheats",
@@ -8736,7 +8736,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -8806,7 +8806,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Özellikler",
@@ -8841,7 +8841,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Fiyatlar",
@@ -8876,7 +8876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Kurulum",
@@ -8911,7 +8911,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Güncellemeler",
@@ -8946,7 +8946,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "SSS",
@@ -8981,7 +8981,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destek",
@@ -9016,7 +9016,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected hileler",
@@ -9121,7 +9121,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye bypass",
@@ -9156,7 +9156,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Hileleri 2026",
@@ -9191,7 +9191,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Hileleri",
@@ -9226,7 +9226,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Hile İndir",
@@ -9261,7 +9261,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod Menü",
@@ -9331,7 +9331,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "En İyi Destiny 2 Hileleri",
@@ -9436,7 +9436,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -9471,7 +9471,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -9506,7 +9506,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -9541,7 +9541,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -9651,7 +9651,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "لماذا Destiny 2 Cheats في 2026",
@@ -9679,7 +9679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -9749,7 +9749,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "الميزات",
@@ -9784,7 +9784,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "الأسعار",
@@ -9819,7 +9819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "التثبيت",
@@ -9854,7 +9854,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "التحديثات",
@@ -9889,7 +9889,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "الأسئلة",
@@ -9924,7 +9924,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "الدعم",
@@ -9959,7 +9959,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "غش undetected",
@@ -10064,7 +10064,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -10099,7 +10099,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "غش Destiny 2 2026",
@@ -10134,7 +10134,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "غش Destiny 2",
@@ -10169,7 +10169,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "تحميل Destiny 2 Cheats",
@@ -10204,7 +10204,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "قائمة مود Destiny 2",
@@ -10274,7 +10274,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "أفضل غش Destiny 2",
@@ -10379,7 +10379,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "اشترِ Destiny 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -10414,7 +10414,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "مراسلة الدعم",
 					ctaSecondary: "اقرأ الشروط",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "المعلومات التي نجمعها",
@@ -10449,7 +10449,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "مراسلة الدعم",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "التسليم الرقمي",
@@ -10484,7 +10484,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "مراسلة الدعم",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "قبول الشروط",
@@ -10594,7 +10594,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "2026年にDestiny 2 Cheatsを選ぶ理由",
@@ -10622,7 +10622,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -10692,7 +10692,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "機能",
@@ -10727,7 +10727,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "料金",
@@ -10762,7 +10762,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "セットアップ",
@@ -10797,7 +10797,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "更新",
@@ -10832,7 +10832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -10867,7 +10867,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "サポート",
@@ -10902,7 +10902,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetectedチート",
@@ -11007,7 +11007,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -11042,7 +11042,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -11077,7 +11077,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -11112,7 +11112,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -11147,7 +11147,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod Menu",
@@ -11217,7 +11217,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "最強Destiny 2チート",
@@ -11322,7 +11322,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -11357,7 +11357,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "サポートにメール",
 					ctaSecondary: "利用規約",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "収集する情報",
@@ -11392,7 +11392,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "サポートにメール",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "デジタル配信",
@@ -11427,7 +11427,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "サポートにメール",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "規約への同意",
@@ -11537,7 +11537,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "2026년 Destiny 2 Cheats를 선택하는 이유",
@@ -11565,7 +11565,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -11635,7 +11635,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "기능",
@@ -11670,7 +11670,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "가격",
@@ -11705,7 +11705,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "설치",
@@ -11740,7 +11740,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "업데이트",
@@ -11775,7 +11775,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -11810,7 +11810,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "지원",
@@ -11845,7 +11845,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected 치트",
@@ -11950,7 +11950,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -11985,7 +11985,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -12020,7 +12020,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -12055,7 +12055,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -12090,7 +12090,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 모드 메뉴",
@@ -12160,7 +12160,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "최고의 Destiny 2 치트",
@@ -12265,7 +12265,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -12300,7 +12300,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "지원 이메일",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -12335,7 +12335,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "지원 이메일",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -12370,7 +12370,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "지원 이메일",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -12480,7 +12480,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "2026年选择Destiny 2 Cheats的原因",
@@ -12508,7 +12508,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -12578,7 +12578,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "功能",
@@ -12613,7 +12613,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "价格",
@@ -12648,7 +12648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "安装",
@@ -12683,7 +12683,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "更新",
@@ -12718,7 +12718,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "常见问题",
@@ -12753,7 +12753,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "支持",
@@ -12788,7 +12788,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected作弊",
@@ -12893,7 +12893,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -12928,7 +12928,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2作弊 2026",
@@ -12963,7 +12963,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2作弊",
@@ -12998,7 +12998,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2作弊下载",
@@ -13033,7 +13033,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2修改菜单",
@@ -13103,7 +13103,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "最佳Destiny 2作弊",
@@ -13208,7 +13208,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "购买 Destiny 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -13243,7 +13243,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "邮件支持",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -13278,7 +13278,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "邮件支持",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -13313,7 +13313,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "邮件支持",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -13423,7 +13423,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "2026 में Destiny 2 Cheats क्यों",
@@ -13451,7 +13451,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -13521,7 +13521,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "फ़ीचर्स",
@@ -13556,7 +13556,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "कीमत",
@@ -13591,7 +13591,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "सेटअप",
@@ -13626,7 +13626,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "अपडेट",
@@ -13661,7 +13661,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -13696,7 +13696,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "सहायता",
@@ -13731,7 +13731,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheats",
@@ -13836,7 +13836,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -13871,7 +13871,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -13906,7 +13906,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -13941,7 +13941,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -13976,7 +13976,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod Menu",
@@ -14046,7 +14046,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "सर्वश्रेष्ठ Destiny 2 Cheats",
@@ -14151,7 +14151,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Destiny 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -14186,7 +14186,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -14221,7 +14221,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -14256,7 +14256,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -14366,7 +14366,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Mengapa Destiny 2 Cheats di 2026",
@@ -14394,7 +14394,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -14464,7 +14464,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Fitur",
@@ -14499,7 +14499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Harga",
@@ -14534,7 +14534,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Setup",
@@ -14569,7 +14569,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Pembaruan",
@@ -14604,7 +14604,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -14639,7 +14639,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Dukungan",
@@ -14674,7 +14674,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat undetected",
@@ -14779,7 +14779,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -14814,7 +14814,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 2026",
@@ -14849,7 +14849,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2",
@@ -14884,7 +14884,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Download Cheat Destiny 2",
@@ -14919,7 +14919,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Menu mod Destiny 2",
@@ -14989,7 +14989,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 terbaik",
@@ -15094,7 +15094,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Beli Destiny 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -15129,7 +15129,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -15164,7 +15164,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -15199,7 +15199,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -15309,7 +15309,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "ทำไมเลือก Destiny 2 Cheats ปี 2026",
@@ -15337,7 +15337,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -15407,7 +15407,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "ฟีเจอร์",
@@ -15442,7 +15442,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "ราคา",
@@ -15477,7 +15477,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "ติดตั้ง",
@@ -15512,7 +15512,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "อัปเดต",
@@ -15547,7 +15547,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -15582,7 +15582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "สนับสนุน",
@@ -15617,7 +15617,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheats undetected",
@@ -15722,7 +15722,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -15757,7 +15757,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -15792,7 +15792,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -15827,7 +15827,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "ดาวน์โหลด Destiny 2 Cheats",
@@ -15862,7 +15862,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "เมนูมอด Destiny 2",
@@ -15932,7 +15932,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 ที่ดีที่สุด",
@@ -16037,7 +16037,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "ซื้อ Destiny 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -16072,7 +16072,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -16107,7 +16107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -16142,7 +16142,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -16252,7 +16252,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Vì sao chọn Destiny 2 Cheats 2026",
@@ -16280,7 +16280,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -16350,7 +16350,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Tính năng",
@@ -16385,7 +16385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Giá",
@@ -16420,7 +16420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Cài đặt",
@@ -16455,7 +16455,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cập nhật",
@@ -16490,7 +16490,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -16525,7 +16525,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Hỗ trợ",
@@ -16560,7 +16560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat undetected",
@@ -16665,7 +16665,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -16700,7 +16700,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 2026",
@@ -16735,7 +16735,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2",
@@ -16770,7 +16770,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Tải Cheat Destiny 2",
@@ -16805,7 +16805,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Mod menu Destiny 2",
@@ -16875,7 +16875,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Cheat Destiny 2 tốt nhất",
@@ -16980,7 +16980,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Mua Destiny 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -17015,7 +17015,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -17050,7 +17050,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -17085,7 +17085,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -17195,7 +17195,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Чому Destiny 2 Cheats у 2026",
@@ -17223,7 +17223,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -17293,7 +17293,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Функції",
@@ -17328,7 +17328,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Ціни",
@@ -17363,7 +17363,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Встановлення",
@@ -17398,7 +17398,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Оновлення",
@@ -17433,7 +17433,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -17468,7 +17468,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Підтримка",
@@ -17503,7 +17503,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected чіти",
@@ -17608,7 +17608,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -17643,7 +17643,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Чіти Destiny 2 2026",
@@ -17678,7 +17678,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Чіти Destiny 2",
@@ -17713,7 +17713,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Завантаження Destiny 2 Cheats",
@@ -17748,7 +17748,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Мод-меню Destiny 2",
@@ -17818,7 +17818,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Найкращі чіти Destiny 2",
@@ -17923,7 +17923,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Купити Destiny 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -17958,7 +17958,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -17993,7 +17993,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -18028,7 +18028,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -18138,7 +18138,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Proč Destiny 2 Cheats v roce 2026",
@@ -18166,7 +18166,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -18236,7 +18236,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funkce",
@@ -18271,7 +18271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Ceny",
@@ -18306,7 +18306,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Instalace",
@@ -18341,7 +18341,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Aktualizace",
@@ -18376,7 +18376,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -18411,7 +18411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Podpora",
@@ -18446,7 +18446,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheaty",
@@ -18551,7 +18551,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -18586,7 +18586,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 cheaty 2026",
@@ -18621,7 +18621,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 cheaty",
@@ -18656,7 +18656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Stáhnout Destiny 2 Cheats",
@@ -18691,7 +18691,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 mod menu",
@@ -18761,7 +18761,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Nejlepší Destiny 2 cheaty",
@@ -18866,7 +18866,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Koupit Destiny 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -18901,7 +18901,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -18936,7 +18936,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -18971,7 +18971,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -19081,7 +19081,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "De ce Destiny 2 Cheats în 2026",
@@ -19109,7 +19109,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "ESP Destiny 2",
@@ -19179,7 +19179,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funcții",
@@ -19214,7 +19214,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Prețuri",
@@ -19249,7 +19249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Instalare",
@@ -19284,7 +19284,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Actualizări",
@@ -19319,7 +19319,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -19354,7 +19354,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Suport",
@@ -19389,7 +19389,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheats undetected",
@@ -19494,7 +19494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "Bypass BattlEye",
@@ -19529,7 +19529,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Cheats Destiny 2 2026",
@@ -19564,7 +19564,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Cheats Destiny 2",
@@ -19599,7 +19599,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Descărcare Destiny 2 Cheats",
@@ -19634,7 +19634,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Meniu mod Destiny 2",
@@ -19704,7 +19704,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Cele mai bune cheats Destiny 2",
@@ -19809,7 +19809,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Cumpără Destiny 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Unlock all Destiny 2",
@@ -19844,7 +19844,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -19879,7 +19879,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -19914,7 +19914,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",
@@ -20024,7 +20024,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Varför Destiny 2 Cheats 2026",
@@ -20052,7 +20052,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 ESP",
@@ -20122,7 +20122,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Funktioner",
@@ -20157,7 +20157,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Priser",
@@ -20192,7 +20192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "Installation",
@@ -20227,7 +20227,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Uppdateringar",
@@ -20262,7 +20262,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-support/",
+					ctaSecondaryHref: "/support/",
 					sections: [
 						{
 							h2: "FAQ",
@@ -20297,7 +20297,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Support",
@@ -20332,7 +20332,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheats",
@@ -20437,7 +20437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-status/",
+					ctaSecondaryHref: "/status/",
 					sections: [
 						{
 							h2: "BattlEye Bypass",
@@ -20472,7 +20472,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats/",
+					ctaSecondaryHref: "/d2-cheats/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats 2026",
@@ -20507,7 +20507,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheats",
@@ -20542,7 +20542,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-setup/",
+					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
 							h2: "Destiny 2 Cheat Download",
@@ -20577,7 +20577,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Mod-meny",
@@ -20647,7 +20647,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-pricing/",
+					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
 							h2: "Bästa Destiny 2 Cheats",
@@ -20752,7 +20752,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 					ctaPrimary: "Köp Destiny 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/destiny-2-cheats-features/",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Destiny 2 Unlock All",
@@ -20787,7 +20787,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read terms",
-					ctaSecondaryHref: "/destiny-2-cheats-terms/",
+					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
 							h2: "Information we collect",
@@ -20822,7 +20822,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Digital delivery",
@@ -20857,7 +20857,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 					ctaPrimary: "Email support",
 					ctaSecondary: "Read privacy",
-					ctaSecondaryHref: "/destiny-2-cheats-privacy/",
+					ctaSecondaryHref: "/privacy/",
 					sections: [
 						{
 							h2: "Acceptance of terms",

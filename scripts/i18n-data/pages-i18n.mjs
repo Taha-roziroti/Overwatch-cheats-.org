@@ -40,7 +40,7 @@ function buildHome(locale) {
 		heroImage: HERO_IMAGES.home,
 		ctaPrimary: p.buy,
 		ctaSecondary: m.cta2,
-		ctaSecondaryHref: '/destiny-2-cheats-features/',
+		ctaSecondaryHref: '/features/',
 		sections: [
 			section(m.h2a, p.s1(m.topicA), p.s2()),
 			section(m.h2b, p.s1(m.topicB), p.s3()),
@@ -267,27 +267,27 @@ const TOPIC_NAMES = {
 };
 
 const CTA2_HREF = {
-	'destiny-2-esp': '/destiny-2-cheats/',
+	'destiny-2-esp': '/d2-cheats/',
 	'destiny-2-aimbot': '/destiny-2-esp/',
-	features: '/destiny-2-cheats-pricing/',
-	pricing: '/destiny-2-cheats-setup/',
-	setup: '/destiny-2-cheats-support/',
-	updates: '/destiny-2-cheats/',
-	faq: '/destiny-2-cheats-support/',
-	support: '/destiny-2-cheats-setup/',
-	undetected: '/destiny-2-cheats/',
+	features: '/pricing/',
+	pricing: '/setup/',
+	setup: '/support/',
+	updates: '/d2-cheats/',
+	faq: '/support/',
+	support: '/setup/',
+	undetected: '/d2-cheats/',
 	wallhack: '/destiny-2-esp/',
 	radar: '/destiny-2-esp/',
-	anticheat: '/destiny-2-cheats-status/',
-	'cheats-2026': '/destiny-2-cheats/',
-	hacks: '/destiny-2-cheats-features/',
-	'cheat-download': '/destiny-2-cheats-setup/',
-	'crucible-cheats': '/destiny-2-cheats-features/',
+	anticheat: '/status/',
+	'cheats-2026': '/d2-cheats/',
+	hacks: '/features/',
+	'cheat-download': '/setup/',
+	'crucible-cheats': '/features/',
 	'aim-assist': '/destiny-2-aimbot/',
-	'best-cheats': '/destiny-2-cheats-pricing/',
+	'best-cheats': '/pricing/',
 	'aimbot-hack': '/destiny-2-aimbot/',
 	'esp-hack': '/destiny-2-esp/',
-	'pve-cheats': '/destiny-2-cheats-features/',
+	'pve-cheats': '/features/',
 };
 
 function buildLegal(locale, pageKey, kind) {
@@ -308,7 +308,7 @@ function buildLegal(locale, pageKey, kind) {
 		heroImage: HERO_IMAGES[pageKey],
 		ctaPrimary: locale === 'ar' ? 'مراسلة الدعم' : locale === 'ja' ? 'サポートにメール' : locale === 'ko' ? '지원 이메일' : locale === 'zh' ? '邮件支持' : 'Email support',
 		ctaSecondary: kind === 'privacy' ? (locale === 'es' ? 'Leer términos' : locale === 'fr' ? 'Lire conditions' : locale === 'de' ? 'Nutzungsbedingungen' : locale === 'ar' ? 'اقرأ الشروط' : locale === 'ja' ? '利用規約' : 'Read terms') : kind === 'refund' ? (locale === 'es' ? 'Leer privacidad' : 'Read privacy') : (locale === 'es' ? 'Leer privacidad' : 'Read privacy'),
-		ctaSecondaryHref: kind === 'privacy' ? '/destiny-2-cheats-terms/' : '/destiny-2-cheats-privacy/',
+		ctaSecondaryHref: kind === 'privacy' ? '/terms/' : '/privacy/',
 		sections: [
 			section(
 				kind === 'privacy' ? (locale === 'es' ? 'Información que recopilamos' : locale === 'fr' ? 'Informations collectées' : locale === 'de' ? 'Erhobene Daten' : locale === 'ar' ? 'المعلومات التي نجمعها' : locale === 'ja' ? '収集する情報' : 'Information we collect') :

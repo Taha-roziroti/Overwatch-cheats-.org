@@ -9,18 +9,18 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const PATH_REPLACEMENTS = [
-	['/features/', '/destiny-2-cheats-features/'],
-	['/pricing/', '/destiny-2-cheats-pricing/'],
-	['/setup/', '/destiny-2-cheats-setup/'],
-	['/updates/', '/destiny-2-cheats-status/'],
-	['/faq/', '/destiny-2-cheats-faq/'],
-	['/support/', '/destiny-2-cheats-support/'],
-	['/reviews/', '/destiny-2-cheats-reviews/'],
-	['/blog/', '/destiny-2-cheats-blog/'],
-	['/privacy-policy/', '/destiny-2-cheats-privacy/'],
-	['/refund-policy/', '/destiny-2-cheats-refund/'],
-	['/terms/', '/destiny-2-cheats-terms/'],
-	['/hacks/', '/destiny-2-cheats/'],
+	['/features/', '/features/'],
+	['/pricing/', '/pricing/'],
+	['/setup/', '/setup/'],
+	['/updates/', '/status/'],
+	['/faq/', '/faq/'],
+	['/support/', '/support/'],
+	['/reviews/', '/reviews/'],
+	['/blog/', '/blog/'],
+	['/privacy-policy/', '/privacy/'],
+	['/refund-policy/', '/refund/'],
+	['/terms/', '/terms/'],
+	['/hacks/', '/d2-cheats/'],
 ];
 
 const COPY_REPLACEMENTS = [
@@ -73,7 +73,7 @@ const COPY_REPLACEMENTS = [
 	[/Destiny 2 cheats package for Destiny 2/g, 'Destiny 2 cheats package'],
 	[/for Destiny 2 on Windows PC — with/g, 'on Windows PC — with'],
 	[/Blog guides expand BattlEye keyword:/g, 'Related guides:'],
-	[/escape-from-destiny-2-cheats-buyers-guide/g, 'destiny-2-cheats-buyers-guide'],
+	[/escape-from-buyers-guide/g, 'buyers-guide'],
 	[/budget EFT Shops/g, 'Budget Cheat Shops'],
 	[/Budget EFT Cheat Shops/g, 'Budget Cheat Shops'],
 	[/budget eft cheats/gi, 'budget cheat shops'],
@@ -88,7 +88,7 @@ const COPY_REPLACEMENTS = [
 	[/wipe feel/g, 'season feel'],
 	[/before a wipe/g, 'before a season reset'],
 	[/late-wipe/g, 'late-season'],
-	[/\/blog\/destiny-2-scav-run-aggressive-strategies\//g, '/destiny-2-cheats-blog/destiny-2-pve-aggressive-strategies/'],
+	[/\/blog\/destiny-2-scav-run-aggressive-strategies\//g, '/blog/pve-strategies/'],
 	[/destiny-2-destiny-2-pve/g, 'destiny-2-pve'],
 	[/customs loot path/gi, 'Crucible loot path'],
 	[/interchange loot/gi, 'Europa loot'],
@@ -144,23 +144,23 @@ for (const rel of TARGETS) {
 // Blog slug redirect for renamed buyers guide
 const redirectsPath = path.join(ROOT, 'public/_redirects');
 let redirects = readFileSync(redirectsPath, 'utf8');
-const blogRedirect = '/destiny-2-cheats-blog/escape-from-destiny-2-cheats-buyers-guide';
+const blogRedirect = '/blog/escape-from-buyers-guide';
 if (!redirects.includes(blogRedirect)) {
-	redirects += `\n${blogRedirect} /destiny-2-cheats-blog/destiny-2-cheats-buyers-guide/ 301\n${blogRedirect}/ /destiny-2-cheats-blog/destiny-2-cheats-buyers-guide/ 301\n`;
+	redirects += `\n${blogRedirect} /blog/buyers-guide/ 301\n${blogRedirect}/ /blog/buyers-guide/ 301\n`;
 	writeFileSync(redirectsPath, redirects, 'utf8');
 	console.log('added blog slug redirect');
 }
 
 // Tarkov legacy paths → Destiny 2 canonical landings
 const tarkovRedirects = [
-	['/escape-from-tarkov-cheats', '/destiny-2-cheats/'],
+	['/escape-from-tarkov-cheats', '/d2-cheats/'],
 	['/tarkov-esp-hack', '/destiny-2-esp/'],
 	['/tarkov-aimbot-hack', '/destiny-2-aimbot/'],
-	['/best-tarkov-cheats', '/destiny-2-cheats/'],
-	['/tarkov-cheats-2026', '/destiny-2-cheats/'],
-	['/undetected-tarkov-cheats', '/destiny-2-cheats/'],
-	['/tarkov-mod-menu', '/destiny-2-crucible-cheats/'],
-	['/tarkov-unlock-all', '/destiny-2-cheats/'],
+	['/best-tarkov-cheats', '/d2-cheats/'],
+	['/tarkov-cheats-2026', '/d2-cheats/'],
+	['/undetected-tarkov-cheats', '/d2-cheats/'],
+	['/tarkov-mod-menu', '/d2-crucible/'],
+	['/tarkov-unlock-all', '/d2-cheats/'],
 	['/tarkov-soft-aim', '/destiny-2-aimbot/'],
 	['/tarkov-wallhack', '/destiny-2-esp/'],
 ];

@@ -52,7 +52,7 @@ export function getBlogImageSrc(key: BlogImageKey): string {
 }
 
 export function getBlogBasePath(locale: LocaleCode): string {
-	return locale === defaultLocale ? '/destiny-2-cheats-blog/' : `/${locale}/blog/`;
+	return locale === defaultLocale ? '/blog/' : `/${locale}/blog/`;
 }
 
 export function isBlogPath(pathname: string): boolean {
