@@ -236,7 +236,12 @@ const breadcrumbs = [
 							<p class="gallery-block__eyebrow">{t('common.gallery')}</p>
 							<h2 id="page-gallery-title">{resolvedGalleryTitle}</h2>
 						</header>
-						<div class="gallery-block__grid">
+						<div
+							class:list={[
+								'gallery-block__grid',
+								normalizedGallery.length === 2 && 'gallery-block__grid--two',
+							]}
+						>
 							{normalizedGallery.map((image) => (
 								<figure class="gallery-block__item">
 									<img
@@ -641,6 +646,10 @@ const breadcrumbs = [
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 0.65rem;
+	}
+
+	.gallery-block__grid--two {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
 	.gallery-block__item {
