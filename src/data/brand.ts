@@ -39,14 +39,14 @@ export const brand = {
 	platforms: ['Windows PC'] as const,
 
 	/**
-	 * Site color tones — #FAFBFD canvas, #AA0003 accent, #BFB4DC soft.
+	 * Site color tones — #FAFBFD canvas, #B10FF6 brand accent, derived soft/deep/hover.
 	 */
 	theme: {
-		accent: '#AA0003',
+		accent: '#B10FF6',
 		bg: '#FAFBFD',
-		soft: '#BFB4DC',
-		deep: '#7a0002',
-		hover: '#c41418',
+		soft: '#d085f1',
+		deep: '#7602a7',
+		hover: '#bf45f3',
 		panel: '#FFFFFF',
 	},
 

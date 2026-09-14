@@ -5,26 +5,26 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Light canvas — #FAFBFD / #AA0003 / #BFB4DC brand palette */
+	/* Light canvas — #FAFBFD / #B10FF6 brand accent */
 	--bg: #FAFBFD;
 	--bg-panel: #ffffff;
-	--bg-elevated: #f3eff8;
-	--bg-hover: #ebe4f4;
-	--line: #d4c8e4;
-	--line-soft: #e4dcef;
-	--line-strong: #bfb4dc;
+	--bg-elevated: #f5effc;
+	--bg-hover: #efe4fa;
+	--line: #d8c4ec;
+	--line-soft: #e8d8f4;
+	--line-strong: #d085f1;
 	--ink: #1a1218;
 	--ink-muted: #5c5470;
 	--ink-faint: #8a8299;
 
-	/* Brand accent — crimson + lavender soft */
-	--magenta: #AA0003;
-	--magenta-soft: #BFB4DC;
-	--magenta-deep: #7a0002;
+	/* Brand accent — violet purple */
+	--magenta: #B10FF6;
+	--magenta-soft: #d085f1;
+	--magenta-deep: #7602a7;
 	--accent: var(--magenta);
-	--accent-hover: #c41418;
+	--accent-hover: #bf45f3;
 	--ok: #2d7a52;
-	--warn: #AA0003;
+	--warn: #B10FF6;
 
 	/* Legacy aliases */
 	--tone-void: #f0ebf6;
