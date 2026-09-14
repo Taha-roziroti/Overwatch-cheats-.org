@@ -90,7 +90,7 @@ export function getGuideSitemapEntries() {
 /** Native product guides relevant to a game — used for contextual internal links on guide articles. */
 export function getRelatedNativeGuides(gameId: string, limit = 3) {
 	const slugsByGame: Record<string, string[]> = {
-		'destiny-2': ['overwatch-2-cheats', 'overwatch-2-esp', 'overwatch-2-aimbot', 'overwatch-2-hero-scripts'],
+		'overwatch-2': ['overwatch-2-cheats', 'overwatch-2-esp', 'overwatch-2-aimbot', 'overwatch-2-hero-scripts'],
 	};
 
 	const slugs = slugsByGame[gameId];

@@ -15,7 +15,7 @@ export { brand, fillBrandTokens, seoDescription, seoTitle };
 const copyDefaults = {
 	tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 	summary:
-		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, tracking aimbot, and radar, with {antiCheat} maintenance after patches.',
 	heroLede: 'Hacks and cheats available — 0% detection.',
 	blogLabel: '{game} Intel',
 	ctaBuy: 'Buy now',
@@ -23,14 +23,14 @@ const copyDefaults = {
 	featuresIntro: 'Everything included in one license for {game} on Windows PC.',
 	storeIntro: 'Pick a plan. Same features on both. Instant delivery after payment.',
 	statusIntro: 'Check here after a {game} or {antiCheat} patch before you play.',
-	previewIntro: 'A quick look at {brand} — ESP, aimbot, radar, and updates after patches.',
+	previewIntro: 'A quick look at {brand} — ESP, aimbot, wallhack, and updates after patches.',
 	setupIntro: 'Install {brand} on Windows PC after you buy. Follow these short steps.',
 	supportIntro: 'Need help with {brand}? Email {email} with your order ID.',
 	faqIntro: 'Short answers about delivery, setup, updates, and refunds.',
-	reviewsIntro: 'Real feedback from {brand} buyers — ESP, soft aim, radar, and support.',
+	reviewsIntro: 'Real feedback from {brand} buyers — ESP, tracking aimbot, wallhack, and support.',
 	chipEsp: 'ESP / wallhack',
-	chipAim: 'Soft aim',
-	chipRadar: '2D radar',
+	chipAim: 'Tracking aimbot',
+	chipRadar: 'wallhack overlays',
 	chipUpdates: 'Patch updates',
 	navPreview: 'Preview',
 	navFeatures: 'Features',
@@ -45,7 +45,7 @@ const seoDefaults = {
 		'{primaryKeyword} for Windows PC — ESP, aimbot, and radar with {antiCheat} maintenance. Compare plans and buy.',
 	featuresTitle: '{game} Features | {brand}',
 	featuresDescription:
-		'Everything in one {game} license for Windows PC — ESP, aimbot, radar, and patch updates.',
+		'Everything in one {game} license for Windows PC — ESP, aimbot, wallhack, and patch updates.',
 	storeTitle: '{game} Store | {brand}',
 	storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
 	statusTitle: '{game} Status | {brand}',
@@ -53,7 +53,7 @@ const seoDefaults = {
 		'Live status for {brand} after {game} or {antiCheat} patches. Check before you queue.',
 	previewTitle: '{game} Preview | {brand}',
 	previewDescription:
-		'Quick preview of {brand} — ESP, aimbot, radar, and updates after {game} patches.',
+		'Quick preview of {brand} — ESP, aimbot, wallhack, and updates after {game} patches.',
 	setupTitle: '{game} Setup | {brand}',
 	setupDescription: 'Install and launch {brand} on Windows PC. Short setup steps after you buy.',
 	supportTitle: '{game} Support | {brand}',
@@ -62,7 +62,7 @@ const seoDefaults = {
 	faqDescription: 'Short answers about {brand} — delivery, setup, updates, and refunds.',
 	reviewsTitle: '{brand} Reviews | Buyer Feedback',
 	reviewsDescription:
-		'Real buyer reviews for {brand} — ESP, soft aim, radar, and patch updates on Windows PC.',
+		'Real buyer reviews for {brand} — ESP, tracking aimbot, wallhack, and patch updates on Windows PC.',
 	blogTitle: '{game} Intel | {brand}',
 	blogDescription: 'Guides and notes for {game} — meta tips, ESP, aimbot, and {antiCheat} updates.',
 } as const;

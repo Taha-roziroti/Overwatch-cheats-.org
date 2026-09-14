@@ -163,7 +163,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Current status',
 				paragraphs: [
-					'As of Sep 2026 the package is online for Overwatch 2 on Windows PC. We post a new note here when a game or Easy Anti-Cheat patch needs a rebuild.',
+					'As of Sep 2026 the package is online for Overwatch 2 on Windows PC. We post a new note here when a game or Blizzard Anti-Cheat patch needs a rebuild.',
 					'If Status is green, you can queue Quick Play or Competitive. If we are rebuilding, wait for the next note.',
 				],
 				list: [
@@ -205,7 +205,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'Tracking aimbot, flickbot & triggerbot',
 					'Full ESP with skeleton, glow & boxes',
 					'Hero scripts for Genji, Tracer & more',
-					'Easy Anti-Cheat rebuilds after patches',
+					'Blizzard Anti-Cheat rebuilds after patches',
 				],
 			},
 			{

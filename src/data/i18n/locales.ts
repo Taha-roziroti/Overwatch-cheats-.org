@@ -95,10 +95,10 @@ export const blogUi: Record<
 	en: {
 		blogTitle: 'Overwatch 2 Cheats Blog | Raid Guides',
 		blogDescription:
-			'Overwatch 2 guides — raid tips, ESP, aimbot notes, loot routes, and Easy Anti-Cheat update coverage. English blog at overwatchcheats.org/overwatch-2-cheats-blog/.',
+			'Overwatch 2 guides — raid tips, ESP, aimbot notes, loot routes, and Blizzard Anti-Cheat update coverage. English blog at overwatchcheats.org/blog/.',
 		blogH1: 'Overwatch 2 Cheats Intel',
 		blogIntro:
-			'Short Overwatch 2 guides for Quick Play, Competitive, and Arcade modes. Pair these tips with the Overwatch 2 Cheats product pages when you need ESP, soft aim, or radar.',
+			'Short Overwatch 2 guides for Quick Play, Competitive, and Arcade modes. Pair these tips with the Overwatch 2 Cheats product pages when you need ESP, tracking aimbot, or radar.',
 		readMore: 'Read guide',
 		published: 'Published',
 		updated: 'Updated',
@@ -113,7 +113,7 @@ export const blogUi: Record<
 			'Blog de Overwatch 2 Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot para Overwatch 2 en PC Windows.',
 		blogH1: 'Blog Overwatch 2 Cheats — Guías globales',
 		blogIntro:
-			'Guías SEO de trucos Overwatch 2 indetectables, ESP wallhack, radar hack, Aimbot y mantenimiento Easy Anti-Cheat anti-cheat en 22 idiomas.',
+			'Guías SEO de trucos Overwatch 2 indetectables, ESP wallhack, wallhack, Aimbot y mantenimiento Blizzard Anti-Cheat en 22 idiomas.',
 		readMore: 'Leer guía',
 		published: 'Publicado',
 		updated: 'Actualizado',
@@ -128,7 +128,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats : triches indétectables, ESP wallhack, radar et Aimbot pour Overwatch 2 sur PC Windows.',
 		blogH1: 'Blog Overwatch 2 Cheats — Guides mondiaux',
 		blogIntro:
-			'Guides SEO triches Overwatch 2 indétectables, ESP wallhack, radar hack, Aimbot et Easy Anti-Cheat anti-cheat en 22 langues.',
+			'Guides SEO triches Overwatch 2 indétectables, ESP wallhack, wallhack, Aimbot et Blizzard Anti-Cheat en 22 langues.',
 		readMore: 'Lire le guide',
 		published: 'Publié',
 		updated: 'Mis à jour',
@@ -143,7 +143,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats Blog mit undetected ESP, Wallhack, Radar und Aimbot Guides für Overwatch 2 auf Windows PC.',
 		blogH1: 'Overwatch 2 Cheats Blog — Globale Guides',
 		blogIntro:
-			'SEO-Guides für undetected Overwatch 2 Cheats, ESP Wallhack, Radar Hack, Aimbot und Easy Anti-Cheat anti-cheat in 22 Sprachen.',
+			'SEO-Guides für undetected Overwatch 2 Cheats, ESP Wallhack, Wallhack, Aimbot und Blizzard Anti-Cheat in 22 Sprachen.',
 		readMore: 'Guide lesen',
 		published: 'Veröffentlicht',
 		updated: 'Aktualisiert',
@@ -158,7 +158,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats com guias de cheats indetectáveis, ESP wallhack, radar e Aimbot para Overwatch 2 no PC.',
 		blogH1: 'Blog Overwatch 2 Cheats — Guias globais',
 		blogIntro:
-			'Guias SEO de cheats Overwatch 2 indetectáveis, ESP wallhack, radar hack, Aimbot e Easy Anti-Cheat anti-cheat em 22 idiomas.',
+			'Guias SEO de cheats Overwatch 2 indetectáveis, ESP wallhack, wallhack, Aimbot e Blizzard Anti-Cheat em 22 idiomas.',
 		readMore: 'Ler guia',
 		published: 'Publicado',
 		updated: 'Atualizado',
@@ -173,7 +173,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats con guide cheat indetectable, ESP wallhack, radar e Aimbot per Overwatch 2 su PC Windows.',
 		blogH1: 'Blog Overwatch 2 Cheats — Guide globali',
 		blogIntro:
-			'Guide SEO cheat Overwatch 2 indetectable, ESP wallhack, radar hack, Aimbot e Easy Anti-Cheat anti-cheat in 22 lingue.',
+			'Guide SEO cheat Overwatch 2 indetectable, ESP wallhack, wallhack, Aimbot e Blizzard Anti-Cheat in 22 lingue.',
 		readMore: 'Leggi guida',
 		published: 'Pubblicato',
 		updated: 'Aggiornato',
@@ -188,7 +188,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats blog met undetected ESP, wallhack, radar en Aimbot gidsen voor Overwatch 2 op Windows PC.',
 		blogH1: 'Overwatch 2 Cheats Blog — Wereldwijde gidsen',
 		blogIntro:
-			'SEO-gidsen voor undetected Overwatch 2 cheats, ESP wallhack, radar hack, Aimbot en Easy Anti-Cheat anti-cheat in 22 talen.',
+			'SEO-gidsen voor undetected Overwatch 2 cheats, ESP wallhack, wallhack, Aimbot en Blizzard Anti-Cheat in 22 talen.',
 		readMore: 'Lees gids',
 		published: 'Gepubliceerd',
 		updated: 'Bijgewerkt',
@@ -203,7 +203,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats z poradnikami undetected ESP, wallhack, radar i Aimbot dla Overwatch 2 na PC.',
 		blogH1: 'Blog Overwatch 2 Cheats — Globalne poradniki',
 		blogIntro:
-			'Poradniki SEO undetected cheatów Overwatch 2, ESP wallhack, radar hack, Aimbot i Easy Anti-Cheat anti-cheat w 22 językach.',
+			'Poradniki SEO undetected cheatów Overwatch 2, ESP wallhack, wallhack, Aimbot i Blizzard Anti-Cheat w 22 językach.',
 		readMore: 'Czytaj poradnik',
 		published: 'Opublikowano',
 		updated: 'Zaktualizowano',
@@ -218,7 +218,7 @@ export const blogUi: Record<
 			'Блог Overwatch 2 Cheats: undetected ESP, wallhack, radar и Aimbot для Overwatch 2 на Windows PC.',
 		blogH1: 'Блог Overwatch 2 Cheats — Глобальные гайды',
 		blogIntro:
-			'SEO-гайды по undetected читам Overwatch 2, ESP wallhack, radar hack, Aimbot и Easy Anti-Cheat anti-cheat на 22 языках.',
+			'SEO-гайды по undetected читам Overwatch 2, ESP wallhack, wallhack, Aimbot и Blizzard Anti-Cheat на 22 языках.',
 		readMore: 'Читать гайд',
 		published: 'Опубликовано',
 		updated: 'Обновлено',
@@ -233,7 +233,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats blog: undetected ESP, wallhack, radar ve Aimbot rehberleri Overwatch 2 Windows PC.',
 		blogH1: 'Overwatch 2 Cheats Blog — Küresel rehberler',
 		blogIntro:
-			'Undetected Overwatch 2 hileleri, ESP wallhack, radar hack, Aimbot ve Easy Anti-Cheat anti-cheat SEO rehberleri 22 dilde.',
+			'Undetected Overwatch 2 hileleri, ESP wallhack, wallhack, Aimbot ve Blizzard Anti-Cheat SEO rehberleri 22 dilde.',
 		readMore: 'Rehberi oku',
 		published: 'Yayınlandı',
 		updated: 'Güncellendi',
@@ -248,7 +248,7 @@ export const blogUi: Record<
 			'مدونة Overwatch 2 Cheats: غش undetected وESP wallhack ورadar وAimbot لـ Overwatch 2 على Windows PC.',
 		blogH1: 'مدونة Overwatch 2 Cheats — أدلة عالمية',
 		blogIntro:
-			'أدلة SEO لغش Overwatch 2 undetected وESP wallhack ورadar hack وAimbot وEasy Anti-Cheat anti-cheat بـ 22 لغة.',
+			'أدلة SEO لغش Overwatch 2 undetected وESP wallhack ورadar hack وAimbot وBlizzard Anti-Cheat بـ 22 لغة.',
 		readMore: 'اقرأ الدليل',
 		published: 'نُشر',
 		updated: 'تم التحديث',
@@ -263,7 +263,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheatsブログ：undetected ESP、wallhack、radar、Aimbotガイド。Overwatch 2 Windows PC向け。',
 		blogH1: 'Overwatch 2 Cheats ブログ — グローバルガイド',
 		blogIntro:
-			'undetected Overwatch 2チート、ESP wallhack、radar hack、Aimbot、Easy Anti-Cheat anti-cheatのSEOガイドを22言語で提供。',
+			'undetected Overwatch 2チート、ESP wallhack、wallhack、Aimbot、Blizzard Anti-CheatのSEOガイドを22言語で提供。',
 		readMore: 'ガイドを読む',
 		published: '公開日',
 		updated: '更新日',
@@ -275,10 +275,10 @@ export const blogUi: Record<
 	ko: {
 		blogTitle: 'Overwatch 2 Cheats 블로그 2026 | 22개 언어 가이드',
 		blogDescription:
-			'Overwatch 2 Cheats 블로그: undetected ESP, wallhack, radar, Aimbot 가이드. Overwatch 2 Windows PC.',
+			'Overwatch 2 Cheats 블로그: undetected ESP, wallhack, wallhack, Aimbot 가이드. Overwatch 2 Windows PC.',
 		blogH1: 'Overwatch 2 Cheats 블로그 — 글로벌 가이드',
 		blogIntro:
-			'undetected Overwatch 2 치트, ESP wallhack, radar hack, Aimbot, Easy Anti-Cheat anti-cheat SEO 가이드를 22개 언어로 제공.',
+			'undetected Overwatch 2 치트, ESP wallhack, wallhack, Aimbot, Blizzard Anti-Cheat SEO 가이드를 22개 언어로 제공.',
 		readMore: '가이드 읽기',
 		published: '게시일',
 		updated: '업데이트',
@@ -293,7 +293,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats博客：undetected ESP、wallhack、radar和Aimbot指南，适用于Overwatch 2 Windows PC。',
 		blogH1: 'Overwatch 2 Cheats 博客 — 全球指南',
 		blogIntro:
-			'undetected Overwatch 2作弊、ESP wallhack、radar hack、Aimbot和Easy Anti-Cheat anti-cheat的SEO指南，共22种语言。',
+			'undetected Overwatch 2作弊、ESP wallhack、wallhack、Aimbot和Blizzard Anti-Cheat的SEO指南，共22种语言。',
 		readMore: '阅读指南',
 		published: '发布',
 		updated: '更新',
@@ -308,7 +308,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats ब्लॉग: undetected ESP, wallhack, radar और Aimbot गाइड Overwatch 2 Windows PC के लिए।',
 		blogH1: 'Overwatch 2 Cheats ब्लॉग — वैश्विक गाइड',
 		blogIntro:
-			'undetected Overwatch 2 cheats, ESP wallhack, radar hack, Aimbot और Easy Anti-Cheat anti-cheat SEO गाइड 22 भाषाओं में।',
+			'undetected Overwatch 2 cheats, ESP wallhack, wallhack, Aimbot और Blizzard Anti-Cheat SEO गाइड 22 भाषाओं में।',
 		readMore: 'गाइड पढ़ें',
 		published: 'प्रकाशित',
 		updated: 'अपडेट',
@@ -323,7 +323,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats: panduan undetected ESP, wallhack, radar dan Aimbot untuk Overwatch 2 di PC Windows.',
 		blogH1: 'Blog Overwatch 2 Cheats — Panduan global',
 		blogIntro:
-			'Panduan SEO cheat Overwatch 2 undetected, ESP wallhack, radar hack, Aimbot dan Easy Anti-Cheat anti-cheat dalam 22 bahasa.',
+			'Panduan SEO cheat Overwatch 2 undetected, ESP wallhack, wallhack, Aimbot dan Blizzard Anti-Cheat dalam 22 bahasa.',
 		readMore: 'Baca panduan',
 		published: 'Dipublikasikan',
 		updated: 'Diperbarui',
@@ -338,7 +338,7 @@ export const blogUi: Record<
 			'บล็อก Overwatch 2 Cheats: คู่มือ undetected ESP, wallhack, radar และ Aimbot สำหรับ Overwatch 2 บน PC',
 		blogH1: 'บล็อก Overwatch 2 Cheats — คู่มือทั่วโลก',
 		blogIntro:
-			'คู่มือ SEO สำหรับ cheat Overwatch 2 undetected, ESP wallhack, radar hack, Aimbot และ Easy Anti-Cheat anti-cheat 22 ภาษา',
+			'คู่มือ SEO สำหรับ cheat Overwatch 2 undetected, ESP wallhack, wallhack, Aimbot และ Blizzard Anti-Cheat 22 ภาษา',
 		readMore: 'อ่านคู่มือ',
 		published: 'เผยแพร่',
 		updated: 'อัปเดต',
@@ -353,7 +353,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats: hướng dẫn undetected ESP, wallhack, radar và Aimbot cho Overwatch 2 trên PC.',
 		blogH1: 'Blog Overwatch 2 Cheats — Hướng dẫn toàn cầu',
 		blogIntro:
-			'Hướng dẫn SEO cheat Overwatch 2 undetected, ESP wallhack, radar hack, Aimbot và Easy Anti-Cheat anti-cheat bằng 22 ngôn ngữ.',
+			'Hướng dẫn SEO cheat Overwatch 2 undetected, ESP wallhack, wallhack, Aimbot và Blizzard Anti-Cheat bằng 22 ngôn ngữ.',
 		readMore: 'Đọc hướng dẫn',
 		published: 'Xuất bản',
 		updated: 'Cập nhật',
@@ -368,7 +368,7 @@ export const blogUi: Record<
 			'Блог Overwatch 2 Cheats: undetected ESP, wallhack, radar та Aimbot для Overwatch 2 на Windows PC.',
 		blogH1: 'Блог Overwatch 2 Cheats — Глобальні гайди',
 		blogIntro:
-			'SEO-гайди з undetected читів Overwatch 2, ESP wallhack, radar hack, Aimbot та Easy Anti-Cheat anti-cheat 22 мовами.',
+			'SEO-гайди з undetected читів Overwatch 2, ESP wallhack, wallhack, Aimbot та Blizzard Anti-Cheat 22 мовами.',
 		readMore: 'Читати гайд',
 		published: 'Опубліковано',
 		updated: 'Оновлено',
@@ -383,7 +383,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats: undetected ESP, wallhack, radar a Aimbot pro Overwatch 2 na Windows PC.',
 		blogH1: 'Blog Overwatch 2 Cheats — Globální průvodce',
 		blogIntro:
-			'SEO průvodce undetected Overwatch 2 cheaty, ESP wallhack, radar hack, Aimbot a Easy Anti-Cheat anti-cheat ve 22 jazycích.',
+			'SEO průvodce undetected Overwatch 2 cheaty, ESP wallhack, wallhack, Aimbot a Blizzard Anti-Cheat ve 22 jazycích.',
 		readMore: 'Číst průvodce',
 		published: 'Publikováno',
 		updated: 'Aktualizováno',
@@ -398,7 +398,7 @@ export const blogUi: Record<
 			'Blog Overwatch 2 Cheats: ghiduri undetected ESP, wallhack, radar și Aimbot pentru Overwatch 2 pe PC.',
 		blogH1: 'Blog Overwatch 2 Cheats — Ghiduri globale',
 		blogIntro:
-			'Ghiduri SEO cheat-uri Overwatch 2 undetected, ESP wallhack, radar hack, Aimbot și Easy Anti-Cheat anti-cheat în 22 de limbi.',
+			'Ghiduri SEO cheat-uri Overwatch 2 undetected, ESP wallhack, wallhack, Aimbot și Blizzard Anti-Cheat în 22 de limbi.',
 		readMore: 'Citește ghidul',
 		published: 'Publicat',
 		updated: 'Actualizat',
@@ -413,7 +413,7 @@ export const blogUi: Record<
 			'Overwatch 2 Cheats blogg med undetected ESP, wallhack, radar och Aimbot guider för Overwatch 2 på PC.',
 		blogH1: 'Overwatch 2 Cheats Blogg — Globala guider',
 		blogIntro:
-			'SEO-guider för undetected Overwatch 2 cheats, ESP wallhack, radar hack, Aimbot och Easy Anti-Cheat anti-cheat på 22 språk.',
+			'SEO-guider för undetected Overwatch 2 cheats, ESP wallhack, wallhack, Aimbot och Blizzard Anti-Cheat på 22 språk.',
 		readMore: 'Läs guide',
 		published: 'Publicerad',
 		updated: 'Uppdaterad',

@@ -44,8 +44,8 @@
     "statusShort": "Live",
     "delivery": "Instant digital delivery",
     "platform": "Windows 10 & 11",
-    "antiCheat": "Easy Anti-Cheat maintenance supported",
-    "antiCheatShort": "Easy Anti-Cheat supported"
+    "antiCheat": "Blizzard Anti-Cheat maintenance supported",
+    "antiCheatShort": "Blizzard Anti-Cheat supported"
   },
   "product": {
     "title": "Overwatch 2 Cheats",
@@ -122,7 +122,7 @@
   "home": {
     "aboutEyebrow": "Overview",
     "aboutTitle": "Undetected cheats for Overwatch 2",
-    "aboutLede": "One Windows PC license — tracking aimbot, flickbot, ESP, hero scripts, and Easy Anti-Cheat rebuilds after every major patch.",
+    "aboutLede": "One Windows PC license — tracking aimbot, flickbot, ESP, hero scripts, and Blizzard Anti-Cheat rebuilds after every major patch.",
     "featuresAria": "Included features",
     "featEsp": "ESP & wallhack",
     "featAim": "Tracking aimbot",
@@ -155,7 +155,7 @@
     "linkWallhack": "Wallhack",
     "linkLiveStatus": "Live status",
     "linkUndetected": "Undetected",
-    "linkAnticheat": "Easy Anti-Cheat",
+    "linkAnticheat": "Blizzard Anti-Cheat",
     "linkSetup": "Setup",
     "linkPlans": "Plans",
     "linkReviews": "Reviews",
@@ -176,8 +176,8 @@
     "chooseLicense": "Choose your license",
     "features": "Features",
     "featEsp": "ESP / wallhack",
-    "featAim": "Soft aim & hotkeys",
-    "featRadar": "2D radar",
+    "featAim": "Tracking aimbot & hotkeys",
+    "featRadar": "wallhack overlays",
     "featUpdates": "Patch updates"
   },
   "trustStrip": {
@@ -199,20 +199,20 @@
   "images": {
     "hero": "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
     "espWallhack": "Wallhack outlines showing heroes and enemies through walls",
-    "aimbotCombat": "Soft aim assist overlay during an Overwatch 2 raid",
+    "aimbotCombat": "Tracking aimbot assist overlay during an Overwatch 2 team fight",
     "squadFight": "Overwatch 2 Cheats combat overlay during a squad fight",
-    "playerEsp": "Player ESP boxes and distance readouts in a Overwatch 2 raid",
+    "playerEsp": "Player ESP boxes and distance readouts in an Overwatch 2 match",
     "headerArt": "Aimbot view and bone priority controls for Overwatch 2",
-    "cheatsPackage": "2D radar threat overlay for Overwatch 2",
+    "cheatsPackage": "Wallhack threat overlay for Overwatch 2",
     "rebootFight": "Aimbot assist during a Overwatch 2 firefight",
-    "battleRoyale": "Overwatch 2 Cheats in-raid overview for Windows PC",
-    "battleRoyaleIsland": "ESP markers for loot and extracts in Overwatch 2"
+    "battleRoyale": "Overwatch 2 Cheats in-match overview for Windows PC",
+    "battleRoyaleIsland": "ESP markers for heroes and objectives in Overwatch 2"
   },
   "blog": {
     "blogTitle": "Overwatch 2 Cheats Blog | ESP, Cheats & Meta Tips",
-    "blogDescription": "Overwatch 2 cheats and Overwatch 2 cheats guides — ESP, aimbot, ranked meta, loot routes, and Easy Anti-Cheat updates. Global English blog at overwatchcheats.org/blog/.",
+    "blogDescription": "Overwatch 2 cheats guides — ESP, aimbot, Competitive meta, hero tips, and Blizzard Anti-Cheat updates. Global English blog at overwatchcheats.org/blog/.",
     "blogH1": "Overwatch 2 Cheats Intel",
-    "blogIntro": "Actionable Overwatch 2 guides for raid and scav-run — meta breakdowns, loot routes, weapon tiers, and pro warmup routines. Pair these tips with our Overwatch 2 cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "blogIntro": "Actionable Overwatch 2 guides for Quick Play and Competitive — meta breakdowns, hero matchups, aimbot settings, and warmup routines. Pair these tips with our Overwatch 2 cheats pages for ESP, tracking aimbot, and hero scripts when you need in-match tools.",
     "readMore": "Read guide",
     "published": "Published",
     "updated": "Updated",
@@ -225,14 +225,14 @@
   "gallery": {
     "eyebrow": "Overwatch 2 cheats",
     "title": "Overwatch 2 cheats gallery",
-    "subtitle": "Simple Overwatch 2 cheats visuals — ESP, wallhack, aimbot, and radar for Overwatch 2 on PC.",
-    "lead": "Overwatch 2 Cheats helps you spot heroes, enemies, and loot with ESP, aimbot, and radar in one license.",
+    "subtitle": "Simple Overwatch 2 cheats visuals — ESP, wallhack, aimbot, and hero scripts for Overwatch 2 on PC.",
+    "lead": "Overwatch 2 Cheats helps you spot heroes, enemies, and objectives with ESP, aimbot, and wallhack in one license.",
     "highlightEspTitle": "Overwatch 2 cheats esp",
     "highlightEspCopy": "See players through walls with Overwatch 2 cheats esp and wallhack overlays.",
-    "highlightRadarTitle": "Overwatch 2 cheats radar",
-    "highlightRadarCopy": "Track nearby threats with Overwatch 2 cheats radar before you push a lane.",
+    "highlightRadarTitle": "Overwatch 2 cheats wallhack",
+    "highlightRadarCopy": "Track nearby threats with Overwatch 2 wallhack overlays before you push a lane.",
     "highlightAimbotTitle": "Overwatch 2 cheats aimbot",
-    "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for Overwatch 2 raids on Windows PC.",
+    "highlightAimbotCopy": "Use tracking aimbot and aimbot controls tuned for Overwatch 2 matches on Windows PC.",
     "updatesLabel": "Overwatch 2 cheats updates",
     "updatesShort": "Updates"
   }

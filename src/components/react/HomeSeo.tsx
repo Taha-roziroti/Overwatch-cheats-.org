@@ -28,7 +28,7 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
 				{ href: p.updates, labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: '/overwatch-2-undetected/', labelKey: 'homeSeo.linkUndetected' },
+				{ href: p.cheats, labelKey: 'homeSeo.linkUndetected' },
 				{ href: p.setup, labelKey: 'homeSeo.linkSetup' },
 				{ href: p.faq, labelKey: 'homeSeo.linkFaq' },
 			],

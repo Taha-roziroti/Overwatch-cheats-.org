@@ -18,7 +18,7 @@ export const brand = {
 	/** Game this template instance targets */
 	game: 'Overwatch 2',
 	/** Anti-cheat name used in Status / FAQ copy */
-	antiCheat: 'Easy Anti-Cheat',
+	antiCheat: 'Blizzard Anti-Cheat',
 
 	logo: '/images/overwatch-2-cheats-logo.webp',
 	logoRaster: '/images/overwatch-2-cheats-logo.png',

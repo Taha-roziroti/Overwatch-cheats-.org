@@ -13,10 +13,10 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "patch-notes",
 		title: "How to Read Overwatch 2 Patch Notes",
-		metaDescription: "Learn how Overwatch 2 patch notes change hero loadouts, ammo economy, and maps. What to do after Easy Anti-Cheat and season updates in 2026.",
+		metaDescription: "Learn how Overwatch 2 patch notes change hero loadouts, ammo economy, and maps. What to do after Blizzard Anti-Cheat and season updates in 2026.",
 		h1: "How to Read Overwatch 2 Patch Notes Without Guessing",
 		intro: "When Blizzard drops a patch, most players skim the headline and queue anyway. That is how you walk into Quick Play with the wrong ammo and a gun that just lost its shield break. Here is a calmer way to read Overwatch 2 patch notes so your next raid still makes sense.",
-		keywords: ["Overwatch 2 patch notes","overwatch-2 season update","easy-anticheat patch","hero loadout","overwatch-2 intel"],
+		keywords: ["Overwatch 2 patch notes","overwatch-2 season update","blizzard-anticheat patch","hero loadout","overwatch-2 intel"],
 		imageAlt: "Player reviewing Overwatch 2 patch notes before a hero raid",
 		sections: [
 			{
@@ -24,13 +24,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				paragraphs: [
 					"Official notes live on <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored heroes? Does this change what loot is worth looting? Does this change which activity or map I should run tonight?",
 					"Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Nessus and Europa. Cosmetic lines and UI polish almost never decide whether you survive zones.",
-					"If you also run cleanup tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> or client update, check our <a href=\"/status/\">Overwatch 2 Cheats status page</a> before you blame your own aim.",
+					"If you also run cleanup tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> or client update, check our <a href=\"/status/\">Overwatch 2 Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
-					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most fireteams. Buffs deserve a short test block — ten focused raids — before you rebuild your entire loadout around them.",
+					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most teams. Buffs deserve a short test block — ten focused raids — before you rebuild your entire loadout around them.",
 					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against high-resilience targets, your Quick Play push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/weapon-tier-list/\">Overwatch 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
 				],
 			},
@@ -38,8 +38,8 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near objectives and avoid ego flanks. When a zone layout shifts — new locked doors, moved spawns, boss path changes — rewrite your first three minutes on that activity before you farm it for quests.",
-					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href=\"/blog/pve-strategies/\">PvE activity strategies</a>.",
-					"On big mornings, confirm <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your inventory wish list, play five intentional raids, and only then lock a new main kit.",
+					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href=\"/blog/pve-strategies/\">Arcade activity strategies</a>.",
+					"On big mornings, confirm <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your inventory wish list, play five intentional raids, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -57,24 +57,24 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "skin-leaks",
 		title: "Overwatch 2 Cosmetics & Skin Leaks: What Is Worth Buying",
-		metaDescription: "Sensible advice on Overwatch 2 cosmetics and skin leaks — what to buy on the Overwatch Shop, what to skip, and how looks affect raid readability.",
+		metaDescription: "Sensible advice on Overwatch 2 cosmetics and skin leaks — what to buy on the Eververse, what to skip, and how looks affect raid readability.",
 		h1: "Overwatch 2 Cosmetics and Skin Leaks: Buy Smart, Not Impulsive",
-		intro: "Leaks make every season feel like a fashion drop. Before you dump credits into another loud outfit, decide whether the skin helps you play Overwatch 2 — or just looks cool in a screenshot.",
-		keywords: ["overwatch-2 skins","overwatch-2 cosmetics","Overwatch Shop skins","Overwatch 2 apparel","overwatch-2 intel"],
+		intro: "Leaks make every season feel like a fashion drop. Before you dump glimmer into another loud outfit, decide whether the skin helps you play Overwatch 2 — or just looks cool in a screenshot.",
+		keywords: ["overwatch-2 skins","overwatch-2 cosmetics","Eververse skins","Overwatch 2 apparel","overwatch-2 intel"],
 		imageAlt: "Overwatch 2 character cosmetics and gear appearance options",
 		sections: [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned credits the night before a season reset, then realize they still need consumables, ammo, and a backup kit.",
+					"Shop rotations and official apparel come from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned glimmer the night before a season reset, then realize they still need consumables, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Nessus or in dark Europa hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
 				h2: "A simple worth-it checklist for Overwatch 2 cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a credits reserve for ammo and healing before fashion.",
-					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Overwatch Shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
+					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a glimmer reserve for ammo and healing before fashion.",
+					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Eververse. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
 			{
@@ -123,7 +123,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid-range primary, a close-range option for Quick Play or patrol zones, enough healing, and resilience tiers you can replace after deaths. In PvE activities, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">PvE strategies article</a>.",
+					"A durable kit is usually a reliable mid-range primary, a close-range option for Quick Play or patrol zones, enough healing, and resilience tiers you can replace after deaths. In Arcade modes, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">Arcade strategies article</a>.",
 					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/overwatch-2-aimbot/\">Overwatch 2 aimbot settings</a>.",
 				],
 			}
@@ -132,27 +132,27 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "overwatch-2-PvE-meta",
+		id: "overwatch-2-Arcade-meta",
 		imageKey: "battleRoyaleCombat",
 		published: "2026-07-22",
 		updated: "2026-08-13",
-		category: "PvE",
+		category: "Arcade",
 		featured: true,
 		translations: {
 		en: {
 		slug: "pve-strategies",
-		title: "Overwatch 2 PvE Strategies That Actually Print Loot",
-		metaDescription: "Five aggressive but smart Overwatch 2 PvE strategies — timings, objectives, cleanup kills, and how to leave raids with gear instead of empty pockets.",
-		h1: "Overwatch 2 PvE Strategies: How to Leave With Gear",
-		intro: "Passive players wait behind cover while two fireteams clear an encounter, then push late and die. Strong PvE runs manufacture a short advantage, grab what matters, and complete the objective before adds overwhelm you.",
-		keywords: ["overwatch-2 PvE activity","PvE strategies","Overwatch 2 PvE","overwatch-2 objectives","Overwatch 2 ESP"],
+		title: "Overwatch 2 Arcade Strategies That Actually Print Loot",
+		metaDescription: "Five aggressive but smart Overwatch 2 Arcade strategies — timings, objectives, cleanup kills, and how to leave raids with gear instead of empty pockets.",
+		h1: "Overwatch 2 Arcade Strategies: How to Leave With Gear",
+		intro: "Passive players wait behind cover while two teams clear an encounter, then push late and die. Strong Arcade runs manufacture a short advantage, grab what matters, and complete the objective before adds overwhelm you.",
+		keywords: ["overwatch-2 Arcade activity","Arcade strategies","Overwatch 2 Arcade","overwatch-2 objectives","Overwatch 2 ESP"],
 		imageAlt: "hero moving toward an objective with loot in Overwatch 2",
 		sections: [
 			{
-				h2: "Why so many PvE activities feel soft",
+				h2: "Why so many Arcade modes feel soft",
 				paragraphs: [
 					"Enemy loadouts vary, timers are limited, and other heroes can contest the same objective. Waiting forever for a “perfect” cleanup often means you arrive late to an empty encounter with nothing left. Information tools like <a href=\"/overwatch-2-esp/\">Overwatch 2 ESP</a> can help you see fights early — but you still need an exit plan.",
-					"Decide your objective before you push. Take a clear damage window, grab powerful loot, then rotate. The usual contest window in hot zones is only a few seconds long once gunfire starts.",
+					"Decide your objective before you push. Take a clear damage window, grab ult charge, then rotate. The usual contest window in hot zones is only a few seconds long once gunfire starts.",
 				],
 			},
 			{
@@ -184,9 +184,9 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "tournament-meta",
 		title: "What Competitive Overwatch 2 Players Optimize For",
-		metaDescription: "What strong Overwatch 2 competitors optimize — spawn plans, loadouts, mid-raid habits, and which tournament habits help normal hero queues.",
+		metaDescription: "What strong Overwatch 2 competitors optimize — spawn plans, loadouts, mid-match habits, and which tournament habits help normal hero queues.",
 		h1: "What Competitive Overwatch 2 Players Optimize For",
-		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-raid habits, and fights they choose on purpose. Here is what translates into your normal Overwatch 2 queues.",
+		intro: "Tournament winners and high-level duos are not lucky spawn gods. They optimize expected value: safer loot paths, cleaner mid-match habits, and fights they choose on purpose. Here is what translates into your normal Overwatch 2 queues.",
 		keywords: ["overwatch-2 competitive","overwatch-2 tournament","overwatch-2 meta","hero habits","overwatch-2 intel"],
 		imageAlt: "Competitive Overwatch 2 players reviewing raid strategy",
 		sections: [
@@ -207,8 +207,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What actually translates to normal raids",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a fireteam strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href=\"/blog/pve-strategies/\">PvE aggression guide</a>.",
-					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid hero block before adding another.",
+					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a team strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href=\"/blog/pve-strategies/\">Arcade aggression guide</a>.",
+					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-match habit only. Run it for a six-raid hero block before adding another.",
 				],
 			}
 		],
@@ -242,15 +242,15 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
-					"Contested edge route: grab outer loot, move inward, leave before late collapses. Uncontested chain: skip early fights for a fuller kit by minute three. Mid-map surge: collect drops ninety to one hundred fifty seconds after hot spawns empty out.",
+					"Contested edge route: grab outer hero markers, move inward, leave before late collapses. Uncontested chain: skip early fights for a fuller kit by minute three. Mid-map surge: collect drops ninety to one hundred fifty seconds after hot spawns empty out.",
 					"Timing targets help: first primary quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually primary, ammo, resilience mods, healing, then bonus loot. Zone names shift with <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> season updates — keep the geometry, not just the landmark label.",
 				],
 			},
 			{
 				h2: "Convert a strong spawn into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/pve-strategies/\">PvE aggression</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a loot panic.",
-					"If you practice with loot markers, read <a href=\"/overwatch-2-esp/\">Overwatch 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
+					"Pair these routes with <a href=\"/blog/pve-strategies/\">Arcade aggression</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a loot panic.",
+					"If you practice with hero markers, read <a href=\"/overwatch-2-esp/\">Overwatch 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			}
 		],
@@ -285,7 +285,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Sensitivity, ADS, and muscle memory",
 				paragraphs: [
 					"Pick one hip-fire and ADS relationship and stick with it for at least a week. Constantly rewriting sens after every death trains nothing. Warm up with the routine in our <a href=\"/blog/warmup-routine/\">warmup guide</a> so your hands match the new numbers.",
-					"If you later add soft aim tooling, match the in-game sens first, then tune FOV in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
+					"If you later add tracking aimbot tooling, match the in-game sens first, then tune FOV in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>. Tools on top of a chaotic sens feel robotic and obvious.",
 				],
 			},
 			{
@@ -317,10 +317,10 @@ export const blogPosts: BlogPostDefinition[] = [
 		imageAlt: "Player warming up aim before an Overwatch 2 hero raid",
 		sections: [
 			{
-				h2: "Why your first raid should not be the warmup",
+				h2: "Why your first match should not be the warmup",
 				paragraphs: [
 					"Most players boot the game, slap on a kit, and die to the first clean peeker. Hands are cold, audio is not dialed, and map timing feels off. Treat warmup as part of the session, not optional fluff.",
-					"Offline practice, shooting range habits, and a couple of low-stakes PvE activities exist so your expensive hero kit is not the experiment.",
+					"Offline practice, shooting range habits, and a couple of low-stakes Arcade modes exist so your expensive hero kit is not the experiment.",
 				],
 			},
 			{
@@ -352,30 +352,30 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "cheats-guide-2026",
 		title: "Overwatch 2 Cheats 2026: Complete Undetected Guide",
-		metaDescription: "A clear 2026 guide to Overwatch 2 cheats — what ESP, soft aim, and radar actually do in Overwatch 2, how Easy Anti-Cheat maintenance works, and how to buy safely.",
+		metaDescription: "A clear 2026 guide to Overwatch 2 cheats — what ESP, tracking aimbot, and radar actually do in Overwatch 2, how Blizzard Anti-Cheat maintenance works, and how to buy safely.",
 		h1: "Overwatch 2 Cheats in 2026: What They Are and How to Use Them Carefully",
-		intro: "People search “Overwatch 2 cheats” for a simple reason: Overwatch 2 is information-heavy, punishing, and full of objective campers. This guide explains what modern undetected packages actually include, how Easy Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.",
-		keywords: ["Overwatch 2 cheats","undetected Overwatch 2 cheats","Overwatch 2 ESP","Overwatch 2 aimbot","easy-anticheat"],
-		imageAlt: "Overview of Overwatch 2 Cheats ESP soft aim and radar tools for 2026",
+		intro: "People search “Overwatch 2 cheats” for a simple reason: Overwatch 2 is information-heavy, punishing, and full of objective campers. This guide explains what modern undetected packages actually include, how Blizzard Anti-Cheat maintenance works, and how to decide whether a tool fits your play style.",
+		keywords: ["Overwatch 2 cheats","undetected Overwatch 2 cheats","Overwatch 2 ESP","Overwatch 2 aimbot","blizzard-anticheat"],
+		imageAlt: "Overview of Overwatch 2 Cheats ESP tracking aimbot and radar tools for 2026",
 		sections: [
 			{
 				h2: "What do people mean when they say Overwatch 2 cheats?",
 				paragraphs: [
-					"In plain language, Overwatch 2 cheats are cleanup tools that add information or aim assistance on top of the Overwatch 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
+					"In plain language, Overwatch 2 cheats are cleanup tools that add information or aim assistance on top of the Overwatch 2 client. The common stack is ESP wallhack for players and hero markers, a wallhack overlays for threats outside your view, and configurable tracking aimbot for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
 					"Searchers also say “Overwatch 2 cheats,” \"Overwatch 2 wallhack,\" or “Overwatch 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
-				h2: "ESP, soft aim, and radar — what each tool is for",
+				h2: "ESP, tracking aimbot, and radar — what each tool is for",
 				paragraphs: [
-					"ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
+					"ESP answers “who is near me and what is worth looting?” Tracking aimbot answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
 					"Deep dives live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">aimbot</a>, <a href=\"/overwatch-2-wallhack/\">wallhack</a>, and <a href=\"/overwatch-2-wallhack/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
-				h2: "Easy Anti-Cheat, “undetected,” and honest expectations",
+				h2: "Blizzard Anti-Cheat, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> protects Overwatch 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/overwatch-2-undetected/\">undetected Overwatch 2 cheats</a> and <a href=\"/status/\">Easy Anti-Cheat maintenance</a>.",
+					"<a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> protects Overwatch 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a> and <a href=\"/status/\">Blizzard Anti-Cheat maintenance</a>.",
 					"Before every patch-day queue, read <a href=\"/status/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
@@ -383,7 +383,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
 					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
-					"Overwatch 2 Cheats is built for Windows PC Quick Play and Arcade play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
+					"Overwatch 2 Cheats is built for Windows PC Quick Play and Arcade play. It will not replace map knowledge — it amplifies the reads you already practice in matches.",
 				],
 			}
 		],
@@ -401,7 +401,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "buyers-guide",
 		title: "Overwatch 2 Cheats Buyers Guide",
-		metaDescription: "What to check before you buy Overwatch 2 cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		metaDescription: "What to check before you buy Overwatch 2 cheats — status pages, ESP features, tracking aimbot, refunds, pricing, and red flags in 2026.",
 		h1: "Overwatch 2 Cheats: What to Check Before You Buy",
 		intro: "Buying Overwatch 2 cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
 		keywords: ["Overwatch 2 cheats","Overwatch 2 cheats buyers guide","buy Overwatch 2 cheats","undetected Overwatch 2 cheats","overwatch-2 pricing"],
@@ -410,14 +410,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Start with status, not screenshots",
 				paragraphs: [
-					"Ask whether the seller publishes a dated status page after Easy Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Overwatch 2 Cheats posts rebuild notes on <a href=\"/status/\">Updates</a> for that reason.",
+					"Ask whether the seller publishes a dated status page after Blizzard Anti-Cheat or client patches. Fancy galleries do not help if the tool is offline for three days. Overwatch 2 Cheats posts rebuild notes on <a href=\"/status/\">Updates</a> for that reason.",
 					"If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.",
 				],
 			},
 			{
-				h2: "Feature checklist that matches real Overwatch 2 raids",
+				h2: "Feature checklist that matches real Overwatch 2 matchs",
 				paragraphs: [
-					"For Overwatch 2, useful features usually mean player ESP with distance, loot filters, objective awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
+					"For Overwatch 2, useful features usually mean player ESP with distance, loot filters, objective awareness, radar for flanks, and tracking aimbot you can tone down. “Unlock all” marketing and battle-royale leftovers are red flags that the page was cloned from another game.",
 					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, and <a href=\"/overwatch-2-aimbot/\">Aimbot</a>. If radar matters to how you hold objectives, confirm it exists before checkout.",
 				],
 			},
@@ -443,30 +443,30 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "cheats-2026-updates",
 		title: "Overwatch 2 Cheats 2026: What Changed This Year",
-		metaDescription: "What changed for Overwatch 2 cheats in 2026 — season cadence, Easy Anti-Cheat maintenance habits, ESP focus, and how Overwatch 2 Cheats adapted for Overwatch 2.",
+		metaDescription: "What changed for Overwatch 2 cheats in 2026 — season cadence, Blizzard Anti-Cheat maintenance habits, ESP focus, and how Overwatch 2 Cheats adapted for Overwatch 2.",
 		h1: "What Changed for Overwatch 2 Cheats in 2026",
-		intro: "2026 did not invent cheating in Overwatch 2 — it raised the bar for maintenance. Wipes, Easy Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious Overwatch 2 cheats packages need to operate.",
-		keywords: ["Overwatch 2 cheats 2026","Overwatch 2 cheats 2026","easy-anticheat 2026","overwatch-2 season","Overwatch 2 cheats updates"],
+		intro: "2026 did not invent cheating in Overwatch 2 — it raised the bar for maintenance. Wipes, Blizzard Anti-Cheat pushes, and map updates punish stale builds. Here is what changed in how serious Overwatch 2 cheats packages need to operate.",
+		keywords: ["Overwatch 2 cheats 2026","Overwatch 2 cheats 2026","blizzard-anticheat 2026","overwatch-2 season","Overwatch 2 cheats updates"],
 		imageAlt: "2026 updates for Overwatch 2 Cheats on Overwatch 2",
 		sections: [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/overwatch-2-undetected/\">undetected explainer</a> instead of empty guarantees.",
-					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Blizzard client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/overwatch-2-cheats/\">undetected explainer</a> instead of empty guarantees.",
+					"<a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> and Blizzard client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
 			{
 				h2: "Feature focus shifted toward raid information",
 				paragraphs: [
-					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Overwatch 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near objectives.",
+					"The winning feature set in 2026 is still ESP, wallhack, and tunable tracking aimbot — because Overwatch 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near objectives.",
 					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a>.",
 				],
 			},
 			{
 				h2: "What we recommend you do differently this year",
 				paragraphs: [
-					"Check status before patch-day queues. Keep soft aim conservative. Use loot ESP filters so your screen stays clean. Read the <a href=\"/blog/cheats-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
+					"Check status before patch-day queues. Keep tracking aimbot conservative. Use hero ESP filters so your screen stays clean. Read the <a href=\"/blog/cheats-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
 					"Pricing remains monthly and lifetime on <a href=\"/pricing/\">Pricing</a> with digital delivery after payment.",
 				],
 			}
@@ -485,30 +485,30 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "aimbot-settings",
 		title: "Overwatch 2 Aimbot Settings: Smooth FOV Without Looking Robotic",
-		metaDescription: "How to tune Overwatch 2 aimbot and soft aim settings — FOV, smoothness, bone priority, and per-weapon profiles that feel natural in Overwatch 2 raids.",
+		metaDescription: "How to tune Overwatch 2 aimbot and tracking aimbot settings — FOV, smoothness, bone priority, and per-hero profiles that feel natural in Overwatch 2 matchs.",
 		h1: "Overwatch 2 Aimbot Settings That Feel Natural",
 		intro: "A harsh aimbot gets you killed by reports and by your own bad habits. Soft, tunable aim assistance is what most Overwatch 2 players actually want. Here is how to think about FOV, smoothness, and weapon profiles.",
-		keywords: ["Overwatch 2 aimbot settings","overwatch-2 soft aim","aimbot fov","overwatch-2 aim assist","Overwatch 2 cheats"],
-		imageAlt: "Soft aim and FOV settings for Overwatch 2 aimbot on Windows PC",
+		keywords: ["Overwatch 2 aimbot settings","overwatch-2 tracking aimbot","aimbot fov","overwatch-2 aim assist","Overwatch 2 cheats"],
+		imageAlt: "Tracking aimbot and FOV settings for Overwatch 2 aimbot on Windows PC",
 		sections: [
 			{
 				h2: "Start softer than you think you need",
 				paragraphs: [
 					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Quick Play or Patrol and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/overwatch-2-aimbot/\">Overwatch 2 Aimbot</a> and <a href=\"/overwatch-2-aimbot/\">soft aim</a>.",
+					"Full control docs live on <a href=\"/overwatch-2-aimbot/\">Overwatch 2 Aimbot</a> and <a href=\"/overwatch-2-aimbot/\">tracking aimbot</a>.",
 				],
 			},
 			{
 				h2: "Per-weapon profiles beat one global slider",
 				paragraphs: [
-					"ARs, SMGs, and bolt-actions want different assist. Save separate profiles so zones sprays and long Nessus peeks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.",
-					"Hotkeys matter mid-raid. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.",
+					"hitscan and projectile heroes, and hitscans want different assist. Save separate profiles so zones sprays and long Nessus peeks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.",
+					"Hotkeys matter mid-match. You need to disable assist when you are looting friendlies or holding a suspicious angle where obvious corrections would look wrong.",
 				],
 			},
 			{
 				h2: "Pair aim settings with information tools",
 				paragraphs: [
-					"Soft aim finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/overwatch-2-esp/\">ESP categories</a> before blaming aim. After Easy Anti-Cheat patches, confirm <a href=\"/status/\">Updates</a> before you tune anything on an old build.",
+					"Tracking aimbot finishes fights that ESP and radar help you choose. If your overlays are noisy, fix <a href=\"/overwatch-2-esp/\">ESP categories</a> before blaming aim. After Blizzard Anti-Cheat patches, confirm <a href=\"/status/\">Updates</a> before you tune anything on an old build.",
 				],
 			}
 		],
@@ -526,7 +526,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "esp-wallhack",
 		title: "Overwatch 2 ESP and Wallhack Explained in Plain English",
-		metaDescription: "What overwatch-2 ESP and wallhack actually show in Overwatch 2 — players, loot, distance, objectives — and how to keep overlays readable in raids.",
+		metaDescription: "What overwatch-2 ESP and wallhack actually show in Overwatch 2 — players, hero markers, distance, objectives — and how to keep overlays readable in matches.",
 		h1: "Overwatch 2 ESP and Wallhack Explained Clearly",
 		intro: "“ESP” and “wallhack” get used loosely. In Overwatch 2 they both mean information through walls — but the useful details are distance, filters, and what you choose to hide so your screen stays readable.",
 		keywords: ["Overwatch 2 ESP","Overwatch 2 wallhack","Overwatch 2 ESP","loot esp overwatch-2","Overwatch 2 cheats"],
@@ -535,21 +535,21 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What ESP shows during a real raid",
 				paragraphs: [
-					"Player ESP outlines heroes and enemies through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for Overwatch 2 ESP in the first place.",
+					"Player ESP outlines heroes and enemies through walls and terrain, often with distance. Hero ESP highlights objectives or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for Overwatch 2 ESP in the first place.",
 					"Read the dedicated pages for <a href=\"/overwatch-2-esp/\">ESP</a> and <a href=\"/overwatch-2-wallhack/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
 				h2: "How to keep overlays from becoming noise",
 				paragraphs: [
-					"Toggle categories. During a hot push you may want players only. During a loot route you may want containers. Near objective you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.",
+					"Toggle categories. During a hot push you may want players only. During a loot route you may want objectives. Near objective you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.",
 					"Pair ESP with <a href=\"/overwatch-2-wallhack/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
 				],
 			},
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/overwatch-2-undetected/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Blizzard Anti-Cheat patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/overwatch-2-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			}
 		],
@@ -557,7 +557,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "undetected-easy-anticheat",
+		id: "undetected-blizzard-anticheat",
 		imageKey: "playerEsp",
 		published: "2026-07-19",
 		updated: "2026-08-13",
@@ -565,32 +565,32 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "undetected-easy-anticheat",
-		title: "Undetected Overwatch 2 Cheats and Easy Anti-Cheat Reality",
-		metaDescription: "What “undetected Overwatch 2 cheats” really means under Easy Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue Overwatch 2.",
-		h1: "Undetected Overwatch 2 Cheats: What Easy Anti-Cheat Reality Looks Like",
-		intro: "“Undetected” is the most abused word in cheat marketing. Under Easy Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Overwatch 2 players.",
-		keywords: ["undetected Overwatch 2 cheats","easy-anticheat overwatch-2","overwatch-2 ban risk","undetected Overwatch 2 cheats","overwatch-2 status"],
-		imageAlt: "Easy Anti-Cheat maintenance status for undetected Overwatch 2 cheats",
+		slug: "undetected-blizzard-anticheat",
+		title: "Undetected Overwatch 2 Cheats and Blizzard Anti-Cheat Reality",
+		metaDescription: "What “undetected Overwatch 2 cheats” really means under Blizzard Anti-Cheat — maintenance, patch days, risk, and how to read status before you queue Overwatch 2.",
+		h1: "Undetected Overwatch 2 Cheats: What Blizzard Anti-Cheat Reality Looks Like",
+		intro: "“Undetected” is the most abused word in cheat marketing. Under Blizzard Anti-Cheat, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for Overwatch 2 players.",
+		keywords: ["undetected Overwatch 2 cheats","blizzard-anticheat overwatch-2","overwatch-2 ban risk","undetected Overwatch 2 cheats","overwatch-2 status"],
+		imageAlt: "Blizzard Anti-Cheat maintenance status for undetected Overwatch 2 cheats",
 		sections: [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"Easy Anti-Cheat is documented at <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Overwatch 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/status/\">Easy Anti-Cheat maintenance</a>.",
+					"Blizzard Anti-Cheat is documented at <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, wallhack, or aim modules need work. Overwatch 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/status/\">Blizzard Anti-Cheat maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
 			{
 				h2: "Patch-day habits that reduce pain",
 				paragraphs: [
-					"After a Overwatch 2 or Easy Anti-Cheat update, wait for a status note before queueing. Confirm Blizzard services on <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
-					"Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
+					"After a Overwatch 2 or Blizzard Anti-Cheat update, wait for a status note before queueing. Confirm Blizzard services on <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2 Support</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
+					"Keep tracking aimbot conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
 				],
 			},
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/overwatch-2-undetected/\">undetected Overwatch 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			}
 		],
@@ -608,7 +608,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "vs-budget-shops",
 		title: "Overwatch 2 Cheats vs Typical Budget Cheat Shops",
-		metaDescription: "How Overwatch 2 Cheats compares to typical budget Overwatch 2 cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
+		metaDescription: "How Overwatch 2 Cheats compares to typical budget Overwatch 2 cheat shops — ESP depth, wallhack, status pages, pricing, and what “cheap” usually skips.",
 		h1: "Overwatch 2 Cheats vs Typical Budget Cheat Shops",
 		intro: "Budget Overwatch 2 stores often look identical: neon banners, “undetected” badges, and a low weekly price. Overwatch 2 Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
 		keywords: ["Overwatch 2 cheats comparison","budget cheat shops","Overwatch 2 cheats vs other shops","esp radar pricing","Overwatch 2 cheats"],
@@ -617,22 +617,22 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What budget shops usually optimize for",
 				paragraphs: [
-					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin loot ESP, no real radar, Discord-only status, and slow rebuild communication after Easy Anti-Cheat pushes.",
-					"Overwatch 2 Cheats focuses on a full raid stack — player ESP, loot filters, radar, soft aim profiles — with a public <a href=\"/status/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
+					"Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin hero ESP, no real radar, Discord-only status, and slow rebuild communication after Blizzard Anti-Cheat pushes.",
+					"Overwatch 2 Cheats focuses on a full raid stack — player ESP, loot filters, wallhack, tracking aimbot profiles — with a public <a href=\"/status/\">Updates</a> page. See <a href=\"/features/\">Features</a> for the list.",
 				],
 			},
 			{
 				h2: "Price versus what you touch every raid",
 				paragraphs: [
-					"If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold objectives, run loot routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
+					"If you only want basic player boxes in casual raids, a cheaper shop might feel enough. If you hold objectives, run loot routes, and hate dying to unseen flanks, wallhack and clean filters pay for themselves quickly.",
 					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
 				],
 			},
 			{
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
-					"Write down must-haves: dated status, loot ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> and <a href=\"/overwatch-2-undetected/\">undetected notes</a> if that checklist matches what we ship.",
+					"Write down must-haves: dated status, hero ESP, wallhack, tracking aimbot profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
+					"Then return to <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> and <a href=\"/overwatch-2-cheats/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			}
 		],
@@ -650,37 +650,37 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "two-week-cheat-test",
 		title: "I Tested Another Overwatch 2 Cheat for 2 Weeks First",
-		metaDescription: "A two-week test of another Overwatch 2 cheat before switching to Overwatch 2 Cheats — ESP feel, soft aim, patch downtime, and support differences.",
+		metaDescription: "A two-week test of another Overwatch 2 cheat before switching to Overwatch 2 Cheats — ESP feel, tracking aimbot, patch downtime, and support differences.",
 		h1: "I Tested Another Overwatch 2 Cheat for Two Weeks Before Switching",
 		intro: "My Discord kept recommending a popular Overwatch 2 cheat brand. I gave it fourteen days on the same PC and playlists, then moved to Overwatch 2 Cheats. This is what actually differed — without the usual affiliate script.",
-		keywords: ["Overwatch 2 cheats review","Overwatch 2 cheat comparison","Overwatch 2 cheat downtime","soft aim test","Overwatch 2 cheats"],
+		keywords: ["Overwatch 2 cheats review","Overwatch 2 cheat comparison","Overwatch 2 cheat downtime","tracking aimbot test","Overwatch 2 cheats"],
 		imageAlt: "Two week hands-on comparison between Overwatch 2 cheat providers",
 		sections: [
 			{
 				h2: "Week one — setup and first impressions",
 				paragraphs: [
-					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Loot ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
-					"Overwatch 2 Cheats later felt similar on install time, but filters for loot and objectives were easier to toggle independently during loot routes.",
+					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Hero ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
+					"Overwatch 2 Cheats later felt similar on install time, but filters for heroes and objectives were easier to toggle independently during loot routes.",
 				],
 			},
 			{
-				h2: "Soft aim and the mid-raid feel",
+				h2: "Tracking aimbot and the mid-match feel",
 				paragraphs: [
-					"Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
-					"On Overwatch 2 Cheats I relied more on per-weapon profiles so zones and long peeks did not share one magnet. Details are in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>.",
+					"Conservative FOV tracking aimbot helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
+					"On Overwatch 2 Cheats I relied more on per-hero profiles so zones and long peeks did not share one magnet. Details are in the <a href=\"/overwatch-2-aimbot/\">aimbot guide</a>.",
 				],
 			},
 			{
 				h2: "The patch window that ended the trial",
 				paragraphs: [
-					"A Overwatch 2 plus Easy Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
+					"A Overwatch 2 plus Blizzard Anti-Cheat update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queues while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.",
 					"Overwatch 2 Cheats won me over with written notes on <a href=\"/status/\">Updates</a>. I still do not queue blind after patches on any tool.",
 				],
 			},
 			{
 				h2: "After switching — what improved for my raids",
 				paragraphs: [
-					"Independent loot and player toggles cleaned late-raid screens. Radar helped boss phases. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href=\"/pricing/\">Pricing</a>.",
+					"Independent loot and player toggles cleaned late-match screens. Radar helped objective pushes. Support replies with order ID were fast enough during setup week. Pricing math favored a single full stack over stacking weekly subs — see <a href=\"/pricing/\">Pricing</a>.",
 					"If you run your own test, measure patch downtime hours, not just day-one vibes. Then read <a href=\"/setup/\">Setup</a> before you buy anything.",
 				],
 			}
@@ -699,7 +699,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "full-stack-vs-esp-only",
 		title: "Full-Stack Overwatch 2 Cheats vs Minimal ESP Tools",
-		metaDescription: "Full-stack Overwatch 2 Cheats versus minimal ESP-only Overwatch 2 tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
+		metaDescription: "Full-stack Overwatch 2 Cheats versus minimal ESP-only Overwatch 2 tools — feature depth, wallhack, tracking aimbot, pricing, and who should buy which style.",
 		h1: "Full-Stack Overwatch 2 Cheats vs Minimal ESP-Only Tools",
 		intro: "Some Overwatch 2 tools sell a slim ESP module and call it a day. Overwatch 2 Cheats ships the wider raid stack. Neither philosophy is automatically wrong — they fit different players. Here is a clear comparison.",
 		keywords: ["Overwatch 2 ESP only cheat","Overwatch 2 cheats features","radar vs esp","Overwatch 2 cheat pricing","Overwatch 2 cheats"],
@@ -708,14 +708,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Two philosophies: minimal surface vs full raid loop",
 				paragraphs: [
-					"Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, radar, and soft aim profiles so one menu covers information and fights.",
-					"Overwatch 2 Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, loot, and hold objectives, missing radar becomes obvious.",
+					"Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add loot filters, wallhack, and tracking aimbot profiles so one menu covers information and fights.",
+					"Overwatch 2 Cheats is intentionally full-stack. If you only need outlines in quiet raids, a slim ESP product may feel enough. If you rotate, hero markers, and hold objectives, missing radar becomes obvious.",
 				],
 			},
 			{
 				h2: "Feature and pricing reality check",
 				paragraphs: [
-					"Overwatch 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
+					"Overwatch 2 Cheats monthly is $35 and lifetime is $150 for ESP, wallhack, and tracking aimbot together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
 					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-wallhack/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
 				],
 			},
@@ -723,13 +723,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"Overwatch 2 Cheats documents maintenance on <a href=\"/status/\">Easy Anti-Cheat workflow</a> and <a href=\"/overwatch-2-undetected/\">undetected notes</a>.",
+					"Overwatch 2 Cheats documents maintenance on <a href=\"/status/\">Blizzard Anti-Cheat workflow</a> and <a href=\"/overwatch-2-cheats/\">undetected notes</a>.",
 				],
 			},
 			{
 				h2: "Which style should you buy?",
 				paragraphs: [
-					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Overwatch 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
+					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Overwatch 2 Cheats if radar, loot filters, configurable tracking aimbot, and a public Updates URL are must-haves.",
 					"Decide your must-haves on paper first. Then open <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
 				],
 			}

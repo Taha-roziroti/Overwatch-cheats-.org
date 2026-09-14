@@ -123,12 +123,12 @@ export function section(h2, ...args) {
 
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
-	'destiny-2':
-		'<a href="https://www.overwatch.blizzard.com/7/en/Destiny/New" target="_blank" rel="noopener noreferrer">Overwatch 2</a>',
+	'overwatch-2':
+		'<a href="https://overwatch.blizzard.com/" target="_blank" rel="noopener noreferrer">Overwatch 2</a>',
 	status:
-		'<a href="https://help.overwatch.blizzard.com/" target="_blank" rel="noopener noreferrer">Bungie Help</a>',
-	easy-anticheat:
-		'<a href="https://www.easy-anticheat.com/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat Anti-Cheat</a>',
+		'<a href="https://support.blizzard.com/" target="_blank" rel="noopener noreferrer">Blizzard Support</a>',
+	anticheat:
+		'<a href="https://overwatch.blizzard.com/" target="_blank" rel="noopener noreferrer">Blizzard Anti-Cheat</a>',
 	steam:
 		'<a href="https://store.steampowered.com/app/2357570/Overwatch_2/" target="_blank" rel="noopener noreferrer">Overwatch 2 on Steam</a>',
 };
