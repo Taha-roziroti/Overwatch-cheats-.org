@@ -34,13 +34,10 @@ const PATH_REDIRECTS = {
 	'/sitemap-en.xml/': '/sitemap-en.xml',
 	'/sitemap-i18n.xml/': '/sitemap-i18n.xml',
 	'/sitemap-images.xml/': '/sitemap-images.xml',
-	// Pillar trailing slashes
+	// Pillar trailing slashes (no-slash → slash only; never redirect canonical /path/ to itself)
 	'/destiny-2-esp': '/destiny-2-esp/',
-	'/destiny-2-esp/': '/destiny-2-esp/',
 	'/destiny-2-aimbot': '/destiny-2-aimbot/',
-	'/destiny-2-aimbot/': '/destiny-2-aimbot/',
 	'/d2-cheats': '/d2-cheats/',
-	'/d2-cheats/': '/d2-cheats/',
 	// EN cannibal stub pages → pillars (keep in sync with scripts/sync-en-redirects.mjs)
 	'/d2-cheats-2026': '/d2-cheats/',
 	'/d2-cheats-2026/': '/d2-cheats/',

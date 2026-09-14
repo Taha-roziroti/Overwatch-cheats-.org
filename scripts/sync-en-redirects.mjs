@@ -199,6 +199,24 @@ function assertNoTwoHopChains(redirectText) {
 
 assertNoTwoHopChains(readFileSync(REDIRECTS, 'utf8'));
 
+/** Fail if Pages middleware PATH_REDIRECTS maps any path to itself (infinite loop). */
+function assertNoMiddlewareSelfRedirects() {
+	const mw = readFileSync(path.join(ROOT, 'functions/_middleware.js'), 'utf8');
+	const block = mw.match(/const PATH_REDIRECTS = \{([\s\S]*?)\};/);
+	if (!block) return;
+	const violations = [];
+	for (const m of block[1].matchAll(/'([^']+)':\s*'([^']+)'/g)) {
+		if (m[1] === m[2]) violations.push(m[1]);
+	}
+	if (violations.length) {
+		console.error('Middleware self-redirect loops detected (PATH_REDIRECTS):');
+		for (const v of violations) console.error(`  ${v} → ${v}`);
+		process.exit(1);
+	}
+}
+
+assertNoMiddlewareSelfRedirects();
+
 const enCount =
 	Object.keys(LEGACY_GAME).length +
 	Object.keys(LEGACY_REVIEWS).length +
