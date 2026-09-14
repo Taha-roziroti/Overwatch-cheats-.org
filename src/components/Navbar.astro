@@ -9,7 +9,11 @@ import {
 import { defaultLocale, locales, type LocaleCode } from '../data/i18n/locales';
 import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
-import { getBlogLocaleSwitchHref, isBlogPath } from '../data/blog/helpers';
+import {
+	getBlogBasePath,
+	getBlogLocaleSwitchHref,
+	isBlogPath,
+} from '../data/blog/helpers';
 
 interface Props {
 	locale?: LocaleCode;
@@ -53,6 +57,7 @@ const links = [
 	{ id: 'aimbot', labelKey: 'nav.aimbot', href: getLocalizedPath('overwatch-2-aimbot', locale) },
 	{ id: 'pricing', labelKey: 'nav.store', edit: 'navStore', href: getLocalizedPath('pricing', locale) },
 	{ id: 'updates', labelKey: 'nav.status', edit: 'navStatus', href: getLocalizedPath('updates', locale) },
+	{ id: 'forum', labelKey: 'common.blog', edit: 'blogLabel', href: getBlogBasePath(locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },
 ];
 ---
@@ -221,7 +226,7 @@ const links = [
 		align-items: center;
 		justify-content: space-evenly;
 		gap: 0;
-		width: min(calc(100% - 11.5rem), 38rem);
+		width: min(calc(100% - 11.5rem), 44rem);
 		max-width: 100%;
 		min-width: 0;
 		padding: 0.28rem;

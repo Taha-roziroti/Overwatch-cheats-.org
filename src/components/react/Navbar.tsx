@@ -37,6 +37,13 @@ function NavbarInner({
 	const isActive = (href: string) => {
 		if (href === '/') return currentPath === '/' || currentPath === `/${locale}/`;
 		if (href === reviewsBasePath) return currentPath === href || currentPath.startsWith(href);
+		if (href.endsWith('/forum/')) {
+			return (
+				currentPath === href ||
+				currentPath.startsWith(href) ||
+				currentPath.startsWith(href.replace('/forum/', '/blog/'))
+			);
+		}
 		return currentPath === href || currentPath.startsWith(href);
 	};
 
