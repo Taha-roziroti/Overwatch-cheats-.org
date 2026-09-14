@@ -1,7 +1,7 @@
 {
   "name": "Destiny 2 Cheats",
-  "install": "npm ci",
-  "start": "npm run sync:brand",
+  "install": "npm ci && npm run build",
+  "start": "npm run serve:public",
   "ports": [
     {
       "name": "dev",
@@ -16,12 +16,7 @@
     {
       "name": "dev",
       "command": "npm run dev",
-      "description": "Astro dev server at http://localhost:4321"
-    },
-    {
-      "name": "tunnel",
-      "command": "npx --yes localtunnel --port 4321",
-      "description": "Public URL for browsing when localhost port-forward is unavailable"
+      "description": "Live dev server with hot reload on port 4321"
     }
   ]
 }

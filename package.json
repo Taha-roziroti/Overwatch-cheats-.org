@@ -9,6 +9,7 @@
 		"dev": "astro dev --host 0.0.0.0 --port 4321",
 		"dev:tunnel": "node scripts/dev-tunnel.mjs",
 		"serve:public": "node scripts/serve-public.mjs",
+		"start": "node scripts/serve-public.mjs",
 		"sync:brand": "node scripts/sync-brand.mjs && node scripts/sync-en-redirects.mjs && node scripts/sync-i18n-slug-redirects.mjs && node scripts/sync-cannibal-redirects.mjs",
 		"prebuild": "node scripts/sync-brand.mjs && node scripts/sync-en-redirects.mjs && node scripts/sync-i18n-slug-redirects.mjs && node scripts/sync-cannibal-redirects.mjs",
 		"build": "astro build",
