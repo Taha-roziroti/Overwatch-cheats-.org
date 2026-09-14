@@ -6,7 +6,9 @@
 		"node": ">=22.12.0"
 	},
 	"scripts": {
-		"dev": "astro dev --host 0.0.0.0 --port 4321",
+		"dev": "astro dev --host",
+		"dev:clean": "astro dev stop 2>/dev/null || true; rm -rf node_modules/.vite .astro; astro dev --host",
+		"dev:restart": "astro dev stop 2>/dev/null || true; astro dev --host",
 		"dev:tunnel": "node scripts/dev-tunnel.mjs",
 		"serve:public": "node scripts/serve-public.mjs",
 		"start": "node scripts/serve-public.mjs",

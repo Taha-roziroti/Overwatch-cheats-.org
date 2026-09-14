@@ -13,6 +13,7 @@ export default defineConfig({
 	compressHTML: true,
 	devToolbar: { enabled: false },
 	server: {
+		// Bind IPv4 + IPv6 so localhost/port-forwarding works (not ::1-only).
 		host: true,
 		port: 4321,
 	},

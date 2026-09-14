@@ -26,6 +26,7 @@ const enHome = homeSeo();
 const title = locale === 'en' ? enHome.title : home.title;
 const description = locale === 'en' ? enHome.description : home.description;
 const canonicalPath = getLocalizedPath('home', locale);
+const heroVideo = siteConfig.heroVideo?.trim() || '';
 const canonicalURL = new URL(canonicalPath, siteConfig.url).href;
 const heroImage = new URL(siteConfig.defaultOgImage || defaultCrawlImageSrc, siteConfig.url).href;
 const priceValidUntil = '2027-12-31';
@@ -86,9 +87,10 @@ const extraGraph: Record<string, unknown>[] = [
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}
 	extraGraph={extraGraph}
-	lcpImage={heroPreloadSrc}
-	lcpImageSrcSet={heroSrcSet}
-	lcpImageSizes={heroSizes}
+	lcpImage={heroVideo ? undefined : heroPreloadSrc}
+	lcpImageSrcSet={heroVideo ? undefined : heroSrcSet}
+	lcpImageSizes={heroVideo ? undefined : heroSizes}
+	lcpVideo={heroVideo || undefined}
 >
 	<Navbar locale={locale} pageId="home" />
 	<main class="home">

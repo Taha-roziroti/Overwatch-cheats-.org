@@ -2,6 +2,7 @@
 import HeroApp from './react/Hero';
 import type { LocaleCode } from '../data/i18n/locales';
 import { defaultLocale } from '../data/i18n/locales';
+import { getPageContent } from '../data/i18n';
 import { productInfo, siteConfig } from '../data/site';
 import { heroWidth, heroHeight, heroSrcSet, heroSizes, heroSrc } from '../lib/responsive-images';
 
@@ -11,23 +12,92 @@ interface Props {
 
 const locale = Astro.props.locale ?? defaultLocale;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
+const home = getPageContent(locale, 'home');
+const heroVideo = siteConfig.heroVideo?.trim() || '';
+const heroLabel = locale === 'en' ? siteConfig.name : home.h1;
+const imageAlt = home.imageAlt;
 ---
 
-<HeroApp
-	client:load
-	locale={locale}
-	siteName={siteConfig.name}
-	checkoutUrl={siteConfig.checkoutUrl}
-	monthlyPrice={monthly.price}
-	heroSrc={heroSrc}
-	heroSrcSet={heroSrcSet}
-	heroSizes={heroSizes}
-	heroWidth={heroWidth}
-	heroHeight={heroHeight}
-	heroVideo={siteConfig.heroVideo || undefined}
-	heroVideoPoster={siteConfig.heroVideoPoster}
-	useBrandHero={locale === 'en'}
-/>
+<section class="hero" aria-label={heroLabel}>
+	<div class="hero__media">
+		{
+			heroVideo ? (
+				<video
+					class="hero__video"
+					src={heroVideo}
+					autoplay
+					muted
+					loop
+					playsinline
+					preload="auto"
+					width={heroWidth}
+					height={heroHeight}
+					aria-hidden="true"
+				>
+					<!-- Poster is intentionally omitted — the old poster looked like a static hero image. -->
+				</video>
+			) : (
+				<img
+					src={heroSrc}
+					srcset={heroSrcSet}
+					sizes={heroSizes}
+					alt={imageAlt}
+					width={heroWidth}
+					height={heroHeight}
+					fetchpriority="high"
+					loading="eager"
+					decoding="async"
+				/>
+			)
+		}
+	</div>
+	<div class="hero__veil" aria-hidden="true"></div>
+	<HeroApp
+		client:load
+		locale={locale}
+		siteName={siteConfig.name}
+		checkoutUrl={siteConfig.checkoutUrl}
+		monthlyPrice={monthly.price}
+		useBrandHero={locale === 'en'}
+	/>
+</section>
+
+{
+	heroVideo ? (
+		<script is:inline>
+			(() => {
+				const video = document.querySelector('.hero__video');
+				if (!(video instanceof HTMLVideoElement)) return;
+
+				video.muted = true;
+				video.defaultMuted = true;
+				video.playsInline = true;
+
+				const play = () => {
+					const attempt = video.play();
+					if (attempt && typeof attempt.catch === 'function') {
+						attempt.catch(() => {});
+					}
+				};
+
+				video.addEventListener('loadeddata', play);
+				video.addEventListener('canplay', play);
+				video.addEventListener('canplaythrough', play);
+
+				play();
+				let tries = 0;
+				const retry = window.setInterval(() => {
+					if (video.paused && tries < 12) {
+						play();
+						tries += 1;
+						return;
+					}
+					window.clearInterval(retry);
+				}, 400);
+			})();
+		</script>
+	) : null
+}
 
 <style is:global>
 	.hero {
@@ -269,7 +339,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 
 	@media (prefers-reduced-motion: reduce) {
 		.hero__copy,
-		.hero__media img {
+		.hero__media img,
+		.hero__media video {
 			animation: none;
 		}
 
@@ -299,7 +370,8 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 			overflow: hidden;
 		}
 
-		.hero__media img {
+		.hero__media img,
+		.hero__media video {
 			object-fit: cover;
 			object-position: 78% 10%;
 		}

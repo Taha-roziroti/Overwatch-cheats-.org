@@ -27,7 +27,7 @@ export const brand = {
 	logoAlt: 'Destiny 2 Cheats logo',
 	defaultOgImage: '/images/destiny-2-hero-poster.webp',
 	heroImage: '/images/destiny-2-hero-poster.webp',
-	/** Set to /videos/destiny-2-hero.mp4 after uploading the hero clip — until then poster shows */
+	/** Hero background clip — uploaded at public/videos/destiny-2-hero.mp4 */
 	heroVideo: '/videos/destiny-2-hero.mp4',
 	heroVideoPoster: '/images/destiny-2-hero-poster.webp',
 
