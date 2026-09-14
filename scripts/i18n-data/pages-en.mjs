@@ -17,8 +17,8 @@ export const enPages = {
 		sections: [
 			section(
 				'Why players choose Destiny 2 cheats in 2026',
-				'Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, PvE, and competitive lobbies.',
-				`Official seasons, patches, and anti-cheat updates come from ${EXT.destiny-2} and ${EXT.battleye}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/status/">Updates page</a>.`,
+				'Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, PvE, and competitive matches.',
+				`Official seasons, patches, and anti-cheat updates come from ${EXT['destiny-2']} and ${EXT.battleye}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/status/">Updates page</a>.`,
 				'Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include BattlEye maintenance rebuilds when anti-cheat or game patches require updates.',
 				'Start with the <a href="/d2-cheats/">Destiny 2 cheats pillar</a>, <a href="/destiny-2-esp/">ESP guide</a>, <a href="/destiny-2-aimbot/">Aimbot controls</a>, and <a href="/d2-cheats/">undetected status</a> pages if you are comparing tools before checkout.',
 			),
@@ -47,13 +47,13 @@ export const enPages = {
 			section(
 				'What Destiny 2 ESP solves in raids',
 				'Destiny 2 maps punish incomplete information. Destiny 2 Cheats ESP wallhack helps you spot enemy squads early, spot Guardians and enemies before they push your angle, and mark powerful loot worth the detour.',
-				'On raid, PvE, and competitive lobbies, that visibility gap is often the difference between a clean third-party and a wiped squad. ESP ships bundled with radar overlays and Aimbot in one license.',
-				`Destiny 2’s live seasons and map updates are published by Bungie (${EXT.destiny-2}). When POIs or loot rules shift, ESP categories stay useful because they track players and containers — not a single static landmark.`,
+				'In raids, strikes, and Crucible matches, that visibility gap is often the difference between a clean flank and a wiped fireteam. ESP ships bundled with radar overlays and Aimbot in one license.',
+				`Destiny 2’s live seasons and map updates are published by Bungie (${EXT['destiny-2']}). When POIs or loot rules shift, ESP categories stay useful because they track players and containers — not a single static landmark.`,
 			),
 			section(
 				'Player, boss, and loot ESP wallhack categories',
 				'Toggle enemy player outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.',
-				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE lobbies alike.',
+				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE matches alike.',
 				'Compare category detail on the <a href="/destiny-2-esp/">wallhack page</a> and pair visibility with the <a href="/d2-radar/">radar hack</a> for flanks outside your FOV.',
 				[
 					'Enemy player ESP outlines with distance',
@@ -93,7 +93,7 @@ export const enPages = {
 				'Aimbot tuned for Destiny 2 combat pace',
 				'Destiny 2 mixes long-range AR fights with close-quarters SMG pushes. Destiny 2 Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.',
 				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range close-range PvP fights.',
-				`Weapon balance and season rules change via ${EXT.destiny-2}. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.`,
+				`Weapon balance and season rules change via ${EXT['destiny-2']}. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.`,
 			),
 			section(
 				'Per-weapon Aimbot profiles',
@@ -138,7 +138,7 @@ export const enPages = {
 				'ESP wallhack and visibility features',
 				'Enemy player ESP wallhack, boss and objective awareness cues, loot and container markers, distance readouts, snaplines, and toggleable ESP categories for raid-critical overlays only.',
 				'Team and enemy colour coding supports raids and PvE. Deep-dive the <a href="/destiny-2-esp/">ESP page</a> and <a href="/destiny-2-esp/">wallhack guide</a> for category-level detail.',
-				`Map and loot systems evolve with ${EXT.destiny-2} wipe and map updates — toggleable ESP categories keep overlays useful when POIs rotate.`,
+				`Map and loot systems evolve with ${EXT['destiny-2']} season and content updates — toggleable ESP categories keep overlays useful when zones rotate.`,
 			),
 			section(
 				'Radar hack and Aimbot controls',
@@ -176,7 +176,7 @@ export const enPages = {
 			section(
 				'What every plan includes',
 				'Player ESP wallhack, loot markers, 2D radar overlays, Aimbot controls, in-client toggles, and maintenance rebuilds after BattlEye anti-cheat or major Destiny 2 patches.',
-				`Season calendars and client updates come from ${EXT.destiny-2}. Active licenses receive rebuild access when we publish maintenance on <a href="/status/">Updates</a>.`,
+				`Season calendars and client updates come from ${EXT['destiny-2']}. Active licenses receive rebuild access when we publish maintenance on <a href="/status/">Updates</a>.`,
 				'Digital delivery starts after payment confirmation. Keep your order reference for <a href="/support/">Support</a> requests and follow <a href="/setup/">Setup</a> for first launch.',
 			),
 			section(
@@ -248,7 +248,7 @@ export const enPages = {
 			section(
 				'Staying undetected after patches',
 				'No cheat guarantees permanent undetected status. Combine maintenance updates with responsible in-game settings and patch awareness.',
-				`Follow season notes from ${EXT.destiny-2}, then confirm our rebuild is live before you queue.`,
+				`Follow season notes from ${EXT['destiny-2']}, then confirm our rebuild is live before you queue.`,
 				'For urgent status questions after a BattlEye update, contact <a href="/support/">Support</a> with your license tier and last played build version.',
 			),
 		],
@@ -270,7 +270,7 @@ export const enPages = {
 				'What is Destiny 2 Cheats?',
 				'Destiny 2 Cheats is an undetected cheat package for Destiny 2 on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with BattlEye maintenance updates.',
 				'Packages cover raids and PvE. Explore <a href="/features/">Features</a> for the full control list and <a href="/destiny-2-esp/">ESP</a> / <a href="/destiny-2-aimbot/">Aimbot</a> for module detail.',
-				`Destiny 2 itself is published by Bungie (${EXT.destiny-2}). Cheats are third-party tools and may violate Bungie's rules — use is at your own risk.`,
+				`Destiny 2 itself is published by Bungie (${EXT['destiny-2']}). Cheats are third-party tools and may violate Bungie's rules — use is at your own risk.`,
 			),
 			section(
 				'Are Destiny 2 Cheats undetected in 2026?',
@@ -373,8 +373,8 @@ export const enPages = {
 			),
 			section(
 				'Map coverage for wallhack ESP',
-				'Wallhack overlays support raid, PvE, and competitive lobbies with distance readouts and snaplines for engagement control.',
-				`Season maps and POI changes are announced via ${EXT.destiny-2}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
+				'Wallhack overlays support raid, PvE, and competitive matches with distance readouts and snaplines for engagement control.',
+				`Season maps and POI changes are announced via ${EXT['destiny-2']}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
 				'Pair wallhack awareness with <a href="/d2-radar/">radar hack</a> cues for flanks during building and rooftop fights.',
 			),
 			section(
@@ -402,7 +402,7 @@ export const enPages = {
 				'Why radar hack matters in Destiny 2',
 				'raids fights happen in three dimensions — rooftops, windows, and flanks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third party.',
 				'Destiny 2 Cheats radar complements <a href="/destiny-2-esp/">ESP wallhack</a> markers during squad pushes and objective camp fights.',
-				`Mode rules and seasonal changes come from ${EXT.destiny-2}. Radar range remains configurable when map scale or mobility meta shifts.`,
+				`Mode rules and seasonal changes come from ${EXT['destiny-2']}. Radar range remains configurable when map scale or mobility meta shifts.`,
 			),
 			section(
 				'Configurable radar range',
@@ -434,7 +434,7 @@ export const enPages = {
 			section(
 				'BattlEye anti-cheat overview',
 				`BattlEye anti-cheat is Bungie's anti-cheat for Destiny 2 on PC (see ${EXT.battleye}). Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds for undetected packages.`,
-				`Destiny 2 Cheats monitors BattlEye patch notes and Destiny 2 seasonal updates from ${EXT.destiny-2} to schedule module reviews.`,
+				`Destiny 2 Cheats monitors BattlEye patch notes and Destiny 2 seasonal updates from ${EXT['destiny-2']} to schedule module reviews.`,
 				'“BattlEye bypass” in our wording means timely maintenance — not a permanent free pass around anti-cheat.',
 			),
 			section(
@@ -467,7 +467,7 @@ export const enPages = {
 			section(
 				'Why Destiny 2 cheats buyers choose Destiny 2 Cheats in 2026',
 				'2026 seasons bring new maps, weapons, and BattlEye anti-cheat updates. Destiny 2 Cheats bundles ESP wallhack, radar hack, and Aimbot with active maintenance — not a stale prior-year build.',
-				`Track official season messaging on ${EXT.destiny-2}, then use our <a href="/status/">Updates log</a> for product rebuild timing.`,
+				`Track official season messaging on ${EXT['destiny-2']}, then use our <a href="/status/">Updates log</a> for product rebuild timing.`,
 				'Monthly ($35) and lifetime ($150) plans cover raids and PvE loops — see <a href="/pricing/">Pricing</a>.',
 			),
 			section(
@@ -501,7 +501,7 @@ export const enPages = {
 				'What Destiny 2 cheats include in 2026',
 				'Players searching for Destiny 2 cheats usually want visibility and combat tools without stacking separate downloads. Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called Destiny 2 cheats.',
 				'Coverage spans raids and PvE with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
-				`Official game updates come from ${EXT.destiny-2}; our hacks package tracks those releases via the <a href="/status/">Updates page</a>. Cross-check platform health on ${EXT.status} before patch-day queues.`,
+				`Official game updates come from ${EXT['destiny-2']}; our hacks package tracks those releases via the <a href="/status/">Updates page</a>. Cross-check platform health on ${EXT.status} before patch-day queues.`,
 			),
 			section(
 				'How this Destiny 2 cheats pillar fits nearby pages',
@@ -578,7 +578,7 @@ export const enPages = {
 			section(
 				'Mod menu categories for raids and PvE',
 				'Separate ESP wallhack categories for players, loot, containers, and bosses let you reduce overlay noise during rotations and boss phases.',
-				'Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.destiny-2} seasons change fight distances and mobility.',
+				`Radar hack range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT['destiny-2']} seasons change fight distances and mobility.`,
 				'Soft tracking players should start with <a href="/destiny-2-aimbot/">soft aim</a> profiles before aggressive FOV.',
 			),
 			section(
@@ -611,7 +611,7 @@ export const enPages = {
 			section(
 				'Soft aim profiles per weapon class',
 				'Save separate soft aim profiles for ARs, SMGs, and bolt-actions. Switch between long-range AR beams and close-quarters room clears with hotkeys mid-match.',
-				`Weapon TTKs shift with ${EXT.destiny-2} balance patches — retune smoothness after major combat updates.`,
+				`Weapon TTKs shift with ${EXT['destiny-2']} balance patches — retune smoothness after major combat updates.`,
 				'Soft aim ships alongside <a href="/destiny-2-esp/">ESP wallhack</a> and <a href="/d2-radar/">2D radar</a> overlays.',
 			),
 			section(
@@ -678,7 +678,7 @@ export const enPages = {
 				'Aimbot hack controls and hotkeys',
 				'Bone priority options cover head, chest, or dynamic targets. Hotkeys enable or disable aimbot hack mid-match without opening menus during rotations or late-raid objectives.',
 				'Per-weapon profile slots separate long-range AR tuning from close-quarters SMG settings.',
-				`Balance patches from ${EXT.destiny-2} can change ideal FOV — retune after major weapon updates.`,
+				`Balance patches from ${EXT['destiny-2']} can change ideal FOV — retune after major weapon updates.`,
 			),
 			section(
 				'Undetected aimbot hack maintenance',
@@ -704,7 +704,7 @@ export const enPages = {
 			section(
 				'What a Destiny 2 ESP hack shows',
 				'A Destiny 2 ESP hack renders enemy player outlines, vehicle positions, and loot pins through walls and terrain — closing the information gap before you commit to a fight.',
-				'Distance readouts and snapline options help control engagement range during squad pushes and third-party scenarios.',
+				'Distance readouts and snapline options help control engagement range during fireteam pushes and cleanup scenarios.',
 				'Canonical visibility guide: <a href="/destiny-2-esp/">Destiny 2 ESP</a>. Wallhack wording: <a href="/destiny-2-esp/">wallhack</a>.',
 			),
 			section(
@@ -738,7 +738,7 @@ export const enPages = {
 				'What Destiny 2 unlock all usually means',
 				'Destiny 2 unlock all searches often refer to instant access to weapons, camos, skins, or battle pass tiers. Those claims differ from visibility and combat-assist tools like ESP wallhack and Aimbot.',
 				'Destiny 2 Cheats focuses on in-match awareness — player ESP, loot markers, radar overlays, and configurable Aimbot — not account-wide cosmetic unlocks.',
-				`Cosmetics and wipe progression items are sold through ${EXT.destiny-2}. Be wary of pve-cheats downloads that promise free skins — they are often scams.`,
+				`Cosmetics and seasonal progression items are sold through ${EXT['destiny-2']}. Be wary of cheat downloads that promise free skins — they are often scams.`,
 			),
 			section(
 				'Visibility tools vs pve-cheats claims',

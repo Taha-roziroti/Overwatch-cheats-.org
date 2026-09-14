@@ -110,6 +110,26 @@ const COPY_REPLACEMENTS = [
 	[/soft aim profiles, and \. Check/g, 'soft aim profiles, and radar. Check'],
 	[/soft aim profiles, and on Windows/g, 'soft aim profiles, and radar on Windows'],
 	[/destiny-2:\s*\n/g, "'destiny-2':\n"],
+	[/\$\{EXT\.destiny-2\}/g, "${EXT['destiny-2']}"],
+	[/Shoreline and Lighthouse/g, 'Nessus and Europa'],
+	[/M4A1/g, 'hand cannon'],
+	[/class-five armor/g, 'high-resilience targets'],
+	[/class-five plates/g, 'high-resilience targets'],
+	[/time-to-pen/g, 'time-to-kill'],
+	[/meds/g, 'healing'],
+	[/stash /g, 'inventory '],
+	[/ wiped lobby/g, ' cleared encounter'],
+	[/lobbies/g, 'matches'],
+	[/third-parties/g, 'flanks'],
+	[/third-party scenarios/g, 'cleanup scenarios'],
+	[/wipe cadence/g, 'season cadence'],
+	[/wipe progression/g, 'seasonal progression'],
+	[/ wipe and map/g, ' season and content'],
+	[/NaN wipe/g, 'season'],
+	[/battleRoyaleIsland: "ESP markers for loot and extracts/g, 'battleRoyaleIsland: "ESP markers for loot and objectives'],
+	[/Extract überleben/g, 'Begegnungen überstehen'],
+	[/survivre au objective/g, 'terminer les objectifs'],
+	[/sobrevivir al objective/g, 'completar objetivos'],
 ];
 
 function clean(text) {
@@ -127,8 +147,12 @@ const TARGETS = [
 	'scripts/i18n-data/pages-en.mjs',
 	'scripts/generate-blog-posts.mjs',
 	'scripts/i18n-data/pages-i18n.mjs',
+	'scripts/i18n-data/ui-strings-part1.mjs',
 	'src/data/i18n/gallery-ui.ts',
 	'src/data/i18n/locales.ts',
+	'src/data/i18n/simple-pages.ts',
+	'src/data/site.ts',
+	'src/data/faq.ts',
 ];
 
 for (const rel of TARGETS) {

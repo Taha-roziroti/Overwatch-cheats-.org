@@ -9,7 +9,7 @@ export const DESCRIPTIVE_IMAGE_ALTS = {
 	cheatsPackage: '2D radar threat overlay for Destiny 2',
 	rebootFight: 'Aimbot assist during a Destiny 2 firefight',
 	battleRoyale: 'Destiny 2 Cheats in-raid overview for Windows PC',
-	battleRoyaleIsland: 'ESP markers for loot and extracts in Destiny 2',
+	battleRoyaleIsland: 'ESP markers for loot and objectives in Destiny 2',
 };
 
 /** Page-level image alt by pageId (EN source of truth). */

@@ -22,24 +22,24 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What actually matters in a Destiny 2 patch?",
 				paragraphs: [
-					"Official notes live on NaN. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Guardians? Does this change what loot is worth looting? Does this change which activity or map I should run tonight?",
+					"Official notes live on <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how I kill armored Guardians? Does this change what loot is worth looting? Does this change which activity or map I should run tonight?",
 					"Ammo tables, armor classes, boss spawn rates, and vendor unlocks move the real economy. A small recoil tweak on an M4 looks boring in a video title, but it quietly reshapes mid-range fights on Nessus and Europa. Cosmetic lines and UI polish almost never decide whether you survive zones.",
-					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> or client update, check our <a href=\"/status/\">Destiny 2 Cheats status page</a> before you blame your own aim.",
+					"If you also run cleanup tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye</a> or client update, check our <a href=\"/status/\">Destiny 2 Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
-					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused raids — before you rebuild your entire stash around them.",
+					"When an item is removed from raid loot pools, delete it from your mental shopping list the same day. Heavy nerfs demote a weapon from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most fireteams. Buffs deserve a short test block — ten focused raids — before you rebuild your entire loadout around them.",
 					"Armor and ammunition changes usually matter more than a single gun’s recoil number. If a popular round loses penetration against high-resilience targets, your Crucible push into three-stacks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/weapon-tier-list/\">Destiny 2 weapon tier list</a> so you are not chasing streamer kits that ignore your budget.",
 				],
 			},
 			{
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
-					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near objectives and avoid ego third-parties. When a map POI shifts — new locked rooms, moved spawns, boss path changes — rewrite your first three minutes on that map before you farm it for quests.",
+					"When mid-range rifles feel strong, prioritize optics and ammo that win 40–70 meter peeks. When healing items get tighter, play more conservatively near objectives and avoid ego flanks. When a zone layout shifts — new locked doors, moved spawns, boss path changes — rewrite your first three minutes on that activity before you farm it for quests.",
 					"Keep cosmetic shop chatter out of patch-day focus. Skin talk is fun; time-to-kill and objective camping patterns are what get you killed. For aggressive enemy timing after a meta shift, see our <a href=\"/blog/pve-strategies/\">PvE activity strategies</a>.",
-					"On big mornings, confirm <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your stash “buy list,” play five intentional raids, and only then lock a new main kit.",
+					"On big mornings, confirm <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2 Support</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your inventory wish list, play five intentional raids, and only then lock a new main kit.",
 				],
 			}
 		],
@@ -66,14 +66,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official apparel come from NaN. Leaks are entertainment, not a shopping list. Many players spend hard-earned glimmer the night before a season reset, then realize they still need meds, ammo, and a backup kit.",
+					"Shop rotations and official apparel come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. Leaks are entertainment, not a shopping list. Many players spend hard-earned glimmer the night before a season reset, then realize they still need consumables, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes on Nessus or in dark Europa hallways. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
 				h2: "A simple worth-it checklist for Destiny 2 cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.",
+					"Buy if you will still wear it in ninety days and it stays readable in night raids. Pause if it overlaps three outfits you already own. Skip FOMO bundles packed with fillers you will never equip. Always keep a glimmer reserve for ammo and healing before fashion.",
 					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the Eververse. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
@@ -99,9 +99,9 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "weapon-tier-list",
 		title: "Destiny 2 Weapon Tier List: Best Guns for Raids",
-		metaDescription: "A practical Destiny 2 weapon tier list for Guardian and enemy raids — ARs, SMGs, bolt-actions, ammo, and when each gun actually wins fights.",
+		metaDescription: "A practical Destiny 2 weapon tier list for Guardian raids and Crucible — hand cannons, pulses, snipers, mods, and when each gun actually wins fights.",
 		h1: "Destiny 2 Weapon Tier List: What Wins Raids in 2026",
-		intro: "Creator tier lists love flashy guns. Destiny 2 rewards expected value: shield breaketration, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
+		intro: "Creator tier lists love flashy guns. Destiny 2 rewards expected value: shield breakage, recoil you can control, and a kit you can rebuild after you die. Here is how to rank weapons for real raids — not highlight reels.",
 		keywords: ["destiny-2 weapon tier list","best destiny-2 guns","destiny-2 meta weapons","m4a1 destiny-2","destiny-2 intel"],
 		imageAlt: "Destiny 2 weapons laid out for a Guardian loadout comparison",
 		sections: [
@@ -109,21 +109,21 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How should you define S-tier in Destiny 2?",
 				paragraphs: [
 					"S-tier means the best expected value across a hundred Guardian fights on maps like Crucible, Nessus, and Europa — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide raids: forty to seventy meters through doorways, parking lots, and tree lines.",
-					"Shotguns still own tight interiors. Bolt-actions still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant wipe after wipe when ammo and mods are available.",
-					"Always re-check live values after patches on NaN. The hierarchy logic stays useful even when numbers nudge.",
+					"Shotguns still own tight interiors. Snipers still punish long lanes on Nessus and Europa. Everything between those extremes is usually pulse rifle and hand cannon country, which is why a well-built mid-range primary stays relevant season after season when mods and ammo types are available.",
+					"Always re-check live values after patches on <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
 			{
 				h2: "Ammo, TTK, and peek discipline matter more than brand names",
 				paragraphs: [
-					"Time-to-kill in Destiny 2 is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this wipe, then pick a platform that controls recoil at your skill level.",
+					"Time-to-kill in Destiny 2 is really about burst damage and resilience breakpoints. A tuned hand cannon with the right mods beats a loud meta rifle that cannot break high-resilience targets. Learn which ammo and mods you can afford this season, then pick a primary that controls recoil at your skill level.",
 					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with loot discipline from our <a href=\"/blog/loot-routes/\">loot routes guide</a> so you actually spawn with the ammo you planned to use.",
 				],
 			},
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid rifle, a close-range option for zones or Patrol zone, enough meds, and an armor class you can replace after deaths. In PvE activities, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">enemy strategies article</a>.",
+					"A durable kit is usually a reliable mid-range primary, a close-range option for Crucible or patrol zones, enough healing, and resilience tiers you can replace after deaths. In PvE activities, that same spine supports the aggression patterns in our <a href=\"/blog/pve-strategies/\">PvE strategies article</a>.",
 					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock sensitivity and fundamentals first, then review <a href=\"/destiny-2-aimbot/\">Destiny 2 aimbot settings</a>.",
 				],
 			}
@@ -136,37 +136,37 @@ export const blogPosts: BlogPostDefinition[] = [
 		imageKey: "battleRoyaleCombat",
 		published: "2026-07-22",
 		updated: "2026-08-13",
-		category: "enemy Runs",
+		category: "PvE",
 		featured: true,
 		translations: {
 		en: {
 		slug: "pve-strategies",
-		title: "Destiny 2 enemy Run Strategies That Actually Print Loot",
-		metaDescription: "Five aggressive but smart Destiny 2 enemy strategies — timings, objectives, third-parties, and how to leave raids with gear instead of empty pockets.",
-		h1: "Destiny 2 enemy Run Strategies: How to Leave With Gear",
-		intro: "Passive enemy players wait behind a bush while two Guardian teams erase each other, then spray into the mess and die. Strong PvE activities manufacture a short advantage, grab what matters, and objective before the map collapses on you.",
+		title: "Destiny 2 PvE Strategies That Actually Print Loot",
+		metaDescription: "Five aggressive but smart Destiny 2 PvE strategies — timings, objectives, cleanup kills, and how to leave raids with gear instead of empty pockets.",
+		h1: "Destiny 2 PvE Strategies: How to Leave With Gear",
+		intro: "Passive players wait behind cover while two fireteams clear an encounter, then push late and die. Strong PvE runs manufacture a short advantage, grab what matters, and complete the objective before adds overwhelm you.",
 		keywords: ["destiny-2 PvE activity","PvE strategies","Destiny 2 PvE","destiny-2 objectives","Destiny 2 ESP"],
-		imageAlt: "enemy player moving toward objective with loot in Destiny 2",
+		imageAlt: "Guardian moving toward an objective with loot in Destiny 2",
 		sections: [
 			{
 				h2: "Why so many PvE activities feel soft",
 				paragraphs: [
-					"enemy kits are random, timers are limited, and player enemies can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a wiped lobby with nothing left. Information tools like <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> can help you see fights early — but you still need an exit plan.",
-					"Decide your objective before you swing. Take a clear damage window, grab powerful loot, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.",
+					"Enemy loadouts vary, timers are limited, and other Guardians can contest the same objective. Waiting forever for a “perfect” cleanup often means you arrive late to an empty encounter with nothing left. Information tools like <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> can help you see fights early — but you still need an exit plan.",
+					"Decide your objective before you push. Take a clear damage window, grab powerful loot, then rotate. The usual contest window in hot zones is only a few seconds long once gunfire starts.",
 				],
 			},
 			{
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
 					"Pre-aim common corners on Crucible zones and Europa tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their magazine is weak.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near objectives when players are silhouetted and greedy. Mode rules evolve with NaN wipes; the geometry of first-shot advantage does not.",
+					"Stay close to hard cover while you move — never more than a short sprint from a wall or barrier. Pressure late rotates near objectives when players are silhouetted and greedy. Season rules evolve with <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> updates; the geometry of first-shot advantage does not.",
 				],
 			},
 			{
-				h2: "Warmup checklist before you queue a enemy",
+				h2: "Warmup checklist before you queue a strike",
 				paragraphs: [
-					"Know your map’s main objectives, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/loot-routes/\">loot routes</a>, <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>, and <a href=\"/blog/warmup-routine/\">warmup routines</a>.",
-					"Try one session where you force early contact only when you have armor and a usable gun — then track whether you objectiveed before the third-party window closed.",
+					"Know your activity’s main objectives, bring a simple healing plan, and pick two zones with cover instead of open lanes. Pair this article with <a href=\"/blog/loot-routes/\">loot routes</a>, <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>, and <a href=\"/blog/warmup-routine/\">warmup routines</a>.",
+					"Try one session where you force early contact only when you have resilience and a usable primary — then track whether you completed the objective before the contest window closed.",
 				],
 			}
 		],
@@ -193,21 +193,21 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Watch competitive VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from NaN community events or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-raid decision.",
+					"Start with schedules and film from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> community events or trusted creators, then tag habits instead of memorizing a single zone name. Note the spawn plan, first heal, first rotate, first voluntary fight, and the key late-encounter decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
 			{
 				h2: "Spawn EV and loadout patterns that keep showing up",
 				paragraphs: [
-					"Score every spawn on contest rate, loot quality in the first few minutes, objective pain, exit paths, and split potential with teammates. Edge spawns with clean exits often beat “sexy” mid-map landmarks that look good on stream and then get third-partied.",
-					"Expect a reliable mid rifle, a close-range option, mobility or stamina management, and enough meds. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/blog/weapon-tier-list/\">weapon tier list</a>.",
+					"Score every spawn on contest rate, loot quality in the first few minutes, objective pressure, exit paths, and split potential with teammates. Edge spawns with clean exits often beat flashy mid-map landmarks that look good on stream and then get collapsed.",
+					"Expect a reliable mid-range primary, a close-range option, mobility mods, and enough healing. High-tier loot is taken when free, not forced — matching the mindset in our <a href=\"/blog/weapon-tier-list/\">weapon tier list</a>.",
 				],
 			},
 			{
 				h2: "What actually translates to normal raids",
 				paragraphs: [
-					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a trio drop when you solo queue. Winners rotate early enough to choose sides — the same idea shows up in our <a href=\"/blog/pve-strategies/\">enemy aggression guide</a>.",
+					"Steal loot-timer discipline, a simple loadout spine, earlier rotates, and selective fights. Do not blindly mirror a fireteam strat when you solo queue. Winners rotate early enough to choose angles — the same idea shows up in our <a href=\"/blog/pve-strategies/\">PvE aggression guide</a>.",
 					"Try this: watch fifteen minutes of a strong VOD with five timestamps. Steal one mid-raid habit only. Run it for a six-raid Guardian block before adding another.",
 				],
 			}
@@ -226,30 +226,30 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "loot-routes",
 		title: "Destiny 2 Loot Routes That Leave Spawn Ready to Fight",
-		metaDescription: "High-percentage Destiny 2 loot routes for Crucible, Nessus, and Europa — how to leave spawn with guns, armor, and meds that win mid-raid fights.",
+		metaDescription: "High-percentage Destiny 2 loot routes for Crucible, Nessus, and Europa — how to leave spawn with guns, armor, and heals that win mid-encounter fights.",
 		h1: "Destiny 2 Loot Routes: Leave Spawn Ready to Fight",
-		intro: "Winning in Destiny 2 starts before the first gunfight. Random looting gets you killed with a pistol and no meds. These route habits consistently convert a spawn into a kit you can actually fight with.",
+		intro: "Winning in Destiny 2 starts before the first gunfight. Random looting gets you killed with a sidearm and no healing. These route habits consistently convert a spawn into a kit you can actually fight with.",
 		keywords: ["destiny-2 loot routes","Crucible loot path","Europa loot","destiny-2 spawn guide","Destiny 2 ESP"],
 		imageAlt: "Loot route planning across an Destiny 2 map",
 		sections: [
 			{
 				h2: "Why early inventory is the real bottleneck",
 				paragraphs: [
-					"Many early raid deaths happen because players loot like tourists. Strong players treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic looting.",
-					"Secure a primary weapon and meds before hunting kills. Early ego chases are how hot-spawn players stay broke.",
+					"Many early encounter deaths happen because players loot without a plan. Strong players treat the first ninety seconds like a shopping list: usable primary, enough ammo, basic resilience, and a heal. Spawn choice matters less than sequence — a modest zone with discipline beats a stacked landmark with panic looting.",
+					"Secure a primary weapon and healing before hunting kills. Early ego chases are how hot-spawn players stay broke.",
 				],
 			},
 			{
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
-					"Contested edge POI: land outer loot, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, meds, then flex loot. POI names shift with NaN wipes — keep the geometry, not just the landmark brand.",
+					"Contested edge route: grab outer loot, move inward, leave before late collapses. Uncontested chain: skip early fights for a fuller kit by minute three. Mid-map surge: collect drops ninety to one hundred fifty seconds after hot spawns empty out.",
+					"Timing targets help: first primary quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually primary, ammo, resilience mods, healing, then bonus loot. Zone names shift with <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> season updates — keep the geometry, not just the landmark label.",
 				],
 			},
 			{
 				h2: "Convert a strong spawn into a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/pve-strategies/\">enemy aggression</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>. Leave spawn rich so mid-raid becomes a skill check instead of a loot panic.",
+					"Pair these routes with <a href=\"/blog/pve-strategies/\">PvE aggression</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a>. Leave spawn prepared so mid-encounter becomes a skill check instead of a loot panic.",
 					"If you practice with loot markers, read <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			}
@@ -278,7 +278,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
 					"If your frame rate collapses in Streets of Destiny 2 or Europa interiors, no sensitivity tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so Guardian silhouettes pop sooner in tree lines and warehouse lighting.",
-					"Test changes in offline mode or a quiet enemy before locking them for serious Guardian raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
+					"Test changes in a private match or low-pressure activity before locking them for serious Guardian raids. Your eyes adapt in a few sessions — give settings that long before declaring them useless.",
 				],
 			},
 			{
@@ -291,7 +291,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Audio cues that win objectives",
 				paragraphs: [
-					"Footsteps, magazine reloads, and objective buzzing often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a enemy AI movement and a player Guardian push.",
+					"Footsteps, magazine reloads, and ability cues often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between add movement and a Guardian push.",
 					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/loot-routes/\">loot routes</a> article so you know where those sounds are coming from.",
 				],
 			}
@@ -326,14 +326,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "A simple 15-minute routine that scales",
 				paragraphs: [
-					"Minutes 1–5: tracking and short bursts on a range or offline bots. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused enemy or offline fight block where you only work one habit, like holding an objective or clearing a room.",
+					"Minutes 1–5: tracking and short bursts on a range or training sector. Minutes 6–10: peek practice on common angles — jiggle, counter-strafe, pre-aim head height. Minutes 11–15: one focused Crucible or strike block where you only work one habit, like holding an objective or clearing a room.",
 					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Crucible one day, Nessus the next — after the habit sticks.",
 				],
 			},
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
-					"Check stash meds and ammo, confirm your map objectives, and skim <a href=\"/status/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/pro-settings/\">settings</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
+					"Check inventory heals and ammo, confirm your activity objectives, and skim <a href=\"/status/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/pro-settings/\">settings</a> and <a href=\"/blog/weapon-tier-list/\">weapon tiers</a> so you are not reinventing the kit every night.",
 					"If the first two Guardian deaths feel mechanical, stop stacking kits and repeat five minutes of peek practice. Ego queueing while tilted is not a strategy.",
 				],
 			}
@@ -361,7 +361,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What do people mean when they say Destiny 2 cheats?",
 				paragraphs: [
-					"In plain language, Destiny 2 cheats are third-party tools that add information or aim assistance on top of the Destiny 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
+					"In plain language, Destiny 2 cheats are cleanup tools that add information or aim assistance on top of the Destiny 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
 					"Searchers also say “Destiny 2 cheats,” \"Destiny 2 wallhack,\" or “Destiny 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
@@ -383,7 +383,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
 					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
-					"Destiny 2 Cheats is built for Windows PC Guardian and enemy play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
+					"Destiny 2 Cheats is built for Windows PC Crucible and PvE play. It will not replace map knowledge — it amplifies the reads you already practice in raids.",
 				],
 			}
 		],
@@ -443,7 +443,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "cheats-2026-updates",
 		title: "Destiny 2 Cheats 2026: What Changed This Year",
-		metaDescription: "What changed for Destiny 2 cheats in 2026 — wipe cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.",
+		metaDescription: "What changed for Destiny 2 cheats in 2026 — season cadence, BattlEye maintenance habits, ESP focus, and how Destiny 2 Cheats adapted for Destiny 2.",
 		h1: "What Changed for Destiny 2 Cheats in 2026",
 		intro: "2026 did not invent cheating in Destiny 2 — it raised the bar for maintenance. Wipes, BattlEye pushes, and map updates punish stale builds. Here is what changed in how serious Destiny 2 cheats packages need to operate.",
 		keywords: ["Destiny 2 cheats 2026","Destiny 2 cheats 2026","battleye 2026","destiny-2 season","Destiny 2 cheats updates"],

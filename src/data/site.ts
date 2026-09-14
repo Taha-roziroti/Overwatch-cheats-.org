@@ -172,12 +172,12 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'what-is-wallhack',
 		seoTitle: 'What Is a {game} Wallhack? | FAQ',
 		seoDescription:
-			'A {game} wallhack is ESP that reveals Guardians, enemies, and loot through walls — with distance, extracts, and category toggles.',
+			'A {game} wallhack is ESP that reveals Guardians, enemies, and loot through walls — with distance readouts and category toggles.',
 	}),
 	faq({
 		question: 'Does {brand} include a radar hack?',
 		answer:
-			'Yes. {brand} includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and extract holds.',
+			'Yes. {brand} includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and objective control.',
 		slug: 'radar-included',
 		seoTitle: 'Does {brand} Include a Radar Hack? | FAQ',
 		seoDescription:

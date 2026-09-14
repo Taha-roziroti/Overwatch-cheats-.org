@@ -18,7 +18,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		lead: 'Destiny 2 Cheats helps you spot Guardians, enemies, loot, and objectives with ESP, aimbot, and radar in one license.',
 		highlights: [
 			{ title: 'Destiny 2 cheats esp', copy: 'See players through walls with Destiny 2 cheats esp and wallhack overlays.' },
-			{ title: 'Destiny 2 cheats radar', copy: 'Track nearby threats with Destiny 2 cheats radar before you push or objective.' },
+			{ title: 'Destiny 2 cheats radar', copy: 'Track nearby threats with Destiny 2 cheats radar before you push or rotate.' },
 			{ title: 'Destiny 2 cheats aimbot', copy: 'Use soft aim and aimbot controls tuned for Destiny 2 raids on Windows PC.' },
 		],
 		updatesLabel: 'Destiny 2 cheats updates',
@@ -28,7 +28,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galería Destiny 2',
 		subtitle: 'Visuales de Destiny 2 con loadouts, peleas de escuadrón y combate raid — junto a herramientas ESP, radar y Aimbot.',
-		lead: 'Destiny 2 Cheats está pensado para el loop Crucible de Destiny 2: leer el mapa, rastrear escuadrones enemigos, lootear y sobrevivir al objective.',
+		lead: 'Destiny 2 Cheats está pensado para el loop Crucible de Destiny 2: leer el mapa, rastrear escuadrones enemigos, lootear y completar objetivos.',
 		highlights: [
 			{ title: 'ESP de players y escuadrones', copy: 'Detecta players enemigos y contornos de escuadrón en Crucible y PvE para elegir peleas con mejor información.' },
 			{ title: 'Marcadores de loot y cofres', copy: 'Resalta loadouts, cofres y loot de alto nivel sin saturar la pantalla en plena partida.' },
@@ -41,7 +41,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galerie Destiny 2',
 		subtitle: 'Visuels Destiny 2 — loadouts, combats d\'escouade et raid — avec ESP, radar et Aimbot.',
-		lead: 'Destiny 2 Cheats suit la boucle Crucible de Destiny 2 : lire la carte, suivre les escouades, loot et survivre au objective.',
+		lead: 'Destiny 2 Cheats suit la boucle Crucible de Destiny 2 : lire la carte, suivre les escouades, loot et terminer les objectifs.',
 		highlights: [
 			{ title: 'ESP players & escouades', copy: 'Repérez les players ennemis sur Crucible et PvE pour choisir vos engagements.' },
 			{ title: 'Marqueurs loot & coffres', copy: 'Mettez en évidence loadouts, coffres et loot haut niveau sans encombrer l\'écran.' },
@@ -54,7 +54,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 Galerie',
 		subtitle: 'Destiny 2-Bilder zu Loadouts, Squad-Kämpfen und raid — mit ESP, Radar und Aimbot.',
-		lead: 'Destiny 2 Cheats passt zur Raid-Schleife von Destiny 2: Karte lesen, Gegner-Trupps tracken, looten und Extract überleben.',
+		lead: 'Destiny 2 Cheats passt zur Raid-Schleife von Destiny 2: Karte lesen, Gegner-Trupps tracken, looten und Begegnungen überstehen.',
 		highlights: [
 			{ title: 'Player- & Squad-ESP', copy: 'Erkenne feindliche Playeren auf Crucible und PvE für bessere Rotationsentscheidungen.' },
 			{ title: 'Loot- & Vertragsmarker', copy: 'Hebe Loadout-Drops, Verträge und High-Tier-Loot hervor ohne Screen-Spam.' },
@@ -67,7 +67,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galeria Destiny 2',
 		subtitle: 'Visuais de Destiny 2 com loadouts, combates de esquadrão e raid — com ESP, radar e Aimbot.',
-		lead: 'Destiny 2 Cheats segue o loop Crucible do Destiny 2: ler o mapa, rastrear esquadrões, lootar e sobreviver ao objective.',
+		lead: 'Destiny 2 Cheats segue o loop Crucible do Destiny 2: ler o mapa, rastrear esquadrões, lootar e completar objetivos.',
 		highlights: [
 			{ title: 'ESP de players e esquadrões', copy: 'Detecte players inimigos em Crucible e PvE para escolher lutas com melhor intel.' },
 			{ title: 'Marcadores de loot e cofres', copy: 'Destaque loadouts, cofres e loot de alto nível sem poluir a tela.' },
@@ -80,7 +80,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galleria Destiny 2',
 		subtitle: 'Immagini Destiny 2 — loadout, scontri di squadra e raid — con ESP, radar e Aimbot.',
-		lead: 'Destiny 2 Cheats è pensato per il loop Crucible di Destiny 2: leggere la mappa, tracciare squadre nemiche, loot e sopravvivere al objective.',
+		lead: 'Destiny 2 Cheats è pensato per il loop Crucible di Destiny 2: leggere la mappa, tracciare squadre nemiche, loot e completare gli obiettivi.',
 		highlights: [
 			{ title: 'ESP playeri e squadre', copy: 'Individua playeri nemici su Crucible e PvE per scegliere i fight con più intel.' },
 			{ title: 'Marker loot e coffreti', copy: 'Evidenzia loadout, coffreti e loot di alto livello senza riempire lo schermo.' },
@@ -93,7 +93,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 galerij',
 		subtitle: 'Destiny 2-beelden van loadouts, squadgevechten en raid — met ESP, radar en Aimbot.',
-		lead: 'Destiny 2 Cheats volgt de raid-loop van Destiny 2: kaart lezen, vijandelijke squads volgen, looten en de objective overleven.',
+		lead: 'Destiny 2 Cheats volgt de raid-loop van Destiny 2: kaart lezen, vijandelijke squads volgen, looten en activiteiten voltooien.',
 		highlights: [
 			{ title: 'Player- & squad-ESP', copy: 'Spot vijandelijke players op Crucible en PvE voor betere rotatiebeslissingen.' },
 			{ title: 'Loot- & chestmarkers', copy: 'Markeer loadout-drops, chesten en high-tier loot zonder schermoverlast.' },
@@ -106,7 +106,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galeria Destiny 2',
 		subtitle: 'Grafiki Destiny 2 — loadouty, walki drużynowe i raid — z ESP, radar i Aimbot.',
-		lead: 'Destiny 2 Cheats pasuje do pętli Crucible Destiny 2: czytaj mapę, śledź wrogie drużyny, lootuj i przeżyj objective.',
+		lead: 'Destiny 2 Cheats pasuje do pętli Crucible Destiny 2: czytaj mapę, śledź wrogie drużyny, lootuj i ukończ cele.',
 		highlights: [
 			{ title: 'ESP players i drużyn', copy: 'Wykrywaj wrogich players na Crucible i PvE dla lepszych decyzji rotacyjnych.' },
 			{ title: 'Markery lootu i skrzyń', copy: 'Podświetlaj loadouty, petity i wysokiej klasy loot bez zaśmiecania ekranu.' },
@@ -119,7 +119,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Галерея Destiny 2',
 		subtitle: 'Визуалы Destiny 2 — лоадауты, бои отрядов и raid — с ESP, радаром и Aimbot.',
-		lead: 'Destiny 2 Cheats создан для рейд-циклу Destiny 2: читать карту, отслеживать вражеские отряды, лут и выживать в objective.',
+		lead: 'Destiny 2 Cheats создан для рейд-цикла Destiny 2: читать карту, отслеживать вражеские отряды, собирать лут и завершать активности.',
 		highlights: [
 			{ title: 'ESP игроков и отрядов', copy: 'Замечайте вражеских игроков на Crucible и PvE для лучших решений по ротации.' },
 			{ title: 'Маркеры лута и сундуков', copy: 'Подсвечивайте loadout, сундуки и высокий лут без перегрузки экрана.' },
@@ -132,7 +132,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 galerisi',
 		subtitle: 'Loadout, takım savaşları ve raid görselleri — ESP, radar ve Aimbot ile.',
-		lead: 'Destiny 2 Cheats, Destiny 2 Crucible döngüsü için: haritayı oku, düşman takımları izle, loot al ve objective\'da hayatta kal.',
+		lead: 'Destiny 2 Cheats, Destiny 2 Crucible döngüsü için: haritayı oku, düşman takımları izle, loot al ve hedefleri tamamla.',
 		highlights: [
 			{ title: 'Player ve takım ESP', copy: 'Crucible ve PvE\'da düşman playerleri görerek daha iyi rotasyon kararları alın.' },
 			{ title: 'Loot ve kontrat işaretleri', copy: 'Loadout, kontrat ve üst seviye loot\'u ekranı doldurmadan vurgulayın.' },
@@ -145,7 +145,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'معرض Destiny 2',
 		subtitle: 'صور Destiny 2 — loadouts ومعارك الفرق وraid — مع ESP ورادار وAimbot.',
-		lead: 'Destiny 2 Cheats مبني لحلقة Crucible في Destiny 2: قراءة الخريطة، تتبع الفرق، جمع اللوت والنجاة في objective.',
+		lead: 'Destiny 2 Cheats مبني لحلقة Crucible في Destiny 2: قراءة الخريطة، تتبع الفرق، جمع اللوت وإكمال الأهداف.',
 		highlights: [
 			{ title: 'ESP للمشغلين والفرق', copy: 'اكتشف players المعادين على Crucible وPvE لاختيار القتالات بذكاء.' },
 			{ title: 'علامات اللوت والصناديق', copy: 'أبرز loadouts والصناديق واللوت العالي دون ازدحام الشاشة.' },
@@ -158,7 +158,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 ギャラリー',
 		subtitle: 'ロードアウト、スクワッド戦、BRコンバットのDestiny 2ビジュアル — ESP、レーダー、エイムボット付き。',
-		lead: 'Destiny 2 CheatsはDestiny 2のBRループ向け：マップを読み、敵スクワッドを追跡し、ルートしてobjectiveを生き延びる。',
+		lead: 'Destiny 2 CheatsはDestiny 2のレイドループ向け：マップを読み、敵スクワッドを追跡し、ルートして目的を達成する。',
 		highlights: [
 			{ title: 'players＆スクワッドESP', copy: 'CrucibleとPvEで敵playersを把握し、ローテ判断を改善。' },
 			{ title: 'ルート＆チェストマーカー', copy: 'ロードアウト、チェスト、高ティアルートを画面を埋めずに表示。' },
@@ -171,7 +171,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 갤러리',
 		subtitle: '로드아웃, 스쿼드 전투, Crucible 컴뱃 Destiny 2 비주얼 — ESP, 레이더, 에임봇 포함.',
-		lead: 'Destiny 2 Cheats는 Destiny 2 Crucible 루프용: 맵 읽기, 적 스쿼드 추적, 루트 수집, objective 생존.',
+		lead: 'Destiny 2 Cheats는 Destiny 2 Crucible 루프용: 맵 읽기, 적 스쿼드 추적, 루트 수집, 목표 완료.',
 		highlights: [
 			{ title: 'players & 스쿼드 ESP', copy: 'Crucible와 PvE에서 적 players를 파악해 로테이션 결정을 개선.' },
 			{ title: '루트 & 상자 마커', copy: '로드아웃, 상자, 고티어 루트를 화면을 가리지 않고 강조.' },
@@ -184,7 +184,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 图库',
 		subtitle: 'Destiny 2 视觉 — 配装、小队战斗和大逃杀 — 配合 ESP、雷达和自瞄。',
-		lead: 'Destiny 2 Cheats 为 Destiny 2 Crucible 循环设计：读图、追踪敌方小队、搜刮并在 objective 存活。',
+		lead: 'Destiny 2 Cheats 为 Destiny 2 Crucible 循环设计：读图、追踪敌方小队、搜刮并完成目标。',
 		highlights: [
 			{ title: 'players与小队 ESP', copy: '在 Crucible 和 PvE 发现敌方players，做出更好的转点决策。' },
 			{ title: '物资与宝箱标记', copy: '高亮配装、宝箱和高级物资，不遮挡屏幕。' },
@@ -197,7 +197,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 गैलरी',
 		subtitle: 'Loadout, squad fights और raid visuals — ESP, radar और Aimbot के साथ।',
-		lead: 'Destiny 2 Cheats Destiny 2 Crucible loop के लिए: map पढ़ें, enemy squads track करें, loot करें और objective survive करें।',
+		lead: 'Destiny 2 Cheats Destiny 2 Crucible loop के लिए: map पढ़ें, enemy squads track करें, loot करें और objectives पूरे करें।',
 		highlights: [
 			{ title: 'Player & Squad ESP', copy: 'Crucible और PvE पर enemy players spot करें बेहतर rotation decisions के लिए।' },
 			{ title: 'Loot & Chest Markers', copy: 'Loadout drops, chests और high-tier loot highlight करें screen clutter के बिना।' },
@@ -210,7 +210,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galeri Destiny 2',
 		subtitle: 'Visual Destiny 2 — loadout, pertempuran squad, dan raid — dengan ESP, radar, dan Aimbot.',
-		lead: 'Destiny 2 Cheats untuk loop Crucible Destiny 2: baca peta, lacak squad musuh, loot, dan selamat di objective.',
+		lead: 'Destiny 2 Cheats untuk loop Crucible Destiny 2: baca peta, lacak squad musuh, loot, dan selesaikan objektif.',
 		highlights: [
 			{ title: 'ESP player & squad', copy: 'Deteksi player musuh di Crucible dan PvE untuk keputusan rotasi lebih baik.' },
 			{ title: 'Marker loot & peti', copy: 'Sorot loadout, peti, dan loot tier tinggi tanpa membanjiri layar.' },
@@ -223,7 +223,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'แกลเลอรี Destiny 2',
 		subtitle: 'ภาพ Destiny 2 — loadout การต่อสู้ทีม และ raid — พร้อม ESP เรดาร์และ Aimbot',
-		lead: 'Destiny 2 Cheats สำหรับลูป Crucible ของ Destiny 2: อ่านแผนที่ ติดตามทีมศัตรู เก็บ loot และรอด objective',
+		lead: 'Destiny 2 Cheats สำหรับลูป Crucible ของ Destiny 2: อ่านแผนที่ ติดตามทีมศัตรู เก็บ loot และทำเป้าหมายให้สำเร็จ',
 		highlights: [
 			{ title: 'ESP ผู้เล่นและทีม', copy: 'มองเห็นศัตรูบน Crucible และ PvE เพื่อตัดสินใจหมุนเวียนได้ดีขึ้น' },
 			{ title: 'มาร์กเกอร์ loot และหีบ', copy: 'เน้น loadout หีบและ loot ระดับสูงโดยไม่รกหน้าจอ' },
@@ -236,7 +236,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Thư viện Destiny 2',
 		subtitle: 'Hình ảnh Destiny 2 — loadout, chiến đấu squad và raid — với ESP, radar và Aimbot.',
-		lead: 'Destiny 2 Cheats cho vòng Crucible Destiny 2: đọc bản đồ, theo dõi squad địch, loot và sống sót objective.',
+		lead: 'Destiny 2 Cheats cho vòng Crucible Destiny 2: đọc bản đồ, theo dõi squad địch, loot và hoàn thành mục tiêu.',
 		highlights: [
 			{ title: 'ESP player & squad', copy: 'Phát hiện player địch trên Crucible và PvE để quyết định rotate tốt hơn.' },
 			{ title: 'Đánh dấu loot & rương', copy: 'Làm nổi bật loadout, rương và loot cao cấp mà không che màn hình.' },
@@ -249,7 +249,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Галерея Destiny 2',
 		subtitle: 'Візуали Destiny 2 — loadout, бої загонів і raid — з ESP, радаром і Aimbot.',
-		lead: 'Destiny 2 Cheats для рейд-циклу Destiny 2: читати карту, відстежувати ворожі загони, лут і виживати в objective.',
+		lead: 'Destiny 2 Cheats для рейд-циклу Destiny 2: читати карту, відстежувати ворожі загони, збирати лут і завершувати активності.',
 		highlights: [
 			{ title: 'ESP гравців і загонів', copy: 'Помічайте ворожих гравців на Crucible і PvE для кращих ротацій.' },
 			{ title: 'Маркери луту й скринь', copy: 'Підсвічуйте loadout, контракти та високий лут без перевантаження екрана.' },
@@ -262,7 +262,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galerie Destiny 2',
 		subtitle: 'Destiny 2 vizuály — loadouty, squad souboje a raid — s ESP, radarem a Aimbot.',
-		lead: 'Destiny 2 Cheats pro Crucible smyčku Destiny 2: číst mapu, sledovat nepřátelské squady, loot a přežít objective.',
+		lead: 'Destiny 2 Cheats pro Crucible smyčku Destiny 2: číst mapu, sledovat nepřátelské squady, loot a dokončit cíle.',
 		highlights: [
 			{ title: 'ESP players a squadů', copy: 'Spozorujte nepřátelské operátory na Crucible a PvE pro lepší rotační rozhodnutí.' },
 			{ title: 'Markery lootu a petitů', copy: 'Zvýrazněte loadouty, petity a high-tier loot bez přeplnění obrazovky.' },
@@ -275,7 +275,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Galerie Destiny 2',
 		subtitle: 'Vizualuri Destiny 2 — loadout, lupte de squad și raid — cu ESP, radar și Aimbot.',
-		lead: 'Destiny 2 Cheats pentru bucla Crucible Destiny 2: citește harta, urmărește squad-uri inamice, loot și supraviețuiește objective.',
+		lead: 'Destiny 2 Cheats pentru bucla Crucible Destiny 2: citește harta, urmărește squad-uri inamice, loot și finalizează obiectivele.',
 		highlights: [
 			{ title: 'ESP playeri și squad-uri', copy: 'Detectează playeri inamici pe Crucible și PvE pentru decizii de rotație mai bune.' },
 			{ title: 'Markere loot și cheste', copy: 'Evidențiază loadout-uri, cheste și loot de nivel înalt fără a aglomera ecranul.' },
@@ -288,7 +288,7 @@ export const galleryUi: Record<LocaleCode, GalleryUi> = {
 		eyebrow: 'Destiny 2 Cheats',
 		title: 'Destiny 2 galleri',
 		subtitle: 'Destiny 2-bilder — loadouts, squadstrider och raid — med ESP, radar och Aimbot.',
-		lead: 'Destiny 2 Cheats för Destiny 2:s raid-loop: läs kartan, spåra fiendesquads, loota och överlev objective.',
+		lead: 'Destiny 2 Cheats för Destiny 2:s raid-loop: läs kartan, spåra fiendesquads, loota och slutför mål.',
 		highlights: [
 			{ title: 'Player- & squad-ESP', copy: 'Spotta fiendeplayerer på Crucible och PvE för bättre rotationsbeslut.' },
 			{ title: 'Loot- & petitsmarkörer', copy: 'Markera loadout-drops, petit och high-tier loot utan skärmklutter.' },
