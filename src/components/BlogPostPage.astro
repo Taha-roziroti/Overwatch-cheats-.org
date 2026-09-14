@@ -12,6 +12,7 @@ import {
 import OfficialResources from './OfficialResources.astro';
 import type { ResolvedBlogPost } from '../data/blog/types';
 import { blogLabel, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 
 interface Props {
@@ -143,11 +144,11 @@ function pageTitle(headline: string): string {
 						))}
 					</ul>
 					<p class="post__related-more">
-						<a href="/destiny-2-cheats/">Cheats overview</a>
+						<a href={sitePaths.cheats}>Cheats overview</a>
 						{' · '}
-						<a href="/guides/">Guides hub</a>
+						<a href={sitePaths.guides}>Guides hub</a>
 						{' · '}
-						<a href="/features/">Features</a>
+						<a href={sitePaths.features}>Features</a>
 					</p>
 				</section>
 			)

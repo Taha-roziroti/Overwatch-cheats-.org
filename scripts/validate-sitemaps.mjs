@@ -57,7 +57,8 @@ const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
 const ENGLISH_PRODUCT_PAGES = 14;
-const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
+const GUIDE_PAGES = 1; // /guides/ hub (native guides only; PBN slugs removed)
+const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
 const I18N_LOCALES = 21;
 /** Locale product pages also exclude the same cannibal pageIds */
 const PRODUCT_PAGES_PER_LOCALE = 14;
@@ -66,7 +67,7 @@ const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
-const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
+const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
 /** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
 const LOCALE_BLOG_REDIRECT_PAGES = 18;
 const TOTAL_HTML_PAGES =
@@ -112,8 +113,9 @@ const ENGLISH_PATHS = [
 	'/destiny-2-cheats-privacy/',
 	'/destiny-2-cheats-refund/',
 	'/destiny-2-cheats-terms/',
+	'/guides/',
 	'/destiny-2-cheats-blog/',
-	'/destiny-2-cheats-blog/destiny-2-scav-run-aggressive-strategies/',
+	'/destiny-2-cheats-blog/destiny-2-pve-aggressive-strategies/',
 	'/destiny-2-cheats-blog/destiny-2-loot-routes-guide/',
 	'/destiny-2-cheats-blog/destiny-2-weapon-tier-list/',
 	'/destiny-2-cheats-blog/destiny-2-skin-leaks-guide/',
@@ -122,7 +124,7 @@ const ENGLISH_PATHS = [
 	'/destiny-2-cheats-blog/destiny-2-warmup-maps-ranked/',
 	'/destiny-2-cheats-blog/destiny-2-patch-notes-guide/',
 	'/destiny-2-cheats-blog/destiny-2-cheats-complete-guide-2026/',
-	'/destiny-2-cheats-blog/escape-from-destiny-2-cheats-buyers-guide/',
+	'/destiny-2-cheats-blog/destiny-2-cheats-buyers-guide/',
 	'/destiny-2-cheats-blog/destiny-2-cheats-2026-whats-new/',
 	'/destiny-2-cheats-blog/destiny-2-aimbot-settings-guide/',
 	'/destiny-2-cheats-blog/destiny-2-esp-wallhack-explained/',
@@ -287,24 +289,24 @@ async function main() {
 		bump();
 	} else ok('sitemap-images.xml has unique page <loc> hosts (no duplicates)');
 
-	for (const required of [`${SITE}/features/`, `${SITE}/pricing/`, `${SITE}/updates/`]) {
+	for (const required of [`${SITE}/destiny-2-cheats-features/`, `${SITE}/destiny-2-cheats-pricing/`, `${SITE}/destiny-2-cheats-status/`]) {
 		if (!enLocs.includes(required)) {
 			fail(`Missing core page in sitemap-en.xml: ${required}`);
 			bump();
 		}
 	}
 	if (errors === 0) {
-		ok('Core pages present in sitemap-en.xml: /features/ /pricing/ (Store) /updates/ (Status)');
+		ok('Core pages present in sitemap-en.xml: /destiny-2-cheats-features/ /destiny-2-cheats-pricing/ /destiny-2-cheats-status/');
 	}
 
-	for (const required of [`${SITE}/features/`, `${SITE}/pricing/`, `${SITE}/updates/`]) {
+	for (const required of [`${SITE}/destiny-2-cheats-features/`, `${SITE}/destiny-2-cheats-pricing/`, `${SITE}/destiny-2-cheats-status/`]) {
 		if (!imageLocs.includes(required)) {
 			fail(`Missing core host in sitemap-images.xml: ${required}`);
 			bump();
 		}
 	}
 	if (errors === 0) {
-		ok('Image sitemap hosts Features, Store (/pricing/), and Status (/updates/)');
+		ok('Image sitemap hosts Features, Store, and Status pages');
 	}
 
 	// English path coverage (skip intentional 301 stubs)

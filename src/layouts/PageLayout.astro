@@ -507,10 +507,11 @@ const breadcrumbs = [
 
 	.article :global(h2) {
 		margin: 0 0 0.4rem;
-		font-family: var(--font-display);
+		font-family: var(--font-sans);
 		font-size: 1.05rem;
-		font-weight: 800;
-		letter-spacing: -0.02em;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+		font-stretch: normal;
 		color: var(--ink);
 	}
 
@@ -527,14 +528,14 @@ const breadcrumbs = [
 		gap: 0.35rem;
 	}
 
-	.article :global(li) {
+	.article :global(.card-panel li) {
 		position: relative;
 		padding-left: 0.95rem;
 		font-size: 0.9rem;
 		color: var(--ink-muted);
 	}
 
-	.article :global(li::before) {
+	.article :global(.card-panel li::before) {
 		content: '';
 		position: absolute;
 		left: 0;
@@ -619,10 +620,11 @@ const breadcrumbs = [
 
 	.gallery-block__head h2 {
 		margin: 0;
-		font-family: var(--font-display);
+		font-family: var(--font-sans);
 		font-size: 1.15rem;
-		font-weight: 800;
-		letter-spacing: -0.02em;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+		font-stretch: normal;
 		color: var(--ink);
 	}
 

@@ -7,7 +7,7 @@ export const LOCALES = [
 
 export const PAGE_IDS = [
 	'home', 'destiny-2-esp', 'destiny-2-aimbot', 'features', 'pricing', 'setup',
-	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'battleye',
+	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'anticheat',
 	'cheats-2026', 'hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms',
 ];
@@ -26,7 +26,7 @@ export const HERO_IMAGES = {
 	undetected: '/images/destiny-2-cheats-wallhack.webp',
 	wallhack: '/images/destiny-2-cheats-wallhack.webp',
 	radar: '/images/destiny-2-cheats-radar.webp',
-	battleye: '/images/destiny-2-cheats-aimbot.webp',
+	anticheat: '/images/destiny-2-cheats-aimbot.webp',
 	'cheats-2026': '/images/destiny-2-cheats-esp.webp',
 	hacks: '/images/destiny-2-cheats-raid.webp',
 	'cheat-download': '/images/destiny-2-cheats-raid.webp',
@@ -123,12 +123,12 @@ export function section(h2, ...args) {
 
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
-	activision:
-		'<a href="https://www.escapefromdestiny-2.com/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
-	destiny-2:
-		'<a href="https://www.escapefromdestiny-2.com/" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
+	'destiny-2':
+		'<a href="https://www.bungie.net/7/en/Destiny/New" target="_blank" rel="noopener noreferrer">Destiny 2</a>',
 	status:
-		'<a href="https://www.escapefromdestiny-2.com/support" target="_blank" rel="noopener noreferrer">Destiny 2 Support</a>',
+		'<a href="https://help.bungie.net/" target="_blank" rel="noopener noreferrer">Bungie Help</a>',
 	battleye:
 		'<a href="https://www.battleye.com/" target="_blank" rel="noopener noreferrer">BattlEye Anti-Cheat</a>',
+	steam:
+		'<a href="https://store.steampowered.com/app/1085660/Destiny_2/" target="_blank" rel="noopener noreferrer">Destiny 2 on Steam</a>',
 };

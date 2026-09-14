@@ -4,16 +4,16 @@ import Navbar from '../../components/Navbar.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { siteConfig } from '../../data/site';
 import { getSelfHreflangAlternates } from '../../data/i18n/routing';
-import { guidesBasePath, getGuidesGroupedByGame, nativeGuides, GAME_GUIDES } from '../../data/guides/helpers';
+import { guidesBasePath, nativeGuides } from '../../data/guides/helpers';
+import { sitePaths } from '../../data/site-paths';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import OfficialResources from '../../components/OfficialResources.astro';
 
-const title = 'Game Guides Hub | Destiny 2 & Multi-Game Strategy Guides';
+const title = 'Destiny 2 Guides | Setup, Features & Modes';
 const description =
-	'Destiny 2 setup and feature guides plus curated strategy guides for popular PC games — gameplay tips, settings, and progression paths.';
+	'Destiny 2 cheat guides for setup, features, ESP, aimbot, Crucible, and PvE — informational pages for Windows PC license holders.';
 const canonicalPath = guidesBasePath;
 const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
-const gameGroups = getGuidesGroupedByGame();
 
 const extraGraph: Record<string, unknown>[] = [
 	{
@@ -21,7 +21,7 @@ const extraGraph: Record<string, unknown>[] = [
 		'@id': `${new URL(canonicalPath, siteConfig.url).href}#collection`,
 		name: title,
 		description,
-		numberOfItems: nativeGuides.length + GAME_GUIDES.length,
+		numberOfItems: nativeGuides.length,
 	},
 ];
 ---
@@ -52,10 +52,9 @@ const extraGraph: Record<string, unknown>[] = [
 			<header class="guides-index__head">
 				<h1>Guides</h1>
 				<p class="guides-index__intro">
-					Start with our Destiny 2 product guides, then browse game-specific strategy articles for other
-					popular PC titles below. For vanilla game knowledge, pair our setup pages with official references
-					like <a href="/blog/">blog tips</a>, <a href="/destiny-2-cheats/">cheats overview</a>, and the
-					community wikis listed below.
+					Setup, feature, and mode guides for {siteConfig.name}. Pair these with the
+					<a href={sitePaths.cheats}>cheats overview</a>, <a href={sitePaths.setup}>setup guide</a>,
+					<a href={sitePaths.blog}>blog</a>, and the official references below.
 				</p>
 				<OfficialResources locale="en" />
 			</header>
@@ -88,26 +87,6 @@ const extraGraph: Record<string, unknown>[] = [
 				</div>
 			</section>
 
-			<section class="guides-index__external" aria-labelledby="game-guides-title">
-				<h2 id="game-guides-title">Game guides by title</h2>
-				<p class="guides-index__section-lead">
-					{GAME_GUIDES.length} strategy guides organized by game — scroll to browse all titles.
-				</p>
-				{
-					gameGroups.map((group) => (
-						<div class="guides-index__game-group">
-							<h3>{group.gameName}</h3>
-							<ul class="guides-index__game-list">
-								{group.guides.map((guide) => (
-									<li>
-										<a href={`/guides/${guide.slug}/`}>{guide.title}</a>
-									</li>
-								))}
-							</ul>
-						</div>
-					))
-				}
-			</section>
 		</div>
 	</main>
 	<SiteFooter />
@@ -187,12 +166,13 @@ const extraGraph: Record<string, unknown>[] = [
 		border-top: 1px solid var(--line-soft);
 	}
 
-	.guides-index__native h2,
-	.guides-index__external h2 {
+	.guides-index__native h2 {
 		margin: 0;
-		font-family: var(--font-display);
+		font-family: var(--font-sans);
 		font-size: clamp(1.25rem, 2.5vw, 1.55rem);
-		font-weight: 800;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+		font-stretch: normal;
 		color: var(--ink);
 	}
 

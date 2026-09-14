@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { getSelfHreflangAlternates } from '../data/i18n/routing';
 import { fillBrandTokens, productInfo, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
 
 const title = fillBrandTokens('Page Not Found | {brand}');
 const description = fillBrandTokens(
@@ -33,10 +34,10 @@ const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
 			<div class="missing__actions">
 				<a class="btn-buy" href="/">Back to {siteConfig.name} home</a>
 				<a class="missing__ghost" href="/destiny-2-cheats/">{productInfo.game} preview</a>
-				<a class="missing__ghost" href="/pricing/">Store</a>
-				<a class="missing__ghost" href="/reviews/">Reviews</a>
-				<a class="missing__ghost" href="/blog/">Blog</a>
-				<a class="missing__ghost" href="/support/">Support</a>
+				<a class="missing__ghost" href={sitePaths.pricing}>Store</a>
+				<a class="missing__ghost" href={sitePaths.reviews}>Reviews</a>
+				<a class="missing__ghost" href={sitePaths.blog}>Blog</a>
+				<a class="missing__ghost" href={sitePaths.support}>Support</a>
 			</div>
 			</div>
 		</div>

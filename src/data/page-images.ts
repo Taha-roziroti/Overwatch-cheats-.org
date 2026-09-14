@@ -24,7 +24,7 @@ export const pageImageSrcById: Record<PageId, string> = {
 	features: '/images/destiny-2-cheats-aimbot-esp.webp',
 	pricing: '/images/destiny-2-cheats-pve.webp',
 	setup: '/images/destiny-2-cheats-wallhack-skeleton.webp',
-	updates: '/images/destiny-2-hero-poster.webp',
+	updates: '/images/destiny-2-cheats-crucible.webp',
 	faq: '/images/destiny-2-cheats-esp-crucible.webp',
 	support: '/images/destiny-2-cheats-pve.webp',
 	undetected: '/images/destiny-2-cheats-wallhack-skeleton.webp',

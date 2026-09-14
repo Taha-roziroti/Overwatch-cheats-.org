@@ -11,6 +11,7 @@ import {
 	getBlogIndexHreflangAlternates,
 } from '../data/blog/helpers';
 import { blogLabel, siteConfig } from '../data/site';
+import { sitePaths } from '../data/site-paths';
 import { brandSeo, seoPageTitle } from '../data/site-core';
 import { seoDescription } from '../data/brand';
 import { getLocalizedPath } from '../data/i18n/routing';
@@ -73,11 +74,11 @@ const articleListSchema = {
 			<h1>{ui.blogH1}</h1>
 			<p class="blog__intro">{ui.blogIntro}</p>
 			<p class="blog__hub-links">
-				<a href="/destiny-2-cheats/">Cheats overview</a>
+				<a href={sitePaths.cheats}>Cheats overview</a>
 				{' · '}
-				<a href="/guides/">Guides hub</a>
+				<a href={sitePaths.guides}>Guides hub</a>
 				{' · '}
-				<a href="/features/">Features</a>
+				<a href={sitePaths.features}>Features</a>
 			</p>
 		</header>
 
