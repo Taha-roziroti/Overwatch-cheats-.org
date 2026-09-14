@@ -22,7 +22,7 @@ const reviews = customerReviews.map((review) => ({
 ---
 
 <HomeReviewsApp
-	client:visible
+	client:load
 	locale={locale}
 	reviews={reviews}
 	averageRating={customerReviewStats.averageRating}
@@ -187,9 +187,12 @@ const reviews = customerReviews.map((review) => ({
 	}
 
 	.reviews__nav {
+		position: relative;
+		z-index: 30;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		flex-shrink: 0;
 		width: 2.5rem;
 		height: 2.5rem;
 		border: 1px solid var(--line);
@@ -197,6 +200,7 @@ const reviews = customerReviews.map((review) => ({
 		background: var(--bg-panel);
 		color: var(--ink-muted);
 		cursor: pointer;
+		pointer-events: auto;
 		transition:
 			border-color 0.2s ease,
 			color 0.2s ease,
@@ -218,7 +222,9 @@ const reviews = customerReviews.map((review) => ({
 
 	.reviews__carousel {
 		position: relative;
+		z-index: 1;
 		height: 17rem;
+		overflow: hidden;
 		perspective: 1200px;
 	}
 
@@ -247,7 +253,7 @@ const reviews = customerReviews.map((review) => ({
 			0 20px 50px color-mix(in srgb, var(--magenta) 18%, transparent),
 			0 8px 24px rgba(0, 0, 0, 0.35);
 		pointer-events: auto;
-		z-index: 20 !important;
+		z-index: 5 !important;
 	}
 
 	.review-spotlight__tag {

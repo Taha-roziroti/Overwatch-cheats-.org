@@ -57,7 +57,7 @@ const links = [
 	{ id: 'aimbot', labelKey: 'nav.aimbot', href: getLocalizedPath('overwatch-2-aimbot', locale) },
 	{ id: 'pricing', labelKey: 'nav.store', edit: 'navStore', href: getLocalizedPath('pricing', locale) },
 	{ id: 'updates', labelKey: 'nav.status', edit: 'navStatus', href: getLocalizedPath('updates', locale) },
-	{ id: 'forum', labelKey: 'common.blog', edit: 'blogLabel', href: getBlogBasePath(locale) },
+	{ id: 'forum', labelKey: 'nav.forum', edit: 'blogLabel', href: getBlogBasePath(locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },
 ];
 ---
@@ -214,20 +214,19 @@ const links = [
 	}
 
 	.site-header__bar {
-		position: relative;
-		display: flex;
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) auto;
 		align-items: center;
-		justify-content: center;
+		gap: 0.65rem;
 		min-height: var(--header-h);
 	}
 
 	.site-nav {
 		display: flex;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: flex-start;
 		gap: 0;
-		width: min(calc(100% - 11.5rem), 44rem);
-		max-width: 100%;
+		width: 100%;
 		min-width: 0;
 		padding: 0.28rem;
 		border: 1px solid var(--line-soft);
@@ -275,16 +274,11 @@ const links = [
 	}
 
 	.site-tools {
-		position: absolute;
-		top: 50%;
-		right: 0;
-		transform: translateY(-50%);
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
 		gap: 0.45rem;
 		flex-shrink: 0;
-		z-index: 2;
 	}
 
 	.site-tools__lang {
@@ -331,24 +325,13 @@ const links = [
 
 	@media (max-width: 1024px) {
 		.site-header__bar {
-			display: grid;
-			grid-template-columns: minmax(0, 1fr) auto;
-			align-items: center;
 			gap: 0.5rem;
 		}
 
 		.site-nav {
-			position: static;
-			width: auto;
-			max-width: none;
 			justify-content: space-between;
 			padding: 0.22rem 0.28rem;
 			border-radius: var(--radius-md);
-		}
-
-		.site-tools {
-			position: static;
-			transform: none;
 		}
 
 		.site-nav a {

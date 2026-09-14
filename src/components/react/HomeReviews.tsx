@@ -73,14 +73,24 @@ function HomeReviewsInner({
 		[count],
 	);
 
-	const prev = useCallback(() => go(active - 1), [active, go]);
-	const next = useCallback(() => go(active + 1), [active, go]);
+	const prev = useCallback(() => {
+		setActive((current) => (current - 1 + count) % count);
+		setTick((n) => n + 1);
+	}, [count]);
+
+	const next = useCallback(() => {
+		setActive((current) => (current + 1) % count);
+		setTick((n) => n + 1);
+	}, [count]);
 
 	useEffect(() => {
 		if (paused || count <= 1) return;
-		const id = window.setInterval(() => go(active + 1), ROTATE_MS);
+		const id = window.setInterval(() => {
+			setActive((current) => (current + 1) % count);
+			setTick((n) => n + 1);
+		}, ROTATE_MS);
 		return () => window.clearInterval(id);
-	}, [active, go, paused, count]);
+	}, [paused, count]);
 
 	const offset = (i: number) => {
 		let d = i - active;
@@ -120,7 +130,15 @@ function HomeReviewsInner({
 					onFocus={() => setPaused(true)}
 					onBlur={() => setPaused(false)}
 				>
-					<button type="button" className="reviews__nav reviews__nav--prev" onClick={prev} aria-label="Previous review">
+					<button
+						type="button"
+						className="reviews__nav reviews__nav--prev"
+						onClick={(event) => {
+							event.stopPropagation();
+							prev();
+						}}
+						aria-label="Previous review"
+					>
 						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 							<path d="M15 18l-6-6 6-6" />
 						</svg>
@@ -171,7 +189,15 @@ function HomeReviewsInner({
 						})}
 					</div>
 
-					<button type="button" className="reviews__nav reviews__nav--next" onClick={next} aria-label="Next review">
+					<button
+						type="button"
+						className="reviews__nav reviews__nav--next"
+						onClick={(event) => {
+							event.stopPropagation();
+							next();
+						}}
+						aria-label="Next review"
+					>
 						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
 							<path d="M9 18l6-6-6-6" />
 						</svg>
