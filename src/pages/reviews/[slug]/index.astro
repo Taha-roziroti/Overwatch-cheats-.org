@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
 import SiteFooter from '../../../components/SiteFooter.astro';
 import { customerReviewStats, customerReviews, productInfo, siteConfig } from '../../../data/site';
+import { productPageUrl, productSchemaId } from '../../../data/product-schema';
 import { getSelfHreflangAlternates } from '../../../data/i18n/routing';
 import { getReviewPath, getReviewCrawlImage, reviewsBasePath } from '../../../data/reviews';
 import type { CustomerReview } from '../../../data/site';
@@ -56,12 +57,12 @@ const extraGraph: Record<string, unknown>[] = [
 		reviewBody: review.text,
 		itemReviewed: {
 			'@type': 'Product',
-			'@id': `${siteConfig.url}/#product`,
+			'@id': productSchemaId,
 			name: productInfo.name,
 			description: productInfo.summary,
 			image: photo.url,
 			brand: { '@type': 'Brand', name: productInfo.brand },
-			url: `${siteConfig.url}/`,
+			url: productPageUrl,
 		},
 		publisher: { '@id': `${siteConfig.url}/#organization` },
 	},

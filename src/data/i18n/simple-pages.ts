@@ -158,7 +158,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	hacks: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'Destiny 2 Cheats',
+		h1: 'Buy Destiny 2 Cheats',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
@@ -186,8 +186,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'<a href="/destiny-2-esp/">ESP guide</a>',
 					'<a href="/destiny-2-aimbot/">Aimbot controls</a>',
 					'<a href="/d2-radar/">Radar overlay</a>',
-					'<a href="/d2-crucible/">Crucible cheats</a>',
-					'<a href="/d2-pve/">PvE cheats</a>',
+					'<a href="/blog/pve-strategies/">PvE strategies</a>',
 					'<a href="/guides/">Guides hub</a>',
 					'<a href="/status/">Live status</a>',
 				],

@@ -9,7 +9,8 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { productPageUrl, productSchemaId } from '../data/product-schema';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 
@@ -37,16 +38,16 @@ const aggregateRating = {
 	worstRating: '1',
 };
 
-/** One commerce type only — Product. Reviews live on /reviews/. */
+/** Homepage references the canonical product on /d2-cheats/ — FAQ schema lives on /faq/ only. */
 const extraGraph: Record<string, unknown>[] = [
 	{
 		'@type': 'Product',
-		'@id': `${canonicalURL}#product`,
+		'@id': productSchemaId,
 		name: productInfo.name,
 		description: productInfo.summary,
 		image: heroImage,
 		brand: { '@type': 'Brand', name: productInfo.brand },
-		url: new URL('/d2-cheats/', siteConfig.url).href,
+		url: productPageUrl,
 		aggregateRating,
 		offers: {
 			'@type': 'AggregateOffer',
@@ -68,19 +69,6 @@ const extraGraph: Record<string, unknown>[] = [
 			})),
 		},
 	},
-	{
-		'@type': 'FAQPage',
-		'@id': `${canonicalURL}#faq`,
-		mainEntity: homeFaqs.map((item) => ({
-			'@type': 'Question',
-			name: item.question,
-			url: `${siteConfig.url}/faq/${item.slug}/`,
-			acceptedAnswer: {
-				'@type': 'Answer',
-				text: item.answer,
-			},
-		})),
-	},
 ];
 ---
 
@@ -97,7 +85,7 @@ const extraGraph: Record<string, unknown>[] = [
 	locale={locale}
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}
-	extraGraph={locale === 'en' ? extraGraph : extraGraph.filter((n) => n['@type'] !== 'FAQPage')}
+	extraGraph={extraGraph}
 	lcpImage={heroPreloadSrc}
 	lcpImageSrcSet={heroSrcSet}
 	lcpImageSizes={heroSizes}

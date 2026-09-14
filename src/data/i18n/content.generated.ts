@@ -104,10 +104,10 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "Destiny 2 Cheats 2026 | Undetected ESP, Aimbot & Wallhack",
-					description: "Destiny 2 cheats for Windows PC — ESP, soft aim, radar, and BattlEye updates. Compare plans and buy.",
-					h1: "Destiny 2 Cheats — Undetected ESP, Wallhack & Aimbot",
-					intro: "Undetected Destiny 2 cheats for Windows PC — ESP wallhack, 2D radar, and aimbot in one license, with BattlEye rebuilds after major patches.",
+					title: "Destiny 2 Cheats | Undetected PC Hacks",
+					description: "Official Destiny 2 cheats for Windows PC — aimbot, ESP, wallhack, radar, and BattlEye updates. Compare plans and buy with instant delivery.",
+					h1: "Destiny 2 Cheats",
+					intro: "Undetected Destiny 2 cheats for Windows PC — ESP, soft aim, and radar in one license with BattlEye maintenance after patches.",
 					imageAlt: "Destiny 2 Cheats homepage hero — ESP and aimbot for Destiny 2",
 					galleryTitle: "Destiny 2 Cheats gallery — ESP, Aimbot and wallhack visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
@@ -115,28 +115,27 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Why players choose Destiny 2 cheats in 2026",
+							h2: "Why players choose Destiny 2 Cheats",
 							paragraphs: [
-								"Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP wallhack for enemy players and loot, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on raid, PvE, and competitive matches.",
-								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> and <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/status/\">Updates page</a>.",
-								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include BattlEye maintenance rebuilds when anti-cheat or game patches require updates.",
-								"Start with the <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP guide</a>, <a href=\"/destiny-2-aimbot/\">Aimbot controls</a>, and <a href=\"/d2-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
+								"Destiny 2 rewards map awareness. Destiny 2 Cheats combines ESP for Guardians and enemies, radar-style threat cues, and configurable aimbot so you can read fights before committing in Crucible, Trials, and raids.",
+								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a> and <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a>. We rebuild ESP, radar, and aimbot modules when those patches require maintenance — then post status on the <a href=\"/status/\">Updates page</a>.",
+								"Licenses ship digitally after payment. Monthly ($35) and lifetime ($150) plans include BattlEye rebuilds when anti-cheat or game patches require updates.",
 							],
 						},
 						{
-							h2: "ESP wallhack, radar hack, and Aimbot in one license",
+							h2: "ESP, radar, and aimbot in one license",
 							paragraphs: [
-								"Instead of stacking separate tools, Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and Aimbot profiles in one undetected package built for raids and PvE — covering both Destiny 2 cheat buyers.",
-								"Browse the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, and <a href=\"/d2-radar/\">radar</a> pages for control details — or jump to <a href=\"/pricing/\">Pricing</a> for monthly and lifetime options.",
+								"Instead of stacking separate tools, Destiny 2 Cheats bundles player ESP, loot markers, 2D radar, and aimbot profiles in one package built for raids and PvE.",
+								"Browse the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/d2-radar/\">radar</a> pages for control details — or open <a href=\"/d2-cheats/\">the product page</a> and <a href=\"/pricing/\">Pricing</a> when you are ready to buy.",
 								"Before patch days, check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> for service health, then confirm our maintenance notes so you are not queueing on an outdated build.",
-								"Ready to buy? Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a> after delivery, and keep <a href=\"/faq/\">FAQ</a> / <a href=\"/support/\">Support</a> bookmarked for license questions.",
+								"Follow <a href=\"/setup/\">Setup</a> after delivery and keep <a href=\"/faq/\">FAQ</a> or <a href=\"/support/\">Support</a> bookmarked for license questions.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 				},
 				"destiny-2-esp": {
-					title: "Destiny 2 ESP 2026 | Player Boxes & Wallhack",
+					title: "Destiny 2 ESP | Player Boxes & Wallhack",
 					description: "Destiny 2 ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected Destiny 2 cheats.",
 					h1: "Destiny 2 ESP — Player Boxes & Wallhack",
 					intro: "Destiny 2 esp visibility tools for raids and PvE. Read enemy squads, Guardians, enemies, loot, and distance before you commit — toggleable Destiny 2 ESP wallhack overlays bundled in our Destiny 2 cheats package.",
@@ -181,14 +180,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the firefight. Review <a href=\"/destiny-2-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
 								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? The <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a> and <a href=\"/d2-cheats/\">2026 buyer guide</a> summarize the full stack.",
+								"Still researching? Read the <a href=\"/d2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 				},
 				"destiny-2-aimbot": {
-					title: "Destiny 2 Aimbot 2026 | Soft Aim for Windows PC",
+					title: "Destiny 2 Aimbot | Soft Aim for Windows PC",
 					description: "Destiny 2 aimbot with soft aim tuning for Windows PC. FOV, bone priority, and hotkeys bundled with ESP boxes in our Destiny 2 cheats package.",
 					h1: "Destiny 2 Aimbot — Soft Aim for Windows PC",
 					intro: "Configurable Aimbot tools for Destiny 2 firefights. Smoothness, FOV, bone priority, and per-weapon profiles — bundled with ESP wallhack and radar in one undetected license.",
@@ -309,7 +308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Review the <a href=\"/refund/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
 								"Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.",
-								"Still comparing tools? Read <a href=\"/d2-cheats/\">Destiny 2 cheats</a>, <a href=\"/d2-cheats/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
+								"Still comparing tools? Read the <a href=\"/d2-cheats/\">product overview</a>, check <a href=\"/status/\">live status</a>, and browse <a href=\"/faq/\">FAQ</a> before checkout.",
 							],
 						},
 					],
@@ -468,7 +467,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 				},
 				undetected: {
-					title: "Undetected Destiny 2 Cheats 2026 | BattlEye Maintenance",
+					title: "Undetected Destiny 2 Cheats | BattlEye Maintenance",
 					description: "Undetected Destiny 2 cheats with BattlEye maintenance for ESP boxes, soft aim, and radar on Windows PC. Check status before you queue.",
 					h1: "Undetected Destiny 2 Cheats — BattlEye Maintenance",
 					intro: "How Destiny 2 Cheats stays maintained for Destiny 2 after BattlEye anti-cheat patches — ESP wallhack, radar hack, and Aimbot rebuilds for Windows PC.",
@@ -499,14 +498,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
-								"New buyers should also read <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
+								"New buyers should read the <a href=\"/d2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 				},
 				wallhack: {
-					title: "Destiny 2 Wallhack 2026 | ESP Boxes & Visibility",
+					title: "Destiny 2 Wallhack | ESP Boxes & Visibility",
 					description: "Destiny 2 wallhack ESP with player boxes and loot markers for Windows PC. Undetected Destiny 2 cheats — learn overlays and buy.",
 					h1: "Destiny 2 Wallhack — ESP Boxes & Visibility",
 					intro: "Destiny 2 wallhack ESP for Destiny 2 — see players, loot, bosses, and containers through toggleable wallhack overlays built for raids and PvE.",
@@ -536,7 +535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected wallhack maintenance",
 							paragraphs: [
 								"ESP wallhack modules rebuild after BattlEye anti-cheat patches. Follow the <a href=\"/status/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
-								"Learn the full maintenance story on <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> and <a href=\"/status/\">BattlEye bypass</a>.",
+								"Follow <a href=\"/status/\">Updates</a> for BattlEye maintenance notes.",
 								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/destiny-2-esp/\">ESP hack</a> landing for alternate search wording.",
 							],
 						},
@@ -544,7 +543,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 				},
 				radar: {
-					title: "Destiny 2 Radar Hack 2026 | 2D Threat Overlay",
+					title: "Destiny 2 Radar Hack | 2D Threat Overlay",
 					description: "Destiny 2 radar hack for flank awareness on Windows PC. Bundled with ESP boxes, soft aim, and radar in our Destiny 2 cheats package.",
 					h1: "Destiny 2 Radar Hack — 2D Threat Awareness",
 					intro: "2D radar-style overlay for Destiny 2 — directional threat cues for nearby players outside your line of sight, bundled with ESP wallhack and Aimbot.",
@@ -566,7 +565,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Configurable radar range",
 							paragraphs: [
 								"Adjust radar range for early rotations versus tight boss phases. Directional cues highlight flanks during building clears and flank pushes across raids and PvE.",
-								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/d2-cheats/\">mod menu</a> page.",
+								"Toggle radar alongside ESP and Aimbot with in-client hotkeys — see <a href=\"/features/\">Features</a> for the control list.",
 								"Combat follow-up lives on <a href=\"/destiny-2-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
 						},
@@ -575,7 +574,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Radar hack modules receive BattlEye maintenance rebuilds with the full Destiny 2 Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/pricing/\">Pricing</a>.",
 								"Check <a href=\"/status/\">Updates</a> after major Destiny 2 patches before relying on previous radar configs.",
-								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/d2-cheats/\">undetected status</a>.",
+								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/status/\">live status</a>.",
 							],
 						},
 					],
@@ -620,7 +619,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot.webp",
 				},
 				"cheats-2026": {
-					title: "Destiny 2 Cheats 2026 | ESP Soft Aim & Radar",
+					title: "Destiny 2 Cheats | ESP Soft Aim & Radar",
 					description: "Best Destiny 2 cheats 2026: ESP boxes, soft aim, and radar for Windows PC. Undetected Destiny 2 cheats with BattlEye maintenance — compare and buy.",
 					h1: "Destiny 2 Cheats 2026 — ESP, Soft Aim & Radar",
 					intro: "The 2026 Destiny 2 Cheats package for Destiny 2 — undetected ESP wallhack, radar hack, and Aimbot with BattlEye maintenance, instant delivery, and Windows PC support.",
@@ -642,7 +641,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
 								"Player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
-								"Deep links: <a href=\"/d2-cheats/\">Destiny 2 cheats pillar</a>, <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/d2-radar/\">radar</a>, <a href=\"/d2-cheats/\">undetected</a>.",
+								"Module pages: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/d2-radar/\">radar</a>, and <a href=\"/status/\">live status</a>.",
 								"Instant digital delivery after checkout confirmation worldwide.",
 							],
 						},
@@ -650,7 +649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Before you buy in 2026",
 							paragraphs: [
 								"Read the <a href=\"/d2-cheats/\">Destiny 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/d2-cheats/\">Destiny 2 cheats</a> checklist, <a href=\"/blog/cheats-2026-updates/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Also read the <a href=\"/blog/cheats-2026-updates/\">season updates post</a> and <a href=\"/faq/\">FAQ</a> before checkout.",
 								"Support is available at support@destiny2cheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -658,53 +657,45 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 				},
 				hacks: {
-					title: "Destiny 2 Cheats 2026 | Undetected ESP Aimbot Guide",
-					description: "Destiny 2 cheats for Windows PC: undetected ESP wallhack, radar hack, and Aimbot with BattlEye maintenance. Compare Destiny 2 cheats options and buy the full",
-					h1: "Destiny 2 Cheats — Undetected ESP, Aimbot & Wallhack",
-					intro: "Destiny 2 cheats for raids and PvE combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after BattlEye anti-cheat patches. This is the pillar guide for Destiny 2 cheats in 2026.",
+					title: "Buy Destiny 2 Cheats | Windows PC License",
+					description: "Purchase undetected Destiny 2 cheats for Windows PC — ESP, aimbot, radar, and BattlEye rebuilds. Monthly and lifetime plans with instant delivery.",
+					h1: "Buy Destiny 2 Cheats",
+					intro: "Destiny 2 Cheats for Windows PC — ESP, soft aim, and radar in one license with BattlEye rebuilds after patches.",
 					imageAlt: "Destiny 2 Cheats product page — ESP, aimbot, and radar",
 					galleryTitle: "Destiny 2 cheats gallery — ESP, Aimbot, wallhack",
 					ctaPrimary: "Buy Destiny 2 Cheats",
-					ctaSecondary: "See undetected guide",
-					ctaSecondaryHref: "/d2-cheats/",
+					ctaSecondary: "View features",
+					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "What Destiny 2 cheats include in 2026",
+							h2: "What you get",
 							paragraphs: [
-								"Players searching for Destiny 2 cheats usually want visibility and combat tools without stacking separate downloads. Destiny 2 Cheats bundles player ESP wallhack, loot markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called Destiny 2 cheats.",
-								"Coverage spans raids and PvE with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
-								"Official game updates come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>; our hacks package tracks those releases via the <a href=\"/status/\">Updates page</a>. Cross-check platform health on <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> before patch-day queues.",
+								"One license for Destiny 2 on Windows PC — built for Crucible, Trials, and PvE activities.",
+								"The stack includes ESP with distance readouts, soft aim profiles, 2D radar for flanks, and BattlEye rebuilds after patches.",
+								"Monthly ($35) and lifetime ($150) plans unlock the same features after checkout.",
 							],
 						},
 						{
-							h2: "How this Destiny 2 cheats pillar fits nearby pages",
+							h2: "Built for Destiny 2 raids",
 							paragraphs: [
-								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> and <a href=\"/d2-cheats/\">Destiny 2 cheats</a> pages cover buyer comparisons in cheats wording.",
-								"Deep-dive modules: <a href=\"/destiny-2-esp/\">Destiny 2 ESP</a>, <a href=\"/destiny-2-aimbot/\">Destiny 2 Aimbot</a>, <a href=\"/destiny-2-esp/\">wallhack</a>, <a href=\"/d2-radar/\">radar hack</a>, and <a href=\"/destiny-2-aimbot/\">soft aim</a>.",
-								"Related guides: <a href=\"/blog/cheats-guide-2026/\">hacks complete guide</a>, <a href=\"/blog/buyers-guide/\">cheats buyers guide</a>, and <a href=\"/blog/undetected-battleye/\">undetected BattlEye notes</a>.",
+								"Read Guardians and enemies before you push, mark loot worth the risk, and stay aware of flanks. Tune soft aim per weapon class for Crucible, Trials, and raid encounters.",
+								"Module guides: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/d2-radar/\">radar</a>. Research posts: <a href=\"/blog/buyers-guide/\">buyers guide</a> and <a href=\"/blog/undetected-battleye/\">BattlEye notes</a>.",
+								"Official game updates come from <a href=\"https://www.bungie.net/7/en/Destiny/New\" target=\"_blank\" rel=\"noopener noreferrer\">Destiny 2</a>; maintenance notes publish on the <a href=\"/status/\">Updates page</a>. Cross-check <a href=\"https://help.bungie.net/\" target=\"_blank\" rel=\"noopener noreferrer\">Bungie Help</a> before patch-day queues.",
 							],
 						},
 						{
-							h2: "Destiny 2 cheats vs single-feature tools",
+							h2: "How to start",
 							paragraphs: [
-								"Standalone hacks often cover only wallhack or only aim assist. Destiny 2 Cheats maps the full raid loop: read enemy squads, track bosses and containers, spot flanks on radar, and tune Aimbot per weapon class.",
-								"Compare the <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
-								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/d2-cheats/\">mod menu</a>, <a href=\"/destiny-2-aimbot/\">aimbot</a>, <a href=\"/destiny-2-esp/\">ESP</a>.",
-							],
-						},
-						{
-							h2: "Undetected Destiny 2 cheats with BattlEye maintenance",
-							paragraphs: [
-								"Undetected Destiny 2 cheats require rebuilds after BattlEye anti-cheat and major Destiny 2 patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.battleye.com/\" target=\"_blank\" rel=\"noopener noreferrer\">BattlEye Anti-Cheat</a> for anti-cheat background and our <a href=\"/status/\">BattlEye bypass guide</a> for the practical workflow. Pair with <a href=\"/d2-cheats/\">undetected Destiny 2 cheats</a> for status language buyers expect.",
-								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
+								"Buy a plan, get your license by email, then follow setup. Check status after every major patch.",
+								"Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a>, and read <a href=\"/faq/\">FAQ</a> if you need delivery or license help.",
+								"No cheat stays undetected forever — check status first, then play with conservative settings.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 				},
 				"cheat-download": {
-					title: "Destiny 2 Hack Download 2026 | Instant Access",
+					title: "Destiny 2 Hack Download | Instant Access",
 					description: "Destiny 2 cheat download with instant license delivery — ESP boxes, soft aim, and radar for Windows PC. Buy, activate, and play.",
 					h1: "Destiny 2 Hack Download — Instant License Delivery",
 					intro: "How Destiny 2 cheat download works for Destiny 2 — digital license delivery after payment confirmation, with ESP wallhack, radar hack, and Aimbot access on Windows PC.",
@@ -735,14 +726,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Follow Setup to activate ESP wallhack and Aimbot on Windows 10 or 11. When Destiny 2 or BattlEye anti-cheat patches ship, check the <a href=\"/status/\">Updates page</a> for maintenance rebuilds.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if delivery or activation fails within 24 hours of purchase.",
-								"Also read <a href=\"/d2-cheats/\">undetected status</a> so you know what “download ready” means after a patch.",
+								"Check <a href=\"/status/\">live status</a> so you know when a build is ready after a patch.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 				},
 				"crucible-cheats": {
-					title: "Destiny 2 Mod Menu 2026 | ESP & Soft Aim Toggles",
+					title: "Destiny 2 Mod Menu | ESP & Soft Aim Toggles",
 					description: "Destiny 2 mod menu for in-match toggles — ESP boxes, soft aim, radar, and on Windows PC. Undetected Destiny 2 cheats package.",
 					h1: "Destiny 2 Mod Menu — In-Client Control Panel",
 					intro: "Destiny 2 mod menu controls for Destiny 2 — toggle ESP wallhack categories, radar range, and Aimbot profiles mid-match without leaving your Destiny 2 session on Windows PC.",
@@ -780,7 +771,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-radar.webp",
 				},
 				"aim-assist": {
-					title: "Destiny 2 Soft Aim 2026 | Smooth Aimbot Settings",
+					title: "Destiny 2 Soft Aim | Smooth Aimbot Settings",
 					description: "Destiny 2 soft aim settings for natural tracking on Windows PC. Smoothness, FOV, and bone priority — included in our Destiny 2 cheats with ESP boxes.",
 					h1: "Destiny 2 Soft Aim — Smooth Aimbot Controls",
 					intro: "Destiny 2 soft aim settings for Destiny 2 — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and radar in one undetected license.",
@@ -818,7 +809,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 				},
 				"best-cheats": {
-					title: "Best Destiny 2 Cheats 2026 | Buyer Guide",
+					title: "Best Destiny 2 Cheats | Buyer Guide",
 					description: "Best Destiny 2 cheats for 2026: ESP boxes, soft aim, and BattlEye maintenance on Windows PC. Use this checklist before checkout.",
 					h1: "Best Destiny 2 Cheats — 2026 Buyer Guide",
 					intro: "Compare the Destiny 2 cheats for Destiny 2 in 2026 — undetected ESP wallhack, radar hack, and Aimbot in one maintained package with BattlEye anti-cheat rebuilds and instant delivery.",
@@ -840,8 +831,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Best Destiny 2 cheats feature checklist",
 							paragraphs: [
 								"Look for player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, hotkey toggles, and documented maintenance after Destiny 2 patches.",
-								"Review <a href=\"/features/\">Features</a>, <a href=\"/d2-cheats/\">undetected status</a>, and <a href=\"/d2-cheats/\">Destiny 2 cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
-								"Module pages worth opening: <a href=\"/destiny-2-esp/\">ESP</a>, <a href=\"/destiny-2-aimbot/\">Aimbot</a>, <a href=\"/d2-cheats/\">hacks</a>.",
+								"Review <a href=\"/features/\">Features</a>, <a href=\"/status/\">live status</a>, and <a href=\"/pricing/\">Pricing</a> before checkout.",
+								"Open the <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/destiny-2-aimbot/\">Aimbot</a> guides for module details.",
 							],
 						},
 						{
@@ -856,7 +847,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-esp.webp",
 				},
 				"aimbot-hack": {
-					title: "Destiny 2 Aimbot Hack 2026 | Soft Aim Assist",
+					title: "Destiny 2 Aimbot Hack | Soft Aim Assist",
 					description: "Destiny 2 aimbot hack with soft aim for Windows PC. FOV, bone priority, and hotkeys — bundled with ESP boxes in our Destiny 2 cheats package.",
 					h1: "Destiny 2 Aimbot Hack — Soft Aim Assist",
 					intro: "Destiny 2 aimbot hack tools for Destiny 2 — smoothness, FOV, bone priority, per-weapon profiles, and hotkey toggles bundled with ESP wallhack and radar in one undetected license.",
@@ -894,7 +885,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-aimbot-view.webp",
 				},
 				"esp-hack": {
-					title: "Destiny 2 ESP Hack 2026 | Player Boxes & Loot",
+					title: "Destiny 2 ESP Hack | Player Boxes & Loot",
 					description: "Destiny 2 ESP hack with player boxes and loot markers for Windows PC. Undetected Destiny 2 cheats with — see overlays and buy.",
 					h1: "Destiny 2 ESP Hack — Player Boxes Guide",
 					intro: "Destiny 2 ESP hack overlays for Destiny 2 — player outlines, boss threat cues, loot and container markers with distance readouts across raids and PvE.",
@@ -925,14 +916,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP hack modules rebuild after BattlEye anti-cheat and Destiny 2 patches. Check the <a href=\"/status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/d2-radar/\">radar hack</a> for flank reads.",
 								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
-								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/d2-cheats/\">undetected guide</a>.",
+								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/status/\">live status</a>.",
 							],
 						},
 					],
 					heroImage: "/images/destiny-2-cheats-wallhack.webp",
 				},
 				"pve-cheats": {
-					title: "Destiny 2 Unlock All 2026 | What It Really Means",
+					title: "Destiny 2 Unlock All | What It Really Means",
 					description: "Destiny 2 unlock all explained vs real Destiny 2 cheats — ESP boxes, soft aim, and radar for Windows PC. Know what you are buying.",
 					h1: "Destiny 2 Unlock All — What Players Search For",
 					intro: "Destiny 2 unlock all is a common search term for Destiny 2 — this page clarifies what pve-cheats tools claim versus the ESP wallhack, radar hack, and Aimbot tools Destiny 2 Cheats actually provides on Windows PC.",
@@ -955,7 +946,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack helps you spot enemy squads, bosses, and powerful loot during live matches. Radar hack adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, loot and container markers speed map rotations — see the <a href=\"/destiny-2-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
-								"Related: <a href=\"/d2-cheats/\">Destiny 2 cheats</a> and <a href=\"/d2-cheats/\">Destiny 2 cheats</a>.",
+								"See the <a href=\"/d2-cheats/\">product overview</a> for the full stack.",
 							],
 						},
 						{
@@ -1045,7 +1036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/destiny-2-cheats-raid.webp",
 				},
 				terms: {
-					title: "Terms of Use 2026 | Destiny 2 Cheats Rules",
+					title: "Terms of Use | Destiny 2 Cheats Rules",
 					description: "Terms of use for destiny2cheats.org and Destiny 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
 					h1: "Terms of Use",
 					intro: "Terms governing use of destiny2cheats.org and Destiny 2 Cheats licenses for Destiny 2 on Windows PC.",
