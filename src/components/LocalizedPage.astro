@@ -50,12 +50,38 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 	faq: 'faqIntro',
 };
 const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
+const galleryExtrasByPage: Partial<
+	Record<PageId, { src: string; alt: string }[]>
+> = {
+	pricing: [
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 aimbot and ESP overlay during a team fight',
+		},
+		{
+			src: '/images/overwatch-2-cheats-esp-gallery.webp',
+			alt: 'Overwatch 2 ESP player boxes with distance readouts',
+		},
+	],
+	updates: [
+		{
+			src: '/images/overwatch-2-cheats-flickbot.webp',
+			alt: 'Overwatch 2 flickbot reticle assist in combat',
+		},
+		{
+			src: '/images/overwatch-2-cheats-esp-gallery.webp',
+			alt: 'Overwatch 2 wallhack skeleton ESP through cover',
+		},
+	],
+};
+
 const gallery = [
 	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
-	...overwatchImages.product.slice(0, 2).map((img) => ({
-		src: img.src,
-		alt: img.alt,
-	})),
+	...(galleryExtrasByPage[pageId] ??
+		overwatchImages.product.slice(0, 2).map((img) => ({
+			src: img.src,
+			alt: img.alt,
+		}))),
 ];
 
 const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
