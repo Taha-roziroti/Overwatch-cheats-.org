@@ -4,8 +4,12 @@
   "start": "npm run sync:brand",
   "ports": [
     {
-      "name": "site",
+      "name": "dev",
       "port": 4321
+    },
+    {
+      "name": "preview",
+      "port": 8080
     }
   ],
   "terminals": [
@@ -13,6 +17,11 @@
       "name": "dev",
       "command": "npm run dev",
       "description": "Astro dev server at http://localhost:4321"
+    },
+    {
+      "name": "tunnel",
+      "command": "npx --yes localtunnel --port 4321",
+      "description": "Public URL for browsing when localhost port-forward is unavailable"
     }
   ]
 }

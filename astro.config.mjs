@@ -25,6 +25,10 @@ export default defineConfig({
 		format: 'directory',
 	},
 	vite: {
+		server: {
+			// Allow Cloud Agent port forwards and public dev tunnels (loca.lt, trycloudflare.com).
+			allowedHosts: true,
+		},
 		plugins: [tailwindcss(), brandStudioPlugin()],
 		build: {
 			cssMinify: true,
