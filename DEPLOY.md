@@ -1,11 +1,11 @@
-# Deploy warthundercheat.net
+# Deploy overwatchcheats.org
 
-Step-by-step guide to deploy the Overwatch 2 Cheats static site to **warthundercheat.net** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
+Step-by-step guide to deploy the Overwatch 2 Cheats static site to **overwatchcheats.org** on Cloudflare Pages, configure DNS, and submit to Google Search Console.
 
 ## Prerequisites
 
 - Node.js **≥ 22.12.0**
-- Cloudflare account with access to **warthundercheat.net** DNS
+- Cloudflare account with access to **overwatchcheats.org** DNS
 - Wrangler CLI (included as dev dependency): `npx wrangler login`
 
 ## 1. Build and validate locally
@@ -44,13 +44,13 @@ npm run build:validate
 npm run pages:deploy
 ```
 
-This runs `wrangler pages deploy dist --project-name=warthundercheat` (see `wrangler.toml`).
+This runs `wrangler pages deploy dist --project-name=overwatchcheats` (see `wrangler.toml`).
 
 ## 3. Custom domain and DNS
 
-Add **warthundercheat.net** as the primary custom domain on the Pages project.
+Add **overwatchcheats.org** as the primary custom domain on the Pages project.
 
-### Apex (warthundercheat.net)
+### Apex (overwatchcheats.org)
 
 In **Cloudflare DNS** for the zone:
 
@@ -64,11 +64,11 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
 2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.warthundercheat.net/*`
-   - **Target:** `https://warthundercheat.net/${1}`
+   - **Source:** `www.overwatchcheats.org/*`
+   - **Target:** `https://overwatchcheats.org/${1}`
    - **Status:** 301
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`warthundercheat.net`, `.net`, `.com`), and legacy path redirects.
+The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`overwatchcheats.org`, `.net`, `.com`), and legacy path redirects.
 
 ### SSL / HTTPS
 
@@ -80,31 +80,31 @@ The deployed `functions/_middleware.js` also enforces apex canonical host, legac
 
 Verify these URLs return **200** with correct content:
 
-- `https://warthundercheat.net/`
-- `https://warthundercheat.net/es/`
-- `https://warthundercheat.net/overwatch-2-cheats/`
-- `https://warthundercheat.net/overwatch-2-aimbot/`
-- `https://warthundercheat.net/sitemap.xml`
-- `https://warthundercheat.net/robots.txt`
+- `https://overwatchcheats.org/`
+- `https://overwatchcheats.org/es/`
+- `https://overwatchcheats.org/overwatch-2-cheats/`
+- `https://overwatchcheats.org/overwatch-2-aimbot/`
+- `https://overwatchcheats.org/sitemap.xml`
+- `https://overwatchcheats.org/robots.txt`
 
 Verify redirects:
 
-- `http://warthundercheat.net` → `https://warthundercheat.net` (301)
-- `https://www.warthundercheat.net` → `https://warthundercheat.net` (301)
-- Legacy domains (e.g. `warthundercheat.net`) → `https://warthundercheat.net` (301)
+- `http://overwatchcheats.org` → `https://overwatchcheats.org` (301)
+- `https://www.overwatchcheats.org` → `https://overwatchcheats.org` (301)
+- Legacy domains (e.g. `overwatchcheats.org`) → `https://overwatchcheats.org` (301)
 - `/sitemap-index.xml` → `/sitemap.xml` (301)
 - Legacy paths (e.g. `/fortnite-hacks/`) → Overwatch 2 equivalents (301)
 
 ## 5. Google Search Console
 
 1. Go to [Google Search Console](https://search.google.com/search-console).
-2. **Add property** → choose **Domain** → enter `warthundercheat.net`.
+2. **Add property** → choose **Domain** → enter `overwatchcheats.org`.
 3. Verify ownership via the **DNS TXT record** Cloudflare provides (add in Cloudflare DNS, wait for propagation, then confirm in GSC).
 4. After verification, open **Sitemaps** and submit:
    ```
-   https://warthundercheat.net/sitemap.xml
+   https://overwatchcheats.org/sitemap.xml
    ```
-   Remove any legacy submissions (`sitemap-index.xml`, old `warthundercheat.net` URLs).
+   Remove any legacy submissions (`sitemap-index.xml`, old `overwatchcheats.org` URLs).
 5. Use **URL Inspection** to request indexing for:
    - Homepage (`/`)
    - Pillar page (`/overwatch-2-cheats/`)
@@ -126,11 +126,11 @@ Verify redirects:
 
 - [ ] `npm run build:validate` passes locally
 - [ ] Cloudflare Pages project attached to this repo
-- [ ] Custom domain `warthundercheat.net` attached and active
+- [ ] Custom domain `overwatchcheats.org` attached and active
 - [ ] `www` redirects to apex
-- [ ] Legacy domains 301 to `warthundercheat.net`
+- [ ] Legacy domains 301 to `overwatchcheats.org`
 - [ ] Always Use HTTPS enabled
-- [ ] `robots.txt` and sitemaps serve from `https://warthundercheat.net`
+- [ ] `robots.txt` and sitemaps serve from `https://overwatchcheats.org`
 - [ ] Google Search Console domain verified
 - [ ] `sitemap.xml` submitted in GSC
 - [ ] Homepage and `/overwatch-2-cheats/` requested for indexing

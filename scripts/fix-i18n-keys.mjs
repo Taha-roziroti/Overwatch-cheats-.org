@@ -32,7 +32,7 @@ const UI_REPLACEMENTS = [
 	['Verdansk', 'Verdansk'],
 	['scav-run', 'scav-run'],
 	['extract', 'extract'],
-	['warthundercheat.net', 'warthundercheat.net'],
+	['overwatchcheats.org', 'overwatchcheats.org'],
 	['Trucos Overwatch 2', 'Trucos Overwatch 2'],
 	['Triches Overwatch 2', 'Triches Overwatch 2'],
 	['Cheats Overwatch 2', 'Cheats Overwatch 2'],

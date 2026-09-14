@@ -157,7 +157,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Overwatch 2 Cheats overview',
-		ctaSecondaryHref: '/ow2-cheats/',
+		ctaSecondaryHref: '/overwatch-2-cheats/',
 		galleryTitle: 'In-game look',
 		sections: [
 			{
@@ -216,7 +216,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/overwatch-2-esp/">ESP guide</a>',
 					'<a href="/overwatch-2-aimbot/">Aimbot controls</a>',
-					'<a href="/ow2-visuals/">Visual options</a>',
+					'<a href="/overwatch-2-wallhack/">Wallhack guide</a>',
 					'<a href="/guides/">Guides hub</a>',
 					'<a href="/status/">Live status</a>',
 				],
@@ -240,7 +240,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: 'See heroes and enemies through walls during Overwatch 2 matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Overwatch 2 Cheats overview',
-		ctaSecondaryHref: '/ow2-cheats/',
+		ctaSecondaryHref: '/overwatch-2-cheats/',
 		galleryTitle: 'ESP in match',
 		sections: [
 			{
@@ -261,9 +261,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['ESP is included with aimbot and hero scripts in one plan.'],
 				list: [
-					'<a href="/ow2-cheats/">Full product</a>',
+					'<a href="/overwatch-2-cheats/">Full product</a>',
 					'<a href="/overwatch-2-aimbot/">Aimbot guide</a>',
-					'<a href="/ow2-visuals/">Visual options</a>',
+					'<a href="/overwatch-2-wallhack/">Wallhack guide</a>',
 					'<a href="/features/">All features</a>',
 					'<a href="/pricing/">Store</a>',
 				],
@@ -278,7 +278,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		intro: 'Tracking, flickbot, and triggerbot you can tune for Overwatch 2. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Overwatch 2 Cheats overview',
-		ctaSecondaryHref: '/ow2-cheats/',
+		ctaSecondaryHref: '/overwatch-2-cheats/',
 		galleryTitle: 'Aimbot view',
 		sections: [
 			{
@@ -299,9 +299,9 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Next steps',
 				paragraphs: ['Aimbot ships with ESP and hero scripts in one license.'],
 				list: [
-					'<a href="/ow2-cheats/">Full product</a>',
+					'<a href="/overwatch-2-cheats/">Full product</a>',
 					'<a href="/overwatch-2-esp/">ESP guide</a>',
-					'<a href="/ow2-visuals/">Visual options</a>',
+					'<a href="/overwatch-2-wallhack/">Wallhack guide</a>',
 					'<a href="/features/">All features</a>',
 					'<a href="/pricing/">Store</a>',
 				],
@@ -309,14 +309,14 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		],
 	}),
 	radar: page({
-		title: 'Overwatch 2 Visuals | {brand}',
+		title: 'Overwatch 2 Wallhack | {brand}',
 		description:
-			'Overwatch 2 visual ESP options for Windows PC — draw FOV, glow rainbow mode, target highlighting, and customizable overlays.',
-		h1: 'Visual Options',
+			'Overwatch 2 wallhack for Windows PC — draw FOV, glow, skeleton ESP, target highlighting, and customizable visual overlays.',
+		h1: 'Wallhack',
 		intro: 'Draw FOV, glow modes, and target highlighting for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Overwatch 2 Cheats overview',
-		ctaSecondaryHref: '/ow2-cheats/',
+		ctaSecondaryHref: '/overwatch-2-cheats/',
 		galleryTitle: 'Visual overlay',
 		sections: [
 			{
@@ -329,7 +329,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: ['Use visual options alongside skeleton and box ESP for complete awareness.'],
 				list: [
 					'<a href="/overwatch-2-esp/">ESP guide</a>',
-					'<a href="/ow2-cheats/">Full product</a>',
+					'<a href="/overwatch-2-cheats/">Full product</a>',
 					'<a href="/pricing/">Store</a>',
 				],
 			},

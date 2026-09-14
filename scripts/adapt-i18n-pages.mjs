@@ -52,7 +52,7 @@ const REPLACEMENTS = [
 	['Easy Anti-Cheat Bypass', 'Easy Anti-Cheat Bypass'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat anti-cheat'],
 	['easy-anticheat', 'easy-anticheat'],
-	['support@warthundercheat.net', 'support@warthundercheat.net'],
+	['support@overwatchcheats.org', 'support@overwatchcheats.org'],
 	['Quick Play, Competitive, and hero matchups', 'Quick Play, Competitive, and hero matchups'],
 	['Quick Play, Competitive and raid encounters', 'Quick Play, Competitive and raid encounters'],
 	['Quick Play fights', 'Quick Play fights'],

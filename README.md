@@ -1,6 +1,6 @@
-# Overwatch 2 Cheats — warthundercheat.net
+# Overwatch 2 Cheats — overwatchcheats.org
 
-Static Astro 7 marketing site for [warthundercheat.net](https://warthundercheat.net). Primary SEO keyword: **Overwatch 2 cheats**.
+Static Astro 7 marketing site for [overwatchcheats.org](https://overwatchcheats.org). Primary SEO keyword: **Overwatch 2 cheats**.
 
 ## Stack
 
@@ -48,8 +48,8 @@ Configured in `src/data/brand.ts` → `checkoutUrl`.
 2. Connect this repo or upload `dist/` after `npm run build`
 3. Build command: `npm run build`
 4. Output directory: `dist`
-5. Add custom domain **warthundercheat.net**
+5. Add custom domain **overwatchcheats.org**
 
 ## License
 
-Private — for warthundercheat.net deployment only.
+Private — for overwatchcheats.org deployment only.

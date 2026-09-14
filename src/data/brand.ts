@@ -9,10 +9,10 @@ export const brand = {
 	/** Short product label if needed */
 	shortName: 'Overwatch 2',
 	/** Canonical origin — no trailing slash */
-	url: 'https://warthundercheat.net',
+	url: 'https://overwatchcheats.org',
 	locale: 'en',
 	market: 'Worldwide',
-	supportEmail: 'support@warthundercheat.net',
+	supportEmail: 'support@overwatchcheats.org',
 	checkoutUrl: 'https://zadeyo.com/go/TAHA?to=%2Fproducts%2Foverwatch-2',
 
 	/** Game this template instance targets */

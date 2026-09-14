@@ -362,20 +362,20 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What do people mean when they say Overwatch 2 cheats?",
 				paragraphs: [
 					"In plain language, Overwatch 2 cheats are cleanup tools that add information or aim assistance on top of the Overwatch 2 client. The common stack is ESP wallhack for players and loot, a 2D radar for threats outside your view, and configurable soft aim for firefights. One license should cover that loop instead of forcing you to juggle separate downloads.",
-					"Searchers also say “Overwatch 2 cheats,” \"Overwatch 2 wallhack,\" or “Overwatch 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/ow2-cheats/\">Overwatch 2 cheats pillar</a> if you want the product overview without the long essay.",
+					"Searchers also say “Overwatch 2 cheats,” \"Overwatch 2 wallhack,\" or “Overwatch 2 wallhack.” Those phrases usually point at the same intent: survive raids with better reads. Start at our <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats pillar</a> if you want the product overview without the long essay.",
 				],
 			},
 			{
 				h2: "ESP, soft aim, and radar — what each tool is for",
 				paragraphs: [
 					"ESP answers “who is near me and what is worth looting?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
-					"Deep dives live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">aimbot</a>, <a href=\"/ow2-wallhack/\">wallhack</a>, and <a href=\"/ow2-visuals/\">radar</a>. Read those before you buy if you only need one job done well.",
+					"Deep dives live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">aimbot</a>, <a href=\"/overwatch-2-wallhack/\">wallhack</a>, and <a href=\"/overwatch-2-wallhack/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
 				h2: "Easy Anti-Cheat, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> protects Overwatch 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/ow2-undetected/\">undetected Overwatch 2 cheats</a> and <a href=\"/ow2-anticheat/\">Easy Anti-Cheat maintenance</a>.",
+					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> protects Overwatch 2. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/overwatch-2-undetected/\">undetected Overwatch 2 cheats</a> and <a href=\"/status/\">Easy Anti-Cheat maintenance</a>.",
 					"Before every patch-day queue, read <a href=\"/status/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
@@ -452,7 +452,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/ow2-undetected/\">undetected explainer</a> instead of empty guarantees.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/status/\">Updates</a> log and the <a href=\"/overwatch-2-undetected/\">undetected explainer</a> instead of empty guarantees.",
 					"<a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a> and Blizzard client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
@@ -460,7 +460,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Feature focus shifted toward raid information",
 				paragraphs: [
 					"The winning feature set in 2026 is still ESP, radar, and tunable soft aim — because Overwatch 2 fights are about information and first peeks. Loud rage features matter less than readable overlays you can turn down near objectives.",
-					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a>.",
+					"See the current stack on <a href=\"/features/\">Features</a> and the pillar at <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a>.",
 				],
 			},
 			{
@@ -495,7 +495,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Start softer than you think you need",
 				paragraphs: [
 					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five raids on Quick Play or Patrol and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/overwatch-2-aimbot/\">Overwatch 2 Aimbot</a> and <a href=\"/ow2-aim-assist/\">soft aim</a>.",
+					"Full control docs live on <a href=\"/overwatch-2-aimbot/\">Overwatch 2 Aimbot</a> and <a href=\"/overwatch-2-aimbot/\">soft aim</a>.",
 				],
 			},
 			{
@@ -536,20 +536,20 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What ESP shows during a real raid",
 				paragraphs: [
 					"Player ESP outlines heroes and enemies through walls and terrain, often with distance. Loot ESP highlights containers or high-value items. Extract cues help you avoid camping surprises. That information gap is why people search for Overwatch 2 ESP in the first place.",
-					"Read the dedicated pages for <a href=\"/overwatch-2-esp/\">ESP</a> and <a href=\"/ow2-wallhack/\">wallhack</a> if you want category-level detail.",
+					"Read the dedicated pages for <a href=\"/overwatch-2-esp/\">ESP</a> and <a href=\"/overwatch-2-wallhack/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
 				h2: "How to keep overlays from becoming noise",
 				paragraphs: [
 					"Toggle categories. During a hot push you may want players only. During a loot route you may want containers. Near objective you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.",
-					"Pair ESP with <a href=\"/ow2-visuals/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
+					"Pair ESP with <a href=\"/overwatch-2-wallhack/\">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the firefight afterward.",
 				],
 			},
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/ow2-undetected/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Easy Anti-Cheat patches like everything else. Check <a href=\"/status/\">Updates</a> and the <a href=\"/overwatch-2-undetected/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			}
 		],
@@ -576,7 +576,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"Easy Anti-Cheat is documented at <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Overwatch 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/ow2-anticheat/\">Easy Anti-Cheat maintenance</a>.",
+					"Easy Anti-Cheat is documented at <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. Overwatch 2 Cheats does that on <a href=\"/status/\">Updates</a> and explains the workflow on <a href=\"/status/\">Easy Anti-Cheat maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
@@ -590,7 +590,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/ow2-undetected/\">undetected Overwatch 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/overwatch-2-undetected/\">undetected Overwatch 2 cheats</a>, the <a href=\"/blog/cheats-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			}
 		],
@@ -632,7 +632,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
 					"Write down must-haves: dated status, loot ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a> and <a href=\"/ow2-undetected/\">undetected notes</a> if that checklist matches what we ship.",
+					"Then return to <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> and <a href=\"/overwatch-2-undetected/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			}
 		],
@@ -716,21 +716,21 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Feature and pricing reality check",
 				paragraphs: [
 					"Overwatch 2 Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.",
-					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/ow2-visuals/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
+					"Our public comparison points live on <a href=\"/features/\">Features</a>, <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-wallhack/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>.",
 				],
 			},
 			{
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"Overwatch 2 Cheats documents maintenance on <a href=\"/ow2-anticheat/\">Easy Anti-Cheat workflow</a> and <a href=\"/ow2-undetected/\">undetected notes</a>.",
+					"Overwatch 2 Cheats documents maintenance on <a href=\"/status/\">Easy Anti-Cheat workflow</a> and <a href=\"/overwatch-2-undetected/\">undetected notes</a>.",
 				],
 			},
 			{
 				h2: "Which style should you buy?",
 				paragraphs: [
 					"Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose Overwatch 2 Cheats if radar, loot filters, configurable soft aim, and a public Updates URL are must-haves.",
-					"Decide your must-haves on paper first. Then open <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
+					"Decide your must-haves on paper first. Then open <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.",
 				],
 			}
 		],

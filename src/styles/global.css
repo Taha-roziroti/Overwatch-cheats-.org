@@ -88,12 +88,12 @@
 	--content-max: 720px;
 	--section-space: 4rem;
 	--section-space-sm: 2rem;
-	--radius-sm: 8px;
-	--radius-md: 12px;
-	--radius-lg: 16px;
-	--radius-media: var(--radius-md);
-	--radius-card: var(--radius-md);
-	--radius-pill: 999px;
+	--radius-sm: 0;
+	--radius-md: 0;
+	--radius-lg: 0;
+	--radius-media: 0;
+	--radius-card: 0;
+	--radius-pill: 0;
 	--touch-min: 2.75rem;
 	--header-h: 4rem;
 	--safe-left: env(safe-area-inset-left, 0px);
@@ -112,7 +112,7 @@
 	html {
 		scroll-behavior: smooth;
 		-webkit-text-size-adjust: 100%;
-		color-scheme: light;
+		color-scheme: dark;
 		scrollbar-width: none;
 		-ms-overflow-style: none;
 		text-rendering: optimizeLegibility;

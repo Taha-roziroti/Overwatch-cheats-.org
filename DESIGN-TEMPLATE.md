@@ -172,7 +172,7 @@ Pages to customize:
 
 - `features` — ESP, aimbot, radar, misc feature sections
 - `pricing` — plan comparison sections
-- `hacks` (money page `/ow2-cheats/`) — product pitch sections
+- `hacks` (money page `/overwatch-2-cheats/`) — product pitch sections
 - `setup`, `support`, `faq`, `updates` (status)
 - Pillar pages: `{game}-esp`, `{game}-aimbot`, `radar`, etc.
 
@@ -271,7 +271,7 @@ All components consume CSS variables — no per-project styling needed.
 | Nav item | Typical URL | pageId | Purpose |
 |----------|-------------|--------|---------|
 | Home | `/` | home | Landing |
-| Cheats | `/ow2-cheats/` (customize slug) | hacks | Money / product page |
+| Cheats | `/overwatch-2-cheats/` (customize slug) | hacks | Money / product page |
 | Features | `/features/` | features | Feature list |
 | Store | `/pricing/` | pricing | Plans |
 | Status | `/status/` | updates | Patch/undetected status |
@@ -508,4 +508,4 @@ export const brand = {
 
 ---
 
-*Template version: 2026-09-14 · Based on warthundercheat.net production codebase*
+*Template version: 2026-09-14 · Based on overwatchcheats.org production codebase*

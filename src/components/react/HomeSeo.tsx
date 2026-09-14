@@ -20,7 +20,7 @@ function HomeSeoInner({ faqs }: Props) {
 				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
 				{ href: p.esp, labelKey: 'homeSeo.linkEsp' },
 				{ href: p.aimbot, labelKey: 'homeSeo.linkAimbot' },
-				{ href: p.radar, labelKey: 'homeSeo.linkRadar' },
+				{ href: p.radar, labelKey: 'homeSeo.linkWallhack' },
 			],
 		},
 		{
@@ -28,7 +28,7 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
 				{ href: p.updates, labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: p.cheats, labelKey: 'homeSeo.linkUndetected' },
+				{ href: '/overwatch-2-undetected/', labelKey: 'homeSeo.linkUndetected' },
 				{ href: p.setup, labelKey: 'homeSeo.linkSetup' },
 				{ href: p.faq, labelKey: 'homeSeo.linkFaq' },
 			],
@@ -39,7 +39,7 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: p.pricing, labelKey: 'homeSeo.linkPlans' },
 				{ href: p.reviews, labelKey: 'homeSeo.linkReviews' },
-				{ href: p.cheats, labelKey: 'homeSeo.linkDestiny2Cheats' },
+				{ href: p.cheats, labelKey: 'homeSeo.linkOverwatch2Cheats' },
 				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},

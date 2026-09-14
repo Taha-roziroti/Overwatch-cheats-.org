@@ -15,13 +15,23 @@ const locale = Astro.props.locale ?? defaultLocale;
 	.home-about {
 		padding-block: clamp(2.5rem, 5vw, 3.25rem) clamp(1.5rem, 3vw, 2rem);
 		border-bottom: 1px solid var(--line-soft);
-		text-align: center;
+		text-align: left;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+
+	@media (min-width: 900px) {
+		.home-about {
+			grid-template-columns: 1.15fr 0.85fr;
+			align-items: start;
+		}
 	}
 
 	.home-about__head {
-		max-width: 42rem;
-		margin-inline: auto;
-		margin-bottom: 1.5rem;
+		max-width: 36rem;
+		margin-inline: 0;
+		margin-bottom: 0;
 	}
 
 	.home-about__section-title {
@@ -50,26 +60,35 @@ const locale = Astro.props.locale ?? defaultLocale;
 	}
 
 	.home-about__features {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.5rem;
-		margin: 0 0 1.35rem;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0;
+		margin: 0;
 		padding: 0;
 		list-style: none;
+		border: 1px solid var(--line);
 	}
 
 	.home-about__features li {
-		display: inline-flex;
+		display: flex;
 		align-items: center;
-		gap: 0.45rem;
-		padding: 0.45rem 0.85rem;
-		border: 1px solid var(--line);
-		border-radius: 999px;
+		gap: 0.55rem;
+		padding: 0.85rem 1rem;
+		border-right: 1px solid var(--line);
+		border-bottom: 1px solid var(--line);
+		border-radius: 0;
 		background: var(--bg-panel);
 		font-size: 0.8125rem;
-		font-weight: 500;
+		font-weight: 600;
 		color: var(--ink-muted);
+	}
+
+	.home-about__features li:nth-child(2n) {
+		border-right: none;
+	}
+
+	.home-about__features li:nth-last-child(-n + 2) {
+		border-bottom: none;
 	}
 
 	.home-about__feat-icon {
@@ -82,18 +101,18 @@ const locale = Astro.props.locale ?? defaultLocale;
 	.home-about__actions {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.6rem;
-		margin-bottom: 1.5rem;
+		justify-content: flex-start;
+		gap: 0;
+		margin-bottom: 0;
 	}
 
 	.home-about__cta {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		min-height: 2.5rem;
-		padding: 0 1.15rem;
-		border-radius: 999px;
+		min-height: 2.75rem;
+		padding: 0 1.25rem;
+		border-radius: 0;
 		font-size: 0.875rem;
 		font-weight: 600;
 		background: var(--accent);
@@ -125,11 +144,12 @@ const locale = Astro.props.locale ?? defaultLocale;
 	.home-about__guides {
 		display: flex;
 		flex-wrap: wrap;
-		align-items: center;
-		justify-content: center;
+		align-items: flex-start;
+		justify-content: flex-start;
 		gap: 0.65rem 1rem;
 		padding-top: 1.25rem;
-		border-top: 1px solid var(--line-soft);
+		border-top: 1px solid var(--line);
+		grid-column: 1 / -1;
 	}
 
 	.home-about__guides-label {

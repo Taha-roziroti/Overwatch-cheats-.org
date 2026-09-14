@@ -22,18 +22,18 @@ export const CORE_PATH_MAP = {
 	'/overwatch-2-cheats-terms/': '/terms/',
 	'/overwatch-2-cheats-blog/': '/blog/',
 	'/overwatch-2-cheats-reviews/': '/reviews/',
-	'/overwatch-2-cheats/': '/ow2-cheats/',
 	// Cannibal long paths → pillar directly (Phase 4 — no stub hop)
-	'/undetected-overwatch-2-cheats/': '/ow2-cheats/',
-	'/overwatch-2-wallhack/': '/overwatch-2-esp/',
-	'/overwatch-2-visuals/': '/ow2-visuals/',
+	'/undetected-overwatch-2-cheats/': '/overwatch-2-cheats/',
+	'/overwatch-2-visuals/': '/overwatch-2-wallhack/',
+	'/ow2-cheats/': '/overwatch-2-cheats/',
+	'/ow2-visuals/': '/overwatch-2-wallhack/',
 	'/overwatch-2-anticheat-bypass/': '/status/',
-	'/overwatch-2-cheats-2026/': '/ow2-cheats/',
+	'/overwatch-2-cheats-2026/': '/overwatch-2-cheats/',
 	'/overwatch-2-cheat-download/': '/setup/',
-	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
+	'/overwatch-2-hero-scripts/': '/overwatch-2-cheats/',
 	'/overwatch-2-aim-assist/': '/overwatch-2-aimbot/',
-	'/best-overwatch-2-cheats/': '/ow2-cheats/',
-	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
+	'/best-overwatch-2-cheats/': '/overwatch-2-cheats/',
+	'/overwatch-2-hero-scripts/': '/overwatch-2-cheats/',
 	'/overwatch-2-aimbot-hack/': '/overwatch-2-aimbot/',
 	'/overwatch-2-esp-hack/': '/overwatch-2-esp/',
 };
@@ -66,7 +66,7 @@ const DIR_MOVES = [
 
 /** FAQ slug OLD → NEW */
 export const FAQ_SLUG_MAP = {
-	'what-are-overwatch-2-cheats': 'what-are-d2-cheats',
+	'what-are-overwatch-2-cheats': 'what-are-overwatch-2-cheats',
 	'are-overwatch-2-cheats-undetected-in-2026': 'undetected-in-2026',
 	'crucible-trials-and-pve': 'crucible-trials-pve',
 	'esp-wallhack-radar-or-aimbot': 'esp-radar-aimbot',
@@ -158,17 +158,17 @@ function updateRouting() {
 		"updates: '/overwatch-2-cheats-status/'": "updates: '/status/'",
 		"faq: '/overwatch-2-cheats-faq/'": "faq: '/faq/'",
 		"support: '/overwatch-2-cheats-support/'": "support: '/support/'",
-		"undetected: '/undetected-overwatch-2-cheats/'": "undetected: '/ow2-undetected/'",
-		"wallhack: '/overwatch-2-wallhack/'": "wallhack: '/ow2-wallhack/'",
-		"radar: '/overwatch-2-visuals/'": "radar: '/ow2-visuals/'",
-		"'anticheat': '/overwatch-2-anticheat-bypass/'": "'anticheat': '/ow2-anticheat/'",
-		"'cheats-2026': '/overwatch-2-cheats-2026/'": "'cheats-2026': '/ow2-cheats-2026/'",
-		"hacks: '/overwatch-2-cheats/'": "hacks: '/ow2-cheats/'",
-		"'cheat-download': '/overwatch-2-cheat-download/'": "'cheat-download': '/ow2-download/'",
-		"'crucible-cheats': '/overwatch-2-hero-scripts/'": "'crucible-cheats': '/ow2-hero-scripts/'",
-		"'aim-assist': '/overwatch-2-aim-assist/'": "'aim-assist': '/ow2-aim-assist/'",
-		"'best-cheats': '/best-overwatch-2-cheats/'": "'best-cheats': '/ow2-cheats/'",
-		"'pve-cheats': '/overwatch-2-hero-scripts/'": "'pve-cheats': '/ow2-hero-scripts/'",
+		"undetected: '/undetected-overwatch-2-cheats/'": "undetected: '/overwatch-2-undetected/'",
+		"wallhack: '/overwatch-2-wallhack/'": "wallhack: '/overwatch-2-wallhack/'",
+		"radar: '/overwatch-2-visuals/'": "radar: '/overwatch-2-wallhack/'",
+		"'anticheat': '/overwatch-2-anticheat-bypass/'": "'anticheat': '/status/'",
+		"'cheats-2026': '/overwatch-2-cheats-2026/'": "'cheats-2026': '/overwatch-2-cheats/'",
+		"hacks: '/overwatch-2-cheats/'": "hacks: '/overwatch-2-cheats/'",
+		"'cheat-download': '/overwatch-2-cheat-download/'": "'cheat-download': '/setup/'",
+		"'crucible-cheats': '/overwatch-2-hero-scripts/'": "'crucible-cheats': '/overwatch-2-cheats/'",
+		"'aim-assist': '/overwatch-2-aim-assist/'": "'aim-assist': '/overwatch-2-aimbot/'",
+		"'best-cheats': '/best-overwatch-2-cheats/'": "'best-cheats': '/overwatch-2-cheats/'",
+		"'pve-cheats': '/overwatch-2-hero-scripts/'": "'pve-cheats': '/overwatch-2-cheats/'",
 		"privacy: '/overwatch-2-cheats-privacy/'": "privacy: '/privacy/'",
 		"refund: '/overwatch-2-cheats-refund/'": "refund: '/refund/'",
 		"terms: '/overwatch-2-cheats-terms/'": "terms: '/terms/'",
@@ -265,33 +265,31 @@ function updateMiddleware() {
 	// Cannibal targets use new short paths
 	const cannibal = {
 		"'/escape-from-overwatch-2-cheats'": "'/d2-cheats'",
-		"'/escape-from-overwatch-2-cheats/'": "'/ow2-cheats/'",
-		"'/overwatch-2-cheats-2026'": "'/ow2-cheats/'",
-		"'/overwatch-2-cheats-2026/'": "'/ow2-cheats/'",
-		"'/undetected-overwatch-2-cheats'": "'/ow2-cheats/'",
-		"'/undetected-overwatch-2-cheats/'": "'/ow2-cheats/'",
-		"'/overwatch-2-hero-scripts'": "'/ow2-cheats/'",
-		"'/overwatch-2-hero-scripts/'": "'/ow2-cheats/'",
-		"'/overwatch-2-hero-scripts'": "'/ow2-cheats/'",
-		"'/overwatch-2-hero-scripts/'": "'/ow2-cheats/'",
+		"'/escape-from-overwatch-2-cheats/'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-cheats-2026'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-cheats-2026/'": "'/overwatch-2-cheats/'",
+		"'/undetected-overwatch-2-cheats'": "'/overwatch-2-cheats/'",
+		"'/undetected-overwatch-2-cheats/'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-hero-scripts'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-hero-scripts/'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-hero-scripts'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-hero-scripts/'": "'/overwatch-2-cheats/'",
 		"'/overwatch-2-aim-assist'": "'/overwatch-2-aimbot/'",
 		"'/overwatch-2-aim-assist/'": "'/overwatch-2-aimbot/'",
-		"'/overwatch-2-wallhack'": "'/overwatch-2-esp/'",
-		"'/overwatch-2-wallhack/'": "'/overwatch-2-esp/'",
 		"'/overwatch-2-cheat-download'": "'/setup/'",
 		"'/overwatch-2-cheat-download/'": "'/setup/'",
 		"'/overwatch-2-anticheat-bypass'": "'/status/'",
 		"'/overwatch-2-anticheat-bypass/'": "'/status/'",
-		"'/best-overwatch-2-cheats'": "'/ow2-cheats/'",
-		"'/best-overwatch-2-cheats/'": "'/ow2-cheats/'",
-		"'/overwatch-2-cheats'": "'/ow2-cheats/'",
-		"'/overwatch-2-cheats/'": "'/ow2-cheats/'",
-		"'/warzone-cheats'": "'/ow2-cheats/'",
-		"'/warzone-cheats/'": "'/ow2-cheats/'",
-		"'/warzone-hacks'": "'/ow2-cheats/'",
-		"'/warzone-hacks/'": "'/ow2-cheats/'",
-		"'/fortnite-hacks'": "'/ow2-cheats/'",
-		"'/fortnite-hacks/'": "'/ow2-cheats/'",
+		"'/best-overwatch-2-cheats'": "'/overwatch-2-cheats/'",
+		"'/best-overwatch-2-cheats/'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-cheats'": "'/overwatch-2-cheats/'",
+		"'/overwatch-2-cheats/'": "'/overwatch-2-cheats/'",
+		"'/warzone-cheats'": "'/overwatch-2-cheats/'",
+		"'/warzone-cheats/'": "'/overwatch-2-cheats/'",
+		"'/warzone-hacks'": "'/overwatch-2-cheats/'",
+		"'/warzone-hacks/'": "'/overwatch-2-cheats/'",
+		"'/fortnite-hacks'": "'/overwatch-2-cheats/'",
+		"'/fortnite-hacks/'": "'/overwatch-2-cheats/'",
 		"'/ricochet-bypass'": "'/status/'",
 		"'/ricochet-bypass/'": "'/status/'",
 		"'/eac-bypass'": "'/status/'",
@@ -312,16 +310,16 @@ function updateValidateSitemaps() {
 	src = applySlugMaps(src, REVIEW_SLUG_MAP);
 	src = applySlugMaps(src, BLOG_SLUG_MAP);
 	// REDIRECT_ONLY_PATHS
-	src = src.replace('/undetected-overwatch-2-cheats/', '/ow2-undetected/');
-	src = src.replace('/overwatch-2-wallhack/', '/ow2-wallhack/');
-	src = src.replace('/overwatch-2-visuals/', '/ow2-visuals/');
-	src = src.replace('/overwatch-2-anticheat-bypass/', '/ow2-anticheat/');
-	src = src.replace('/overwatch-2-cheats-2026/', '/ow2-cheats-2026/');
-	src = src.replace('/overwatch-2-cheats/', '/ow2-cheats/');
-	src = src.replace('/overwatch-2-cheat-download/', '/ow2-download/');
-	src = src.replace('/overwatch-2-hero-scripts/', '/ow2-hero-scripts/');
-	src = src.replace('/overwatch-2-aim-assist/', '/ow2-aim-assist/');
-	src = src.replace('/overwatch-2-hero-scripts/', '/ow2-hero-scripts/');
+	src = src.replace('/undetected-overwatch-2-cheats/', '/overwatch-2-undetected/');
+	src = src.replace('/overwatch-2-wallhack/', '/overwatch-2-wallhack/');
+	src = src.replace('/overwatch-2-visuals/', '/overwatch-2-wallhack/');
+	src = src.replace('/overwatch-2-anticheat-bypass/', '/status/');
+	src = src.replace('/overwatch-2-cheats-2026/', '/overwatch-2-cheats/');
+	src = src.replace('/overwatch-2-cheats/', '/overwatch-2-cheats/');
+	src = src.replace('/overwatch-2-cheat-download/', '/setup/');
+	src = src.replace('/overwatch-2-hero-scripts/', '/overwatch-2-cheats/');
+	src = src.replace('/overwatch-2-aim-assist/', '/overwatch-2-aimbot/');
+	src = src.replace('/overwatch-2-hero-scripts/', '/overwatch-2-cheats/');
 	writeFileSync(abs, src, 'utf8');
 	console.log('patched validate-sitemaps.mjs');
 }

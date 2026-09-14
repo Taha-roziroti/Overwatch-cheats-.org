@@ -21,7 +21,7 @@ const REPLACEMENTS = [
 	['overwatch-2-visuals', 'overwatch-2-visuals'],
 	['overwatch-2-cheats-2026', 'overwatch-2-cheats-2026'],
 	['overwatch-2-anticheat-bypass', 'overwatch-2-anticheat-bypass'],
-	['warthundercheat.net', 'warthundercheat.net'],
+	['overwatchcheats.org', 'overwatchcheats.org'],
 	['trucos-overwatch-2', 'trucos-overwatch-2'],
 	['triche-overwatch-2', 'triche-overwatch-2'],
 	['overwatch-2-cheats', 'escape-from-overwatch-2-cheats'],

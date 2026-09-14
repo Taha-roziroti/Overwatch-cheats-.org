@@ -20,12 +20,12 @@ const PATH_REPLACEMENTS = [
 	['/privacy-policy/', '/privacy/'],
 	['/refund-policy/', '/refund/'],
 	['/terms/', '/terms/'],
-	['/hacks/', '/ow2-cheats/'],
+	['/hacks/', '/overwatch-2-cheats/'],
 ];
 
 const COPY_REPLACEMENTS = [
-	[/warthundercheat\.net/gi, 'warthundercheat.net'],
-	[/support@warthundercheat\.net/gi, 'support@warthundercheat.net'],
+	[/warthundercheat\.net/gi, 'overwatchcheats.org'],
+	[/support@warthundercheat\.net/gi, 'support@overwatchcheats.org'],
 	[/raid and scav-runs/gi, 'raids and PvE'],
 	[/raid and scav-run/gi, 'raids and PvE'],
 	[/scav-runs/gi, 'PvE activities'],

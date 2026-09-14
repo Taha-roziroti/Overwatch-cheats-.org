@@ -1,19 +1,24 @@
 /**
  * Cloudflare Worker — host canonicalization before static assets.
- * Canonical site: https://warthundercheat.net (matches brand.url)
+ * Canonical site: https://overwatchcheats.org (matches brand.url)
  *
- * Requires DNS: CNAME `www` → `warthundercheat.net` (proxied) AND
- * Workers custom domain `www.warthundercheat.net` attached — otherwise
+ * Requires DNS: CNAME `www` → `overwatchcheats.org` (proxied) AND
+ * Workers custom domain `www.overwatchcheats.org` attached — otherwise
  * www is NXDOMAIN and Seobility fails the www/non-www check.
  */
 export interface Env {
 	ASSETS: Fetcher;
 }
 
-const CANONICAL_HOST = 'warthundercheat.net';
+const CANONICAL_HOST = 'overwatchcheats.org';
 
-/** Old apex still 301 → current canonical. */
-const LEGACY_HOSTS = new Set(['bestdestiny-2cheats.com', 'www.bestdestiny-2cheats.com']);
+/** Legacy domains 301 → current canonical. */
+const LEGACY_HOSTS = new Set([
+	'warthundercheat.net',
+	'www.warthundercheat.net',
+	'destiny2cheats.org',
+	'www.destiny2cheats.org',
+]);
 
 function canonicalUrl(request: Request): URL | null {
 	const url = new URL(request.url);

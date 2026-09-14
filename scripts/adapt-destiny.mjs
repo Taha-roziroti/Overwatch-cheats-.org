@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * One-time migration: Tarkov Cheats → Overwatch 2 Cheats (warthundercheat.net).
+ * One-time migration: Tarkov Cheats → Overwatch 2 Cheats (overwatchcheats.org).
  * Run from project root: node scripts/adapt-overwatch.mjs
  */
 import { readFile, writeFile, readdir, rename } from 'node:fs/promises';
@@ -29,17 +29,17 @@ const RENAME_PAGE_DIRS = [
 
 /** Ordered replacements — specific patterns first. */
 const REPLACEMENTS = [
-	['https://tarkovcheats.org', 'https://warthundercheat.net'],
-	['https://www.tarkovcheats.org', 'https://www.warthundercheat.net'],
-	['www.tarkovcheats.org', 'www.warthundercheat.net'],
-	['tarkovcheats.org', 'warthundercheat.net'],
-	['support@tarkovcheats.org', 'support@warthundercheat.net'],
+	['https://tarkovcheats.org', 'https://overwatchcheats.org'],
+	['https://www.tarkovcheats.org', 'https://www.overwatchcheats.org'],
+	['www.tarkovcheats.org', 'www.overwatchcheats.org'],
+	['tarkovcheats.org', 'overwatchcheats.org'],
+	['support@tarkovcheats.org', 'support@overwatchcheats.org'],
 	['https://zadeyo.com/go/QRH?to=%2Fproducts%2Fescape-from-tarkov', 'https://zadeyo.com/go/TAHA?to=%2Fproducts%2Foverwatch-2'],
 	['/products/escape-from-tarkov', '/products/overwatch-2'],
-	['project-name=besttarkovcheats', 'project-name=warthundercheat'],
-	['project-name=tarkovcheats', 'project-name=warthundercheat'],
-	['name = "besttarkovcheats"', 'name = "warthundercheat"'],
-	['name = "tarkovcheats"', 'name = "warthundercheat"'],
+	['project-name=besttarkovcheats', 'project-name=overwatchcheats'],
+	['project-name=tarkovcheats', 'project-name=overwatchcheats'],
+	['name = "besttarkovcheats"', 'name = "overwatchcheats"'],
+	['name = "tarkovcheats"', 'name = "overwatchcheats"'],
 	['"name": "tarkov-cheats"', '"name": "overwatch-2-cheats"'],
 	['undetected-tarkov-cheats', 'undetected-overwatch-2-cheats'],
 	['best-tarkov-cheats', 'best-overwatch-2-cheats'],
@@ -312,7 +312,7 @@ async function renameImages() {
 }
 
 async function main() {
-	console.log('Adapting Tarkov Cheats → Overwatch 2 Cheats (warthundercheat.net)...\n');
+	console.log('Adapting Tarkov Cheats → Overwatch 2 Cheats (overwatchcheats.org)...\n');
 	await renamePageDirs();
 	await renameDataFile();
 	await renameScripts();

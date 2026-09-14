@@ -126,7 +126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP, radar, and aimbot in one license",
 							paragraphs: [
 								"Instead of stacking separate tools, Overwatch 2 Cheats bundles player ESP, loot markers, 2D radar, and aimbot profiles in one package built for raids and PvE.",
-								"Browse the <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/ow2-visuals/\">radar</a> pages for control details — or open <a href=\"/ow2-cheats/\">the product page</a> and <a href=\"/pricing/\">Pricing</a> when you are ready to buy.",
+								"Browse the <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/overwatch-2-wallhack/\">radar</a> pages for control details — or open <a href=\"/overwatch-2-cheats/\">the product page</a> and <a href=\"/pricing/\">Pricing</a> when you are ready to buy.",
 								"Before patch days, check <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Help</a> for service health, then confirm our maintenance notes so you are not queueing on an outdated build.",
 								"Follow <a href=\"/setup/\">Setup</a> after delivery and keep <a href=\"/faq/\">FAQ</a> or <a href=\"/support/\">Support</a> bookmarked for license questions.",
 							],
@@ -158,7 +158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Toggle enemy player outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.",
 								"Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE matches alike.",
-								"Compare category detail on the <a href=\"/overwatch-2-esp/\">wallhack page</a> and pair visibility with the <a href=\"/ow2-visuals/\">radar hack</a> for flanks outside your FOV.",
+								"Compare category detail on the <a href=\"/overwatch-2-esp/\">wallhack page</a> and pair visibility with the <a href=\"/overwatch-2-wallhack/\">radar hack</a> for flanks outside your FOV.",
 							],
 							list: [
 								"Enemy player ESP outlines with distance",
@@ -180,7 +180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the firefight. Review <a href=\"/overwatch-2-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
 								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? Read the <a href=\"/ow2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.",
+								"Still researching? Read the <a href=\"/overwatch-2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.",
 							],
 						},
 					],
@@ -210,7 +210,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and zone clears without reopening menus every raid.",
 								"Prefer softer tracking? Read the <a href=\"/overwatch-2-aimbot/\">soft aim guide</a>.",
-								"Aimbot ships alongside <a href=\"/overwatch-2-esp/\">ESP wallhack</a> and <a href=\"/ow2-visuals/\">2D radar</a> in the same Overwatch 2 Cheats license.",
+								"Aimbot ships alongside <a href=\"/overwatch-2-esp/\">ESP wallhack</a> and <a href=\"/overwatch-2-wallhack/\">2D radar</a> in the same Overwatch 2 Cheats license.",
 							],
 							list: [
 								"Smoothness, FOV, and sensitivity sliders",
@@ -261,16 +261,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar hack and Aimbot controls",
 							paragraphs: [
 								"2D radar overlay with directional threat cues, configurable range for rotations and late-raid objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.",
-								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Overwatch 2 sessions. See <a href=\"/ow2-visuals/\">radar</a> and <a href=\"/overwatch-2-aimbot/\">Aimbot</a> for settings walkthroughs.",
-								"Prefer a menu-first workflow? The <a href=\"/ow2-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
+								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Overwatch 2 sessions. See <a href=\"/overwatch-2-wallhack/\">radar</a> and <a href=\"/overwatch-2-aimbot/\">Aimbot</a> for settings walkthroughs.",
+								"Prefer a menu-first workflow? The <a href=\"/overwatch-2-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
 							],
 						},
 						{
 							h2: "Licensing, delivery, and Easy Anti-Cheat maintenance",
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Easy Anti-Cheat maintenance rebuilds publish on the <a href=\"/status/\">Updates page</a> after anti-cheat or game patches.",
-								"Monitor <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Help</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@warthundercheat.net.",
-								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/ow2-cheats/\">how undetected maintenance works</a>.",
+								"Monitor <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Help</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@overwatchcheats.org.",
+								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/overwatch-2-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
 					],
@@ -308,7 +308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Review the <a href=\"/refund/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
 								"Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.",
-								"Still comparing tools? Read the <a href=\"/ow2-cheats/\">product overview</a>, check <a href=\"/status/\">live status</a>, and browse <a href=\"/faq/\">FAQ</a> before checkout.",
+								"Still comparing tools? Read the <a href=\"/overwatch-2-cheats/\">product overview</a>, check <a href=\"/status/\">live status</a>, and browse <a href=\"/faq/\">FAQ</a> before checkout.",
 							],
 						},
 					],
@@ -337,7 +337,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Activate ESP wallhack and Aimbot profiles",
 							paragraphs: [
 								"Follow the delivery instructions in your license email. Load default ESP wallhack categories for heroes, enemies, and loot — then tune radar range and Aimbot smoothness to your playstyle.",
-								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Easy Anti-Cheat module live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/ow2-cheats/\">mod menu</a>.",
+								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Easy Anti-Cheat module live on <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/overwatch-2-cheats/\">mod menu</a>.",
 								"Prefer a soft tracking feel? Start with the <a href=\"/overwatch-2-aimbot/\">soft aim</a> recommendations before raising aggressiveness.",
 							],
 						},
@@ -345,7 +345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After Overwatch 2 or Easy Anti-Cheat anti-cheat patches",
 							paragraphs: [
 								"When Blizzard ships a major Overwatch 2 update or Easy Anti-Cheat anti-cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/status/\">Easy Anti-Cheat bypass page</a> and <a href=\"/ow2-cheats/\">undetected guide</a>.",
+								"Official anti-cheat background: <a href=\"https://www.easy-anticheat.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Easy Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/status/\">Easy Anti-Cheat bypass page</a> and <a href=\"/overwatch-2-cheats/\">undetected guide</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -361,7 +361,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					galleryTitle: "Overwatch 2 patch and maintenance visuals",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
 					ctaSecondary: "Undetected status guide",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Why the Updates page matters",
@@ -376,7 +376,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Entries note Easy Anti-Cheat anti-cheat compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.",
 								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
-								"For context on why rebuilds happen, read the <a href=\"/status/\">Easy Anti-Cheat bypass guide</a> and <a href=\"/ow2-cheats/\">undetected Overwatch 2 cheats</a> explainer.",
+								"For context on why rebuilds happen, read the <a href=\"/status/\">Easy Anti-Cheat bypass guide</a> and <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a> explainer.",
 							],
 						},
 						{
@@ -413,7 +413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Are Overwatch 2 Cheats undetected in 2026?",
 							paragraphs: [
 								"Overwatch 2 Cheats is maintained with rebuilds after Easy Anti-Cheat anti-cheat and game patches. Check the <a href=\"/status/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
-								"Read <a href=\"/ow2-cheats/\">undetected Overwatch 2 cheats</a> and the <a href=\"/status/\">Easy Anti-Cheat guide</a> for the maintenance workflow.",
+								"Read <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a> and the <a href=\"/status/\">Easy Anti-Cheat guide</a> for the maintenance workflow.",
 								"Responsible settings and reading maintenance notes before queueing are essential.",
 							],
 						},
@@ -421,7 +421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Delivery, pricing, and support",
 							paragraphs: [
 								"Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href=\"/pricing/\">Pricing</a>.",
-								"Contact support@warthundercheat.net or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
+								"Contact support@overwatchcheats.org or the <a href=\"/support/\">Support page</a> with order details for setup or billing help. First launch steps are on <a href=\"/setup/\">Setup</a>.",
 								"Refund eligibility is covered in the <a href=\"/refund/\">Refund Policy</a>.",
 							],
 						},
@@ -459,7 +459,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Self-service resources",
 							paragraphs: [
 								"Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href=\"/status/\">Easy Anti-Cheat anti-cheat page</a>.",
-								"Email: support@warthundercheat.net",
+								"Email: support@overwatchcheats.org",
 								"Ready to purchase or renew? Open <a href=\"/pricing/\">Pricing</a>. Need feature detail first? See <a href=\"/features/\">Features</a>.",
 							],
 						},
@@ -498,7 +498,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
-								"New buyers should read the <a href=\"/ow2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
+								"New buyers should read the <a href=\"/overwatch-2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
@@ -528,7 +528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Wallhack overlays support raid, PvE, and competitive matches with distance readouts and snaplines for engagement control.",
 								"Season maps and POI changes are announced via <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
-								"Pair wallhack awareness with <a href=\"/ow2-visuals/\">radar hack</a> cues for flanks during building and rooftop fights.",
+								"Pair wallhack awareness with <a href=\"/overwatch-2-wallhack/\">radar hack</a> cues for flanks during building and rooftop fights.",
 							],
 						},
 						{
@@ -604,7 +604,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/status/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm Blizzard service health on <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Help</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/ow2-cheats/\">undetected Overwatch 2 cheats</a>.",
+								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a>.",
 							],
 						},
 						{
@@ -641,16 +641,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
 								"Player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
-								"Module pages: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/ow2-visuals/\">radar</a>, and <a href=\"/status/\">live status</a>.",
+								"Module pages: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/overwatch-2-wallhack/\">radar</a>, and <a href=\"/status/\">live status</a>.",
 								"Instant digital delivery after checkout confirmation worldwide.",
 							],
 						},
 						{
 							h2: "Before you buy in 2026",
 							paragraphs: [
-								"Read the <a href=\"/ow2-cheats/\">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Read the <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
 								"Also read the <a href=\"/blog/cheats-2026-updates/\">season updates post</a> and <a href=\"/faq/\">FAQ</a> before checkout.",
-								"Support is available at support@warthundercheat.net via the <a href=\"/support/\">Support page</a>.",
+								"Support is available at support@overwatchcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
 					],
@@ -679,7 +679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Built for Overwatch 2 raids",
 							paragraphs: [
 								"Read heroes and enemies before you push, mark loot worth the risk, and stay aware of flanks. Tune soft aim per weapon class for Quick Play, Competitive, and hero matchups.",
-								"Module guides: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/ow2-visuals/\">radar</a>. Research posts: <a href=\"/blog/buyers-guide/\">buyers guide</a> and <a href=\"/blog/undetected-easy-anticheat/\">Easy Anti-Cheat notes</a>.",
+								"Module guides: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, and <a href=\"/overwatch-2-wallhack/\">radar</a>. Research posts: <a href=\"/blog/buyers-guide/\">buyers guide</a> and <a href=\"/blog/undetected-easy-anticheat/\">Easy Anti-Cheat notes</a>.",
 								"Official game updates come from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>; maintenance notes publish on the <a href=\"/status/\">Updates page</a>. Cross-check <a href=\"https://help.overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Help</a> before patch-day queues.",
 							],
 						},
@@ -748,7 +748,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"A Overwatch 2 mod menu is the in-client panel where you enable ESP wallhack overlays, adjust radar range, and switch Aimbot profiles during live matches. Overwatch 2 Cheats keeps those toggles accessible with hotkeys.",
 								"Toggle player outlines, loot markers, vehicle cues, and per-weapon Aimbot settings without alt-tabbing out of Overwatch 2.",
-								"Control deep-dives: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/ow2-visuals/\">radar</a>.",
+								"Control deep-dives: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/overwatch-2-wallhack/\">radar</a>.",
 							],
 						},
 						{
@@ -794,7 +794,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Save separate soft aim profiles for ARs, SMGs, and bolt-actions. Switch between long-range AR beams and close-quarters room clears with hotkeys mid-match.",
 								"Weapon TTKs shift with <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> balance patches — retune smoothness after major combat updates.",
-								"Soft aim ships alongside <a href=\"/overwatch-2-esp/\">ESP wallhack</a> and <a href=\"/ow2-visuals/\">2D radar</a> overlays.",
+								"Soft aim ships alongside <a href=\"/overwatch-2-esp/\">ESP wallhack</a> and <a href=\"/overwatch-2-wallhack/\">2D radar</a> overlays.",
 							],
 						},
 						{
@@ -914,7 +914,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Undetected ESP hack with Easy Anti-Cheat maintenance",
 							paragraphs: [
-								"ESP hack modules rebuild after Easy Anti-Cheat anti-cheat and Overwatch 2 patches. Check the <a href=\"/status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/ow2-visuals/\">radar hack</a> for flank reads.",
+								"ESP hack modules rebuild after Easy Anti-Cheat anti-cheat and Overwatch 2 patches. Check the <a href=\"/status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/overwatch-2-wallhack/\">radar hack</a> for flank reads.",
 								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
 								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/status/\">live status</a>.",
 							],
@@ -946,7 +946,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack helps you spot enemy squads, bosses, and powerful loot during live matches. Radar hack adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, loot and container markers speed map rotations — see the <a href=\"/overwatch-2-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
-								"See the <a href=\"/ow2-cheats/\">product overview</a> for the full stack.",
+								"See the <a href=\"/overwatch-2-cheats/\">product overview</a> for the full stack.",
 							],
 						},
 						{
@@ -962,9 +962,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				privacy: {
 					title: "Privacy Policy | Overwatch 2 Cheats",
-					description: "Privacy policy for Overwatch 2 Cheats. How we handle support emails, order data, and checkout for Overwatch 2 cheats licenses on warthundercheat.net.",
+					description: "Privacy policy for Overwatch 2 Cheats. How we handle support emails, order data, and checkout for Overwatch 2 cheats licenses on overwatchcheats.org.",
 					h1: "Privacy Policy",
-					intro: "How Overwatch 2 Cheats handles information when you browse warthundercheat.net or contact support about a Overwatch 2 license.",
+					intro: "How Overwatch 2 Cheats handles information when you browse overwatchcheats.org or contact support about a Overwatch 2 license.",
 					imageAlt: "Overwatch 2 Cheats privacy policy page",
 					galleryTitle: "Overwatch 2 Cheats legal resources",
 					ctaPrimary: "Email support",
@@ -993,8 +993,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your choices and contact",
 							paragraphs: [
-								"You may request correction or deletion of support email data by contacting support@warthundercheat.net with your request details.",
-								"Policy updates publish on this page. Continued use of warthundercheat.net after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund/\">Refund Policy</a>.",
+								"You may request correction or deletion of support email data by contacting support@overwatchcheats.org with your request details.",
+								"Policy updates publish on this page. Continued use of overwatchcheats.org after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund/\">Refund Policy</a>.",
 							],
 						},
 					],
@@ -1028,7 +1028,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request a refund",
 							paragraphs: [
-								"Email support@warthundercheat.net with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
+								"Email support@overwatchcheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
 								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
@@ -1037,9 +1037,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				terms: {
 					title: "Terms of Use | Overwatch 2 Cheats Rules",
-					description: "Terms of use for warthundercheat.net and Overwatch 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
+					description: "Terms of use for overwatchcheats.org and Overwatch 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
 					h1: "Terms of Use",
-					intro: "Terms governing use of warthundercheat.net and Overwatch 2 Cheats licenses for Overwatch 2 on Windows PC.",
+					intro: "Terms governing use of overwatchcheats.org and Overwatch 2 Cheats licenses for Overwatch 2 on Windows PC.",
 					imageAlt: "Overwatch 2 Cheats terms of use page",
 					galleryTitle: "Overwatch 2 Cheats legal pages",
 					ctaPrimary: "Email support",
@@ -1057,14 +1057,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
 								"Using cheats in Overwatch 2 may violate Blizzard terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/ow2-cheats/\">undetected status</a>.",
+								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/overwatch-2-cheats/\">undetected status</a>.",
 							],
 						},
 						{
 							h2: "Changes and governing law",
 							paragraphs: [
 								"We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.",
-								"Contact support@warthundercheat.net for questions. Related policies: <a href=\"/privacy/\">Privacy</a> and <a href=\"/refund/\">Refunds</a>.",
+								"Contact support@overwatchcheats.org for questions. Related policies: <a href=\"/privacy/\">Privacy</a> and <a href=\"/refund/\">Refunds</a>.",
 							],
 						},
 					],
@@ -1183,7 +1183,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -1203,7 +1203,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1238,7 +1238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1273,7 +1273,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1308,7 +1308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1343,7 +1343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1358,7 +1358,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Actualizaciones",
@@ -1378,7 +1378,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1413,7 +1413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1448,7 +1448,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1463,7 +1463,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Trucos indetectables",
@@ -1483,7 +1483,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1518,7 +1518,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1553,7 +1553,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1588,7 +1588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1603,7 +1603,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Trucos Overwatch 2 2026",
@@ -1623,14 +1623,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Trucos Overwatch 2 | Guía ESP y Aimbot",
-					description: "Trucos Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Trucos Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "Trucos Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Trucos Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -1643,7 +1643,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Trucos Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
 							],
 						},
@@ -1658,7 +1658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1693,7 +1693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1728,7 +1728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1763,7 +1763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1798,7 +1798,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1833,7 +1833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1868,7 +1868,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1903,7 +1903,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantánea",
 							paragraphs: [
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Easy Anti-Cheat anti-cheat maintenance.",
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
 							],
 						},
 					],
@@ -1912,7 +1912,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidad | Overwatch 2 Cheats",
 					description: "Política de privacidad for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de privacidad",
-					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Política de privacidad for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Política de privacidad for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -1924,7 +1924,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Información que recopilamos",
 							paragraphs: [
 								"Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -1937,8 +1937,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Tus derechos",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -1947,7 +1947,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | Overwatch 2 Cheats",
 					description: "Política de reembolso for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Política de reembolso",
-					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Política de reembolso for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Política de reembolso for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -1972,8 +1972,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cómo solicitar",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -1982,7 +1982,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Términos de uso | Overwatch 2 Cheats",
 					description: "Términos de uso for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Términos de uso",
-					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Términos de uso for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats ofrece ESP wallhack, radar hack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Términos de uso for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -2007,8 +2007,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cambios",
 							paragraphs: [
-								"Contacta support@warthundercheat.net para solicitudes legales o de soporte.",
-								"Email: support@warthundercheat.net",
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -2126,7 +2126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -2146,7 +2146,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2181,7 +2181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2216,7 +2216,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2251,7 +2251,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2286,7 +2286,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2301,7 +2301,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Mises à jour",
@@ -2321,7 +2321,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2356,7 +2356,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2391,7 +2391,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2406,7 +2406,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Triches indétectables",
@@ -2426,7 +2426,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2461,7 +2461,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2496,7 +2496,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2531,7 +2531,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2546,7 +2546,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Triches Overwatch 2 2026",
@@ -2566,14 +2566,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Triches Overwatch 2 | Guide ESP et Aimbot",
-					description: "Triches Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Triches Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livraison numérique instantanée. indétectables — PC Windows.",
 					h1: "Triches Overwatch 2",
 					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Triches Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -2586,7 +2586,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Triches Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -2601,7 +2601,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2636,7 +2636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2671,7 +2671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2706,7 +2706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2741,7 +2741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2776,7 +2776,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2811,7 +2811,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2846,7 +2846,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livraison numérique instantanée",
 							paragraphs: [
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Easy Anti-Cheat anti-cheat.",
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
 							],
 						},
 					],
@@ -2855,7 +2855,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de confidentialité | Overwatch 2 Cheats",
 					description: "Politique de confidentialité for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de confidentialité",
-					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Politique de confidentialité for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Politique de confidentialité for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -2867,7 +2867,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Informations collectées",
 							paragraphs: [
 								"Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -2880,8 +2880,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Vos droits",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -2890,7 +2890,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politique de remboursement | Overwatch 2 Cheats",
 					description: "Politique de remboursement for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politique de remboursement",
-					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Politique de remboursement for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Politique de remboursement for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -2915,8 +2915,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Comment demander",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -2925,7 +2925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Conditions d'utilisation | Overwatch 2 Cheats",
 					description: "Conditions d'utilisation for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Conditions d'utilisation",
-					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Conditions d'utilisation for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combine ESP wallhack, radar hack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Conditions d'utilisation for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -2950,8 +2950,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Modifications",
 							paragraphs: [
-								"Contactez support@warthundercheat.net pour le support ou les demandes légales.",
-								"Email: support@warthundercheat.net",
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -3069,7 +3069,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -3089,7 +3089,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3124,7 +3124,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3159,7 +3159,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3194,7 +3194,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3229,7 +3229,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3244,7 +3244,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Updates",
@@ -3264,7 +3264,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3299,7 +3299,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3334,7 +3334,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3349,7 +3349,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected Cheats",
@@ -3369,7 +3369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3404,7 +3404,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3439,7 +3439,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3474,7 +3474,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3489,7 +3489,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -3509,14 +3509,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. sofortige digitale Lieferung. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -3529,7 +3529,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
 							],
 						},
@@ -3544,7 +3544,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3579,7 +3579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3614,7 +3614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3649,7 +3649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3684,7 +3684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3719,7 +3719,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3754,7 +3754,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3789,7 +3789,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Easy Anti-Cheat anti-cheat-Wartung.",
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
 					],
@@ -3798,7 +3798,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Datenschutz | Overwatch 2 Cheats",
 					description: "Datenschutz for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Datenschutz",
-					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Datenschutz for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Datenschutz for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -3810,7 +3810,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Erhobene Daten",
 							paragraphs: [
 								"Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -3823,8 +3823,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Ihre Rechte",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -3833,7 +3833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Rückerstattung | Overwatch 2 Cheats",
 					description: "Rückerstattung for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Rückerstattung",
-					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Rückerstattung for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Rückerstattung for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -3858,8 +3858,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Anfrage stellen",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -3868,7 +3868,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Nutzungsbedingungen | Overwatch 2 Cheats",
 					description: "Nutzungsbedingungen for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Nutzungsbedingungen",
-					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Nutzungsbedingungen for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bündelt ESP wallhack, radar hack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Nutzungsbedingungen for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -3893,8 +3893,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Änderungen",
 							paragraphs: [
-								"support@warthundercheat.net für Support und rechtliche Anfragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -4012,7 +4012,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -4032,7 +4032,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4067,7 +4067,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4102,7 +4102,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4137,7 +4137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4172,7 +4172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4187,7 +4187,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Atualizações",
@@ -4207,7 +4207,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4242,7 +4242,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4277,7 +4277,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4292,7 +4292,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheats indetectáveis",
@@ -4312,7 +4312,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4347,7 +4347,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4382,7 +4382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4417,7 +4417,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4432,7 +4432,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheats Overwatch 2 2026",
@@ -4452,14 +4452,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheats Overwatch 2 | Guia ESP e Aimbot",
-					description: "Cheats Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "Cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -4472,7 +4472,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheats Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -4487,7 +4487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4522,7 +4522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4557,7 +4557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4592,7 +4592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4627,7 +4627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4662,7 +4662,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4697,7 +4697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4732,7 +4732,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "entrega digital instantânea",
 							paragraphs: [
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Easy Anti-Cheat anti-cheat.",
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
 							],
 						},
 					],
@@ -4741,7 +4741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de privacidade | Overwatch 2 Cheats",
 					description: "Política de privacidade for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de privacidade",
-					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Política de privacidade for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Política de privacidade for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -4753,7 +4753,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -4766,8 +4766,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -4776,7 +4776,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Política de reembolso | Overwatch 2 Cheats",
 					description: "Política de reembolso for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Política de reembolso",
-					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Política de reembolso for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Política de reembolso for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -4801,8 +4801,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -4811,7 +4811,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termos de uso | Overwatch 2 Cheats",
 					description: "Termos de uso for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termos de uso",
-					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Termos de uso for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats reúne ESP wallhack, radar hack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Termos de uso for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -4836,8 +4836,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contacte support@warthundercheat.net para suporte ou questões legais.",
-								"Email: support@warthundercheat.net",
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -4955,7 +4955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -4975,7 +4975,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5010,7 +5010,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5045,7 +5045,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5080,7 +5080,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5115,7 +5115,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5130,7 +5130,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Aggiornamenti",
@@ -5150,7 +5150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5185,7 +5185,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5220,7 +5220,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5235,7 +5235,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat indetectable",
@@ -5255,7 +5255,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5290,7 +5290,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5325,7 +5325,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5360,7 +5360,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5375,7 +5375,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Overwatch 2 2026",
@@ -5395,14 +5395,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | Guida ESP e Aimbot",
-					description: "Cheat Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. consegna digitale istantanea. indetectable — PC Windows.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -5415,7 +5415,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -5430,7 +5430,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5465,7 +5465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5500,7 +5500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5535,7 +5535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5570,7 +5570,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5605,7 +5605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5640,7 +5640,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5675,7 +5675,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "consegna digitale istantanea",
 							paragraphs: [
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Easy Anti-Cheat anti-cheat.",
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
 							],
 						},
 					],
@@ -5684,7 +5684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Informativa privacy | Overwatch 2 Cheats",
 					description: "Informativa privacy for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Informativa privacy",
-					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Informativa privacy for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Informativa privacy for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -5696,7 +5696,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -5709,8 +5709,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -5719,7 +5719,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica di rimborso | Overwatch 2 Cheats",
 					description: "Politica di rimborso for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica di rimborso",
-					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Politica di rimborso for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Politica di rimborso for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -5744,8 +5744,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -5754,7 +5754,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termini di utilizzo | Overwatch 2 Cheats",
 					description: "Termini di utilizzo for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termini di utilizzo",
-					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Termini di utilizzo for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats unisce ESP wallhack, radar hack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Termini di utilizzo for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -5779,8 +5779,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Contatta support@warthundercheat.net per supporto o richieste legali.",
-								"Email: support@warthundercheat.net",
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -5898,7 +5898,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -5918,7 +5918,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5953,7 +5953,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -5988,7 +5988,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6023,7 +6023,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6058,7 +6058,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6073,7 +6073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Updates",
@@ -6093,7 +6093,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6128,7 +6128,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6163,7 +6163,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6178,7 +6178,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected Cheats",
@@ -6198,7 +6198,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6233,7 +6233,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6268,7 +6268,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6303,7 +6303,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6318,7 +6318,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -6338,14 +6338,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. directe digitale levering. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -6358,7 +6358,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
 							],
 						},
@@ -6373,7 +6373,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6408,7 +6408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6443,7 +6443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6478,7 +6478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6513,7 +6513,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6548,7 +6548,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6583,7 +6583,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6618,7 +6618,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "directe digitale levering",
 							paragraphs: [
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Easy Anti-Cheat anti-cheat-onderhoud.",
-								"support@warthundercheat.net voor support en juridische vragen.",
+								"support@overwatchcheats.org voor support en juridische vragen.",
 							],
 						},
 					],
@@ -6627,7 +6627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Privacybeleid | Overwatch 2 Cheats",
 					description: "Privacybeleid for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Privacybeleid",
-					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Privacybeleid for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Privacybeleid for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -6639,7 +6639,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -6652,8 +6652,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org voor support en juridische vragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -6662,7 +6662,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Restitutiebeleid | Overwatch 2 Cheats",
 					description: "Restitutiebeleid for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Restitutiebeleid",
-					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Restitutiebeleid for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Restitutiebeleid for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -6687,8 +6687,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org voor support en juridische vragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -6697,7 +6697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gebruiksvoorwaarden | Overwatch 2 Cheats",
 					description: "Gebruiksvoorwaarden for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gebruiksvoorwaarden",
-					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Gebruiksvoorwaarden for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats bundelt ESP wallhack, radar hack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Gebruiksvoorwaarden for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -6722,8 +6722,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net voor support en juridische vragen.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org voor support en juridische vragen.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -6841,7 +6841,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -6861,7 +6861,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6896,7 +6896,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6931,7 +6931,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -6966,7 +6966,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7001,7 +7001,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7016,7 +7016,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Aktualizacje",
@@ -7036,7 +7036,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7071,7 +7071,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7106,7 +7106,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7121,7 +7121,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheaty undetected",
@@ -7141,7 +7141,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7176,7 +7176,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7211,7 +7211,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7246,7 +7246,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7261,7 +7261,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheaty Overwatch 2 2026",
@@ -7281,14 +7281,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheaty Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheaty Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cheaty Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "Cheaty Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cheaty Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -7301,7 +7301,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheaty Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -7316,7 +7316,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7351,7 +7351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7386,7 +7386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7421,7 +7421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7456,7 +7456,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7491,7 +7491,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7526,7 +7526,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7561,7 +7561,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
 					],
@@ -7570,7 +7570,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka prywatności | Overwatch 2 Cheats",
 					description: "Polityka prywatności for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka prywatności",
-					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Polityka prywatności for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Polityka prywatności for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -7582,7 +7582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -7595,8 +7595,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -7605,7 +7605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Polityka zwrotów | Overwatch 2 Cheats",
 					description: "Polityka zwrotów for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Polityka zwrotów",
-					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Polityka zwrotów for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Polityka zwrotów for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -7630,8 +7630,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -7640,7 +7640,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Warunki użytkowania | Overwatch 2 Cheats",
 					description: "Warunki użytkowania for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Warunki użytkowania",
-					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Warunki użytkowania for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats łączy ESP wallhack, radar hack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Warunki użytkowania for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -7665,8 +7665,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net w sprawach wsparcia i prawnych.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -7784,7 +7784,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -7804,7 +7804,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7839,7 +7839,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7874,7 +7874,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7909,7 +7909,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7944,7 +7944,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -7959,7 +7959,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Обновления",
@@ -7979,7 +7979,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8014,7 +8014,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8049,7 +8049,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8064,7 +8064,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected читы",
@@ -8084,7 +8084,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8119,7 +8119,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8154,7 +8154,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8189,7 +8189,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8204,7 +8204,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Читы Overwatch 2 2026",
@@ -8224,14 +8224,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Читы Overwatch 2 | Гайд ESP и Aimbot",
-					description: "Читы Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Читы Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. мгновенная цифровая доставка. undetected — Windows PC.",
 					h1: "Читы Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Читы Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -8244,7 +8244,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Читы Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -8259,7 +8259,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8294,7 +8294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8329,7 +8329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8364,7 +8364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8399,7 +8399,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8434,7 +8434,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8469,7 +8469,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8504,7 +8504,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
 							],
 						},
 					],
@@ -8513,7 +8513,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика конфиденциальности | Overwatch 2 Cheats",
 					description: "Политика конфиденциальности for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика конфиденциальности",
-					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Политика конфиденциальности for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Политика конфиденциальности for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -8525,7 +8525,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -8538,8 +8538,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -8548,7 +8548,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Политика возврата | Overwatch 2 Cheats",
 					description: "Политика возврата for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Политика возврата",
-					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Политика возврата for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Политика возврата for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -8573,8 +8573,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -8583,7 +8583,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Условия использования | Overwatch 2 Cheats",
 					description: "Условия использования for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Условия использования",
-					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Условия использования for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats объединяет ESP wallhack, radar hack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Условия использования for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -8608,8 +8608,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net для поддержки и юридических вопросов.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -8727,7 +8727,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -8747,7 +8747,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8782,7 +8782,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8817,7 +8817,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8852,7 +8852,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8887,7 +8887,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8902,7 +8902,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Güncellemeler",
@@ -8922,7 +8922,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8957,7 +8957,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -8992,7 +8992,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9007,7 +9007,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected hileler",
@@ -9027,7 +9027,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9062,7 +9062,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9097,7 +9097,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9132,7 +9132,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9147,7 +9147,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Hileleri 2026",
@@ -9167,14 +9167,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Hileleri | ESP Aimbot Guide",
-					description: "Overwatch 2 Hileleri: the Overwatch 2 hacks pillar for ESP and Aimbot. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Hileleri: Overwatch 2 cheats with ESP, aimbot, and wallhack. anında dijital teslimat. undetected — Windows PC.",
 					h1: "Overwatch 2 Hileleri",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Hileleri.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -9187,7 +9187,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Hileleri",
 							paragraphs: [
-								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
 							],
 						},
@@ -9202,7 +9202,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9237,7 +9237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9272,7 +9272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9307,7 +9307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9342,7 +9342,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9377,7 +9377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9412,7 +9412,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9447,7 +9447,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "anında dijital teslimat",
 							paragraphs: [
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Easy Anti-Cheat anti-cheat bakımı içerir.",
-								"Destek ve yasal sorular için support@warthundercheat.net.",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
 							],
 						},
 					],
@@ -9456,7 +9456,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Gizlilik politikası | Overwatch 2 Cheats",
 					description: "Gizlilik politikası for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Gizlilik politikası",
-					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Gizlilik politikası for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Gizlilik politikası for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -9468,7 +9468,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -9481,8 +9481,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -9491,7 +9491,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "İade politikası | Overwatch 2 Cheats",
 					description: "İade politikası for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "İade politikası",
-					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. İade politikası for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. İade politikası for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -9516,8 +9516,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -9526,7 +9526,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kullanım şartları | Overwatch 2 Cheats",
 					description: "Kullanım şartları for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Kullanım şartları",
-					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Kullanım şartları for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde ESP wallhack, radar hack ve Overwatch 2 aimbot undetected paket sunar. Kullanım şartları for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -9551,8 +9551,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"Destek ve yasal sorular için support@warthundercheat.net.",
-								"Email: support@warthundercheat.net",
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -9670,7 +9670,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -9690,7 +9690,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9725,7 +9725,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9760,7 +9760,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9795,7 +9795,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9830,7 +9830,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9845,7 +9845,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "التحديثات",
@@ -9865,7 +9865,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9900,7 +9900,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9935,7 +9935,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -9950,7 +9950,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "غش undetected",
@@ -9970,7 +9970,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10005,7 +10005,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10040,7 +10040,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10075,7 +10075,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10090,7 +10090,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "غش Overwatch 2 2026",
@@ -10110,14 +10110,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "غش Overwatch 2 | ESP Aimbot Guide",
-					description: "غش Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "غش Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. تسليم رقمي فوري. غير مكتشف — Windows PC.",
 					h1: "غش Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. غش Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -10130,7 +10130,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "غش Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -10145,7 +10145,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10180,7 +10180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10215,7 +10215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10250,7 +10250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10285,7 +10285,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10320,7 +10320,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10355,7 +10355,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10390,7 +10390,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
 							],
 						},
 					],
@@ -10399,7 +10399,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الخصوصية | Overwatch 2 Cheats",
 					description: "سياسة الخصوصية for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الخصوصية",
-					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. سياسة الخصوصية for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. سياسة الخصوصية for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -10411,7 +10411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "المعلومات التي نجمعها",
 							paragraphs: [
 								"Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -10424,8 +10424,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "حقوقك",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10434,7 +10434,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "سياسة الاسترداد | Overwatch 2 Cheats",
 					description: "سياسة الاسترداد for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "سياسة الاسترداد",
-					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. سياسة الاسترداد for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. سياسة الاسترداد for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -10459,8 +10459,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "كيفية الطلب",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10469,7 +10469,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "شروط الاستخدام | Overwatch 2 Cheats",
 					description: "شروط الاستخدام for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "شروط الاستخدام",
-					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. شروط الاستخدام for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats يجمع ESP wallhack وradar hack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. شروط الاستخدام for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -10494,8 +10494,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "التغييرات",
 							paragraphs: [
-								"support@warthundercheat.net للدعم والطلبات القانونية.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10613,7 +10613,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -10633,7 +10633,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10668,7 +10668,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10703,7 +10703,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10738,7 +10738,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10773,7 +10773,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10788,7 +10788,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "更新",
@@ -10808,7 +10808,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10843,7 +10843,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10878,7 +10878,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10893,7 +10893,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetectedチート",
@@ -10913,7 +10913,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10948,7 +10948,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -10983,7 +10983,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11018,7 +11018,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11033,7 +11033,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -11053,14 +11053,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即時デジタル配信. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -11073,7 +11073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
 							],
 						},
@@ -11088,7 +11088,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11123,7 +11123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11158,7 +11158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11193,7 +11193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11228,7 +11228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11263,7 +11263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11298,7 +11298,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11333,7 +11333,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即時デジタル配信",
 							paragraphs: [
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにEasy Anti-Cheat anti-cheatメンテナンス含む。",
-								"サポート・法務: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11342,7 +11342,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "プライバシーポリシー | Overwatch 2 Cheats",
 					description: "プライバシーポリシー for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "プライバシーポリシー",
-					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。プライバシーポリシー for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。プライバシーポリシー for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -11354,7 +11354,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "収集する情報",
 							paragraphs: [
 								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -11367,8 +11367,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "あなたの権利",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11377,7 +11377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "返金ポリシー | Overwatch 2 Cheats",
 					description: "返金ポリシー for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "返金ポリシー",
-					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。返金ポリシー for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。返金ポリシー for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -11402,8 +11402,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "申請方法",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11412,7 +11412,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "利用規約 | Overwatch 2 Cheats",
 					description: "利用規約 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "利用規約",
-					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。利用規約 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用ESP wallhack、radar hack、Overwatch 2 aimbotのundetectedパッケージです。利用規約 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -11437,8 +11437,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "変更",
 							paragraphs: [
-								"サポート・法務: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"サポート・法務: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11556,7 +11556,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -11576,7 +11576,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11611,7 +11611,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11646,7 +11646,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11681,7 +11681,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11716,7 +11716,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11731,7 +11731,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "업데이트",
@@ -11751,7 +11751,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11786,7 +11786,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11821,7 +11821,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11836,7 +11836,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected 치트",
@@ -11856,7 +11856,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11891,7 +11891,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11926,7 +11926,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11961,7 +11961,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -11976,7 +11976,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -11996,14 +11996,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 즉시 디지털 배송. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -12016,7 +12016,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
 							],
 						},
@@ -12031,7 +12031,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12066,7 +12066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12101,7 +12101,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12136,7 +12136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12171,7 +12171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12206,7 +12206,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12241,7 +12241,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12276,7 +12276,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "즉시 디지털 배송",
 							paragraphs: [
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Easy Anti-Cheat anti-cheat 유지보수 포함.",
-								"지원 및 법무: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12285,7 +12285,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "개인정보 처리방침 | Overwatch 2 Cheats",
 					description: "개인정보 처리방침 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "개인정보 처리방침",
-					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 개인정보 처리방침 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 개인정보 처리방침 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -12297,7 +12297,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -12310,8 +12310,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12320,7 +12320,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "환불 정책 | Overwatch 2 Cheats",
 					description: "환불 정책 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "환불 정책",
-					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 환불 정책 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 환불 정책 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -12345,8 +12345,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12355,7 +12355,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "이용 약관 | Overwatch 2 Cheats",
 					description: "이용 약관 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "이용 약관",
-					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 이용 약관 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 ESP wallhack, radar hack, Overwatch 2 aimbot undetected 패키지입니다. 이용 약관 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -12380,8 +12380,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"지원 및 법무: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"지원 및 법무: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12499,7 +12499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -12519,7 +12519,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12554,7 +12554,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12589,7 +12589,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12624,7 +12624,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12659,7 +12659,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12674,7 +12674,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "更新",
@@ -12694,7 +12694,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12729,7 +12729,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12764,7 +12764,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12779,7 +12779,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected作弊",
@@ -12799,7 +12799,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12834,7 +12834,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12869,7 +12869,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12904,7 +12904,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -12919,7 +12919,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2作弊 2026",
@@ -12939,14 +12939,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2作弊 | ESP Aimbot Guide",
-					description: "Overwatch 2作弊: the Overwatch 2 hacks pillar for ESP and Aimbot. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2作弊: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即时数字交付. undetected — Windows PC.",
 					h1: "Overwatch 2作弊",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。Overwatch 2作弊.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -12959,7 +12959,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2作弊",
 							paragraphs: [
-								"Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
 							],
 						},
@@ -12974,7 +12974,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13009,7 +13009,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13044,7 +13044,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13079,7 +13079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13114,7 +13114,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13149,7 +13149,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13184,7 +13184,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13219,7 +13219,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "即时数字交付",
 							paragraphs: [
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Easy Anti-Cheat anti-cheat维护。",
-								"支持与法务：support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13228,7 +13228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "隐私政策 | Overwatch 2 Cheats",
 					description: "隐私政策 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "隐私政策",
-					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。隐私政策 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。隐私政策 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -13240,7 +13240,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -13253,8 +13253,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13263,7 +13263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "退款政策 | Overwatch 2 Cheats",
 					description: "退款政策 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "退款政策",
-					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。退款政策 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。退款政策 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -13288,8 +13288,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13298,7 +13298,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "使用条款 | Overwatch 2 Cheats",
 					description: "使用条款 for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "使用条款",
-					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。使用条款 for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供ESP wallhack、radar hack和Overwatch 2 aimbotundetected套餐。使用条款 for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -13323,8 +13323,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"支持与法务：support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"支持与法务：support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13442,7 +13442,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -13462,7 +13462,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13497,7 +13497,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13532,7 +13532,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13567,7 +13567,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13602,7 +13602,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13617,7 +13617,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "अपडेट",
@@ -13637,7 +13637,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13672,7 +13672,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13707,7 +13707,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13722,7 +13722,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheats",
@@ -13742,7 +13742,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13777,7 +13777,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13812,7 +13812,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13847,7 +13847,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13862,7 +13862,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -13882,14 +13882,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -13902,7 +13902,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
 							],
 						},
@@ -13917,7 +13917,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13952,7 +13952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -13987,7 +13987,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14022,7 +14022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14057,7 +14057,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14092,7 +14092,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14127,7 +14127,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14162,7 +14162,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Easy Anti-Cheat anti-cheat maintenance शामिल।",
-								"सहायता: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14171,7 +14171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "गोपनीयता नीति | Overwatch 2 Cheats",
 					description: "गोपनीयता नीति for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "गोपनीयता नीति",
-					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। गोपनीयता नीति for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। गोपनीयता नीति for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -14183,7 +14183,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -14196,8 +14196,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14206,7 +14206,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "रिफंड नीति | Overwatch 2 Cheats",
 					description: "रिफंड नीति for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "रिफंड नीति",
-					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। रिफंड नीति for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। रिफंड नीति for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -14231,8 +14231,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14241,7 +14241,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "उपयोग की शर्तें | Overwatch 2 Cheats",
 					description: "उपयोग की शर्तें for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "उपयोग की शर्तें",
-					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। उपयोग की शर्तें for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर ESP wallhack, radar hack और Overwatch 2 aimbot undetected पैकेज देता है। उपयोग की शर्तें for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -14266,8 +14266,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"सहायता: support@warthundercheat.net",
-								"Email: support@warthundercheat.net",
+								"सहायता: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -14385,7 +14385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -14405,7 +14405,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14440,7 +14440,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14475,7 +14475,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14510,7 +14510,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14545,7 +14545,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14560,7 +14560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Pembaruan",
@@ -14580,7 +14580,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14615,7 +14615,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14650,7 +14650,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14665,7 +14665,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat undetected",
@@ -14685,7 +14685,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14720,7 +14720,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14755,7 +14755,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14790,7 +14790,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14805,7 +14805,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Overwatch 2 2026",
@@ -14825,14 +14825,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheat Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. pengiriman digital instan. undetected — PC Windows.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -14845,7 +14845,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -14860,7 +14860,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14895,7 +14895,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14930,7 +14930,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -14965,7 +14965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15000,7 +15000,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15035,7 +15035,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15070,7 +15070,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15105,7 +15105,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "pengiriman digital instan",
 							paragraphs: [
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net untuk dukungan dan legal.",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
 							],
 						},
 					],
@@ -15114,7 +15114,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan privasi | Overwatch 2 Cheats",
 					description: "Kebijakan privasi for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan privasi",
-					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Kebijakan privasi for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Kebijakan privasi for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -15126,7 +15126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -15139,8 +15139,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -15149,7 +15149,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Kebijakan refund | Overwatch 2 Cheats",
 					description: "Kebijakan refund for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Kebijakan refund",
-					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Kebijakan refund for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Kebijakan refund for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -15174,8 +15174,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -15184,7 +15184,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Syarat penggunaan | Overwatch 2 Cheats",
 					description: "Syarat penggunaan for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Syarat penggunaan",
-					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Syarat penggunaan for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats menyediakan ESP wallhack, radar hack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Syarat penggunaan for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -15209,8 +15209,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net untuk dukungan dan legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org untuk dukungan dan legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -15328,7 +15328,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -15348,7 +15348,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15383,7 +15383,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15418,7 +15418,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15453,7 +15453,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15488,7 +15488,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15503,7 +15503,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "อัปเดต",
@@ -15523,7 +15523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15558,7 +15558,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15593,7 +15593,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15608,7 +15608,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheats undetected",
@@ -15628,7 +15628,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15663,7 +15663,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15698,7 +15698,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15733,7 +15733,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15748,7 +15748,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -15768,14 +15768,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -15788,7 +15788,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
 							],
 						},
@@ -15803,7 +15803,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15838,7 +15838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15873,7 +15873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15908,7 +15908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15943,7 +15943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -15978,7 +15978,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16013,7 +16013,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16048,7 +16048,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Easy Anti-Cheat anti-cheat",
-								"support@warthundercheat.net สำหรับการสนับสนุน",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
 							],
 						},
 					],
@@ -16057,7 +16057,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายความเป็นส่วนตัว | Overwatch 2 Cheats",
 					description: "นโยบายความเป็นส่วนตัว for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายความเป็นส่วนตัว",
-					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC นโยบายความเป็นส่วนตัว for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC นโยบายความเป็นส่วนตัว for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -16069,7 +16069,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -16082,8 +16082,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -16092,7 +16092,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "นโยบายการคืนเงิน | Overwatch 2 Cheats",
 					description: "นโยบายการคืนเงิน for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "นโยบายการคืนเงิน",
-					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC นโยบายการคืนเงิน for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC นโยบายการคืนเงิน for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -16117,8 +16117,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -16127,7 +16127,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "ข้อกำหนดการใช้งาน | Overwatch 2 Cheats",
 					description: "ข้อกำหนดการใช้งาน for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "ข้อกำหนดการใช้งาน",
-					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ข้อกำหนดการใช้งาน for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats รวม ESP wallhack, radar hack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ข้อกำหนดการใช้งาน for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -16152,8 +16152,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net สำหรับการสนับสนุน",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -16271,7 +16271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -16291,7 +16291,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16326,7 +16326,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16361,7 +16361,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16396,7 +16396,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16431,7 +16431,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16446,7 +16446,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cập nhật",
@@ -16466,7 +16466,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16501,7 +16501,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16536,7 +16536,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16551,7 +16551,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat undetected",
@@ -16571,7 +16571,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16606,7 +16606,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16641,7 +16641,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16676,7 +16676,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16691,7 +16691,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheat Overwatch 2 2026",
@@ -16711,14 +16711,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheat Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -16731,7 +16731,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -16746,7 +16746,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16781,7 +16781,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16816,7 +16816,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16851,7 +16851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16886,7 +16886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16921,7 +16921,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16956,7 +16956,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -16991,7 +16991,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
 					],
@@ -17000,7 +17000,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách bảo mật | Overwatch 2 Cheats",
 					description: "Chính sách bảo mật for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách bảo mật",
-					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Chính sách bảo mật for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Chính sách bảo mật for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -17012,7 +17012,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -17025,8 +17025,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -17035,7 +17035,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Chính sách hoàn tiền | Overwatch 2 Cheats",
 					description: "Chính sách hoàn tiền for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Chính sách hoàn tiền",
-					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Chính sách hoàn tiền for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Chính sách hoàn tiền for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -17060,8 +17060,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -17070,7 +17070,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Điều khoản sử dụng | Overwatch 2 Cheats",
 					description: "Điều khoản sử dụng for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Điều khoản sử dụng",
-					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Điều khoản sử dụng for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats cung cấp ESP wallhack, radar hack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Điều khoản sử dụng for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -17095,8 +17095,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net cho hỗ trợ và pháp lý.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -17214,7 +17214,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -17234,7 +17234,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17269,7 +17269,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17304,7 +17304,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17339,7 +17339,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17374,7 +17374,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17389,7 +17389,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Оновлення",
@@ -17409,7 +17409,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17444,7 +17444,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17479,7 +17479,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17494,7 +17494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected чіти",
@@ -17514,7 +17514,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17549,7 +17549,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17584,7 +17584,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17619,7 +17619,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17634,7 +17634,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Чіти Overwatch 2 2026",
@@ -17654,14 +17654,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Чіти Overwatch 2 | ESP Aimbot Guide",
-					description: "Чіти Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Чіти Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. миттєва цифрова доставка. undetected — Windows PC.",
 					h1: "Чіти Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Чіти Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -17674,7 +17674,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Чіти Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -17689,7 +17689,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17724,7 +17724,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17759,7 +17759,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17794,7 +17794,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17829,7 +17829,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17864,7 +17864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17899,7 +17899,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17934,7 +17934,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net для підтримки та правових питань.",
+								"support@overwatchcheats.org для підтримки та правових питань.",
 							],
 						},
 					],
@@ -17943,7 +17943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика конфіденційності | Overwatch 2 Cheats",
 					description: "Політика конфіденційності for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика конфіденційності",
-					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Політика конфіденційності for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Політика конфіденційності for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -17955,7 +17955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -17968,8 +17968,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для підтримки та правових питань.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -17978,7 +17978,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Політика повернення | Overwatch 2 Cheats",
 					description: "Політика повернення for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Політика повернення",
-					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Політика повернення for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Політика повернення for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -18003,8 +18003,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для підтримки та правових питань.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -18013,7 +18013,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Умови використання | Overwatch 2 Cheats",
 					description: "Умови використання for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Умови використання",
-					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Умови використання for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats об'єднує ESP wallhack, radar hack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Умови використання for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -18038,8 +18038,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net для підтримки та правових питань.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org для підтримки та правових питань.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -18157,7 +18157,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -18177,7 +18177,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18212,7 +18212,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18247,7 +18247,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18282,7 +18282,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18317,7 +18317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18332,7 +18332,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Aktualizace",
@@ -18352,7 +18352,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18387,7 +18387,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18422,7 +18422,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18437,7 +18437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheaty",
@@ -18457,7 +18457,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18492,7 +18492,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18527,7 +18527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18562,7 +18562,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18577,7 +18577,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 cheaty 2026",
@@ -18597,14 +18597,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 cheaty | ESP Aimbot Guide",
-					description: "Overwatch 2 cheaty: the Overwatch 2 hacks pillar for ESP and Aimbot. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 cheaty: Overwatch 2 cheats with ESP, aimbot, and wallhack. okamžité digitální doručení. undetected — Windows PC.",
 					h1: "Overwatch 2 cheaty",
 					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheaty.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -18617,7 +18617,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 cheaty",
 							paragraphs: [
-								"Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -18632,7 +18632,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18667,7 +18667,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18702,7 +18702,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18737,7 +18737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18772,7 +18772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18807,7 +18807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18842,7 +18842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18877,7 +18877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "okamžité digitální doručení",
 							paragraphs: [
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pro podporu a právní dotazy.",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
 							],
 						},
 					],
@@ -18886,7 +18886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady ochrany soukromí | Overwatch 2 Cheats",
 					description: "Zásady ochrany soukromí for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady ochrany soukromí",
-					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Zásady ochrany soukromí for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Zásady ochrany soukromí for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -18898,7 +18898,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -18911,8 +18911,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -18921,7 +18921,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Zásady vrácení peněz | Overwatch 2 Cheats",
 					description: "Zásady vrácení peněz for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Zásady vrácení peněz",
-					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Zásady vrácení peněz for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Zásady vrácení peněz for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -18946,8 +18946,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -18956,7 +18956,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Podmínky použití | Overwatch 2 Cheats",
 					description: "Podmínky použití for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Podmínky použití",
-					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Podmínky použití for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats spojuje ESP wallhack, radar hack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Podmínky použití for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -18981,8 +18981,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net pro podporu a právní dotazy.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -19100,7 +19100,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "ESP Overwatch 2",
@@ -19120,7 +19120,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19155,7 +19155,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19190,7 +19190,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19225,7 +19225,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19260,7 +19260,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19275,7 +19275,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Actualizări",
@@ -19295,7 +19295,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19330,7 +19330,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19365,7 +19365,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19380,7 +19380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheats undetected",
@@ -19400,7 +19400,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19435,7 +19435,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19470,7 +19470,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19505,7 +19505,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19520,7 +19520,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Cheats Overwatch 2 2026",
@@ -19540,14 +19540,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Cheats Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheats Overwatch 2: the Overwatch 2 hacks pillar for ESP and Aimbot. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livrare digitală instantă. undetected — PC Windows.",
 					h1: "Cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -19560,7 +19560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheats Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
 							],
 						},
@@ -19575,7 +19575,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19610,7 +19610,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19645,7 +19645,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19680,7 +19680,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19715,7 +19715,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19750,7 +19750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19785,7 +19785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19820,7 +19820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "livrare digitală instantă",
 							paragraphs: [
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Easy Anti-Cheat anti-cheat.",
-								"support@warthundercheat.net pentru suport și legal.",
+								"support@overwatchcheats.org pentru suport și legal.",
 							],
 						},
 					],
@@ -19829,7 +19829,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de confidențialitate | Overwatch 2 Cheats",
 					description: "Politica de confidențialitate for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de confidențialitate",
-					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Politica de confidențialitate for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Politica de confidențialitate for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -19841,7 +19841,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -19854,8 +19854,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pentru suport și legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -19864,7 +19864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Politica de rambursare | Overwatch 2 Cheats",
 					description: "Politica de rambursare for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Politica de rambursare",
-					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Politica de rambursare for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Politica de rambursare for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -19889,8 +19889,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pentru suport și legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -19899,7 +19899,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Termeni de utilizare | Overwatch 2 Cheats",
 					description: "Termeni de utilizare for Overwatch 2 Cheats — ESP wallhack, Aimbot, PC Windows.",
 					h1: "Termeni de utilizare",
-					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Termeni de utilizare for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats combină ESP wallhack, radar hack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Termeni de utilizare for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -19924,8 +19924,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net pentru suport și legal.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org pentru suport și legal.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -20043,7 +20043,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-radar.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 ESP",
@@ -20063,7 +20063,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20098,7 +20098,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20133,7 +20133,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20168,7 +20168,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20203,7 +20203,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20218,7 +20218,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Uppdateringar",
@@ -20238,7 +20238,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20273,7 +20273,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20308,7 +20308,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20323,7 +20323,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Undetected cheats",
@@ -20343,7 +20343,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20378,7 +20378,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20413,7 +20413,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20448,7 +20448,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20463,7 +20463,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
-					ctaSecondaryHref: "/ow2-cheats/",
+					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
 							h2: "Overwatch 2 Cheats 2026",
@@ -20483,14 +20483,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: the Overwatch 2 hacks pillar for ESP and Aimbot. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. omedelbar digital leverans. undetected — Windows PC.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and radar",
@@ -20503,7 +20503,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. the Overwatch 2 hacks pillar for ESP and Aimbot.",
+								"Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 cheats with ESP, aimbot, and wallhack.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
 							],
 						},
@@ -20518,7 +20518,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20553,7 +20553,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20588,7 +20588,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20623,7 +20623,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20658,7 +20658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20693,7 +20693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20728,7 +20728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20763,7 +20763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "omedelbar digital leverans",
 							paragraphs: [
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Easy Anti-Cheat anti-cheat-underhåll.",
-								"support@warthundercheat.net för support och juridik.",
+								"support@overwatchcheats.org för support och juridik.",
 							],
 						},
 					],
@@ -20772,7 +20772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Integritetspolicy | Overwatch 2 Cheats",
 					description: "Integritetspolicy for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Integritetspolicy",
-					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Integritetspolicy for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Integritetspolicy for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
@@ -20784,7 +20784,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Information we collect",
 							paragraphs: [
 								"Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Contact email, Zadeyo order references, and basic site security data.",
-								"Payment details are processed at checkout — not stored on warthundercheat.net.",
+								"Payment details are processed at checkout — not stored on overwatchcheats.org.",
 							],
 						},
 						{
@@ -20797,8 +20797,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Your rights",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org för support och juridik.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -20807,7 +20807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Återbetalningspolicy | Overwatch 2 Cheats",
 					description: "Återbetalningspolicy for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Återbetalningspolicy",
-					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Återbetalningspolicy for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Återbetalningspolicy for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
@@ -20832,8 +20832,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How to request",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org för support och juridik.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],
@@ -20842,7 +20842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Användarvillkor | Overwatch 2 Cheats",
 					description: "Användarvillkor for Overwatch 2 Cheats — ESP wallhack, Aimbot, Windows PC.",
 					h1: "Användarvillkor",
-					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Användarvillkor for warthundercheat.net and Overwatch 2 licenses.",
+					intro: "Overwatch 2 Cheats kombinerar ESP wallhack, radar hack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Användarvillkor for overwatchcheats.org and Overwatch 2 licenses.",
 					imageAlt: "Overwatch 2 cheats",
 					galleryTitle: "Overwatch 2 cheats",
 					heroImage: "/images/overwatch-2-cheats-aimbot-view.webp",
@@ -20867,8 +20867,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Policy changes",
 							paragraphs: [
-								"support@warthundercheat.net för support och juridik.",
-								"Email: support@warthundercheat.net",
+								"support@overwatchcheats.org för support och juridik.",
+								"Email: support@overwatchcheats.org",
 							],
 						},
 					],

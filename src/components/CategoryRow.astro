@@ -15,12 +15,10 @@ const categories = [
 	{ label: t('categoryRow.hacks'), href: getLocalizedPath('hacks', locale) },
 	{ label: t('categoryRow.esp'), href: getLocalizedPath('overwatch-2-esp', locale) },
 	{ label: t('categoryRow.aimbot'), href: getLocalizedPath('overwatch-2-aimbot', locale) },
-	{ label: t('categoryRow.radar'), href: getLocalizedPath('radar', locale) },
-	{ label: t('categoryRow.wallhack'), href: getLocalizedPath('wallhack', locale) },
+	{ label: t('categoryRow.wallhack'), href: getLocalizedPath('radar', locale) },
 	{ label: t('categoryRow.undetected'), href: getLocalizedPath('undetected', locale) },
 	{ label: t('categoryRow.pricing'), href: getLocalizedPath('pricing', locale) },
 	{ label: t('categoryRow.setup'), href: getLocalizedPath('setup', locale) },
-	{ label: t('categoryRow.blog'), href: getBlogBasePath(locale) },
 ];
 ---
 
@@ -45,26 +43,42 @@ const categories = [
 	}
 
 	.cats__list {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 0.5rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
+		gap: 0;
 		margin: 0;
-		padding: 1rem 0;
+		padding: 0;
 		list-style: none;
+		border: 1px solid var(--line);
+	}
+
+	.cats__list li {
+		border-right: 1px solid var(--line);
+	}
+
+	.cats__list li:last-child {
+		border-right: none;
 	}
 
 	.cats__list a {
-		display: inline-flex;
+		display: flex;
 		align-items: center;
-		padding: 0.4rem 0.8rem;
-		border: 1px solid var(--line);
-		border-radius: var(--radius-pill);
-		background: var(--bg-elevated);
-		font-size: 0.8125rem;
-		font-weight: 500;
+		justify-content: center;
+		min-height: 2.75rem;
+		padding: 0.5rem 0.75rem;
+		border: none;
+		border-radius: 0;
+		background: var(--bg-panel);
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
 		color: var(--ink-muted);
-		transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+		transition: color 0.15s ease, background 0.15s ease;
+	}
+
+	.cats__list a:hover {
+		background: var(--bg-elevated);
 	}
 
 	.cats__list a:hover {

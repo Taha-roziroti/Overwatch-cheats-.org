@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * One-time migration: Overwatch 2 Cheats → Overwatch 2 Cheats (warthundercheat.net).
+ * One-time migration: Overwatch 2 Cheats → Overwatch 2 Cheats (overwatchcheats.org).
  * Run from project root: node scripts/adapt-overwatch.mjs
  */
 import { readFile, writeFile, readdir, rename } from 'node:fs/promises';
@@ -12,20 +12,20 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const RENAME_PAGE_DIRS = [
 	['overwatch-2-aimbot', 'overwatch-2-aimbot'],
 	['overwatch-2-esp', 'overwatch-2-esp'],
-	['d2-cheats', 'ow2-cheats'],
-	['d2-radar', 'ow2-visuals'],
+	['d2-cheats', 'overwatch-2-cheats'],
+	['d2-radar', 'overwatch-2-wallhack'],
 ];
 
 /** Ordered replacements — specific patterns first. */
 const REPLACEMENTS = [
-	['https://warthundercheat.net', 'https://warthundercheat.net'],
-	['https://www.warthundercheat.net', 'https://www.warthundercheat.net'],
-	['www.warthundercheat.net', 'www.warthundercheat.net'],
-	['warthundercheat.net', 'warthundercheat.net'],
-	['support@warthundercheat.net', 'support@warthundercheat.net'],
+	['https://overwatchcheats.org', 'https://overwatchcheats.org'],
+	['https://www.overwatchcheats.org', 'https://www.overwatchcheats.org'],
+	['www.overwatchcheats.org', 'www.overwatchcheats.org'],
+	['overwatchcheats.org', 'overwatchcheats.org'],
+	['support@overwatchcheats.org', 'support@overwatchcheats.org'],
 	['https://zadeyo.com/go/TAHA?to=%2Fproducts%2Foverwatch-2', 'https://zadeyo.com/go/TAHA?to=%2Fproducts%2Foverwatch-2'],
 	['/products/overwatch-2', '/products/overwatch-2'],
-	['name = "warthundercheat"', 'name = "warthundercheat"'],
+	['name = "overwatchcheats"', 'name = "overwatchcheats"'],
 	['"name": "overwatch-2-cheats"', '"name": "overwatch-2-cheats"'],
 	['undetected-overwatch-2-cheats', 'undetected-overwatch-2-cheats'],
 	['best-overwatch-2-cheats', 'best-overwatch-2-cheats'],
@@ -93,16 +93,16 @@ const REPLACEMENTS = [
 	['caracteristicas-trucos-overwatch-2', 'caracteristicas-trucos-overwatch-2'],
 	['fonctionnalites-triche-overwatch-2', 'fonctionnalites-triche-overwatch-2'],
 	['recursos-cheats-overwatch-2', 'recursos-cheats-overwatch-2'],
-	['/ow2-undetected/', '/ow2-undetected/'],
-	['/ow2-wallhack/', '/ow2-wallhack/'],
-	['/ow2-visuals/', '/ow2-visuals/'],
-	['/ow2-anticheat/', '/ow2-anticheat/'],
-	['/ow2-cheats-2026/', '/ow2-cheats-2026/'],
-	['/ow2-cheats/', '/ow2-cheats/'],
-	['/ow2-download/', '/ow2-download/'],
-	['/ow2-hero-scripts/', '/ow2-hero-scripts/'],
-	['/ow2-aim-assist/', '/ow2-aim-assist/'],
-	['/ow2-hero-scripts/', '/ow2-hero-scripts/'],
+	['/overwatch-2-undetected/', '/overwatch-2-undetected/'],
+	['/overwatch-2-wallhack/', '/overwatch-2-wallhack/'],
+	['/overwatch-2-wallhack/', '/overwatch-2-wallhack/'],
+	['/status/', '/status/'],
+	['/overwatch-2-cheats/', '/overwatch-2-cheats/'],
+	['/overwatch-2-cheats/', '/overwatch-2-cheats/'],
+	['/setup/', '/setup/'],
+	['/overwatch-2-cheats/', '/overwatch-2-cheats/'],
+	['/overwatch-2-aimbot/', '/overwatch-2-aimbot/'],
+	['/overwatch-2-cheats/', '/overwatch-2-cheats/'],
 	["pageId='overwatch-2-esp'", "pageId='overwatch-2-esp'"],
 	["pageId=\"overwatch-2-esp\"", "pageId=\"overwatch-2-esp\""],
 	["pageId: 'overwatch-2-esp'", "pageId: 'overwatch-2-esp'"],
@@ -135,7 +135,7 @@ const REPLACEMENTS = [
 	['does-overwatch-2-cheats-include-radar-hack', 'does-overwatch-2-cheats-include-esp-visuals'],
 	['easy-anticheat-anti-cheat-and-overwatch-2-cheats', 'easy-anti-cheat-and-overwatch-2-cheats'],
 	['buy-undetected-overwatch-2-cheats-windows-pc', 'buy-undetected-overwatch-2-cheats-windows-pc'],
-	['MONEY_PATH = \'/ow2-cheats/\'', "MONEY_PATH = '/ow2-cheats/'"],
+	['MONEY_PATH = \'/overwatch-2-cheats/\'', "MONEY_PATH = '/overwatch-2-cheats/'"],
 	['store.steampowered.com/app/2357570/Overwatch_2/', 'store.steampowered.com/app/2357570/Overwatch_2/'],
 	['Overwatch_2', 'Overwatch_2'],
 	['Overwatch Wiki', 'Overwatch Wiki'],

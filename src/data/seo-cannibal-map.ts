@@ -11,7 +11,7 @@ export const cannibalRedirectTargets = {
 	'aimbot-hack': 'overwatch-2-aimbot',
 	'aim-assist': 'overwatch-2-aimbot',
 	'esp-hack': 'overwatch-2-esp',
-	wallhack: 'overwatch-2-esp',
+	wallhack: 'radar',
 	'cheat-download': 'setup',
 	anticheat: 'updates',
 } as const;

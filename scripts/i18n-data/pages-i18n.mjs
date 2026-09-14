@@ -63,7 +63,7 @@ const PAGE_META_TAILS = {
 	radar: { suffix: '2D Threat Overlay', focus: '2D radar cues for flanks and rotations', altKeyword: 'radar hack overlay' },
 	anticheat: { suffix: 'Patch Maintenance', focus: 'how Easy Anti-Cheat updates are handled for Overwatch 2 cheats', altKeyword: 'Easy Anti-Cheat bypass ESP aimbot' },
 	'cheats-2026': { suffix: 'Buyer Guide', focus: '2026 Overwatch 2 cheats checklist before checkout', altKeyword: 'cheats 2026 ESP aimbot' },
-	hacks: { suffix: 'ESP Aimbot Guide', focus: 'the Overwatch 2 hacks pillar for ESP and Aimbot', altKeyword: 'hacks ESP aimbot' },
+	hacks: { suffix: 'ESP Aimbot Guide', focus: 'Overwatch 2 cheats with ESP, aimbot, and wallhack', altKeyword: 'hacks ESP aimbot' },
 	'cheat-download': { suffix: 'Instant Access', focus: 'digital license download after payment', altKeyword: 'cheat download ESP aimbot' },
 	'crucible-cheats': { suffix: 'In-Game Toggles', focus: 'in-client ESP and soft aim toggles', altKeyword: 'mod menu ESP aimbot' },
 	'aim-assist': { suffix: 'Smooth Aim Settings', focus: 'smooth soft aim settings for Windows PC', altKeyword: 'soft aim aimbot' },
@@ -267,19 +267,19 @@ const TOPIC_NAMES = {
 };
 
 const CTA2_HREF = {
-	'overwatch-2-esp': '/ow2-cheats/',
+	'overwatch-2-esp': '/overwatch-2-cheats/',
 	'overwatch-2-aimbot': '/overwatch-2-esp/',
 	features: '/pricing/',
 	pricing: '/setup/',
 	setup: '/support/',
-	updates: '/ow2-cheats/',
+	updates: '/overwatch-2-cheats/',
 	faq: '/support/',
 	support: '/setup/',
-	undetected: '/ow2-cheats/',
+	undetected: '/overwatch-2-cheats/',
 	wallhack: '/overwatch-2-esp/',
 	radar: '/overwatch-2-esp/',
 	anticheat: '/status/',
-	'cheats-2026': '/ow2-cheats/',
+	'cheats-2026': '/overwatch-2-cheats/',
 	hacks: '/features/',
 	'cheat-download': '/setup/',
 	'crucible-cheats': '/features/',
@@ -302,7 +302,7 @@ function buildLegal(locale, pageKey, kind) {
 		title: clampTitle(stripZadeyoFromMeta(`${h1} | Overwatch 2 Cheats`)),
 		description: clampDesc(stripZadeyoFromMeta(`${h1} for Overwatch 2 Cheats — ESP wallhack, Aimbot, ${p.win}.`)),
 		h1,
-		intro: p.s1(`${h1} for warthundercheat.net and Overwatch 2 licenses.`),
+		intro: p.s1(`${h1} for overwatchcheats.org and Overwatch 2 licenses.`),
 		imageAlt: 'Overwatch 2 cheats',
 		galleryTitle: 'Overwatch 2 cheats',
 		heroImage: HERO_IMAGES[pageKey],
@@ -315,7 +315,7 @@ function buildLegal(locale, pageKey, kind) {
 				kind === 'refund' ? (locale === 'es' ? 'Entrega digital' : locale === 'fr' ? 'Livraison numérique' : locale === 'de' ? 'Digitale Lieferung' : locale === 'ar' ? 'التسليم الرقمي' : locale === 'ja' ? 'デジタル配信' : 'Digital delivery') :
 				(locale === 'es' ? 'Aceptación de términos' : locale === 'fr' ? 'Acceptation' : locale === 'de' ? 'Annahme' : locale === 'ar' ? 'قبول الشروط' : locale === 'ja' ? '規約への同意' : 'Acceptance of terms'),
 				p.s1('Contact email, Zadeyo order references, and basic site security data.'),
-				kind === 'privacy' ? 'Payment details are processed at checkout — not stored on warthundercheat.net.' : p.s2(),
+				kind === 'privacy' ? 'Payment details are processed at checkout — not stored on overwatchcheats.org.' : p.s2(),
 			),
 			section(
 				kind === 'privacy' ? (locale === 'es' ? 'Uso de la información' : locale === 'fr' ? 'Utilisation' : locale === 'de' ? 'Datennutzung' : locale === 'ar' ? 'استخدام المعلومات' : locale === 'ja' ? '情報の利用' : 'How we use data') :
@@ -329,7 +329,7 @@ function buildLegal(locale, pageKey, kind) {
 				kind === 'refund' ? (locale === 'es' ? 'Cómo solicitar' : locale === 'fr' ? 'Comment demander' : locale === 'de' ? 'Anfrage stellen' : locale === 'ar' ? 'كيفية الطلب' : locale === 'ja' ? '申請方法' : 'How to request') :
 				(locale === 'es' ? 'Cambios' : locale === 'fr' ? 'Modifications' : locale === 'de' ? 'Änderungen' : locale === 'ar' ? 'التغييرات' : locale === 'ja' ? '変更' : 'Policy changes'),
 				p.legal(),
-				'Email: support@warthundercheat.net',
+				'Email: support@overwatchcheats.org',
 			),
 		],
 	};

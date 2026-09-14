@@ -43,26 +43,23 @@ export const trustSignals = {
 } as const;
 
 export const seoLandingPages = [
-	{ label: fillBrandTokens('{game} hacks'), href: '/ow2-cheats/' },
-	{ label: fillBrandTokens('{primaryKeyword}'), href: '/ow2-cheats/' },
-	{ label: fillBrandTokens('{game} esp'), href: '/overwatch-2-esp/' },
+	{ label: fillBrandTokens('{primaryKeyword}'), href: '/overwatch-2-cheats/' },
+	{ label: fillBrandTokens('{game} ESP'), href: '/overwatch-2-esp/' },
 	{ label: fillBrandTokens('{game} aimbot'), href: '/overwatch-2-aimbot/' },
+	{ label: fillBrandTokens('{game} wallhack'), href: '/overwatch-2-wallhack/' },
+	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/overwatch-2-undetected/' },
 	{ label: fillBrandTokens('{game} setup'), href: p.setup },
-	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/ow2-cheats/' },
-	{ label: fillBrandTokens('{game} wallhack'), href: '/overwatch-2-esp/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/ow2-visuals/' },
 ] as const;
 
 export const mainNav = [
 	{ label: 'Home', href: '/' },
-	{ label: 'Cheats', href: '/ow2-cheats/' },
+	{ label: 'Cheats', href: '/overwatch-2-cheats/' },
 	{ label: 'Aimbot', href: '/overwatch-2-aimbot/' },
 	{ label: 'ESP', href: '/overwatch-2-esp/' },
+	{ label: 'Wallhack', href: '/overwatch-2-wallhack/' },
 	{ label: 'Features', href: p.features },
 	{ label: 'Pricing', href: p.pricing },
-	{ label: 'Setup', href: p.setup },
-	{ label: 'Updates', href: p.updates },
-	{ label: 'FAQ', href: p.faq },
+	{ label: 'Status', href: p.updates },
 ] as const;
 
 export const footerNav = [
@@ -74,19 +71,18 @@ export const footerNav = [
 ] as const;
 
 export const footerExplore = [
-	{ label: fillBrandTokens('{brand} home'), href: '/' },
-	{ label: fillBrandTokens('{game} hacks pillar'), href: '/ow2-cheats/' },
-	{ label: fillBrandTokens('Live {game} status'), href: p.updates },
-	{ label: fillBrandTokens('{game} ESP overlays'), href: '/overwatch-2-esp/' },
-	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/overwatch-2-aimbot/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/ow2-visuals/' },
-	{ label: fillBrandTokens('Full {game} hack feature list'), href: p.features },
-	{ label: 'Monthly & lifetime pricing', href: p.pricing },
-	{ label: fillBrandTokens('{game} hack setup guide'), href: p.setup },
-	{ label: fillBrandTokens('{game} hacks FAQ'), href: p.faq },
-	{ label: fillBrandTokens('{brand} reviews'), href: reviewsBasePath },
-	{ label: fillBrandTokens('{game} Intel blog'), href: p.blog },
-	{ label: fillBrandTokens('Contact {brand} support'), href: p.support },
+	{ label: fillBrandTokens('{primaryKeyword}'), href: '/overwatch-2-cheats/' },
+	{ label: fillBrandTokens('{game} ESP'), href: '/overwatch-2-esp/' },
+	{ label: fillBrandTokens('{game} aimbot'), href: '/overwatch-2-aimbot/' },
+	{ label: fillBrandTokens('{game} wallhack'), href: '/overwatch-2-wallhack/' },
+	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/overwatch-2-undetected/' },
+	{ label: fillBrandTokens('All {game} features'), href: p.features },
+	{ label: 'Pricing', href: p.pricing },
+	{ label: 'Setup', href: p.setup },
+	{ label: 'Status', href: p.updates },
+	{ label: 'FAQ', href: p.faq },
+	{ label: 'Reviews', href: reviewsBasePath },
+	{ label: 'Blog', href: p.blog },
 ] as const;
 
 export type FaqItem = {
@@ -102,7 +98,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		question: 'What is {brand}?',
 		answer:
 			'{brand} is an undetected {primaryKeyword} package for Overwatch 2 on Windows PC. It includes aimbot, ESP wallhack, radar, no recoil, triggerbot, and stream-proof overlays with {antiCheat} maintenance.',
-		slug: 'what-are-d2-cheats',
+		slug: 'what-are-overwatch-2-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
 			'{brand} explained: undetected ESP, radar, and aimbot for {game} on Windows PC with {antiCheat} maintenance.',

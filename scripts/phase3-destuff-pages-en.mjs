@@ -17,7 +17,7 @@ const REPLACEMENTS = [
 	// Duplicate self-links on same line
 	[
 		/'Related: <a href="\/d2-cheats\/">Overwatch 2 cheats<\/a> and <a href="\/d2-cheats\/">Overwatch 2 cheats<\/a>\.'/,
-		"'See the <a href=\"/ow2-cheats/\">product overview</a> for the full stack.'",
+		"'See the <a href=\"/overwatch-2-cheats/\">product overview</a> for the full stack.'",
 	],
 	[
 		/'Use this pillar for the core product overview\. For year-specific buying notes, see the <a href="\/d2-cheats\/">Overwatch 2 cheats 2026<\/a> and <a href="\/d2-cheats\/">Overwatch 2 cheats<\/a> pages cover buyer comparisons in cheats wording\.'/, 
@@ -25,7 +25,7 @@ const REPLACEMENTS = [
 	],
 	[
 		/'Deep links: <a href="\/d2-cheats\/">Overwatch 2 cheats pillar<\/a>, <a href="\/overwatch-2-esp\/">ESP<\/a>, <a href="\/overwatch-2-aimbot\/">Aimbot<\/a>, <a href="\/overwatch-2-esp\/">wallhack<\/a>, <a href="\/d2-radar\/">radar<\/a>, <a href="\/d2-cheats\/">undetected<\/a>\.'/, 
-		"'Module pages: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/ow2-visuals/\">radar</a>, and <a href=\"/status/\">live status</a>.'",
+		"'Module pages: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/overwatch-2-wallhack/\">radar</a>, and <a href=\"/status/\">live status</a>.'",
 	],
 	[
 		/'Also compare the <a href="\/d2-cheats\/">Overwatch 2 cheats<\/a> checklist, <a href="\/blog\/cheats-2026-updates\/">2026 blog guide<\/a>, and <a href="\/faq\/">FAQ<\/a>\.'/, 
@@ -37,11 +37,11 @@ const REPLACEMENTS = [
 	],
 	[
 		/'Start with the <a href="\/d2-cheats\/">Overwatch 2 cheats pillar<\/a>, <a href="\/overwatch-2-esp\/">ESP guide<\/a>, <a href="\/overwatch-2-aimbot\/">Aimbot controls<\/a>, and <a href="\/d2-cheats\/">undetected status<\/a> pages if you are comparing tools before checkout\.'/, 
-		"'Compare the <a href=\"/ow2-cheats/\">product page</a>, <a href=\"/overwatch-2-esp/\">ESP guide</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot controls</a>, and <a href=\"/status/\">live status</a> before checkout.'",
+		"'Compare the <a href=\"/overwatch-2-cheats/\">product page</a>, <a href=\"/overwatch-2-esp/\">ESP guide</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot controls</a>, and <a href=\"/status/\">live status</a> before checkout.'",
 	],
 	[
 		/'Still researching\? The <a href="\/d2-cheats\/">Overwatch 2 cheats pillar<\/a> and <a href="\/d2-cheats\/">2026 buyer guide<\/a> summarize the full stack\.'/, 
-		"'Still researching? Read the <a href=\"/ow2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.'",
+		"'Still researching? Read the <a href=\"/overwatch-2-cheats/\">product overview</a> and <a href=\"/blog/buyers-guide/\">buyers guide</a>.'",
 	],
 	[
 		/'Review <a href="\/features\/">Features<\/a>, <a href="\/d2-cheats\/">undetected status<\/a>, and <a href="\/d2-cheats\/">Overwatch 2 cheats 2026<\/a> before checkout — monthly \(\$35\) and lifetime \(\$150\) plans available\.'/, 
@@ -53,7 +53,7 @@ const REPLACEMENTS = [
 	],
 	[
 		/'New buyers should also read <a href="\/d2-cheats\/">Overwatch 2 cheats 2026<\/a> and complete <a href="\/setup\/">Setup<\/a> after delivery\.'/, 
-		"'New buyers should read the <a href=\"/ow2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.'",
+		"'New buyers should read the <a href=\"/overwatch-2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.'",
 	],
 	[
 		/'Related reading: <a href="\/d2-cheats\/">undetected Overwatch 2 cheats<\/a>\.'/, 

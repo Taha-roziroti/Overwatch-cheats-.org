@@ -95,7 +95,7 @@ export const blogUi: Record<
 	en: {
 		blogTitle: 'Overwatch 2 Cheats Blog | Raid Guides',
 		blogDescription:
-			'Overwatch 2 guides — raid tips, ESP, aimbot notes, loot routes, and Easy Anti-Cheat update coverage. English blog at warthundercheat.net/overwatch-2-cheats-blog/.',
+			'Overwatch 2 guides — raid tips, ESP, aimbot notes, loot routes, and Easy Anti-Cheat update coverage. English blog at overwatchcheats.org/overwatch-2-cheats-blog/.',
 		blogH1: 'Overwatch 2 Cheats Intel',
 		blogIntro:
 			'Short Overwatch 2 guides for Quick Play, Competitive, and Arcade modes. Pair these tips with the Overwatch 2 Cheats product pages when you need ESP, soft aim, or radar.',

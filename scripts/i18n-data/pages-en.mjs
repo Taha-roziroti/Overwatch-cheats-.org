@@ -24,7 +24,7 @@ export const enPages = {
 			section(
 				'ESP, radar, and aimbot in one license',
 				'Instead of stacking separate tools, Overwatch 2 Cheats bundles player ESP, loot markers, 2D radar, and aimbot profiles in one package built for raids and PvE.',
-				'Browse the <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/ow2-visuals/">radar</a> pages for control details — or open <a href="/ow2-cheats/">the product page</a> and <a href="/pricing/">Pricing</a> when you are ready to buy.',
+				'Browse the <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/overwatch-2-wallhack/">radar</a> pages for control details — or open <a href="/overwatch-2-cheats/">the product page</a> and <a href="/pricing/">Pricing</a> when you are ready to buy.',
 				`Before patch days, check ${EXT.status} for service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
 				'Follow <a href="/setup/">Setup</a> after delivery and keep <a href="/faq/">FAQ</a> or <a href="/support/">Support</a> bookmarked for license questions.',
 			),
@@ -53,7 +53,7 @@ export const enPages = {
 				'Player, boss, and loot ESP wallhack categories',
 				'Toggle enemy player outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.',
 				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE matches alike.',
-				'Pair visibility with the <a href="/ow2-visuals/">radar overlay</a> for flanks outside your FOV.',
+				'Pair visibility with the <a href="/overwatch-2-wallhack/">radar overlay</a> for flanks outside your FOV.',
 				[
 					'Enemy player ESP outlines with distance',
 					'Loot and container markers for faster rotations',
@@ -71,7 +71,7 @@ export const enPages = {
 				'ESP next steps — Aimbot, pricing, and support',
 				'ESP alone wins information wars; Aimbot covers the firefight. Review <a href="/overwatch-2-aimbot/">Aimbot controls</a> if you want one license for visibility and assist.',
 				'Compare monthly ($35) and lifetime ($150) on <a href="/pricing/">Pricing</a>, then keep <a href="/support/">Support</a> ready if activation needs a human reply.',
-				'Still researching? Read the <a href="/ow2-cheats/">product overview</a> and <a href="/blog/buyers-guide/">buyers guide</a>.',
+				'Still researching? Read the <a href="/overwatch-2-cheats/">product overview</a> and <a href="/blog/buyers-guide/">buyers guide</a>.',
 			),
 		],
 	},
@@ -98,7 +98,7 @@ export const enPages = {
 				'Per-weapon Aimbot profiles',
 				'Save separate Aimbot profiles for ARs, SMGs, and bolt-actions. Switch between long-range DMR fights and zone clears without reopening menus every raid.',
 				'Prefer softer tracking? Read the <a href="/overwatch-2-aimbot/">soft aim guide</a>.',
-				'Aimbot ships alongside <a href="/overwatch-2-esp/">ESP wallhack</a> and <a href="/ow2-visuals/">2D radar</a> in the same Overwatch 2 Cheats license.',
+				'Aimbot ships alongside <a href="/overwatch-2-esp/">ESP wallhack</a> and <a href="/overwatch-2-wallhack/">2D radar</a> in the same Overwatch 2 Cheats license.',
 				[
 					'Smoothness, FOV, and sensitivity sliders',
 					'Bone priority and threat-based targeting',
@@ -142,14 +142,14 @@ export const enPages = {
 			section(
 				'Radar hack and Aimbot controls',
 				'2D radar overlay with directional threat cues, configurable range for rotations and late-raid objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-weapon profiles.',
-				'All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Overwatch 2 sessions. See <a href="/ow2-visuals/">radar</a> and <a href="/overwatch-2-aimbot/">Aimbot</a> for settings walkthroughs.',
-				'Prefer a menu-first workflow? The <a href="/ow2-cheats/">mod menu page</a> explains mid-match toggles without alt-tabbing.',
+				'All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live Overwatch 2 sessions. See <a href="/overwatch-2-wallhack/">radar</a> and <a href="/overwatch-2-aimbot/">Aimbot</a> for settings walkthroughs.',
+				'Prefer a menu-first workflow? The <a href="/overwatch-2-cheats/">mod menu page</a> explains mid-match toggles without alt-tabbing.',
 			),
 			section(
 				'Licensing, delivery, and Easy Anti-Cheat maintenance',
 				'Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Easy Anti-Cheat maintenance rebuilds publish on the <a href="/status/">Updates page</a> after anti-cheat or game patches.',
-				`Monitor ${EXT.status} on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href="/support/">Support</a> and support@warthundercheat.net.`,
-				'Next step: compare plans on <a href="/pricing/">Pricing</a> or read <a href="/ow2-cheats/">how undetected maintenance works</a>.',
+				`Monitor ${EXT.status} on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href="/support/">Support</a> and support@overwatchcheats.org.`,
+				'Next step: compare plans on <a href="/pricing/">Pricing</a> or read <a href="/overwatch-2-cheats/">how undetected maintenance works</a>.',
 			),
 		],
 	},
@@ -182,7 +182,7 @@ export const enPages = {
 				'Refund, billing, and buying checklist',
 				'Review the <a href="/refund/">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.',
 				'Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.',
-				'Still comparing tools? Read the <a href="/ow2-cheats/">product overview</a>, check <a href="/status/">live status</a>, and browse <a href="/faq/">FAQ</a> before checkout.',
+				'Still comparing tools? Read the <a href="/overwatch-2-cheats/">product overview</a>, check <a href="/status/">live status</a>, and browse <a href="/faq/">FAQ</a> before checkout.',
 			),
 		],
 	},
@@ -208,13 +208,13 @@ export const enPages = {
 			section(
 				'Activate ESP wallhack and Aimbot profiles',
 				'Follow the delivery instructions in your license email. Load default ESP wallhack categories for heroes, enemies, and loot — then tune radar range and Aimbot smoothness to your playstyle.',
-				'Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Easy Anti-Cheat module live on <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/ow2-cheats/">mod menu</a>.',
+				'Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Easy Anti-Cheat module live on <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/overwatch-2-cheats/">mod menu</a>.',
 				'Prefer a soft tracking feel? Start with the <a href="/overwatch-2-aimbot/">soft aim</a> recommendations before raising aggressiveness.',
 			),
 			section(
 				'After Overwatch 2 or Easy Anti-Cheat anti-cheat patches',
 				'When Bungie ships a major Overwatch 2 update or Easy Anti-Cheat anti-cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.',
-				`Official anti-cheat background: ${EXT.easy-anticheat}. Our practical workflow is documented on the <a href="/status/">Easy Anti-Cheat bypass page</a> and <a href="/ow2-cheats/">undetected guide</a>.`,
+				`Official anti-cheat background: ${EXT.easy-anticheat}. Our practical workflow is documented on the <a href="/status/">Easy Anti-Cheat bypass page</a> and <a href="/overwatch-2-cheats/">undetected guide</a>.`,
 				'Contact <a href="/support/">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.',
 			),
 		],
@@ -230,7 +230,7 @@ export const enPages = {
 		galleryTitle: 'Overwatch 2 patch and maintenance visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
 		ctaSecondary: 'Undetected status guide',
-		ctaSecondaryHref: '/ow2-cheats/',
+		ctaSecondaryHref: '/overwatch-2-cheats/',
 		sections: [
 			section(
 				'Why the Updates page matters',
@@ -242,7 +242,7 @@ export const enPages = {
 				'What maintenance entries cover',
 				'Entries note Easy Anti-Cheat anti-cheat compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.',
 				'Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href="/pricing/">Pricing</a> if you need to renew.',
-				'For context on why rebuilds happen, read the <a href="/status/">Easy Anti-Cheat bypass guide</a> and <a href="/ow2-cheats/">undetected Overwatch 2 cheats</a> explainer.',
+				'For context on why rebuilds happen, read the <a href="/status/">Easy Anti-Cheat bypass guide</a> and <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a> explainer.',
 			),
 			section(
 				'Staying undetected after patches',
@@ -274,13 +274,13 @@ export const enPages = {
 			section(
 				'Are Overwatch 2 Cheats undetected in 2026?',
 				'Overwatch 2 Cheats is maintained with rebuilds after Easy Anti-Cheat anti-cheat and game patches. Check the <a href="/status/">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.',
-				'Read <a href="/ow2-cheats/">undetected Overwatch 2 cheats</a> and the <a href="/status/">Easy Anti-Cheat guide</a> for the maintenance workflow.',
+				'Read <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a> and the <a href="/status/">Easy Anti-Cheat guide</a> for the maintenance workflow.',
 				'Responsible settings and reading maintenance notes before queueing are essential.',
 			),
 			section(
 				'Delivery, pricing, and support',
 				'Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href="/pricing/">Pricing</a>.',
-				'Contact support@warthundercheat.net or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.',
+				'Contact support@overwatchcheats.org or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.',
 				'Refund eligibility is covered in the <a href="/refund/">Refund Policy</a>.',
 			),
 		],
@@ -313,7 +313,7 @@ export const enPages = {
 			section(
 				'Self-service resources',
 				'Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Easy Anti-Cheat bypass notes live on the dedicated <a href="/status/">Easy Anti-Cheat anti-cheat page</a>.',
-				'Email: support@warthundercheat.net',
+				'Email: support@overwatchcheats.org',
 				'Ready to purchase or renew? Open <a href="/pricing/">Pricing</a>. Need feature detail first? See <a href="/features/">Features</a>.',
 			),
 		],
@@ -347,7 +347,7 @@ export const enPages = {
 				'Responsible use and next steps',
 				'Combine maintenance with conservative in-game settings. Read the <a href="/faq/">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.',
 				'Lifetime and monthly plans include rebuild access during active terms — see <a href="/pricing/">Pricing</a>.',
-				'New buyers should read the <a href="/ow2-cheats/">product overview</a> and complete <a href="/setup/">Setup</a> after delivery.',
+				'New buyers should read the <a href="/overwatch-2-cheats/">product overview</a> and complete <a href="/setup/">Setup</a> after delivery.',
 			),
 		],
 	},
@@ -374,7 +374,7 @@ export const enPages = {
 				'Map coverage for wallhack ESP',
 				'Wallhack overlays support raid, PvE, and competitive matches with distance readouts and snaplines for engagement control.',
 				`Season maps and POI changes are announced via ${EXT['destiny-2']}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
-				'Pair wallhack awareness with <a href="/ow2-visuals/">radar hack</a> cues for flanks during building and rooftop fights.',
+				'Pair wallhack awareness with <a href="/overwatch-2-wallhack/">radar hack</a> cues for flanks during building and rooftop fights.',
 			),
 			section(
 				'Undetected wallhack maintenance',
@@ -440,7 +440,7 @@ export const enPages = {
 				'What happens after a Easy Anti-Cheat patch',
 				'The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href="/status/">Updates</a>, and ships rebuilt packages to active licenses.',
 				`Confirm Bungie service health on ${EXT.status} if the launcher or matchmaking fails during the same window.`,
-				'Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href="/ow2-cheats/">undetected Overwatch 2 cheats</a>.',
+				'Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a>.',
 			),
 			section(
 				'No permanent bypass guarantee',
@@ -472,14 +472,14 @@ export const enPages = {
 			section(
 				'Full feature stack for 2026 buyers',
 				'Player ESP wallhack, loot markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.',
-				'Module pages: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, <a href="/ow2-visuals/">radar</a>, and <a href="/status/">live status</a>.',
+				'Module pages: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, <a href="/overwatch-2-wallhack/">radar</a>, and <a href="/status/">live status</a>.',
 				'Instant digital delivery after checkout confirmation worldwide.',
 			),
 			section(
 				'Before you buy in 2026',
-				'Read the <a href="/ow2-cheats/">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.',
+				'Read the <a href="/overwatch-2-cheats/">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.',
 				'Also read the <a href="/blog/cheats-2026-updates/">season updates post</a> and <a href="/faq/">FAQ</a> before checkout.',
-				'Support is available at support@warthundercheat.net via the <a href="/support/">Support page</a>.',
+				'Support is available at support@overwatchcheats.org via the <a href="/support/">Support page</a>.',
 			),
 		],
 	},
@@ -505,7 +505,7 @@ export const enPages = {
 			section(
 				'Built for Overwatch 2 raids',
 				'Read heroes and enemies before you push, mark loot worth the risk, and stay aware of flanks. Tune soft aim per weapon class for Quick Play, Competitive, and hero matchups.',
-				'Module guides: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/ow2-visuals/">radar</a>. Research posts: <a href="/blog/buyers-guide/">buyers guide</a> and <a href="/blog/undetected-easy-anticheat/">Easy Anti-Cheat notes</a>.',
+				'Module guides: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/overwatch-2-wallhack/">radar</a>. Research posts: <a href="/blog/buyers-guide/">buyers guide</a> and <a href="/blog/undetected-easy-anticheat/">Easy Anti-Cheat notes</a>.',
 				`Official game updates come from ${EXT['destiny-2']}; maintenance notes publish on the <a href="/status/">Updates page</a>. Cross-check ${EXT.status} before patch-day queues.`,
 			),
 			section(
@@ -566,7 +566,7 @@ export const enPages = {
 				'What a Overwatch 2 mod menu controls',
 				'A Overwatch 2 mod menu is the in-client panel where you enable ESP wallhack overlays, adjust radar range, and switch Aimbot profiles during live matches. Overwatch 2 Cheats keeps those toggles accessible with hotkeys.',
 				'Toggle player outlines, loot markers, vehicle cues, and per-weapon Aimbot settings without alt-tabbing out of Overwatch 2.',
-				'Control deep-dives: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, <a href="/ow2-visuals/">radar</a>.',
+				'Control deep-dives: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, <a href="/overwatch-2-wallhack/">radar</a>.',
 			),
 			section(
 				'Mod menu categories for raids and PvE',
@@ -605,7 +605,7 @@ export const enPages = {
 				'Soft aim profiles per weapon class',
 				'Save separate soft aim profiles for ARs, SMGs, and bolt-actions. Switch between long-range AR beams and close-quarters room clears with hotkeys mid-match.',
 				`Weapon TTKs shift with ${EXT['destiny-2']} balance patches — retune smoothness after major combat updates.`,
-				'Soft aim ships alongside <a href="/overwatch-2-esp/">ESP wallhack</a> and <a href="/ow2-visuals/">2D radar</a> overlays.',
+				'Soft aim ships alongside <a href="/overwatch-2-esp/">ESP wallhack</a> and <a href="/overwatch-2-wallhack/">2D radar</a> overlays.',
 			),
 			section(
 				'Undetected soft aim with Easy Anti-Cheat maintenance',
@@ -708,7 +708,7 @@ export const enPages = {
 			),
 			section(
 				'Undetected ESP hack with Easy Anti-Cheat maintenance',
-				'ESP hack modules rebuild after Easy Anti-Cheat anti-cheat and Overwatch 2 patches. Check the <a href="/status/">Updates page</a> before queueing — pair ESP hack awareness with <a href="/ow2-visuals/">radar hack</a> for flank reads.',
+				'ESP hack modules rebuild after Easy Anti-Cheat anti-cheat and Overwatch 2 patches. Check the <a href="/status/">Updates page</a> before queueing — pair ESP hack awareness with <a href="/overwatch-2-wallhack/">radar hack</a> for flank reads.',
 				'Licenses deliver digitally after checkout on Windows PC — see <a href="/pricing/">Pricing</a>.',
 				'Install steps: <a href="/setup/">Setup</a>. Status questions: <a href="/status/">live status</a>.',
 			),
@@ -737,7 +737,7 @@ export const enPages = {
 				'Visibility tools vs pve-cheats claims',
 				'ESP wallhack helps you spot enemy squads, bosses, and powerful loot during live matches. Radar hack adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.',
 				'For loadout planning during a match, loot and container markers speed map rotations — see the <a href="/overwatch-2-esp/">ESP</a> and <a href="/features/">Features</a> pages for the full tool list.',
-				'See the <a href="/ow2-cheats/">product overview</a> for the full stack.',
+				'See the <a href="/overwatch-2-cheats/">product overview</a> for the full stack.',
 			),
 			section(
 				'Buying Overwatch 2 Cheats for the right reasons',
@@ -750,9 +750,9 @@ export const enPages = {
 	privacy: {
 		title: 'Privacy Policy | Overwatch 2 Cheats',
 		description:
-			'Privacy policy for Overwatch 2 Cheats. How we handle support emails, order data, and checkout for Overwatch 2 cheats licenses on warthundercheat.net.',
+			'Privacy policy for Overwatch 2 Cheats. How we handle support emails, order data, and checkout for Overwatch 2 cheats licenses on overwatchcheats.org.',
 		h1: 'Privacy Policy',
-		intro: 'How Overwatch 2 Cheats handles information when you browse warthundercheat.net or contact support about a Overwatch 2 license.',
+		intro: 'How Overwatch 2 Cheats handles information when you browse overwatchcheats.org or contact support about a Overwatch 2 license.',
 		imageAlt: "Overwatch 2 Cheats privacy policy page",
 		galleryTitle: 'Overwatch 2 Cheats legal resources',
 		ctaPrimary: 'Email support',
@@ -772,8 +772,8 @@ export const enPages = {
 			),
 			section(
 				'Your choices and contact',
-				'You may request correction or deletion of support email data by contacting support@warthundercheat.net with your request details.',
-				'Policy updates publish on this page. Continued use of warthundercheat.net after updates means you accept the revised policy. Also see <a href="/terms/">Terms of Use</a> and <a href="/refund/">Refund Policy</a>.',
+				'You may request correction or deletion of support email data by contacting support@overwatchcheats.org with your request details.',
+				'Policy updates publish on this page. Continued use of overwatchcheats.org after updates means you accept the revised policy. Also see <a href="/terms/">Terms of Use</a> and <a href="/refund/">Refund Policy</a>.',
 			),
 		],
 	},
@@ -802,7 +802,7 @@ export const enPages = {
 			),
 			section(
 				'How to request a refund',
-				'Email support@warthundercheat.net with subject "Refund Request", your order ID, purchase date, and issue summary — or use the <a href="/support/">Support page</a>.',
+				'Email support@overwatchcheats.org with subject "Refund Request", your order ID, purchase date, and issue summary — or use the <a href="/support/">Support page</a>.',
 				'Approved refunds process back to the original payment method when possible. Pricing details live on <a href="/pricing/">Pricing</a>.',
 			),
 		],
@@ -810,9 +810,9 @@ export const enPages = {
 	terms: {
 		title: 'Terms of Use | Overwatch 2 Cheats Rules',
 		description:
-			'Terms of use for warthundercheat.net and Overwatch 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.',
+			'Terms of use for overwatchcheats.org and Overwatch 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.',
 		h1: 'Terms of Use',
-		intro: 'Terms governing use of warthundercheat.net and Overwatch 2 Cheats licenses for Overwatch 2 on Windows PC.',
+		intro: 'Terms governing use of overwatchcheats.org and Overwatch 2 Cheats licenses for Overwatch 2 on Windows PC.',
 		imageAlt: "Overwatch 2 Cheats terms of use page",
 		galleryTitle: 'Overwatch 2 Cheats legal pages',
 		ctaPrimary: 'Email support',
@@ -827,12 +827,12 @@ export const enPages = {
 			section(
 				'Risk and anti-cheat disclaimer',
 				`Using cheats in Overwatch 2 may violate Bungie terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee undetected status or account safety.`,
-				'You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/ow2-cheats/">undetected status</a>.',
+				'You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/overwatch-2-cheats/">undetected status</a>.',
 			),
 			section(
 				'Changes and governing law',
 				'We may update these terms by posting revisions on this page. Continued use after changes constitutes acceptance.',
-				'Contact support@warthundercheat.net for questions. Related policies: <a href="/privacy/">Privacy</a> and <a href="/refund/">Refunds</a>.',
+				'Contact support@overwatchcheats.org for questions. Related policies: <a href="/privacy/">Privacy</a> and <a href="/refund/">Refunds</a>.',
 			),
 		],
 	},

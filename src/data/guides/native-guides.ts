@@ -7,7 +7,7 @@ export const nativeGuides: NativeGuide[] = [
 		slug: 'overwatch-2-cheats',
 		title: 'Overwatch 2 Cheats Overview',
 		description: 'ESP, soft aim, radar, and package features for Overwatch 2 on Windows PC.',
-		href: '/ow2-cheats/',
+		href: '/overwatch-2-cheats/',
 		image: overwatchImages.cheatsPackage,
 	},
 	{
@@ -28,14 +28,14 @@ export const nativeGuides: NativeGuide[] = [
 		slug: 'overwatch-2-wallhack',
 		title: 'Overwatch 2 Wallhack Guide',
 		description: 'Line-of-sight awareness, cover denial, and wallhack best practices.',
-		href: '/ow2-wallhack/',
+		href: '/overwatch-2-wallhack/',
 		image: overwatchImages.playerEsp,
 	},
 	{
 		slug: 'overwatch-2-visuals',
 		title: 'Overwatch 2 Radar Hack Guide',
 		description: '2D radar overlays, flanking awareness, and map control tips.',
-		href: '/ow2-visuals/',
+		href: '/overwatch-2-wallhack/',
 		image: overwatchImages.loadoutBuilder,
 	},
 	{
@@ -56,14 +56,14 @@ export const nativeGuides: NativeGuide[] = [
 		slug: 'overwatch-2-hero-scripts',
 		title: 'Overwatch 2 Quick Play Cheats',
 		description: 'Competitive, Iron Banner, and competitive PvP strategies with overlay tools.',
-		href: '/ow2-hero-scripts/',
+		href: '/overwatch-2-cheats/',
 		image: overwatchImages.battleRoyaleCombat,
 	},
 	{
 		slug: 'overwatch-2-hero-scripts',
 		title: 'Overwatch 2 PvE Cheats',
 		description: 'Raids, dungeons, and farming routes with ESP and radar support.',
-		href: '/ow2-hero-scripts/',
+		href: '/overwatch-2-cheats/',
 		image: overwatchImages.cheatsCombat,
 	},
 ];

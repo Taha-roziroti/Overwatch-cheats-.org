@@ -28,7 +28,7 @@ const REPLACEMENTS = [
 	['Overwatch 2', 'Overwatch 2'],
 	['Easy Anti-Cheat', 'Easy Anti-Cheat anti-cheat'],
 	['easy-anticheat', 'easy-anticheat'],
-	['warthundercheat.net', 'warthundercheat.net'],
+	['overwatchcheats.org', 'overwatchcheats.org'],
 	['operatorEsp', 'playerEsp'],
 	['extractFight', 'rebootFight'],
 	['alMazrah', 'battleRoyaleIsland'],

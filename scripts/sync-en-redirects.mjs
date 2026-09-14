@@ -24,29 +24,28 @@ const REDIRECTS = path.join(ROOT, 'public/_redirects');
 
 /** EN cannibal stubs → pillar (matches functions/_middleware.js + seo-cannibal-map.ts). */
 const EN_CANNIBAL = {
-	'/ow2-cheats-2026/': '/ow2-cheats/',
-	'/ow2-undetected/': '/ow2-cheats/',
-	'/ow2-hero-scripts/': '/ow2-cheats/',
-	'/ow2-hero-scripts/': '/ow2-cheats/',
-	'/d2-best-cheats/': '/ow2-cheats/',
-	'/ow2-aim-assist/': '/overwatch-2-aimbot/',
-	'/ow2-wallhack/': '/overwatch-2-esp/',
-	'/ow2-download/': '/setup/',
-	'/ow2-anticheat/': '/status/',
+	'/overwatch-2-undetected/': '/overwatch-2-cheats/',
+	'/overwatch-2-cheats-2026/': '/overwatch-2-cheats/',
+	'/d2-best-cheats/': '/overwatch-2-cheats/',
 	'/overwatch-2-aimbot-hack/': '/overwatch-2-aimbot/',
 	'/overwatch-2-esp-hack/': '/overwatch-2-esp/',
+	'/overwatch-2-aim-assist/': '/overwatch-2-aimbot/',
+	'/overwatch-2-visuals/': '/overwatch-2-wallhack/',
+	'/ow2-cheats/': '/overwatch-2-cheats/',
+	'/ow2-visuals/': '/overwatch-2-wallhack/',
+	'/ow2-undetected/': '/overwatch-2-cheats/',
 };
 
 /** Legacy cross-game keyword paths → D2 pillars. */
 const LEGACY_GAME = {
-	'/escape-from-tarkov-cheats/': '/ow2-cheats/',
+	'/escape-from-tarkov-cheats/': '/overwatch-2-cheats/',
 	'/tarkov-esp-hack/': '/overwatch-2-esp/',
 	'/tarkov-aimbot-hack/': '/overwatch-2-aimbot/',
-	'/best-tarkov-cheats/': '/ow2-cheats/',
-	'/tarkov-cheats-2026/': '/ow2-cheats/',
-	'/undetected-tarkov-cheats/': '/ow2-cheats/',
-	'/tarkov-mod-menu/': '/ow2-cheats/',
-	'/tarkov-unlock-all/': '/ow2-cheats/',
+	'/best-tarkov-cheats/': '/overwatch-2-cheats/',
+	'/tarkov-cheats-2026/': '/overwatch-2-cheats/',
+	'/undetected-tarkov-cheats/': '/overwatch-2-cheats/',
+	'/tarkov-mod-menu/': '/overwatch-2-cheats/',
+	'/tarkov-unlock-all/': '/overwatch-2-cheats/',
 	'/tarkov-soft-aim/': '/overwatch-2-aimbot/',
 	'/tarkov-wallhack/': '/overwatch-2-esp/',
 	'/tarkov-cheat-download/': '/setup/',

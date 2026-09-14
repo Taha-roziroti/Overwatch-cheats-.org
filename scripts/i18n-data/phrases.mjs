@@ -26,7 +26,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} ofrece ${KW.wallhack}, ${KW.radar} y ${KW.aimbot} ${phrases.es.undetected} para ${KW.game} en ${phrases.es.win}. ${topic}`,
 		s2: () => `Licencias con ${phrases.es.delivery} vía checkout ${KW.checkout}. Planes ${phrases.es.monthly} y ${phrases.es.lifetime} incluyen ${KW.easy-anticheat} maintenance.`,
 		s3: () => `Consulta la página Updates antes de jugar tras parches de ${KW.easy-anticheat}. Ningún cheat garantiza estado indetectable permanente.`,
-		legal: () => 'Contacta support@warthundercheat.net para solicitudes legales o de soporte.',
+		legal: () => 'Contacta support@overwatchcheats.org para solicitudes legales o de soporte.',
 	},
 	fr: {
 		buy: 'Acheter Overwatch 2 Cheats', undetected: 'indétectables', maps: 'Quick Play, Competitive, and hero matchups',
@@ -34,7 +34,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} combine ${KW.wallhack}, ${KW.radar} et ${KW.aimbot} ${phrases.fr.undetected} pour ${KW.game} sur ${phrases.fr.win}. ${topic}`,
 		s2: () => `Licences avec ${phrases.fr.delivery} via checkout ${KW.checkout}. Forfaits ${phrases.fr.monthly} et ${phrases.fr.lifetime} incluent la maintenance ${KW.easy-anticheat}.`,
 		s3: () => `Consultez Updates après les patchs ${KW.easy-anticheat}. Aucune triche ne garantit un statut indétectable permanent.`,
-		legal: () => 'Contactez support@warthundercheat.net pour le support ou les demandes légales.',
+		legal: () => 'Contactez support@overwatchcheats.org pour le support ou les demandes légales.',
 	},
 	de: {
 		buy: 'Overwatch 2 Cheats kaufen', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -42,7 +42,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} bündelt ${KW.wallhack}, ${KW.radar} und ${KW.aimbot} als ${phrases.de.undetected} Paket für ${KW.game} auf ${phrases.de.win}. ${topic}`,
 		s2: () => `Lizenzen mit ${phrases.de.delivery} über ${KW.checkout} Checkout. ${phrases.de.monthly} und ${phrases.de.lifetime} inkl. ${KW.easy-anticheat}-Wartung.`,
 		s3: () => `Updates-Seite nach ${KW.easy-anticheat}-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.`,
-		legal: () => 'support@warthundercheat.net für Support und rechtliche Anfragen.',
+		legal: () => 'support@overwatchcheats.org für Support und rechtliche Anfragen.',
 	},
 	pt: {
 		buy: 'Comprar Overwatch 2 Cheats', undetected: 'indetectáveis', maps: 'Quick Play, Competitive, and hero matchups',
@@ -50,7 +50,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} reúne ${KW.wallhack}, ${KW.radar} e ${KW.aimbot} ${phrases.pt.undetected} para ${KW.game} no ${phrases.pt.win}. ${topic}`,
 		s2: () => `Licenças com ${phrases.pt.delivery} via checkout ${KW.checkout}. Planos ${phrases.pt.monthly} e ${phrases.pt.lifetime} incluem manutenção ${KW.easy-anticheat}.`,
 		s3: () => `Verifique Updates após patches ${KW.easy-anticheat}. Nenhum cheat garante status indetectável permanente.`,
-		legal: () => 'Contacte support@warthundercheat.net para suporte ou questões legais.',
+		legal: () => 'Contacte support@overwatchcheats.org para suporte ou questões legais.',
 	},
 	it: {
 		buy: 'Acquista Overwatch 2 Cheats', undetected: 'indetectable', maps: 'Quick Play, Competitive, and hero matchups',
@@ -58,7 +58,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} unisce ${KW.wallhack}, ${KW.radar} e ${KW.aimbot} ${phrases.it.undetected} per ${KW.game} su ${phrases.it.win}. ${topic}`,
 		s2: () => `Licenze con ${phrases.it.delivery} via checkout ${KW.checkout}. Piani ${phrases.it.monthly} e ${phrases.it.lifetime} includono manutenzione ${KW.easy-anticheat}.`,
 		s3: () => `Controlla Updates dopo patch ${KW.easy-anticheat}. Nessun cheat garantisce stato indetectable permanente.`,
-		legal: () => 'Contatta support@warthundercheat.net per supporto o richieste legali.',
+		legal: () => 'Contatta support@overwatchcheats.org per supporto o richieste legali.',
 	},
 	nl: {
 		buy: 'Overwatch 2 Cheats kopen', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -66,7 +66,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} bundelt ${KW.wallhack}, ${KW.radar} en ${KW.aimbot} als ${phrases.nl.undetected} pakket voor ${KW.game} op ${phrases.nl.win}. ${topic}`,
 		s2: () => `Licenties met ${phrases.nl.delivery} via ${KW.checkout} checkout. ${phrases.nl.monthly} en ${phrases.nl.lifetime} incl. ${KW.easy-anticheat}-onderhoud.`,
 		s3: () => `Check Updates na ${KW.easy-anticheat}-patches. Geen cheat garandeert permanent undetected status.`,
-		legal: () => 'support@warthundercheat.net voor support en juridische vragen.',
+		legal: () => 'support@overwatchcheats.org voor support en juridische vragen.',
 	},
 	pl: {
 		buy: 'Kup Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -74,7 +74,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} łączy ${KW.wallhack}, ${KW.radar} i ${KW.aimbot} jako pakiet ${phrases.pl.undetected} dla ${KW.game} na ${phrases.pl.win}. ${topic}`,
 		s2: () => `Licencje z ${phrases.pl.delivery} przez checkout ${KW.checkout}. Plany ${phrases.pl.monthly} i ${phrases.pl.lifetime} z konserwacją ${KW.easy-anticheat}.`,
 		s3: () => `Sprawdź Updates po patchach ${KW.easy-anticheat}. Żaden cheat nie gwarantuje permanentnego undetected statusu.`,
-		legal: () => 'support@warthundercheat.net w sprawach wsparcia i prawnych.',
+		legal: () => 'support@overwatchcheats.org w sprawach wsparcia i prawnych.',
 	},
 	ru: {
 		buy: 'Купить Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -82,7 +82,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} объединяет ${KW.wallhack}, ${KW.radar} и ${KW.aimbot} в ${phrases.ru.undetected} пакете для ${KW.game} на ${phrases.ru.win}. ${topic}`,
 		s2: () => `Лицензии с ${phrases.ru.delivery} через checkout ${KW.checkout}. Тарифы ${phrases.ru.monthly} и ${phrases.ru.lifetime} включают обслуживание ${KW.easy-anticheat}.`,
 		s3: () => `Проверяйте Updates после патчей ${KW.easy-anticheat}. Ни один чит не гарантирует постоянный undetected статус.`,
-		legal: () => 'support@warthundercheat.net для поддержки и юридических вопросов.',
+		legal: () => 'support@overwatchcheats.org для поддержки и юридических вопросов.',
 	},
 	tr: {
 		buy: 'Overwatch 2 Cheats satın al', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -90,7 +90,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product}, ${KW.game} için ${phrases.tr.win} üzerinde ${KW.wallhack}, ${KW.radar} ve ${KW.aimbot} ${phrases.tr.undetected} paket sunar. ${topic}`,
 		s2: () => `${KW.checkout} checkout ile ${phrases.tr.delivery}. ${phrases.tr.monthly} ve ${phrases.tr.lifetime} planları ${KW.easy-anticheat} bakımı içerir.`,
 		s3: () => `${KW.easy-anticheat} yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.`,
-		legal: () => 'Destek ve yasal sorular için support@warthundercheat.net.',
+		legal: () => 'Destek ve yasal sorular için support@overwatchcheats.org.',
 	},
 	ar: {
 		buy: 'اشترِ Overwatch 2 Cheats', undetected: 'غير مكتشف', maps: 'Quick Play, Competitive, and hero matchups',
@@ -98,7 +98,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} يجمع ${KW.wallhack} و${KW.radar} و${KW.aimbot} ${phrases.ar.undetected} لـ ${KW.game} على ${phrases.ar.win}. ${topic}`,
 		s2: () => `تراخيص مع ${phrases.ar.delivery} عبر checkout ${KW.checkout}. خطط ${phrases.ar.monthly} و${phrases.ar.lifetime} تشمل صيانة ${KW.easy-anticheat}.`,
 		s3: () => `راجع Updates بعد تص patches ${KW.easy-anticheat}. لا يضمن أي غش حالة undetected دائمة.`,
-		legal: () => 'support@warthundercheat.net للدعم والطلبات القانونية.',
+		legal: () => 'support@overwatchcheats.org للدعم والطلبات القانونية.',
 	},
 	ja: {
 		buy: 'Overwatch 2 Cheatsを購入', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -106,7 +106,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product}は${KW.game}向け${phrases.ja.win}用${KW.wallhack}、${KW.radar}、${KW.aimbot}の${phrases.ja.undetected}パッケージです。${topic}`,
 		s2: () => `${KW.checkout} checkoutで${phrases.ja.delivery}。${phrases.ja.monthly}と${phrases.ja.lifetime}プランに${KW.easy-anticheat}メンテナンス含む。`,
 		s3: () => `${KW.easy-anticheat}パッチ後はUpdatesページを確認。永久undetectedは保証されません。`,
-		legal: () => 'サポート・法務: support@warthundercheat.net',
+		legal: () => 'サポート・法務: support@overwatchcheats.org',
 	},
 	ko: {
 		buy: 'Overwatch 2 Cheats 구매', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -114,7 +114,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product}는 ${KW.game} ${phrases.ko.win}용 ${KW.wallhack}, ${KW.radar}, ${KW.aimbot} ${phrases.ko.undetected} 패키지입니다. ${topic}`,
 		s2: () => `${KW.checkout} checkout으로 ${phrases.ko.delivery}. ${phrases.ko.monthly} 및 ${phrases.ko.lifetime} 요금제에 ${KW.easy-anticheat} 유지보수 포함.`,
 		s3: () => `${KW.easy-anticheat} 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.`,
-		legal: () => '지원 및 법무: support@warthundercheat.net',
+		legal: () => '지원 및 법무: support@overwatchcheats.org',
 	},
 	zh: {
 		buy: '购买 Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -122,7 +122,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product}为${KW.game}${phrases.zh.win}提供${KW.wallhack}、${KW.radar}和${KW.aimbot}${phrases.zh.undetected}套餐。${topic}`,
 		s2: () => `通过${KW.checkout} checkout${phrases.zh.delivery}。${phrases.zh.monthly}和${phrases.zh.lifetime}含${KW.easy-anticheat}维护。`,
 		s3: () => `${KW.easy-anticheat}补丁后请查看Updates页面。无任何作弊保证永久undetected。`,
-		legal: () => '支持与法务：support@warthundercheat.net',
+		legal: () => '支持与法务：support@overwatchcheats.org',
 	},
 	hi: {
 		buy: 'Overwatch 2 Cheats खरीदें', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -130,7 +130,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} ${KW.game} के लिए ${phrases.hi.win} पर ${KW.wallhack}, ${KW.radar} और ${KW.aimbot} ${phrases.hi.undetected} पैकेज देता है। ${topic}`,
 		s2: () => `${KW.checkout} checkout से ${phrases.hi.delivery}। ${phrases.hi.monthly} और ${phrases.hi.lifetime} में ${KW.easy-anticheat} maintenance शामिल।`,
 		s3: () => `${KW.easy-anticheat} पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।`,
-		legal: () => 'सहायता: support@warthundercheat.net',
+		legal: () => 'सहायता: support@overwatchcheats.org',
 	},
 	id: {
 		buy: 'Beli Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -138,7 +138,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} menyediakan ${KW.wallhack}, ${KW.radar}, dan ${KW.aimbot} ${phrases.id.undetected} untuk ${KW.game} di ${phrases.id.win}. ${topic}`,
 		s2: () => `${phrases.id.delivery} via checkout ${KW.checkout}. Paket ${phrases.id.monthly} dan ${phrases.id.lifetime} termasuk pemeliharaan ${KW.easy-anticheat}.`,
 		s3: () => `Periksa Updates setelah patch ${KW.easy-anticheat}. Tidak ada cheat yang menjamin undetected permanen.`,
-		legal: () => 'support@warthundercheat.net untuk dukungan dan legal.',
+		legal: () => 'support@overwatchcheats.org untuk dukungan dan legal.',
 	},
 	th: {
 		buy: 'ซื้อ Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -146,7 +146,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} รวม ${KW.wallhack}, ${KW.radar} และ ${KW.aimbot} แบบ ${phrases.th.undetected} สำหรับ ${KW.game} บน ${phrases.th.win} ${topic}`,
 		s2: () => `${phrases.th.delivery} ผ่าน checkout ${KW.checkout} แพ็ก ${phrases.th.monthly} และ ${phrases.th.lifetime} รวมการดูแล ${KW.easy-anticheat}`,
 		s3: () => `ตรวจ Updates หลังแพตช์ ${KW.easy-anticheat} ไม่มี cheat รับประกัน undetected ถาวร`,
-		legal: () => 'support@warthundercheat.net สำหรับการสนับสนุน',
+		legal: () => 'support@overwatchcheats.org สำหรับการสนับสนุน',
 	},
 	vi: {
 		buy: 'Mua Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -154,7 +154,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} cung cấp ${KW.wallhack}, ${KW.radar} và ${KW.aimbot} ${phrases.vi.undetected} cho ${KW.game} trên ${phrases.vi.win}. ${topic}`,
 		s2: () => `${phrases.vi.delivery} qua checkout ${KW.checkout}. Gói ${phrases.vi.monthly} và ${phrases.vi.lifetime} gồm bảo trì ${KW.easy-anticheat}.`,
 		s3: () => `Kiểm tra Updates sau bản vá ${KW.easy-anticheat}. Không cheat nào đảm bảo undetected vĩnh viễn.`,
-		legal: () => 'support@warthundercheat.net cho hỗ trợ và pháp lý.',
+		legal: () => 'support@overwatchcheats.org cho hỗ trợ và pháp lý.',
 	},
 	uk: {
 		buy: 'Купити Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -162,7 +162,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} об'єднує ${KW.wallhack}, ${KW.radar} і ${KW.aimbot} у ${phrases.uk.undetected} пакеті для ${KW.game} на ${phrases.uk.win}. ${topic}`,
 		s2: () => `Ліцензії з ${phrases.uk.delivery} через checkout ${KW.checkout}. Тарифи ${phrases.uk.monthly} і ${phrases.uk.lifetime} включають обслуговування ${KW.easy-anticheat}.`,
 		s3: () => `Перевіряйте Updates після патчів ${KW.easy-anticheat}. Жоден чит не гарантує постійний undetected статус.`,
-		legal: () => 'support@warthundercheat.net для підтримки та правових питань.',
+		legal: () => 'support@overwatchcheats.org для підтримки та правових питань.',
 	},
 	cs: {
 		buy: 'Koupit Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -170,7 +170,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} spojuje ${KW.wallhack}, ${KW.radar} a ${KW.aimbot} jako ${phrases.cs.undetected} balíček pro ${KW.game} na ${phrases.cs.win}. ${topic}`,
 		s2: () => `Licence s ${phrases.cs.delivery} přes checkout ${KW.checkout}. Plány ${phrases.cs.monthly} a ${phrases.cs.lifetime} včetně údržby ${KW.easy-anticheat}.`,
 		s3: () => `Po patchích ${KW.easy-anticheat} zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.`,
-		legal: () => 'support@warthundercheat.net pro podporu a právní dotazy.',
+		legal: () => 'support@overwatchcheats.org pro podporu a právní dotazy.',
 	},
 	ro: {
 		buy: 'Cumpără Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -178,7 +178,7 @@ export const phrases = {
 		s1: (topic) => `${KW.product} combină ${KW.wallhack}, ${KW.radar} și ${KW.aimbot} ${phrases.ro.undetected} pentru ${KW.game} pe ${phrases.ro.win}. ${topic}`,
 		s2: () => `Licențe cu ${phrases.ro.delivery} via checkout ${KW.checkout}. Planuri ${phrases.ro.monthly} și ${phrases.ro.lifetime} includ mentenanță ${KW.easy-anticheat}.`,
 		s3: () => `Verificați Updates după patch-uri ${KW.easy-anticheat}. Niciun cheat nu garantează undetected permanent.`,
-		legal: () => 'support@warthundercheat.net pentru suport și legal.',
+		legal: () => 'support@overwatchcheats.org pentru suport și legal.',
 	},
 	sv: {
 		buy: 'Köp Overwatch 2 Cheats', undetected: 'undetected', maps: 'Quick Play, Competitive, and hero matchups',
@@ -186,6 +186,6 @@ export const phrases = {
 		s1: (topic) => `${KW.product} kombinerar ${KW.wallhack}, ${KW.radar} och ${KW.aimbot} som ${phrases.sv.undetected} paket för ${KW.game} på ${phrases.sv.win}. ${topic}`,
 		s2: () => `Licenser med ${phrases.sv.delivery} via ${KW.checkout} checkout. ${phrases.sv.monthly} och ${phrases.sv.lifetime} inkl. ${KW.easy-anticheat}-underhåll.`,
 		s3: () => `Kontrollera Updates efter ${KW.easy-anticheat}-patchar. Ingen cheat garanterar permanent undetected status.`,
-		legal: () => 'support@warthundercheat.net för support och juridik.',
+		legal: () => 'support@overwatchcheats.org för support och juridik.',
 	},
 };

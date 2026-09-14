@@ -107,7 +107,7 @@ const imageAlt = home.imageAlt;
 		 * Bar is a bit shorter than the native 1024/409 (~2.5:1) art.
 		 * Image stays undistorted via object-fit: cover (crops edges, no squash).
 		 */
-		--hero-ratio: 3.15 / 1;
+		--hero-ratio: 21 / 9;
 		position: relative;
 		isolation: isolate;
 		display: grid;
@@ -226,15 +226,14 @@ const imageAlt = home.imageAlt;
 		max-width: 100%;
 		min-height: 3rem;
 		padding: 0.55rem 0.55rem 0.55rem 1.05rem;
-		border-radius: 999px;
+		border-radius: 0;
 		background: var(--accent);
 		color: #FAFBFD;
 		font-size: 0.9375rem;
 		font-weight: 700;
-		letter-spacing: -0.015em;
-		box-shadow:
-			0 1px 0 color-mix(in srgb, #FAFBFD 25%, transparent) inset,
-			0 10px 28px color-mix(in srgb, var(--accent) 35%, transparent);
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		box-shadow: 4px 4px 0 color-mix(in srgb, var(--magenta-deep) 80%, #000);
 		transition:
 			transform 0.18s ease,
 			background 0.18s ease,
@@ -258,7 +257,8 @@ const imageAlt = home.imageAlt;
 		min-height: 2rem;
 		margin-left: auto;
 		padding: 0 0.85rem;
-		border-radius: 999px;
+		border-radius: 0;
+		border-left: 1px solid color-mix(in srgb, #fff 20%, transparent);
 		background: var(--magenta-deep);
 		color: #FAFBFD;
 		font-size: 0.8125rem;

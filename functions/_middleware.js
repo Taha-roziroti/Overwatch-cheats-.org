@@ -1,11 +1,15 @@
 import CANNIBAL_REDIRECTS from './cannibal-redirects.json';
 
-const CANONICAL_ORIGIN = 'https://warthundercheat.net';
-const APEX_HOST = 'warthundercheat.net';
-const WWW_HOST = 'www.warthundercheat.net';
+const CANONICAL_ORIGIN = 'https://overwatchcheats.org';
+const APEX_HOST = 'overwatchcheats.org';
+const WWW_HOST = 'www.overwatchcheats.org';
 
 /** Legacy domains → canonical apex (301). */
 const LEGACY_HOSTS = new Set([
+	'warthundercheat.net',
+	'www.warthundercheat.net',
+	'destiny2cheats.org',
+	'www.destiny2cheats.org',
 	'bestdestiny-2cheats.com',
 	'www.bestdestiny-2cheats.com',
 	'fortnitehack.net',
@@ -34,52 +38,47 @@ const PATH_REDIRECTS = {
 	'/sitemap-en.xml/': '/sitemap-en.xml',
 	'/sitemap-i18n.xml/': '/sitemap-i18n.xml',
 	'/sitemap-images.xml/': '/sitemap-images.xml',
-	// Pillar trailing slashes (no-slash → slash only; never redirect canonical /path/ to itself)
+	// Pillar trailing slashes (no-slash → slash only)
+	'/overwatch-2-cheats': '/overwatch-2-cheats/',
 	'/overwatch-2-esp': '/overwatch-2-esp/',
 	'/overwatch-2-aimbot': '/overwatch-2-aimbot/',
-	'/d2-cheats': '/ow2-cheats/',
-	// EN cannibal stub pages → pillars (keep in sync with scripts/sync-en-redirects.mjs)
-	'/d2-cheats-2026': '/ow2-cheats/',
-	'/ow2-cheats-2026/': '/ow2-cheats/',
-	'/d2-undetected': '/ow2-cheats/',
-	'/ow2-undetected/': '/ow2-cheats/',
-	'/d2-crucible': '/ow2-cheats/',
-	'/ow2-hero-scripts/': '/ow2-cheats/',
-	'/d2-pve': '/ow2-cheats/',
-	'/ow2-hero-scripts/': '/ow2-cheats/',
+	'/overwatch-2-wallhack': '/overwatch-2-wallhack/',
+	// Legacy short slugs → canonical SEO slugs
+	'/d2-cheats': '/overwatch-2-cheats/',
+	'/ow2-cheats': '/overwatch-2-cheats/',
+	'/ow2-visuals': '/overwatch-2-wallhack/',
+	'/ow2-undetected': '/overwatch-2-cheats/',
+	'/d2-cheats-2026': '/overwatch-2-cheats/',
+	'/d2-undetected': '/overwatch-2-cheats/',
+	'/d2-crucible': '/overwatch-2-cheats/',
+	'/d2-pve': '/overwatch-2-cheats/',
 	'/d2-aim-assist': '/overwatch-2-aimbot/',
-	'/ow2-aim-assist/': '/overwatch-2-aimbot/',
-	'/d2-wallhack': '/overwatch-2-esp/',
-	'/ow2-wallhack/': '/overwatch-2-esp/',
+	'/d2-wallhack': '/overwatch-2-wallhack/',
 	'/d2-download': '/setup/',
-	'/ow2-download/': '/setup/',
 	'/d2-easy-anticheat': '/status/',
-	'/ow2-anticheat/': '/status/',
-	'/d2-best-cheats': '/ow2-cheats/',
-	'/d2-best-cheats/': '/ow2-cheats/',
+	'/d2-best-cheats': '/overwatch-2-cheats/',
+	// EN cannibal stub pages → pillars
+	'/overwatch-2-undetected': '/overwatch-2-cheats/',
+	'/overwatch-2-undetected/': '/overwatch-2-cheats/',
 	'/overwatch-2-aimbot-hack': '/overwatch-2-aimbot/',
 	'/overwatch-2-aimbot-hack/': '/overwatch-2-aimbot/',
 	'/overwatch-2-esp-hack': '/overwatch-2-esp/',
 	'/overwatch-2-esp-hack/': '/overwatch-2-esp/',
 	// Long SEO paths → short canonical URLs
-	'/overwatch-2-cheats': '/ow2-cheats/',
-	'/overwatch-2-cheats/': '/ow2-cheats/',
-	'/best-overwatch-2-cheats': '/ow2-cheats/',
-	'/best-overwatch-2-cheats/': '/ow2-cheats/',
-	'/undetected-overwatch-2-cheats': '/ow2-cheats/',
-	'/undetected-overwatch-2-cheats/': '/ow2-cheats/',
-	'/overwatch-2-hero-scripts': '/ow2-cheats/',
-	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
-	'/overwatch-2-hero-scripts': '/ow2-cheats/',
-	'/overwatch-2-hero-scripts/': '/ow2-cheats/',
-	'/overwatch-2-cheats-2026': '/ow2-cheats/',
-	'/overwatch-2-cheats-2026/': '/ow2-cheats/',
+	'/best-overwatch-2-cheats': '/overwatch-2-cheats/',
+	'/best-overwatch-2-cheats/': '/overwatch-2-cheats/',
+	'/undetected-overwatch-2-cheats': '/overwatch-2-cheats/',
+	'/undetected-overwatch-2-cheats/': '/overwatch-2-cheats/',
+	'/overwatch-2-hero-scripts': '/overwatch-2-cheats/',
+	'/overwatch-2-hero-scripts/': '/overwatch-2-cheats/',
+	'/overwatch-2-cheats-2026': '/overwatch-2-cheats/',
+	'/overwatch-2-cheats-2026/': '/overwatch-2-cheats/',
 	'/overwatch-2-cheat-download': '/setup/',
 	'/overwatch-2-cheat-download/': '/setup/',
 	'/overwatch-2-anticheat-bypass': '/status/',
 	'/overwatch-2-anticheat-bypass/': '/status/',
-	'/overwatch-2-wallhack': '/overwatch-2-esp/',
-	'/overwatch-2-wallhack/': '/overwatch-2-esp/',
+	'/overwatch-2-visuals': '/overwatch-2-wallhack/',
+	'/overwatch-2-visuals/': '/overwatch-2-wallhack/',
 	'/overwatch-2-aim-assist': '/overwatch-2-aimbot/',
 	'/overwatch-2-aim-assist/': '/overwatch-2-aimbot/',
 	// Legacy cross-game keyword paths

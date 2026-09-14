@@ -20,7 +20,7 @@ const PATH_REPLACEMENTS = [
 	['/privacy-policy/', '/privacy/'],
 	['/refund-policy/', '/refund/'],
 	['/terms/', '/terms/'],
-	['/hacks/', '/ow2-cheats/'],
+	['/hacks/', '/overwatch-2-cheats/'],
 ];
 
 const COPY_REPLACEMENTS = [
@@ -62,8 +62,8 @@ const COPY_REPLACEMENTS = [
 	[/trader unlocks/g, 'vendor unlocks'],
 	[/class-five plates/g, 'high-resilience targets'],
 	[/armor pen/g, 'shield break'],
-	[/warthundercheat\.net/gi, 'warthundercheat.net'],
-	[/support@warthundercheat\.net/gi, 'support@warthundercheat.net'],
+	[/warthundercheat\.net/gi, 'overwatchcheats.org'],
+	[/support@warthundercheat\.net/gi, 'support@overwatchcheats.org'],
 	[/Epic Games terms/g, 'Bungie terms of service'],
 	[/Activision/g, 'Bungie'],
 	[/EXT\.activision/g, "EXT['destiny-2']"],
@@ -177,14 +177,14 @@ if (!redirects.includes(blogRedirect)) {
 
 // Tarkov legacy paths → Overwatch 2 canonical landings
 const tarkovRedirects = [
-	['/escape-from-tarkov-cheats', '/ow2-cheats/'],
+	['/escape-from-tarkov-cheats', '/overwatch-2-cheats/'],
 	['/tarkov-esp-hack', '/overwatch-2-esp/'],
 	['/tarkov-aimbot-hack', '/overwatch-2-aimbot/'],
-	['/best-tarkov-cheats', '/ow2-cheats/'],
-	['/tarkov-cheats-2026', '/ow2-cheats/'],
-	['/undetected-tarkov-cheats', '/ow2-cheats/'],
-	['/tarkov-mod-menu', '/ow2-hero-scripts/'],
-	['/tarkov-unlock-all', '/ow2-cheats/'],
+	['/best-tarkov-cheats', '/overwatch-2-cheats/'],
+	['/tarkov-cheats-2026', '/overwatch-2-cheats/'],
+	['/undetected-tarkov-cheats', '/overwatch-2-cheats/'],
+	['/tarkov-mod-menu', '/overwatch-2-cheats/'],
+	['/tarkov-unlock-all', '/overwatch-2-cheats/'],
 	['/tarkov-soft-aim', '/overwatch-2-aimbot/'],
 	['/tarkov-wallhack', '/overwatch-2-esp/'],
 ];
