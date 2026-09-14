@@ -66,8 +66,8 @@ const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
-/** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
-const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
+/** EN product HTML — 14 indexable pages (11 cannibal stubs are redirect-only, no HTML) */
+const ENGLISH_HTML_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
 /** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
 const LOCALE_BLOG_REDIRECT_PAGES = 18;
 const TOTAL_HTML_PAGES =
@@ -100,16 +100,8 @@ const ENGLISH_PATHS = [
 	'/status/',
 	'/faq/',
 	'/support/',
-	'/d2-undetected/',
-	'/d2-wallhack/',
 	'/d2-radar/',
-	'/d2-battleye/',
-	'/d2-cheats-2026/',
 	'/d2-cheats/',
-	'/d2-download/',
-	'/d2-crucible/',
-	'/d2-aim-assist/',
-	'/d2-pve/',
 	'/privacy/',
 	'/refund/',
 	'/terms/',

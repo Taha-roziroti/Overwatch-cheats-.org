@@ -174,6 +174,31 @@ if (localeStart >= 0) {
 
 writeFileSync(REDIRECTS, content.endsWith('\n') ? content : `${content}\n`);
 
+/** Fail prebuild if a long path 301s to a stub that also 301s (two-hop chain). */
+function assertNoTwoHopChains(redirectText) {
+	const rules = new Map();
+	for (const line of redirectText.split('\n')) {
+		const m = line.match(/^(\/\S+)\s+(\/\S+)\s+301$/);
+		if (m) rules.set(m[1], m[2]);
+	}
+	const stubTargets = new Set(Object.keys(EN_CANNIBAL));
+	const violations = [];
+	for (const [from, to] of rules) {
+		if (!stubTargets.has(to)) continue;
+		const final = rules.get(to);
+		if (final && final !== to) {
+			violations.push(`${from} → ${to} → ${final}`);
+		}
+	}
+	if (violations.length) {
+		console.error('Two-hop redirect chains detected (long → stub → pillar):');
+		for (const v of violations) console.error(`  ${v}`);
+		process.exit(1);
+	}
+}
+
+assertNoTwoHopChains(readFileSync(REDIRECTS, 'utf8'));
+
 const enCount =
 	Object.keys(LEGACY_GAME).length +
 	Object.keys(LEGACY_REVIEWS).length +

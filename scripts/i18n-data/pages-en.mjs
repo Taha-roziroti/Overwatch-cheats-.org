@@ -36,7 +36,7 @@ export const enPages = {
 			'Destiny 2 ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected Destiny 2 cheats.',
 		h1: 'Destiny 2 ESP — Player Boxes & Wallhack',
 		intro:
-			'Destiny 2 esp visibility tools for raids and PvE. Read enemy squads, Guardians, enemies, loot, and distance before you commit — toggleable Destiny 2 ESP wallhack overlays bundled in our Destiny 2 cheats package.',
+			'Player boxes, loot markers, and distance readouts for Crucible, Trials, and raids. Toggle categories so the overlay stays readable mid-match.',
 		imageAlt: "Destiny 2 ESP player boxes and distance readouts in a raid",
 		galleryTitle: 'Destiny 2 ESP overlay visuals',
 		ctaPrimary: 'Buy Destiny 2 Cheats',
@@ -53,7 +53,7 @@ export const enPages = {
 				'Player, boss, and loot ESP wallhack categories',
 				'Toggle enemy player outlines, boss markers, objective cues, and loot pins so only raid-critical ESP wallhack overlays stay active during rotations.',
 				'Distance readouts and snapline options help you control engagement range. Team and enemy colour coding supports raids and PvE matches alike.',
-				'Compare category detail on the <a href="/destiny-2-esp/">wallhack page</a> and pair visibility with the <a href="/d2-radar/">radar hack</a> for flanks outside your FOV.',
+				'Pair visibility with the <a href="/d2-radar/">radar overlay</a> for flanks outside your FOV.',
 				[
 					'Enemy player ESP outlines with distance',
 					'Loot and container markers for faster rotations',
@@ -81,7 +81,7 @@ export const enPages = {
 			'Destiny 2 aimbot with soft aim tuning for Windows PC. FOV, bone priority, and hotkeys bundled with ESP boxes in our Destiny 2 cheats package.',
 		h1: 'Destiny 2 Aimbot — Soft Aim for Windows PC',
 		intro:
-			'Configurable Aimbot tools for Destiny 2 firefights. Smoothness, FOV, bone priority, and per-weapon profiles — bundled with ESP wallhack and radar in one undetected license.',
+			'Soft aim with FOV, smoothness, and bone priority you can tune per weapon. Ships with ESP and radar in one license.',
 		imageAlt: "Destiny 2 aimbot and soft aim controls on Windows PC",
 		galleryTitle: 'Destiny 2 Aimbot combat previews',
 		ctaPrimary: 'Buy Destiny 2 Cheats',
@@ -91,7 +91,7 @@ export const enPages = {
 			section(
 				'Aimbot tuned for Destiny 2 combat pace',
 				'Destiny 2 mixes long-range AR fights with close-quarters SMG pushes. Destiny 2 Cheats Aimbot includes smoothness, FOV, and sensitivity controls tuned for that pace — with hotkey toggles mid-match.',
-				'Bone priority and target selection options cover closest player, lowest health, or highest-threat targets during squad fights and close-range close-range PvP fights.',
+				'Bone priority and target selection cover closest player, lowest health, or highest-threat targets during squad fights and close-range PvP.',
 				`Weapon balance and season rules change via ${EXT['destiny-2']}. Revisit Aimbot FOV and smoothness after major combat patches so assist still matches the live TTK windows.`,
 			),
 			section(

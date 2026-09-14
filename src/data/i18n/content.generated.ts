@@ -138,7 +138,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Destiny 2 ESP | Player Boxes & Wallhack",
 					description: "Destiny 2 ESP for Windows PC — player boxes, loot markers, and distance readouts. Part of our undetected Destiny 2 cheats.",
 					h1: "Destiny 2 ESP — Player Boxes & Wallhack",
-					intro: "Destiny 2 esp visibility tools for raids and PvE. Read enemy squads, Guardians, enemies, loot, and distance before you commit — toggleable Destiny 2 ESP wallhack overlays bundled in our Destiny 2 cheats package.",
+					intro: "Player boxes, loot markers, and distance readouts for Crucible, Trials, and raids. Toggle categories so the overlay stays readable mid-match.",
 					imageAlt: "Destiny 2 ESP player boxes and distance readouts in a raid",
 					galleryTitle: "Destiny 2 ESP overlay visuals",
 					ctaPrimary: "Buy Destiny 2 Cheats",
