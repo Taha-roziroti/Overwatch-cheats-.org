@@ -9,6 +9,8 @@ import { fileURLToPath } from 'node:url';
 import { allUiStrings } from './i18n-data/ui-strings.mjs';
 import { LOCALES } from './i18n-data/constants.mjs';
 import { getShellPhrases } from './i18n-data/ui-shell-phrases.mjs';
+import { navCheatsLabels, navStatusLabels } from './i18n-data/nav-cheats-labels.mjs';
+import { buildLocaleOverlay } from './i18n-data/locale-overlays.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -18,14 +20,26 @@ function deepClone(value) {
 	return JSON.parse(JSON.stringify(value));
 }
 
+function deepAssign(target, source) {
+	for (const [key, value] of Object.entries(source)) {
+		if (value && typeof value === 'object' && !Array.isArray(value)) {
+			if (!target[key] || typeof target[key] !== 'object') target[key] = {};
+			deepAssign(target[key], value);
+		} else {
+			target[key] = value;
+		}
+	}
+}
+
 function mergeUiIntoTemplate(template, locale, ui, shell) {
 	const out = deepClone(template);
 
 	if (ui.nav) {
 		Object.assign(out.nav, ui.nav);
-		out.nav.preview = ui.nav.hacks ?? out.nav.preview;
+		out.nav.preview = navCheatsLabels[locale] ?? ui.nav.hacks ?? out.nav.preview;
+		out.nav.hacks = navCheatsLabels[locale] ?? ui.nav.hacks ?? out.nav.hacks;
 		out.nav.store = ui.nav.pricing ?? out.nav.store;
-		out.nav.status = ui.nav.updates ?? out.nav.status;
+		out.nav.status = navStatusLabels[locale] ?? ui.nav.updates ?? out.nav.status;
 		out.nav.forum = shell.forum;
 		out.nav.reviews = shell.reviewsEyebrow;
 		out.nav.openMenu = shell.openMenu;
@@ -111,6 +125,8 @@ function mergeUiIntoTemplate(template, locale, ui, shell) {
 	out.categoryRow.aimbot = ui.nav?.aimbot ?? out.categoryRow.aimbot;
 	out.categoryRow.pricing = ui.nav?.pricing ?? out.categoryRow.pricing;
 	out.categoryRow.setup = ui.nav?.setup ?? out.categoryRow.setup;
+
+	deepAssign(out, buildLocaleOverlay(locale, ui));
 
 	return out;
 }

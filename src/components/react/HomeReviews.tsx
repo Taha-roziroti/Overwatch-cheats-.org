@@ -24,7 +24,7 @@ type Props = {
 const ROTATE_MS = 5200;
 
 function formatDate(iso: string, locale: string) {
-	return new Date(`${iso}T12:00:00`).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
+	return new Date(`${iso}T12:00:00`).toLocaleDateString(locale, {
 		month: 'short',
 		year: 'numeric',
 	});

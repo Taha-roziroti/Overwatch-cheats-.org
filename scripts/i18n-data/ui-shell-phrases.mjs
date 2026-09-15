@@ -113,7 +113,7 @@ const guidesLabel = {
 
 const reviewsEyebrow = {
 	en: 'Reviews', es: 'Reseñas', fr: 'Avis', de: 'Bewertungen', pt: 'Avaliações', it: 'Recensioni',
-	nl: 'Reviews', pl: 'Opinie', ru: 'Отзывы', tr: 'Yorumlar', ar: 'المراجعات', ja: 'レビュー',
+	nl: 'Recensies', pl: 'Opinie', ru: 'Отзывы', tr: 'Yorumlar', ar: 'المراجعات', ja: 'レビュー',
 	ko: '리뷰', zh: '评价', hi: 'समीक्षाएँ', id: 'Ulasan', th: 'รีวิว', vi: 'Đánh giá',
 	uk: 'Відгуки', cs: 'Recenze', ro: 'Recenzii', sv: 'Omdömen',
 };
