@@ -19,8 +19,8 @@ export const crawlPhotoPool = [
  */
 export const pageImageSrcById: Record<PageId, string> = {
 	home: '/images/overwatch-2-hero-poster.webp',
-	'overwatch-2-esp': '/images/overwatch-2-cheats-esp-crucible.webp',
-	'overwatch-2-aimbot': '/images/overwatch-2-cheats-crucible.webp',
+	'overwatch-2-esp': '/images/overwatch-2-cheats-widowmaker-esp.webp',
+	'overwatch-2-aimbot': '/images/overwatch-2-cheats-widowmaker-scope.webp',
 	features: '/images/overwatch-2-cheats-aimbot-esp.webp',
 	pricing: '/images/overwatch-2-cheats-pricing-store.webp',
 	setup: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
@@ -32,7 +32,7 @@ export const pageImageSrcById: Record<PageId, string> = {
 	radar: '/images/overwatch-2-cheats-radar.webp',
 	anticheat: '/images/overwatch-2-cheats-crucible.webp',
 	'cheats-2026': '/images/overwatch-2-hero-poster.webp',
-	hacks: '/images/overwatch-2-cheats-pve.webp',
+	hacks: '/images/overwatch-2-cheats-widowmaker-esp.webp',
 	'cheat-download': '/images/overwatch-2-cheats-aimbot-esp.webp',
 	'crucible-cheats': '/images/overwatch-2-cheats-crucible.webp',
 	'aim-assist': '/images/overwatch-2-cheats-aimbot-esp.webp',

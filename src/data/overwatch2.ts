@@ -22,6 +22,8 @@ export const overwatchImages = {
 	battleRoyaleIsland: '/images/overwatch-2-cheats-esp-box.webp',
 	raidMap: '/images/overwatch-2-cheats-hero-scripts.webp',
 	product: [
+		{ src: '/images/overwatch-2-cheats-widowmaker-esp.webp', alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match' },
+		{ src: '/images/overwatch-2-cheats-widowmaker-scope.webp', alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay' },
 		{ src: '/images/overwatch-2-cheats-esp-box.webp', alt: 'Overwatch 2 ESP player boxes in Quick Play PvP' },
 		{ src: '/images/overwatch-2-cheats-wallhack-skeleton.webp', alt: 'Overwatch 2 wallhack skeleton ESP through walls' },
 		{ src: '/images/overwatch-2-cheats-flickbot.webp', alt: 'Overwatch 2 flickbot overlay in Competitive match' },

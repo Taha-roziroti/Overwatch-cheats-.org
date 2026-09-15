@@ -53,38 +53,45 @@ const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
 const galleryExtrasByPage: Partial<
 	Record<PageId, { src: string; alt: string }[]>
 > = {
-	pricing: [
+	hacks: [
 		{
-			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
-			alt: 'Overwatch 2 aimbot and ESP overlay during a team fight',
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
 		},
 		{
-			src: '/images/overwatch-2-cheats-esp-gallery.webp',
-			alt: 'Overwatch 2 ESP player boxes with distance readouts',
+			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
+			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
+		},
+	],
+	pricing: [
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
+		},
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
+			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
 		},
 	],
 	updates: [
 		{
-			src: '/images/overwatch-2-cheats-flickbot.webp',
-			alt: 'Overwatch 2 flickbot reticle assist in combat',
+			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
+			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
 		},
 		{
-			src: '/images/overwatch-2-cheats-esp-gallery.webp',
-			alt: 'Overwatch 2 wallhack skeleton ESP through cover',
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
 		},
 	],
 };
 
-/** Store and status: two in-game shots only (skip dashboard hero in gallery). */
+/** Two in-game shots only — skip hero/crawl image in gallery blocks. */
 const gallery =
 	galleryExtrasByPage[pageId] ??
-	[
-		{ src: crawl.src, alt: page.imageAlt || crawl.caption },
-		...overwatchImages.product.slice(0, 2).map((img) => ({
-			src: img.src,
-			alt: img.alt,
-		})),
-	];
+	overwatchImages.product.slice(0, 2).map((img) => ({
+		src: img.src,
+		alt: img.alt,
+	}));
 
 const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
 const priceValidUntil = '2027-12-31';

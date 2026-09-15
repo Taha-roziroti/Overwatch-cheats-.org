@@ -37,12 +37,12 @@ export function contentSrcSet(baseSrc: string): string | undefined {
 		return undefined;
 	}
 
-	return buildSrcSet(
-		contentWidths.map((width) => ({
-			src: `${dir}${name}-${width}w.webp`,
-			width,
-		})),
-	);
+	// Use the base asset as the largest srcset entry so pages still load when a -960w
+	// variant was never generated (e.g. source art narrower than 960px).
+	return buildSrcSet([
+		{ src: `${dir}${name}-480w.webp`, width: 480 },
+		{ src: baseSrc, width: 960 },
+	]);
 }
 
 /** Homepage hero poster fallback when heroVideo is empty. */

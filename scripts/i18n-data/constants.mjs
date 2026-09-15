@@ -14,9 +14,9 @@ export const PAGE_IDS = [
 
 /** Hero image per page — simple Overwatch 2 cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/overwatch-2-cheats-esp.webp',
-	'overwatch-2-esp': '/images/overwatch-2-cheats-radar.webp',
-	'overwatch-2-aimbot': '/images/overwatch-2-cheats-aimbot.webp',
+	home: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+	'overwatch-2-esp': '/images/overwatch-2-cheats-widowmaker-esp.webp',
+	'overwatch-2-aimbot': '/images/overwatch-2-cheats-widowmaker-scope.webp',
 	features: '/images/overwatch-2-cheats-aimbot-view.webp',
 	pricing: '/images/overwatch-2-cheats-pricing-store.webp',
 	setup: '/images/overwatch-2-cheats-radar.webp',
@@ -28,7 +28,7 @@ export const HERO_IMAGES = {
 	radar: '/images/overwatch-2-cheats-radar.webp',
 	anticheat: '/images/overwatch-2-cheats-aimbot.webp',
 	'cheats-2026': '/images/overwatch-2-cheats-esp.webp',
-	hacks: '/images/overwatch-2-cheats-raid.webp',
+	hacks: '/images/overwatch-2-cheats-widowmaker-esp.webp',
 	'cheat-download': '/images/overwatch-2-cheats-raid.webp',
 	'crucible-cheats': '/images/overwatch-2-cheats-radar.webp',
 	'aim-assist': '/images/overwatch-2-cheats-aimbot-view.webp',
