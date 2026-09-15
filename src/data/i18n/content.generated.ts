@@ -45,8 +45,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Buy Now",
 				},
 				hero: {
-					accent: "2026 — Undetected ESP, Aimbot & Wallhack",
-					accentShort: "Undetected Overwatch 2 cheats 2026",
+					accent: "2026 — Aimbot, ESP & Wallhack for PC",
+					accentShort: "Overwatch 2 cheats 2026",
 					subtitle: "Overwatch 2 cheats with Overwatch 2 ESP, wallhack and Overwatch 2 aimbot for Windows PC — Blizzard Anti-Cheat maintenance included.",
 					subtitleShort: "Overwatch 2 esp, wallhack & aimbot for PC",
 					buyNow: "Buy Overwatch 2 Cheats",
@@ -54,7 +54,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				trust: {
 					status: "Online",
-					statusNote: "Overwatch 2 Cheats — undetected Overwatch 2 cheats live for Overwatch 2 on Windows PC.",
+					statusNote: "Overwatch 2 Cheats — live package for Overwatch 2 on Windows PC.",
 					statusShort: "Live",
 					delivery: "Instant digital delivery",
 					platform: "Windows 10 & 11",
@@ -69,7 +69,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					available: "Available now",
 					gameBadge: "Overwatch 2",
 					platformBadge: "Windows PC",
-					statusBadge: "Undetected Overwatch 2 cheats",
+					statusBadge: "Live Overwatch 2 package",
 				},
 				reviews: {
 					title: "What players say",
@@ -87,7 +87,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explore",
 					help: "Help & legal",
-					tagline: "Undetected Overwatch 2 cheats for PC.\nESP, wallhack & aimbot.",
+					tagline: "Overwatch 2 cheats for PC.\nESP, wallhack & aimbot.",
 				},
 				images: {
 					hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",

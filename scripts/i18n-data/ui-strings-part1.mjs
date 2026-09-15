@@ -3,12 +3,12 @@
 export const uiStrings = {
 	en: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Features', pricing: 'Pricing', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Buy Now' },
-		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected Overwatch 2 cheats 2026', subtitle: 'Overwatch 2 cheats with Overwatch 2 ESP, wallhack and Overwatch 2 aimbot for Windows PC — Blizzard Anti-Cheat maintenance included.', subtitleShort: 'Overwatch 2 esp, wallhack & aimbot for PC', buyNow: 'Buy Overwatch 2 Cheats', seeFeatures: 'See Features' },
-		trust: { status: 'Online', statusNote: 'Overwatch 2 Cheats — undetected Overwatch 2 cheats live for Overwatch 2 on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Blizzard Anti-Cheat maintenance supported', antiCheatShort: 'Blizzard Anti-Cheat supported' },
-		product: { title: 'Overwatch 2 Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Undetected Overwatch 2 cheats' },
+		hero: { accent: '2026 — Aimbot, ESP & Wallhack for PC', accentShort: 'Overwatch 2 cheats 2026', subtitle: 'Overwatch 2 cheats with Overwatch 2 ESP, wallhack and Overwatch 2 aimbot for Windows PC — Blizzard Anti-Cheat maintenance included.', subtitleShort: 'Overwatch 2 esp, wallhack & aimbot for PC', buyNow: 'Buy Overwatch 2 Cheats', seeFeatures: 'See Features' },
+		trust: { status: 'Online', statusNote: 'Overwatch 2 Cheats — live package for Overwatch 2 on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Blizzard Anti-Cheat maintenance supported', antiCheatShort: 'Blizzard Anti-Cheat supported' },
+		product: { title: 'Overwatch 2 Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Live Overwatch 2 package' },
 		reviews: { title: 'What players say', subtitle: 'Recent feedback from Overwatch 2 Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },
 		common: { buyNow: 'Buy Overwatch 2 Cheats', readGuide: 'Read guide', language: 'Language', officialLanguageNote: 'English is official; other locales are translated.', relatedPages: 'Related pages' },
-		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Undetected Overwatch 2 cheats for PC.\nESP, wallhack & aimbot.' },
+		footer: { explore: 'Explore', help: 'Help & legal', tagline: 'Overwatch 2 cheats for PC.\nESP, wallhack & aimbot.' },
 		images: {
 		hero: "Overwatch 2 Cheats hero — ESP and aimbot overlay in Overwatch 2",
 		espWallhack: "Wallhack outlines showing heroes and enemies through walls",
@@ -44,7 +44,7 @@ export const uiStrings = {
 	},
 	},
 	fr: {
-		nav: { home: 'Accueil', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Fonctions', pricing: 'Tarifs', setup: 'Installation', updates: 'Mises à jour', faq: 'FAQ', buyNow: 'Acheter' },
+		nav: { home: 'Accueil', hacks: 'Triches', aimbot: 'Aimbot', esp: 'ESP', features: 'Fonctions', pricing: 'Tarifs', setup: 'Installation', updates: 'Mises à jour', faq: 'FAQ', buyNow: 'Acheter' },
 		hero: { accent: 'Triches Overwatch 2 indétectables', accentShort: 'Overwatch 2 Cheats', subtitle: 'ESP and wallhack et Aimbot pour Overwatch 2 sur PC Windows — maintenance Blizzard Anti-Cheat incluse.', subtitleShort: 'ESP, wallhack et Aimbot pour Overwatch 2 PC', buyNow: 'Acheter', seeFeatures: 'Voir les fonctions' },
 		trust: { status: 'En ligne', statusNote: 'Le pack Overwatch 2 Cheats est actif pour Overwatch 2 sur PC Windows.', statusShort: 'Actif', delivery: 'Livraison numérique instantanée', platform: 'Windows 10 et 11', antiCheat: 'Maintenance Blizzard Anti-Cheat incluse', antiCheatShort: 'Blizzard Anti-Cheat inclus' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Ajouter au panier', monthly: 'Mensuel', lifetime: 'À vie', available: 'Disponible', gameBadge: 'Overwatch 2', platformBadge: 'PC Windows', statusBadge: 'Pack indétectable' },

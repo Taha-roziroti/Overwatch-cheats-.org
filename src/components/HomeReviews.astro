@@ -1,16 +1,24 @@
 ---
-import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
+import { defaultLocale, locales, type LocaleCode } from '../data/i18n/locales';
 import { customerReviews, customerReviewStats } from '../data/site';
 import { getReviewPath, reviewsBasePath } from '../data/reviews';
-import en from '../../public/locales/en/translation.json';
-import es from '../../public/locales/es/translation.json';
+import { getT } from '../i18n/server';
 
 interface Props {
 	locale?: LocaleCode;
 }
 
 const locale = Astro.props.locale ?? defaultLocale;
-const reviewsCopy = locale === 'es' ? es.reviews : en.reviews;
+const t = getT(locale);
+const reviewsCopy = {
+	eyebrow: t('reviews.eyebrow'),
+	homeTitle: t('reviews.homeTitle'),
+	subtitle: t('reviews.subtitle'),
+	averageAria: t('reviews.averageAria'),
+	buyerReviews: t('reviews.buyerReviews'),
+	readAll: t('reviews.readAll'),
+};
+const localeTag = locales.find((l) => l.code === locale)?.hreflang ?? locale;
 
 const reviews = customerReviews.map((review) => ({
 	slug: review.slug,
@@ -36,7 +44,7 @@ function stars(rating: number, pop = false) {
 }
 
 function formatDate(iso: string) {
-	return new Date(`${iso}T12:00:00`).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
+	return new Date(`${iso}T12:00:00`).toLocaleDateString(localeTag, {
 		month: 'short',
 		year: 'numeric',
 	});

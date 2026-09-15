@@ -1,7 +1,18 @@
 import en from '../../public/locales/en/translation.json';
-import es from '../../public/locales/es/translation.json';
 
-const catalogs: Record<string, typeof en> = { en, es };
+type TranslationCatalog = typeof en;
+
+const localeModules = import.meta.glob('../../public/locales/*/translation.json', {
+	eager: true,
+	import: 'default',
+}) as Record<string, TranslationCatalog>;
+
+const catalogs: Record<string, TranslationCatalog> = { en };
+
+for (const [path, catalog] of Object.entries(localeModules)) {
+	const locale = path.match(/locales\/([^/]+)\//)?.[1];
+	if (locale) catalogs[locale] = catalog;
+}
 
 function lookup(obj: unknown, path: string): string | undefined {
 	const parts = path.split('.');
