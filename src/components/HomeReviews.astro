@@ -623,6 +623,12 @@ function initial(handle: string) {
 			display: none;
 		}
 
+		.reviews__dot {
+			min-height: var(--touch-min, 2.75rem);
+			padding-block: calc((var(--touch-min, 2.75rem) - 0.25rem) / 2);
+			box-sizing: content-box;
+		}
+
 		.reviews__stage {
 			grid-template-columns: 1fr;
 		}

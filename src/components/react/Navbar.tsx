@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 import LanguageSwitcher, { type LocaleMeta } from './LanguageSwitcher';
@@ -33,6 +33,9 @@ function NavbarInner({
 }: Props) {
 	const { t } = useTranslation();
 	const [scrolled, setScrolled] = useState(false);
+	const [menuOpen, setMenuOpen] = useState(false);
+	const menuBtnRef = useRef<HTMLButtonElement>(null);
+	const drawerRef = useRef<HTMLElement>(null);
 
 	const isActive = (href: string) => {
 		if (href === '/') return currentPath === '/' || currentPath === `/${locale}/`;
@@ -47,12 +50,42 @@ function NavbarInner({
 		return currentPath === href || currentPath.startsWith(href);
 	};
 
+	const closeMenu = useCallback(() => setMenuOpen(false), []);
+	const toggleMenu = useCallback(() => setMenuOpen((open) => !open), []);
+
 	useEffect(() => {
 		const onScroll = () => setScrolled(window.scrollY > 8);
 		onScroll();
 		window.addEventListener('scroll', onScroll, { passive: true });
 		return () => window.removeEventListener('scroll', onScroll);
 	}, []);
+
+	useEffect(() => {
+		closeMenu();
+	}, [currentPath, closeMenu]);
+
+	useEffect(() => {
+		if (!menuOpen) return;
+
+		const prevOverflow = document.body.style.overflow;
+		document.body.style.overflow = 'hidden';
+		document.body.classList.add('nav-open');
+
+		const onKey = (event: KeyboardEvent) => {
+			if (event.key === 'Escape') closeMenu();
+		};
+
+		window.addEventListener('keydown', onKey);
+
+		const firstLink = drawerRef.current?.querySelector<HTMLElement>('a, button, summary');
+		firstLink?.focus();
+
+		return () => {
+			document.body.style.overflow = prevOverflow;
+			document.body.classList.remove('nav-open');
+			window.removeEventListener('keydown', onKey);
+		};
+	}, [menuOpen, closeMenu]);
 
 	const navLinks = useMemo(
 		() =>
@@ -65,8 +98,27 @@ function NavbarInner({
 	);
 
 	return (
-		<header className={`site-header${scrolled ? ' is-scrolled' : ''}`} data-nav>
+		<header
+			className={`site-header${scrolled ? ' is-scrolled' : ''}${menuOpen ? ' is-menu-open' : ''}`}
+			data-nav
+		>
 			<div className="shell site-header__bar">
+				<button
+					type="button"
+					ref={menuBtnRef}
+					className="site-header__menu-btn"
+					aria-expanded={menuOpen}
+					aria-controls="site-mobile-nav"
+					aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
+					onClick={toggleMenu}
+				>
+					<span className="site-header__menu-icon" aria-hidden="true">
+						<span />
+						<span />
+						<span />
+					</span>
+				</button>
+
 				<nav className="site-nav" aria-label={t('nav.primaryAria')}>
 					{navLinks.map((item) => (
 						<a key={item.id} href={item.href} className={item.active ? 'is-active' : undefined}>
@@ -102,6 +154,54 @@ function NavbarInner({
 					</a>
 				</div>
 			</div>
+
+			<div
+				className="site-mobile-nav__backdrop"
+				hidden={!menuOpen}
+				onClick={closeMenu}
+				aria-hidden="true"
+			/>
+
+			<nav
+				id="site-mobile-nav"
+				ref={drawerRef}
+				className="site-mobile-nav"
+				aria-label={t('nav.mobileAria')}
+				hidden={!menuOpen}
+			>
+				<div className="site-mobile-nav__inner shell">
+					<ul className="site-mobile-nav__links">
+						{navLinks.map((item) => (
+							<li key={item.id}>
+								<a
+									href={item.href}
+									className={item.active ? 'is-active' : undefined}
+									onClick={closeMenu}
+								>
+									<span data-edit={item.edit}>{item.label}</span>
+								</a>
+							</li>
+						))}
+					</ul>
+
+					<div className="site-mobile-nav__tools">
+						<p className="site-mobile-nav__tools-label">{t('common.selectLanguage')}</p>
+						<LanguageSwitcher
+							currentLocale={locale}
+							locales={locales}
+							hrefForLocale={hrefForLocale}
+						/>
+						<a
+							href={checkoutUrl}
+							className="site-mobile-nav__buy"
+							rel="noopener noreferrer"
+							onClick={closeMenu}
+						>
+							<span data-edit="ctaBuyShort">{t('cta.buy')}</span>
+						</a>
+					</div>
+				</div>
+			</nav>
 		</header>
 	);
 }

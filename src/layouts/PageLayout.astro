@@ -678,6 +678,46 @@ const breadcrumbs = [
 	}
 
 	@media (max-width: 760px) {
+		.page__head {
+			padding-block: 1.35rem 0.45rem;
+		}
+
+		.page__title {
+			font-size: clamp(1.45rem, 6.5vw, 1.85rem);
+			overflow-wrap: anywhere;
+		}
+
+		.page__intro {
+			font-size: 0.925rem;
+			max-width: none;
+		}
+
+		.page__actions {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.page__actions .btn {
+			width: 100%;
+			min-height: var(--touch-min);
+		}
+
+		.article :global(table) {
+			display: block;
+			width: 100%;
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+		}
+
+		.article :global(pre),
+		.article :global(img) {
+			max-width: 100%;
+		}
+
+		.article :global(pre) {
+			overflow-x: auto;
+		}
+
 		.banner {
 			min-height: min(52svh, 22rem);
 			display: flex;
@@ -735,8 +775,13 @@ const breadcrumbs = [
 	}
 
 	@media (max-width: 640px) {
-		.gallery-block__grid {
+		.gallery-block__grid,
+		.gallery-block__grid--two {
 			grid-template-columns: 1fr;
+		}
+
+		.page__wrap {
+			padding-bottom: max(2rem, var(--safe-bottom, env(safe-area-inset-bottom, 0px)));
 		}
 	}
 </style>

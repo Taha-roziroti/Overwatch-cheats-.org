@@ -240,6 +240,11 @@
 		color: var(--ink);
 	}
 
+	body.nav-open {
+		overflow: hidden;
+		touch-action: none;
+	}
+
 	@media (max-width: 760px) {
 		:root {
 			--section-space: 2.75rem;
