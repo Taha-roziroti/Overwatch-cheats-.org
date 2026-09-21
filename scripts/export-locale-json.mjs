@@ -104,15 +104,10 @@ function mergeUiIntoTemplate(template, locale, ui, shell) {
 	out.home.linkAimbot = ui.nav?.aimbot ?? out.home.linkAimbot;
 	out.home.linkFeatures = ui.nav?.features ?? out.home.linkFeatures;
 
-	// homeSeo — use nav labels where possible
+	// homeSeo — category titles from nav; link labels stay unique (locale-overlays)
 	out.homeSeo.catFeatures = ui.nav?.features ?? out.homeSeo.catFeatures;
 	out.homeSeo.catStatus = ui.nav?.updates ?? out.homeSeo.catStatus;
 	out.homeSeo.catStore = ui.nav?.pricing ?? out.homeSeo.catStore;
-	out.homeSeo.linkEsp = ui.nav?.esp ?? out.homeSeo.linkEsp;
-	out.homeSeo.linkAimbot = ui.nav?.aimbot ?? out.homeSeo.linkAimbot;
-	out.homeSeo.linkSetup = ui.nav?.setup ?? out.homeSeo.linkSetup;
-	out.homeSeo.linkFaq = ui.nav?.faq ?? out.homeSeo.linkFaq;
-	out.homeSeo.linkReviews = ui.nav?.reviews ?? shell.reviewsEyebrow;
 
 	out.deals.pricing = ui.nav?.pricing ?? out.deals.pricing;
 	out.deals.featEsp = shell.chipEsp;

@@ -192,8 +192,14 @@ if (aboutNode) {
 		<meta name="author" content={siteConfig.name} />
 		<link rel="canonical" href={canonicalURL} />
 		{
-			lcpVideo ? (
-				<link rel="preload" href={lcpVideo} as="fetch" type="video/mp4" crossorigin="anonymous" fetchpriority="high" />
+			lcpVideo && lcpImage ? (
+				<link
+					rel="preload"
+					as="image"
+					href={lcpImage}
+					type="image/webp"
+					fetchpriority="high"
+				/>
 			) : lcpImageSrcSet ? (
 				<link
 					rel="preload"

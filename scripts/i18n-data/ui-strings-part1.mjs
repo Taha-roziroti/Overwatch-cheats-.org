@@ -3,7 +3,7 @@
 export const uiStrings = {
 	en: {
 		nav: { home: 'Home', hacks: 'Hacks', aimbot: 'Aimbot', esp: 'ESP', features: 'Features', pricing: 'Pricing', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Buy Now' },
-		hero: { accent: '2026 — Aimbot, ESP & Wallhack for PC', accentShort: 'Overwatch 2 cheats 2026', subtitle: 'Overwatch 2 cheats with Overwatch 2 ESP, wallhack and Overwatch 2 aimbot for Windows PC — Blizzard Anti-Cheat maintenance included.', subtitleShort: 'Overwatch 2 esp, wallhack & aimbot for PC', buyNow: 'Buy Overwatch 2 Cheats', seeFeatures: 'See Features' },
+		hero: { accent: 'Aimbot, ESP & Wallhack for PC', accentShort: 'Overwatch 2 cheats', subtitle: 'Buy Overwatch 2 cheats for Windows PC — ESP, wallhack, aimbot, and hero scripts with Blizzard Anti-Cheat maintenance included.', subtitleShort: 'ESP, wallhack & aimbot for PC', buyNow: 'Buy Overwatch 2 Cheats', seeFeatures: 'See Features' },
 		trust: { status: 'Online', statusNote: 'Overwatch 2 Cheats — live package for Overwatch 2 on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Blizzard Anti-Cheat maintenance supported', antiCheatShort: 'Blizzard Anti-Cheat supported' },
 		product: { title: 'Overwatch 2 Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'Overwatch 2', platformBadge: 'Windows PC', statusBadge: 'Live Overwatch 2 package' },
 		reviews: { title: 'What players say', subtitle: 'Recent feedback from Overwatch 2 Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },

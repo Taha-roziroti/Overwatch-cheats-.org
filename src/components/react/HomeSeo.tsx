@@ -17,10 +17,10 @@ function HomeSeoInner({ faqs }: Props) {
 			titleKey: 'homeSeo.catFeatures',
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
-				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: p.esp, labelKey: 'homeSeo.linkEsp' },
-				{ href: p.aimbot, labelKey: 'homeSeo.linkAimbot' },
-				{ href: p.radar, labelKey: 'homeSeo.linkWallhack' },
+				{ href: p.features, labelKey: 'homeSeo.linkFeatureList' },
+				{ href: p.esp, labelKey: 'homeSeo.linkEspOverview' },
+				{ href: p.aimbot, labelKey: 'homeSeo.linkAimbotControls' },
+				{ href: p.radar, labelKey: 'homeSeo.linkWallhackOverlay' },
 			],
 		},
 		{
@@ -28,29 +28,29 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
 				{ href: p.updates, labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: p.cheats, labelKey: 'homeSeo.linkUndetected' },
-				{ href: p.setup, labelKey: 'homeSeo.linkSetup' },
-				{ href: p.faq, labelKey: 'homeSeo.linkFaq' },
+				{ href: p.anticheat, labelKey: 'homeSeo.linkPatchNotes' },
+				{ href: p.setup, labelKey: 'homeSeo.linkQuickSetup' },
+				{ href: p.faq, labelKey: 'homeSeo.linkFaqHub' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catStore',
 			hintKey: 'homeSeo.catStoreHint',
 			links: [
-				{ href: p.pricing, labelKey: 'homeSeo.linkPlans' },
-				{ href: p.reviews, labelKey: 'homeSeo.linkReviews' },
-				{ href: p.cheats, labelKey: 'homeSeo.linkOverwatch2Cheats' },
-				{ href: p.features, labelKey: 'homeSeo.linkAllFeatures' },
+				{ href: p.pricing, labelKey: 'homeSeo.linkComparePlans' },
+				{ href: p.reviews, labelKey: 'homeSeo.linkBuyerReviews' },
+				{ href: p.cheats, labelKey: 'homeSeo.linkBuyLicense' },
+				{ href: p.refund, labelKey: 'homeSeo.linkRefunds' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catHelp',
 			hintKey: 'homeSeo.catHelpHint',
 			links: [
-				{ href: p.support, labelKey: 'homeSeo.linkSupport' },
-				{ href: p.setup, labelKey: 'homeSeo.linkSetupGuide' },
-				{ href: p.guides, labelKey: 'common.guides' },
-				{ href: p.blog, labelKey: 'homeSeo.linkBlog' },
+				{ href: p.support, labelKey: 'homeSeo.linkContactSupport' },
+				{ href: p.setup, labelKey: 'homeSeo.linkInstallGuide' },
+				{ href: p.guides, labelKey: 'homeSeo.linkGameGuides' },
+				{ href: p.blog, labelKey: 'homeSeo.linkCommunityForum' },
 			],
 		},
 	];
@@ -111,7 +111,7 @@ function HomeSeoInner({ faqs }: Props) {
 							<div className="home-seo__item-body">
 								<p>{item.answer}</p>
 								<a className="home-seo__item-link" href={item.href}>
-									{t('homeSeo.openFullPage')}
+									{item.question}
 								</a>
 							</div>
 						</details>

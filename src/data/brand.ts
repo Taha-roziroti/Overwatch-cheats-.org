@@ -65,9 +65,9 @@ export const brand = {
 	},
 
 	seo: {
-		homeTitle: 'Overwatch 2 Cheats | Undetected Aimbot & ESP',
+		homeTitle: 'Buy Overwatch 2 Cheats | Plans & Instant Delivery',
 		homeDescription:
-			'Premium Overwatch 2 cheats for Windows PC — tracking aimbot, ESP, wallhack, flickbot, triggerbot, and hero scripts. Compare plans with instant delivery.',
+			'Buy Overwatch 2 cheats for Windows PC — aimbot, ESP, wallhack, and hero scripts in one license. Compare monthly and lifetime plans with instant checkout.',
 		featuresTitle: '{game} Cheat Features | {brand}',
 		featuresDescription:
 			'Tracking, flickbot, triggerbot, bone targeting, ESP, skeleton, glow, hero scripts, and stream-proof overlays in one {game} license for Windows PC.',
@@ -76,10 +76,10 @@ export const brand = {
 			'Monthly and lifetime Overwatch 2 cheat plans for Windows PC. Same aimbot, ESP, wallhack, and hero scripts on both. Instant delivery after checkout.',
 		statusTitle: '{game} Cheat Status | {brand}',
 		statusDescription:
-			'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before Quick Play or Competitive on Windows PC.',
+			'Live patch status for {brand} after {game} or {antiCheat} updates. Check here before Quick Play or Competitive on Windows PC.',
 		previewTitle: 'Buy Overwatch 2 Cheats | Windows PC License',
 		previewDescription:
-			'Purchase undetected Overwatch 2 cheats for Windows PC — ESP, aimbot, flickbot, hero scripts, and {antiCheat} rebuilds. Monthly and lifetime plans.',
+			'Purchase Overwatch 2 cheats for Windows PC — ESP, aimbot, flickbot, hero scripts, and {antiCheat} rebuilds. Monthly and lifetime plans.',
 		setupTitle: '{game} Cheat Setup | {brand}',
 		setupDescription:
 			'Install and launch {brand} on Windows PC after checkout. Short setup steps for Quick Play and Competitive — follow each step before your first match.',
@@ -94,13 +94,13 @@ export const brand = {
 			'Buyer reviews for {brand} — aimbot, ESP, wallhack, hero scripts, and patch updates for Overwatch 2 on Windows PC.',
 		blogTitle: '{game} Cheats Forum | {brand}',
 		blogDescription:
-			'Community Q&A on undetected {game} cheats — aimbot settings, {antiCheat} maintenance, and provider comparisons for Windows PC.',
+			'Community Q&A on buying {game} cheats — aimbot settings, {antiCheat} maintenance, and plan comparisons for Windows PC.',
 	},
 
 	copy: {
-		tagline: 'Undetected {primaryKeyword} — aimbot, ESP, wallhack, and hero scripts for PC',
+		tagline: 'Buy {primaryKeyword} — aimbot, ESP, wallhack, and hero scripts for PC',
 		summary:
-			'{brand} is an undetected {game} cheat package for Windows PC. Includes tracking aimbot, flickbot, ESP, wallhack, hero scripts, and stream-proof overlays with {antiCheat} maintenance.',
+			'{brand} is a premium {game} cheat package for Windows PC. Includes tracking aimbot, flickbot, ESP, wallhack, hero scripts, and stream-proof overlays with {antiCheat} maintenance.',
 		heroLede:
 			'Tracking aimbot, flickbot, ESP, wallhack, hero scripts, and stream-proof overlays for Overwatch 2 on Windows PC.',
 		blogLabel: 'Overwatch 2 Forum',

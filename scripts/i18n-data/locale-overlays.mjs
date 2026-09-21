@@ -176,24 +176,142 @@ const linkLiveStatus = {
 	ro: 'Status live', sv: 'Livestatus',
 };
 
-const linkMaintenance = {
-	en: 'Maintenance guide', es: 'Guía de mantenimiento', fr: 'Guide maintenance',
-	de: 'Wartungsleitfaden', pt: 'Guia de manutenção', it: 'Guida manutenzione',
-	nl: 'Onderhoudsgids', pl: 'Przewodnik konserwacji', ru: 'Гайд по обслуживанию',
-	tr: 'Bakım rehberi', ar: 'دليل الصيانة', ja: 'メンテナンスガイド', ko: '유지보수 가이드',
-	zh: '维护指南', hi: 'रखरखाव गाइड', id: 'Panduan pemeliharaan', th: 'คู่มือบำรุงรักษา',
-	vi: 'Hướng dẫn bảo trì', uk: 'Гайд з обслуговування', cs: 'Průvodce údržbou',
-	ro: 'Ghid mentenanță', sv: 'Underhållsguide',
+const linkFeatureList = {
+	en: 'Full feature list', es: 'Lista completa de funciones', fr: 'Liste complète des fonctions',
+	de: 'Vollständige Feature-Liste', pt: 'Lista completa de recursos', it: 'Elenco completo funzioni',
+	nl: 'Volledige functielijst', pl: 'Pełna lista funkcji', ru: 'Полный список функций',
+	tr: 'Tam özellik listesi', ar: 'قائمة الميزات الكاملة', ja: '全機能リスト', ko: '전체 기능 목록',
+	zh: '完整功能列表', hi: 'पूरी फ़ीचर सूची', id: 'Daftar fitur lengkap', th: 'รายการฟีเจอร์ทั้งหมด',
+	vi: 'Danh sách tính năng đầy đủ', uk: 'Повний список функцій', cs: 'Úplný seznam funkcí',
+	ro: 'Listă completă funcții', sv: 'Fullständig funktionslista',
 };
 
-const linkOverwatch2Cheats = {
-	en: 'Overwatch 2 cheats', es: 'Trucos de Overwatch 2', fr: 'Triches Overwatch 2',
-	de: 'Overwatch 2 Cheats', pt: 'Cheats Overwatch 2', it: 'Cheat Overwatch 2',
-	nl: 'Overwatch 2 cheats', pl: 'Cheats Overwatch 2', ru: 'Читы Overwatch 2',
-	tr: 'Overwatch 2 hileleri', ar: 'غش Overwatch 2', ja: 'Overwatch 2チート', ko: 'Overwatch 2 치트',
-	zh: 'Overwatch 2 作弊', hi: 'Overwatch 2 cheats', id: 'Cheat Overwatch 2', th: 'Overwatch 2 cheats',
-	vi: 'Cheat Overwatch 2', uk: 'Чіти Overwatch 2', cs: 'Cheats Overwatch 2', ro: 'Cheats Overwatch 2',
-	sv: 'Overwatch 2 cheats',
+const linkEspOverview = {
+	en: 'ESP overview', es: 'Resumen de ESP', fr: 'Aperçu ESP', de: 'ESP-Übersicht',
+	pt: 'Visão geral do ESP', it: 'Panoramica ESP', nl: 'ESP-overzicht', pl: 'Przegląd ESP',
+	ru: 'Обзор ESP', tr: 'ESP genel bakış', ar: 'نظرة عامة على ESP', ja: 'ESP概要', ko: 'ESP 개요',
+	zh: 'ESP 概览', hi: 'ESP अवलोकन', id: 'Ringkasan ESP', th: 'ภาพรวม ESP', vi: 'Tổng quan ESP',
+	uk: 'Огляд ESP', cs: 'Přehled ESP', ro: 'Prezentare ESP', sv: 'ESP-översikt',
+};
+
+const linkAimbotControls = {
+	en: 'Aimbot controls', es: 'Controles de aimbot', fr: 'Contrôles aimbot', de: 'Aimbot-Steuerung',
+	pt: 'Controles de aimbot', it: 'Controlli aimbot', nl: 'Aimbot-bediening', pl: 'Sterowanie aimbotem',
+	ru: 'Настройки aimbot', tr: 'Aimbot kontrolleri', ar: 'عناصر تحكم aimbot', ja: 'Aimbot設定',
+	ko: 'Aimbot 컨트롤', zh: 'Aimbot 控制', hi: 'Aimbot नियंत्रण', id: 'Kontrol aimbot',
+	th: 'การควบคุม aimbot', vi: 'Điều khiển aimbot', uk: 'Керування aimbot', cs: 'Ovládání aimbotu',
+	ro: 'Controale aimbot', sv: 'Aimbot-kontroller',
+};
+
+const linkWallhackOverlay = {
+	en: 'Wallhack overlay', es: 'Overlay wallhack', fr: 'Overlay wallhack', de: 'Wallhack-Overlay',
+	pt: 'Overlay wallhack', it: 'Overlay wallhack', nl: 'Wallhack-overlay', pl: 'Overlay wallhack',
+	ru: 'Wallhack-оверлей', tr: 'Wallhack katmanı', ar: 'طبقة wallhack', ja: 'Wallhackオーバーレイ',
+	ko: 'Wallhack 오버레이', zh: 'Wallhack  overlay', hi: 'Wallhack overlay', id: 'Overlay wallhack',
+	th: 'Wallhack overlay', vi: 'Lớp wallhack', uk: 'Wallhack-оверлей', cs: 'Wallhack overlay',
+	ro: 'Overlay wallhack', sv: 'Wallhack-overlay',
+};
+
+const linkPatchNotes = {
+	en: 'Patch maintenance notes', es: 'Notas de mantenimiento', fr: 'Notes de maintenance',
+	de: 'Patch-Wartungshinweise', pt: 'Notas de manutenção', it: 'Note di manutenzione',
+	nl: 'Patch-onderhoudsnotities', pl: 'Notatki konserwacji', ru: 'Заметки по патчам',
+	tr: 'Yama bakım notları', ar: 'ملاحظات صيانة التحديثات', ja: 'パッチメンテナンス', ko: '패치 유지보수',
+	zh: '补丁维护说明', hi: 'पैच रखरखाव नोट', id: 'Catatan pemeliharaan patch', th: 'บันทึกการบำรุงรักษาแพตช์',
+	vi: 'Ghi chú bảo trì bản vá', uk: 'Нотатки з патчів', cs: 'Poznámky k údržbě', ro: 'Note mentenanță patch',
+	sv: 'Patch-underhållsanteckningar',
+};
+
+const linkQuickSetup = {
+	en: 'Quick setup checklist', es: 'Lista rápida de instalación', fr: 'Checklist installation rapide',
+	de: 'Kurze Setup-Checkliste', pt: 'Checklist rápido de instalação', it: 'Checklist setup rapido',
+	nl: 'Snelle setup-checklist', pl: 'Szybka lista instalacji', ru: 'Быстрый чеклист установки',
+	tr: 'Hızlı kurulum listesi', ar: 'قائمة إعداد سريعة', ja: 'クイックセットアップ', ko: '빠른 설치 체크리스트',
+	zh: '快速安装清单', hi: 'त्वरित सेटअप चेकलिस्ट', id: 'Checklist setup cepat', th: 'เช็กลิสต์ติดตั้งด่วน',
+	vi: 'Danh sách cài đặt nhanh', uk: 'Швидкий чеклист установки', cs: 'Rychlý instalační checklist',
+	ro: 'Checklist instalare rapidă', sv: 'Snabb setup-checklista',
+};
+
+const linkFaqHub = {
+	en: 'Pre-purchase FAQ hub', es: 'Centro FAQ previo a compra', fr: 'Hub FAQ avant achat',
+	de: 'FAQ vor dem Kauf', pt: 'Central FAQ pré-compra', it: 'Hub FAQ pre-acquisto',
+	nl: 'FAQ vóór aankoop', pl: 'FAQ przed zakupem', ru: 'FAQ перед покупкой', tr: 'Satın alma öncesi SSS',
+	ar: 'مركز الأسئلة قبل الشراء', ja: '購入前FAQ', ko: '구매 전 FAQ', zh: '购买前 FAQ',
+	hi: 'खरीद से पहले FAQ', id: 'Pusat FAQ pra-beli', th: 'ศูนย์ FAQ ก่อนซื้อ', vi: 'Trung tâm FAQ trước mua',
+	uk: 'FAQ перед покупкою', cs: 'FAQ před nákupem', ro: 'Hub FAQ pre-cumpărare', sv: 'FAQ före köp',
+};
+
+const linkComparePlans = {
+	en: 'Compare monthly & lifetime', es: 'Comparar mensual y vitalicio', fr: 'Comparer mensuel et à vie',
+	de: 'Monatlich & Lifetime vergleichen', pt: 'Comparar mensal e vitalício', it: 'Confronta mensile e lifetime',
+	nl: 'Vergelijk maand & lifetime', pl: 'Porównaj miesięczny i lifetime', ru: 'Сравнить тарифы',
+	tr: 'Aylık ve lifetime karşılaştır', ar: 'قارن الشهري والمدى الحياة', ja: '月額と買い切りを比較',
+	ko: '월간·평생 요금 비교', zh: '比较月付与终身', hi: 'मासिक और लाइफ़टाइम तुलना', id: 'Bandingkan bulanan & lifetime',
+	th: 'เปรียบเทียบรายเดือนและตลอดชีพ', vi: 'So sánh gói tháng & trọn đời', uk: 'Порівняти плани',
+	cs: 'Porovnat měsíční a lifetime', ro: 'Compară lunar și lifetime', sv: 'Jämför månad & livstid',
+};
+
+const linkBuyerReviews = {
+	en: 'Read buyer reviews', es: 'Leer reseñas de compradores', fr: 'Lire les avis acheteurs',
+	de: 'Käuferbewertungen lesen', pt: 'Ler avaliações de compradores', it: 'Leggi recensioni acquirenti',
+	nl: 'Kopersrecensies lezen', pl: 'Czytaj opinie kupujących', ru: 'Читать отзывы покупателей',
+	tr: 'Alıcı yorumlarını oku', ar: 'اقرأ مراجعات المشترين', ja: '購入者レビューを読む', ko: '구매자 리뷰 읽기',
+	zh: '阅读买家评价', hi: 'खरीदार समीक्षाएँ पढ़ें', id: 'Baca ulasan pembeli', th: 'อ่านรีวิวผู้ซื้อ',
+	vi: 'Đọc đánh giá người mua', uk: 'Читати відгуки покупців', cs: 'Číst recenze kupujících',
+	ro: 'Citește recenzii cumpărători', sv: 'Läs köparomdömen',
+};
+
+const linkBuyLicense = {
+	en: 'Buy a license', es: 'Comprar licencia', fr: 'Acheter une licence', de: 'Lizenz kaufen',
+	pt: 'Comprar licença', it: 'Acquista licenza', nl: 'Licentie kopen', pl: 'Kup licencję',
+	ru: 'Купить лицензию', tr: 'Lisans satın al', ar: 'اشترِ ترخيصًا', ja: 'ライセンスを購入', ko: '라이선스 구매',
+	zh: '购买许可证', hi: 'लाइसेंस खरीदें', id: 'Beli lisensi', th: 'ซื้อไลเซนส์', vi: 'Mua giấy phép',
+	uk: 'Купити ліцензію', cs: 'Koupit licenci', ro: 'Cumpără licență', sv: 'Köp licens',
+};
+
+const linkRefunds = {
+	en: 'Refund policy', es: 'Política de reembolso', fr: 'Politique de remboursement',
+	de: 'Rückerstattungsrichtlinie', pt: 'Política de reembolso', it: 'Politica rimborsi',
+	nl: 'Restitutiebeleid', pl: 'Polityka zwrotów', ru: 'Политика возврата', tr: 'İade politikası',
+	ar: 'سياسة الاسترداد', ja: '返金ポリシー', ko: '환불 정책', zh: '退款政策', hi: 'रिफंड नीति',
+	id: 'Kebijakan refund', th: 'นโยบายคืนเงิน', vi: 'Chính sách hoàn tiền', uk: 'Політика повернення',
+	cs: 'Zásady vrácení peněz', ro: 'Politica de rambursare', sv: 'Återbetalningspolicy',
+};
+
+const linkContactSupport = {
+	en: 'Contact support', es: 'Contactar soporte', fr: 'Contacter le support', de: 'Support kontaktieren',
+	pt: 'Contactar suporte', it: 'Contatta supporto', nl: 'Contact opnemen', pl: 'Kontakt z supportem',
+	ru: 'Связаться с поддержкой', tr: 'Destekle iletişim', ar: 'اتصل بالدعم', ja: 'サポートに連絡',
+	ko: '지원팀 문의', zh: '联系支持', hi: 'सहायता से संपर्क', id: 'Hubungi dukungan', th: 'ติดต่อฝ่ายสนับสนุน',
+	vi: 'Liên hệ hỗ trợ', uk: 'Зв’язатися з підтримкою', cs: 'Kontaktovat podporu', ro: 'Contactează suportul',
+	sv: 'Kontakta support',
+};
+
+const linkInstallGuide = {
+	en: 'Install walkthrough', es: 'Guía de instalación paso a paso', fr: 'Guide d’installation détaillé',
+	de: 'Installationsanleitung', pt: 'Guia de instalação passo a passo', it: 'Guida installazione passo passo',
+	nl: 'Installatiehandleiding', pl: 'Przewodnik instalacji', ru: 'Пошаговая установка',
+	tr: 'Kurulum rehberi', ar: 'دليل التثبيت', ja: 'インストール手順', ko: '설치 가이드', zh: '安装指南',
+	hi: 'इंस्टॉल गाइड', id: 'Panduan instalasi', th: 'คู่มือติดตั้ง', vi: 'Hướng dẫn cài đặt',
+	uk: 'Посібник з установки', cs: 'Průvodce instalací', ro: 'Ghid de instalare', sv: 'Installationsguide',
+};
+
+const linkGameGuides = {
+	en: 'Game guides library', es: 'Biblioteca de guías', fr: 'Bibliothèque de guides',
+	de: 'Spiele-Guides', pt: 'Biblioteca de guias', it: 'Libreria guide', nl: 'Spelgidsen',
+	pl: 'Biblioteka poradników', ru: 'Библиотека гайдов', tr: 'Oyun rehberleri', ar: 'مكتبة الأدلة',
+	ja: 'ゲームガイド', ko: '게임 가이드', zh: '游戏指南库', hi: 'गेम गाइड', id: 'Pustaka panduan',
+	th: 'คลังคู่มือเกม', vi: 'Thư viện hướng dẫn', uk: 'Бібліотека гайдів', cs: 'Knihovna průvodců',
+	ro: 'Bibliotecă ghiduri', sv: 'Spelguider',
+};
+
+const linkCommunityForum = {
+	en: 'Community forum', es: 'Foro de la comunidad', fr: 'Forum communautaire', de: 'Community-Forum',
+	pt: 'Fórum da comunidade', it: 'Forum community', nl: 'Communityforum', pl: 'Forum społeczności',
+	ru: 'Форум сообщества', tr: 'Topluluk forumu', ar: 'منتدى المجتمع', ja: 'コミュニティフォーラム',
+	ko: '커뮤니티 포럼', zh: '社区论坛', hi: 'कम्युनिटी फ़ोरम', id: 'Forum komunitas', th: 'ฟอรัมชุมชน',
+	vi: 'Diễn đàn cộng đồng', uk: 'Форум спільноти', cs: 'Komunitní fórum', ro: 'Forum comunitate',
+	sv: 'Communityforum',
 };
 
 const faqBeforeBuy = {
@@ -206,7 +324,7 @@ const faqBeforeBuy = {
 };
 
 const faqLede = {
-	en: 'Delivery, detection status, and what is included.',
+	en: 'Delivery, patch status, and what each plan includes.',
 	es: 'Entrega, estado de detección y qué incluye.',
 	fr: 'Livraison, statut et contenu inclus.',
 	de: 'Lieferung, Status und enthaltene Leistungen.',
@@ -346,27 +464,26 @@ export function buildLocaleOverlay(locale, ui) {
 			catStoreHint: pick(catStoreHint, locale),
 			catHelp: pick({ en: 'Help', es: 'Ayuda', fr: 'Aide', de: 'Hilfe', pt: 'Ajuda', it: 'Aiuto', nl: 'Help', pl: 'Pomoc', ru: 'Помощь', tr: 'Yardım', ar: 'مساعدة', ja: 'ヘルプ', ko: '도움말', zh: '帮助', hi: 'सहायता', id: 'Bantuan', th: 'ช่วยเหลือ', vi: 'Trợ giúp', uk: 'Допомога', cs: 'Nápověda', ro: 'Ajutor', sv: 'Hjälp' }, locale),
 			catHelpHint: pick(catHelpHint, locale),
-			linkAllFeatures: n.features,
-			linkEsp: n.esp,
-			linkAimbot: n.aimbot,
-			linkRadar: pick({ en: 'Radar', es: 'Radar', fr: 'Radar', de: 'Radar', pt: 'Radar', it: 'Radar', nl: 'Radar', pl: 'Radar', ru: 'Рadar', tr: 'Radar', ar: 'Radar', ja: 'Radar', ko: 'Radar', zh: 'Radar', hi: 'Radar', id: 'Radar', th: 'Radar', vi: 'Radar', uk: 'Radar', cs: 'Radar', ro: 'Radar', sv: 'Radar' }, locale),
-			linkWallhack: pick({ en: 'Wallhack', es: 'Wallhack', fr: 'Wallhack', de: 'Wallhack', pt: 'Wallhack', it: 'Wallhack', nl: 'Wallhack', pl: 'Wallhack', ru: 'Wallhack', tr: 'Wallhack', ar: 'Wallhack', ja: 'Wallhack', ko: 'Wallhack', zh: 'Wallhack', hi: 'Wallhack', id: 'Wallhack', th: 'Wallhack', vi: 'Wallhack', uk: 'Wallhack', cs: 'Wallhack', ro: 'Wallhack', sv: 'Wallhack' }, locale),
+			linkFeatureList: pick(linkFeatureList, locale),
+			linkEspOverview: pick(linkEspOverview, locale),
+			linkAimbotControls: pick(linkAimbotControls, locale),
+			linkWallhackOverlay: pick(linkWallhackOverlay, locale),
 			linkLiveStatus: pick(linkLiveStatus, locale),
-			linkUndetected: pick(linkMaintenance, locale),
-			linkAnticheat: pick({ en: 'Blizzard Anti-Cheat', es: 'Blizzard Anti-Cheat', fr: 'Blizzard Anti-Cheat', de: 'Blizzard Anti-Cheat', pt: 'Blizzard Anti-Cheat', it: 'Blizzard Anti-Cheat', nl: 'Blizzard Anti-Cheat', pl: 'Blizzard Anti-Cheat', ru: 'Blizzard Anti-Cheat', tr: 'Blizzard Anti-Cheat', ar: 'Blizzard Anti-Cheat', ja: 'Blizzard Anti-Cheat', ko: 'Blizzard Anti-Cheat', zh: 'Blizzard Anti-Cheat', hi: 'Blizzard Anti-Cheat', id: 'Blizzard Anti-Cheat', th: 'Blizzard Anti-Cheat', vi: 'Blizzard Anti-Cheat', uk: 'Blizzard Anti-Cheat', cs: 'Blizzard Anti-Cheat', ro: 'Blizzard Anti-Cheat', sv: 'Blizzard Anti-Cheat' }, locale),
-			linkSetup: n.setup,
-			linkPlans: n.pricing,
-			linkReviews: pick(reviewsEyebrowFromShell, locale),
-			linkOverwatch2Cheats: pick(linkOverwatch2Cheats, locale),
-			linkFaq: n.faq,
-			linkSupport: pick({ en: 'Support', es: 'Soporte', fr: 'Support', de: 'Support', pt: 'Suporte', it: 'Supporto', nl: 'Support', pl: 'Wsparcie', ru: 'Поддержка', tr: 'Destek', ar: 'الدعم', ja: 'サポート', ko: '지원', zh: '支持', hi: 'सहायता', id: 'Dukungan', th: 'ฝ่ายสนับสนุน', vi: 'Hỗ trợ', uk: 'Підтримка', cs: 'Podpora', ro: 'Suport', sv: 'Support' }, locale),
-			linkSetupGuide: n.setup,
-			linkBlog: pick({ en: 'Forum', es: 'Foro', fr: 'Forum', de: 'Forum', pt: 'Fórum', it: 'Forum', nl: 'Forum', pl: 'Forum', ru: 'Форум', tr: 'Forum', ar: 'المنتدى', ja: 'フォーラム', ko: '포럼', zh: '论坛', hi: 'फ़ोरम', id: 'Forum', th: 'ฟอรั่ม', vi: 'Diễn đàn', uk: 'Форум', cs: 'Fórum', ro: 'Forum', sv: 'Forum' }, locale),
+			linkPatchNotes: pick(linkPatchNotes, locale),
+			linkQuickSetup: pick(linkQuickSetup, locale),
+			linkFaqHub: pick(linkFaqHub, locale),
+			linkComparePlans: pick(linkComparePlans, locale),
+			linkBuyerReviews: pick(linkBuyerReviews, locale),
+			linkBuyLicense: pick(linkBuyLicense, locale),
+			linkRefunds: pick(linkRefunds, locale),
+			linkContactSupport: pick(linkContactSupport, locale),
+			linkInstallGuide: pick(linkInstallGuide, locale),
+			linkGameGuides: pick(linkGameGuides, locale),
+			linkCommunityForum: pick(linkCommunityForum, locale),
 			faqEyebrow: n.faq,
 			faqTitle: pick(faqBeforeBuy, locale),
 			faqLede: pick(faqLede, locale),
 			allAnswers: pick(allAnswers, locale),
-			openFullPage: pick(openFullPage, locale),
 		},
 		trustStrip: {
 			instantDelivery: pick(trustStripInstant, locale),

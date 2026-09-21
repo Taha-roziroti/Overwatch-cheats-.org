@@ -3,12 +3,12 @@ import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta, EXT }
 /** Richest English page content — source of truth for structure. */
 export const enPages = {
 	home: {
-		title: 'Overwatch 2 Cheats | Undetected PC Hacks',
+		title: 'Buy Overwatch 2 Cheats | Plans & Instant Delivery',
 		description:
-			'Official Overwatch 2 cheats for Windows PC — aimbot, ESP, wallhack, and Blizzard Anti-Cheat updates. Compare plans and buy with instant delivery.',
+			'Buy Overwatch 2 cheats for Windows PC — aimbot, ESP, wallhack, and hero scripts in one license. Compare monthly and lifetime plans with instant checkout.',
 		h1: 'Overwatch 2 Cheats',
 		intro:
-			'Undetected Overwatch 2 cheats for Windows PC — ESP, tracking aimbot, and wallhack in one license with Blizzard Anti-Cheat maintenance after patches.',
+			'Premium Overwatch 2 cheats for Windows PC — ESP, tracking aimbot, and wallhack in one license with Blizzard Anti-Cheat maintenance after patches.',
 		imageAlt: "Overwatch 2 Cheats homepage hero — ESP and aimbot for Overwatch 2",
 		galleryTitle: 'Overwatch 2 Cheats gallery — ESP, Aimbot and wallhack visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -16,14 +16,14 @@ export const enPages = {
 		ctaSecondaryHref: '/features/',
 		sections: [
 			section(
-				'Why players choose Overwatch 2 Cheats',
-				'Overwatch 2 rewards map awareness. Overwatch 2 Cheats combines ESP for heroes and enemies, wallhack threat cues, and configurable aimbot so you can read fights before committing in Quick Play, Competitive, and Arcade.',
+				'Why players buy this package',
+				'Overwatch 2 rewards map awareness. This license combines ESP for heroes and enemies, wallhack threat cues, and configurable aimbot so you can read fights before committing in Quick Play, Competitive, and Arcade.',
 				`Official seasons, patches, and anti-cheat updates come from ${EXT['overwatch-2']} and ${EXT.anticheat}. We rebuild ESP, wallhack, and aimbot modules when those patches require maintenance — then post status on the <a href="/status/">Updates page</a>.`,
 				'Licenses ship digitally after payment. Monthly ($35) and lifetime ($150) plans include Blizzard Anti-Cheat rebuilds when anti-cheat or game patches require updates.',
 			),
 			section(
 				'ESP, wallhack, and aimbot in one license',
-				'Instead of stacking separate tools, Overwatch 2 Cheats bundles player ESP, hero markers, wallhack overlays, and aimbot profiles in one package built for Quick Play and Arcade.',
+				'Instead of stacking separate tools, one license bundles player ESP, hero markers, wallhack overlays, and aimbot profiles for Quick Play and Arcade.',
 				'Browse the <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, and <a href="/overwatch-2-wallhack/">wallhack</a> pages for control details — or open <a href="/overwatch-2-cheats/">the product page</a> and <a href="/pricing/">Pricing</a> when you are ready to buy.',
 				`Before patch days, check ${EXT.status} for service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
 				'Follow <a href="/setup/">Setup</a> after delivery and keep <a href="/faq/">FAQ</a> or <a href="/support/">Support</a> bookmarked for license questions.',
@@ -46,7 +46,7 @@ export const enPages = {
 			section(
 				'What Overwatch 2 ESP solves in matches',
 				'Overwatch 2 maps punish incomplete information. Overwatch 2 Cheats ESP wallhack helps you spot enemy squads early, spot heroes and enemies before they push your angle, and mark ult charge worth the detour.',
-				'In Quick Play, Arcade, and Quick Play matches, that visibility gap is often the difference between a clean flank and a wiped team. ESP ships bundled with wallhack overlays and Aimbot in one license.',
+				'In Quick Play, Arcade, and Competitive, that visibility gap is often the difference between a clean flank and a wiped team. ESP ships bundled with wallhack overlays and aimbot in one license.',
 				`Overwatch 2’s live seasons and map updates are published by Blizzard (${EXT['overwatch-2']}). When POIs or map layouts shift, ESP categories stay useful because they track players and objectives — not a single static landmark.`,
 			),
 			section(

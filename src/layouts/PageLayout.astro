@@ -109,7 +109,7 @@ const breadcrumbs = [
 	locale={locale}
 	pageId={pageId}
 	extraGraph={extraGraph}
-	lcpImage={showBanner && !heroVideo ? heroPreloadSrc : undefined}
+	lcpImage={showBanner ? heroPreloadSrc : undefined}
 	lcpImageSrcSet={showBanner && !heroVideo ? heroSrcSet : undefined}
 	lcpImageSizes={showBanner && !heroVideo ? heroSizes : undefined}
 	lcpVideo={showBanner && heroVideo ? heroVideo : undefined}
@@ -128,7 +128,7 @@ const breadcrumbs = [
 								muted
 								loop
 								playsinline
-								preload="auto"
+								preload="metadata"
 								width={heroWidth}
 								height={heroHeight}
 								aria-hidden="true"

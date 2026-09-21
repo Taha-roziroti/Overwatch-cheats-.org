@@ -10,6 +10,7 @@ export const sitePaths = {
 	pricing: englishPaths.pricing,
 	setup: englishPaths.setup,
 	updates: englishPaths.updates,
+	anticheat: englishPaths.anticheat,
 	faq: englishPaths.faq,
 	faqIndex: faqBasePath,
 	support: englishPaths.support,
