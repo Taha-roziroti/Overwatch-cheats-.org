@@ -62,13 +62,18 @@ Cloudflare CNAME flattening handles apex records automatically.
 
 ### www → apex redirect
 
-1. Add a DNS record for `www` pointing to the same Pages project (proxied CNAME or A record).
-2. In **Rules** → **Redirect Rules** (or Bulk Redirects), create:
-   - **Source:** `www.overwatchcheats.org/*`
-   - **Target:** `https://overwatchcheats.org/${1}`
-   - **Status:** 301
+**Required for SEO tools (Seobility, GSC):** `www.overwatchcheats.org` must resolve before any redirect can run.
 
-The deployed `functions/_middleware.js` also enforces apex canonical host, legacy domain redirects (`overwatchcheats.org`, `.net`, `.com`), and legacy path redirects.
+1. Add a **proxied** DNS record: `www` CNAME → `overwatchcheats.org` (or the Pages `.pages.dev` hostname).
+2. Attach **Workers custom domain** `www.overwatchcheats.org` to the same project (see `wrangler.toml` — `run_worker_first = true`).
+3. Redirects are enforced in three layers (first match wins at the edge):
+   - `public/_redirects` — host rules synced by `scripts/sync-host-redirects.mjs` (`https://www…` → apex)
+   - `functions/_middleware.js` — www/http → apex for Pages Functions
+   - `src/worker.ts` — same for Workers Builds deploys
+
+Optional dashboard fallback: **Rules** → **Redirect Rules** — `www.overwatchcheats.org/*` → `https://overwatchcheats.org/${1}` (301).
+
+Smoke test: `curl -I https://www.overwatchcheats.org/` must return **301** → `https://overwatchcheats.org/`.
 
 ### SSL / HTTPS
 

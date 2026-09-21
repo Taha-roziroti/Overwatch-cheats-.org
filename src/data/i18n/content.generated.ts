@@ -136,7 +136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP for Windows PC — player boxes, hero markers, and distance readouts. Part of our undetected Overwatch 2 cheats.",
+					description: "Overwatch 2 ESP for Windows PC — player boxes, hero markers, and distance readouts. Part of our Overwatch 2 cheats.",
 					h1: "Overwatch 2 ESP — Player Boxes & Wallhack",
 					intro: "Player boxes, hero markers, and distance readouts for Quick Play, Competitive, and Arcade. Toggle categories so the overlay stays readable mid-match.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -168,9 +168,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Undetected ESP with Blizzard Anti-Cheat maintenance",
+							h2: "ESP with Blizzard Anti-Cheat maintenance",
 							paragraphs: [
-								"Overwatch 2 Cheats ESP wallhack is maintained for Overwatch 2 with rebuilds after Blizzard Anti-Cheat patches. Check the <a href=\"/status/\">Updates page</a> before you queue — no cheat guarantees permanent undetected status.",
+								"Overwatch 2 Cheats ESP wallhack is maintained for Overwatch 2 with rebuilds after Blizzard Anti-Cheat patches. Check the <a href=\"/status/\">Updates page</a> before you queue — no cheat guarantees permanent patch status.",
 								"Read <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> for how anti-cheat updates ship, then cross-check our <a href=\"/status/\">Blizzard Anti-Cheat maintenance guide</a> after major patches.",
 								"Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href=\"/setup/\">Setup guide</a> and tune overlays before your first match.",
 							],
@@ -220,11 +220,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Blizzard Anti-Cheat maintenance for undetected Aimbot",
+							h2: "Blizzard Anti-Cheat maintenance for Aimbot",
 							paragraphs: [
 								"Overwatch 2 Cheats rebuilds Aimbot behavior when Blizzard Anti-Cheat or major Overwatch 2 patches land. Maintenance notes appear on the <a href=\"/status/\">Updates page</a> so you know when a new build is live.",
 								"Cross-check service health on <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Support</a> and anti-cheat context on <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>, then follow our <a href=\"/status/\">Blizzard Anti-Cheat maintenance guide</a> before queueing on patch day.",
-								"Responsible settings matter — undetected status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.",
+								"Responsible settings matter — patch status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.",
 							],
 						},
 						{
@@ -270,7 +270,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Blizzard Anti-Cheat maintenance rebuilds publish on the <a href=\"/status/\">Updates page</a> after anti-cheat or game patches.",
 								"Monitor <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Support</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@overwatchcheats.org.",
-								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/overwatch-2-cheats/\">how undetected maintenance works</a>.",
+								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/overwatch-2-cheats/\">how patch maintenance works</a>.",
 							],
 						},
 					],
@@ -280,7 +280,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Overwatch 2 Cheats Pricing | $35/mo or $150 Life",
 					description: "Overwatch 2 cheats pricing: $35/month or $150 lifetime for ESP, tracking aimbot, and wallhack on Windows PC. Instant delivery — pick a plan.",
 					h1: "Overwatch 2 Cheats Pricing — Monthly & Lifetime",
-					intro: "Choose monthly or lifetime access to undetected Overwatch 2 Cheats — ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC. Instant digital delivery after payment.",
+					intro: "Choose monthly or lifetime access to Overwatch 2 cheats — ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC. Instant digital delivery after payment.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
 					galleryTitle: "Overwatch 2 Cheats package visuals",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
@@ -291,7 +291,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Monthly and lifetime Overwatch 2 Cheats plans",
 							paragraphs: [
 								"Monthly license: $35 USD for 30 days of full ESP and wallhack, and Aimbot access with Blizzard Anti-Cheat maintenance included during your term.",
-								"Lifetime license: $150 USD for long-term access to the same undetected Overwatch 2 Cheats package — ideal if you play Overwatch 2 regularly across seasons.",
+								"Lifetime license: $150 USD for long-term access to the same Overwatch 2 cheats package — ideal if you play Overwatch 2 regularly across seasons.",
 								"Both plans unlock the same feature stack described on <a href=\"/features/\">Features</a>. Choose monthly to test, or lifetime if you already know you want the full toolkit.",
 							],
 						},
@@ -345,7 +345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After Overwatch 2 or Blizzard Anti-Cheat patches",
 							paragraphs: [
 								"When Blizzard ships a major Overwatch 2 update or Blizzard Anti-Cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/status/\">Blizzard Anti-Cheat maintenance page</a> and <a href=\"/overwatch-2-cheats/\">undetected guide</a>.",
+								"Official anti-cheat background: <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>. Our practical workflow is documented on the <a href=\"/status/\">Blizzard Anti-Cheat maintenance page</a> and <a href=\"/overwatch-2-cheats/\">guide</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -356,11 +356,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Overwatch 2 Cheats Updates | Blizzard Anti-Cheat",
 					description: "Overwatch 2 cheats update log: Blizzard Anti-Cheat rebuilds for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before queueing after",
 					h1: "Overwatch 2 Cheats Updates — Maintenance Log",
-					intro: "Track Blizzard Anti-Cheat maintenance and Overwatch 2 patch rebuilds for the undetected ESP and wallhack, and Aimbot package. Check here before queueing after major updates.",
+					intro: "Track Blizzard Anti-Cheat maintenance and Overwatch 2 patch rebuilds for the ESP and wallhack, and Aimbot package. Check here before queueing after major updates.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
 					galleryTitle: "Overwatch 2 patch and maintenance visuals",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
-					ctaSecondary: "Undetected status guide",
+					ctaSecondary: "patch status guide",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
@@ -376,13 +376,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Entries note Blizzard Anti-Cheat compatibility status, rebuilt ESP wallhack overlays, wallhack range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.",
 								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
-								"For context on why rebuilds happen, read the <a href=\"/status/\">Blizzard Anti-Cheat maintenance guide</a> and <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a> explainer.",
+								"For context on why rebuilds happen, read the <a href=\"/status/\">Blizzard Anti-Cheat maintenance guide</a> and <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> explainer.",
 							],
 						},
 						{
-							h2: "Staying undetected after patches",
+							h2: "Staying after patches",
 							paragraphs: [
-								"No cheat guarantees permanent undetected status. Combine maintenance updates with responsible in-game settings and patch awareness.",
+								"No cheat guarantees permanent patch status. Combine maintenance updates with responsible in-game settings and patch awareness.",
 								"Follow season notes from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>, then confirm our rebuild is live before you queue.",
 								"For urgent status questions after a Blizzard Anti-Cheat update, contact <a href=\"/support/\">Support</a> with your license tier and last played build version.",
 							],
@@ -394,7 +394,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Overwatch 2 Cheats FAQ | ESP, Tracking Aimbot & Wallhack",
 					description: "Overwatch 2 cheats FAQ: ESP boxes, tracking aimbot, Blizzard Anti-Cheat maintenance, and pricing for PC. Clear answers before you buy.",
 					h1: "Overwatch 2 Cheats FAQ — Common Questions",
-					intro: "Answers about undetected Overwatch 2 Cheats — ESP and wallhack, Aimbot, Blizzard Anti-Cheat maintenance, checkout, and Overwatch 2 compatibility on Windows PC.",
+					intro: "Answers about Overwatch 2 cheats — ESP and wallhack, Aimbot, Blizzard Anti-Cheat maintenance, checkout, and Overwatch 2 compatibility on Windows PC.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
 					galleryTitle: "Overwatch 2 Cheats FAQ visuals",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
@@ -404,16 +404,16 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What is Overwatch 2 Cheats?",
 							paragraphs: [
-								"Overwatch 2 Cheats is an undetected cheat package for Overwatch 2 on Windows PC. It includes ESP and wallhack overlays-style awareness, and Aimbot controls with Blizzard Anti-Cheat maintenance updates.",
+								"Overwatch 2 Cheats is a premium cheat package for Windows PC. It includes ESP and wallhack overlays-style awareness, and aimbot controls with Blizzard Anti-Cheat maintenance updates.",
 								"Packages cover Quick Play and Arcade. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/overwatch-2-esp/\">ESP</a> / <a href=\"/overwatch-2-aimbot/\">Aimbot</a> for module detail.",
 								"Overwatch 2 itself is published by Blizzard (<a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>). Cheats are third-party tools and may violate Blizzard's rules — use is at your own risk.",
 							],
 						},
 						{
-							h2: "Are Overwatch 2 Cheats undetected in 2026?",
+							h2: "How does patch maintenance work?",
 							paragraphs: [
-								"Overwatch 2 Cheats is maintained with rebuilds after Blizzard Anti-Cheat and game patches. Check the <a href=\"/status/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
-								"Read <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a> and the <a href=\"/status/\">Blizzard Anti-Cheat guide</a> for the maintenance workflow.",
+								"Overwatch 2 Cheats is maintained with rebuilds after Blizzard Anti-Cheat and game patches. Check the <a href=\"/status/\">Updates page</a> for current status before you queue.",
+								"Read the <a href=\"/overwatch-2-cheats/\">product overview</a> and the <a href=\"/status/\">Blizzard Anti-Cheat guide</a> for the maintenance workflow.",
 								"Responsible settings and reading maintenance notes before queueing are essential.",
 							],
 						},
@@ -467,22 +467,22 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
 				},
 				undetected: {
-					title: "Undetected Overwatch 2 Cheats | Blizzard Anti-Cheat",
-					description: "Undetected Overwatch 2 cheats with Blizzard Anti-Cheat maintenance for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before you queue.",
-					h1: "Undetected Overwatch 2 Cheats — Blizzard Anti-Cheat Maintenance",
+					title: "Overwatch 2 cheats | Blizzard Anti-Cheat Maintenance",
+					description: "Overwatch 2 cheats with Blizzard Anti-Cheat maintenance for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before you queue.",
+					h1: "Overwatch 2 cheats — Blizzard Anti-Cheat Maintenance",
 					intro: "How Overwatch 2 Cheats stays maintained for Overwatch 2 after Blizzard Anti-Cheat patches — ESP and wallhack, and Aimbot rebuilds for Windows PC.",
-					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected Overwatch 2 Cheats visuals",
+					imageAlt: "Overwatch 2 Cheats patch status overview for Windows PC",
+					galleryTitle: "Overwatch 2 cheats visuals",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
 					ctaSecondary: "Blizzard Anti-Cheat maintenance guide",
 					ctaSecondaryHref: "/status/",
 					sections: [
 						{
-							h2: "What undetected means for Overwatch 2 Cheats",
+							h2: "What means for Overwatch 2 Cheats",
 							paragraphs: [
-								"Undetected Overwatch 2 Cheats means the package is actively maintained against Blizzard Anti-Cheat and major Overwatch 2 patches — not that detection is impossible forever.",
+								"Overwatch 2 cheats means the package is actively maintained against Blizzard Anti-Cheat and major Overwatch 2 patches — not that detection is impossible forever.",
 								"Rebuilds target ESP wallhack overlays, wallhack behavior, and Aimbot signatures after Blizzard Anti-Cheat security updates.",
-								"Anti-cheat technology is documented by <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>; Overwatch 2 client updates ship through <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. Undetected status is an ongoing process tied to those releases.",
+								"Anti-cheat technology is documented by <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a>; Overwatch 2 client updates ship through <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>. patch status is an ongoing process tied to those releases.",
 							],
 						},
 						{
@@ -496,7 +496,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Responsible use and next steps",
 							paragraphs: [
-								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
+								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — patch status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
 								"New buyers should read the <a href=\"/overwatch-2-cheats/\">product overview</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
@@ -506,7 +506,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Boxes & Visibility",
-					description: "Overwatch 2 wallhack ESP with player boxes and hero markers for Windows PC. Undetected Overwatch 2 cheats — learn overlays and buy.",
+					description: "Overwatch 2 wallhack ESP with player boxes and hero markers for Windows PC. Overwatch 2 cheats — learn overlays and buy.",
 					h1: "Overwatch 2 Wallhack — ESP Boxes & Visibility",
 					intro: "Overwatch 2 wallhack ESP — see players, hero markers, and objectives through toggleable wallhack overlays built for Quick Play and Arcade.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -532,7 +532,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Undetected wallhack maintenance",
+							h2: "Premium wallhack maintenance",
 							paragraphs: [
 								"ESP wallhack modules rebuild after Blizzard Anti-Cheat patches. Follow the <a href=\"/status/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
 								"Follow <a href=\"/status/\">Updates</a> for Blizzard Anti-Cheat maintenance notes.",
@@ -594,7 +594,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Blizzard Anti-Cheat overview",
 							paragraphs: [
-								"<a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> protects Overwatch 2 on PC. Security updates can affect ESP, wallhack, and aimbot behavior — requiring maintenance rebuilds for undetected packages.",
+								"<a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Anti-Cheat</a> protects Overwatch 2 on PC. Security updates can affect ESP, wallhack, and aimbot behavior — requiring maintenance rebuilds for packages.",
 								"Overwatch 2 Cheats monitors Blizzard Anti-Cheat patch notes and Overwatch 2 seasonal updates from <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a> to schedule module reviews.",
 								"“Blizzard Anti-Cheat maintenance” in our wording means timely maintenance — not a permanent free pass around anti-cheat.",
 							],
@@ -604,13 +604,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The team tests ESP overlays, wallhack signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/status/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm Blizzard service health on <a href=\"https://support.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Blizzard Support</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/overwatch-2-cheats/\">undetected Overwatch 2 cheats</a>.",
+								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a>.",
 							],
 						},
 						{
 							h2: "No permanent bypass guarantee",
 							paragraphs: [
-								"Blizzard Anti-Cheat maintenance in practice means timely maintenance. Read the undetected guide, <a href=\"/faq/\">FAQ</a>, and Updates log before every session.",
+								"Blizzard Anti-Cheat maintenance in practice means timely maintenance. Read the guide, <a href=\"/faq/\">FAQ</a>, and Updates log before every session.",
 								"Contact <a href=\"/support/\">Support</a> if activation fails immediately after a posted rebuild.",
 								"Buying for the first time? Compare <a href=\"/pricing/\">Pricing</a> and finish <a href=\"/setup/\">Setup</a> only after Updates shows a live build.",
 							],
@@ -619,26 +619,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats | ESP Tracking Aimbot & Wallhack",
-					description: "Best Overwatch 2 cheats 2026: ESP boxes, tracking aimbot, and wallhack for Windows PC. Undetected Overwatch 2 cheats with Blizzard Anti-Cheat maintenance —",
-					h1: "Overwatch 2 Cheats 2026 — ESP, Tracking Aimbot & Wallhack",
-					intro: "The 2026 Overwatch 2 Cheats package for Overwatch 2 — undetected ESP and wallhack, and Aimbot with Blizzard Anti-Cheat maintenance, instant delivery, and Windows PC support.",
+					title: "Buy Overwatch 2 Cheats | ESP, Aimbot & Wallhack",
+					description: "Buy Overwatch 2 cheats for Windows PC — ESP boxes, tracking aimbot, and wallhack with Blizzard Anti-Cheat maintenance. Compare monthly and lifetime plans.",
+					h1: "Overwatch 2 Cheats — ESP, Tracking Aimbot & Wallhack",
+					intro: "Premium Overwatch 2 cheats for Windows PC — ESP, wallhack, and aimbot with Blizzard Anti-Cheat maintenance, instant delivery, and one license for Quick Play and Competitive.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026 gallery",
+					galleryTitle: "Overwatch 2 Cheats gallery",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
 					ctaSecondary: "Compare features",
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Why Overwatch 2 cheats buyers choose Overwatch 2 Cheats in 2026",
+							h2: "Why buyers choose this package",
 							paragraphs: [
-								"2026 seasons bring new maps, weapons, and Blizzard Anti-Cheat updates. Overwatch 2 Cheats bundles ESP and wallhack, and Aimbot with active maintenance — not a stale prior-year build.",
+								"New seasons bring map, weapon, and Blizzard Anti-Cheat updates. One license bundles ESP, wallhack, and aimbot with active maintenance — not a stale build.",
 								"Track official season messaging on <a href=\"https://overwatch.blizzard.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Overwatch 2</a>, then use our <a href=\"/status/\">Updates log</a> for product rebuild timing.",
 								"Monthly ($35) and lifetime ($150) plans cover Quick Play and Arcade loops — see <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 						{
-							h2: "Full feature stack for 2026 buyers",
+							h2: "Full feature stack before checkout",
 							paragraphs: [
 								"Player ESP wallhack, hero markers, wallhack overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
 								"Module pages: <a href=\"/overwatch-2-esp/\">ESP</a>, <a href=\"/overwatch-2-aimbot/\">Aimbot</a>, <a href=\"/overwatch-2-wallhack/\">wallhack</a>, and <a href=\"/status/\">live status</a>.",
@@ -646,9 +646,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Before you buy in 2026",
+							h2: "Before you buy",
 							paragraphs: [
-								"Read the <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Read the <a href=\"/overwatch-2-cheats/\">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check patch status after every major update — responsible use and maintenance awareness matter.",
 								"Also read the <a href=\"/forum/cheats-2026-updates/\">season updates post</a> and <a href=\"/faq/\">FAQ</a> before checkout.",
 								"Support is available at support@overwatchcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
@@ -658,7 +658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Buy Overwatch 2 Cheats | Windows PC License",
-					description: "Purchase undetected Overwatch 2 cheats for Windows PC — ESP, aimbot, wallhack, and Blizzard Anti-Cheat rebuilds. Monthly and lifetime plans with instant",
+					description: "Purchase Overwatch 2 cheats for Windows PC — ESP, aimbot, wallhack, and Blizzard Anti-Cheat rebuilds. Monthly and lifetime plans with instant delivery.",
 					h1: "Buy Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats for Windows PC — ESP, tracking aimbot, and wallhack in one license with Blizzard Anti-Cheat rebuilds after patches.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -688,7 +688,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Buy a plan, get your license by email, then follow setup. Check status after every major patch.",
 								"Open <a href=\"/pricing/\">Pricing</a>, follow <a href=\"/setup/\">Setup</a>, and read <a href=\"/faq/\">FAQ</a> if you need delivery or license help.",
-								"No cheat stays undetected forever — check status first, then play with conservative settings.",
+								"No cheat stays forever — check status first, then play with conservative settings.",
 							],
 						},
 					],
@@ -734,7 +734,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod Menu | ESP & Tracking Aimbot Toggles",
-					description: "Overwatch 2 mod menu for in-match toggles — ESP boxes, tracking aimbot, wallhack, and on Windows PC. Undetected Overwatch 2 cheats package.",
+					description: "Overwatch 2 mod menu for in-match toggles — ESP boxes, tracking aimbot, wallhack, and on Windows PC. Overwatch 2 cheats package.",
 					h1: "Overwatch 2 Mod Menu — In-Client Control Panel",
 					intro: "Overwatch 2 mod menu controls for Overwatch 2 — toggle ESP wallhack categories, wallhack range, and Aimbot profiles mid-match without leaving your Overwatch 2 session on Windows PC.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -774,7 +774,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aimbot Settings",
 					description: "Overwatch 2 tracking aimbot settings for natural tracking on Windows PC. Smoothness, FOV, and bone priority — included in our Overwatch 2 cheats with ESP boxes.",
 					h1: "Overwatch 2 Tracking Aimbot — Smooth Aimbot Controls",
-					intro: "Overwatch 2 tracking aimbot settings for Overwatch 2 — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and wallhack in one undetected license.",
+					intro: "Overwatch 2 tracking aimbot settings for Overwatch 2 — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and wallhack in one license.",
 					imageAlt: "Overwatch 2 tracking aimbot FOV and smoothness settings",
 					galleryTitle: "Overwatch 2 tracking aimbot gallery",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
@@ -798,9 +798,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Undetected tracking aimbot with Blizzard Anti-Cheat maintenance",
+							h2: "Premium tracking aimbot with Blizzard Anti-Cheat maintenance",
 							paragraphs: [
-								"Aimbot modules rebuild after Blizzard Anti-Cheat patches. Check the <a href=\"/status/\">Updates page</a> before queueing — responsible settings and maintenance awareness matter for undetected play.",
+								"Aimbot modules rebuild after Blizzard Anti-Cheat patches. Check the <a href=\"/status/\">Updates page</a> before queueing — responsible settings and maintenance awareness matter for play.",
 								"Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href=\"/pricing/\">Pricing</a>.",
 								"Activation help: <a href=\"/setup/\">Setup</a> · status questions: <a href=\"/support/\">Support</a>.",
 							],
@@ -812,7 +812,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Best Overwatch 2 Cheats | Buyer Guide",
 					description: "Best Overwatch 2 cheats for 2026: ESP boxes, tracking aimbot, and Blizzard Anti-Cheat maintenance on Windows PC. Use this checklist before checkout.",
 					h1: "Best Overwatch 2 Cheats — 2026 Buyer Guide",
-					intro: "Compare the Overwatch 2 cheats for Overwatch 2 in 2026 — undetected ESP and wallhack, and Aimbot in one maintained package with Blizzard Anti-Cheat rebuilds and instant delivery.",
+					intro: "Compare the Overwatch 2 cheats for Overwatch 2 in 2026 — ESP and wallhack, and Aimbot in one maintained package with Blizzard Anti-Cheat rebuilds and instant delivery.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
 					galleryTitle: "Best Overwatch 2 cheats gallery",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
@@ -839,7 +839,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Buying the Overwatch 2 cheats safely",
 							paragraphs: [
 								"Purchase through secure checkout for instant digital delivery. Read Setup, FAQ, and Updates pages before your first queue — and contact Support with order details if activation needs help.",
-								"No cheat guarantees permanent undetected status — combine maintenance with responsible in-game settings.",
+								"No cheat guarantees permanent patch status — combine maintenance with responsible in-game settings.",
 								"Remember: using cheats can violate Blizzard terms. Proceed only if you accept that risk.",
 							],
 						},
@@ -850,7 +850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Overwatch 2 Aimbot Hack | Tracking Aimbot Assist",
 					description: "Overwatch 2 aimbot hack with tracking aimbot for Windows PC. FOV, bone priority, and hotkeys — bundled with ESP boxes in our Overwatch 2 cheats package.",
 					h1: "Overwatch 2 Aimbot Hack — Tracking Aimbot Assist",
-					intro: "Overwatch 2 aimbot hack tools for Overwatch 2 — smoothness, FOV, bone priority, per-hero profiles, and hotkey toggles bundled with ESP wallhack and wallhack in one undetected license.",
+					intro: "Overwatch 2 aimbot hack tools for Overwatch 2 — smoothness, FOV, bone priority, per-hero profiles, and hotkey toggles bundled with ESP wallhack and wallhack in one license.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
 					galleryTitle: "Overwatch 2 aimbot hack gallery",
 					ctaPrimary: "Buy Overwatch 2 Cheats",
@@ -874,7 +874,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Undetected aimbot hack maintenance",
+							h2: "Aimbot hack maintenance",
 							paragraphs: [
 								"Aimbot hack signatures rebuild after Blizzard Anti-Cheat updates. Follow the <a href=\"/status/\">Updates page</a> and <a href=\"/status/\">Blizzard Anti-Cheat maintenance guide</a> before queueing after patch days.",
 								"Checkout with instant digital delivery for Windows 10 and 11 — <a href=\"/pricing/\">Pricing</a>.",
@@ -886,7 +886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Player Boxes & Heroes",
-					description: "Overwatch 2 ESP hack with player boxes and hero markers for Windows PC. Undetected Overwatch 2 cheats with — see overlays and buy.",
+					description: "Overwatch 2 ESP hack with player boxes and hero markers for Windows PC. Overwatch 2 cheats with — see overlays and buy.",
 					h1: "Overwatch 2 ESP Hack — Player Boxes Guide",
 					intro: "Overwatch 2 ESP hack overlays for Overwatch 2 — player outlines, ult threat cues, hero and objective markers with distance readouts across Quick Play and Arcade.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -912,7 +912,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "Undetected ESP hack with Blizzard Anti-Cheat maintenance",
+							h2: "ESP hack with Blizzard Anti-Cheat maintenance",
 							paragraphs: [
 								"ESP hack modules rebuild after Blizzard Anti-Cheat and Overwatch 2 patches. Check the <a href=\"/status/\">Updates page</a> before queueing — pair ESP hack awareness with <a href=\"/overwatch-2-wallhack/\">wallhack</a> for flank reads.",
 								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
@@ -952,7 +952,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Buying Overwatch 2 Cheats for the right reasons",
 							paragraphs: [
-								"If you need undetected ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC, compare <a href=\"/pricing/\">Pricing</a> and read the <a href=\"/setup/\">Setup guide</a> before checkout.",
+								"If you need ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC, compare <a href=\"/pricing/\">Pricing</a> and read the <a href=\"/setup/\">Setup guide</a> before checkout.",
 								"Check the <a href=\"/status/\">Updates page</a> after Blizzard Anti-Cheat patches — maintenance rebuilds publish for active licenses.",
 								"Questions? <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a> cover delivery and configuration — not cosmetic unlocks.",
 							],
@@ -1056,8 +1056,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
-								"Using cheats in Overwatch 2 may violate Blizzard terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/overwatch-2-cheats/\">undetected status</a>.",
+								"Using cheats in Overwatch 2 may violate Blizzard terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee patch status or account safety.",
+								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/overwatch-2-cheats/\">patch status</a>.",
 							],
 						},
 						{
@@ -1175,7 +1175,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Cajas de jugador y wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. entrega digital instantánea. indetectables — Windows PC.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -1193,7 +1193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1210,7 +1210,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Controles tracking aimbot",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -1228,7 +1228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1245,7 +1245,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funciones | Lista completa de funciones",
-					description: "Funciones: ESP, tracking aimbot, wallhack controls. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Funciones: ESP, tracking aimbot, wallhack controls. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Funciones",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Funciones.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -1263,7 +1263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Funciones",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1280,7 +1280,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Precios | Mensual y de por vida",
-					description: "Precios: $35 monthly or $150 lifetime licenses. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Precios: $35 monthly or $150 lifetime licenses. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Precios",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Precios.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -1298,7 +1298,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Precios",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1315,7 +1315,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Instalación | Guía de instalación PC",
-					description: "Instalación: Windows PC activation and first-launch setup. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Instalación: Windows PC activation and first-launch setup. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Instalación",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Instalación.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -1333,7 +1333,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Instalación",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1350,7 +1350,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Actualizaciones | Registro Blizzard Anti-Cheat",
-					description: "Actualizaciones: Blizzard Anti-Cheat patch status and rebuild notes. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Actualizaciones: Blizzard Anti-Cheat patch status and rebuild notes. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Actualizaciones",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Actualizaciones.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -1368,7 +1368,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Actualizaciones",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1385,7 +1385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Preguntas frecuentes",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. entrega digital instantánea. indetectables — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -1403,7 +1403,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "FAQ",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1420,7 +1420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Soporte | Ayuda y contacto",
-					description: "Soporte: order help and license support contact. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Soporte: order help and license support contact. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Soporte",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Soporte.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -1438,7 +1438,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Soporte",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1454,26 +1454,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Trucos indetectables | Estado indetectable",
-					description: "Trucos indetectables: undetected maintenance after Blizzard Anti-Cheat patches. entrega digital instantánea. indetectables — Windows PC.",
-					h1: "Trucos indetectables",
-					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Trucos indetectables.",
+					title: "Trucos Overwatch 2 | Estado del paquete",
+					description: "Trucos Overwatch 2: maintenance after Blizzard Anti-Cheat patches. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
+					h1: "Trucos Overwatch 2",
+					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Trucos Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Trucos indetectables",
+					galleryTitle: "Trucos Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Trucos indetectables",
+							h2: "Trucos Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Trucos Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1490,7 +1490,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | Visibilidad ESP",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -1508,7 +1508,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1525,7 +1525,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | Wallhack de amenazas",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -1543,7 +1543,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Wallhack",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1560,7 +1560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Mantenimiento de parches",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -1578,7 +1578,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1595,7 +1595,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Trucos Overwatch 2 2026 | Guía del comprador",
-					description: "Trucos Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Trucos Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Trucos Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Trucos Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -1613,7 +1613,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Trucos Overwatch 2 2026",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1630,7 +1630,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Trucos Overwatch 2 | Guía ESP y Aimbot",
-					description: "Trucos Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Trucos Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Trucos Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Trucos Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -1648,7 +1648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Trucos Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1665,7 +1665,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Descarga Overwatch 2 Cheats | Acceso instantáneo",
-					description: "Descarga Overwatch 2 Cheats: digital license download after payment. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Descarga Overwatch 2 Cheats: digital license download after payment. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Descarga Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Descarga Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -1683,7 +1683,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Descarga Overwatch 2 Cheats",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1700,7 +1700,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Menú mod Overwatch 2 | Controles en partida",
-					description: "Menú mod Overwatch 2: in-client ESP and tracking aimbot toggles. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Menú mod Overwatch 2: in-client ESP and tracking aimbot toggles. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Menú mod Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Menú mod Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -1718,7 +1718,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Menú mod Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1735,7 +1735,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Ajustes tracking aimbot",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -1753,7 +1753,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1770,7 +1770,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Mejores trucos Overwatch 2 | Lista de compra",
-					description: "Mejores trucos Overwatch 2: what to compare before buying Overwatch 2 cheats. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Mejores trucos Overwatch 2: what to compare before buying Overwatch 2 cheats. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Mejores trucos Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Mejores trucos Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -1788,7 +1788,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Mejores trucos Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1805,7 +1805,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Asistencia tracking aimbot",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -1818,12 +1818,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. aimbot assist for Overwatch 2.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1840,7 +1840,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Cajas y héroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -1858,7 +1858,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -1875,7 +1875,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | Qué significa",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot indetectables para Overwatch 2 en Windows PC. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -1893,7 +1893,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado indetectable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -2118,7 +2118,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Boîtes joueur et wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -2136,7 +2136,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2153,7 +2153,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Contrôles tracking aimbot",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -2171,7 +2171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2188,7 +2188,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Fonctions | Liste complète des fonctions",
-					description: "Fonctions: ESP, tracking aimbot, wallhack controls. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Fonctions: ESP, tracking aimbot, wallhack controls. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Fonctions",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Fonctions.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -2206,7 +2206,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Fonctions",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2223,7 +2223,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Tarifs | Mensuel et à vie",
-					description: "Tarifs: $35 monthly or $150 lifetime licenses. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Tarifs: $35 monthly or $150 lifetime licenses. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Tarifs",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Tarifs.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -2241,7 +2241,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Tarifs",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2258,7 +2258,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Installation | Guide d'installation PC",
-					description: "Installation: Windows PC activation and first-launch setup. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Installation: Windows PC activation and first-launch setup. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Installation",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Installation.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -2276,7 +2276,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Installation",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2293,7 +2293,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Mises à jour | Journal Blizzard Anti-Cheat",
-					description: "Mises à jour: Blizzard Anti-Cheat patch status and rebuild notes. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Mises à jour: Blizzard Anti-Cheat patch status and rebuild notes. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Mises à jour",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Mises à jour.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -2311,7 +2311,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Mises à jour",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2328,7 +2328,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Questions fréquentes",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -2346,7 +2346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "FAQ",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2363,7 +2363,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Support | Aide et contact",
-					description: "Support: order help and license support contact. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Support: order help and license support contact. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Support",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Support.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -2381,7 +2381,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Support",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2397,26 +2397,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Triches indétectables | Statut indétectable",
-					description: "Triches indétectables: undetected maintenance after Blizzard Anti-Cheat patches. livraison numérique instantanée. indétectables — PC Windows.",
-					h1: "Triches indétectables",
-					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Triches indétectables.",
+					title: "Triches Overwatch 2 | Statut du pack",
+					description: "Triches Overwatch 2: maintenance after Blizzard Anti-Cheat patches. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
+					h1: "Triches Overwatch 2",
+					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Triches Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Triches indétectables",
+					galleryTitle: "Triches Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Triches indétectables",
+							h2: "Triches Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Triches Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2433,7 +2433,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | Visibilité ESP",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -2451,7 +2451,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2468,7 +2468,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | Wallhack des menaces",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -2486,7 +2486,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Wallhack",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2503,7 +2503,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Maintenance des patchs",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -2521,7 +2521,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2538,7 +2538,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Triches Overwatch 2 2026 | Guide acheteur",
-					description: "Triches Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Triches Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Triches Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Triches Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -2556,7 +2556,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Triches Overwatch 2 2026",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2573,7 +2573,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Triches Overwatch 2 | Guide ESP et Aimbot",
-					description: "Triches Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Triches Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Triches Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Triches Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -2591,7 +2591,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Triches Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2608,7 +2608,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Téléchargement Overwatch 2 Cheats | Accès instantané",
-					description: "Téléchargement Overwatch 2 Cheats: digital license download after payment. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Téléchargement Overwatch 2 Cheats: digital license download after payment. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Téléchargement Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Téléchargement Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -2626,7 +2626,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Téléchargement Overwatch 2 Cheats",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2643,7 +2643,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Menu mod Overwatch 2 | Contrôles en jeu",
-					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Menu mod Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Menu mod Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -2661,7 +2661,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Menu mod Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2678,7 +2678,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Réglages tracking aimbot",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -2696,7 +2696,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2713,7 +2713,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Meilleures triches Overwatch 2 | Checklist acheteur",
-					description: "Meilleures triches Overwatch 2: what to compare before buying Overwatch 2 cheats. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Meilleures triches Overwatch 2: what to compare before buying Overwatch 2 cheats. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Meilleures triches Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Meilleures triches Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -2731,7 +2731,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Meilleures triches Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2748,7 +2748,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Assistance tracking aimbot",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -2761,12 +2761,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. aimbot assist for Overwatch 2.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2783,7 +2783,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boîtes et héros",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -2801,7 +2801,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2818,7 +2818,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | Ce que ça signifie",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. livraison numérique instantanée. indétectables — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot indétectables pour Overwatch 2 sur PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -2836,7 +2836,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut indétectable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -3061,7 +3061,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Spielerboxen & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -3079,7 +3079,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3096,7 +3096,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Soft-Aim Steuerung",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -3114,7 +3114,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3131,7 +3131,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Features | Vollständige Feature-Liste",
-					description: "Features: ESP, tracking aimbot, wallhack controls. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Features: ESP, tracking aimbot, wallhack controls. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Features",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Features.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -3149,7 +3149,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Features",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3166,7 +3166,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Preise | Monatlich & Lifetime",
-					description: "Preise: $35 monthly or $150 lifetime licenses. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Preise: $35 monthly or $150 lifetime licenses. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Preise",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Preise.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -3184,7 +3184,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Preise",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3201,7 +3201,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Setup | PC Setup-Anleitung",
-					description: "Setup: Windows PC activation and first-launch setup. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Setup: Windows PC activation and first-launch setup. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Setup",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Setup.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -3219,7 +3219,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Setup",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3236,7 +3236,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Updates | Blizzard Anti-Cheat Wartungslog",
-					description: "Updates: Blizzard Anti-Cheat patch status and rebuild notes. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Updates: Blizzard Anti-Cheat patch status and rebuild notes. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Updates",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Updates.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -3254,7 +3254,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Updates",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3271,7 +3271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Häufige Fragen",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -3289,7 +3289,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3306,7 +3306,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Support | Hilfe & Kontakt",
-					description: "Support: order help and license support contact. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Support: order help and license support contact. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Support",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Support.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -3324,7 +3324,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Support",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3340,26 +3340,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected Cheats | Undetected Status",
-					description: "Undetected Cheats: undetected maintenance after Blizzard Anti-Cheat patches. sofortige digitale Lieferung. undetected — Windows PC.",
-					h1: "Undetected Cheats",
-					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Undetected Cheats.",
+					title: "Overwatch 2 Cheats | Paketstatus",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected Cheats",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected Cheats",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3376,7 +3376,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Sichtbarkeit",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -3394,7 +3394,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3411,7 +3411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Bedrohungsradar",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -3429,7 +3429,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3446,7 +3446,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch-Wartung",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -3464,7 +3464,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3481,7 +3481,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Käuferleitfaden",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -3499,7 +3499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3516,7 +3516,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -3534,7 +3534,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3551,7 +3551,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Sofortzugang",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -3569,7 +3569,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3586,7 +3586,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod-Menü | In-Game Toggles",
-					description: "Overwatch 2 Mod-Menü: in-client ESP and tracking aimbot toggles. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Mod-Menü: in-client ESP and tracking aimbot toggles. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Mod-Menü",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Mod-Menü.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -3604,7 +3604,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod-Menü",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3621,7 +3621,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Soft-Aim Einstellungen",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -3639,7 +3639,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3656,7 +3656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Beste Overwatch 2 Cheats | Käufer-Checkliste",
-					description: "Beste Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Beste Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Beste Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Beste Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -3674,7 +3674,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Beste Overwatch 2 Cheats",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3691,7 +3691,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hack | Soft-Aim Assist",
-					description: "Overwatch 2 Aimbot Hack: undetected Aimbot hack assist for Overwatch 2. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hack: aimbot assist for Overwatch 2. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Aimbot Hack",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Aimbot Hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -3704,12 +3704,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
-								"Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. aimbot assist for Overwatch 2.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3726,7 +3726,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Boxen & Helden",
-					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 ESP Hack",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 ESP Hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -3744,7 +3744,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hack",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3761,7 +3761,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | Was es bedeutet",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. sofortige digitale Lieferung. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als undetected Paket für Overwatch 2 auf Windows PC. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -3779,7 +3779,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -4004,7 +4004,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Caixas de jogador e wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -4022,7 +4022,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4039,7 +4039,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Controles tracking aimbot",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -4057,7 +4057,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4074,7 +4074,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Recursos | Lista completa de recursos",
-					description: "Recursos: ESP, tracking aimbot, wallhack controls. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Recursos: ESP, tracking aimbot, wallhack controls. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Recursos",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Recursos.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -4092,7 +4092,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Recursos",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4109,7 +4109,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Preços | Mensal e vitalício",
-					description: "Preços: $35 monthly or $150 lifetime licenses. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Preços: $35 monthly or $150 lifetime licenses. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Preços",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Preços.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -4127,7 +4127,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Preços",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4144,7 +4144,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Instalação | Guia de instalação PC",
-					description: "Instalação: Windows PC activation and first-launch setup. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Instalação: Windows PC activation and first-launch setup. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Instalação",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Instalação.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -4162,7 +4162,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Instalação",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4179,7 +4179,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Atualizações | Registro Blizzard Anti-Cheat",
-					description: "Atualizações: Blizzard Anti-Cheat patch status and rebuild notes. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Atualizações: Blizzard Anti-Cheat patch status and rebuild notes. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Atualizações",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Atualizações.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -4197,7 +4197,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Atualizações",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4214,7 +4214,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Perguntas frequentes",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -4232,7 +4232,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "FAQ",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4249,7 +4249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Suporte | Ajuda e contato",
-					description: "Suporte: order help and license support contact. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Suporte: order help and license support contact. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Suporte",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Suporte.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -4267,7 +4267,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Suporte",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4283,26 +4283,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheats indetectáveis | Status indetectável",
-					description: "Cheats indetectáveis: undetected maintenance after Blizzard Anti-Cheat patches. entrega digital instantânea. indetectáveis — PC Windows.",
-					h1: "Cheats indetectáveis",
-					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Cheats indetectáveis.",
+					title: "Cheats Overwatch 2 | Status do pacote",
+					description: "Cheats Overwatch 2: maintenance after Blizzard Anti-Cheat patches. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
+					h1: "Cheats Overwatch 2",
+					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheats indetectáveis",
+					galleryTitle: "Cheats Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheats indetectáveis",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4319,7 +4319,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | Visibilidade ESP",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -4337,7 +4337,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4354,7 +4354,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | Wallhack de ameaças",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -4372,7 +4372,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Wallhack",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4389,7 +4389,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Manutenção de patches",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -4407,7 +4407,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4424,7 +4424,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheats Overwatch 2 2026 | Guia do comprador",
-					description: "Cheats Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Cheats Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Cheats Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Cheats Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -4442,7 +4442,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Cheats Overwatch 2 2026",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4459,7 +4459,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheats Overwatch 2 | Guia ESP e Aimbot",
-					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -4477,7 +4477,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4494,7 +4494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Download Overwatch 2 Cheats | Acesso instantâneo",
-					description: "Download Overwatch 2 Cheats: digital license download after payment. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Download Overwatch 2 Cheats: digital license download after payment. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Download Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Download Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -4512,7 +4512,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Download Overwatch 2 Cheats",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4529,7 +4529,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Menu mod Overwatch 2 | Controles in-game",
-					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Menu mod Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Menu mod Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -4547,7 +4547,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Menu mod Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4564,7 +4564,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Ajustes tracking aimbot",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -4582,7 +4582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4599,7 +4599,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Melhores cheats Overwatch 2 | Checklist do comprador",
-					description: "Melhores cheats Overwatch 2: what to compare before buying Overwatch 2 cheats. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Melhores cheats Overwatch 2: what to compare before buying Overwatch 2 cheats. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Melhores cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Melhores cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -4617,7 +4617,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Melhores cheats Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4634,7 +4634,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Assistência tracking aimbot",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -4647,12 +4647,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. aimbot assist for Overwatch 2.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4669,7 +4669,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Caixas e heróis",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -4687,7 +4687,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4704,7 +4704,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | O que significa",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectáveis para Overwatch 2 no PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -4722,7 +4722,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status indetectável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4947,7 +4947,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Box giocatore e wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -4965,7 +4965,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -4982,7 +4982,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Controlli tracking aimbot",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -5000,7 +5000,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5017,7 +5017,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funzioni | Elenco completo funzioni",
-					description: "Funzioni: ESP, tracking aimbot, wallhack controls. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Funzioni: ESP, tracking aimbot, wallhack controls. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Funzioni",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Funzioni.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -5035,7 +5035,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Funzioni",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5052,7 +5052,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Prezzi | Mensile e lifetime",
-					description: "Prezzi: $35 monthly or $150 lifetime licenses. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Prezzi: $35 monthly or $150 lifetime licenses. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Prezzi",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Prezzi.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -5070,7 +5070,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Prezzi",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5087,7 +5087,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Setup | Guida setup PC",
-					description: "Setup: Windows PC activation and first-launch setup. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Setup: Windows PC activation and first-launch setup. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Setup",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Setup.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -5105,7 +5105,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Setup",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5122,7 +5122,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Aggiornamenti | Log manutenzione Blizzard Anti-Cheat",
-					description: "Aggiornamenti: Blizzard Anti-Cheat patch status and rebuild notes. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Aggiornamenti: Blizzard Anti-Cheat patch status and rebuild notes. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Aggiornamenti",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Aggiornamenti.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -5140,7 +5140,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Aggiornamenti",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5157,7 +5157,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Domande frequenti",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -5175,7 +5175,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "FAQ",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5192,7 +5192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Supporto | Aiuto e contatto",
-					description: "Supporto: order help and license support contact. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Supporto: order help and license support contact. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Supporto",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Supporto.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -5210,7 +5210,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Supporto",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5226,26 +5226,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheat indetectable | Stato indetectable",
-					description: "Cheat indetectable: undetected maintenance after Blizzard Anti-Cheat patches. consegna digitale istantanea. indetectable — PC Windows.",
-					h1: "Cheat indetectable",
-					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Cheat indetectable.",
+					title: "Cheat Overwatch 2 | Stato pacchetto",
+					description: "Cheat Overwatch 2: maintenance after Blizzard Anti-Cheat patches. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
+					h1: "Cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheat indetectable",
+					galleryTitle: "Cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat indetectable",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5262,7 +5262,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | Visibilità ESP",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -5280,7 +5280,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5297,7 +5297,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | Wallhack minacce",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -5315,7 +5315,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Wallhack",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5332,7 +5332,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Manutenzione patch",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -5350,7 +5350,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5367,7 +5367,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat Overwatch 2 2026 | Guida acquirente",
-					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Cheat Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -5385,7 +5385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Cheat Overwatch 2 2026",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5402,7 +5402,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | Guida ESP e Aimbot",
-					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -5420,7 +5420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5437,7 +5437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Download Overwatch 2 Cheats | Accesso istantaneo",
-					description: "Download Overwatch 2 Cheats: digital license download after payment. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Download Overwatch 2 Cheats: digital license download after payment. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Download Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Download Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -5455,7 +5455,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Download Overwatch 2 Cheats",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5472,7 +5472,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Mod menu Overwatch 2 | Toggle in-game",
-					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Mod menu Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Mod menu Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -5490,7 +5490,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Mod menu Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5507,7 +5507,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Impostazioni tracking aimbot",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -5525,7 +5525,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5542,7 +5542,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Migliori cheat Overwatch 2 | Checklist acquirente",
-					description: "Migliori cheat Overwatch 2: what to compare before buying Overwatch 2 cheats. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Migliori cheat Overwatch 2: what to compare before buying Overwatch 2 cheats. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Migliori cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Migliori cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -5560,7 +5560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Migliori cheat Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5577,7 +5577,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Assist tracking aimbot",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -5590,12 +5590,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. aimbot assist for Overwatch 2.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5612,7 +5612,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Box e eroi",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -5630,7 +5630,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5647,7 +5647,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | Cosa significa",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. consegna digitale istantanea. indetectable — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot indetectable per Overwatch 2 su PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -5665,7 +5665,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato indetectable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5890,7 +5890,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -5908,7 +5908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -5925,7 +5925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -5943,7 +5943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -5960,7 +5960,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Functies | Full Feature List",
-					description: "Functies: ESP, tracking aimbot, wallhack controls. directe digitale levering. undetected — Windows PC.",
+					description: "Functies: ESP, tracking aimbot, wallhack controls. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Functies",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Functies.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -5978,7 +5978,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Functies",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -5995,7 +5995,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Prijzen | Monthly & Lifetime",
-					description: "Prijzen: $35 monthly or $150 lifetime licenses. directe digitale levering. undetected — Windows PC.",
+					description: "Prijzen: $35 monthly or $150 lifetime licenses. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Prijzen",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Prijzen.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -6013,7 +6013,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Prijzen",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6030,7 +6030,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Setup | PC Setup Guide",
-					description: "Setup: Windows PC activation and first-launch setup. directe digitale levering. undetected — Windows PC.",
+					description: "Setup: Windows PC activation and first-launch setup. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Setup",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Setup.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -6048,7 +6048,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Setup",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6065,7 +6065,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Updates | Blizzard Anti-Cheat Maintenance Log",
-					description: "Updates: Blizzard Anti-Cheat patch status and rebuild notes. directe digitale levering. undetected — Windows PC.",
+					description: "Updates: Blizzard Anti-Cheat patch status and rebuild notes. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Updates",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Updates.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -6083,7 +6083,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Updates",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6100,7 +6100,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. directe digitale levering. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -6118,7 +6118,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6135,7 +6135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Support | Help & Contact",
-					description: "Support: order help and license support contact. directe digitale levering. undetected — Windows PC.",
+					description: "Support: order help and license support contact. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Support",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Support.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -6153,7 +6153,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Support",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6169,26 +6169,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected Cheats | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected Cheats: undetected maintenance after Blizzard Anti-Cheat patches. directe digitale levering. undetected — Windows PC.",
-					h1: "Undetected Cheats",
-					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Undetected Cheats.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. directe digitale levering. Overwatch 2 Cheats kopen.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected Cheats",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected Cheats",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6205,7 +6205,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -6223,7 +6223,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6240,7 +6240,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. directe digitale levering. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -6258,7 +6258,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6275,7 +6275,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. directe digitale levering. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -6293,7 +6293,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6310,7 +6310,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -6328,7 +6328,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6345,7 +6345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -6363,7 +6363,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6380,7 +6380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Instant Access",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -6398,7 +6398,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6415,7 +6415,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod Menu | In-Game Toggles",
-					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Mod Menu",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Mod Menu.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -6433,7 +6433,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod Menu",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6450,7 +6450,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -6468,7 +6468,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6485,7 +6485,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Beste Overwatch 2 Cheats | Buyer Checklist",
-					description: "Beste Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. directe digitale levering. undetected — Windows PC.",
+					description: "Beste Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Beste Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Beste Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -6503,7 +6503,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Beste Overwatch 2 Cheats",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6520,7 +6520,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hack | Tracking Aimbot Assist",
-					description: "Overwatch 2 Aimbot Hack: undetected Aimbot hack assist for Overwatch 2. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hack: aimbot assist for Overwatch 2. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Aimbot Hack",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Aimbot Hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -6533,12 +6533,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
-								"Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. aimbot assist for Overwatch 2.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6555,7 +6555,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Boxes & Heroes",
-					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 ESP Hack",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 ESP Hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -6573,7 +6573,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hack",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6590,7 +6590,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. directe digitale levering. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. directe digitale levering. Overwatch 2 Cheats kopen.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als undetected pakket voor Overwatch 2 op Windows PC. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -6608,7 +6608,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent undetected status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6833,7 +6833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -6851,7 +6851,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -6868,7 +6868,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -6886,7 +6886,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -6903,7 +6903,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funkcje | Full Feature List",
-					description: "Funkcje: ESP, tracking aimbot, wallhack controls. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Funkcje: ESP, tracking aimbot, wallhack controls. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Funkcje",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Funkcje.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -6921,7 +6921,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Funkcje",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -6938,7 +6938,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Cennik | Monthly & Lifetime",
-					description: "Cennik: $35 monthly or $150 lifetime licenses. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cennik: $35 monthly or $150 lifetime licenses. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Cennik",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cennik.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -6956,7 +6956,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cennik",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -6973,7 +6973,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Instalacja | PC Setup Guide",
-					description: "Instalacja: Windows PC activation and first-launch setup. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Instalacja: Windows PC activation and first-launch setup. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Instalacja",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Instalacja.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -6991,7 +6991,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Instalacja",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7008,7 +7008,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Aktualizacje | Blizzard Anti-Cheat Maintenance Log",
-					description: "Aktualizacje: Blizzard Anti-Cheat patch status and rebuild notes. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Aktualizacje: Blizzard Anti-Cheat patch status and rebuild notes. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Aktualizacje",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Aktualizacje.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -7026,7 +7026,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aktualizacje",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7043,7 +7043,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -7061,7 +7061,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7078,7 +7078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Wsparcie | Help & Contact",
-					description: "Wsparcie: order help and license support contact. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Wsparcie: order help and license support contact. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Wsparcie",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Wsparcie.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -7096,7 +7096,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wsparcie",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7112,26 +7112,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheaty undetected | Blizzard Anti-Cheat Safe Status",
-					description: "Cheaty undetected: undetected maintenance after Blizzard Anti-Cheat patches. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
-					h1: "Cheaty undetected",
-					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cheaty undetected.",
+					title: "Cheaty Overwatch 2 | Patch Status",
+					description: "Cheaty Overwatch 2: maintenance after Blizzard Anti-Cheat patches. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
+					h1: "Cheaty Overwatch 2",
+					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cheaty Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheaty undetected",
+					galleryTitle: "Cheaty Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheaty undetected",
+							h2: "Cheaty Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheaty Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7148,7 +7148,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -7166,7 +7166,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7183,7 +7183,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -7201,7 +7201,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7218,7 +7218,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -7236,7 +7236,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7253,7 +7253,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheaty Overwatch 2 2026 | Buyer Guide",
-					description: "Cheaty Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cheaty Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Cheaty Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cheaty Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -7271,7 +7271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheaty Overwatch 2 2026",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7288,7 +7288,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheaty Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheaty Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cheaty Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Cheaty Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Cheaty Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -7306,7 +7306,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheaty Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7323,7 +7323,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Pobieranie Overwatch 2 Cheats | Instant Access",
-					description: "Pobieranie Overwatch 2 Cheats: digital license download after payment. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Pobieranie Overwatch 2 Cheats: digital license download after payment. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Pobieranie Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Pobieranie Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -7341,7 +7341,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Pobieranie Overwatch 2 Cheats",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7358,7 +7358,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Mod menu Overwatch 2 | In-Game Toggles",
-					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Mod menu Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Mod menu Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -7376,7 +7376,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Mod menu Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7393,7 +7393,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -7411,7 +7411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7428,7 +7428,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Najlepsze cheaty Overwatch 2 | Buyer Checklist",
-					description: "Najlepsze cheaty Overwatch 2: what to compare before buying Overwatch 2 cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Najlepsze cheaty Overwatch 2: what to compare before buying Overwatch 2 cheats. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Najlepsze cheaty Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Najlepsze cheaty Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -7446,7 +7446,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Najlepsze cheaty Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7463,7 +7463,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -7476,12 +7476,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. aimbot assist for Overwatch 2.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7498,7 +7498,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boxes & Heroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -7516,7 +7516,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7533,7 +7533,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet undetected dla Overwatch 2 na PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -7551,7 +7551,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7776,7 +7776,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Боксы игроков и wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -7794,7 +7794,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7811,7 +7811,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Управление tracking aimbot",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -7829,7 +7829,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7846,7 +7846,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Функции | Полный список функций",
-					description: "Функции: ESP, tracking aimbot, wallhack controls. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Функции: ESP, tracking aimbot, wallhack controls. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Функции",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Функции.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -7864,7 +7864,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Функции",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7881,7 +7881,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Цены | Месяц и lifetime",
-					description: "Цены: $35 monthly or $150 lifetime licenses. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Цены: $35 monthly or $150 lifetime licenses. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Цены",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Цены.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -7899,7 +7899,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Цены",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7916,7 +7916,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Установка | Гайд по установке",
-					description: "Установка: Windows PC activation and first-launch setup. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Установка: Windows PC activation and first-launch setup. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Установка",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Установка.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -7934,7 +7934,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Установка",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7951,7 +7951,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Обновления | Журнал Blizzard Anti-Cheat",
-					description: "Обновления: Blizzard Anti-Cheat patch status and rebuild notes. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Обновления: Blizzard Anti-Cheat patch status and rebuild notes. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Обновления",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Обновления.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -7969,7 +7969,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Обновления",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -7986,7 +7986,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Частые вопросы",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -8004,7 +8004,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8021,7 +8021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Поддержка | Помощь и контакт",
-					description: "Поддержка: order help and license support contact. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Поддержка: order help and license support contact. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Поддержка",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Поддержка.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -8039,7 +8039,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Поддержка",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8055,26 +8055,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected читы | Статус undetected",
-					description: "Undetected читы: undetected maintenance after Blizzard Anti-Cheat patches. мгновенная цифровая доставка. undetected — Windows PC.",
-					h1: "Undetected читы",
-					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Undetected читы.",
+					title: "Читы Overwatch 2 | Статус пакета",
+					description: "Читы Overwatch 2: maintenance after Blizzard Anti-Cheat patches. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
+					h1: "Читы Overwatch 2",
+					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Читы Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected читы",
+					galleryTitle: "Читы Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected читы",
+							h2: "Читы Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Читы Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8091,7 +8091,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | Видимость ESP",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -8109,7 +8109,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8126,7 +8126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D радар угроз",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -8144,7 +8144,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8161,7 +8161,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Обслуживание патчей",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -8179,7 +8179,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8196,7 +8196,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Читы Overwatch 2 2026 | Гайд покупателя",
-					description: "Читы Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Читы Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Читы Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Читы Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -8214,7 +8214,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Читы Overwatch 2 2026",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8231,7 +8231,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Читы Overwatch 2 | Гайд ESP и Aimbot",
-					description: "Читы Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Читы Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Читы Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Читы Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -8249,7 +8249,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Читы Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8266,7 +8266,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Скачать Overwatch 2 Cheats | Мгновенный доступ",
-					description: "Скачать Overwatch 2 Cheats: digital license download after payment. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Скачать Overwatch 2 Cheats: digital license download after payment. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Скачать Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Скачать Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -8284,7 +8284,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Скачать Overwatch 2 Cheats",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8301,7 +8301,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Мод-меню Overwatch 2 | Игровые переключатели",
-					description: "Мод-меню Overwatch 2: in-client ESP and tracking aimbot toggles. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Мод-меню Overwatch 2: in-client ESP and tracking aimbot toggles. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Мод-меню Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Мод-меню Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -8319,7 +8319,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Мод-меню Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8336,7 +8336,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Настройки tracking aimbot",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -8354,7 +8354,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8371,7 +8371,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Лучшие читы Overwatch 2 | Чеклист покупателя",
-					description: "Лучшие читы Overwatch 2: what to compare before buying Overwatch 2 cheats. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Лучшие читы Overwatch 2: what to compare before buying Overwatch 2 cheats. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Лучшие читы Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Лучшие читы Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -8389,7 +8389,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Лучшие читы Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8406,7 +8406,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Хак aimbot Overwatch 2 | Tracking aimbot ассист",
-					description: "Хак aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Хак aimbot Overwatch 2: aimbot assist for Overwatch 2. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Хак aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Хак aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -8419,12 +8419,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Хак aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. aimbot assist for Overwatch 2.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Хак aimbot Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8441,7 +8441,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Хак ESP Overwatch 2 | Боксы и герои",
-					description: "Хак ESP Overwatch 2: ESP hack boxes, hero markers, and distance. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Хак ESP Overwatch 2: ESP hack boxes, hero markers, and distance. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Хак ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Хак ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -8459,7 +8459,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Хак ESP Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8476,7 +8476,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | Что это значит",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. мгновенная цифровая доставка. undetected — Windows PC.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в undetected пакете для Overwatch 2 на Windows PC. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -8494,7 +8494,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный undetected статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8719,7 +8719,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -8737,7 +8737,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8754,7 +8754,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -8772,7 +8772,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8789,7 +8789,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Özellikler | Full Feature List",
-					description: "Özellikler: ESP, tracking aimbot, wallhack controls. anında dijital teslimat. undetected — Windows PC.",
+					description: "Özellikler: ESP, tracking aimbot, wallhack controls. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Özellikler",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Özellikler.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -8807,7 +8807,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Özellikler",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8824,7 +8824,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Fiyatlar | Monthly & Lifetime",
-					description: "Fiyatlar: $35 monthly or $150 lifetime licenses. anında dijital teslimat. undetected — Windows PC.",
+					description: "Fiyatlar: $35 monthly or $150 lifetime licenses. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Fiyatlar",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Fiyatlar.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -8842,7 +8842,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Fiyatlar",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8859,7 +8859,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Kurulum | PC Setup Guide",
-					description: "Kurulum: Windows PC activation and first-launch setup. anında dijital teslimat. undetected — Windows PC.",
+					description: "Kurulum: Windows PC activation and first-launch setup. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Kurulum",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Kurulum.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -8877,7 +8877,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Kurulum",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8894,7 +8894,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Güncellemeler | Blizzard Anti-Cheat Maintenance Log",
-					description: "Güncellemeler: Blizzard Anti-Cheat patch status and rebuild notes. anında dijital teslimat. undetected — Windows PC.",
+					description: "Güncellemeler: Blizzard Anti-Cheat patch status and rebuild notes. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Güncellemeler",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Güncellemeler.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -8912,7 +8912,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Güncellemeler",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8929,7 +8929,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "SSS | Common Answers",
-					description: "SSS: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. anında dijital teslimat. undetected — Windows PC.",
+					description: "SSS: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "SSS",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. SSS.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -8947,7 +8947,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "SSS",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8964,7 +8964,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Destek | Help & Contact",
-					description: "Destek: order help and license support contact. anında dijital teslimat. undetected — Windows PC.",
+					description: "Destek: order help and license support contact. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Destek",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Destek.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -8982,7 +8982,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Destek",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -8998,26 +8998,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected hileler | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected hileler: undetected maintenance after Blizzard Anti-Cheat patches. anında dijital teslimat. undetected — Windows PC.",
-					h1: "Undetected hileler",
-					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Undetected hileler.",
+					title: "Overwatch 2 Hileleri | Patch Status",
+					description: "Overwatch 2 Hileleri: maintenance after Blizzard Anti-Cheat patches. anında dijital teslimat. Overwatch 2 Cheats satın al.",
+					h1: "Overwatch 2 Hileleri",
+					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Hileleri.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected hileler",
+					galleryTitle: "Overwatch 2 Hileleri",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected hileler",
+							h2: "Overwatch 2 Hileleri",
 							paragraphs: [
-								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. maintenance after Blizzard Anti-Cheat patches.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Hileleri",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9034,7 +9034,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -9052,7 +9052,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9069,7 +9069,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. anında dijital teslimat. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -9087,7 +9087,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9104,7 +9104,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat maintenance | Patch Maintenance",
-					description: "Blizzard Anti-Cheat maintenance: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. anında dijital teslimat. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat maintenance: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Blizzard Anti-Cheat maintenance",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Blizzard Anti-Cheat maintenance.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -9122,7 +9122,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat maintenance",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9139,7 +9139,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Hileleri 2026 | Buyer Guide",
-					description: "Overwatch 2 Hileleri 2026: 2026 Overwatch 2 cheats checklist before checkout. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Hileleri 2026: 2026 Overwatch 2 cheats checklist before checkout. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Hileleri 2026",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Hileleri 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -9157,7 +9157,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Hileleri 2026",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9174,7 +9174,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Hileleri | ESP Aimbot Guide",
-					description: "Overwatch 2 Hileleri: Overwatch 2 cheats with ESP, aimbot, and wallhack. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Hileleri: Overwatch 2 cheats with ESP, aimbot, and wallhack. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Hileleri",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Hileleri.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -9192,7 +9192,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Hileleri",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9209,7 +9209,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Hile İndir | Instant Access",
-					description: "Overwatch 2 Hile İndir: digital license download after payment. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Hile İndir: digital license download after payment. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Hile İndir",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Hile İndir.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -9227,7 +9227,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Hile İndir",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9244,7 +9244,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod Menü | In-Game Toggles",
-					description: "Overwatch 2 Mod Menü: in-client ESP and tracking aimbot toggles. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Mod Menü: in-client ESP and tracking aimbot toggles. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Mod Menü",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Mod Menü.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -9262,7 +9262,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod Menü",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9279,7 +9279,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -9297,7 +9297,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9314,7 +9314,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "En İyi Overwatch 2 Hileleri | Buyer Checklist",
-					description: "En İyi Overwatch 2 Hileleri: what to compare before buying Overwatch 2 cheats. anında dijital teslimat. undetected — Windows PC.",
+					description: "En İyi Overwatch 2 Hileleri: what to compare before buying Overwatch 2 cheats. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "En İyi Overwatch 2 Hileleri",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. En İyi Overwatch 2 Hileleri.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -9332,7 +9332,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "En İyi Overwatch 2 Hileleri",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9349,7 +9349,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hilesi | Tracking Aimbot Assist",
-					description: "Overwatch 2 Aimbot Hilesi: undetected Aimbot hack assist for Overwatch 2. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hilesi: aimbot assist for Overwatch 2. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Aimbot Hilesi",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Aimbot Hilesi.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -9362,12 +9362,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hilesi",
 							paragraphs: [
-								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. aimbot assist for Overwatch 2.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hilesi",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9384,7 +9384,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hilesi | Boxes & Heroes",
-					description: "Overwatch 2 ESP Hilesi: ESP hack boxes, hero markers, and distance. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hilesi: ESP hack boxes, hero markers, and distance. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 ESP Hilesi",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 ESP Hilesi.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -9402,7 +9402,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hilesi",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9419,7 +9419,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. anında dijital teslimat. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. anında dijital teslimat. Overwatch 2 Cheats satın al.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot undetected paket sunar. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -9437,7 +9437,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9662,7 +9662,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -9680,7 +9680,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9697,7 +9697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -9715,7 +9715,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9732,7 +9732,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "الميزات | Full Feature List",
-					description: "الميزات: ESP, tracking aimbot, wallhack controls. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "الميزات: ESP, tracking aimbot, wallhack controls. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "الميزات",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. الميزات.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -9750,7 +9750,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "الميزات",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9767,7 +9767,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "الأسعار | Monthly & Lifetime",
-					description: "الأسعار: $35 monthly or $150 lifetime licenses. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "الأسعار: $35 monthly or $150 lifetime licenses. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "الأسعار",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. الأسعار.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -9785,7 +9785,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "الأسعار",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9802,7 +9802,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "التثبيت | PC Setup Guide",
-					description: "التثبيت: Windows PC activation and first-launch setup. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "التثبيت: Windows PC activation and first-launch setup. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "التثبيت",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. التثبيت.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -9820,7 +9820,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "التثبيت",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9837,7 +9837,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "التحديثات | Blizzard Anti-Cheat Maintenance Log",
-					description: "التحديثات: Blizzard Anti-Cheat patch status and rebuild notes. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "التحديثات: Blizzard Anti-Cheat patch status and rebuild notes. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "التحديثات",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. التحديثات.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -9855,7 +9855,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "التحديثات",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9872,7 +9872,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "الأسئلة | Common Answers",
-					description: "الأسئلة: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "الأسئلة: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "الأسئلة",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. الأسئلة.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -9890,7 +9890,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "الأسئلة",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9907,7 +9907,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "الدعم | Help & Contact",
-					description: "الدعم: order help and license support contact. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "الدعم: order help and license support contact. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "الدعم",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. الدعم.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -9925,7 +9925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "الدعم",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9941,26 +9941,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "غش undetected | Blizzard Anti-Cheat Safe Status",
-					description: "غش undetected: undetected maintenance after Blizzard Anti-Cheat patches. تسليم رقمي فوري. غير مكتشف — Windows PC.",
-					h1: "غش undetected",
-					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. غش undetected.",
+					title: "غش Overwatch 2 | Patch Status",
+					description: "غش Overwatch 2: maintenance after Blizzard Anti-Cheat patches. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
+					h1: "غش Overwatch 2",
+					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. غش Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "غش undetected",
+					galleryTitle: "غش Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "غش undetected",
+							h2: "غش Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "غش Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -9977,7 +9977,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -9995,7 +9995,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10012,7 +10012,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -10030,7 +10030,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Wallhack",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10047,7 +10047,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -10065,7 +10065,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10082,7 +10082,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "غش Overwatch 2 2026 | Buyer Guide",
-					description: "غش Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "غش Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "غش Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. غش Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -10100,7 +10100,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "غش Overwatch 2 2026",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10117,7 +10117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "غش Overwatch 2 | ESP Aimbot Guide",
-					description: "غش Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "غش Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "غش Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. غش Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -10135,7 +10135,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "غش Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10152,7 +10152,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "تحميل Overwatch 2 Cheats | Instant Access",
-					description: "تحميل Overwatch 2 Cheats: digital license download after payment. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "تحميل Overwatch 2 Cheats: digital license download after payment. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "تحميل Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. تحميل Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -10170,7 +10170,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "تحميل Overwatch 2 Cheats",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10187,7 +10187,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "قائمة مود Overwatch 2 | In-Game Toggles",
-					description: "قائمة مود Overwatch 2: in-client ESP and tracking aimbot toggles. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "قائمة مود Overwatch 2: in-client ESP and tracking aimbot toggles. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "قائمة مود Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. قائمة مود Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -10205,7 +10205,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "قائمة مود Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10222,7 +10222,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -10240,7 +10240,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10257,7 +10257,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "أفضل غش Overwatch 2 | Buyer Checklist",
-					description: "أفضل غش Overwatch 2: what to compare before buying Overwatch 2 cheats. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "أفضل غش Overwatch 2: what to compare before buying Overwatch 2 cheats. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "أفضل غش Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. أفضل غش Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -10275,7 +10275,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "أفضل غش Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10292,7 +10292,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "هاك Aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "هاك Aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "هاك Aimbot Overwatch 2: aimbot assist for Overwatch 2. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "هاك Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. هاك Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -10305,12 +10305,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "هاك Aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. aimbot assist for Overwatch 2.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "هاك Aimbot Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10327,7 +10327,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "هاك ESP Overwatch 2 | Boxes & Heroes",
-					description: "هاك ESP Overwatch 2: ESP hack boxes, hero markers, and distance. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "هاك ESP Overwatch 2: ESP hack boxes, hero markers, and distance. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "هاك ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. هاك ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -10345,7 +10345,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "هاك ESP Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10362,7 +10362,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. تسليم رقمي فوري. غير مكتشف — Windows PC.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot غير مكتشف لـ Overwatch 2 على Windows PC. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -10380,7 +10380,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة undetected دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10605,7 +10605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -10623,7 +10623,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10640,7 +10640,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -10658,7 +10658,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10675,7 +10675,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "機能 | Full Feature List",
-					description: "機能: ESP, tracking aimbot, wallhack controls. 即時デジタル配信. undetected — Windows PC.",
+					description: "機能: ESP, tracking aimbot, wallhack controls. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "機能",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。機能.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -10693,7 +10693,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "機能",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10710,7 +10710,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "料金 | Monthly & Lifetime",
-					description: "料金: $35 monthly or $150 lifetime licenses. 即時デジタル配信. undetected — Windows PC.",
+					description: "料金: $35 monthly or $150 lifetime licenses. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "料金",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。料金.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -10728,7 +10728,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "料金",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10745,7 +10745,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "セットアップ | PC Setup Guide",
-					description: "セットアップ: Windows PC activation and first-launch setup. 即時デジタル配信. undetected — Windows PC.",
+					description: "セットアップ: Windows PC activation and first-launch setup. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "セットアップ",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。セットアップ.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -10763,7 +10763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "セットアップ",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10780,7 +10780,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "更新 | Blizzard Anti-Cheat Maintenance Log",
-					description: "更新: Blizzard Anti-Cheat patch status and rebuild notes. 即時デジタル配信. undetected — Windows PC.",
+					description: "更新: Blizzard Anti-Cheat patch status and rebuild notes. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "更新",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。更新.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -10798,7 +10798,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "更新",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10815,7 +10815,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 即時デジタル配信. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "FAQ",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -10833,7 +10833,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10850,7 +10850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "サポート | Help & Contact",
-					description: "サポート: order help and license support contact. 即時デジタル配信. undetected — Windows PC.",
+					description: "サポート: order help and license support contact. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "サポート",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。サポート.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -10868,7 +10868,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "サポート",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10884,26 +10884,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetectedチート | Blizzard Anti-Cheat Safe Status",
-					description: "Undetectedチート: undetected maintenance after Blizzard Anti-Cheat patches. 即時デジタル配信. undetected — Windows PC.",
-					h1: "Undetectedチート",
-					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Undetectedチート.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetectedチート",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetectedチート",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。maintenance after Blizzard Anti-Cheat patches.",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10920,7 +10920,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -10938,7 +10938,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10955,7 +10955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. 即時デジタル配信. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -10973,7 +10973,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -10990,7 +10990,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 即時デジタル配信. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -11008,7 +11008,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11025,7 +11025,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -11043,7 +11043,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11060,7 +11060,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -11078,7 +11078,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11095,7 +11095,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Instant Access",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -11113,7 +11113,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11130,7 +11130,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod Menu | In-Game Toggles",
-					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Mod Menu",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Mod Menu.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -11148,7 +11148,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod Menu",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11165,7 +11165,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -11183,7 +11183,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11200,7 +11200,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "最強Overwatch 2チート | Buyer Checklist",
-					description: "最強Overwatch 2チート: what to compare before buying Overwatch 2 cheats. 即時デジタル配信. undetected — Windows PC.",
+					description: "最強Overwatch 2チート: what to compare before buying Overwatch 2 cheats. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "最強Overwatch 2チート",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。最強Overwatch 2チート.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -11218,7 +11218,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "最強Overwatch 2チート",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11235,7 +11235,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hack | Tracking Aimbot Assist",
-					description: "Overwatch 2 Aimbot Hack: undetected Aimbot hack assist for Overwatch 2. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hack: aimbot assist for Overwatch 2. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Aimbot Hack",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Aimbot Hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -11248,12 +11248,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
-								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。aimbot assist for Overwatch 2.",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11270,7 +11270,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Boxes & Heroes",
-					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 ESP Hack",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 ESP Hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -11288,7 +11288,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hack",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11305,7 +11305,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 即時デジタル配信. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのundetectedパッケージです。Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -11323,7 +11323,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11548,7 +11548,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -11566,7 +11566,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11583,7 +11583,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -11601,7 +11601,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11618,7 +11618,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "기능 | Full Feature List",
-					description: "기능: ESP, tracking aimbot, wallhack controls. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "기능: ESP, tracking aimbot, wallhack controls. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "기능",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 기능.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -11636,7 +11636,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "기능",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11653,7 +11653,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "가격 | Monthly & Lifetime",
-					description: "가격: $35 monthly or $150 lifetime licenses. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "가격: $35 monthly or $150 lifetime licenses. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "가격",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 가격.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -11671,7 +11671,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "가격",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11688,7 +11688,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "설치 | PC Setup Guide",
-					description: "설치: Windows PC activation and first-launch setup. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "설치: Windows PC activation and first-launch setup. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "설치",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 설치.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -11706,7 +11706,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "설치",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11723,7 +11723,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "업데이트 | Blizzard Anti-Cheat Maintenance Log",
-					description: "업데이트: Blizzard Anti-Cheat patch status and rebuild notes. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "업데이트: Blizzard Anti-Cheat patch status and rebuild notes. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "업데이트",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 업데이트.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -11741,7 +11741,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "업데이트",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11758,7 +11758,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -11776,7 +11776,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11793,7 +11793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "지원 | Help & Contact",
-					description: "지원: order help and license support contact. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "지원: order help and license support contact. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "지원",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 지원.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -11811,7 +11811,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "지원",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11827,26 +11827,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected 치트 | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected 치트: undetected maintenance after Blizzard Anti-Cheat patches. 즉시 디지털 배송. undetected — Windows PC.",
-					h1: "Undetected 치트",
-					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Undetected 치트.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected 치트",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected 치트",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. maintenance after Blizzard Anti-Cheat patches.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11863,7 +11863,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -11881,7 +11881,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11898,7 +11898,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -11916,7 +11916,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11933,7 +11933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -11951,7 +11951,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -11968,7 +11968,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -11986,7 +11986,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12003,7 +12003,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -12021,7 +12021,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12038,7 +12038,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Instant Access",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -12056,7 +12056,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12073,7 +12073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 모드 메뉴 | In-Game Toggles",
-					description: "Overwatch 2 모드 메뉴: in-client ESP and tracking aimbot toggles. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 모드 메뉴: in-client ESP and tracking aimbot toggles. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 모드 메뉴",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 모드 메뉴.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -12091,7 +12091,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 모드 메뉴",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12108,7 +12108,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -12126,7 +12126,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12143,7 +12143,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "최고의 Overwatch 2 치트 | Buyer Checklist",
-					description: "최고의 Overwatch 2 치트: what to compare before buying Overwatch 2 cheats. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "최고의 Overwatch 2 치트: what to compare before buying Overwatch 2 cheats. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "최고의 Overwatch 2 치트",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. 최고의 Overwatch 2 치트.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -12161,7 +12161,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "최고의 Overwatch 2 치트",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12178,7 +12178,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 에임봇 핵 | Tracking Aimbot Assist",
-					description: "Overwatch 2 에임봇 핵: undetected Aimbot hack assist for Overwatch 2. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 에임봇 핵: aimbot assist for Overwatch 2. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 에임봇 핵",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 에임봇 핵.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -12191,12 +12191,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 에임봇 핵",
 							paragraphs: [
-								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. aimbot assist for Overwatch 2.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 에임봇 핵",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12213,7 +12213,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP 핵 | Boxes & Heroes",
-					description: "Overwatch 2 ESP 핵: ESP hack boxes, hero markers, and distance. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 ESP 핵: ESP hack boxes, hero markers, and distance. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 ESP 핵",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 ESP 핵.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -12231,7 +12231,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP 핵",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12248,7 +12248,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 즉시 디지털 배송. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot undetected 패키지입니다. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -12266,7 +12266,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12491,7 +12491,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -12509,7 +12509,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12526,7 +12526,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -12544,7 +12544,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12561,7 +12561,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "功能 | Full Feature List",
-					description: "功能: ESP, tracking aimbot, wallhack controls. 即时数字交付. undetected — Windows PC.",
+					description: "功能: ESP, tracking aimbot, wallhack controls. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "功能",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。功能.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -12579,7 +12579,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "功能",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12596,7 +12596,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "价格 | Monthly & Lifetime",
-					description: "价格: $35 monthly or $150 lifetime licenses. 即时数字交付. undetected — Windows PC.",
+					description: "价格: $35 monthly or $150 lifetime licenses. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "价格",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。价格.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -12614,7 +12614,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "价格",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12631,7 +12631,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "安装 | PC Setup Guide",
-					description: "安装: Windows PC activation and first-launch setup. 即时数字交付. undetected — Windows PC.",
+					description: "安装: Windows PC activation and first-launch setup. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "安装",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。安装.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -12649,7 +12649,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "安装",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12666,7 +12666,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "更新 | Blizzard Anti-Cheat Maintenance Log",
-					description: "更新: Blizzard Anti-Cheat patch status and rebuild notes. 即时数字交付. undetected — Windows PC.",
+					description: "更新: Blizzard Anti-Cheat patch status and rebuild notes. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "更新",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。更新.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -12684,7 +12684,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "更新",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12701,7 +12701,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "常见问题 | Common Answers",
-					description: "常见问题: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 即时数字交付. undetected — Windows PC.",
+					description: "常见问题: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "常见问题",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。常见问题.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -12719,7 +12719,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "常见问题",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12736,7 +12736,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "支持 | Help & Contact",
-					description: "支持: order help and license support contact. 即时数字交付. undetected — Windows PC.",
+					description: "支持: order help and license support contact. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "支持",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。支持.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -12754,7 +12754,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "支持",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12770,26 +12770,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected作弊 | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected作弊: undetected maintenance after Blizzard Anti-Cheat patches. 即时数字交付. undetected — Windows PC.",
-					h1: "Undetected作弊",
-					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Undetected作弊.",
+					title: "Overwatch 2 作弊 | Patch Status",
+					description: "Overwatch 2 作弊: maintenance after Blizzard Anti-Cheat patches. 即时数字交付. 购买 Overwatch 2 Cheats.",
+					h1: "Overwatch 2 作弊",
+					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 作弊.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected作弊",
+					galleryTitle: "Overwatch 2 作弊",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected作弊",
+							h2: "Overwatch 2 作弊",
 							paragraphs: [
-								"Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。maintenance after Blizzard Anti-Cheat patches.",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 作弊",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12806,7 +12806,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -12824,7 +12824,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12841,7 +12841,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. 即时数字交付. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -12859,7 +12859,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12876,7 +12876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 即时数字交付. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -12894,7 +12894,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12911,7 +12911,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2作弊 2026 | Buyer Guide",
-					description: "Overwatch 2作弊 2026: 2026 Overwatch 2 cheats checklist before checkout. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2作弊 2026: 2026 Overwatch 2 cheats checklist before checkout. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2作弊 2026",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2作弊 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -12929,7 +12929,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2作弊 2026",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12946,7 +12946,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2作弊 | ESP Aimbot Guide",
-					description: "Overwatch 2作弊: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2作弊: Overwatch 2 cheats with ESP, aimbot, and wallhack. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2作弊",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2作弊.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -12964,7 +12964,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2作弊",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -12981,7 +12981,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2作弊下载 | Instant Access",
-					description: "Overwatch 2作弊下载: digital license download after payment. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2作弊下载: digital license download after payment. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2作弊下载",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2作弊下载.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -12999,7 +12999,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2作弊下载",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13016,7 +13016,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2修改菜单 | In-Game Toggles",
-					description: "Overwatch 2修改菜单: in-client ESP and tracking aimbot toggles. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2修改菜单: in-client ESP and tracking aimbot toggles. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2修改菜单",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2修改菜单.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -13034,7 +13034,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2修改菜单",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13051,7 +13051,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -13069,7 +13069,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13086,7 +13086,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "最佳Overwatch 2作弊 | Buyer Checklist",
-					description: "最佳Overwatch 2作弊: what to compare before buying Overwatch 2 cheats. 即时数字交付. undetected — Windows PC.",
+					description: "最佳Overwatch 2作弊: what to compare before buying Overwatch 2 cheats. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "最佳Overwatch 2作弊",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。最佳Overwatch 2作弊.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -13104,7 +13104,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "最佳Overwatch 2作弊",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13121,7 +13121,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2自瞄外挂 | Tracking Aimbot Assist",
-					description: "Overwatch 2自瞄外挂: undetected Aimbot hack assist for Overwatch 2. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2自瞄外挂: aimbot assist for Overwatch 2. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2自瞄外挂",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2自瞄外挂.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -13134,12 +13134,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2自瞄外挂",
 							paragraphs: [
-								"Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。aimbot assist for Overwatch 2.",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2自瞄外挂",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13156,7 +13156,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP外挂 | Boxes & Heroes",
-					description: "Overwatch 2 ESP外挂: ESP hack boxes, hero markers, and distance. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 ESP外挂: ESP hack boxes, hero markers, and distance. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP外挂",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 ESP外挂.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -13174,7 +13174,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP外挂",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13191,7 +13191,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 即时数字交付. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. 即时数字交付. 购买 Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbotundetected套餐。Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -13209,7 +13209,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久undetected。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13434,7 +13434,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -13452,7 +13452,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13469,7 +13469,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -13487,7 +13487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13504,7 +13504,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "फ़ीचर्स | Full Feature List",
-					description: "फ़ीचर्स: ESP, tracking aimbot, wallhack controls. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "फ़ीचर्स: ESP, tracking aimbot, wallhack controls. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "फ़ीचर्स",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। फ़ीचर्स.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -13522,7 +13522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "फ़ीचर्स",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13539,7 +13539,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "कीमत | Monthly & Lifetime",
-					description: "कीमत: $35 monthly or $150 lifetime licenses. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "कीमत: $35 monthly or $150 lifetime licenses. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "कीमत",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। कीमत.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -13557,7 +13557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "कीमत",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13574,7 +13574,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "सेटअप | PC Setup Guide",
-					description: "सेटअप: Windows PC activation and first-launch setup. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "सेटअप: Windows PC activation and first-launch setup. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "सेटअप",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। सेटअप.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -13592,7 +13592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "सेटअप",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13609,7 +13609,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "अपडेट | Blizzard Anti-Cheat Maintenance Log",
-					description: "अपडेट: Blizzard Anti-Cheat patch status and rebuild notes. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "अपडेट: Blizzard Anti-Cheat patch status and rebuild notes. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "अपडेट",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। अपडेट.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -13627,7 +13627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "अपडेट",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13644,7 +13644,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -13662,7 +13662,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13679,7 +13679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "सहायता | Help & Contact",
-					description: "सहायता: order help and license support contact. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "सहायता: order help and license support contact. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "सहायता",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। सहायता.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -13697,7 +13697,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "सहायता",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13713,26 +13713,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected cheats | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected cheats: undetected maintenance after Blizzard Anti-Cheat patches. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
-					h1: "Undetected cheats",
-					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Undetected cheats.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected cheats",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected cheats",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। maintenance after Blizzard Anti-Cheat patches.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13749,7 +13749,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -13767,7 +13767,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13784,7 +13784,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -13802,7 +13802,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13819,7 +13819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -13837,7 +13837,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13854,7 +13854,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -13872,7 +13872,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13889,7 +13889,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -13907,7 +13907,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13924,7 +13924,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Instant Access",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -13942,7 +13942,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13959,7 +13959,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod Menu | In-Game Toggles",
-					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Mod Menu: in-client ESP and tracking aimbot toggles. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Mod Menu",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Mod Menu.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -13977,7 +13977,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod Menu",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -13994,7 +13994,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -14012,7 +14012,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14029,7 +14029,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "सर्वश्रेष्ठ Overwatch 2 Cheats | Buyer Checklist",
-					description: "सर्वश्रेष्ठ Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "सर्वश्रेष्ठ Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "सर्वश्रेष्ठ Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। सर्वश्रेष्ठ Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -14047,7 +14047,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "सर्वश्रेष्ठ Overwatch 2 Cheats",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14064,7 +14064,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hack | Tracking Aimbot Assist",
-					description: "Overwatch 2 Aimbot Hack: undetected Aimbot hack assist for Overwatch 2. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hack: aimbot assist for Overwatch 2. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Aimbot Hack",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Aimbot Hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -14077,12 +14077,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
-								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। aimbot assist for Overwatch 2.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14099,7 +14099,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Boxes & Heroes",
-					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 ESP Hack",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 ESP Hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -14117,7 +14117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hack",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14134,7 +14134,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. तुरंत डिजिटल डिलीवरी. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot undetected पैकेज देता है। Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -14152,7 +14152,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14377,7 +14377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. pengiriman digital instan. undetected — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -14395,7 +14395,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14412,7 +14412,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. pengiriman digital instan. undetected — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -14430,7 +14430,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14447,7 +14447,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Fitur | Full Feature List",
-					description: "Fitur: ESP, tracking aimbot, wallhack controls. pengiriman digital instan. undetected — PC Windows.",
+					description: "Fitur: ESP, tracking aimbot, wallhack controls. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Fitur",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Fitur.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -14465,7 +14465,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Fitur",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14482,7 +14482,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Harga | Monthly & Lifetime",
-					description: "Harga: $35 monthly or $150 lifetime licenses. pengiriman digital instan. undetected — PC Windows.",
+					description: "Harga: $35 monthly or $150 lifetime licenses. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Harga",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Harga.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -14500,7 +14500,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Harga",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14517,7 +14517,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Setup | PC Setup Guide",
-					description: "Setup: Windows PC activation and first-launch setup. pengiriman digital instan. undetected — PC Windows.",
+					description: "Setup: Windows PC activation and first-launch setup. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Setup",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Setup.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -14535,7 +14535,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Setup",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14552,7 +14552,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Pembaruan | Blizzard Anti-Cheat Maintenance Log",
-					description: "Pembaruan: Blizzard Anti-Cheat patch status and rebuild notes. pengiriman digital instan. undetected — PC Windows.",
+					description: "Pembaruan: Blizzard Anti-Cheat patch status and rebuild notes. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Pembaruan",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Pembaruan.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -14570,7 +14570,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Pembaruan",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14587,7 +14587,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. pengiriman digital instan. undetected — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -14605,7 +14605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14622,7 +14622,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Dukungan | Help & Contact",
-					description: "Dukungan: order help and license support contact. pengiriman digital instan. undetected — PC Windows.",
+					description: "Dukungan: order help and license support contact. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Dukungan",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Dukungan.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -14640,7 +14640,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Dukungan",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14656,26 +14656,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheat undetected | Blizzard Anti-Cheat Safe Status",
-					description: "Cheat undetected: undetected maintenance after Blizzard Anti-Cheat patches. pengiriman digital instan. undetected — PC Windows.",
-					h1: "Cheat undetected",
-					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat undetected.",
+					title: "Cheat Overwatch 2 | Patch Status",
+					description: "Cheat Overwatch 2: maintenance after Blizzard Anti-Cheat patches. pengiriman digital instan. Beli Overwatch 2 Cheats.",
+					h1: "Cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheat undetected",
+					galleryTitle: "Cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14692,7 +14692,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. pengiriman digital instan. undetected — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -14710,7 +14710,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14727,7 +14727,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. pengiriman digital instan. undetected — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -14745,7 +14745,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14762,7 +14762,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. pengiriman digital instan. undetected — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -14780,7 +14780,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14797,7 +14797,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat Overwatch 2 2026 | Buyer Guide",
-					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -14815,7 +14815,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2 2026",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14832,7 +14832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -14850,7 +14850,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14867,7 +14867,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Download Cheat Overwatch 2 | Instant Access",
-					description: "Download Cheat Overwatch 2: digital license download after payment. pengiriman digital instan. undetected — PC Windows.",
+					description: "Download Cheat Overwatch 2: digital license download after payment. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Download Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Download Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -14885,7 +14885,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Download Cheat Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14902,7 +14902,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Menu mod Overwatch 2 | In-Game Toggles",
-					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. pengiriman digital instan. undetected — PC Windows.",
+					description: "Menu mod Overwatch 2: in-client ESP and tracking aimbot toggles. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Menu mod Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Menu mod Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -14920,7 +14920,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Menu mod Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14937,7 +14937,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. pengiriman digital instan. undetected — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -14955,7 +14955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -14972,7 +14972,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat Overwatch 2 terbaik | Buyer Checklist",
-					description: "Cheat Overwatch 2 terbaik: what to compare before buying Overwatch 2 cheats. pengiriman digital instan. undetected — PC Windows.",
+					description: "Cheat Overwatch 2 terbaik: what to compare before buying Overwatch 2 cheats. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 terbaik",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Cheat Overwatch 2 terbaik.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -14990,7 +14990,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2 terbaik",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -15007,7 +15007,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. pengiriman digital instan. undetected — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -15020,12 +15020,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. aimbot assist for Overwatch 2.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -15042,7 +15042,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boxes & Heroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. pengiriman digital instan. undetected — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -15060,7 +15060,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -15077,7 +15077,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. pengiriman digital instan. undetected — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. pengiriman digital instan. Beli Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot undetected untuk Overwatch 2 di PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -15095,7 +15095,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin undetected permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -15320,7 +15320,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -15338,7 +15338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15355,7 +15355,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -15373,7 +15373,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15390,7 +15390,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "ฟีเจอร์ | Full Feature List",
-					description: "ฟีเจอร์: ESP, tracking aimbot, wallhack controls. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "ฟีเจอร์: ESP, tracking aimbot, wallhack controls. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "ฟีเจอร์",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ฟีเจอร์.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -15408,7 +15408,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ฟีเจอร์",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15425,7 +15425,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "ราคา | Monthly & Lifetime",
-					description: "ราคา: $35 monthly or $150 lifetime licenses. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "ราคา: $35 monthly or $150 lifetime licenses. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "ราคา",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ราคา.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -15443,7 +15443,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ราคา",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15460,7 +15460,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "ติดตั้ง | PC Setup Guide",
-					description: "ติดตั้ง: Windows PC activation and first-launch setup. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "ติดตั้ง: Windows PC activation and first-launch setup. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "ติดตั้ง",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ติดตั้ง.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -15478,7 +15478,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ติดตั้ง",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15495,7 +15495,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "อัปเดต | Blizzard Anti-Cheat Maintenance Log",
-					description: "อัปเดต: Blizzard Anti-Cheat patch status and rebuild notes. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "อัปเดต: Blizzard Anti-Cheat patch status and rebuild notes. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "อัปเดต",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC อัปเดต.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -15513,7 +15513,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "อัปเดต",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15530,7 +15530,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -15548,7 +15548,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15565,7 +15565,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "สนับสนุน | Help & Contact",
-					description: "สนับสนุน: order help and license support contact. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "สนับสนุน: order help and license support contact. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "สนับสนุน",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC สนับสนุน.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -15583,7 +15583,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "สนับสนุน",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15599,26 +15599,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheats undetected | Blizzard Anti-Cheat Safe Status",
-					description: "Cheats undetected: undetected maintenance after Blizzard Anti-Cheat patches. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
-					h1: "Cheats undetected",
-					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Cheats undetected.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheats undetected",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheats undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC maintenance after Blizzard Anti-Cheat patches.",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15635,7 +15635,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -15653,7 +15653,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15670,7 +15670,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -15688,7 +15688,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15705,7 +15705,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -15723,7 +15723,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15740,7 +15740,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -15758,7 +15758,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15775,7 +15775,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -15793,7 +15793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15810,7 +15810,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "ดาวน์โหลด Overwatch 2 Cheats | Instant Access",
-					description: "ดาวน์โหลด Overwatch 2 Cheats: digital license download after payment. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "ดาวน์โหลด Overwatch 2 Cheats: digital license download after payment. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "ดาวน์โหลด Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC ดาวน์โหลด Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -15828,7 +15828,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ดาวน์โหลด Overwatch 2 Cheats",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15845,7 +15845,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "เมนูมอด Overwatch 2 | In-Game Toggles",
-					description: "เมนูมอด Overwatch 2: in-client ESP and tracking aimbot toggles. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "เมนูมอด Overwatch 2: in-client ESP and tracking aimbot toggles. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "เมนูมอด Overwatch 2",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC เมนูมอด Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -15863,7 +15863,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "เมนูมอด Overwatch 2",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15880,7 +15880,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -15898,7 +15898,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15915,7 +15915,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat Overwatch 2 ที่ดีที่สุด | Buyer Checklist",
-					description: "Cheat Overwatch 2 ที่ดีที่สุด: what to compare before buying Overwatch 2 cheats. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Cheat Overwatch 2 ที่ดีที่สุด: what to compare before buying Overwatch 2 cheats. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 ที่ดีที่สุด",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Cheat Overwatch 2 ที่ดีที่สุด.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -15933,7 +15933,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2 ที่ดีที่สุด",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15950,7 +15950,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack Aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Hack Aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Hack Aimbot Overwatch 2: aimbot assist for Overwatch 2. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Hack Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Hack Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -15963,12 +15963,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack Aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC aimbot assist for Overwatch 2.",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack Aimbot Overwatch 2",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -15985,7 +15985,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boxes & Heroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -16003,7 +16003,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -16020,7 +16020,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. จัดส่งดิจิทัลทันที. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ undetected สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -16038,7 +16038,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน undetected ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -16263,7 +16263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -16281,7 +16281,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16298,7 +16298,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -16316,7 +16316,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16333,7 +16333,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Tính năng | Full Feature List",
-					description: "Tính năng: ESP, tracking aimbot, wallhack controls. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Tính năng: ESP, tracking aimbot, wallhack controls. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Tính năng",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Tính năng.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -16351,7 +16351,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tính năng",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16368,7 +16368,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Giá | Monthly & Lifetime",
-					description: "Giá: $35 monthly or $150 lifetime licenses. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Giá: $35 monthly or $150 lifetime licenses. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Giá",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Giá.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -16386,7 +16386,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Giá",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16403,7 +16403,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Cài đặt | PC Setup Guide",
-					description: "Cài đặt: Windows PC activation and first-launch setup. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cài đặt: Windows PC activation and first-launch setup. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Cài đặt",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cài đặt.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -16421,7 +16421,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cài đặt",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16438,7 +16438,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Cập nhật | Blizzard Anti-Cheat Maintenance Log",
-					description: "Cập nhật: Blizzard Anti-Cheat patch status and rebuild notes. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cập nhật: Blizzard Anti-Cheat patch status and rebuild notes. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Cập nhật",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cập nhật.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -16456,7 +16456,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cập nhật",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16473,7 +16473,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -16491,7 +16491,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16508,7 +16508,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Hỗ trợ | Help & Contact",
-					description: "Hỗ trợ: order help and license support contact. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Hỗ trợ: order help and license support contact. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Hỗ trợ",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Hỗ trợ.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -16526,7 +16526,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hỗ trợ",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16542,26 +16542,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheat undetected | Blizzard Anti-Cheat Safe Status",
-					description: "Cheat undetected: undetected maintenance after Blizzard Anti-Cheat patches. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
-					h1: "Cheat undetected",
-					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat undetected.",
+					title: "Cheat Overwatch 2 | Patch Status",
+					description: "Cheat Overwatch 2: maintenance after Blizzard Anti-Cheat patches. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
+					h1: "Cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheat undetected",
+					galleryTitle: "Cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16578,7 +16578,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -16596,7 +16596,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16613,7 +16613,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -16631,7 +16631,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16648,7 +16648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -16666,7 +16666,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16683,7 +16683,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheat Overwatch 2 2026 | Buyer Guide",
-					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -16701,7 +16701,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2 2026",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16718,7 +16718,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheat Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -16736,7 +16736,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16753,7 +16753,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Tải Cheat Overwatch 2 | Instant Access",
-					description: "Tải Cheat Overwatch 2: digital license download after payment. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Tải Cheat Overwatch 2: digital license download after payment. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Tải Cheat Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Tải Cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -16771,7 +16771,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tải Cheat Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16788,7 +16788,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Mod menu Overwatch 2 | In-Game Toggles",
-					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Mod menu Overwatch 2: in-client ESP and tracking aimbot toggles. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Mod menu Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Mod menu Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -16806,7 +16806,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Mod menu Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16823,7 +16823,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -16841,7 +16841,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16858,7 +16858,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cheat Overwatch 2 tốt nhất | Buyer Checklist",
-					description: "Cheat Overwatch 2 tốt nhất: what to compare before buying Overwatch 2 cheats. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Cheat Overwatch 2 tốt nhất: what to compare before buying Overwatch 2 cheats. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Cheat Overwatch 2 tốt nhất",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Cheat Overwatch 2 tốt nhất.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -16876,7 +16876,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheat Overwatch 2 tốt nhất",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16893,7 +16893,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -16906,12 +16906,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. aimbot assist for Overwatch 2.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16928,7 +16928,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boxes & Heroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -16946,7 +16946,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -16963,7 +16963,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. giao hàng kỹ thuật số tức thì. undetected — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot undetected cho Overwatch 2 trên PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -16981,7 +16981,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo undetected vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -17206,7 +17206,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -17224,7 +17224,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17241,7 +17241,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -17259,7 +17259,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17276,7 +17276,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Функції | Full Feature List",
-					description: "Функції: ESP, tracking aimbot, wallhack controls. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Функції: ESP, tracking aimbot, wallhack controls. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Функції",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Функції.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -17294,7 +17294,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Функції",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17311,7 +17311,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Ціни | Monthly & Lifetime",
-					description: "Ціни: $35 monthly or $150 lifetime licenses. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Ціни: $35 monthly or $150 lifetime licenses. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Ціни",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Ціни.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -17329,7 +17329,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Ціни",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17346,7 +17346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Встановлення | PC Setup Guide",
-					description: "Встановлення: Windows PC activation and first-launch setup. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Встановлення: Windows PC activation and first-launch setup. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Встановлення",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Встановлення.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -17364,7 +17364,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Встановлення",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17381,7 +17381,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Оновлення | Blizzard Anti-Cheat Maintenance Log",
-					description: "Оновлення: Blizzard Anti-Cheat patch status and rebuild notes. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Оновлення: Blizzard Anti-Cheat patch status and rebuild notes. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Оновлення",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Оновлення.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -17399,7 +17399,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Оновлення",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17416,7 +17416,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -17434,7 +17434,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17451,7 +17451,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Підтримка | Help & Contact",
-					description: "Підтримка: order help and license support contact. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Підтримка: order help and license support contact. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Підтримка",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Підтримка.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -17469,7 +17469,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Підтримка",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17485,26 +17485,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected чіти | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected чіти: undetected maintenance after Blizzard Anti-Cheat patches. миттєва цифрова доставка. undetected — Windows PC.",
-					h1: "Undetected чіти",
-					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Undetected чіти.",
+					title: "Чіти Overwatch 2 | Patch Status",
+					description: "Чіти Overwatch 2: maintenance after Blizzard Anti-Cheat patches. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
+					h1: "Чіти Overwatch 2",
+					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Чіти Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected чіти",
+					galleryTitle: "Чіти Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected чіти",
+							h2: "Чіти Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Чіти Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17521,7 +17521,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -17539,7 +17539,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17556,7 +17556,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -17574,7 +17574,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17591,7 +17591,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -17609,7 +17609,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17626,7 +17626,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Чіти Overwatch 2 2026 | Buyer Guide",
-					description: "Чіти Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Чіти Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Чіти Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Чіти Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -17644,7 +17644,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Чіти Overwatch 2 2026",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17661,7 +17661,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Чіти Overwatch 2 | ESP Aimbot Guide",
-					description: "Чіти Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Чіти Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Чіти Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Чіти Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -17679,7 +17679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Чіти Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17696,7 +17696,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Завантаження Overwatch 2 Cheats | Instant Access",
-					description: "Завантаження Overwatch 2 Cheats: digital license download after payment. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Завантаження Overwatch 2 Cheats: digital license download after payment. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Завантаження Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Завантаження Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -17714,7 +17714,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Завантаження Overwatch 2 Cheats",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17731,7 +17731,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Мод-меню Overwatch 2 | In-Game Toggles",
-					description: "Мод-меню Overwatch 2: in-client ESP and tracking aimbot toggles. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Мод-меню Overwatch 2: in-client ESP and tracking aimbot toggles. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Мод-меню Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Мод-меню Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -17749,7 +17749,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Мод-меню Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17766,7 +17766,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -17784,7 +17784,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17801,7 +17801,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Найкращі чіти Overwatch 2 | Buyer Checklist",
-					description: "Найкращі чіти Overwatch 2: what to compare before buying Overwatch 2 cheats. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Найкращі чіти Overwatch 2: what to compare before buying Overwatch 2 cheats. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Найкращі чіти Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Найкращі чіти Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -17819,7 +17819,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Найкращі чіти Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17836,7 +17836,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Хак aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Хак aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Хак aimbot Overwatch 2: aimbot assist for Overwatch 2. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Хак aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Хак aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -17849,12 +17849,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Хак aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. aimbot assist for Overwatch 2.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Хак aimbot Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17871,7 +17871,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Хак ESP Overwatch 2 | Boxes & Heroes",
-					description: "Хак ESP Overwatch 2: ESP hack boxes, hero markers, and distance. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Хак ESP Overwatch 2: ESP hack boxes, hero markers, and distance. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Хак ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Хак ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -17889,7 +17889,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Хак ESP Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -17906,7 +17906,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. миттєва цифрова доставка. undetected — Windows PC.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у undetected пакеті для Overwatch 2 на Windows PC. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -17924,7 +17924,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний undetected статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -18149,7 +18149,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -18167,7 +18167,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18184,7 +18184,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -18202,7 +18202,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18219,7 +18219,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funkce | Full Feature List",
-					description: "Funkce: ESP, tracking aimbot, wallhack controls. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Funkce: ESP, tracking aimbot, wallhack controls. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Funkce",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Funkce.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -18237,7 +18237,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Funkce",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18254,7 +18254,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Ceny | Monthly & Lifetime",
-					description: "Ceny: $35 monthly or $150 lifetime licenses. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Ceny: $35 monthly or $150 lifetime licenses. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Ceny",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Ceny.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -18272,7 +18272,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Ceny",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18289,7 +18289,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Instalace | PC Setup Guide",
-					description: "Instalace: Windows PC activation and first-launch setup. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Instalace: Windows PC activation and first-launch setup. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Instalace",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Instalace.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -18307,7 +18307,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Instalace",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18324,7 +18324,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Aktualizace | Blizzard Anti-Cheat Maintenance Log",
-					description: "Aktualizace: Blizzard Anti-Cheat patch status and rebuild notes. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Aktualizace: Blizzard Anti-Cheat patch status and rebuild notes. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Aktualizace",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Aktualizace.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -18342,7 +18342,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aktualizace",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18359,7 +18359,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. okamžité digitální doručení. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -18377,7 +18377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18394,7 +18394,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Podpora | Help & Contact",
-					description: "Podpora: order help and license support contact. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Podpora: order help and license support contact. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Podpora",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Podpora.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -18412,7 +18412,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Podpora",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18428,26 +18428,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected cheaty | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected cheaty: undetected maintenance after Blizzard Anti-Cheat patches. okamžité digitální doručení. undetected — Windows PC.",
-					h1: "Undetected cheaty",
-					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Undetected cheaty.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected cheaty",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected cheaty",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18464,7 +18464,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -18482,7 +18482,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18499,7 +18499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -18517,7 +18517,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18534,7 +18534,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -18552,7 +18552,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18569,7 +18569,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 cheaty 2026 | Buyer Guide",
-					description: "Overwatch 2 cheaty 2026: 2026 Overwatch 2 cheats checklist before checkout. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 cheaty 2026: 2026 Overwatch 2 cheats checklist before checkout. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 cheaty 2026",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheaty 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -18587,7 +18587,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 cheaty 2026",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18604,7 +18604,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 cheaty | ESP Aimbot Guide",
-					description: "Overwatch 2 cheaty: Overwatch 2 cheats with ESP, aimbot, and wallhack. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 cheaty: Overwatch 2 cheats with ESP, aimbot, and wallhack. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 cheaty",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheaty.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -18622,7 +18622,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 cheaty",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18639,7 +18639,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Stáhnout Overwatch 2 Cheats | Instant Access",
-					description: "Stáhnout Overwatch 2 Cheats: digital license download after payment. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Stáhnout Overwatch 2 Cheats: digital license download after payment. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Stáhnout Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Stáhnout Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -18657,7 +18657,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Stáhnout Overwatch 2 Cheats",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18674,7 +18674,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 mod menu | In-Game Toggles",
-					description: "Overwatch 2 mod menu: in-client ESP and tracking aimbot toggles. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 mod menu: in-client ESP and tracking aimbot toggles. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 mod menu",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 mod menu.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -18692,7 +18692,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 mod menu",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18709,7 +18709,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -18727,7 +18727,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18744,7 +18744,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Nejlepší Overwatch 2 cheaty | Buyer Checklist",
-					description: "Nejlepší Overwatch 2 cheaty: what to compare before buying Overwatch 2 cheats. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Nejlepší Overwatch 2 cheaty: what to compare before buying Overwatch 2 cheats. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Nejlepší Overwatch 2 cheaty",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Nejlepší Overwatch 2 cheaty.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -18762,7 +18762,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Nejlepší Overwatch 2 cheaty",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18779,7 +18779,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 aimbot hack | Tracking Aimbot Assist",
-					description: "Overwatch 2 aimbot hack: undetected Aimbot hack assist for Overwatch 2. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 aimbot hack: aimbot assist for Overwatch 2. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 aimbot hack",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 aimbot hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -18792,12 +18792,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 aimbot hack",
 							paragraphs: [
-								"Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. aimbot assist for Overwatch 2.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 aimbot hack",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18814,7 +18814,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP hack | Boxes & Heroes",
-					description: "Overwatch 2 ESP hack: ESP hack boxes, hero markers, and distance. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 ESP hack: ESP hack boxes, hero markers, and distance. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP hack",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 ESP hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -18832,7 +18832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP hack",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18849,7 +18849,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. okamžité digitální doručení. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako undetected balíček pro Overwatch 2 na Windows PC. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -18867,7 +18867,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -19092,7 +19092,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "ESP Overwatch 2 | Player Boxes & Wallhack",
-					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. livrare digitală instantă. undetected — PC Windows.",
+					description: "ESP Overwatch 2: player boxes, hero markers, and wallhack overlays. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -19110,7 +19110,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "ESP Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19127,7 +19127,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Aimbot Overwatch 2 | Tracking Aimbot Controls",
-					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. livrare digitală instantă. undetected — PC Windows.",
+					description: "Aimbot Overwatch 2: tracking aimbot, FOV, and per-hero Aimbot profiles. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -19145,7 +19145,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19162,7 +19162,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funcții | Full Feature List",
-					description: "Funcții: ESP, tracking aimbot, wallhack controls. livrare digitală instantă. undetected — PC Windows.",
+					description: "Funcții: ESP, tracking aimbot, wallhack controls. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Funcții",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Funcții.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -19180,7 +19180,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Funcții",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19197,7 +19197,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Prețuri | Monthly & Lifetime",
-					description: "Prețuri: $35 monthly or $150 lifetime licenses. livrare digitală instantă. undetected — PC Windows.",
+					description: "Prețuri: $35 monthly or $150 lifetime licenses. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Prețuri",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Prețuri.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -19215,7 +19215,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Prețuri",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19232,7 +19232,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Instalare | PC Setup Guide",
-					description: "Instalare: Windows PC activation and first-launch setup. livrare digitală instantă. undetected — PC Windows.",
+					description: "Instalare: Windows PC activation and first-launch setup. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Instalare",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Instalare.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -19250,7 +19250,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Instalare",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19267,7 +19267,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Actualizări | Blizzard Anti-Cheat Maintenance Log",
-					description: "Actualizări: Blizzard Anti-Cheat patch status and rebuild notes. livrare digitală instantă. undetected — PC Windows.",
+					description: "Actualizări: Blizzard Anti-Cheat patch status and rebuild notes. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Actualizări",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Actualizări.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -19285,7 +19285,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Actualizări",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19302,7 +19302,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. livrare digitală instantă. undetected — PC Windows.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -19320,7 +19320,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19337,7 +19337,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Suport | Help & Contact",
-					description: "Suport: order help and license support contact. livrare digitală instantă. undetected — PC Windows.",
+					description: "Suport: order help and license support contact. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Suport",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Suport.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -19355,7 +19355,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Suport",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19371,26 +19371,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Cheats undetected | Blizzard Anti-Cheat Safe Status",
-					description: "Cheats undetected: undetected maintenance after Blizzard Anti-Cheat patches. livrare digitală instantă. undetected — PC Windows.",
-					h1: "Cheats undetected",
-					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cheats undetected.",
+					title: "Cheats Overwatch 2 | Patch Status",
+					description: "Cheats Overwatch 2: maintenance after Blizzard Anti-Cheat patches. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
+					h1: "Cheats Overwatch 2",
+					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Cheats undetected",
+					galleryTitle: "Cheats Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheats undetected",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. maintenance after Blizzard Anti-Cheat patches.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19407,7 +19407,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Wallhack Overwatch 2 | ESP Visibility",
-					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. livrare digitală instantă. undetected — PC Windows.",
+					description: "Wallhack Overwatch 2: wallhack ESP for players, hero markers, and distance. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Wallhack Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Wallhack Overwatch 2.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -19425,7 +19425,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19442,7 +19442,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. livrare digitală instantă. undetected — PC Windows.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -19460,7 +19460,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19477,7 +19477,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Bypass Blizzard Anti-Cheat | Patch Maintenance",
-					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. livrare digitală instantă. undetected — PC Windows.",
+					description: "Bypass Blizzard Anti-Cheat: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Bypass Blizzard Anti-Cheat",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Bypass Blizzard Anti-Cheat.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -19495,7 +19495,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bypass Blizzard Anti-Cheat",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19512,7 +19512,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Cheats Overwatch 2 2026 | Buyer Guide",
-					description: "Cheats Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cheats Overwatch 2 2026: 2026 Overwatch 2 cheats checklist before checkout. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Cheats Overwatch 2 2026",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cheats Overwatch 2 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -19530,7 +19530,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheats Overwatch 2 2026",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19547,7 +19547,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Cheats Overwatch 2 | ESP Aimbot Guide",
-					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cheats Overwatch 2: Overwatch 2 cheats with ESP, aimbot, and wallhack. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -19565,7 +19565,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cheats Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19582,7 +19582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Descărcare Overwatch 2 Cheats | Instant Access",
-					description: "Descărcare Overwatch 2 Cheats: digital license download after payment. livrare digitală instantă. undetected — PC Windows.",
+					description: "Descărcare Overwatch 2 Cheats: digital license download after payment. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Descărcare Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Descărcare Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -19600,7 +19600,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Descărcare Overwatch 2 Cheats",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19617,7 +19617,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Meniu mod Overwatch 2 | In-Game Toggles",
-					description: "Meniu mod Overwatch 2: in-client ESP and tracking aimbot toggles. livrare digitală instantă. undetected — PC Windows.",
+					description: "Meniu mod Overwatch 2: in-client ESP and tracking aimbot toggles. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Meniu mod Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Meniu mod Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -19635,7 +19635,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Meniu mod Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19652,7 +19652,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Tracking aimbot Overwatch 2 | Smooth Aim Settings",
-					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. livrare digitală instantă. undetected — PC Windows.",
+					description: "Tracking aimbot Overwatch 2: smooth tracking aimbot settings for Windows PC. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Tracking aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Tracking aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -19670,7 +19670,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Tracking aimbot Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19687,7 +19687,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Cele mai bune cheats Overwatch 2 | Buyer Checklist",
-					description: "Cele mai bune cheats Overwatch 2: what to compare before buying Overwatch 2 cheats. livrare digitală instantă. undetected — PC Windows.",
+					description: "Cele mai bune cheats Overwatch 2: what to compare before buying Overwatch 2 cheats. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Cele mai bune cheats Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Cele mai bune cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -19705,7 +19705,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Cele mai bune cheats Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19722,7 +19722,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Hack aimbot Overwatch 2 | Tracking Aimbot Assist",
-					description: "Hack aimbot Overwatch 2: undetected Aimbot hack assist for Overwatch 2. livrare digitală instantă. undetected — PC Windows.",
+					description: "Hack aimbot Overwatch 2: aimbot assist for Overwatch 2. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Hack aimbot Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Hack aimbot Overwatch 2.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -19735,12 +19735,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
-								"Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. aimbot assist for Overwatch 2.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack aimbot Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19757,7 +19757,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Hack ESP Overwatch 2 | Boxes & Heroes",
-					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. livrare digitală instantă. undetected — PC Windows.",
+					description: "Hack ESP Overwatch 2: ESP hack boxes, hero markers, and distance. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Hack ESP Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Hack ESP Overwatch 2.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -19775,7 +19775,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Hack ESP Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19792,7 +19792,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Unlock all Overwatch 2 | What It Means",
-					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. livrare digitală instantă. undetected — PC Windows.",
+					description: "Unlock all Overwatch 2: pve-cheats searches vs real ESP and Aimbot tools. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
 					h1: "Unlock all Overwatch 2",
 					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot undetected pentru Overwatch 2 pe PC Windows. Unlock all Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -19810,7 +19810,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Unlock all Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează undetected permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -20035,7 +20035,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-esp": {
 					title: "Overwatch 2 ESP | Player Boxes & Wallhack",
-					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 ESP: player boxes, hero markers, and wallhack overlays. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 ESP.",
 					imageAlt: "Overwatch 2 ESP player boxes and distance readouts in a match",
@@ -20053,7 +20053,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20070,7 +20070,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"overwatch-2-aimbot": {
 					title: "Overwatch 2 Aimbot | Tracking Aimbot Controls",
-					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot: tracking aimbot, FOV, and per-hero Aimbot profiles. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Aimbot",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Aimbot.",
 					imageAlt: "Overwatch 2 aimbot and tracking controls on Windows PC",
@@ -20088,7 +20088,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20105,7 +20105,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				features: {
 					title: "Funktioner | Full Feature List",
-					description: "Funktioner: ESP, tracking aimbot, wallhack controls. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Funktioner: ESP, tracking aimbot, wallhack controls. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Funktioner",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Funktioner.",
 					imageAlt: "Overwatch 2 Cheats features — ESP, aimbot, and wallhack screenshots",
@@ -20123,7 +20123,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Funktioner",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20140,7 +20140,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				pricing: {
 					title: "Priser | Monthly & Lifetime",
-					description: "Priser: $35 monthly or $150 lifetime licenses. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Priser: $35 monthly or $150 lifetime licenses. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Priser",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Priser.",
 					imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
@@ -20158,7 +20158,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Priser",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20175,7 +20175,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "Installation | PC Setup Guide",
-					description: "Installation: Windows PC activation and first-launch setup. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Installation: Windows PC activation and first-launch setup. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Installation",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Installation.",
 					imageAlt: "Overwatch 2 Cheats setup guide screenshot for Windows PC",
@@ -20193,7 +20193,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Installation",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20210,7 +20210,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				updates: {
 					title: "Uppdateringar | Blizzard Anti-Cheat Maintenance Log",
-					description: "Uppdateringar: Blizzard Anti-Cheat patch status and rebuild notes. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Uppdateringar: Blizzard Anti-Cheat patch status and rebuild notes. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Uppdateringar",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Uppdateringar.",
 					imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
@@ -20228,7 +20228,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Uppdateringar",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20245,7 +20245,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				faq: {
 					title: "FAQ | Common Answers",
-					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. omedelbar digital leverans. undetected — Windows PC.",
+					description: "FAQ: ESP, tracking aimbot, delivery, and Blizzard Anti-Cheat questions. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "FAQ",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. FAQ.",
 					imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
@@ -20263,7 +20263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "FAQ",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20280,7 +20280,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				support: {
 					title: "Support | Help & Contact",
-					description: "Support: order help and license support contact. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Support: order help and license support contact. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Support",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Support.",
 					imageAlt: "Overwatch 2 Cheats support page for license and setup help",
@@ -20298,7 +20298,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Support",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20314,26 +20314,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				undetected: {
-					title: "Undetected cheats | Blizzard Anti-Cheat Safe Status",
-					description: "Undetected cheats: undetected maintenance after Blizzard Anti-Cheat patches. omedelbar digital leverans. undetected — Windows PC.",
-					h1: "Undetected cheats",
-					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Undetected cheats.",
+					title: "Overwatch 2 Cheats | Patch Status",
+					description: "Overwatch 2 Cheats: maintenance after Blizzard Anti-Cheat patches. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
+					h1: "Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-					galleryTitle: "Undetected cheats",
+					galleryTitle: "Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-wallhack.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Undetected cheats",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
-								"Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. undetected maintenance after Blizzard Anti-Cheat patches.",
+								"Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. maintenance after Blizzard Anti-Cheat patches.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20350,7 +20350,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				wallhack: {
 					title: "Overwatch 2 Wallhack | ESP Visibility",
-					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Wallhack: wallhack ESP for players, hero markers, and distance. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Wallhack",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Wallhack.",
 					imageAlt: "Overwatch 2 wallhack visibility through walls in a match",
@@ -20368,7 +20368,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Wallhack",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20385,7 +20385,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				radar: {
 					title: "Wallhack | 2D Threat Overlay",
-					description: "Wallhack: wallhack overlays cues for flanks and rotations. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Wallhack: wallhack overlays cues for flanks and rotations. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Wallhack",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Wallhack.",
 					imageAlt: "Overwatch 2 wallhack overlay showing nearby threats",
@@ -20403,7 +20403,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Wallhack",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20420,7 +20420,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				anticheat: {
 					title: "Blizzard Anti-Cheat Bypass | Patch Maintenance",
-					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Blizzard Anti-Cheat Bypass: how Blizzard Anti-Cheat updates are handled for Overwatch 2 cheats. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Blizzard Anti-Cheat Bypass",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Blizzard Anti-Cheat Bypass.",
 					imageAlt: "Overwatch 2 Cheats maintenance after a Blizzard Anti-Cheat patch",
@@ -20438,7 +20438,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Blizzard Anti-Cheat Bypass",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20455,7 +20455,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheats-2026": {
 					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats 2026: 2026 Overwatch 2 cheats checklist before checkout. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Cheats 2026",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Cheats 2026.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
@@ -20473,7 +20473,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats 2026",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20490,7 +20490,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				hacks: {
 					title: "Overwatch 2 Cheats | ESP Aimbot Guide",
-					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Cheats: Overwatch 2 cheats with ESP, aimbot, and wallhack. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product page — ESP, aimbot, and wallhack",
@@ -20508,7 +20508,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheats",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20525,7 +20525,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"cheat-download": {
 					title: "Overwatch 2 Cheat Download | Instant Access",
-					description: "Overwatch 2 Cheat Download: digital license download after payment. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Cheat Download: digital license download after payment. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Cheat Download",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Cheat Download.",
 					imageAlt: "Overwatch 2 Cheats download and install delivery flow",
@@ -20543,7 +20543,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Cheat Download",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20560,7 +20560,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"crucible-cheats": {
 					title: "Overwatch 2 Mod-meny | In-Game Toggles",
-					description: "Overwatch 2 Mod-meny: in-client ESP and tracking aimbot toggles. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Mod-meny: in-client ESP and tracking aimbot toggles. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Mod-meny",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Mod-meny.",
 					imageAlt: "Overwatch 2 Cheats in-game menu controls",
@@ -20578,7 +20578,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Mod-meny",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20595,7 +20595,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aim-assist": {
 					title: "Overwatch 2 Tracking Aimbot | Smooth Aim Settings",
-					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Tracking Aimbot: smooth tracking aimbot settings for Windows PC. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Tracking Aimbot",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Tracking Aimbot.",
 					imageAlt: "Overwatch 2 aimbot FOV and smoothness settings",
@@ -20613,7 +20613,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Tracking Aimbot",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20630,7 +20630,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"best-cheats": {
 					title: "Bästa Overwatch 2 Cheats | Buyer Checklist",
-					description: "Bästa Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Bästa Overwatch 2 Cheats: what to compare before buying Overwatch 2 cheats. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Bästa Overwatch 2 Cheats",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Bästa Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
@@ -20648,7 +20648,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Bästa Overwatch 2 Cheats",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20665,7 +20665,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-hack": {
 					title: "Overwatch 2 Aimbot Hack | Tracking Aimbot Assist",
-					description: "Overwatch 2 Aimbot Hack: undetected Aimbot hack assist for Overwatch 2. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Aimbot Hack: aimbot assist for Overwatch 2. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Aimbot Hack",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Aimbot Hack.",
 					imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
@@ -20678,12 +20678,12 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
-								"Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. undetected Aimbot hack assist for Overwatch 2.",
+								"Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. aimbot assist for Overwatch 2.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Aimbot Hack",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20700,7 +20700,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-hack": {
 					title: "Overwatch 2 ESP Hack | Boxes & Heroes",
-					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 ESP Hack: ESP hack boxes, hero markers, and distance. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 ESP Hack",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 ESP Hack.",
 					imageAlt: "Overwatch 2 ESP hack boxes and hero markers",
@@ -20718,7 +20718,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 ESP Hack",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20735,7 +20735,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"pve-cheats": {
 					title: "Overwatch 2 Unlock All | What It Means",
-					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. omedelbar digital leverans. undetected — Windows PC.",
+					description: "Overwatch 2 Unlock All: pve-cheats searches vs real ESP and Aimbot tools. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
 					h1: "Overwatch 2 Unlock All",
 					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som undetected paket för Overwatch 2 på Windows PC. Overwatch 2 Unlock All.",
 					imageAlt: "Overwatch 2 Cheats license features overview",
@@ -20753,7 +20753,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Overwatch 2 Unlock All",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent undetected status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",

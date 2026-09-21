@@ -53,7 +53,7 @@ const SITE = readBrandUrl();
 const IMAGE_SITEMAP_ENTRIES = countBrandSitemapImages();
 
 const BLOG_PAGES = 20; // /forum/ index + 19 threads
-const BLOG_LEGACY_REDIRECT_PAGES = 20; // /blog/* → /forum/* EN redirect stubs
+const BLOG_LEGACY_REDIRECT_PAGES = 0; // /blog/* → edge 301 only (no HTML stubs)
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
@@ -70,8 +70,8 @@ const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** EN product HTML — 14 indexable pages (11 cannibal stubs are redirect-only, no HTML) */
 const ENGLISH_HTML_PAGES =
 	ENGLISH_PRODUCT_PAGES + BLOG_PAGES + BLOG_LEGACY_REDIRECT_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
-/** Locale HTML = product pages + forum redirect stubs (index + 19 threads) omitted from sitemaps */
-const LOCALE_BLOG_REDIRECT_PAGES = 20;
+/** Locale HTML = product pages only; /{locale}/forum/* is edge 301 (no HTML stubs) */
+const LOCALE_BLOG_REDIRECT_PAGES = 0;
 const TOTAL_HTML_PAGES =
 	ENGLISH_HTML_PAGES + I18N_LOCALES * (PRODUCT_PAGES_PER_LOCALE + LOCALE_BLOG_REDIRECT_PAGES);
 const HREFLANG_PER_URL = 23;

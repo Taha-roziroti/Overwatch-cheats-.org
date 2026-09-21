@@ -1,13 +1,6 @@
 ---
-import { blogPosts } from '../../../data/blog/helpers';
-import { defaultLocale } from '../../../data/i18n/locales';
-
+/** Edge 301 only — scripts/sync-redirect-stubs.mjs */
 export function getStaticPaths() {
-	return blogPosts.map((post) => ({
-		params: { slug: post.translations[defaultLocale].slug },
-	}));
+	return [];
 }
-
-const { slug } = Astro.params;
-return Astro.redirect(`/forum/${slug}/`, 301);
 ---

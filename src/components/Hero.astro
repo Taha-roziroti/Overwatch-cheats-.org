@@ -14,6 +14,7 @@ const locale = Astro.props.locale ?? defaultLocale;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const home = getPageContent(locale, 'home');
 const heroVideo = siteConfig.heroVideo?.trim() || '';
+const heroPoster = siteConfig.heroVideoPoster?.trim() || siteConfig.defaultOgImage || '';
 const heroLabel = locale === 'en' ? siteConfig.name : home.h1;
 const imageAlt = home.imageAlt;
 ---
@@ -25,6 +26,7 @@ const imageAlt = home.imageAlt;
 				<video
 					class="hero__video"
 					src={heroVideo}
+					poster={heroPoster}
 					autoplay
 					muted
 					loop
@@ -34,7 +36,6 @@ const imageAlt = home.imageAlt;
 					height={heroHeight}
 					aria-hidden="true"
 				>
-					<!-- Poster is intentionally omitted — the old poster looked like a static hero image. -->
 				</video>
 			) : (
 				<img

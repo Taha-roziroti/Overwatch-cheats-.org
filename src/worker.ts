@@ -12,12 +12,30 @@ export interface Env {
 
 const CANONICAL_HOST = 'overwatchcheats.org';
 
-/** Legacy domains 301 → current canonical. */
+/** Legacy domains 301 → current canonical (keep in sync with functions/_middleware.js). */
 const LEGACY_HOSTS = new Set([
 	'warthundercheat.net',
 	'www.warthundercheat.net',
 	'destiny2cheats.org',
 	'www.destiny2cheats.org',
+	'bestdestiny-2cheats.com',
+	'www.bestdestiny-2cheats.com',
+	'fortnitehack.net',
+	'www.fortnitehack.net',
+	'fortnitecheats.xyz',
+	'www.fortnitecheats.xyz',
+	'fortnitecheats.net',
+	'www.fortnitecheats.net',
+	'fortnitecheats.com',
+	'www.fortnitecheats.com',
+	'warzonehacks.net',
+	'www.warzonehacks.net',
+	'warzonescheats.net',
+	'www.warzonescheats.net',
+	'warzonescheats.com',
+	'www.warzonescheats.com',
+	'warzonescheats.xyz',
+	'www.warzonescheats.xyz',
 ]);
 
 function canonicalUrl(request: Request): URL | null {

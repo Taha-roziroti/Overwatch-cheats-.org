@@ -33,7 +33,7 @@ export const enPages = {
 	'overwatch-2-esp': {
 		title: 'Overwatch 2 ESP | Player Boxes & Wallhack',
 		description:
-			'Overwatch 2 ESP for Windows PC — player boxes, hero markers, and distance readouts. Part of our undetected Overwatch 2 cheats.',
+			'Overwatch 2 ESP for Windows PC — player boxes, hero markers, and distance readouts. Part of our Overwatch 2 cheats.',
 		h1: 'Overwatch 2 ESP — Player Boxes & Wallhack',
 		intro:
 			'Player boxes, hero markers, and distance readouts for Quick Play, Competitive, and Arcade. Toggle categories so the overlay stays readable mid-match.',
@@ -62,8 +62,8 @@ export const enPages = {
 				],
 			),
 			section(
-				'Undetected ESP with Blizzard Anti-Cheat maintenance',
-				'Overwatch 2 Cheats ESP wallhack is maintained for Overwatch 2 with rebuilds after Blizzard Anti-Cheat patches. Check the <a href="/status/">Updates page</a> before you queue — no cheat guarantees permanent undetected status.',
+				'ESP with Blizzard Anti-Cheat maintenance',
+				'Overwatch 2 Cheats ESP wallhack is maintained for Overwatch 2 with rebuilds after Blizzard Anti-Cheat patches. Check the <a href="/status/">Updates page</a> before you queue — no cheat guarantees permanent patch status.',
 				`Read ${EXT.anticheat} for how anti-cheat updates ship, then cross-check our <a href="/status/">Blizzard Anti-Cheat maintenance guide</a> after major patches.`,
 				'Checkout includes instant digital delivery for Windows 10 and 11. After purchase, follow the <a href="/setup/">Setup guide</a> and tune overlays before your first match.',
 			),
@@ -107,10 +107,10 @@ export const enPages = {
 				],
 			),
 			section(
-				'Blizzard Anti-Cheat maintenance for undetected Aimbot',
+				'Blizzard Anti-Cheat maintenance for Aimbot',
 				'Overwatch 2 Cheats rebuilds Aimbot behavior when Blizzard Anti-Cheat or major Overwatch 2 patches land. Maintenance notes appear on the <a href="/status/">Updates page</a> so you know when a new build is live.',
 				`Cross-check service health on ${EXT.status} and anti-cheat context on ${EXT.anticheat}, then follow our <a href="/status/">Blizzard Anti-Cheat maintenance guide</a> before queueing on patch day.`,
-				'Responsible settings matter — undetected status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.',
+				'Responsible settings matter — patch status requires ongoing maintenance, not set-and-forget configs. Start with conservative smoothness, then tune.',
 			),
 			section(
 				'Buy Aimbot with ESP — pricing and setup',
@@ -149,7 +149,7 @@ export const enPages = {
 				'Licensing, delivery, and Blizzard Anti-Cheat maintenance',
 				'Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Blizzard Anti-Cheat maintenance rebuilds publish on the <a href="/status/">Updates page</a> after anti-cheat or game patches.',
 				`Monitor ${EXT.status} on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href="/support/">Support</a> and support@overwatchcheats.org.`,
-				'Next step: compare plans on <a href="/pricing/">Pricing</a> or read <a href="/overwatch-2-cheats/">how undetected maintenance works</a>.',
+				'Next step: compare plans on <a href="/pricing/">Pricing</a> or read <a href="/overwatch-2-cheats/">how patch maintenance works</a>.',
 			),
 		],
 	},
@@ -159,7 +159,7 @@ export const enPages = {
 			'Overwatch 2 cheats pricing: $35/month or $150 lifetime for ESP, tracking aimbot, and wallhack on Windows PC. Instant delivery — pick a plan.',
 		h1: 'Overwatch 2 Cheats Pricing — Monthly & Lifetime',
 		intro:
-			'Choose monthly or lifetime access to undetected Overwatch 2 Cheats — ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC. Instant digital delivery after payment.',
+			'Choose monthly or lifetime access to Overwatch 2 cheats — ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC. Instant digital delivery after payment.',
 		imageAlt: "Overwatch 2 Cheats store plans for monthly and lifetime licenses",
 		galleryTitle: 'Overwatch 2 Cheats package visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -169,7 +169,7 @@ export const enPages = {
 			section(
 				'Monthly and lifetime Overwatch 2 Cheats plans',
 				'Monthly license: $35 USD for 30 days of full ESP and wallhack, and Aimbot access with Blizzard Anti-Cheat maintenance included during your term.',
-				'Lifetime license: $150 USD for long-term access to the same undetected Overwatch 2 Cheats package — ideal if you play Overwatch 2 regularly across seasons.',
+				'Lifetime license: $150 USD for long-term access to the same Overwatch 2 cheats package — ideal if you play Overwatch 2 regularly across seasons.',
 				'Both plans unlock the same feature stack described on <a href="/features/">Features</a>. Choose monthly to test, or lifetime if you already know you want the full toolkit.',
 			),
 			section(
@@ -214,7 +214,7 @@ export const enPages = {
 			section(
 				'After Overwatch 2 or Blizzard Anti-Cheat patches',
 				'When Blizzard ships a major Overwatch 2 update or Blizzard Anti-Cheat patch, revisit Updates before queueing. Download maintenance rebuilds when posted.',
-				`Official anti-cheat background: ${EXT.anticheat}. Our practical workflow is documented on the <a href="/status/">Blizzard Anti-Cheat maintenance page</a> and <a href="/overwatch-2-cheats/">undetected guide</a>.`,
+				`Official anti-cheat background: ${EXT.anticheat}. Our practical workflow is documented on the <a href="/status/">Blizzard Anti-Cheat maintenance page</a> and <a href="/overwatch-2-cheats/">guide</a>.`,
 				'Contact <a href="/support/">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.',
 			),
 		],
@@ -225,11 +225,11 @@ export const enPages = {
 			'Overwatch 2 cheats update log: Blizzard Anti-Cheat rebuilds for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before queueing after patches.',
 		h1: 'Overwatch 2 Cheats Updates — Maintenance Log',
 		intro:
-			'Track Blizzard Anti-Cheat maintenance and Overwatch 2 patch rebuilds for the undetected ESP and wallhack, and Aimbot package. Check here before queueing after major updates.',
+			'Track Blizzard Anti-Cheat maintenance and Overwatch 2 patch rebuilds for the ESP and wallhack, and Aimbot package. Check here before queueing after major updates.',
 		imageAlt: "Overwatch 2 Cheats live status after Blizzard Anti-Cheat and game patches",
 		galleryTitle: 'Overwatch 2 patch and maintenance visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
-		ctaSecondary: 'Undetected status guide',
+		ctaSecondary: 'patch status guide',
 		ctaSecondaryHref: '/overwatch-2-cheats/',
 		sections: [
 			section(
@@ -242,11 +242,11 @@ export const enPages = {
 				'What maintenance entries cover',
 				'Entries note Blizzard Anti-Cheat compatibility status, rebuilt ESP wallhack overlays, wallhack range fixes, Aimbot tuning after weapon balance changes, and digital delivery of new builds to active licenses.',
 				'Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href="/pricing/">Pricing</a> if you need to renew.',
-				'For context on why rebuilds happen, read the <a href="/status/">Blizzard Anti-Cheat maintenance guide</a> and <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a> explainer.',
+				'For context on why rebuilds happen, read the <a href="/status/">Blizzard Anti-Cheat maintenance guide</a> and <a href="/overwatch-2-cheats/">Overwatch 2 cheats</a> explainer.',
 			),
 			section(
-				'Staying undetected after patches',
-				'No cheat guarantees permanent undetected status. Combine maintenance updates with responsible in-game settings and patch awareness.',
+				'Staying after patches',
+				'No cheat guarantees permanent patch status. Combine maintenance updates with responsible in-game settings and patch awareness.',
 				`Follow season notes from ${EXT['overwatch-2']}, then confirm our rebuild is live before you queue.`,
 				'For urgent status questions after a Blizzard Anti-Cheat update, contact <a href="/support/">Support</a> with your license tier and last played build version.',
 			),
@@ -258,7 +258,7 @@ export const enPages = {
 			'Overwatch 2 cheats FAQ: ESP boxes, tracking aimbot, Blizzard Anti-Cheat maintenance, and pricing for PC. Clear answers before you buy.',
 		h1: 'Overwatch 2 Cheats FAQ — Common Questions',
 		intro:
-			'Answers about undetected Overwatch 2 Cheats — ESP and wallhack, Aimbot, Blizzard Anti-Cheat maintenance, checkout, and Overwatch 2 compatibility on Windows PC.',
+			'Answers about Overwatch 2 cheats — ESP and wallhack, Aimbot, Blizzard Anti-Cheat maintenance, checkout, and Overwatch 2 compatibility on Windows PC.',
 		imageAlt: "Overwatch 2 Cheats FAQ — delivery, setup, and update answers",
 		galleryTitle: 'Overwatch 2 Cheats FAQ visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -267,14 +267,14 @@ export const enPages = {
 		sections: [
 			section(
 				'What is Overwatch 2 Cheats?',
-				'Overwatch 2 Cheats is an undetected cheat package for Overwatch 2 on Windows PC. It includes ESP and wallhack overlays-style awareness, and Aimbot controls with Blizzard Anti-Cheat maintenance updates.',
+				'Overwatch 2 Cheats is a premium cheat package for Windows PC. It includes ESP and wallhack overlays-style awareness, and aimbot controls with Blizzard Anti-Cheat maintenance updates.',
 				'Packages cover Quick Play and Arcade. Explore <a href="/features/">Features</a> for the full control list and <a href="/overwatch-2-esp/">ESP</a> / <a href="/overwatch-2-aimbot/">Aimbot</a> for module detail.',
 				`Overwatch 2 itself is published by Blizzard (${EXT['overwatch-2']}). Cheats are third-party tools and may violate Blizzard's rules — use is at your own risk.`,
 			),
 			section(
-				'Are Overwatch 2 Cheats undetected in 2026?',
-				'Overwatch 2 Cheats is maintained with rebuilds after Blizzard Anti-Cheat and game patches. Check the <a href="/status/">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.',
-				'Read <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a> and the <a href="/status/">Blizzard Anti-Cheat guide</a> for the maintenance workflow.',
+				'How does patch maintenance work?',
+				'Overwatch 2 Cheats is maintained with rebuilds after Blizzard Anti-Cheat and game patches. Check the <a href="/status/">Updates page</a> for current status before you queue.',
+				'Read the <a href="/overwatch-2-cheats/">product overview</a> and the <a href="/status/">Blizzard Anti-Cheat guide</a> for the maintenance workflow.',
 				'Responsible settings and reading maintenance notes before queueing are essential.',
 			),
 			section(
@@ -319,23 +319,23 @@ export const enPages = {
 		],
 	},
 	undetected: {
-		title: 'Undetected Overwatch 2 Cheats | Blizzard Anti-Cheat Maintenance',
+		title: 'Overwatch 2 cheats | Blizzard Anti-Cheat Maintenance',
 		description:
-			'Undetected Overwatch 2 cheats with Blizzard Anti-Cheat maintenance for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before you queue.',
-		h1: 'Undetected Overwatch 2 Cheats — Blizzard Anti-Cheat Maintenance',
+			'Overwatch 2 cheats with Blizzard Anti-Cheat maintenance for ESP boxes, tracking aimbot, and wallhack on Windows PC. Check status before you queue.',
+		h1: 'Overwatch 2 cheats — Blizzard Anti-Cheat Maintenance',
 		intro:
 			'How Overwatch 2 Cheats stays maintained for Overwatch 2 after Blizzard Anti-Cheat patches — ESP and wallhack, and Aimbot rebuilds for Windows PC.',
-		imageAlt: "Overwatch 2 Cheats undetected status overview for Windows PC",
-		galleryTitle: 'Undetected Overwatch 2 Cheats visuals',
+		imageAlt: "Overwatch 2 Cheats patch status overview for Windows PC",
+		galleryTitle: 'Overwatch 2 cheats visuals',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
 		ctaSecondary: 'Blizzard Anti-Cheat maintenance guide',
 		ctaSecondaryHref: '/status/',
 		sections: [
 			section(
-				'What undetected means for Overwatch 2 Cheats',
-				'Undetected Overwatch 2 Cheats means the package is actively maintained against Blizzard Anti-Cheat and major Overwatch 2 patches — not that detection is impossible forever.',
+				'What means for Overwatch 2 Cheats',
+				'Overwatch 2 cheats means the package is actively maintained against Blizzard Anti-Cheat and major Overwatch 2 patches — not that detection is impossible forever.',
 				'Rebuilds target ESP wallhack overlays, wallhack behavior, and Aimbot signatures after Blizzard Anti-Cheat security updates.',
-				`Anti-cheat technology is documented by ${EXT.anticheat}; Overwatch 2 client updates ship through ${EXT['overwatch-2']}. Undetected status is an ongoing process tied to those releases.`,
+				`Anti-cheat technology is documented by ${EXT.anticheat}; Overwatch 2 client updates ship through ${EXT['overwatch-2']}. patch status is an ongoing process tied to those releases.`,
 			),
 			section(
 				'Blizzard Anti-Cheat maintenance workflow',
@@ -345,7 +345,7 @@ export const enPages = {
 			),
 			section(
 				'Responsible use and next steps',
-				'Combine maintenance with conservative in-game settings. Read the <a href="/faq/">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.',
+				'Combine maintenance with conservative in-game settings. Read the <a href="/faq/">FAQ</a> and Updates log regularly — patch status is not a one-time promise.',
 				'Lifetime and monthly plans include rebuild access during active terms — see <a href="/pricing/">Pricing</a>.',
 				'New buyers should read the <a href="/overwatch-2-cheats/">product overview</a> and complete <a href="/setup/">Setup</a> after delivery.',
 			),
@@ -354,7 +354,7 @@ export const enPages = {
 	wallhack: {
 		title: 'Overwatch 2 Wallhack | ESP Boxes & Visibility',
 		description:
-			'Overwatch 2 wallhack ESP with player boxes and hero markers for Windows PC. Undetected Overwatch 2 cheats — learn overlays and buy.',
+			'Overwatch 2 wallhack ESP with player boxes and hero markers for Windows PC. Overwatch 2 cheats — learn overlays and buy.',
 		h1: 'Overwatch 2 Wallhack — ESP Boxes & Visibility',
 		intro:
 			'Overwatch 2 wallhack ESP — see players, hero markers, and objectives through toggleable wallhack overlays built for Quick Play and Arcade.',
@@ -377,7 +377,7 @@ export const enPages = {
 				'Pair wallhack awareness with <a href="/overwatch-2-wallhack/">wallhack</a> cues for flanks during building and rooftop fights.',
 			),
 			section(
-				'Undetected wallhack maintenance',
+				'Premium wallhack maintenance',
 				'ESP wallhack modules rebuild after Blizzard Anti-Cheat patches. Follow the <a href="/status/">Updates page</a> and complete checkout for instant license delivery on Windows PC.',
 				'Follow <a href="/status/">Updates</a> for Blizzard Anti-Cheat maintenance notes.',
 				'Ready to buy? Compare <a href="/pricing/">Pricing</a> or continue to the <a href="/overwatch-2-esp/">ESP hack</a> landing for alternate search wording.',
@@ -432,7 +432,7 @@ export const enPages = {
 		sections: [
 			section(
 				'Blizzard Anti-Cheat overview',
-				`${EXT.anticheat} protects Overwatch 2 on PC. Security updates can affect ESP, wallhack, and aimbot behavior — requiring maintenance rebuilds for undetected packages.`,
+				`${EXT.anticheat} protects Overwatch 2 on PC. Security updates can affect ESP, wallhack, and aimbot behavior — requiring maintenance rebuilds for packages.`,
 				`Overwatch 2 Cheats monitors Blizzard Anti-Cheat patch notes and Overwatch 2 seasonal updates from ${EXT['overwatch-2']} to schedule module reviews.`,
 				'“Blizzard Anti-Cheat maintenance” in our wording means timely maintenance — not a permanent free pass around anti-cheat.',
 			),
@@ -440,44 +440,44 @@ export const enPages = {
 				'What happens after a Blizzard Anti-Cheat patch',
 				'The team tests ESP overlays, wallhack signatures, and Aimbot profiles against the new build, publishes status on <a href="/status/">Updates</a>, and ships rebuilt packages to active licenses.',
 				`Confirm Blizzard service health on ${EXT.status} if the launcher or matchmaking fails during the same window.`,
-				'Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href="/overwatch-2-cheats/">undetected Overwatch 2 cheats</a>.',
+				'Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href="/overwatch-2-cheats/">Overwatch 2 cheats</a>.',
 			),
 			section(
 				'No permanent bypass guarantee',
-				'Blizzard Anti-Cheat maintenance in practice means timely maintenance. Read the undetected guide, <a href="/faq/">FAQ</a>, and Updates log before every session.',
+				'Blizzard Anti-Cheat maintenance in practice means timely maintenance. Read the guide, <a href="/faq/">FAQ</a>, and Updates log before every session.',
 				'Contact <a href="/support/">Support</a> if activation fails immediately after a posted rebuild.',
 				'Buying for the first time? Compare <a href="/pricing/">Pricing</a> and finish <a href="/setup/">Setup</a> only after Updates shows a live build.',
 			),
 		],
 	},
 	'cheats-2026': {
-		title: 'Overwatch 2 Cheats | ESP Tracking Aimbot & Wallhack',
+		title: 'Buy Overwatch 2 Cheats | ESP, Aimbot & Wallhack',
 		description:
-			'Best Overwatch 2 cheats 2026: ESP boxes, tracking aimbot, and wallhack for Windows PC. Undetected Overwatch 2 cheats with Blizzard Anti-Cheat maintenance — compare and buy.',
-		h1: 'Overwatch 2 Cheats 2026 — ESP, Tracking Aimbot & Wallhack',
+			'Buy Overwatch 2 cheats for Windows PC — ESP boxes, tracking aimbot, and wallhack with Blizzard Anti-Cheat maintenance. Compare monthly and lifetime plans.',
+		h1: 'Overwatch 2 Cheats — ESP, Tracking Aimbot & Wallhack',
 		intro:
-			'The 2026 Overwatch 2 Cheats package for Overwatch 2 — undetected ESP and wallhack, and Aimbot with Blizzard Anti-Cheat maintenance, instant delivery, and Windows PC support.',
+			'Premium Overwatch 2 cheats for Windows PC — ESP, wallhack, and aimbot with Blizzard Anti-Cheat maintenance, instant delivery, and one license for Quick Play and Competitive.',
 		imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-		galleryTitle: 'Overwatch 2 Cheats 2026 gallery',
+		galleryTitle: 'Overwatch 2 Cheats gallery',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
 		ctaSecondary: 'Compare features',
 		ctaSecondaryHref: '/features/',
 		sections: [
 			section(
-				'Why Overwatch 2 cheats buyers choose Overwatch 2 Cheats in 2026',
-				'2026 seasons bring new maps, weapons, and Blizzard Anti-Cheat updates. Overwatch 2 Cheats bundles ESP and wallhack, and Aimbot with active maintenance — not a stale prior-year build.',
+				'Why buyers choose this package',
+				'New seasons bring map, weapon, and Blizzard Anti-Cheat updates. One license bundles ESP, wallhack, and aimbot with active maintenance — not a stale build.',
 				`Track official season messaging on ${EXT['overwatch-2']}, then use our <a href="/status/">Updates log</a> for product rebuild timing.`,
 				'Monthly ($35) and lifetime ($150) plans cover Quick Play and Arcade loops — see <a href="/pricing/">Pricing</a>.',
 			),
 			section(
-				'Full feature stack for 2026 buyers',
+				'Full feature stack before checkout',
 				'Player ESP wallhack, hero markers, wallhack overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.',
 				'Module pages: <a href="/overwatch-2-esp/">ESP</a>, <a href="/overwatch-2-aimbot/">Aimbot</a>, <a href="/overwatch-2-wallhack/">wallhack</a>, and <a href="/status/">live status</a>.',
 				'Instant digital delivery after checkout confirmation worldwide.',
 			),
 			section(
-				'Before you buy in 2026',
-				'Read the <a href="/overwatch-2-cheats/">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.',
+				'Before you buy',
+				'Read the <a href="/overwatch-2-cheats/">Overwatch 2 cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check patch status after every major update — responsible use and maintenance awareness matter.',
 				'Also read the <a href="/forum/cheats-2026-updates/">season updates post</a> and <a href="/faq/">FAQ</a> before checkout.',
 				'Support is available at support@overwatchcheats.org via the <a href="/support/">Support page</a>.',
 			),
@@ -486,7 +486,7 @@ export const enPages = {
 	hacks: {
 		title: 'Buy Overwatch 2 Cheats | Windows PC License',
 		description:
-			'Purchase undetected Overwatch 2 cheats for Windows PC — ESP, aimbot, wallhack, and Blizzard Anti-Cheat rebuilds. Monthly and lifetime plans with instant delivery.',
+			'Purchase Overwatch 2 cheats for Windows PC — ESP, aimbot, wallhack, and Blizzard Anti-Cheat rebuilds. Monthly and lifetime plans with instant delivery.',
 		h1: 'Buy Overwatch 2 Cheats',
 		intro:
 			'Overwatch 2 Cheats for Windows PC — ESP, tracking aimbot, and wallhack in one license with Blizzard Anti-Cheat rebuilds after patches.',
@@ -512,7 +512,7 @@ export const enPages = {
 				'How to start',
 				'Buy a plan, get your license by email, then follow setup. Check status after every major patch.',
 				'Open <a href="/pricing/">Pricing</a>, follow <a href="/setup/">Setup</a>, and read <a href="/faq/">FAQ</a> if you need delivery or license help.',
-				'No cheat stays undetected forever — check status first, then play with conservative settings.',
+				'No cheat stays forever — check status first, then play with conservative settings.',
 			),
 		],
 	},
@@ -552,7 +552,7 @@ export const enPages = {
 	'crucible-cheats': {
 		title: 'Overwatch 2 Mod Menu | ESP & Tracking Aimbot Toggles',
 		description:
-			'Overwatch 2 mod menu for in-match toggles — ESP boxes, tracking aimbot, wallhack, and on Windows PC. Undetected Overwatch 2 cheats package.',
+			'Overwatch 2 mod menu for in-match toggles — ESP boxes, tracking aimbot, wallhack, and on Windows PC. Overwatch 2 cheats package.',
 		h1: 'Overwatch 2 Mod Menu — In-Client Control Panel',
 		intro:
 			'Overwatch 2 mod menu controls for Overwatch 2 — toggle ESP wallhack categories, wallhack range, and Aimbot profiles mid-match without leaving your Overwatch 2 session on Windows PC.',
@@ -588,7 +588,7 @@ export const enPages = {
 			'Overwatch 2 tracking aimbot settings for natural tracking on Windows PC. Smoothness, FOV, and bone priority — included in our Overwatch 2 cheats with ESP boxes.',
 		h1: 'Overwatch 2 Tracking Aimbot — Smooth Aimbot Controls',
 		intro:
-			'Overwatch 2 tracking aimbot settings for Overwatch 2 — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and wallhack in one undetected license.',
+			'Overwatch 2 tracking aimbot settings for Overwatch 2 — configurable Aimbot smoothness, FOV, bone priority, and hotkey toggles bundled with ESP wallhack and wallhack in one license.',
 		imageAlt: "Overwatch 2 tracking aimbot FOV and smoothness settings",
 		galleryTitle: 'Overwatch 2 tracking aimbot gallery',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -608,8 +608,8 @@ export const enPages = {
 				'Tracking aimbot ships alongside <a href="/overwatch-2-esp/">ESP wallhack</a> and <a href="/overwatch-2-wallhack/">wallhack overlays</a> overlays.',
 			),
 			section(
-				'Undetected tracking aimbot with Blizzard Anti-Cheat maintenance',
-				'Aimbot modules rebuild after Blizzard Anti-Cheat patches. Check the <a href="/status/">Updates page</a> before queueing — responsible settings and maintenance awareness matter for undetected play.',
+				'Premium tracking aimbot with Blizzard Anti-Cheat maintenance',
+				'Aimbot modules rebuild after Blizzard Anti-Cheat patches. Check the <a href="/status/">Updates page</a> before queueing — responsible settings and maintenance awareness matter for play.',
 				'Monthly and lifetime licenses checkout with digital delivery on Windows PC — <a href="/pricing/">Pricing</a>.',
 				'Activation help: <a href="/setup/">Setup</a> · status questions: <a href="/support/">Support</a>.',
 			),
@@ -621,7 +621,7 @@ export const enPages = {
 			'Best Overwatch 2 cheats for 2026: ESP boxes, tracking aimbot, and Blizzard Anti-Cheat maintenance on Windows PC. Use this checklist before checkout.',
 		h1: 'Best Overwatch 2 Cheats — 2026 Buyer Guide',
 		intro:
-			'Compare the Overwatch 2 cheats for Overwatch 2 in 2026 — undetected ESP and wallhack, and Aimbot in one maintained package with Blizzard Anti-Cheat rebuilds and instant delivery.',
+			'Compare the Overwatch 2 cheats for Overwatch 2 in 2026 — ESP and wallhack, and Aimbot in one maintained package with Blizzard Anti-Cheat rebuilds and instant delivery.',
 		imageAlt: "Overwatch 2 Cheats overview for Overwatch 2 on PC",
 		galleryTitle: 'Best Overwatch 2 cheats gallery',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -643,7 +643,7 @@ export const enPages = {
 			section(
 				'Buying the Overwatch 2 cheats safely',
 				'Purchase through secure checkout for instant digital delivery. Read Setup, FAQ, and Updates pages before your first queue — and contact Support with order details if activation needs help.',
-				'No cheat guarantees permanent undetected status — combine maintenance with responsible in-game settings.',
+				'No cheat guarantees permanent patch status — combine maintenance with responsible in-game settings.',
 				`Remember: using cheats can violate Blizzard terms. Proceed only if you accept that risk.`,
 			),
 		],
@@ -654,7 +654,7 @@ export const enPages = {
 			'Overwatch 2 aimbot hack with tracking aimbot for Windows PC. FOV, bone priority, and hotkeys — bundled with ESP boxes in our Overwatch 2 cheats package.',
 		h1: 'Overwatch 2 Aimbot Hack — Tracking Aimbot Assist',
 		intro:
-			'Overwatch 2 aimbot hack tools for Overwatch 2 — smoothness, FOV, bone priority, per-hero profiles, and hotkey toggles bundled with ESP wallhack and wallhack in one undetected license.',
+			'Overwatch 2 aimbot hack tools for Overwatch 2 — smoothness, FOV, bone priority, per-hero profiles, and hotkey toggles bundled with ESP wallhack and wallhack in one license.',
 		imageAlt: "Overwatch 2 aimbot hack controls and bone priority",
 		galleryTitle: 'Overwatch 2 aimbot hack gallery',
 		ctaPrimary: 'Buy Overwatch 2 Cheats',
@@ -674,7 +674,7 @@ export const enPages = {
 				`Balance patches from ${EXT['overwatch-2']} can change ideal FOV — retune after major weapon updates.`,
 			),
 			section(
-				'Undetected aimbot hack maintenance',
+				'Aimbot hack maintenance',
 				'Aimbot hack signatures rebuild after Blizzard Anti-Cheat updates. Follow the <a href="/status/">Updates page</a> and <a href="/status/">Blizzard Anti-Cheat maintenance guide</a> before queueing after patch days.',
 				'Checkout with instant digital delivery for Windows 10 and 11 — <a href="/pricing/">Pricing</a>.',
 				'Pair with <a href="/overwatch-2-esp/">ESP</a> for the full information + assist loop.',
@@ -684,7 +684,7 @@ export const enPages = {
 	'esp-hack': {
 		title: 'Overwatch 2 ESP Hack | Player Boxes & Heroes',
 		description:
-			'Overwatch 2 ESP hack with player boxes and hero markers for Windows PC. Undetected Overwatch 2 cheats with — see overlays and buy.',
+			'Overwatch 2 ESP hack with player boxes and hero markers for Windows PC. Overwatch 2 cheats with — see overlays and buy.',
 		h1: 'Overwatch 2 ESP Hack — Player Boxes Guide',
 		intro:
 			'Overwatch 2 ESP hack overlays for Overwatch 2 — player outlines, ult threat cues, hero and objective markers with distance readouts across Quick Play and Arcade.',
@@ -707,7 +707,7 @@ export const enPages = {
 				`Map and hero changes publish through ${EXT['overwatch-2']} — keep categories toggled to what the current map rewards.`,
 			),
 			section(
-				'Undetected ESP hack with Blizzard Anti-Cheat maintenance',
+				'ESP hack with Blizzard Anti-Cheat maintenance',
 				'ESP hack modules rebuild after Blizzard Anti-Cheat and Overwatch 2 patches. Check the <a href="/status/">Updates page</a> before queueing — pair ESP hack awareness with <a href="/overwatch-2-wallhack/">wallhack</a> for flank reads.',
 				'Licenses deliver digitally after checkout on Windows PC — see <a href="/pricing/">Pricing</a>.',
 				'Install steps: <a href="/setup/">Setup</a>. Status questions: <a href="/status/">live status</a>.',
@@ -741,7 +741,7 @@ export const enPages = {
 			),
 			section(
 				'Buying Overwatch 2 Cheats for the right reasons',
-				'If you need undetected ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC, compare <a href="/pricing/">Pricing</a> and read the <a href="/setup/">Setup guide</a> before checkout.',
+				'If you need ESP and wallhack, and Aimbot for Overwatch 2 on Windows PC, compare <a href="/pricing/">Pricing</a> and read the <a href="/setup/">Setup guide</a> before checkout.',
 				'Check the <a href="/status/">Updates page</a> after Blizzard Anti-Cheat patches — maintenance rebuilds publish for active licenses.',
 				'Questions? <a href="/faq/">FAQ</a> and <a href="/support/">Support</a> cover delivery and configuration — not cosmetic unlocks.',
 			),
@@ -826,8 +826,8 @@ export const enPages = {
 			),
 			section(
 				'Risk and anti-cheat disclaimer',
-				`Using cheats in Overwatch 2 may violate Blizzard terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee undetected status or account safety.`,
-				'You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/overwatch-2-cheats/">undetected status</a>.',
+				`Using cheats in Overwatch 2 may violate Blizzard terms and result in account penalties. Overwatch 2 Cheats provides maintenance but does not guarantee patch status or account safety.`,
+				'You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href="/overwatch-2-cheats/">patch status</a>.',
 			),
 			section(
 				'Changes and governing law',

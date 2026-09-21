@@ -63,6 +63,7 @@ const {
 } = Astro.props;
 
 const heroVideo = siteConfig.heroVideo?.trim() || '';
+const heroPoster = siteConfig.heroVideoPoster?.trim() || siteConfig.defaultOgImage || '';
 
 const t = getT(locale);
 const resolvedHeroAlt =
@@ -124,6 +125,7 @@ const breadcrumbs = [
 							<video
 								class="banner__img banner__video"
 								src={heroVideo}
+								poster={heroPoster}
 								autoplay
 								muted
 								loop

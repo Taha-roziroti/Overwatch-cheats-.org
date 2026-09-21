@@ -1,15 +1,6 @@
 ---
-import { defaultLocale, isLocaleCode, localeCodes } from '../../../data/i18n/locales';
-
+/** Edge 301 only — scripts/sync-redirect-stubs.mjs */
 export function getStaticPaths() {
-	return localeCodes
-		.filter((code) => code !== defaultLocale)
-		.map((lang) => ({ params: { lang }, props: { locale: lang } }));
+	return [];
 }
-
-if (!isLocaleCode(Astro.params.lang ?? '')) {
-	return Astro.redirect('/forum/', 301);
-}
-
-return Astro.redirect('/forum/', 301);
 ---
