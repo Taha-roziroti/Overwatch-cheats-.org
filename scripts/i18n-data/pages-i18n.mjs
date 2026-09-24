@@ -1,6 +1,7 @@
 import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta } from './constants.mjs';
 import { phrases } from './phrases.mjs';
 import { PAGE_IMAGE_ALTS } from './image-alts.mjs';
+import { affiliateStringsByLocale } from './affiliate-strings.mjs';
 
 /** Page-specific translated meta for home across locales. */
 const PAGE_META_HOME = {
@@ -292,12 +293,75 @@ const CTA2_HREF = {
 
 function buildLegal(locale, pageKey, kind) {
 	const p = phrases[locale];
+	const affiliateCopy = affiliateStringsByLocale[locale] ?? affiliateStringsByLocale.en;
 	const titles = {
 		privacy: { es: 'Política de privacidad', fr: 'Politique de confidentialité', de: 'Datenschutz', pt: 'Política de privacidade', it: 'Informativa privacy', nl: 'Privacybeleid', pl: 'Polityka prywatności', ru: 'Политика конфиденциальности', tr: 'Gizlilik politikası', ar: 'سياسة الخصوصية', ja: 'プライバシーポリシー', ko: '개인정보 처리방침', zh: '隐私政策', hi: 'गोपनीयता नीति', id: 'Kebijakan privasi', th: 'นโยบายความเป็นส่วนตัว', vi: 'Chính sách bảo mật', uk: 'Політика конфіденційності', cs: 'Zásady ochrany soukromí', ro: 'Politica de confidențialitate', sv: 'Integritetspolicy' },
 		refund: { es: 'Política de reembolso', fr: 'Politique de remboursement', de: 'Rückerstattung', pt: 'Política de reembolso', it: 'Politica di rimborso', nl: 'Restitutiebeleid', pl: 'Polityka zwrotów', ru: 'Политика возврата', tr: 'İade politikası', ar: 'سياسة الاسترداد', ja: '返金ポリシー', ko: '환불 정책', zh: '退款政策', hi: 'रिफंड नीति', id: 'Kebijakan refund', th: 'นโยบายการคืนเงิน', vi: 'Chính sách hoàn tiền', uk: 'Політика повернення', cs: 'Zásady vrácení peněz', ro: 'Politica de rambursare', sv: 'Återbetalningspolicy' },
 		terms: { es: 'Términos de uso', fr: 'Conditions d\'utilisation', de: 'Nutzungsbedingungen', pt: 'Termos de uso', it: 'Termini di utilizzo', nl: 'Gebruiksvoorwaarden', pl: 'Warunki użytkowania', ru: 'Условия использования', tr: 'Kullanım şartları', ar: 'شروط الاستخدام', ja: '利用規約', ko: '이용 약관', zh: '使用条款', hi: 'उपयोग की शर्तें', id: 'Syarat penggunaan', th: 'ข้อกำหนดการใช้งาน', vi: 'Điều khoản sử dụng', uk: 'Умови використання', cs: 'Podmínky použití', ro: 'Termeni de utilizare', sv: 'Användarvillkor' },
+		'affiliate-disclosure': {
+			es: 'Divulgación de afiliados',
+			fr: 'Divulgation d’affiliation',
+			de: 'Affiliate-Hinweis',
+			pt: 'Divulgação de afiliados',
+			it: 'Informativa affiliati',
+			nl: 'Affiliate-disclaimer',
+			pl: 'Informacja o linkach partnerskich',
+			ru: 'Раскрытие партнёрских ссылок',
+			tr: 'Satış ortaklığı açıklaması',
+			ar: 'إفصاح الإحالة',
+			ja: 'アフィリエイト開示',
+			ko: '제휴 고지',
+			zh: '联盟披露',
+			hi: 'एफिलिएट प्रकटीकरण',
+			id: 'Pengungkapan afiliasi',
+			th: 'การเปิดเผยพันธมิตร',
+			vi: 'Công bố tiếp thị liên kết',
+			uk: 'Розкриття партнерських посилань',
+			cs: 'Upozornění na partnerské odkazy',
+			ro: 'Dezvăluire afiliere',
+			sv: 'Affiliate-information',
+		},
 	};
-	const h1 = titles[kind][locale] ?? (kind === 'privacy' ? 'Privacy Policy' : kind === 'refund' ? 'Refund Policy' : 'Terms of Use');
+	const h1 =
+		titles[kind]?.[locale] ??
+		(kind === 'privacy'
+			? 'Privacy Policy'
+			: kind === 'refund'
+				? 'Refund Policy'
+				: kind === 'affiliate-disclosure'
+					? 'Affiliate Disclosure'
+					: 'Terms of Use');
+	if (kind === 'affiliate-disclosure') {
+		return {
+			title: clampTitle(stripZadeyoFromMeta(`${h1} | Overwatch 2 Cheats`)),
+			description: clampDesc(stripZadeyoFromMeta(`${h1} for overwatchcheats.org — ${affiliateCopy.disclosure.slice(0, 80)}…`)),
+			h1,
+			intro: affiliateCopy.disclosure,
+			imageAlt: 'Overwatch 2 cheats',
+			galleryTitle: 'Overwatch 2 cheats',
+			heroImage: HERO_IMAGES[pageKey],
+			ctaPrimary: locale === 'ar' ? 'مراسلة الدعم' : locale === 'ja' ? 'サポートにメール' : locale === 'ko' ? '지원 이메일' : locale === 'zh' ? '邮件支持' : 'Email support',
+			ctaSecondary: locale === 'es' ? 'Leer privacidad' : 'Read privacy',
+			ctaSecondaryHref: '/privacy/',
+			sections: [
+				section(
+					locale === 'es' ? 'Qué son los enlaces de afiliado' : locale === 'fr' ? 'Liens d’affiliation' : locale === 'de' ? 'Affiliate-Links' : 'Affiliate links',
+					affiliateCopy.disclosure,
+					p.s2(),
+				),
+				section(
+					locale === 'es' ? 'Cómo los marcamos' : locale === 'fr' ? 'Comment nous les marquons' : locale === 'de' ? 'Kennzeichnung' : 'How we label links',
+					'Purchase links that leave overwatchcheats.org for checkout use rel="sponsored nofollow noopener".',
+					`${affiliateCopy.linkLabel} may appear beside buy buttons where applicable.`,
+				),
+				section(
+					locale === 'es' ? 'Contacto' : locale === 'fr' ? 'Contact' : locale === 'de' ? 'Kontakt' : 'Questions',
+					p.legal(),
+					'Email: support@overwatchcheats.org',
+				),
+			],
+		};
+	}
 	return {
 		title: clampTitle(stripZadeyoFromMeta(`${h1} | Overwatch 2 Cheats`)),
 		description: clampDesc(stripZadeyoFromMeta(`${h1} for Overwatch 2 Cheats — ESP wallhack, Aimbot, ${p.win}.`)),
@@ -341,7 +405,7 @@ export function buildPagesForLocale(locale) {
 	for (const [pageKey, names] of Object.entries(TOPIC_NAMES)) {
 		pages[pageKey] = productPage(locale, pageKey, names[locale], CTA2_HREF[pageKey]);
 	}
-	for (const kind of ['privacy', 'refund', 'terms']) {
+	for (const kind of ['privacy', 'refund', 'terms', 'affiliate-disclosure']) {
 		pages[kind] = buildLegal(locale, kind, kind);
 	}
 	return pages;

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { AFFILIATE_LINK_REL } from '../../lib/affiliate';
 
 type Props = {
 	locale: string;
@@ -79,7 +80,7 @@ function HeroInner({ siteName, checkoutUrl, monthlyPrice, useBrandHero = true }:
 					{subtitle}
 				</p>
 				<div className="hero__actions">
-					<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
+					<a className="hero__buy" href={checkoutUrl} rel={AFFILIATE_LINK_REL}>
 						<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
 							<path
 								d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"

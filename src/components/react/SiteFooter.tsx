@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { AFFILIATE_LINK_REL } from '../../lib/affiliate';
 
 type FooterLink = { labelKey: string; href: string };
 type ResourceLink = { label: string; href: string };
@@ -55,7 +56,7 @@ function SiteFooterInner({
 							{line}
 						</p>
 					))}
-					<a className="site-footer__cta" href={checkoutUrl} rel="noopener noreferrer">
+					<a className="site-footer__cta" href={checkoutUrl} rel={AFFILIATE_LINK_REL}>
 						{t('common.buyNow')}
 					</a>
 					<p className="site-footer__share-label">{t('common.share')}</p>

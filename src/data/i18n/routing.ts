@@ -36,7 +36,8 @@ export type PageId =
 	| 'pve-cheats'
 	| 'privacy'
 	| 'refund'
-	| 'terms';
+	| 'terms'
+	| 'affiliate-disclosure';
 
 /** English (official) paths — served at site root without /en/ prefix. */
 export const englishPaths: Record<PageId, string> = {
@@ -65,6 +66,7 @@ export const englishPaths: Record<PageId, string> = {
 	privacy: '/privacy/',
 	refund: '/refund/',
 	terms: '/terms/',
+	'affiliate-disclosure': '/affiliate-disclosure/',
 };
 
 /**
@@ -671,6 +673,30 @@ export const localizedSlugs: Record<PageId, Record<LocaleCode, string>> = {
 		cs: 'podminky-uziti',
 		ro: 'termeni-utilizare',
 		sv: 'anvandarvillkor',
+	},
+	'affiliate-disclosure': {
+		en: 'affiliate-disclosure',
+		es: 'divulgacion-afiliados',
+		fr: 'divulgation-affiliation',
+		de: 'affiliate-offenlegung',
+		pt: 'divulgacao-afiliados',
+		it: 'informativa-affiliati',
+		nl: 'affiliate-disclaimer',
+		pl: 'informacja-linki-partnerskie',
+		ru: 'raskrytie-partnerskih-ssylok',
+		tr: 'satis-ortakligi-aciklamasi',
+		ar: 'affiliate-disclosure',
+		ja: 'affiliate-disclosure',
+		ko: 'affiliate-disclosure',
+		zh: 'affiliate-disclosure',
+		hi: 'affiliate-disclosure',
+		id: 'pengungkapan-afiliasi',
+		th: 'affiliate-disclosure',
+		vi: 'cong-bo-tiep-thi-lien-ket',
+		uk: 'rozkryttya-partnerskyh-posylan',
+		cs: 'affiliate-upozorneni',
+		ro: 'dezvaluire-afiliere',
+		sv: 'affiliate-information',
 	},
 };
 

@@ -45,6 +45,12 @@ export const pageSitemapMeta: Record<PageId, PageSitemapMeta> = {
 	privacy: { priority: 0.4, changefreq: 'yearly', i18nPriority: 0.35, lastmod: '2026-06-08' },
 	refund: { priority: 0.4, changefreq: 'yearly', i18nPriority: 0.35, lastmod: '2026-06-14' },
 	terms: { priority: 0.4, changefreq: 'yearly', i18nPriority: 0.35, lastmod: '2026-05-22' },
+	'affiliate-disclosure': {
+		priority: 0.35,
+		changefreq: 'yearly',
+		i18nPriority: 0.3,
+		lastmod: '2026-09-24',
+	},
 };
 
 /** Most recent page lastmod — used as the sitemap index <lastmod> for page sitemaps. */
@@ -61,11 +67,11 @@ export function latestPageLastmod(): string {
  * Product pages = all PageIds minus cannibal 301 targets (11) → 14.
  */
 export const SITEMAP_COUNTS = {
-	englishPages: 14,
+	englishPages: 15,
 	i18nLocales: 21,
-	pagesPerLocale: 14,
-	i18nUrls: 21 * 14,
-	totalIndexablePages: 14 + 21 * 14,
+	pagesPerLocale: 15,
+	i18nUrls: 21 * 15,
+	totalIndexablePages: 15 + 21 * 15,
 	hreflangLinksPerUrl: 23,
 	/** sitemap.xml (index): EN + 21 locale sitemaps + images */
 	sitemapIndexEntries: 1 + 21 + 1,

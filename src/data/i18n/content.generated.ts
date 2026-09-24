@@ -27,7 +27,7 @@ export type LocaleUi = {
 		headerArt: string; cheatsPackage: string; rebootFight: string; battleRoyale: string; battleRoyaleIsland: string;
 	};
 };
-export type PageId = 'home' | 'overwatch-2-esp' | 'overwatch-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'overwatch-2-esp' | 'overwatch-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms' | 'affiliate-disclosure';
 
 export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageId, PageContent> }> = {
 		en: {
@@ -100,6 +100,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.",
+					linkLabel: "Affiliate link",
+					pageLink: "Affiliate disclosure",
 				},
 			},
 			pages: {
@@ -1035,6 +1040,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 					heroImage: "/images/overwatch-2-cheats-raid.webp",
 				},
+				"affiliate-disclosure": {
+					title: "Affiliate Disclosure | Overwatch 2 Cheats",
+					description: "Affiliate disclosure for overwatchcheats.org. How commission links work when you buy through outbound purchase links on this site.",
+					h1: "Affiliate Disclosure",
+					intro: "Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.",
+					imageAlt: "Overwatch 2 Cheats affiliate disclosure page",
+					galleryTitle: "Overwatch 2 Cheats legal resources",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy policy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "What affiliate links are",
+							paragraphs: [
+								"Some outbound purchase links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.",
+								"This helps support site maintenance, guides, and status updates. It does not change the price you pay when the merchant’s terms say so.",
+							],
+						},
+						{
+							h2: "How we mark affiliate links",
+							paragraphs: [
+								"Purchase buttons and plan links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\" so search engines understand the relationship.",
+								"You may also see a short “Affiliate link” label beside some buy buttons. Disclosures appear in the initial page HTML above the first purchase link.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"Email support@overwatchcheats.org if you need clarification about how links on this site work.",
+								"Related policies: <a href=\"/privacy/\">Privacy Policy</a>, <a href=\"/terms/\">Terms of Use</a>, and <a href=\"/refund/\">Refund Policy</a>.",
+							],
+						},
+					],
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+				},
 				terms: {
 					title: "Terms of Use | Overwatch 2 Cheats Rules",
 					description: "Terms of use for overwatchcheats.org and Overwatch 2 Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.",
@@ -1142,6 +1182,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Algunos enlaces de este sitio son enlaces de afiliados. Si compras a través de ellos, podemos recibir una comisión sin coste extra para ti.",
+					linkLabel: "Enlace de afiliado",
+					pageLink: "Divulgación de afiliados",
 				},
 			},
 			pages: {
@@ -1594,26 +1639,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Trucos Overwatch 2 2026 | Guía del comprador",
-					description: "Trucos Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
-					h1: "Trucos Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot para Overwatch 2 en Windows PC. Trucos Overwatch 2 2026.",
+					title: "Comprar trucos Overwatch 2 | Guía del comprador",
+					description: "Comprar trucos Overwatch 2: Overwatch 2 cheats checklist before checkout. entrega digital instantánea. Comprar Overwatch 2 Cheats.",
+					h1: "Comprar trucos Overwatch 2",
+					intro: "Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot para Overwatch 2 en Windows PC. Comprar trucos Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Trucos Overwatch 2 2026",
+					galleryTitle: "Comprar trucos Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver funciones",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Trucos Overwatch 2 2026",
+							h2: "Comprar trucos Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats ofrece Overwatch 2 ESP, wallhack y Overwatch 2 aimbot para Overwatch 2 en Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
 							],
 						},
 						{
-							h2: "Trucos Overwatch 2 2026",
+							h2: "Comprar trucos Overwatch 2",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Blizzard Anti-Cheat. Ningún cheat garantiza estado estado estable permanente.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
@@ -2013,6 +2058,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Divulgación de afiliados | Overwatch 2 Cheats",
+					description: "Divulgación de afiliados for overwatchcheats.org — Algunos enlaces de este sitio son enlaces de afiliados. Si compras a través de e…",
+					h1: "Divulgación de afiliados",
+					intro: "Algunos enlaces de este sitio son enlaces de afiliados. Si compras a través de ellos, podemos recibir una comisión sin coste extra para ti.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Leer privacidad",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Qué son los enlaces de afiliado",
+							paragraphs: [
+								"Algunos enlaces de este sitio son enlaces de afiliados. Si compras a través de ellos, podemos recibir una comisión sin coste extra para ti.",
+								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen Blizzard Anti-Cheat maintenance.",
+							],
+						},
+						{
+							h2: "Cómo los marcamos",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Enlace de afiliado may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Contacto",
+							paragraphs: [
+								"Contacta support@overwatchcheats.org para solicitudes legales o de soporte.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		fr: {
@@ -2085,6 +2165,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Certains liens sur ce site sont des liens d’affiliation. Si vous achetez via ces liens, nous pouvons percevoir une commission sans surcoût pour vous.",
+					linkLabel: "Lien affilié",
+					pageLink: "Divulgation d’affiliation",
 				},
 			},
 			pages: {
@@ -2537,26 +2622,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Triches Overwatch 2 2026 | Guide acheteur",
-					description: "Triches Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
-					h1: "Triches Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot pour Overwatch 2 sur PC Windows. Triches Overwatch 2 2026.",
+					title: "Acheter triches Overwatch 2 | Guide acheteur",
+					description: "Acheter triches Overwatch 2: Overwatch 2 cheats checklist before checkout. livraison numérique instantanée. Acheter Overwatch 2 Cheats.",
+					h1: "Acheter triches Overwatch 2",
+					intro: "Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot pour Overwatch 2 sur PC Windows. Acheter triches Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Triches Overwatch 2 2026",
+					galleryTitle: "Acheter triches Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acheter Overwatch 2 Cheats",
 					ctaSecondary: "Voir les fonctions",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Triches Overwatch 2 2026",
+							h2: "Acheter triches Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats combine Overwatch 2 ESP, wallhack et Overwatch 2 aimbot pour Overwatch 2 sur PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Triches Overwatch 2 2026",
+							h2: "Acheter triches Overwatch 2",
 							paragraphs: [
 								"Consultez Updates après les patchs Blizzard Anti-Cheat. Aucune triche ne garantit un statut statut stable permanent.",
 								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
@@ -2956,6 +3041,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Divulgation d’affiliation | Overwatch 2 Cheats",
+					description: "Divulgation d’affiliation for overwatchcheats.org — Certains liens sur ce site sont des liens d’affiliation. Si vous achetez via ces…",
+					h1: "Divulgation d’affiliation",
+					intro: "Certains liens sur ce site sont des liens d’affiliation. Si vous achetez via ces liens, nous pouvons percevoir une commission sans surcoût pour vous.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Liens d’affiliation",
+							paragraphs: [
+								"Certains liens sur ce site sont des liens d’affiliation. Si vous achetez via ces liens, nous pouvons percevoir une commission sans surcoût pour vous.",
+								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "Comment nous les marquons",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Lien affilié may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Contact",
+							paragraphs: [
+								"Contactez support@overwatchcheats.org pour le support ou les demandes légales.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		de: {
@@ -3028,6 +3148,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Einige Links auf dieser Website sind Affiliate-Links. Wenn du darüber kaufst, erhalten wir ggf. eine Provision ohne Mehrkosten für dich.",
+					linkLabel: "Affiliate-Link",
+					pageLink: "Affiliate-Hinweis",
 				},
 			},
 			pages: {
@@ -3480,26 +3605,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Käuferleitfaden",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als Premium-Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats 2026.",
+					title: "Overwatch 2 Cheats kaufen | Käuferleitfaden",
+					description: "Overwatch 2 Cheats kaufen: Overwatch 2 cheats checklist before checkout. sofortige digitale Lieferung. Overwatch 2 Cheats kaufen.",
+					h1: "Overwatch 2 Cheats kaufen",
+					intro: "Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als Premium-Paket für Overwatch 2 auf Windows PC. Overwatch 2 Cheats kaufen.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Overwatch 2 Cheats kaufen",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kaufen",
 					ctaSecondary: "Features ansehen",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats kaufen",
 							paragraphs: [
 								"Overwatch 2 Cheats bündelt Overwatch 2 ESP, wallhack und Overwatch 2 aimbot als Premium-Paket für Overwatch 2 auf Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats kaufen",
 							paragraphs: [
 								"Updates-Seite nach Blizzard Anti-Cheat-Patches prüfen. Kein Cheat garantiert dauerhaft patch status.",
 								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
@@ -3899,6 +4024,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Affiliate-Hinweis | Overwatch 2 Cheats",
+					description: "Affiliate-Hinweis for overwatchcheats.org — Einige Links auf dieser Website sind Affiliate-Links. Wenn du darüber kaufst, er…",
+					h1: "Affiliate-Hinweis",
+					intro: "Einige Links auf dieser Website sind Affiliate-Links. Wenn du darüber kaufst, erhalten wir ggf. eine Provision ohne Mehrkosten für dich.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate-Links",
+							paragraphs: [
+								"Einige Links auf dieser Website sind Affiliate-Links. Wenn du darüber kaufst, erhalten wir ggf. eine Provision ohne Mehrkosten für dich.",
+								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Blizzard Anti-Cheat-Wartung.",
+							],
+						},
+						{
+							h2: "Kennzeichnung",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Affiliate-Link may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Kontakt",
+							paragraphs: [
+								"support@overwatchcheats.org für Support und rechtliche Anfragen.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		pt: {
@@ -3971,6 +4131,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Alguns links neste site são links de afiliados. Se comprar por eles, podemos receber uma comissão sem custo extra para você.",
+					linkLabel: "Link de afiliado",
+					pageLink: "Divulgação de afiliados",
 				},
 			},
 			pages: {
@@ -4423,26 +4588,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheats Overwatch 2 2026 | Guia do comprador",
-					description: "Cheats Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
-					h1: "Cheats Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot para Overwatch 2 no PC Windows. Cheats Overwatch 2 2026.",
+					title: "Comprar cheats Overwatch 2 | Guia do comprador",
+					description: "Comprar cheats Overwatch 2: Overwatch 2 cheats checklist before checkout. entrega digital instantânea. Comprar Overwatch 2 Cheats.",
+					h1: "Comprar cheats Overwatch 2",
+					intro: "Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot para Overwatch 2 no PC Windows. Comprar cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheats Overwatch 2 2026",
+					galleryTitle: "Comprar cheats Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Comprar Overwatch 2 Cheats",
 					ctaSecondary: "Ver recursos",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheats Overwatch 2 2026",
+							h2: "Comprar cheats Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot para Overwatch 2 no PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheats Overwatch 2 2026",
+							h2: "Comprar cheats Overwatch 2",
 							paragraphs: [
 								"Verifique Updates após patches Blizzard Anti-Cheat. Nenhum cheat garante status status estável permanente.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -4842,6 +5007,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Divulgação de afiliados | Overwatch 2 Cheats",
+					description: "Divulgação de afiliados for overwatchcheats.org — Alguns links neste site são links de afiliados. Se comprar por eles, podemos rec…",
+					h1: "Divulgação de afiliados",
+					intro: "Alguns links neste site são links de afiliados. Se comprar por eles, podemos receber uma comissão sem custo extra para você.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Alguns links neste site são links de afiliados. Se comprar por eles, podemos receber uma comissão sem custo extra para você.",
+								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Link de afiliado may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"Contacte support@overwatchcheats.org para suporte ou questões legais.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		it: {
@@ -4914,6 +5114,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Alcuni link su questo sito sono link di affiliazione. Se acquisti tramite essi, possiamo ricevere una commissione senza costi aggiuntivi per te.",
+					linkLabel: "Link affiliato",
+					pageLink: "Informativa affiliati",
 				},
 			},
 			pages: {
@@ -5366,26 +5571,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheat Overwatch 2 2026 | Guida acquirente",
-					description: "Cheat Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
-					h1: "Cheat Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot per Overwatch 2 su PC Windows. Cheat Overwatch 2 2026.",
+					title: "Acquista cheat Overwatch 2 | Guida acquirente",
+					description: "Acquista cheat Overwatch 2: Overwatch 2 cheats checklist before checkout. consegna digitale istantanea. Acquista Overwatch 2 Cheats.",
+					h1: "Acquista cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot per Overwatch 2 su PC Windows. Acquista cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheat Overwatch 2 2026",
+					galleryTitle: "Acquista cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Acquista Overwatch 2 Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Acquista cheat Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats unisce Overwatch 2 ESP, wallhack e Overwatch 2 aimbot per Overwatch 2 su PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Acquista cheat Overwatch 2",
 							paragraphs: [
 								"Controlla Updates dopo patch Blizzard Anti-Cheat. Nessun cheat garantisce stato estado estable permanente.",
 								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
@@ -5785,6 +5990,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Informativa affiliati | Overwatch 2 Cheats",
+					description: "Informativa affiliati for overwatchcheats.org — Alcuni link su questo sito sono link di affiliazione. Se acquisti tramite essi, …",
+					h1: "Informativa affiliati",
+					intro: "Alcuni link su questo sito sono link di affiliazione. Se acquisti tramite essi, possiamo ricevere una commissione senza costi aggiuntivi per te.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Alcuni link su questo sito sono link di affiliazione. Se acquisti tramite essi, possiamo ricevere una commissione senza costi aggiuntivi per te.",
+								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Link affiliato may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"Contatta support@overwatchcheats.org per supporto o richieste legali.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		nl: {
@@ -5857,6 +6097,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Sommige links op deze site zijn affiliate-links. Als je via deze links koopt, kunnen wij een commissie ontvangen zonder extra kosten voor jou.",
+					linkLabel: "Affiliate-link",
+					pageLink: "Affiliate-disclaimer",
 				},
 			},
 			pages: {
@@ -6309,26 +6554,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. directe digitale levering. Overwatch 2 Cheats kopen.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats 2026.",
+					title: "Overwatch 2 Cheats kopen | Buyer Guide",
+					description: "Overwatch 2 Cheats kopen: Overwatch 2 cheats checklist before checkout. directe digitale levering. Overwatch 2 Cheats kopen.",
+					h1: "Overwatch 2 Cheats kopen",
+					intro: "Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als pakket voor Overwatch 2 op Windows PC. Overwatch 2 Cheats kopen.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Overwatch 2 Cheats kopen",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats kopen",
 					ctaSecondary: "Bekijk functies",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats kopen",
 							paragraphs: [
 								"Overwatch 2 Cheats bundelt Overwatch 2 ESP, wallhack en Overwatch 2 aimbot als pakket voor Overwatch 2 op Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats kopen",
 							paragraphs: [
 								"Check Updates na Blizzard Anti-Cheat-patches. Geen cheat garandeert permanent patch status.",
 								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
@@ -6728,6 +6973,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Affiliate-disclaimer | Overwatch 2 Cheats",
+					description: "Affiliate-disclaimer for overwatchcheats.org — Sommige links op deze site zijn affiliate-links. Als je via deze links koopt, ku…",
+					h1: "Affiliate-disclaimer",
+					intro: "Sommige links op deze site zijn affiliate-links. Als je via deze links koopt, kunnen wij een commissie ontvangen zonder extra kosten voor jou.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Sommige links op deze site zijn affiliate-links. Als je via deze links koopt, kunnen wij een commissie ontvangen zonder extra kosten voor jou.",
+								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Blizzard Anti-Cheat-onderhoud.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Affiliate-link may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org voor support en juridische vragen.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		pl: {
@@ -6800,6 +7080,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Niektóre linki na tej stronie to linki partnerskie. Jeśli kupisz przez nie, możemy otrzymać prowizję bez dodatkowych kosztów dla Ciebie.",
+					linkLabel: "Link partnerski",
+					pageLink: "Informacja o linkach partnerskich",
 				},
 			},
 			pages: {
@@ -7252,26 +7537,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheaty Overwatch 2 2026 | Buyer Guide",
-					description: "Cheaty Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
-					h1: "Cheaty Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet dla Overwatch 2 na PC Windows. Cheaty Overwatch 2 2026.",
+					title: "Kup cheaty Overwatch 2 | Buyer Guide",
+					description: "Kup cheaty Overwatch 2: Overwatch 2 cheats checklist before checkout. natychmiastowa dostawa cyfrowa. Kup Overwatch 2 Cheats.",
+					h1: "Kup cheaty Overwatch 2",
+					intro: "Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet dla Overwatch 2 na PC Windows. Kup cheaty Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheaty Overwatch 2 2026",
+					galleryTitle: "Kup cheaty Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Kup Overwatch 2 Cheats",
 					ctaSecondary: "Zobacz funkcje",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheaty Overwatch 2 2026",
+							h2: "Kup cheaty Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats łączy Overwatch 2 ESP, wallhack i Overwatch 2 aimbot jako pakiet dla Overwatch 2 na PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheaty Overwatch 2 2026",
+							h2: "Kup cheaty Overwatch 2",
 							paragraphs: [
 								"Sprawdź Updates po patchach Blizzard Anti-Cheat. Żaden cheat nie gwarantuje permanentnego patch statusu.",
 								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
@@ -7671,6 +7956,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Informacja o linkach partnerskich | Overwatch 2 Cheats",
+					description: "Informacja o linkach partnerskich for overwatchcheats.org — Niektóre linki na tej stronie to linki partnerskie. Jeśli kupisz przez nie, może…",
+					h1: "Informacja o linkach partnerskich",
+					intro: "Niektóre linki na tej stronie to linki partnerskie. Jeśli kupisz przez nie, możemy otrzymać prowizję bez dodatkowych kosztów dla Ciebie.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Niektóre linki na tej stronie to linki partnerskie. Jeśli kupisz przez nie, możemy otrzymać prowizję bez dodatkowych kosztów dla Ciebie.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Link partnerski may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org w sprawach wsparcia i prawnych.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		ru: {
@@ -7743,6 +8063,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Некоторые ссылки на этом сайте являются партнёрскими. Если вы покупаете по ним, мы можем получить комиссию без дополнительных расходов для вас.",
+					linkLabel: "Партнёрская ссылка",
+					pageLink: "Раскрытие партнёрских ссылок",
 				},
 			},
 			pages: {
@@ -8195,26 +8520,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Читы Overwatch 2 2026 | Гайд покупателя",
-					description: "Читы Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
-					h1: "Читы Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в пакете для Overwatch 2 на Windows PC. Читы Overwatch 2 2026.",
+					title: "Купить читы Overwatch 2 | Гайд покупателя",
+					description: "Купить читы Overwatch 2: Overwatch 2 cheats checklist before checkout. мгновенная цифровая доставка. Купить Overwatch 2 Cheats.",
+					h1: "Купить читы Overwatch 2",
+					intro: "Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в пакете для Overwatch 2 на Windows PC. Купить читы Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Читы Overwatch 2 2026",
+					galleryTitle: "Купить читы Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купить Overwatch 2 Cheats",
 					ctaSecondary: "Смотреть функции",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Читы Overwatch 2 2026",
+							h2: "Купить читы Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats объединяет Overwatch 2 ESP, wallhack и Overwatch 2 aimbot в пакете для Overwatch 2 на Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Читы Overwatch 2 2026",
+							h2: "Купить читы Overwatch 2",
 							paragraphs: [
 								"Проверяйте Updates после патчей Blizzard Anti-Cheat. Ни один чит не гарантирует постоянный patch статус.",
 								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
@@ -8614,6 +8939,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Раскрытие партнёрских ссылок | Overwatch 2 Cheats",
+					description: "Раскрытие партнёрских ссылок for overwatchcheats.org — Некоторые ссылки на этом сайте являются партнёрскими. Если вы покупаете по ним, …",
+					h1: "Раскрытие партнёрских ссылок",
+					intro: "Некоторые ссылки на этом сайте являются партнёрскими. Если вы покупаете по ним, мы можем получить комиссию без дополнительных расходов для вас.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Некоторые ссылки на этом сайте являются партнёрскими. Если вы покупаете по ним, мы можем получить комиссию без дополнительных расходов для вас.",
+								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Партнёрская ссылка may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org для поддержки и юридических вопросов.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		tr: {
@@ -8686,6 +9046,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Bu sitedeki bazı bağlantılar satış ortaklığı bağlantılarıdır. Bu bağlantılar üzerinden satın alırsanız, size ek maliyet olmadan komisyon alabiliriz.",
+					linkLabel: "Satış ortaklığı bağlantısı",
+					pageLink: "Satış ortaklığı açıklaması",
 				},
 			},
 			pages: {
@@ -9138,26 +9503,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Hileleri 2026 | Buyer Guide",
-					description: "Overwatch 2 Hileleri 2026: Overwatch 2 cheats checklist before checkout. anında dijital teslimat. Overwatch 2 Cheats satın al.",
-					h1: "Overwatch 2 Hileleri 2026",
-					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot paket sunar. Overwatch 2 Hileleri 2026.",
+					title: "Overwatch 2 hileleri satın al | Buyer Guide",
+					description: "Overwatch 2 hileleri satın al: Overwatch 2 cheats checklist before checkout. anında dijital teslimat. Overwatch 2 Cheats satın al.",
+					h1: "Overwatch 2 hileleri satın al",
+					intro: "Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot paket sunar. Overwatch 2 hileleri satın al.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Hileleri 2026",
+					galleryTitle: "Overwatch 2 hileleri satın al",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats satın al",
 					ctaSecondary: "Özellikleri gör",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Hileleri 2026",
+							h2: "Overwatch 2 hileleri satın al",
 							paragraphs: [
 								"Overwatch 2 Cheats, Overwatch 2 için Windows PC üzerinde Overwatch 2 ESP, wallhack ve Overwatch 2 aimbot paket sunar. Overwatch 2 cheats checklist before checkout.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
 							],
 						},
 						{
-							h2: "Overwatch 2 Hileleri 2026",
+							h2: "Overwatch 2 hileleri satın al",
 							paragraphs: [
 								"Blizzard Anti-Cheat yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı patch garantisi vermez.",
 								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
@@ -9557,6 +9922,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Satış ortaklığı açıklaması | Overwatch 2 Cheats",
+					description: "Satış ortaklığı açıklaması for overwatchcheats.org — Bu sitedeki bazı bağlantılar satış ortaklığı bağlantılarıdır. Bu bağlantılar üze…",
+					h1: "Satış ortaklığı açıklaması",
+					intro: "Bu sitedeki bazı bağlantılar satış ortaklığı bağlantılarıdır. Bu bağlantılar üzerinden satın alırsanız, size ek maliyet olmadan komisyon alabiliriz.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Bu sitedeki bazı bağlantılar satış ortaklığı bağlantılarıdır. Bu bağlantılar üzerinden satın alırsanız, size ek maliyet olmadan komisyon alabiliriz.",
+								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Blizzard Anti-Cheat bakımı içerir.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Satış ortaklığı bağlantısı may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"Destek ve yasal sorular için support@overwatchcheats.org.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		ar: {
@@ -9629,6 +10029,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "بعض الروابط في هذا الموقع روابط إحالة. إذا اشتريت عبرها، قد نحصل على عمولة دون تكلفة إضافية عليك.",
+					linkLabel: "رابط إحالة",
+					pageLink: "إفصاح الإحالة",
 				},
 			},
 			pages: {
@@ -10081,26 +10486,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "غش Overwatch 2 2026 | Buyer Guide",
-					description: "غش Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
-					h1: "غش Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot لـ Overwatch 2 على Windows PC. غش Overwatch 2 2026.",
+					title: "اشترِ غش Overwatch 2 | Buyer Guide",
+					description: "اشترِ غش Overwatch 2: Overwatch 2 cheats checklist before checkout. تسليم رقمي فوري. اشترِ Overwatch 2 Cheats.",
+					h1: "اشترِ غش Overwatch 2",
+					intro: "Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot لـ Overwatch 2 على Windows PC. اشترِ غش Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "غش Overwatch 2 2026",
+					galleryTitle: "اشترِ غش Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "اشترِ Overwatch 2 Cheats",
 					ctaSecondary: "عرض الميزات",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "غش Overwatch 2 2026",
+							h2: "اشترِ غش Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats يجمع wallhack وwallhack وOverwatch 2 aimbot لـ Overwatch 2 على Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "غش Overwatch 2 2026",
+							h2: "اشترِ غش Overwatch 2",
 							paragraphs: [
 								"راجع Updates بعد تص patches Blizzard Anti-Cheat. لا يضمن أي غش حالة patch دائمة.",
 								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
@@ -10500,6 +10905,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "إفصاح الإحالة | Overwatch 2 Cheats",
+					description: "إفصاح الإحالة for overwatchcheats.org — بعض الروابط في هذا الموقع روابط إحالة. إذا اشتريت عبرها، قد نحصل على عمولة دون ت…",
+					h1: "إفصاح الإحالة",
+					intro: "بعض الروابط في هذا الموقع روابط إحالة. إذا اشتريت عبرها، قد نحصل على عمولة دون تكلفة إضافية عليك.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "مراسلة الدعم",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"بعض الروابط في هذا الموقع روابط إحالة. إذا اشتريت عبرها، قد نحصل على عمولة دون تكلفة إضافية عليك.",
+								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"رابط إحالة may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org للدعم والطلبات القانونية.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		ja: {
@@ -10572,6 +11012,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "このサイトの一部のリンクはアフィリエイトリンクです。それら経由で購入すると、追加費用なしで当サイトに報酬が発生する場合があります。",
+					linkLabel: "アフィリエイトリンク",
+					pageLink: "アフィリエイト開示",
 				},
 			},
 			pages: {
@@ -11024,26 +11469,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのパッケージです。Overwatch 2 Cheats 2026.",
+					title: "Overwatch 2 Cheatsを購入 | Buyer Guide",
+					description: "Overwatch 2 Cheatsを購入: Overwatch 2 cheats checklist before checkout. 即時デジタル配信. Overwatch 2 Cheatsを購入.",
+					h1: "Overwatch 2 Cheatsを購入",
+					intro: "Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのパッケージです。Overwatch 2 Cheatsを購入.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Overwatch 2 Cheatsを購入",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheatsを購入",
 					ctaSecondary: "機能を見る",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheatsを購入",
 							paragraphs: [
 								"Overwatch 2 CheatsはOverwatch 2向けWindows PC用wallhack、wallhack、Overwatch 2 aimbotのパッケージです。Overwatch 2 cheats checklist before checkout.",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheatsを購入",
 							paragraphs: [
 								"Blizzard Anti-Cheatパッチ後はUpdatesページを確認。永久patchは保証されません。",
 								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
@@ -11443,6 +11888,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "アフィリエイト開示 | Overwatch 2 Cheats",
+					description: "アフィリエイト開示 for overwatchcheats.org — このサイトの一部のリンクはアフィリエイトリンクです。それら経由で購入すると、追加費用なしで当サイトに報酬が発生する場合があります。…",
+					h1: "アフィリエイト開示",
+					intro: "このサイトの一部のリンクはアフィリエイトリンクです。それら経由で購入すると、追加費用なしで当サイトに報酬が発生する場合があります。",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "サポートにメール",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"このサイトの一部のリンクはアフィリエイトリンクです。それら経由で購入すると、追加費用なしで当サイトに報酬が発生する場合があります。",
+								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにBlizzard Anti-Cheatメンテナンス含む。",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"アフィリエイトリンク may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"サポート・法務: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		ko: {
@@ -11515,6 +11995,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "이 사이트의 일부 링크는 제휴 링크입니다. 해당 링크를 통해 구매하면 추가 비용 없이 수수료를 받을 수 있습니다.",
+					linkLabel: "제휴 링크",
+					pageLink: "제휴 고지",
 				},
 			},
 			pages: {
@@ -11967,26 +12452,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot 패키지입니다. Overwatch 2 Cheats 2026.",
+					title: "Overwatch 2 Cheats 구매 | Buyer Guide",
+					description: "Overwatch 2 Cheats 구매: Overwatch 2 cheats checklist before checkout. 즉시 디지털 배송. Overwatch 2 Cheats 구매.",
+					h1: "Overwatch 2 Cheats 구매",
+					intro: "Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot 패키지입니다. Overwatch 2 Cheats 구매.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Overwatch 2 Cheats 구매",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats 구매",
 					ctaSecondary: "기능 보기",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats 구매",
 							paragraphs: [
 								"Overwatch 2 Cheats는 Overwatch 2 Windows PC용 Overwatch 2 ESP, wallhack, Overwatch 2 aimbot 패키지입니다. Overwatch 2 cheats checklist before checkout.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats 구매",
 							paragraphs: [
 								"Blizzard Anti-Cheat 패치 후 Updates 페이지 확인. 영구 patch 보장 없음.",
 								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
@@ -12386,6 +12871,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "제휴 고지 | Overwatch 2 Cheats",
+					description: "제휴 고지 for overwatchcheats.org — 이 사이트의 일부 링크는 제휴 링크입니다. 해당 링크를 통해 구매하면 추가 비용 없이 수수료를 받을 수 있습니다.…",
+					h1: "제휴 고지",
+					intro: "이 사이트의 일부 링크는 제휴 링크입니다. 해당 링크를 통해 구매하면 추가 비용 없이 수수료를 받을 수 있습니다.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "지원 이메일",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"이 사이트의 일부 링크는 제휴 링크입니다. 해당 링크를 통해 구매하면 추가 비용 없이 수수료를 받을 수 있습니다.",
+								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Blizzard Anti-Cheat 유지보수 포함.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"제휴 링크 may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"지원 및 법무: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		zh: {
@@ -12458,6 +12978,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "本网站部分链接为联盟链接。若您通过此类链接购买，我们可能会获得佣金，且不会向您收取额外费用。",
+					linkLabel: "联盟链接",
+					pageLink: "联盟披露",
 				},
 			},
 			pages: {
@@ -12910,26 +13435,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2作弊 2026 | Buyer Guide",
-					description: "Overwatch 2作弊 2026: Overwatch 2 cheats checklist before checkout. 即时数字交付. 购买 Overwatch 2 Cheats.",
-					h1: "Overwatch 2作弊 2026",
-					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbot套餐。Overwatch 2作弊 2026.",
+					title: "购买 Overwatch 2 作弊 | Buyer Guide",
+					description: "购买 Overwatch 2 作弊: Overwatch 2 cheats checklist before checkout. 即时数字交付. 购买 Overwatch 2 Cheats.",
+					h1: "购买 Overwatch 2 作弊",
+					intro: "Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbot套餐。购买 Overwatch 2 作弊.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2作弊 2026",
+					galleryTitle: "购买 Overwatch 2 作弊",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "购买 Overwatch 2 Cheats",
 					ctaSecondary: "查看功能",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2作弊 2026",
+							h2: "购买 Overwatch 2 作弊",
 							paragraphs: [
 								"Overwatch 2 Cheats为Overwatch 2Windows PC提供wallhack、wallhack和Overwatch 2 aimbot套餐。Overwatch 2 cheats checklist before checkout.",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
 							],
 						},
 						{
-							h2: "Overwatch 2作弊 2026",
+							h2: "购买 Overwatch 2 作弊",
 							paragraphs: [
 								"Blizzard Anti-Cheat补丁后请查看Updates页面。无任何作弊保证永久patch。",
 								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
@@ -13329,6 +13854,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "联盟披露 | Overwatch 2 Cheats",
+					description: "联盟披露 for overwatchcheats.org — 本网站部分链接为联盟链接。若您通过此类链接购买，我们可能会获得佣金，且不会向您收取额外费用。…",
+					h1: "联盟披露",
+					intro: "本网站部分链接为联盟链接。若您通过此类链接购买，我们可能会获得佣金，且不会向您收取额外费用。",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "邮件支持",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"本网站部分链接为联盟链接。若您通过此类链接购买，我们可能会获得佣金，且不会向您收取额外费用。",
+								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Blizzard Anti-Cheat维护。",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"联盟链接 may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"支持与法务：support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		hi: {
@@ -13401,6 +13961,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "इस साइट पर कुछ लिंक एफिलिएट लिंक हैं। यदि आप उनके ज़रिए खरीदते हैं, तो हमें बिना अतिरिक्त लागत के कमीशन मिल सकता है।",
+					linkLabel: "एफिलिएट लिंक",
+					pageLink: "एफिलिएट प्रकटीकरण",
 				},
 			},
 			pages: {
@@ -13853,26 +14418,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot पैकेज देता है। Overwatch 2 Cheats 2026.",
+					title: "Overwatch 2 Cheats खरीदें | Buyer Guide",
+					description: "Overwatch 2 Cheats खरीदें: Overwatch 2 cheats checklist before checkout. तुरंत डिजिटल डिलीवरी. Overwatch 2 Cheats खरीदें.",
+					h1: "Overwatch 2 Cheats खरीदें",
+					intro: "Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot पैकेज देता है। Overwatch 2 Cheats खरीदें.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Overwatch 2 Cheats खरीदें",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Overwatch 2 Cheats खरीदें",
 					ctaSecondary: "फ़ीचर्स देखें",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats खरीदें",
 							paragraphs: [
 								"Overwatch 2 Cheats Overwatch 2 के लिए Windows PC पर Overwatch 2 ESP, wallhack और Overwatch 2 aimbot पैकेज देता है। Overwatch 2 cheats checklist before checkout.",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Overwatch 2 Cheats खरीदें",
 							paragraphs: [
 								"Blizzard Anti-Cheat पैच के बाद Updates पेज देखें। कोई भी cheat permanent patch गारंटी नहीं देता।",
 								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
@@ -14272,6 +14837,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "एफिलिएट प्रकटीकरण | Overwatch 2 Cheats",
+					description: "एफिलिएट प्रकटीकरण for overwatchcheats.org — इस साइट पर कुछ लिंक एफिलिएट लिंक हैं। यदि आप उनके ज़रिए खरीदते हैं, तो हमें बिना…",
+					h1: "एफिलिएट प्रकटीकरण",
+					intro: "इस साइट पर कुछ लिंक एफिलिएट लिंक हैं। यदि आप उनके ज़रिए खरीदते हैं, तो हमें बिना अतिरिक्त लागत के कमीशन मिल सकता है।",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"इस साइट पर कुछ लिंक एफिलिएट लिंक हैं। यदि आप उनके ज़रिए खरीदते हैं, तो हमें बिना अतिरिक्त लागत के कमीशन मिल सकता है।",
+								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Blizzard Anti-Cheat maintenance शामिल।",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"एफिलिएट लिंक may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"सहायता: support@overwatchcheats.org",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		id: {
@@ -14344,6 +14944,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Beberapa tautan di situs ini adalah tautan afiliasi. Jika Anda membeli melalui tautan tersebut, kami dapat menerima komisi tanpa biaya tambahan untuk Anda.",
+					linkLabel: "Tautan afiliasi",
+					pageLink: "Pengungkapan afiliasi",
 				},
 			},
 			pages: {
@@ -14796,26 +15401,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheat Overwatch 2 2026 | Buyer Guide",
-					description: "Cheat Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. pengiriman digital instan. Beli Overwatch 2 Cheats.",
-					h1: "Cheat Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot untuk Overwatch 2 di PC Windows. Cheat Overwatch 2 2026.",
+					title: "Beli cheat Overwatch 2 | Buyer Guide",
+					description: "Beli cheat Overwatch 2: Overwatch 2 cheats checklist before checkout. pengiriman digital instan. Beli Overwatch 2 Cheats.",
+					h1: "Beli cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot untuk Overwatch 2 di PC Windows. Beli cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheat Overwatch 2 2026",
+					galleryTitle: "Beli cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Beli Overwatch 2 Cheats",
 					ctaSecondary: "Lihat fitur",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Beli cheat Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats menyediakan Overwatch 2 ESP, wallhack, dan Overwatch 2 aimbot untuk Overwatch 2 di PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Beli cheat Overwatch 2",
 							paragraphs: [
 								"Periksa Updates setelah patch Blizzard Anti-Cheat. Tidak ada cheat yang menjamin patch permanen.",
 								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
@@ -15215,6 +15820,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Pengungkapan afiliasi | Overwatch 2 Cheats",
+					description: "Pengungkapan afiliasi for overwatchcheats.org — Beberapa tautan di situs ini adalah tautan afiliasi. Jika Anda membeli melalui t…",
+					h1: "Pengungkapan afiliasi",
+					intro: "Beberapa tautan di situs ini adalah tautan afiliasi. Jika Anda membeli melalui tautan tersebut, kami dapat menerima komisi tanpa biaya tambahan untuk Anda.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Beberapa tautan di situs ini adalah tautan afiliasi. Jika Anda membeli melalui tautan tersebut, kami dapat menerima komisi tanpa biaya tambahan untuk Anda.",
+								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Tautan afiliasi may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org untuk dukungan dan legal.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		th: {
@@ -15287,6 +15927,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "ลิงก์บางส่วนบนเว็บไซต์นี้เป็นลิงก์พันธมิตร หากคุณซื้อผ่านลิงก์เหล่านั้น เราอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มสำหรับคุณ",
+					linkLabel: "ลิงก์พันธมิตร",
+					pageLink: "การเปิดเผยพันธมิตร",
 				},
 			},
 			pages: {
@@ -15739,26 +16384,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ สำหรับ Overwatch 2 บน Windows PC Overwatch 2 Cheats 2026.",
+					title: "ซื้อ Overwatch 2 Cheats | Buyer Guide",
+					description: "ซื้อ Overwatch 2 Cheats: Overwatch 2 cheats checklist before checkout. จัดส่งดิจิทัลทันที. ซื้อ Overwatch 2 Cheats.",
+					h1: "ซื้อ Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ สำหรับ Overwatch 2 บน Windows PC ซื้อ Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "ซื้อ Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "ซื้อ Overwatch 2 Cheats",
 					ctaSecondary: "ดูฟีเจอร์",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "ซื้อ Overwatch 2 Cheats",
 							paragraphs: [
 								"Overwatch 2 Cheats รวม Overwatch 2 ESP, wallhack และ Overwatch 2 aimbot แบบ สำหรับ Overwatch 2 บน Windows PC Overwatch 2 cheats checklist before checkout.",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "ซื้อ Overwatch 2 Cheats",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Blizzard Anti-Cheat ไม่มี cheat รับประกัน patch ถาวร",
 								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
@@ -16158,6 +16803,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "การเปิดเผยพันธมิตร | Overwatch 2 Cheats",
+					description: "การเปิดเผยพันธมิตร for overwatchcheats.org — ลิงก์บางส่วนบนเว็บไซต์นี้เป็นลิงก์พันธมิตร หากคุณซื้อผ่านลิงก์เหล่านั้น เราอาจได…",
+					h1: "การเปิดเผยพันธมิตร",
+					intro: "ลิงก์บางส่วนบนเว็บไซต์นี้เป็นลิงก์พันธมิตร หากคุณซื้อผ่านลิงก์เหล่านั้น เราอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มสำหรับคุณ",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"ลิงก์บางส่วนบนเว็บไซต์นี้เป็นลิงก์พันธมิตร หากคุณซื้อผ่านลิงก์เหล่านั้น เราอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มสำหรับคุณ",
+								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Blizzard Anti-Cheat",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"ลิงก์พันธมิตร may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org สำหรับการสนับสนุน",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		vi: {
@@ -16230,6 +16910,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Một số liên kết trên trang này là liên kết tiếp thị liên kết. Nếu bạn mua qua các liên kết đó, chúng tôi có thể nhận hoa hồng mà bạn không phải trả thêm.",
+					linkLabel: "Liên kết tiếp thị",
+					pageLink: "Công bố tiếp thị liên kết",
 				},
 			},
 			pages: {
@@ -16682,26 +17367,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheat Overwatch 2 2026 | Buyer Guide",
-					description: "Cheat Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
-					h1: "Cheat Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot cho Overwatch 2 trên PC Windows. Cheat Overwatch 2 2026.",
+					title: "Mua cheat Overwatch 2 | Buyer Guide",
+					description: "Mua cheat Overwatch 2: Overwatch 2 cheats checklist before checkout. giao hàng kỹ thuật số tức thì. Mua Overwatch 2 Cheats.",
+					h1: "Mua cheat Overwatch 2",
+					intro: "Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot cho Overwatch 2 trên PC Windows. Mua cheat Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheat Overwatch 2 2026",
+					galleryTitle: "Mua cheat Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Mua Overwatch 2 Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Mua cheat Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats cung cấp Overwatch 2 ESP, wallhack và Overwatch 2 aimbot cho Overwatch 2 trên PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheat Overwatch 2 2026",
+							h2: "Mua cheat Overwatch 2",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Blizzard Anti-Cheat. Không cheat nào đảm bảo patch vĩnh viễn.",
 								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
@@ -17101,6 +17786,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Công bố tiếp thị liên kết | Overwatch 2 Cheats",
+					description: "Công bố tiếp thị liên kết for overwatchcheats.org — Một số liên kết trên trang này là liên kết tiếp thị liên kết. Nếu bạn mua qua cá…",
+					h1: "Công bố tiếp thị liên kết",
+					intro: "Một số liên kết trên trang này là liên kết tiếp thị liên kết. Nếu bạn mua qua các liên kết đó, chúng tôi có thể nhận hoa hồng mà bạn không phải trả thêm.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Một số liên kết trên trang này là liên kết tiếp thị liên kết. Nếu bạn mua qua các liên kết đó, chúng tôi có thể nhận hoa hồng mà bạn không phải trả thêm.",
+								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Liên kết tiếp thị may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org cho hỗ trợ và pháp lý.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		uk: {
@@ -17173,6 +17893,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Деякі посилання на цьому сайті є партнерськими. Якщо ви купуєте через них, ми можемо отримати комісію без додаткових витрат для вас.",
+					linkLabel: "Партнерське посилання",
+					pageLink: "Розкриття партнерських посилань",
 				},
 			},
 			pages: {
@@ -17625,26 +18350,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Чіти Overwatch 2 2026 | Buyer Guide",
-					description: "Чіти Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
-					h1: "Чіти Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у премиум-пакеті для Overwatch 2 на Windows PC. Чіти Overwatch 2 2026.",
+					title: "Купити чіти Overwatch 2 | Buyer Guide",
+					description: "Купити чіти Overwatch 2: Overwatch 2 cheats checklist before checkout. миттєва цифрова доставка. Купити Overwatch 2 Cheats.",
+					h1: "Купити чіти Overwatch 2",
+					intro: "Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у премиум-пакеті для Overwatch 2 на Windows PC. Купити чіти Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Чіти Overwatch 2 2026",
+					galleryTitle: "Купити чіти Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Купити Overwatch 2 Cheats",
 					ctaSecondary: "Дивитися функції",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Чіти Overwatch 2 2026",
+							h2: "Купити чіти Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats об'єднує Overwatch 2 ESP, wallhack і Overwatch 2 aimbot у премиум-пакеті для Overwatch 2 на Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Чіти Overwatch 2 2026",
+							h2: "Купити чіти Overwatch 2",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Blizzard Anti-Cheat. Жоден чит не гарантує постійний patch статус.",
 								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
@@ -18044,6 +18769,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Розкриття партнерських посилань | Overwatch 2 Cheats",
+					description: "Розкриття партнерських посилань for overwatchcheats.org — Деякі посилання на цьому сайті є партнерськими. Якщо ви купуєте через них, ми мо…",
+					h1: "Розкриття партнерських посилань",
+					intro: "Деякі посилання на цьому сайті є партнерськими. Якщо ви купуєте через них, ми можемо отримати комісію без додаткових витрат для вас.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Деякі посилання на цьому сайті є партнерськими. Якщо ви купуєте через них, ми можемо отримати комісію без додаткових витрат для вас.",
+								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Партнерське посилання may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org для підтримки та правових питань.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		cs: {
@@ -18116,6 +18876,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Některé odkazy na tomto webu jsou partnerské. Pokud nakoupíte přes ně, můžeme získat provizi bez dalších nákladů pro vás.",
+					linkLabel: "Partnerský odkaz",
+					pageLink: "Upozornění na partnerské odkazy",
 				},
 			},
 			pages: {
@@ -18568,26 +19333,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 cheaty 2026 | Buyer Guide",
-					description: "Overwatch 2 cheaty 2026: Overwatch 2 cheats checklist before checkout. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
-					h1: "Overwatch 2 cheaty 2026",
-					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheaty 2026.",
+					title: "Koupit Overwatch 2 Cheats | Buyer Guide",
+					description: "Koupit Overwatch 2 Cheats: Overwatch 2 cheats checklist before checkout. okamžité digitální doručení. Koupit Overwatch 2 Cheats.",
+					h1: "Koupit Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako balíček pro Overwatch 2 na Windows PC. Koupit Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 cheaty 2026",
+					galleryTitle: "Koupit Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Koupit Overwatch 2 Cheats",
 					ctaSecondary: "Zobrazit funkce",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 cheaty 2026",
+							h2: "Koupit Overwatch 2 Cheats",
 							paragraphs: [
 								"Overwatch 2 Cheats spojuje Overwatch 2 ESP, wallhack a Overwatch 2 aimbot jako balíček pro Overwatch 2 na Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Overwatch 2 cheaty 2026",
+							h2: "Koupit Overwatch 2 Cheats",
 							paragraphs: [
 								"Po patchích Blizzard Anti-Cheat zkontrolujte Updates. Žádný cheat negarantuje trvalý stav patchů.",
 								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
@@ -18987,6 +19752,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Upozornění na partnerské odkazy | Overwatch 2 Cheats",
+					description: "Upozornění na partnerské odkazy for overwatchcheats.org — Některé odkazy na tomto webu jsou partnerské. Pokud nakoupíte přes ně, můžeme zí…",
+					h1: "Upozornění na partnerské odkazy",
+					intro: "Některé odkazy na tomto webu jsou partnerské. Pokud nakoupíte přes ně, můžeme získat provizi bez dalších nákladů pro vás.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Některé odkazy na tomto webu jsou partnerské. Pokud nakoupíte přes ně, můžeme získat provizi bez dalších nákladů pro vás.",
+								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Partnerský odkaz may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org pro podporu a právní dotazy.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		ro: {
@@ -19059,6 +19859,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Unele linkuri de pe acest site sunt linkuri de afiliere. Dacă cumperi prin ele, putem primi un comision fără cost suplimentar pentru tine.",
+					linkLabel: "Link de afiliere",
+					pageLink: "Dezvăluire afiliere",
 				},
 			},
 			pages: {
@@ -19511,26 +20316,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Cheats Overwatch 2 2026 | Buyer Guide",
-					description: "Cheats Overwatch 2 2026: Overwatch 2 cheats checklist before checkout. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
-					h1: "Cheats Overwatch 2 2026",
-					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot pentru Overwatch 2 pe PC Windows. Cheats Overwatch 2 2026.",
+					title: "Cumpără cheats Overwatch 2 | Buyer Guide",
+					description: "Cumpără cheats Overwatch 2: Overwatch 2 cheats checklist before checkout. livrare digitală instantă. Cumpără Overwatch 2 Cheats.",
+					h1: "Cumpără cheats Overwatch 2",
+					intro: "Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot pentru Overwatch 2 pe PC Windows. Cumpără cheats Overwatch 2.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Cheats Overwatch 2 2026",
+					galleryTitle: "Cumpără cheats Overwatch 2",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Cumpără Overwatch 2 Cheats",
 					ctaSecondary: "Vezi funcții",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Cheats Overwatch 2 2026",
+							h2: "Cumpără cheats Overwatch 2",
 							paragraphs: [
 								"Overwatch 2 Cheats combină Overwatch 2 ESP, wallhack și Overwatch 2 aimbot pentru Overwatch 2 pe PC Windows. Overwatch 2 cheats checklist before checkout.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
 							],
 						},
 						{
-							h2: "Cheats Overwatch 2 2026",
+							h2: "Cumpără cheats Overwatch 2",
 							paragraphs: [
 								"Verificați Updates după patch-uri Blizzard Anti-Cheat. Niciun cheat nu garantează patch permanent.",
 								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
@@ -19930,6 +20735,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 					],
 				},
+				"affiliate-disclosure": {
+					title: "Dezvăluire afiliere | Overwatch 2 Cheats",
+					description: "Dezvăluire afiliere for overwatchcheats.org — Unele linkuri de pe acest site sunt linkuri de afiliere. Dacă cumperi prin ele, …",
+					h1: "Dezvăluire afiliere",
+					intro: "Unele linkuri de pe acest site sunt linkuri de afiliere. Dacă cumperi prin ele, putem primi un comision fără cost suplimentar pentru tine.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Unele linkuri de pe acest site sunt linkuri de afiliere. Dacă cumperi prin ele, putem primi un comision fără cost suplimentar pentru tine.",
+								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Blizzard Anti-Cheat.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Link de afiliere may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
+							paragraphs: [
+								"support@overwatchcheats.org pentru suport și legal.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
 			},
 		},
 		sv: {
@@ -20002,6 +20842,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					rebootFight: "Aimbot assist during a Overwatch 2 firefight",
 					battleRoyale: "Overwatch 2 Cheats in-match overview for Windows PC",
 					battleRoyaleIsland: "ESP markers for heroes and objectives in Overwatch 2",
+				},
+				affiliate: {
+					disclosure: "Vissa länkar på den här webbplatsen är affiliate-länkar. Om du köper via dem kan vi få provision utan extra kostnad för dig.",
+					linkLabel: "Affiliatelänk",
+					pageLink: "Affiliate-information",
 				},
 			},
 			pages: {
@@ -20454,26 +21299,26 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					],
 				},
 				"cheats-2026": {
-					title: "Overwatch 2 Cheats 2026 | Buyer Guide",
-					description: "Overwatch 2 Cheats 2026: Overwatch 2 cheats checklist before checkout. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
-					h1: "Overwatch 2 Cheats 2026",
-					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som paket för Overwatch 2 på Windows PC. Overwatch 2 Cheats 2026.",
+					title: "Köp Overwatch 2 Cheats | Buyer Guide",
+					description: "Köp Overwatch 2 Cheats: Overwatch 2 cheats checklist before checkout. omedelbar digital leverans. Köp Overwatch 2 Cheats.",
+					h1: "Köp Overwatch 2 Cheats",
+					intro: "Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som paket för Overwatch 2 på Windows PC. Köp Overwatch 2 Cheats.",
 					imageAlt: "Overwatch 2 Cheats product overview for Overwatch 2",
-					galleryTitle: "Overwatch 2 Cheats 2026",
+					galleryTitle: "Köp Overwatch 2 Cheats",
 					heroImage: "/images/overwatch-2-cheats-esp.webp",
 					ctaPrimary: "Köp Overwatch 2 Cheats",
 					ctaSecondary: "Se funktioner",
 					ctaSecondaryHref: "/overwatch-2-cheats/",
 					sections: [
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Köp Overwatch 2 Cheats",
 							paragraphs: [
 								"Overwatch 2 Cheats kombinerar Overwatch 2 ESP, wallhack och Overwatch 2 aimbot som paket för Overwatch 2 på Windows PC. Overwatch 2 cheats checklist before checkout.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
 							],
 						},
 						{
-							h2: "Overwatch 2 Cheats 2026",
+							h2: "Köp Overwatch 2 Cheats",
 							paragraphs: [
 								"Kontrollera Updates efter Blizzard Anti-Cheat-patchar. Ingen cheat garanterar permanent patch status.",
 								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
@@ -20866,6 +21711,41 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						},
 						{
 							h2: "Policy changes",
+							paragraphs: [
+								"support@overwatchcheats.org för support och juridik.",
+								"Email: support@overwatchcheats.org",
+							],
+						},
+					],
+				},
+				"affiliate-disclosure": {
+					title: "Affiliate-information | Overwatch 2 Cheats",
+					description: "Affiliate-information for overwatchcheats.org — Vissa länkar på den här webbplatsen är affiliate-länkar. Om du köper via dem kan…",
+					h1: "Affiliate-information",
+					intro: "Vissa länkar på den här webbplatsen är affiliate-länkar. Om du köper via dem kan vi få provision utan extra kostnad för dig.",
+					imageAlt: "Overwatch 2 cheats",
+					galleryTitle: "Overwatch 2 cheats",
+					heroImage: "/images/overwatch-2-cheats-pricing-store.webp",
+					ctaPrimary: "Email support",
+					ctaSecondary: "Read privacy",
+					ctaSecondaryHref: "/privacy/",
+					sections: [
+						{
+							h2: "Affiliate links",
+							paragraphs: [
+								"Vissa länkar på den här webbplatsen är affiliate-länkar. Om du köper via dem kan vi få provision utan extra kostnad för dig.",
+								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Blizzard Anti-Cheat-underhåll.",
+							],
+						},
+						{
+							h2: "How we label links",
+							paragraphs: [
+								"Purchase links that leave overwatchcheats.org for checkout use rel=\"sponsored nofollow noopener\".",
+								"Affiliatelänk may appear beside buy buttons where applicable.",
+							],
+						},
+						{
+							h2: "Questions",
 							paragraphs: [
 								"support@overwatchcheats.org för support och juridik.",
 								"Email: support@overwatchcheats.org",

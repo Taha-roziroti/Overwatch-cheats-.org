@@ -9,6 +9,7 @@ import {
 import { defaultLocale, locales, type LocaleCode } from '../data/i18n/locales';
 import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
+import AffiliateNotice from './AffiliateNotice.astro';
 import {
 	getBlogBasePath,
 	getBlogLocaleSwitchHref,
@@ -60,7 +61,17 @@ const links = [
 	{ id: 'forum', labelKey: 'nav.forum', edit: 'blogLabel', href: getBlogBasePath(locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },
 ];
+
+const showAffiliateNotice = !Astro.url.pathname.includes('/brand-studio');
 ---
+
+{
+	showAffiliateNotice && (
+		<div class="site-affiliate-bar shell">
+			<AffiliateNotice locale={locale} />
+		</div>
+	)
+}
 
 <NavbarApp
 	client:load
@@ -76,6 +87,12 @@ const links = [
 />
 
 <style is:global>
+	.site-affiliate-bar {
+		padding: 0.35rem 0 0;
+		border-bottom: 1px solid var(--line-soft);
+		background: color-mix(in srgb, var(--bg-panel) 92%, transparent);
+	}
+
 	.lang-switcher {
 		position: relative;
 	}

@@ -10,15 +10,24 @@ import { readFileSync } from 'node:fs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-function readBrandUrl() {
+function readBrandConfig() {
 	const src = readFileSync(path.join(ROOT, 'src/data/brand.ts'), 'utf8');
-	const m = src.match(/(?:^|\n)\turl:\s*'((?:\\'|[^'])*)'/);
-	if (!m) throw new Error('brand.ts missing url');
-	return m[1].replace(/\\'/g, "'").replace(/\/$/, '');
+	const urlM = src.match(/(?:^|\n)\turl:\s*'((?:\\'|[^'])*)'/);
+	if (!urlM) throw new Error('brand.ts missing url');
+	const checkoutM = src.match(/(?:^|\n)\tcheckoutUrl:\s*'((?:\\'|[^'])*)'/);
+	const disclosureM = src.match(/disclosure:\s*\n\s*'((?:\\'|[^'])*)'/);
+	return {
+		url: urlM[1].replace(/\\'/g, "'").replace(/\/$/, ''),
+		checkoutUrl: checkoutM?.[1]?.replace(/\\'/g, "'") ?? '',
+		disclosureSnippet: (disclosureM?.[1] ?? 'affiliate links').slice(0, 24).toLowerCase(),
+	};
 }
 
-const CANONICAL_ORIGIN = readBrandUrl();
+const brandConfig = readBrandConfig();
+const CANONICAL_ORIGIN = brandConfig.url;
 const APEX = CANONICAL_ORIGIN.replace(/^https?:\/\//, '');
+const CHECKOUT_HOST = brandConfig.checkoutUrl ? new URL(brandConfig.checkoutUrl).hostname : 'zadeyo.com';
+const DISCLOSURE_SNIPPET = brandConfig.disclosureSnippet;
 
 async function resolveDist() {
 	for (const dir of [path.join(ROOT, 'dist'), path.join(ROOT, 'dist', 'client')]) {
@@ -153,6 +162,26 @@ async function main() {
 			if (count >= 4 && text.length < 40 && !globalNavLabels.has(text.toLowerCase())) {
 				warn(rel, 'duplicate-anchor', `"${text}" used ${count}×`);
 			}
+		}
+
+		const checkoutLinks = [...html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi)].filter((m) =>
+			m[1].includes(CHECKOUT_HOST),
+		);
+		for (const m of checkoutLinks) {
+			const tag = m[0];
+			const relM = tag.match(/\brel=["']([^"']+)["']/i);
+			const relValue = relM?.[1]?.toLowerCase() ?? '';
+			if (!relValue.includes('sponsored') || !relValue.includes('nofollow')) {
+				warn(rel, 'affiliate-rel', `Checkout link missing rel="sponsored nofollow": ${m[1].slice(0, 60)}`);
+			}
+		}
+
+		const hasAffiliateNotice =
+			html.includes('affiliate-notice') ||
+			html.includes('site-affiliate-bar') ||
+			bodyText.includes(DISCLOSURE_SNIPPET);
+		if (checkoutLinks.length > 0 && !hasAffiliateNotice) {
+			warn(rel, 'affiliate-disclosure-missing', 'Page has checkout links but no affiliate disclosure in HTML');
 		}
 	}
 

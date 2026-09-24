@@ -9,7 +9,7 @@ export const PAGE_IDS = [
 	'home', 'overwatch-2-esp', 'overwatch-2-aimbot', 'features', 'pricing', 'setup',
 	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'anticheat',
 	'cheats-2026', 'hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats',
-	'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms',
+	'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms', 'affiliate-disclosure',
 ];
 
 /** Hero image per page — simple Overwatch 2 cheats keyword filenames. */
@@ -39,6 +39,7 @@ export const HERO_IMAGES = {
 	privacy: '/images/overwatch-2-cheats-aimbot.webp',
 	refund: '/images/overwatch-2-cheats-raid.webp',
 	terms: '/images/overwatch-2-cheats-aimbot-view.webp',
+	'affiliate-disclosure': '/images/overwatch-2-cheats-pricing-store.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -70,7 +71,7 @@ export type LocaleUi = {
 \t\theaderArt: string; cheatsPackage: string; rebootFight: string; battleRoyale: string; battleRoyaleIsland: string;
 \t};
 };
-export type PageId = 'home' | 'overwatch-2-esp' | 'overwatch-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'overwatch-2-esp' | 'overwatch-2-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'anticheat' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'crucible-cheats' | 'aim-assist' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'pve-cheats' | 'privacy' | 'refund' | 'terms' | 'affiliate-disclosure';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */

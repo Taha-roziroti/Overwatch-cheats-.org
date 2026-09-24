@@ -84,6 +84,9 @@ function mergeUiIntoTemplate(template, locale, ui, shell) {
 
 	if (ui.footer) Object.assign(out.footer, ui.footer);
 	if (ui.images) Object.assign(out.images, ui.images);
+	if (ui.affiliate) {
+		out.affiliate = { ...(out.affiliate ?? {}), ...ui.affiliate };
+	}
 
 	out.cta.buy = ui.hero?.buyNow ?? ui.common?.buyNow ?? out.cta.buy;
 	out.cta.buyShort = shell.buyShort;

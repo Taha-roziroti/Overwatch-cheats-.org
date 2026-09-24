@@ -57,17 +57,17 @@ const BLOG_LEGACY_REDIRECT_PAGES = 0; // /blog/* → edge 301 only (no HTML stub
 const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
 const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
-const ENGLISH_PRODUCT_PAGES = 14;
+const ENGLISH_PRODUCT_PAGES = 15;
 const GUIDE_PAGES = 1; // /guides/ hub (native guides only; PBN slugs removed)
 const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
 const I18N_LOCALES = 21;
 /** Locale product pages also exclude the same cannibal pageIds */
-const PRODUCT_PAGES_PER_LOCALE = 14;
+const PRODUCT_PAGES_PER_LOCALE = 15;
 const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
-/** EN product HTML — 14 indexable pages (11 cannibal stubs are redirect-only, no HTML) */
+/** EN product HTML — 15 indexable pages (11 cannibal stubs are redirect-only, no HTML) */
 const ENGLISH_HTML_PAGES =
 	ENGLISH_PRODUCT_PAGES + BLOG_PAGES + BLOG_LEGACY_REDIRECT_PAGES + REVIEW_PAGES + FAQ_PAGES + GUIDE_PAGES;
 /** Locale HTML = product pages only; /{locale}/forum/* is edge 301 (no HTML stubs) */

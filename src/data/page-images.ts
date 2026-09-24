@@ -43,6 +43,7 @@ export const pageImageSrcById: Record<PageId, string> = {
 	privacy: '/images/overwatch-2-cheats-crucible.webp',
 	refund: '/images/overwatch-2-cheats-pve.webp',
 	terms: '/images/overwatch-2-cheats-aimbot-esp.webp',
+	'affiliate-disclosure': '/images/overwatch-2-cheats-pricing-store.webp',
 };
 
 for (const pageId of pageIds) {

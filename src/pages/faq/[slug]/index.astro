@@ -6,6 +6,7 @@ import { productInfo, seoFaqs, siteConfig, type FaqItem } from '../../../data/si
 import { absoluteFaqUrl, faqBasePath, getFaqCrawlImage, getFaqPath, getRelatedFaqs } from '../../../data/faq';
 import { getSelfHreflangAlternates } from '../../../data/i18n/routing';
 import { contentSrcSet, productMainSizes } from '../../../lib/responsive-images';
+import { AFFILIATE_LINK_REL } from '../../../lib/affiliate';
 
 export function getStaticPaths() {
 	return seoFaqs.map((faq) => ({
@@ -97,7 +98,7 @@ const extraGraph: Record<string, unknown>[] = [
 				</div>
 
 				<div class="faq-detail__ctas">
-					<a href={siteConfig.checkoutUrl} class="faq-detail__buy" rel="noopener noreferrer">
+					<a href={siteConfig.checkoutUrl} class="faq-detail__buy" rel={AFFILIATE_LINK_REL}>
 						Buy {siteConfig.name} — ${productInfo.plans[0].price}
 					</a>
 					<a href="/pricing/" class="faq-detail__link">Compare pricing</a>

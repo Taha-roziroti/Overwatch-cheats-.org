@@ -17,6 +17,7 @@ import {
 import { defaultLocale } from '../data/i18n/locales';
 import { siteConfig } from '../data/site';
 import { getT } from '../i18n/server';
+import { externalLinkRel } from '../lib/affiliate';
 
 type GalleryInput = string | { src: string; alt: string };
 
@@ -170,7 +171,7 @@ const breadcrumbs = [
 										<a
 											class="btn-buy"
 											href={ctaPrimary.href}
-											rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+											rel={externalLinkRel(ctaPrimary.href)}
 										>
 											<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
 										</a>
@@ -179,7 +180,7 @@ const breadcrumbs = [
 										<a
 											class="btn btn--ghost banner__btn-ghost"
 											href={ctaSecondary.href}
-											rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+											rel={externalLinkRel(ctaSecondary.href)}
 										>
 											{ctaSecondary.label}
 										</a>
@@ -206,7 +207,7 @@ const breadcrumbs = [
 								<a
 									class="btn-buy"
 									href={ctaPrimary.href}
-									rel={ctaPrimary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+									rel={externalLinkRel(ctaPrimary.href)}
 								>
 									<span data-edit={ctaPrimary.edit || undefined}>{ctaPrimary.label}</span>
 								</a>
@@ -215,7 +216,7 @@ const breadcrumbs = [
 								<a
 									class="btn btn--ghost"
 									href={ctaSecondary.href}
-									rel={ctaSecondary.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+									rel={externalLinkRel(ctaSecondary.href)}
 								>
 									{ctaSecondary.label}
 								</a>

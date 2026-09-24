@@ -261,5 +261,10 @@
     "highlightAimbotCopy": "Usa aimbot de seguimiento y flickbot ajustados para partidas de Overwatch 2 en Windows PC.",
     "updatesLabel": "Actualizaciones Overwatch 2 Cheats",
     "updatesShort": "Actualizaciones"
+  },
+  "affiliate": {
+    "disclosure": "Algunos enlaces de este sitio son enlaces de afiliados. Si compras a través de ellos, podemos recibir una comisión sin coste extra para ti.",
+    "linkLabel": "Enlace de afiliado",
+    "pageLink": "Divulgación de afiliados"
   }
 }

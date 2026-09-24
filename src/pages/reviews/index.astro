@@ -10,6 +10,7 @@ import { getReviewPath, reviewsBasePath } from '../../data/reviews';
 import { sitePaths } from '../../data/site-paths';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import { contentSrcSet, productMainSizes } from '../../lib/responsive-images';
+import { AFFILIATE_LINK_REL } from '../../lib/affiliate';
 
 const title = seoPageTitle(brandSeo.reviewsTitle);
 const description = seoDescription(brandSeo.reviewsDescription);
@@ -122,7 +123,7 @@ const extraGraph: Record<string, unknown>[] = [
 					maintenance after updates.
 				</p>
 				<div class="reviews-index__cta-row">
-					<a href={siteConfig.checkoutUrl} class="reviews-index__buy" rel="noopener noreferrer">
+					<a href={siteConfig.checkoutUrl} class="reviews-index__buy" rel={AFFILIATE_LINK_REL}>
 						Buy Now — ${productInfo.plans[0].price}
 					</a>
 					<a href={sitePaths.pricing} class="reviews-index__link-btn">Compare pricing</a>

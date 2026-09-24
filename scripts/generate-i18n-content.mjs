@@ -54,7 +54,7 @@ function buildI18nContent() {
 			'home', 'overwatch-2-esp', 'overwatch-2-aimbot', 'features', 'pricing', 'setup',
 			'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'anticheat',
 			'cheats-2026', 'hacks', 'cheat-download', 'crucible-cheats', 'aim-assist', 'best-cheats',
-			'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms',
+			'aimbot-hack', 'esp-hack', 'pve-cheats', 'privacy', 'refund', 'terms', 'affiliate-disclosure',
 		];
 		for (const pageId of requiredPages) {
 			if (!pages[pageId]) throw new Error(`Missing page "${pageId}" for locale "${locale}"`);
@@ -67,10 +67,10 @@ function buildI18nContent() {
 			if (pageId === 'home' && p.sections.length !== 2) {
 				throw new Error(`Home must have 2 sections for ${locale}, got ${p.sections.length}`);
 			}
-			if (['privacy', 'refund', 'terms'].includes(pageId) && p.sections.length !== 3) {
+			if (['privacy', 'refund', 'terms', 'affiliate-disclosure'].includes(pageId) && p.sections.length !== 3) {
 				throw new Error(`Legal page ${pageId} must have 3 sections for ${locale}`);
 			}
-			if (!['home', 'privacy', 'refund', 'terms'].includes(pageId) && p.sections.length < 3) {
+			if (!['home', 'privacy', 'refund', 'terms', 'affiliate-disclosure'].includes(pageId) && p.sections.length < 3) {
 				throw new Error(`Page ${pageId} needs 3+ sections for ${locale}, got ${p.sections.length}`);
 			}
 			for (const sec of p.sections) {

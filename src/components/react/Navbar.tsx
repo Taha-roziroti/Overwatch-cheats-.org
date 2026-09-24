@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import { AFFILIATE_LINK_REL } from '../../lib/affiliate';
 import LanguageSwitcher, { type LocaleMeta } from './LanguageSwitcher';
 
 type NavLink = {
@@ -138,7 +139,7 @@ function NavbarInner({
 					<a
 						href={checkoutUrl}
 						className="site-tools__buy"
-						rel="noopener noreferrer"
+						rel={AFFILIATE_LINK_REL}
 						aria-label={t('cta.buyShort')}
 					>
 						<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -194,7 +195,7 @@ function NavbarInner({
 						<a
 							href={checkoutUrl}
 							className="site-mobile-nav__buy"
-							rel="noopener noreferrer"
+							rel={AFFILIATE_LINK_REL}
 							onClick={closeMenu}
 						>
 							<span data-edit="ctaBuyShort">{t('cta.buy')}</span>

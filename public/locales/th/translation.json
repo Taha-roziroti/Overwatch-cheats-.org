@@ -250,5 +250,10 @@
     "highlightAimbotCopy": "Use tracking aimbot and aimbot controls tuned for Overwatch 2 matches on Windows PC.",
     "updatesLabel": "Overwatch 2 cheats updates",
     "updatesShort": "Updates"
+  },
+  "affiliate": {
+    "disclosure": "ลิงก์บางส่วนบนเว็บไซต์นี้เป็นลิงก์พันธมิตร หากคุณซื้อผ่านลิงก์เหล่านั้น เราอาจได้รับค่าคอมมิชชันโดยไม่มีค่าใช้จ่ายเพิ่มสำหรับคุณ",
+    "linkLabel": "ลิงก์พันธมิตร",
+    "pageLink": "การเปิดเผยพันธมิตร"
   }
 }

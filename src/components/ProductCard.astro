@@ -5,6 +5,7 @@ import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { productInfo, siteConfig } from '../data/site';
 import { contentSrcSet, productMainSizes } from '../lib/responsive-images';
 import { getT } from '../i18n/server';
+import { AFFILIATE_LINK_REL } from '../lib/affiliate';
 
 interface Props {
 	name?: string;
@@ -56,7 +57,7 @@ const monthlyPlan = productInfo.plans.find((plan) => plan.id === 'monthly') ?? p
 		<a
 			href={siteConfig.checkoutUrl}
 			class="btn-buy product__buy"
-			rel="noopener noreferrer"
+			rel={AFFILIATE_LINK_REL}
 		>
 			{ui.common.buyNow} — ${monthlyPlan.price}
 		</a>

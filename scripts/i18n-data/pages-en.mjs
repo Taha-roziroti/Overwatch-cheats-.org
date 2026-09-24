@@ -807,6 +807,36 @@ export const enPages = {
 			),
 		],
 	},
+	'affiliate-disclosure': {
+		title: 'Affiliate Disclosure | Overwatch 2 Cheats',
+		description:
+			'Affiliate disclosure for overwatchcheats.org. How commission links work when you buy through outbound purchase links on this site.',
+		h1: 'Affiliate Disclosure',
+		intro:
+			'Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.',
+		imageAlt: 'Overwatch 2 Cheats affiliate disclosure page',
+		galleryTitle: 'Overwatch 2 Cheats legal resources',
+		ctaPrimary: 'Email support',
+		ctaSecondary: 'Read privacy policy',
+		ctaSecondaryHref: '/privacy/',
+		sections: [
+			section(
+				'What affiliate links are',
+				'Some outbound purchase links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.',
+				'This helps support site maintenance, guides, and status updates. It does not change the price you pay when the merchant’s terms say so.',
+			),
+			section(
+				'How we mark affiliate links',
+				'Purchase buttons and plan links that leave overwatchcheats.org for checkout use rel="sponsored nofollow noopener" so search engines understand the relationship.',
+				'You may also see a short “Affiliate link” label beside some buy buttons. Disclosures appear in the initial page HTML above the first purchase link.',
+			),
+			section(
+				'Questions',
+				'Email support@overwatchcheats.org if you need clarification about how links on this site work.',
+				'Related policies: <a href="/privacy/">Privacy Policy</a>, <a href="/terms/">Terms of Use</a>, and <a href="/refund/">Refund Policy</a>.',
+			),
+		],
+	},
 	terms: {
 		title: 'Terms of Use | Overwatch 2 Cheats Rules',
 		description:
