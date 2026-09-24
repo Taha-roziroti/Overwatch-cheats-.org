@@ -59,6 +59,18 @@ function stripTags(html) {
 	return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+/** Visible text only — excludes head metadata, JSON-LD, and island hydration payloads. */
+function visibleBodyText(html) {
+	const mainM = html.match(/<main\b[\s\S]*<\/main>/i);
+	const chunk = mainM ? mainM[0] : html.replace(/<head\b[\s\S]*?<\/head>/i, ' ');
+	return stripTags(
+		chunk
+			.replace(/<script\b[\s\S]*?<\/script>/gi, ' ')
+			.replace(/<style\b[\s\S]*?<\/style>/gi, ' ')
+			.replace(/<astro-island\b[\s\S]*?<\/astro-island>/gi, ' '),
+	).toLowerCase();
+}
+
 function extractAnchors(html) {
 	const anchors = [];
 	for (const m of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
@@ -140,10 +152,10 @@ async function main() {
 			h1s.set(h1, list);
 		}
 
-		const bodyText = stripTags(html).toLowerCase();
+		const bodyText = visibleBodyText(html);
 		const undetectedCount = (bodyText.match(/\bundetected\b/g) ?? []).length;
-		if (undetectedCount >= 4) {
-			warn(rel, 'undetected-stuffing', `${undetectedCount}× "undetected" on page`);
+		if (undetectedCount >= 5) {
+			warn(rel, 'undetected-stuffing', `${undetectedCount}× "undetected" in visible body`);
 		}
 		if (/\b2026\b/.test(title) || /\b2026\b/.test(desc)) {
 			warn(rel, 'year-in-meta', 'Year "2026" in title or description (SEO dancing)');

@@ -95,20 +95,20 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is {brand}?',
 		answer:
-			'{brand} is an undetected {primaryKeyword} package for Overwatch 2 on Windows PC. It includes tracking aimbot, ESP wallhack, flickbot, triggerbot, hero scripts, and stream-proof overlays with {antiCheat} maintenance.',
+			'{brand} is a premium {primaryKeyword} package for Overwatch 2 on Windows PC. It includes tracking aimbot, ESP wallhack, flickbot, triggerbot, hero scripts, and stream-proof overlays with {antiCheat} maintenance.',
 		slug: 'what-are-overwatch-2-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
-			'{brand} explained: undetected ESP, wallhack, and aimbot for {game} on Windows PC with {antiCheat} maintenance.',
+			'{brand} explained: ESP, wallhack, and aimbot for {game} on Windows PC with {antiCheat} maintenance.',
 	}),
 	faq({
-		question: 'Are {primaryKeyword} undetected in 2026?',
+		question: 'Are {primaryKeyword} maintained after patches?',
 		answer:
-			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
+			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Check the Status page before you queue. No cheat can guarantee permanent safety — maintenance and responsible use matter.',
 		slug: 'undetected-in-2026',
-		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
+		seoTitle: 'Patch Maintenance for {brand} | FAQ',
 		seoDescription:
-			'How {brand} stays maintained after {antiCheat} patches in 2026 — and why no cheat can promise permanent undetected status.',
+			'How {brand} stays maintained after {antiCheat} and {game} patches — and why no cheat can promise permanent safety.',
 	}),
 	faq({
 		question: 'Does this work in Quick Play, Competitive, and Arcade modes?',
@@ -142,7 +142,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		answer:
 			'Maintenance notes are posted on the Status page when an Overwatch 2 or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
 		slug: 'check-updates',
-		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
+		seoTitle: 'Check {game} Patch Status | FAQ',
 		seoDescription:
 			'Check the Status page after {game} or {antiCheat} patches to confirm the latest {brand} build status.',
 	}),
@@ -187,11 +187,11 @@ export const seoFaqs: readonly FaqItem[] = [
 			'{antiCheat} may require {brand} rebuilds after patches. Status notes explain the update workflow.',
 	}),
 	faq({
-		question: 'Can I buy undetected {game} cheats for Windows PC?',
+		question: 'Can I buy {game} cheats for Windows PC?',
 		answer:
 			'Yes — {brand} sells monthly and lifetime licenses for Windows PC with ESP, wallhack, and aimbot in one stack. Compare plans on Store before checkout.',
 		slug: 'buy-undetected-pc',
-		seoTitle: 'Buy Undetected {game} Cheats for Windows PC | FAQ',
+		seoTitle: 'Buy {game} Cheats for Windows PC | FAQ',
 		seoDescription:
 			'Buy monthly or lifetime {brand} licenses for Windows PC — ESP, wallhack, and aimbot in one stack. Compare pricing before checkout.',
 	}),
@@ -281,7 +281,7 @@ export const customerReviews = [
 		text: 'Been on it since Season 12. Per-hero profiles actually help in Competitive. Status page after patches could be clearer, but they had a rebuild up the next day.',
 		short: 'Per-hero profiles help in Competitive. Rebuild was up the next day.',
 		slug: 'aimbot-competitive-rankedgrind42',
-		seoTitle: 'Competitive Aimbot by @rankedGrind42 — 4/5 | {brand}',
+		seoTitle: 'Competitive Aimbot Review — 4/5 | {brand}',
 		seoDescription: '@rankedGrind42 rates {brand} aimbot 4/5 for Competitive on Windows PC.',
 		date: '2026-07-07',
 		tag: 'Competitive',

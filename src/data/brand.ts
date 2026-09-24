@@ -160,7 +160,7 @@ export const brand = {
 			{
 				src: '/images/overwatch-2-cheats-flickbot.webp',
 				title: 'Overwatch 2 flickbot cheat overlay',
-				caption: 'Undetected flickbot and triggerbot for Competitive matches',
+				caption: 'Flickbot and triggerbot overlay for Competitive matches',
 			},
 			{
 				src: '/images/overwatch-2-cheats-hero-scripts.webp',
