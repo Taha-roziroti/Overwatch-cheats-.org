@@ -8,6 +8,7 @@ import InlineBrandEditor from '../components/InlineBrandEditor.astro';
 import { defaultLocale, localeMap, locales, type LocaleCode } from '../data/i18n/locales';
 import type { PageId } from '../data/i18n/content.generated';
 import { buildCanonicalUrl, type HreflangAlternate } from '../data/i18n/routing';
+import { responsiveInlineCss } from '../data/responsive-inline-css';
 
 interface Crumb {
 	label: string;
@@ -168,7 +169,8 @@ if (aboutNode) {
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-		<meta name="color-scheme" content="light" />
+		<style is:inline set:html={responsiveInlineCss}></style>
+		<meta name="color-scheme" content="dark" />
 		<meta name="theme-color" content={brandTheme.bg} />
 		<link
 			rel="preload"
