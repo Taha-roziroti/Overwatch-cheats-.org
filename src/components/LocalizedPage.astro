@@ -4,7 +4,7 @@ import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig, customerReviewStats } from '../data/site';
-import { absoluteFaqUrl, getFaqPath } from '../data/faq';
+import { absoluteFaqUrl, getFaqBySlug, getFaqPath } from '../data/faq';
 import { overwatchImages } from '../data/overwatch2';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
@@ -57,21 +57,51 @@ const galleryExtrasByPage: Partial<
 	hacks: [
 		{
 			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
-			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
+			alt: 'Overwatch 2 cheats — ESP and skeleton on Payload',
 		},
 		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 cheats license — aimbot and ESP combined',
+		},
+	],
+	'overwatch-2-esp': [
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Overwatch 2 ESP skeleton and player boxes on a Payload map',
+		},
+		{
+			src: '/images/overwatch-2-cheats-esp.webp',
+			alt: 'Overwatch 2 ESP glow and distance readouts in team fight',
+		},
+	],
+	'overwatch-2-aimbot': [
+		{
 			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
-			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
+			alt: 'Overwatch 2 Widowmaker scope with aimbot FOV overlay',
+		},
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 aimbot tracking with ESP boxes in combat',
+		},
+	],
+	features: [
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 cheat features — aimbot and ESP in one overlay',
+		},
+		{
+			src: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+			alt: 'Overwatch 2 wallhack skeleton ESP from the feature package',
 		},
 	],
 	pricing: [
 		{
-			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
-			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
+			src: '/images/overwatch-2-cheats-pricing-store.webp',
+			alt: 'Overwatch 2 Cheats store — monthly and lifetime plan checkout',
 		},
 		{
-			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
-			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Overwatch 2 cheats package preview with ESP overlay',
 		},
 	],
 	updates: [
@@ -82,6 +112,36 @@ const galleryExtrasByPage: Partial<
 		{
 			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
 			alt: 'Overwatch 2 ESP and skeleton overlay during a Payload match',
+		},
+	],
+	setup: [
+		{
+			src: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+			alt: 'Overwatch 2 setup — ESP skeleton overlay after install',
+		},
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 cheats menu with aimbot and ESP enabled',
+		},
+	],
+	support: [
+		{
+			src: '/images/overwatch-2-cheats-pve.webp',
+			alt: 'Overwatch 2 Cheats support — in-game package preview',
+		},
+		{
+			src: '/images/overwatch-2-cheats-status-updates.webp',
+			alt: 'Overwatch 2 Cheats status and patch updates reference',
+		},
+	],
+	radar: [
+		{
+			src: '/images/overwatch-2-cheats-wallhack-skeleton.webp',
+			alt: 'Overwatch 2 wallhack skeleton ESP through cover',
+		},
+		{
+			src: '/images/overwatch-2-cheats-radar.webp',
+			alt: 'Overwatch 2 wallhack glow and FOV overlay in match',
 		},
 	],
 };
@@ -109,6 +169,61 @@ const faqSchema =
 					acceptedAnswer: { '@type': 'Answer', text: item.answer },
 				})),
 			}
+		: null;
+
+function moduleFaqSchema(slugs: readonly string[]) {
+	const items = slugs.map((slug) => getFaqBySlug(slug)).filter(Boolean);
+	if (items.length === 0) return null;
+	return {
+		'@type': 'FAQPage',
+		'@id': `${pageUrl}#faq`,
+		mainEntity: items.map((item) => ({
+			'@type': 'Question',
+			name: item!.question,
+			url: absoluteFaqUrl(item!.slug),
+			acceptedAnswer: { '@type': 'Answer', text: item!.answer },
+		})),
+	};
+}
+
+const espFaqSchema =
+	pageId === 'overwatch-2-esp' && locale === 'en'
+		? moduleFaqSchema(['esp-wallhack-aimbot', 'quick-play-competitive-arcade', 'what-are-overwatch-2-cheats'])
+		: null;
+
+const aimbotFaqSchema =
+	pageId === 'overwatch-2-aimbot' && locale === 'en'
+		? moduleFaqSchema(['esp-wallhack-aimbot', 'quick-play-competitive-arcade', 'blizzard-anticheat-and-cheats'])
+		: null;
+
+const featuresFaqSchema =
+	pageId === 'features' && locale === 'en'
+		? moduleFaqSchema(['esp-wallhack-aimbot', 'hero-scripts-included', 'license-delivery'])
+		: null;
+
+const pricingFaqSchema =
+	pageId === 'pricing' && locale === 'en'
+		? moduleFaqSchema(['license-delivery', 'esp-wallhack-aimbot', 'buy-undetected-pc'])
+		: null;
+
+const setupFaqSchema =
+	pageId === 'setup' && locale === 'en'
+		? moduleFaqSchema(['license-delivery', 'check-updates', 'contact-support'])
+		: null;
+
+const supportFaqSchema =
+	pageId === 'support' && locale === 'en'
+		? moduleFaqSchema(['contact-support', 'license-delivery', 'check-updates'])
+		: null;
+
+const wallhackFaqSchema =
+	pageId === 'radar' && locale === 'en'
+		? moduleFaqSchema(['what-is-wallhack', 'esp-wallhack-aimbot', 'quick-play-competitive-arcade'])
+		: null;
+
+const productFaqSchema =
+	pageId === 'hacks' && locale === 'en'
+		? moduleFaqSchema(['what-are-overwatch-2-cheats', 'esp-wallhack-aimbot', 'buy-undetected-pc'])
 		: null;
 
 const storeSchema =
@@ -150,7 +265,18 @@ const storeSchema =
 			}
 		: null;
 
-const extraGraph = [faqSchema, storeSchema].filter(Boolean) as Record<string, unknown>[];
+const extraGraph = [
+	faqSchema,
+	espFaqSchema,
+	aimbotFaqSchema,
+	featuresFaqSchema,
+	pricingFaqSchema,
+	setupFaqSchema,
+	supportFaqSchema,
+	wallhackFaqSchema,
+	productFaqSchema,
+	storeSchema,
+].filter(Boolean) as Record<string, unknown>[];
 
 const ctaSecondaryHref = ctaSecondaryPath
 	? localizeInternalHref(ctaSecondaryPath, locale)
