@@ -15,13 +15,9 @@ export const brand = {
 	supportEmail: 'support@overwatchcheats.org',
 	checkoutUrl: 'https://zadeyo.com/go/TAHA?to=%2Fproducts%2Foverwatch-2',
 
-	/** Affiliate disclosure — single source (SEO booster §5). */
+	/** Outbound checkout links (external payment partner). */
 	affiliate: {
-		path: '/affiliate-disclosure/',
 		linkRel: 'sponsored nofollow noopener',
-		disclosure:
-			'Some links on this site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you.',
-		linkLabel: 'Affiliate link',
 	},
 
 	/** Game this template instance targets */

@@ -81,6 +81,8 @@ const PATH_REDIRECTS = {
 	'/overwatch-2-visuals/': '/overwatch-2-wallhack/',
 	'/overwatch-2-aim-assist': '/overwatch-2-aimbot/',
 	'/overwatch-2-aim-assist/': '/overwatch-2-aimbot/',
+	'/affiliate-disclosure': '/privacy/',
+	'/affiliate-disclosure/': '/privacy/',
 	// Legacy cross-game keyword paths
 	'/warzone-esp': '/overwatch-2-esp/',
 	'/warzone-esp/': '/overwatch-2-esp/',

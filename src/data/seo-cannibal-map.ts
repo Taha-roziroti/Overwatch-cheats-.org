@@ -14,6 +14,7 @@ export const cannibalRedirectTargets = {
 	radar: 'wallhack',
 	'cheat-download': 'setup',
 	anticheat: 'updates',
+	'affiliate-disclosure': 'privacy',
 } as const;
 
 export type CannibalPageId = keyof typeof cannibalRedirectTargets;

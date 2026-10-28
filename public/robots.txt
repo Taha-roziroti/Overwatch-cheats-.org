@@ -1,10 +1,18 @@
 User-agent: *
 Allow: /
 Allow: /images/
+Allow: /sitemap.xml
+Allow: /videos/
 Disallow: /brand-studio/
 Disallow: /brand-studio
 Disallow: /__brand/
 Disallow: /__brand
+
+User-agent: Googlebot
+Allow: /
+Allow: /images/
+Allow: /sitemap.xml
+Allow: /videos/
 
 # Primary sitemap for Google Search Console — index covers EN, locale, and image sitemaps.
 Sitemap: https://overwatchcheats.org/sitemap.xml

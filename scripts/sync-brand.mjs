@@ -47,15 +47,23 @@ function readBrand() {
 const brand = readBrand();
 const description = `Buy ${brand.primary} — ESP, aimbot, and wallhack for Windows PC`;
 
-writeFileSync(
+	writeFileSync(
 	path.join(ROOT, 'public/robots.txt'),
 	`User-agent: *
 Allow: /
 Allow: /images/
+Allow: /sitemap.xml
+Allow: /videos/
 Disallow: /brand-studio/
 Disallow: /brand-studio
 Disallow: /__brand/
 Disallow: /__brand
+
+User-agent: Googlebot
+Allow: /
+Allow: /images/
+Allow: /sitemap.xml
+Allow: /videos/
 
 # Primary sitemap for Google Search Console — index covers EN, locale, and image sitemaps.
 Sitemap: ${brand.url}/sitemap.xml

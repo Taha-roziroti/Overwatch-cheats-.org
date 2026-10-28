@@ -107,7 +107,7 @@ export const siteConfig = {
 	heroVideoPoster: brandMedia.heroVideoPoster ?? brand.heroImage,
 } as const;
 
-/** Prefer brand.keywords — kept for Layout meta keywords. */
+/** Prefer brand.keywords — internal copy intent only; no meta keywords tag (SEO-SUPER-BOOSTER §2). */
 export const seoKeywords = brand.keywords.list;
 
 /** Blog eyebrow / title suffix */

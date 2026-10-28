@@ -3,10 +3,11 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
 import { customerReviewStats, customerReviews, fillBrandTokens, productInfo, siteConfig } from '../../data/site';
+import { productPageUrl, productSchemaId } from '../../data/product-schema';
 import { brandCopy, brandSeo, seoPageTitle } from '../../data/site-core';
 import { seoDescription } from '../../data/brand';
 import { getSelfHreflangAlternates } from '../../data/i18n/routing';
-import { getReviewPath, reviewsBasePath } from '../../data/reviews';
+import { getReviewPath, getReviewCrawlImage, reviewsBasePath } from '../../data/reviews';
 import { sitePaths } from '../../data/site-paths';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import { contentSrcSet, productMainSizes } from '../../lib/responsive-images';
@@ -37,6 +38,41 @@ const canonicalURL = new URL(reviewsBasePath, siteConfig.url).href;
 const hreflangAlternates = getSelfHreflangAlternates(reviewsBasePath);
 
 const extraGraph: Record<string, unknown>[] = [
+	{
+		'@type': 'Product',
+		'@id': productSchemaId,
+		name: productInfo.name,
+		description: productInfo.summary,
+		url: productPageUrl,
+		aggregateRating: {
+			'@type': 'AggregateRating',
+			ratingValue: customerReviewStats.averageRating.toFixed(1),
+			reviewCount: String(customerReviewStats.totalCount),
+			bestRating: '5',
+			worstRating: '1',
+		},
+	},
+	...sortedReviews.map((review) => {
+		const reviewUrl = new URL(getReviewPath(review.slug), siteConfig.url).href;
+		const photo = getReviewCrawlImage(review.slug, review.handle, review.seoDescription);
+		return {
+			'@type': 'Review',
+			'@id': `${reviewUrl}#review`,
+			url: reviewUrl,
+			image: photo.url,
+			author: { '@type': 'Person', name: review.handle },
+			datePublished: review.date,
+			reviewRating: {
+				'@type': 'Rating',
+				ratingValue: String(review.rating),
+				bestRating: '5',
+				worstRating: '1',
+			},
+			reviewBody: review.text,
+			itemReviewed: { '@id': productSchemaId },
+			publisher: { '@id': `${siteConfig.url}/#organization` },
+		};
+	}),
 	{
 		'@type': 'ItemList',
 		'@id': `${canonicalURL}#list`,

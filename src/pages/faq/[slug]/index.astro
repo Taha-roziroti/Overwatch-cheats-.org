@@ -23,30 +23,6 @@ const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
 const related = getRelatedFaqs(faq.slug, 4);
 const photo = getFaqCrawlImage(faq);
 
-const extraGraph: Record<string, unknown>[] = [
-	{
-		'@type': 'FAQPage',
-		'@id': `${canonicalURL}#faq`,
-		url: canonicalURL,
-		image: photo.url,
-		primaryImageOfPage: {
-			'@type': 'ImageObject',
-			url: photo.url,
-		},
-		mainEntity: [
-			{
-				'@type': 'Question',
-				'@id': `${canonicalURL}#question`,
-				name: faq.question,
-				url: canonicalURL,
-				acceptedAnswer: {
-					'@type': 'Answer',
-					text: faq.answer,
-				},
-			},
-		],
-	},
-];
 ---
 
 <Layout
@@ -63,7 +39,6 @@ const extraGraph: Record<string, unknown>[] = [
 		{ label: 'FAQ', href: faqBasePath },
 		{ label: faq.question },
 	]}
-	extraGraph={extraGraph}
 >
 	<Navbar />
 	<main class="faq-page">

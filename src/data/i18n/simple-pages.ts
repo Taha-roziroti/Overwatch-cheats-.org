@@ -164,7 +164,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'Refunds, proof, and support',
 				paragraphs: [
-					'Read the <a href="/refund/">refund policy</a> before you pay if chargebacks or eligibility matter to you. Affiliate links on this site are disclosed on <a href="/affiliate-disclosure/">Affiliate disclosure</a>.',
+					'Read the <a href="/refund/">refund policy</a> before you pay if chargebacks or eligibility matter to you.',
 					'Want buyer feedback first? Browse <a href="/reviews/">reviews</a> for ESP, aimbot, and setup notes, or the <a href="/forum/buyers-guide/">buyers guide</a> thread.',
 					'Stuck after purchase? Email support from <a href="/support/">Support</a> with your order ID and a short description — faster replies when details are complete.',
 				],
@@ -257,7 +257,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'Monthly is $35 USD for 30 days. Lifetime is $150 USD one-time. Both unlock the same package — pick monthly to try the build, or lifetime if you already know you will main {game} for multiple seasons.',
 					'Checkout is on the <a href="/pricing/">store</a> with instant digital delivery after payment clears. Read <a href="/faq/license-delivery/">license delivery FAQ</a> if the email is slow, and <a href="/refund/">refund policy</a> before you dispute a charge.',
-					'Affiliate links on this site are labeled on <a href="/affiliate-disclosure/">Affiliate disclosure</a>.',
+					'Checkout runs on our external payment partner after you click Buy now.',
 				],
 			},
 			{

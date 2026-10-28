@@ -4,7 +4,7 @@ import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig, customerReviewStats } from '../data/site';
-import { absoluteFaqUrl, getFaqBySlug, getFaqPath } from '../data/faq';
+import { absoluteFaqUrl, getFaqPath } from '../data/faq';
 import { overwatchImages } from '../data/overwatch2';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
@@ -171,61 +171,6 @@ const faqSchema =
 			}
 		: null;
 
-function moduleFaqSchema(slugs: readonly string[]) {
-	const items = slugs.map((slug) => getFaqBySlug(slug)).filter(Boolean);
-	if (items.length === 0) return null;
-	return {
-		'@type': 'FAQPage',
-		'@id': `${pageUrl}#faq`,
-		mainEntity: items.map((item) => ({
-			'@type': 'Question',
-			name: item!.question,
-			url: absoluteFaqUrl(item!.slug),
-			acceptedAnswer: { '@type': 'Answer', text: item!.answer },
-		})),
-	};
-}
-
-const espFaqSchema =
-	pageId === 'overwatch-2-esp' && locale === 'en'
-		? moduleFaqSchema(['esp-wallhack-aimbot', 'quick-play-competitive-arcade', 'what-are-overwatch-2-cheats'])
-		: null;
-
-const aimbotFaqSchema =
-	pageId === 'overwatch-2-aimbot' && locale === 'en'
-		? moduleFaqSchema(['esp-wallhack-aimbot', 'quick-play-competitive-arcade', 'blizzard-anticheat-and-cheats'])
-		: null;
-
-const featuresFaqSchema =
-	pageId === 'features' && locale === 'en'
-		? moduleFaqSchema(['esp-wallhack-aimbot', 'hero-scripts-included', 'license-delivery'])
-		: null;
-
-const pricingFaqSchema =
-	pageId === 'pricing' && locale === 'en'
-		? moduleFaqSchema(['license-delivery', 'esp-wallhack-aimbot', 'buy-undetected-pc'])
-		: null;
-
-const setupFaqSchema =
-	pageId === 'setup' && locale === 'en'
-		? moduleFaqSchema(['license-delivery', 'check-updates', 'contact-support'])
-		: null;
-
-const supportFaqSchema =
-	pageId === 'support' && locale === 'en'
-		? moduleFaqSchema(['contact-support', 'license-delivery', 'check-updates'])
-		: null;
-
-const wallhackFaqSchema =
-	pageId === 'radar' && locale === 'en'
-		? moduleFaqSchema(['what-is-wallhack', 'esp-wallhack-aimbot', 'quick-play-competitive-arcade'])
-		: null;
-
-const productFaqSchema =
-	pageId === 'hacks' && locale === 'en'
-		? moduleFaqSchema(['what-are-overwatch-2-cheats', 'esp-wallhack-aimbot', 'buy-undetected-pc'])
-		: null;
-
 const storeSchema =
 	pageId === 'pricing' || pageId === 'hacks'
 		? {
@@ -265,18 +210,7 @@ const storeSchema =
 			}
 		: null;
 
-const extraGraph = [
-	faqSchema,
-	espFaqSchema,
-	aimbotFaqSchema,
-	featuresFaqSchema,
-	pricingFaqSchema,
-	setupFaqSchema,
-	supportFaqSchema,
-	wallhackFaqSchema,
-	productFaqSchema,
-	storeSchema,
-].filter(Boolean) as Record<string, unknown>[];
+const extraGraph = [faqSchema, storeSchema].filter(Boolean) as Record<string, unknown>[];
 
 const ctaSecondaryHref = ctaSecondaryPath
 	? localizeInternalHref(ctaSecondaryPath, locale)

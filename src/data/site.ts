@@ -11,6 +11,15 @@ export {
 	productInfo,
 } from './site-core';
 
+export {
+	SITE_URL,
+	SITE_HOST,
+	SITE_PURPOSE,
+	SITE_ABOUT,
+	SEO_ROUTE_INTENTS,
+	ROBOTS_INDEX,
+} from './seo-booster';
+
 import { fillBrandTokens } from './brand';
 import { englishPaths } from './i18n/routing';
 import { sitePaths as p } from './site-paths';

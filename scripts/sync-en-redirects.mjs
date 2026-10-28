@@ -35,6 +35,7 @@ const EN_CANNIBAL = {
 	'/ow2-cheats/': '/overwatch-2-cheats/',
 	'/ow2-visuals/': '/overwatch-2-wallhack/',
 	'/ow2-undetected/': '/overwatch-2-cheats/',
+	'/affiliate-disclosure/': '/privacy/',
 };
 
 /** Legacy cross-game keyword paths → D2 pillars. */

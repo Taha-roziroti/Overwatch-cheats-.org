@@ -188,13 +188,6 @@ async function main() {
 			}
 		}
 
-		const hasAffiliateNotice =
-			html.includes('affiliate-notice') ||
-			html.includes('site-affiliate-bar') ||
-			bodyText.includes(DISCLOSURE_SNIPPET);
-		if (checkoutLinks.length > 0 && !hasAffiliateNotice) {
-			warn(rel, 'affiliate-disclosure-missing', 'Page has checkout links but no affiliate disclosure in HTML');
-		}
 	}
 
 	for (const [titleKey, files] of titles) {

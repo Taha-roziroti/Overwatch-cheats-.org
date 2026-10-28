@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import { productInfo, siteConfig } from '../data/site';
+import { siteConfig, SITE_PURPOSE, SITE_ABOUT, ROBOTS_INDEX } from '../data/site';
 import { brandTheme, brandThemeInlineStyle, brandThemeRootCss } from '../data/brand-theme';
 import I18nHead from '../components/I18nHead.astro';
 import LocaleSuggest from '../components/LocaleSuggest.astro';
@@ -61,8 +61,8 @@ const ogImageType = ogImage.endsWith('.webp') ? 'image/webp' : 'image/png';
 const ogImageWidth = ogImageIsLogo ? '512' : '1920';
 const ogImageHeight = ogImageIsLogo ? '512' : '1080';
 const twitterCard = ogImageIsLogo ? 'summary' : 'summary_large_image';
-const robots = noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
-const siteDescription = `${productInfo.tagline}. ${productInfo.summary}`;
+const robots = noindex ? 'noindex, nofollow' : ROBOTS_INDEX;
+const siteDescription = SITE_PURPOSE;
 const localeMeta = localeMap[locale];
 const ogLocaleAlternates = locales.filter((l) => l.code !== locale);
 const schemaLanguage = localeMeta.ogLocale.replace('_', '-');
@@ -107,6 +107,8 @@ const graph: Record<string, unknown>[] = [
 		'@id': `${siteConfig.url}/#organization`,
 		name: siteConfig.name,
 		url: siteConfig.url,
+		description: SITE_PURPOSE,
+		knowsAbout: SITE_ABOUT.map((name) => ({ '@type': 'Thing', name })),
 		email: siteConfig.supportEmail,
 		areaServed: worldwidePlace,
 		logo: {
@@ -193,6 +195,7 @@ if (aboutNode) {
 		<meta name="description" content={description} />
 		<meta name="author" content={siteConfig.name} />
 		<link rel="canonical" href={canonicalURL} />
+		{!noindex && <link rel="image_src" href={ogImageURL} />}
 		{
 			lcpVideo && lcpImage ? (
 				<link
