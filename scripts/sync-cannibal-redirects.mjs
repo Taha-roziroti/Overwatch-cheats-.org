@@ -57,6 +57,7 @@ for (const [fromId, toId] of Object.entries(TARGETS)) {
 		if (!toSlug) continue;
 		const fromPath = `/${locale}/${fromSlug}/`;
 		const toPath = `/${locale}/${toSlug}/`;
+		if (fromPath === toPath || fromSlug === toSlug) continue;
 		map[fromPath] = toPath;
 		map[`/${locale}/${fromSlug}`] = toPath;
 		lines.push(`${fromPath.slice(0, -1)} ${toPath} 301`);

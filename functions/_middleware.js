@@ -231,7 +231,7 @@ export async function onRequest(context) {
 		CANNIBAL_REDIRECTS[url.pathname] ??
 		xmlTrailingSlashRedirect(url.pathname) ??
 		trailingSlashRedirect(url.pathname);
-	if (pathRedirect) {
+	if (pathRedirect && pathRedirect !== url.pathname) {
 		const headers = new Headers({
 			Location: new URL(pathRedirect + url.search, CANONICAL_ORIGIN).toString(),
 			'Cache-Control': 'no-store',

@@ -54,10 +54,10 @@ const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
 const galleryExtrasByPage: Partial<
 	Record<PageId, { src: string; alt: string }[]>
 > = {
-	hacks: [
+		hacks: [
 		{
 			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
-			alt: 'Overwatch 2 cheats — ESP and skeleton on Payload',
+			alt: 'Buy – Overwatch 2 cheats — ESP and skeleton on Payload',
 		},
 		{
 			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
@@ -107,7 +107,7 @@ const galleryExtrasByPage: Partial<
 	updates: [
 		{
 			src: '/images/overwatch-2-cheats-widowmaker-scope.webp',
-			alt: 'Overwatch 2 Widowmaker sniper scope with aim assist overlay',
+			alt: 'Status – Overwatch 2 Widowmaker sniper scope with aim assist overlay',
 		},
 		{
 			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
@@ -142,6 +142,36 @@ const galleryExtrasByPage: Partial<
 		{
 			src: '/images/overwatch-2-cheats-radar.webp',
 			alt: 'Overwatch 2 wallhack glow and FOV overlay in match',
+		},
+	],
+	faq: [
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Faq – Overwatch 2 ESP and skeleton overlay during a Payload match',
+		},
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 cheats FAQ — aimbot and ESP in one license',
+		},
+	],
+	privacy: [
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Privacy – Overwatch 2 ESP and skeleton overlay during a Payload match',
+		},
+		{
+			src: '/images/overwatch-2-cheats-aimbot-esp.webp',
+			alt: 'Overwatch 2 Cheats privacy — in-game package preview',
+		},
+	],
+	refund: [
+		{
+			src: '/images/overwatch-2-cheats-widowmaker-esp.webp',
+			alt: 'Refund – Overwatch 2 ESP and skeleton overlay during a Payload match',
+		},
+		{
+			src: '/images/overwatch-2-cheats-pricing-store.webp',
+			alt: 'Overwatch 2 Cheats billing and checkout reference',
 		},
 	],
 };
@@ -267,7 +297,7 @@ const showOfficialResources =
 	{
 		showStorePlans && (
 			<section class="card-panel">
-				<h2>{t('product.plans')}</h2>
+				<h2>Store: {t('product.plans')}</h2>
 				<div class="price-grid">
 					<a class="price-card" href={siteConfig.checkoutUrl} rel={AFFILIATE_LINK_REL}>
 						<span class="price-card__label">{t('product.monthly')}</span>

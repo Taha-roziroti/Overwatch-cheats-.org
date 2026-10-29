@@ -977,7 +977,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/terms/",
 					sections: [
 						{
-							h2: "Information we may collect",
+							h2: "Privacy: Information we may collect",
 							paragraphs: [
 								"We may collect contact details you send by email, order references needed to resolve support requests, and basic technical data used to operate and secure the website.",
 								"We do not sell personal data. Checkout payment details are processed by the checkout provider — review their privacy terms for transaction data.",
@@ -1002,6 +1002,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 								"Policy updates publish on this page. Continued use of overwatchcheats.org after updates means you accept the revised policy. Also see <a href=\"/terms/\">Terms of Use</a> and <a href=\"/refund/\">Refund Policy</a>.",
 							],
 						},
+						{
+							h2: "Privacy practices we follow",
+							paragraphs: [
+								"We keep support and order data only as long as needed to resolve tickets, prevent fraud, and meet legal requirements. We do not sell browsing history or license keys to third-party marketers.",
+								"Cookies and analytics, if used, are limited to operating the site — not tracking you across unrelated websites. You can ask what we store about your support thread at any time.",
+							],
+						},
 					],
 					heroImage: "/images/overwatch-2-cheats-aimbot.webp",
 				},
@@ -1009,7 +1016,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "Refund Policy | Overwatch 2 Cheats",
 					description: "Refund policy for Overwatch 2 Cheats. Digital delivery terms and eligibility for Overwatch 2 cheats packages with ESP, tracking aimbot, and wallhack.",
 					h1: "Refund Policy",
-					intro: "Refund terms for Overwatch 2 Cheats licenses — ESP and wallhack, and Aimbot packages purchased through checkout for Overwatch 2.",
+					intro: "Billing terms for Overwatch 2 Cheats licenses — ESP, wallhack, and aimbot packages purchased through checkout for Overwatch 2 on Windows PC.",
 					imageAlt: "Overwatch 2 Cheats refund policy page",
 					galleryTitle: "Overwatch 2 Cheats billing resources",
 					ctaPrimary: "Contact support",
@@ -1019,22 +1026,29 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Digital delivery and eligibility",
 							paragraphs: [
-								"Overwatch 2 Cheats licenses deliver digitally after payment confirmation. Because access begins immediately, refunds are limited to cases outlined below.",
-								"Submit refund requests within 24 hours of purchase with your order ID and reason.",
+								"{brand} licenses deliver digitally after payment confirmation. Because access begins immediately, chargebacks and reversals are limited to the cases outlined below.",
+								"Submit requests within 24 hours of purchase with your order ID and a short explanation.",
 							],
 						},
 						{
 							h2: "When refunds may be approved",
 							paragraphs: [
 								"Duplicate charges, failed delivery despite confirmed payment, or technical activation failures verified by support may qualify for review.",
-								"Refund decisions are final. Chargebacks without contacting support first may result in license revocation. See also <a href=\"/terms/\">Terms of Use</a>.",
+								"Decisions are final. Chargebacks without contacting support first may result in license revocation. See also <a href=\"/terms/\">Terms of Use</a>.",
 							],
 						},
 						{
-							h2: "How to request a refund",
+							h2: "How to request help",
 							paragraphs: [
-								"Email support@overwatchcheats.org with subject \"Refund Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
-								"Approved refunds process back to the original payment method when possible. Pricing details live on <a href=\"/pricing/\">Pricing</a>.",
+								"Email support@overwatchcheats.org with subject \"Billing Request\", your order ID, purchase date, and issue summary — or use the <a href=\"/support/\">Support page</a>.",
+								"Approved credits process back to the original payment method when possible. Plan prices live on <a href=\"/pricing/\">Pricing</a>.",
+							],
+						},
+						{
+							h2: "Refund policy scope",
+							paragraphs: [
+								"This refund policy applies to digital licenses sold on overwatchcheats.org — not third-party resellers or chargeback claims filed without opening a ticket.",
+								"We cannot refund account bans in Overwatch 2. Maintenance and patch rebuilds while your plan is active are included; read <a href=\"/status/\">Status</a> after major updates.",
 							],
 						},
 					],
@@ -1127,9 +1141,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Comprar",
 				},
 				hero: {
-					accent: "Trucos Overwatch 2 indetectables",
+					accent: "Esp Wallhack Y: Trucos Overwatch 2 indetectables",
 					accentShort: "Overwatch 2 Cheats",
-					subtitle: "ESP and wallhack y Aimbot para Overwatch 2 en PC Windows — mantenimiento Blizzard Anti-Cheat incluido.",
+					subtitle: "Trucos Overwatch 2 en PC. ESP, wallhack y aimbot con mantenimiento Blizzard Anti-Cheat. Entrega digital instantánea.",
 					subtitleShort: "ESP, wallhack y Aimbot para Overwatch 2 PC",
 					buyNow: "Comprar ahora",
 					seeFeatures: "Ver funciones",
@@ -2110,9 +2124,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Acheter",
 				},
 				hero: {
-					accent: "Triches Overwatch 2 indétectables",
+					accent: "Esp Wallhack Et: Triches Overwatch 2 indétectables",
 					accentShort: "Overwatch 2 Cheats",
-					subtitle: "ESP and wallhack et Aimbot pour Overwatch 2 sur PC Windows — maintenance Blizzard Anti-Cheat incluse.",
+					subtitle: "Triches Overwatch 2 sur PC. ESP, wallhack et aimbot avec maintenance Blizzard Anti-Cheat. Livraison numérique instantanée.",
 					subtitleShort: "ESP, wallhack et Aimbot pour Overwatch 2 PC",
 					buyNow: "Acheter",
 					seeFeatures: "Voir les fonctions",
@@ -3093,7 +3107,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Kaufen",
 				},
 				hero: {
-					accent: "Overwatch 2 Cheats für PC",
+					accent: "Esp Wallhack: Overwatch 2 Cheats für PC",
 					accentShort: "Overwatch 2 Cheats",
 					subtitle: "ESP Wallhack, Wallhack und Aimbot für Overwatch 2 auf Windows PC — Blizzard Anti-Cheat-Wartung inklusive.",
 					subtitleShort: "ESP, Radar & Aimbot für Overwatch 2 PC",
@@ -3157,7 +3171,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "Buy Overwatch 2 Cheats | ESP, Wallhack & Aimbot",
+					title: "Esp Wallhack – Buy Overwatch 2 Cheats | Overwatch 2 Cheats",
 					description: "Overwatch 2 Cheats für PC. ESP Wallhack, Wallhack und Aimbot mit Blizzard Anti-Cheat-Wartung. Sofortige digitale Lieferung.",
 					h1: "Overwatch 2 Cheats — ESP, Wallhack & Aimbot",
 					intro: "Windows PC Paket für Overwatch 2: ESP Wallhack, Radar und Aimbot mit Blizzard Anti-Cheat-Wartung nach jedem Patch.",
@@ -4076,7 +4090,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Comprar",
 				},
 				hero: {
-					accent: "Cheats Overwatch 2 indetectáveis",
+					accent: "Cheats Overwatch 2 Indetectaveis",
 					accentShort: "Overwatch 2 Cheats",
 					subtitle: "ESP and wallhack e Aimbot para Overwatch 2 no PC Windows — manutenção Blizzard Anti-Cheat incluída.",
 					subtitleShort: "ESP, wallhack e Aimbot para Overwatch 2 PC",
@@ -4103,7 +4117,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					statusBadge: "Pacote indetectável",
 				},
 				reviews: {
-					title: "O que os jogadores dizem",
+					title: "Cheats Overwatch 2 Indetectaveis: O que os jogadores dizem",
 					subtitle: "Feedback recente de compradores Overwatch 2 Cheats",
 					outOf: "de 5",
 					countLabel: "avaliações",
@@ -4140,8 +4154,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "Buy Overwatch 2 Cheats | ESP, Wallhack e Aimbot",
-					description: "Cheats Overwatch 2 no PC. ESP, wallhack e aimbot com manutenção Blizzard Anti-Cheat. Entrega digital instantánea.",
+					title: "Cheats Overwatch 2 Indetectaveis – Buy Overwatch 2 Cheats",
+					description: "Cheats Overwatch 2 Indetectaveis: Cheats Overwatch 2 no PC. ESP, wallhack e aimbot com manutenção Blizzard Anti-Cheat. Entrega digital instantânea.",
 					h1: "Overwatch 2 Cheats — ESP, Wallhack e Aimbot",
 					intro: "Pacote para Overwatch 2 no Windows PC: ESP, wallhack e aimbot com manutenção Blizzard Anti-Cheat após cada patch.",
 					imageAlt: "Overwatch 2 ESP player tags hack",
@@ -4152,7 +4166,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "Por que comprar este pacote",
+							h2: "Cheats Overwatch 2 Indetectaveis: Por que comprar este pacote",
 							paragraphs: [
 								"Overwatch 2 Cheats reúne Overwatch 2 ESP, wallhack e Overwatch 2 aimbot para Overwatch 2 no PC Windows. Ideal para ler esquadrões inimigos em Quick Play e Arcade.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Blizzard Anti-Cheat.",
@@ -5059,7 +5073,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					buyNow: "Acquista",
 				},
 				hero: {
-					accent: "Cheat Overwatch 2 indetectable",
+					accent: "Overwatch 2 Cheats indetectable su PC",
 					accentShort: "Overwatch 2 Cheats",
 					subtitle: "ESP and wallhack e Aimbot per Overwatch 2 su PC Windows — manutenzione Blizzard Anti-Cheat inclusa.",
 					subtitleShort: "ESP, wallhack e Aimbot per Overwatch 2 PC",
@@ -5123,7 +5137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			},
 			pages: {
 				home: {
-					title: "Buy Overwatch 2 Cheats | ESP, Wallhack e Aimbot",
+					title: "Cheat – ESP, Wallhack e Aimbot | Overwatch 2 Cheats",
 					description: "Cheat Overwatch 2 su PC. ESP, wallhack e aimbot con manutenzione Blizzard Anti-Cheat. Consegna digitale istantanea.",
 					h1: "Overwatch 2 Cheats — ESP, Wallhack e Aimbot",
 					intro: "Pacchetto su PC Windows: ESP, wallhack e aimbot con manutenzione Blizzard Anti-Cheat dopo ogni patch.",

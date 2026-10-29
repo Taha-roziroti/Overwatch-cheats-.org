@@ -50,7 +50,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		galleryTitle: 'In-game look',
 		sections: [
 			{
-				h2: 'Aimbot & targeting',
+				h2: 'Features: Aimbot & targeting',
 				paragraphs: [
 					'Tracking, flickbot, and triggerbot with prediction and gravity prediction for every hero. Use them together or enable only what fits your role.',
 					'Tune FOV adjustment, hitbox scaling, flick speed, tracking speed, and tracking acceleration to match your play style. Dynamic FOV and separate FOVs keep assist inside the angle you expect.',
@@ -119,7 +119,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		description: brandSeo.storeDescription,
 		h1: 'Store',
 		intro:
-			'Compare monthly and lifetime plans for {brand} on Windows PC. Both unlock the same aimbot, ESP, wallhack overlays, and hero scripts — pick the billing that fits how long you play.',
+			'Compare monthly and lifetime plans for {brand} on Windows PC. Both unlock the same aimbot, ESP, wallhack overlays, and hero scripts — pick the billing that fits how long you play. Open the store page when you are ready to checkout.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Setup guide',
 		ctaSecondaryHref: p.setup,
@@ -180,7 +180,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		title: brandSeo.statusTitle,
 		description: brandSeo.statusDescription,
 		h1: 'Status',
-		intro: brandCopy.statusIntro,
+		intro:
+			'Live patch notes for {brand} on Windows PC. Check this page after {game} or {antiCheat} updates before you queue Quick Play or Competitive.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Overwatch 2 Cheats overview',
 		ctaSecondaryHref: '/overwatch-2-cheats/',
@@ -190,12 +191,20 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'Current status',
 				paragraphs: [
 					'As of Sep 2026 the package is online for Overwatch 2 on Windows PC. We post a new note here when a game or Blizzard Anti-Cheat patch needs a rebuild.',
-					'If Status is green, you can queue Quick Play or Competitive. If we are rebuilding, wait for the next note.',
+					'If the build is green, you can queue Quick Play or Competitive. If we are rebuilding, wait for the next note before you launch.',
 				],
 				list: [
 					'Check this page before every match after a patch',
 					'Monthly and lifetime licenses get rebuilds while active',
-					'No cheat stays undetected forever — status first, then play',
+					'No cheat stays undetected forever — read the note first, then play',
+				],
+			},
+			{
+				h2: 'What this status page covers',
+				paragraphs: [
+					'This status page tracks loader availability, rebuild progress, and known issues after Blizzard Anti-Cheat or seasonal patches — not individual account outcomes in {game}.',
+					'When maintenance finishes we update the note at the top. Active monthly and lifetime plans receive the same rebuild; you do not buy a separate patch pass.',
+					'If something looks outdated, refresh the page and compare the date in the latest note with the patch you installed on Battle.net or Steam.',
 				],
 			},
 			{
@@ -203,12 +212,12 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'Wait for our rebuild note, then launch. Do not play on an old build after a big update.',
 				],
-				list: ['Read the latest status note', 'Follow setup if something fails', 'Email support with your order ID'],
+				list: ['Read the latest note', 'Follow setup if something fails', 'Email support with your order ID'],
 			},
 			{
 				h2: 'Important',
 				paragraphs: ['No cheat is 100% safe forever. Stay updated and use safe settings.'],
-				list: ['Status first, then play', '<a href="/support/">Support</a> for license help'],
+				list: ['Check the note first, then play', '<a href="/support/">Support</a> for license help'],
 			},
 		],
 	}),
@@ -224,7 +233,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		galleryTitle: 'In-match look',
 		sections: [
 			{
-				h2: 'What one license includes',
+				h2: 'Buy: What one license includes',
 				paragraphs: [
 					'You are not stacking separate products. Tracking aimbot, flickbot, triggerbot, prediction, bone targeting, and FOV tools ship in the same build as ESP boxes, skeleton lines, glow, ult charge overlay, and wallhack-style draw FOV cues.',
 					'Hero scripts cover high-impact kits — Genji, Tracer, Roadhog, Sojourn, Reaper, Mei, Widowmaker, Zarya, Doomfist, Hanzo, and more — plus global auto-melee and config save slots.',
@@ -440,7 +449,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		galleryTitle: 'In-game look',
 		sections: [
 			{
-				h2: 'Before you install',
+				h2: 'Setup: Before you install',
 				paragraphs: [
 					'You need an active license first. Complete checkout on the <a href="/pricing/">store</a>, then wait for the delivery email with your key and loader link.',
 					'Use a Windows 10 or 11 PC with {game} installed through Battle.net or Steam. Close or disable other overlays that hook the game — Discord overlays, third-party capture tools, and old cheat loaders often conflict.',
@@ -552,16 +561,24 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		title: brandSeo.faqTitle,
 		description: brandSeo.faqDescription,
 		h1: 'FAQ',
-		intro: brandCopy.faqIntro,
+		intro:
+			'This FAQ hub answers common questions about {brand} on Windows PC — delivery, setup, patch checks, and billing. Skim the sections below or open a linked answer for step-by-step detail.',
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'Support',
 		ctaSecondaryHref: p.support,
 		galleryTitle: 'In-game look',
 		sections: [
 			{
-				h2: 'Buying & delivery',
+				h2: 'Faq: Buying & delivery',
 				paragraphs: ['You get a digital license by email after payment.'],
 				list: ['Instant delivery after checkout', 'Keep your order email', 'One license per purchase'],
+			},
+			{
+				h2: 'Faq topics at a glance',
+				paragraphs: [
+					'Use this FAQ before you email support — most delivery and setup questions are covered here with links to Status, Setup, and the store.',
+					'Each FAQ entry stays short on purpose. Follow the linked guides when you need screenshots or a full checklist.',
+				],
 			},
 			{
 				h2: 'Setup & updates',

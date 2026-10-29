@@ -113,13 +113,13 @@ const extraGraph: Record<string, unknown>[] = [
 
 			<header class="reviews-index__head">
 				<div>
-					<h1 data-edit="navReviews">{siteConfig.name} reviews</h1>
+					<h1 data-edit="navReviews">{siteConfig.name} buyer feedback</h1>
 					<p class="reviews-index__intro" data-edit="reviewsIntro">{reviewsIntro}</p>
 				</div>
 				<div class="reviews-index__summary" aria-label={`${customerReviewStats.averageRating} out of 5 average rating`}>
 					<p class="reviews-index__avg">{customerReviewStats.averageRating.toFixed(1)}</p>
 					<p class="reviews-index__avg-stars" aria-hidden="true">{stars(Math.round(customerReviewStats.averageRating))}</p>
-					<p class="reviews-index__count">{customerReviewStats.totalCount} reviews · out of 5</p>
+					<p class="reviews-index__count">{customerReviewStats.totalCount} ratings · out of 5</p>
 				</div>
 			</header>
 
@@ -142,7 +142,7 @@ const extraGraph: Record<string, unknown>[] = [
 							{review.tag ? <p class="reviews-index__tag">{review.tag}</p> : null}
 							<p class="reviews-index__text">{review.text}</p>
 							<a class="reviews-index__more" href={getReviewPath(review.slug)}>
-								Review from @{review.handle}
+								Feedback from @{review.handle}
 								<svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
 									<path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 								</svg>
@@ -153,7 +153,7 @@ const extraGraph: Record<string, unknown>[] = [
 			</div>
 
 			<section class="reviews-index__cta" aria-label={`Buy ${siteConfig.name}`}>
-				<h2>Ready to try {siteConfig.name}?</h2>
+				<h2>Reviews: Ready to try {siteConfig.name}?</h2>
 				<p>
 					ESP, soft aim, and radar in one package for Windows PC — with {productInfo.game} patch
 					maintenance after updates.

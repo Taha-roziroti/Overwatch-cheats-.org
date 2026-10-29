@@ -1,5 +1,5 @@
 ---
-import NavbarApp from './react/Navbar';
+import LanguageSwitcher from './LanguageSwitcher.astro';
 import {
 	getLocalizedPath,
 	getPageLocaleSwitchHref,
@@ -9,11 +9,10 @@ import {
 import { defaultLocale, locales, type LocaleCode } from '../data/i18n/locales';
 import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
-import {
-	getBlogBasePath,
-	getBlogLocaleSwitchHref,
-	isBlogPath,
-} from '../data/blog/helpers';
+import { getBlogBasePath, isBlogPath } from '../data/blog/helpers';
+import { getT } from '../i18n/server';
+import { AFFILIATE_LINK_REL } from '../lib/affiliate';
+import { absInternal } from '../lib/internal-url';
 
 interface Props {
 	locale?: LocaleCode;
@@ -25,6 +24,7 @@ const pathContext = resolvePageContextFromPath(Astro.url.pathname);
 const pageId = pageIdProp ?? pathContext.pageId ?? 'home';
 const current = Astro.url.pathname;
 const onBlog = isBlogPath(current);
+const t = getT(locale);
 
 const pageContext = onBlog
 	? pathContext
@@ -38,18 +38,6 @@ function localeSwitchHref(targetLocale: LocaleCode): string {
 	return getPageLocaleSwitchHref(pageContext, targetLocale);
 }
 
-const hrefForLocale = Object.fromEntries(
-	locales.map((l) => [l.code, localeSwitchHref(l.code)]),
-) as Record<string, string>;
-
-const localeMetas = locales.map((l) => ({
-	code: l.code,
-	name: l.name,
-	nativeName: l.nativeName,
-	hreflang: l.hreflang,
-	region: l.region,
-}));
-
 const links = [
 	{ id: 'home', labelKey: 'nav.home', href: getLocalizedPath('home', locale) },
 	{ id: 'hacks', labelKey: 'nav.preview', edit: 'navPreview', href: getLocalizedPath('hacks', locale) },
@@ -59,22 +47,118 @@ const links = [
 	{ id: 'updates', labelKey: 'nav.status', edit: 'navStatus', href: getLocalizedPath('updates', locale) },
 	{ id: 'forum', labelKey: 'nav.forum', edit: 'blogLabel', href: getBlogBasePath(locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },
-];
+].map((item) => ({ ...item, href: absInternal(item.href, siteConfig.url) }));
 
+function isActive(href: string): boolean {
+	const path = new URL(href).pathname;
+	if (path === '/' || path === `/${locale}/`) return current === '/' || current === `/${locale}/`;
+	if (path.endsWith('/forum/')) {
+		return current === '/forum/' || current.startsWith('/forum/') || current.startsWith('/blog/');
+	}
+	if (path.startsWith(reviewsBasePath)) {
+		return current === reviewsBasePath || current.startsWith(reviewsBasePath);
+	}
+	return current === path || current.startsWith(path);
+}
 ---
 
-<NavbarApp
-	client:load
-	locale={locale}
-	siteName={siteConfig.name}
-	checkoutUrl={siteConfig.checkoutUrl}
-	currentPath={current}
-	homeHref={getLocalizedPath('home', locale)}
-	reviewsBasePath={reviewsBasePath}
-	locales={localeMetas}
-	hrefForLocale={hrefForLocale}
-	links={links}
-/>
+<header class="site-header" data-nav>
+	<div class="shell site-header__bar">
+		<button
+			type="button"
+			class="site-header__menu-btn"
+			aria-expanded="false"
+			aria-controls="site-mobile-nav"
+			aria-label={t('nav.openMenu')}
+			data-nav-toggle
+		>
+			<span class="site-header__menu-icon" aria-hidden="true">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</button>
+
+		<nav class="site-nav" aria-label={t('nav.primaryAria')}>
+			{
+				links.map((item) => (
+					<a href={item.href} class:list={[{ 'is-active': isActive(item.href) }]}>
+						<span data-edit={item.edit}>{t(item.labelKey)}</span>
+					</a>
+				))
+			}
+		</nav>
+
+		<div class="site-tools">
+			<div class="site-tools__lang">
+				<LanguageSwitcher currentLocale={locale} pageId={pageId} />
+			</div>
+			<a
+				href={siteConfig.checkoutUrl}
+				class="site-tools__buy"
+				rel={AFFILIATE_LINK_REL}
+				aria-label={t('cta.buyShort')}
+			>
+				<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+					<path
+						d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
+						stroke="currentColor"
+						stroke-width="1.6"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+				<span data-edit="ctaBuyShort">{t('cta.buyShort')}</span>
+			</a>
+		</div>
+	</div>
+
+	<nav id="site-mobile-nav" class="site-mobile-nav" aria-label={t('nav.mobileAria')} hidden>
+		<div class="site-mobile-nav__inner shell">
+			<ul class="site-mobile-nav__links">
+				{
+					links.map((item) => (
+						<li>
+							<a href={item.href} class:list={[{ 'is-active': isActive(item.href) }]}>
+								<span data-edit={item.edit}>{t(item.labelKey)}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+			<div class="site-mobile-nav__tools">
+				<p class="site-mobile-nav__tools-label">{t('common.selectLanguage')}</p>
+				<LanguageSwitcher currentLocale={locale} pageId={pageId} />
+				<a href={siteConfig.checkoutUrl} class="site-mobile-nav__buy" rel={AFFILIATE_LINK_REL}>
+					<span data-edit="ctaBuyShort">{t('cta.buy')}</span>
+				</a>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<script is:inline>
+	(() => {
+		const header = document.querySelector('[data-nav]');
+		const toggle = document.querySelector('[data-nav-toggle]');
+		const drawer = document.getElementById('site-mobile-nav');
+		if (!(header instanceof HTMLElement) || !(toggle instanceof HTMLButtonElement) || !drawer) return;
+
+		const setOpen = (open) => {
+			toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+			toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+			drawer.hidden = !open;
+			header.classList.toggle('is-menu-open', open);
+			document.body.classList.toggle('nav-open', open);
+			document.body.style.overflow = open ? 'hidden' : '';
+		};
+
+		toggle.addEventListener('click', () => setOpen(drawer.hidden));
+		window.addEventListener('scroll', () => header.classList.toggle('is-scrolled', window.scrollY > 8), {
+			passive: true,
+		});
+	})();
+</script>
 
 <style is:global>
 	.lang-switcher {

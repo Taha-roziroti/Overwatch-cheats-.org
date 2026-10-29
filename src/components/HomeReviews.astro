@@ -12,7 +12,12 @@ const locale = Astro.props.locale ?? defaultLocale;
 const t = getT(locale);
 const reviewsCopy = {
 	eyebrow: t('reviews.eyebrow'),
-	homeTitle: t('reviews.homeTitle'),
+	homeTitle:
+		locale === 'en'
+			? 'Buy Overwatch 2 Cheats: What players say'
+			: locale === 'pt'
+				? 'Cheats Overwatch 2 Indetectaveis: O que os jogadores dizem'
+				: t('reviews.homeTitle'),
 	subtitle: t('reviews.subtitle'),
 	averageAria: t('reviews.averageAria'),
 	buyerReviews: t('reviews.buyerReviews'),

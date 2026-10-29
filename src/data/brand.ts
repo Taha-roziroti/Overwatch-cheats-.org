@@ -75,16 +75,16 @@ export const brand = {
 			'Buy Overwatch 2 cheats for Windows PC — aimbot, ESP, wallhack, and hero scripts in one license. Compare monthly and lifetime plans with instant checkout.',
 		featuresTitle: '{game} Cheat Features | {brand}',
 		featuresDescription:
-			'Tracking, flickbot, triggerbot, bone targeting, ESP, skeleton, glow, hero scripts, and stream-proof overlays in one {game} license for Windows PC.',
+			'Features: Tracking, flickbot, triggerbot, bone targeting, ESP, skeleton, glow, hero scripts, and stream-proof overlays in one {game} license for Windows.',
 		storeTitle: '{game} Cheats Store | {brand}',
 		storeDescription:
-			'Monthly and lifetime Overwatch 2 cheat plans for Windows PC. Same aimbot, ESP, wallhack, and hero scripts on both. Instant delivery after checkout.',
+			'Store: Monthly and lifetime Overwatch 2 cheat plans for Windows PC. Same aimbot, ESP, wallhack, and hero scripts on both. Instant delivery after checkout.',
 		statusTitle: '{game} Cheat Status | {brand}',
 		statusDescription:
 			'Live patch status for {brand} after {game} or {antiCheat} updates. Check here before Quick Play or Competitive on Windows PC.',
 		previewTitle: 'Buy Overwatch 2 Cheats | Windows PC License',
 		previewDescription:
-			'Purchase Overwatch 2 cheats for Windows PC — ESP, aimbot, flickbot, hero scripts, and {antiCheat} rebuilds. Monthly and lifetime plans.',
+			'Buy: Purchase Overwatch 2 cheats for Windows PC — ESP, aimbot, flickbot, hero scripts, and {antiCheat} rebuilds. Monthly and lifetime plans.',
 		setupTitle: '{game} Cheat Setup | {brand}',
 		setupDescription:
 			'Install and launch {brand} on Windows PC after checkout. Short setup steps for Quick Play and Competitive — follow each step before your first match.',
@@ -93,7 +93,7 @@ export const brand = {
 			'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
 		faqTitle: '{game} Cheats FAQ | {brand}',
 		faqDescription:
-			'Short answers about {brand} for Overwatch 2 — delivery, setup, {antiCheat} updates, stream-proof mode, refunds, and Windows PC notes.',
+			'Faq: Short answers about {brand} for Overwatch 2 — delivery, setup, {antiCheat} updates, stream-proof mode, refunds, and Windows PC notes.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
 		reviewsDescription:
 			'Buyer reviews for {brand} — aimbot, ESP, wallhack, hero scripts, and patch updates for Overwatch 2 on Windows PC.',

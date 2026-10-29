@@ -36,7 +36,7 @@ const pageTitle =
 const pageDescription =
 	locale === defaultLocale
 		? seoDescription(
-				'Community Q&A on undetected Overwatch 2 cheats — aimbot settings, Blizzard Anti-Cheat maintenance, and how we compare to other providers.',
+				'Forum: Community Q&A on undetected Overwatch 2 cheats — aimbot settings, Blizzard Anti-Cheat maintenance, and how we compare to other providers.',
 			)
 		: ui.blogDescription;
 
@@ -90,7 +90,7 @@ const forumSchema = {
 			{
 				featured.length > 0 && (
 					<section class="forum__pinned" aria-label="Pinned discussions">
-						<h2 class="forum__section-title">Popular questions</h2>
+						<h2 class="forum__section-title">Forum: Popular questions</h2>
 						<div class="forum__pinned-grid">
 							{featured.map((post) => (
 								<a class="forum__pinned-card" href={post.canonicalPath}>

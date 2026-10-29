@@ -6,6 +6,8 @@ import {
 	type PageId,
 } from '../data/i18n/routing';
 import { getBlogLocaleSwitchHref, isBlogPath } from '../data/blog/helpers';
+import { siteConfig } from '../data/site';
+import { absInternal } from '../lib/internal-url';
 
 interface Props {
 	pageId?: PageId;
@@ -51,7 +53,7 @@ const currentMeta = locales.find((l) => l.code === currentLocale)!;
 		<ul class="lang-switcher__list">
 			{
 				locales.map((locale) => {
-					const href = localeSwitchHref(locale.code);
+					const href = absInternal(localeSwitchHref(locale.code), siteConfig.url);
 					const isCurrent = locale.code === currentLocale;
 					return (
 						<li>

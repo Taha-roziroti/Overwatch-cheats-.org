@@ -1,17 +1,25 @@
 ---
-import SiteFooterApp from './react/SiteFooter';
 import { getLocalizedPath } from '../data/i18n/routing';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { getBlogBasePath } from '../data/blog/helpers';
 import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
 import { destiny2OfficialResources } from '../data/official-resources';
+import { getT } from '../i18n/server';
+import { AFFILIATE_LINK_REL } from '../lib/affiliate';
+import { absInternal } from '../lib/internal-url';
 
 interface Props {
 	locale?: LocaleCode;
 }
 
 const locale = Astro.props.locale ?? defaultLocale;
+const t = getT(locale);
+const year = new Date().getFullYear();
+const shareUrl = `${siteConfig.url}/`;
+const encodedUrl = encodeURIComponent(shareUrl);
+const encodedName = encodeURIComponent(siteConfig.name);
+const taglineLines = t('footer.tagline').split('\n');
 
 const explore = [
 	{ labelKey: 'nav.preview', href: getLocalizedPath('hacks', locale) },
@@ -22,7 +30,7 @@ const explore = [
 	{ labelKey: 'common.guides', href: '/guides/' },
 	{ labelKey: 'common.blog', href: getBlogBasePath(locale) },
 	{ labelKey: 'nav.faq', href: getLocalizedPath('faq', locale) },
-];
+].map((item) => ({ ...item, href: absInternal(item.href, siteConfig.url) }));
 
 const help = [
 	{ labelKey: 'nav.setup', href: getLocalizedPath('setup', locale) },
@@ -31,20 +39,93 @@ const help = [
 	{ labelKey: 'common.support', href: getLocalizedPath('support', locale) },
 	{ labelKey: 'common.privacy', href: getLocalizedPath('privacy', locale) },
 	{ labelKey: 'common.terms', href: getLocalizedPath('terms', locale) },
+].map((item) => ({ ...item, href: absInternal(item.href, siteConfig.url) }));
+
+const shareLinks = [
+	{
+		label: t('common.shareX'),
+		href: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedName}`,
+	},
+	{
+		label: t('common.shareReddit'),
+		href: `https://reddit.com/submit?url=${encodedUrl}&title=${encodedName}`,
+	},
+	{
+		label: t('common.shareFacebook'),
+		href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+	},
 ];
 ---
 
-<SiteFooterApp
-	client:visible
-	locale={locale}
-	siteName={siteConfig.name}
-	supportEmail={siteConfig.supportEmail}
-	shareUrl={`${siteConfig.url}/`}
-	checkoutUrl={siteConfig.checkoutUrl}
-	explore={explore}
-	help={help}
-	officialResources={destiny2OfficialResources}
-/>
+<footer class="site-footer">
+	<div class="shell site-footer__grid">
+		<div class="site-footer__brand-col">
+			<p class="site-footer__brand">{siteConfig.name}</p>
+			{taglineLines.map((line) => <p class="site-footer__tagline">{line}</p>)}
+			<a class="site-footer__cta" href={siteConfig.checkoutUrl} rel={AFFILIATE_LINK_REL}>
+				{t('common.buyNow')}
+			</a>
+			<p class="site-footer__share-label">{t('common.share')}</p>
+			<ul class="site-footer__share">
+				{
+					shareLinks.map((link) => (
+						<li>
+							<a href={link.href} rel="noopener noreferrer" target="_blank">
+								{link.label}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div>
+			<p class="site-footer__label">{t('footer.explore')}</p>
+			<ul>
+				{
+					explore.map((link) => (
+						<li>
+							<a href={link.href}>{t(link.labelKey)}</a>
+						</li>
+					))
+				}
+			</ul>
+		</div>
+		<div>
+			<p class="site-footer__label">{t('footer.help')}</p>
+			<ul>
+				{
+					help.map((link) => (
+						<li>
+							<a href={link.href}>{t(link.labelKey)}</a>
+						</li>
+					))
+				}
+				<li>
+					<a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a>
+				</li>
+			</ul>
+		</div>
+		{
+			destiny2OfficialResources.length > 0 && (
+				<div>
+					<p class="site-footer__label">{t('common.officialResources')}</p>
+					<ul class="site-footer__resources-list">
+						{destiny2OfficialResources.map((resource) => (
+							<li>
+								<a href={resource.href} rel="noopener noreferrer" target="_blank">
+									{resource.label}
+								</a>
+							</li>
+						))}
+					</ul>
+				</div>
+			)
+		}
+	</div>
+	<div class="shell site-footer__bottom">
+		<p>{t('common.copyright', { year, brand: siteConfig.name })}</p>
+	</div>
+</footer>
 
 <style is:global>
 	.site-footer {
